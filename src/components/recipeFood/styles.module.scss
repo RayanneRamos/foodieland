@@ -1,0 +1,21 @@
+.container {
+  width: 139px;
+  height: 40px;
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+
+  border: none;
+  border-radius: 30px;
+
+  background-color: rgba(0, 0, 0, 0.05);
+
+  .name {
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: 2%;
+  }
+}
