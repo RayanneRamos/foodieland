@@ -1,0 +1,30 @@
+.container {
+  width: 200px;
+  height: 60px;
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+
+  border: none;
+  border-radius: 16px;
+  
+  cursor: pointer;
+
+  background-color: var(--black);
+  color: var(--white);
+
+  transition: all 0.4s;
+
+  .name {
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: 2%;
+  }
+}
+  
+.container:hover {
+  background-color: #55738b;
+}
