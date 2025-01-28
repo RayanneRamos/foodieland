@@ -1,11 +1,18 @@
 import styles from "./styles.module.scss";
-import { Clock } from "phosphor-react";
+import * as Icons from "phosphor-react";
 
-export function RecipeFood() {
+interface RecipeFoodProps {
+  icon: keyof typeof Icons;
+  name: string;
+}
+
+export function RecipeFood({ icon, name }: RecipeFoodProps) {
+  const Icon = Icons[icon] as React.ElementType;
+
   return (
     <div className={styles.container}>
-      <Clock size={24} weight="fill" />
-      <span className={styles.name}>30 Minutes</span>
+      <Icon size={24} weight="fill" />
+      <span className={styles.name}>{name}</span>
     </div>
   );
 }
