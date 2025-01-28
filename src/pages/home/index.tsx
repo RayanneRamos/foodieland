@@ -24,8 +24,8 @@ export function Home() {
               minim{" "}
             </p>
             <div className={styles.tagContainer}>
-              <RecipeFood />
-              <RecipeFood />
+              <RecipeFood icon="Clock" name="30 Minutes" />
+              <RecipeFood icon="ForkKnife" name="Chicken" />
             </div>
             <div className={styles.headerFooter}>
               <Avatar />
