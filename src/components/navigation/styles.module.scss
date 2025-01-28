@@ -1,0 +1,39 @@
+.container { 
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+
+  padding: 40px 80px;
+}
+
+.navbar {
+  display: flex;
+  flex-direction: row;
+  gap: 60px;
+  align-items: center;
+
+  .navLink {
+    text-decoration: none;
+    color: var(--black);
+
+    transition: all 0.4s;
+  }
+  
+  .navName {
+    font-weight: 500;
+    letter-spacing: -2%;
+  }
+
+  .navLink:hover {
+    color: #55738b;
+  }
+}
+
+.socialMedia {
+  display: flex;
+  flex-direction: row;
+  gap: 40px;
+  align-items: center;
+}
+
