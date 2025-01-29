@@ -8,6 +8,8 @@ import { Avatar } from "../../components/avatar";
 import { Button } from "../../components/button";
 import { Category } from "../../components/category";
 import { categories } from "../../utils/categories";
+import { CardRecipes } from "../../components/cardRecipes";
+import adsImage from "../../assets/recipes/image-06.png";
 
 export function Home() {
   return (
@@ -54,6 +56,26 @@ export function Home() {
               name={category.name}
             />
           ))}
+        </div>
+      </div>
+      <div className={styles.recipesContainer}>
+        <div className={styles.recipesHeader}>
+          <h3 className={styles.recipesTitle}>Simple and tasty recipes</h3>
+          <span className={styles.recipesSubtitle}>
+            Lorem ipsum dolor sit amet, consectetuipisicing elit, sed do eiusmod
+            tempor incididunt ut labore et dolore magna aliqut enim ad minim{" "}
+          </span>
+        </div>
+        <div className={styles.cardContent}>
+          <CardRecipes />
+          <CardRecipes />
+          <CardRecipes />
+          <CardRecipes />
+          <CardRecipes />
+          <img src={adsImage} alt="" />
+          <CardRecipes />
+          <CardRecipes />
+          <CardRecipes />
         </div>
       </div>
     </div>
