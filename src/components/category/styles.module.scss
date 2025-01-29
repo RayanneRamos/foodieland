@@ -1,0 +1,32 @@
+.container {
+  display: flex;
+  gap: 120px;
+  align-items: center;
+  justify-content: center;
+
+  width: 180px;
+  height: 152px;
+
+  border: none;
+  border-radius: 30px;
+
+  position: relative;
+
+  margin-top: 80px;
+
+  background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(231,249,253,1) 100%);
+
+  img {
+    position: absolute;
+    top: -50px;
+  }
+
+  .name {
+    font-size: 18px;
+    font-weight: 600;
+    letter-spacing: 2%;
+
+    margin-top: 100px;
+    
+  }
+}
