@@ -6,6 +6,7 @@ import { Tag } from "../../components/tag";
 import { RecipeFood } from "../../components/recipeFood";
 import { Avatar } from "../../components/avatar";
 import { Button } from "../../components/button";
+import { Category } from "../../components/category";
 
 export function Home() {
   return (
@@ -36,6 +37,22 @@ export function Home() {
         </div>
 
         <div className={styles.backgroundRight} />
+      </div>
+      <div className={styles.categoriesContainer}>
+        <div className={styles.categoriesHeader}>
+          <strong className={styles.categoriesTitle}>Categories</strong>
+          <button className={styles.categoriesButton}>
+            <span className={styles.buttonText}>View All Categories</span>
+          </button>
+        </div>
+        <div className={styles.categoriesContent}>
+          <Category />
+          <Category />
+          <Category />
+          <Category />
+          <Category />
+          <Category />
+        </div>
       </div>
     </div>
   );
