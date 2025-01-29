@@ -3,7 +3,6 @@ import cardRecipeImageTwo from "../assets/recipes/image-02.png";
 import cardRecipeImageThree from "../assets/recipes/image-03.png";
 import cardRecipeImageFour from "../assets/recipes/image-04.png";
 import cardRecipeImageFive from "../assets/recipes/image-05.png";
-import cardRecipeImageSix from "../assets/reicpes/image-06.png";
 import cardRecipeImageSeven from "../assets/recipes/image-07.png";
 import cardRecipeImageEight from "../assets/recipes/image-08.png";
 import cardRecipeImageNine from "../assets/recipes/image-01.png";
@@ -48,10 +47,6 @@ export const cardRecipes = [
     name: "Chicken Meatballs with Cream Cheese",
     clock: "30",
     category: "Meat",
-  },
-  {
-    id: "6",
-    image: cardRecipeImageSix,
   },
   {
     id: "7",
