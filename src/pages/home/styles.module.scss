@@ -80,3 +80,50 @@
     background-color: #E7F9FD;
   }
 }
+
+.categoriesContainer {
+  max-width: 1440px;
+  margin: 0 auto;
+
+  padding: 0 80px;
+
+  .categoriesHeader {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+    margin-top: 162px;
+
+    .categoriesTitle {
+      font-size: 48px;
+      font-weight: 600;
+      letter-spacing: 4%;
+    }
+
+    .categoriesButton {
+      width: 200px;
+      height: 60px;
+
+      border: none;
+      border-radius: 16px;
+
+      background-color: #E7F9FD;
+
+      cursor: pointer;
+
+      .buttonText {
+        font-weight: 600;
+        letter-spacing: 2%;
+      }
+    }
+  }
+
+  .categoriesContent {
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+
+    margin-top: 80px;
+  }
+}
