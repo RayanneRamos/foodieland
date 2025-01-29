@@ -9,6 +9,7 @@ import { Button } from "../../components/button";
 import { Category } from "../../components/category";
 import { categories } from "../../utils/categories";
 import { CardRecipes } from "../../components/cardRecipes";
+import { cardRecipes } from "../../utils/cardRecipes";
 import adsImage from "../../assets/recipes/image-06.png";
 
 export function Home() {
@@ -67,15 +68,12 @@ export function Home() {
           </span>
         </div>
         <div className={styles.cardContent}>
-          <CardRecipes />
-          <CardRecipes />
-          <CardRecipes />
-          <CardRecipes />
-          <CardRecipes />
-          <img src={adsImage} alt="" />
-          <CardRecipes />
-          <CardRecipes />
-          <CardRecipes />
+          {cardRecipes.map((recipe, index) => (
+            <>
+              <CardRecipes key={recipe.id} recipe={recipe} />
+              {index === 4 && <img src={adsImage} alt="ads" />}
+            </>
+          ))}
         </div>
       </div>
     </div>
