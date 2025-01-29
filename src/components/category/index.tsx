@@ -1,11 +1,15 @@
 import styles from "./styles.module.scss";
-import breakfastImage from "../../assets/categories/breakfast.png";
 
-export function Category() {
+interface CategoryProps {
+  image: string;
+  name: string;
+}
+
+export function Category({ image, name }: CategoryProps) {
   return (
-    <div className={styles.container}>
-      <img src={breakfastImage} alt="" />
-      <span className={styles.name}>Breakfast</span>
-    </div>
+    <button className={styles.container}>
+      <img src={image} alt="" />
+      <span className={styles.name}>{name}</span>
+    </button>
   );
 }

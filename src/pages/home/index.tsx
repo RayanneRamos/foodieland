@@ -7,6 +7,7 @@ import { RecipeFood } from "../../components/recipeFood";
 import { Avatar } from "../../components/avatar";
 import { Button } from "../../components/button";
 import { Category } from "../../components/category";
+import { categories } from "../../utils/categories";
 
 export function Home() {
   return (
@@ -46,12 +47,13 @@ export function Home() {
           </button>
         </div>
         <div className={styles.categoriesContent}>
-          <Category />
-          <Category />
-          <Category />
-          <Category />
-          <Category />
-          <Category />
+          {categories.map((category) => (
+            <Category
+              key={category.id}
+              image={category.image}
+              name={category.name}
+            />
+          ))}
         </div>
       </div>
     </div>
