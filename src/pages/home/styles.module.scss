@@ -313,3 +313,41 @@
     }
   }
 }
+
+.moreRecipesContainer {
+  max-width: 1440px;
+  margin: 160px auto;
+
+  .moreRecipesHeader {
+    display: flex;
+    justify-content: space-between;
+    gap: 152px;
+
+    .moreRecipesHeaderTitle {
+      width: 550px;
+      
+      font-size: 48px;
+      font-weight: 600;
+      letter-spacing: -4%;
+    }
+
+    .moreRecipesHeaderSubtitle {
+      width: 620px;
+
+      line-height: 28px;
+
+      color: rgba(0, 0, 0, 0.6);
+    }
+  }
+
+  .moreRecipeContent {
+    margin-top: 80px;
+
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+
+    row-gap: 40px;
+  }
+}
+
+
