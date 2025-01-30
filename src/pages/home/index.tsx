@@ -11,6 +11,7 @@ import { categories } from "../../utils/categories";
 import { CardRecipes } from "../../components/cardRecipes";
 import { cardRecipes } from "../../utils/cardRecipes";
 import adsImage from "../../assets/recipes/image-06.png";
+import chefImage from '../../assets/chef.png'
 
 export function Home() {
   return (
@@ -75,6 +76,14 @@ export function Home() {
             </>
           ))}
         </div>
+      </div>
+      <div className={styles.chefContainer}>
+        <div className={styles.chefContent}>
+          <strong className={styles.chefTitle}>Everyone can be a chef in their own kitchen</strong>
+          <span className={styles.chefSubtitle}>Lorem ipsum dolor sit amet, consectetuipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqut enim ad minim </span>
+          <button className={styles.chefButton}>Learn More</button>
+        </div>
+        <img src={chefImage} alt="chef" />
       </div>
     </div>
   );
