@@ -52,96 +52,102 @@ export function Home() {
 
         <div className={styles.backgroundRight} />
       </div>
-      <div className={styles.categoriesContainer}>
-        <div className={styles.categoriesHeader}>
-          <strong className={styles.categoriesTitle}>Categories</strong>
-          <button className={styles.categoriesButton}>
-            <span className={styles.buttonText}>View All Categories</span>
-          </button>
-        </div>
-        <div className={styles.categoriesContent}>
-          {categories.map((category) => (
-            <Category
-              key={category.id}
-              image={category.image}
-              name={category.name}
-            />
-          ))}
-        </div>
-      </div>
-      <div className={styles.recipesContainer}>
-        <div className={styles.recipesHeader}>
-          <h3 className={styles.recipesTitle}>Simple and tasty recipes</h3>
-          <span className={styles.recipesSubtitle}>
-            Lorem ipsum dolor sit amet, consectetuipisicing elit, sed do eiusmod
-            tempor incididunt ut labore et dolore magna aliqut enim ad minim{" "}
-          </span>
-        </div>
-        <div className={styles.cardContent}>
-          {cardRecipes.map((recipe, index) => (
-            <>
-              <CardRecipes key={recipe.id} recipe={recipe} />
-              {index === 4 && <img src={adsImage} alt="ads" />}
-            </>
-          ))}
-        </div>
-      </div>
-      <div className={styles.chefContainer}>
-        <div className={styles.chefContent}>
-          <strong className={styles.chefTitle}>
-            Everyone can be a chef in their own kitchen
-          </strong>
-          <span className={styles.chefSubtitle}>
-            Lorem ipsum dolor sit amet, consectetuipisicing elit, sed do eiusmod
-            tempor incididunt ut labore et dolore magna aliqut enim ad minim{" "}
-          </span>
-          <button className={styles.chefButton}>Learn More</button>
-        </div>
-        <img src={chefImage} alt="chef" />
-      </div>
-      <div className={styles.socialContainer}>
-        <div className={styles.socialContent}>
-          <strong className={styles.socialTitle}>
-            Check out @foodieland on Instagram
-          </strong>
-          <span className={styles.socialSubtitle}>
-            Lorem ipsum dolor sit amet, consectetuipisicing elit, sed do eiusmod
-            tempor incididunt ut labore et dolore magna aliqut enim ad minim{" "}
-          </span>
-          <div className={styles.socialPosts}>
-            <img src={instagramPostOne} alt="post-01" />
-            <img src={instagramPostTwo} alt="post-02" />
-            <img src={instagramPostThree} alt="post-03" />
-            <img src={instagramPostFour} alt="post-04" />
+      <main>
+        <div className={styles.categoriesContainer}>
+          <div className={styles.categoriesHeader}>
+            <strong className={styles.categoriesTitle}>Categories</strong>
+            <button className={styles.categoriesButton}>
+              <span className={styles.buttonText}>View All Categories</span>
+            </button>
           </div>
-          <button className={styles.socialButton}>
-            <span className={styles.buttonText}>Visit Our Instagram</span>
-            <InstagramLogo size={24} weight="fill" color="#fff" />
-          </button>
+          <div className={styles.categoriesContent}>
+            {categories.map((category) => (
+              <Category
+                key={category.id}
+                image={category.image}
+                name={category.name}
+              />
+            ))}
+          </div>
         </div>
-      </div>
-      <div className={styles.moreRecipesContainer}>
-        <div className={styles.moreRecipesHeader}>
-          <strong className={styles.moreRecipesHeaderTitle}>
-            Try this delicious recipe to make your day
-          </strong>
-          <span className={styles.moreRecipesHeaderSubtitle}>
-            Lorem ipsum dolor sit amet, consectetuipisicing elit, sed do eiusmod
-            tempor incididunt ut labore et dolore magna aliqut enim ad minim{" "}
-          </span>
+        <div className={styles.recipesContainer}>
+          <div className={styles.recipesHeader}>
+            <h3 className={styles.recipesTitle}>Simple and tasty recipes</h3>
+            <span className={styles.recipesSubtitle}>
+              Lorem ipsum dolor sit amet, consectetuipisicing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqut enim ad
+              minim{" "}
+            </span>
+          </div>
+          <div className={styles.cardContent}>
+            {cardRecipes.map((recipe, index) => (
+              <>
+                <CardRecipes key={recipe.id} recipe={recipe} />
+                {index === 4 && <img src={adsImage} alt="ads" />}
+              </>
+            ))}
+          </div>
         </div>
-        <div className={styles.moreRecipeContent}>
-          {moreRecipes.map((moreRecipe) => (
-            <CardOtherRecipes key={moreRecipe.id} moreRecipe={moreRecipe} />
-          ))}
+        <div className={styles.chefContainer}>
+          <div className={styles.chefContent}>
+            <strong className={styles.chefTitle}>
+              Everyone can be a chef in their own kitchen
+            </strong>
+            <span className={styles.chefSubtitle}>
+              Lorem ipsum dolor sit amet, consectetuipisicing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqut enim ad
+              minim{" "}
+            </span>
+            <button className={styles.chefButton}>Learn More</button>
+          </div>
+          <img src={chefImage} alt="chef" />
         </div>
-      </div>
-      <div className={styles.newsletterContainer}>
-        <Newsletter />
-      </div>
-      <div className={styles.footerContainer}>
-        <Footer />
-      </div>
+        <div className={styles.socialContainer}>
+          <div className={styles.socialContent}>
+            <strong className={styles.socialTitle}>
+              Check out @foodieland on Instagram
+            </strong>
+            <span className={styles.socialSubtitle}>
+              Lorem ipsum dolor sit amet, consectetuipisicing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqut enim ad
+              minim{" "}
+            </span>
+            <div className={styles.socialPosts}>
+              <img src={instagramPostOne} alt="post-01" />
+              <img src={instagramPostTwo} alt="post-02" />
+              <img src={instagramPostThree} alt="post-03" />
+              <img src={instagramPostFour} alt="post-04" />
+            </div>
+            <button className={styles.socialButton}>
+              <span className={styles.buttonText}>Visit Our Instagram</span>
+              <InstagramLogo size={24} weight="fill" color="#fff" />
+            </button>
+          </div>
+        </div>
+        <div className={styles.moreRecipesContainer}>
+          <div className={styles.moreRecipesHeader}>
+            <strong className={styles.moreRecipesHeaderTitle}>
+              Try this delicious recipe to make your day
+            </strong>
+            <span className={styles.moreRecipesHeaderSubtitle}>
+              Lorem ipsum dolor sit amet, consectetuipisicing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqut enim ad
+              minim{" "}
+            </span>
+          </div>
+          <div className={styles.moreRecipeContent}>
+            {moreRecipes.map((moreRecipe) => (
+              <CardOtherRecipes key={moreRecipe.id} moreRecipe={moreRecipe} />
+            ))}
+          </div>
+        </div>
+        <div className={styles.newsletterContainer}>
+          <Newsletter />
+        </div>
+        <div className={styles.footerContainer}>
+          <Footer />
+        </div>
+      </main>
     </div>
   );
 }
