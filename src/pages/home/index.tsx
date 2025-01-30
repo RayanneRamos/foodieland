@@ -19,6 +19,7 @@ import instagramPostFour from "../../assets/posts/post-04.png";
 import { InstagramLogo } from "phosphor-react";
 import { CardOtherRecipes } from "../../components/cardOtherRecipes";
 import { moreRecipes } from "../../utils/moreRecipes";
+import { Newsletter } from "../../components/newsletter";
 
 export function Home() {
   return (
@@ -133,6 +134,9 @@ export function Home() {
             <CardOtherRecipes key={moreRecipe.id} moreRecipe={moreRecipe} />
           ))}
         </div>
+      </div>
+      <div className={styles.newsletterContainer}>
+        <Newsletter />
       </div>
     </div>
   );
