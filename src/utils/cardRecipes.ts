@@ -5,7 +5,7 @@ import cardRecipeImageFour from "../assets/recipes/image-04.png";
 import cardRecipeImageFive from "../assets/recipes/image-05.png";
 import cardRecipeImageSeven from "../assets/recipes/image-07.png";
 import cardRecipeImageEight from "../assets/recipes/image-08.png";
-import cardRecipeImageNine from "../assets/recipes/image-01.png";
+import cardRecipeImageNine from "../assets/recipes/image-09.png";
 
 export const cardRecipes = [
   {
