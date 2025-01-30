@@ -35,7 +35,7 @@ export function Home() {
             </div>
             <div className={styles.headerFooter}>
               <Avatar />
-              <Button />
+              <Button icon="PlayCircle" name="View Recipes" />
             </div>
           </div>
           <img src={bannerImage} alt="banner" />
