@@ -20,6 +20,7 @@ import { InstagramLogo } from "phosphor-react";
 import { CardOtherRecipes } from "../../components/cardOtherRecipes";
 import { moreRecipes } from "../../utils/moreRecipes";
 import { Newsletter } from "../../components/newsletter";
+import { Footer } from "../../components/footer";
 
 export function Home() {
   return (
@@ -137,6 +138,9 @@ export function Home() {
       </div>
       <div className={styles.newsletterContainer}>
         <Newsletter />
+      </div>
+      <div className={styles.footerContainer}>
+        <Footer />
       </div>
     </div>
   );
