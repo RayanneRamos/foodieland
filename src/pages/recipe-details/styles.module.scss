@@ -1,0 +1,38 @@
+.main {
+  max-width: 1440px;
+  margin: 0 auto;
+
+  padding: 0 80px;
+
+  .headerContainer {
+    display: flex;
+    justify-content: space-between;
+
+    .headerContent {
+      margin-top: 80px;
+
+      .headerTitle {
+        font-size: 64px;
+        letter-spacing: -4%;
+      }
+
+      .headerInfo {
+        display: flex;
+        align-items: center;
+        gap: 32px;
+
+        margin-top: 53px;
+
+      }
+    }
+
+    .actionButton {
+      display: flex;
+      align-items: center;
+      gap: 32px;
+
+      margin-top: 128px;
+    }
+  }
+}
+
