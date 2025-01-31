@@ -19,16 +19,16 @@ export function RecipeDetails() {
             <div className={styles.headerInfo}>
               <Avatar />
               <VerticalDivider />
-              <RecipeInfo />
+              <RecipeInfo title="prep time" subtitle="15" />
               <VerticalDivider />
-              <RecipeInfo />
+              <RecipeInfo title="cook time" subtitle="15" />
               <VerticalDivider />
-              <Label />
+              <Label icon="ForkKnife" name="Chicken" />
             </div>
           </div>
           <div className={styles.actionButton}>
-            <ActionButton />
-            <ActionButton />
+            <ActionButton icon="Printer" name="print" />
+            <ActionButton icon="Export" name="share" />
           </div>
         </div>
       </div>
