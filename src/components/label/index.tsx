@@ -1,11 +1,18 @@
-import { ForkKnife } from "phosphor-react";
+import * as Icons from "phosphor-react";
 import styles from "./styles.module.scss";
 
-export function Label() {
+interface LabelProps {
+  icon: keyof typeof Icons;
+  name: string;
+}
+
+export function Label({ icon, name }: LabelProps) {
+  const Icon = Icons[icon] as React.ElementType;
+
   return (
     <div className={styles.container}>
-      <ForkKnife size={24} weight="fill" />
-      <span className={styles.name}>Chicken</span>
+      <Icon size={24} weight="fill" />
+      <span className={styles.name}>{name}</span>
     </div>
   );
 }
