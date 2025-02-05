@@ -6,6 +6,9 @@ import { Navigation } from "../../components/navigation";
 import { RecipeInfo } from "../../components/recipe-info";
 import { VerticalDivider } from "../../components/vertical-divider";
 import styles from "./styles.module.scss";
+import previewImage from "../../assets/recipes/image-12.png";
+import { NutritionTable } from "../../components/nutrition-table";
+import { Play } from "phosphor-react";
 
 export function RecipeDetails() {
   return (
@@ -31,6 +34,30 @@ export function RecipeDetails() {
             <ActionButton icon="Export" name="share" />
           </div>
         </div>
+        <div className={styles.recipeDetailsContainer}>
+          <div className={styles.imageContainer}>
+            <img
+              src={previewImage}
+              alt="Delicious Meal"
+              className={styles.mealImage}
+            />
+            <button className={styles.playButton}>
+              <div className={styles.playIcon}>
+                <Play size={32} weight="fill" color="#181945" />
+              </div>
+            </button>
+          </div>
+          <NutritionTable />
+        </div>
+        <p className={styles.recipeDescription}>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+          minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+          aliquip ex ea commodo consequat. Duis aute irure dolor in
+          reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+          pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+          culpa qui officia deserunt mollit anim id est laborum.
+        </p>
       </div>
     </div>
   );
