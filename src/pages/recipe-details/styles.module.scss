@@ -78,5 +78,45 @@
 
     color: rgba(0, 0, 0, 0.6);
   }
+
+  .ingredientsContainer {
+    margin-top: 80px;
+
+    .ingredientsText {
+      font-size: 36px;
+      font-weight: 600;
+
+      letter-spacing: -4%;
+    }
+
+    .ingredientsContent {
+      display: flex;
+      justify-content: space-between;
+      
+      .titleIngredients {
+        font-size: 36px;
+        font-weight: 600;
+        letter-spacing: -4%;
+
+        margin-bottom: 48px;
+      }
+
+      .ingredientsOtherRecipes {
+        display: flex;
+        flex-direction: column;
+        gap: 24px;
+
+        .titleOtherRecipes {
+          font-size: 32px;
+          font-weight: 600;
+          letter-spacing: -4%;
+        }
+
+        .ads {
+          margin-top: 50px;
+        }
+      }
+    }
+  }
 }
 
