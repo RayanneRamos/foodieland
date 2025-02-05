@@ -34,5 +34,49 @@
       margin-top: 128px;
     }
   }
+
+  .recipeDetailsContainer {
+    display: flex;
+    justify-content: space-between;
+
+    margin-top: 64px;
+
+    .imageContainer {
+      position: relative;
+      display: inline-block;
+      border-radius: 12px;
+      overflow: hidden;
+    
+      .mealImage {
+        width: 840px;
+        height: 600px;
+        border-radius: 12px;
+      }
+    
+      .playButton {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        background: none;
+        border: none;
+        border-radius: 50%;
+        cursor: pointer;
+
+        width: 120px;
+        height: 120px;
+
+        background-color: #fff;
+      }
+    }
+  }
+  
+  .recipeDescription {
+    margin-top: 80px;
+    
+    line-height: 28px;
+
+    color: rgba(0, 0, 0, 0.6);
+  }
 }
 
