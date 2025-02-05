@@ -9,6 +9,10 @@ import styles from "./styles.module.scss";
 import previewImage from "../../assets/recipes/image-12.png";
 import { NutritionTable } from "../../components/nutrition-table";
 import { Play } from "phosphor-react";
+import { TaskBoard } from "../../components/task-board";
+import { IngredientsCards } from "../../components/ingredients-cards";
+import { PrepareBoard } from "../../components/prepare-board";
+import adsImage from "../../assets/recipes/image-06.png";
 
 export function RecipeDetails() {
   return (
@@ -58,6 +62,22 @@ export function RecipeDetails() {
           pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
           culpa qui officia deserunt mollit anim id est laborum.
         </p>
+        <div className={styles.ingredientsContainer}>
+          <div className={styles.ingredientsContent}>
+            <div className={styles.ingredientsComponent}>
+              <h3 className={styles.titleIngredients}>Ingredients</h3>
+              <TaskBoard />
+              <PrepareBoard />
+            </div>
+            <div className={styles.ingredientsOtherRecipes}>
+              <h3 className={styles.titleOtherRecipes}>Other Recipe</h3>
+              <IngredientsCards />
+              <IngredientsCards />
+              <IngredientsCards />
+              <img src={adsImage} alt="" className={styles.ads} />
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   );
