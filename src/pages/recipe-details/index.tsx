@@ -18,6 +18,7 @@ import directionImage from "../../assets/direction-image.png";
 import { Newsletter } from "../../components/newsletter";
 import { CardOtherRecipes } from "../../components/cardOtherRecipes";
 import { likeRecipes } from "../../utils/like-recipes";
+import { Footer } from "../../components/footer";
 
 export function RecipeDetails() {
   return (
@@ -142,6 +143,7 @@ export function RecipeDetails() {
             })}
           </div>
         </div>
+        <Footer />
       </div>
     </div>
   );
