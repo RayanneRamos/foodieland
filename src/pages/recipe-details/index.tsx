@@ -13,6 +13,11 @@ import { TaskBoard } from "../../components/task-board";
 import { IngredientsCards } from "../../components/ingredients-cards";
 import { PrepareBoard } from "../../components/prepare-board";
 import adsImage from "../../assets/recipes/image-06.png";
+import { DirectionsTask } from "../../components/directions-task";
+import directionImage from "../../assets/direction-image.png";
+import { Newsletter } from "../../components/newsletter";
+import { CardOtherRecipes } from "../../components/cardOtherRecipes";
+import { likeRecipes } from "../../utils/like-recipes";
 
 export function RecipeDetails() {
   return (
@@ -76,6 +81,65 @@ export function RecipeDetails() {
               <IngredientsCards />
               <img src={adsImage} alt="" className={styles.ads} />
             </div>
+          </div>
+          <div className={styles.directionsContainer}>
+            <h3 className={styles.directionsTitle}>Directions</h3>
+            <DirectionsTask />
+            <p className={styles.directionDescriptionOne}>
+              Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit
+              aut fugit, sed quia consequuntur magni dolores eos qui ratione
+              voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem
+              ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia
+              non numquam eius modi tempora incidunt ut labore et dolore magnam
+              aliquam quaerat voluptatem.
+            </p>
+            <img
+              src={directionImage}
+              alt=""
+              className={styles.directionImage}
+            />
+            <p className={styles.directionDescriptionTwo}>
+              Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit
+              aut fugit, sed quia consequuntur magni dolores eos qui ratione
+              voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem
+              ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia
+              non numquam eius modi tempora incidunt ut labore et dolore magnam
+              aliquam quaerat voluptatem.
+            </p>
+            <div className={styles.horizontalLine} />
+            <DirectionsTask />
+            <p className={styles.directionDescriptionThree}>
+              Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit
+              aut fugit, sed quia consequuntur magni dolores eos qui ratione
+              voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem
+              ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia
+              non numquam eius modi tempora incidunt ut labore et dolore magnam
+              aliquam quaerat voluptatem.
+            </p>
+            <div className={styles.horizontalLine} />
+            <DirectionsTask />
+            <p className={styles.directionDescriptionFour}>
+              Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit
+              aut fugit, sed quia consequuntur magni dolores eos qui ratione
+              voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem
+              ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia
+              non numquam eius modi tempora incidunt ut labore et dolore magnam
+              aliquam quaerat voluptatem.
+            </p>
+            <div className={styles.horizontalLine} />
+          </div>
+        </div>
+        <div className={styles.newsletterContainer}>
+          <Newsletter />
+        </div>
+        <div className={styles.likeRecipesContainer}>
+          <h3 className={styles.likeRecipesTitle}>
+            You may like these recipe too
+          </h3>
+          <div className={styles.likeRecipesCard}>
+            {likeRecipes.map((recipe) => {
+              return <CardOtherRecipes moreRecipe={recipe} key={recipe.id} />;
+            })}
           </div>
         </div>
       </div>
