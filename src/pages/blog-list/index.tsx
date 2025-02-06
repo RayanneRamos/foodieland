@@ -1,5 +1,9 @@
+import { CardBlogPosts } from "../../components/card-blog-posts";
 import { Divider } from "../../components/divider";
+import { IngredientsCards } from "../../components/ingredients-cards";
 import { Navigation } from "../../components/navigation";
+import { tastyRecipes } from "../../utils/tasty-recipes";
+import adsImage from "../../assets/recipes/image-06.png";
 import styles from "./styles.module.scss";
 
 export function BlogList() {
@@ -21,6 +25,25 @@ export function BlogList() {
             placeholder="Your email address..."
           />
           <button className={styles.button}>Subscribe</button>
+        </div>
+      </div>
+      <div className={styles.main}>
+        <div className={styles.posts}>
+          <CardBlogPosts />
+          <CardBlogPosts />
+          <CardBlogPosts />
+          <CardBlogPosts />
+          <CardBlogPosts />
+          <CardBlogPosts />
+        </div>
+        <div className={styles.tastyRecipes}>
+          <strong className={styles.tastyRecipesTitle}>Tasty Recipes</strong>
+          <div className={styles.tastyRecipesPosts}>
+            {tastyRecipes.map((othersRecipe) => {
+              return <IngredientsCards othersRecipe={othersRecipe} />;
+            })}
+          </div>
+          <img src={adsImage} alt="" className={styles.adsImage} />
         </div>
       </div>
     </div>
