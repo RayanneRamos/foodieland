@@ -1,0 +1,61 @@
+.container {
+  display: flex;
+  gap: 40px;
+
+  .cardInfo {
+    .cardTitle {
+      font-size: 24px;
+      font-weight: 600;
+      letter-spacing: -4%;
+    }
+
+    .cardSubtitle {
+      width: 510px;
+      
+      line-height: 28px;
+      
+      color: rgba(0, 0, 0, 0.6);
+
+      margin-top: 16px;
+    }
+
+    .cardFooter {
+      display: flex;
+      align-items: center;
+      gap: 24px;
+
+      margin-top: 32px;
+
+      .footerAvatar {
+        display: flex;
+        align-items: center;
+
+        gap: 16px;
+
+        .avatarImage {
+          width: 40px;
+          height: 40px;
+        }
+
+        .avatarName {
+          font-weight: 700;
+          letter-spacing: -2%;
+        }
+      }
+
+      .separator {
+        width: 1px;
+        height: 40px;
+
+        background-color: rgba(0, 0, 0, 0.1);
+      }
+
+      .date {
+        font-size: 14px;
+        font-weight: 500;
+
+        color: rgba(0, 0, 0, 0.6);
+      }
+    }
+  }
+}
