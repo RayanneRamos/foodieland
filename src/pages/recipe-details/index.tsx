@@ -16,7 +16,7 @@ import adsImage from "../../assets/recipes/image-06.png";
 import { DirectionsTask } from "../../components/directions-task";
 import directionImage from "../../assets/direction-image.png";
 import { Newsletter } from "../../components/newsletter";
-import { CardOtherRecipes } from "../../components/cardOtherRecipes";
+import { CardOtherRecipes } from "../../components/card-other-recipes";
 import { likeRecipes } from "../../utils/like-recipes";
 import { Footer } from "../../components/footer";
 import { otherRecipe } from "../../utils/other-recipe";

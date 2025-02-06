@@ -1,4 +1,4 @@
-import { RecipeFood } from "../recipeFood";
+import { RecipeFood } from "../recipe-food";
 import styles from "./styles.module.scss";
 import { Heart } from "phosphor-react";
 
