@@ -20,6 +20,13 @@
       font-weight: 600;
       line-height: 28px;
       letter-spacing: -4%;
+
+      display: -webkit-box;
+      -webkit-line-clamp: 2; /* Máximo de 2 linhas antes do "..." */
+      -webkit-box-orient: vertical;
+      
+      overflow: hidden;
+      text-overflow: ellipsis;
     }
 
     .infoAuthor {
