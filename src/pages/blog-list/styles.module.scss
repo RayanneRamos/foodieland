@@ -1,0 +1,88 @@
+.header {
+  max-width: 1440px;
+  margin: 0 auto;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  .headerTitle {
+    font-size: 64px;
+    letter-spacing: -4%;
+
+    text-align: center;
+
+    margin-top: 80px;
+  }
+
+  .headerSubtitle {
+    line-height: 28px;
+    color: rgba(0, 0, 0, 0.6);
+
+    margin-top: 24px;
+
+    text-align: center;
+  }
+
+  .form {
+    background-color: var(--white);
+
+    width: 700px;
+    height: 80px;
+
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 24px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 144px;
+  
+    margin-top: 64px;
+
+    padding-right: 10px;
+
+    .inputEmail {
+      background: transparent;
+
+      padding: 32px;
+
+      border: none;
+
+      font-size: 14px;
+      font-weight: 500;
+      letter-spacing: -2%;
+    }
+
+    .inputEmail::placeholder {
+      color: rgba(0, 0, 0, 0.4);
+    }
+
+    .inputEmail:focus {
+      outline: none;
+    }
+
+    .button {
+      width: 180px;
+      height: 60px;
+
+      background-color: var(--black);
+      color: var(--white);
+
+      border: none;
+      border-radius: 16px;
+
+      cursor: pointer;
+
+      font-size: 14px;
+      font-weight: 600;
+      letter-spacing: -2%;
+
+      transition: all 0.4s;
+    }
+
+    .button:hover {
+      background-color: #55738b;
+    }
+  }
+}
