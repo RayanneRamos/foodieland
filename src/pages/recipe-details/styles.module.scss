@@ -117,6 +117,103 @@
         }
       }
     }
+
+    .directionsContainer {
+      margin-top: 88px;
+
+      width: 840px;
+
+      .directionsTitle {
+        font-size: 36px;
+        font-weight: 600;
+        letter-spacing: -4%;
+      }
+
+      .directionDescriptionOne {
+        width: 792px;
+
+        margin-top: 24px;
+
+        line-height: 28px;
+        letter-spacing: -2%;
+
+        color: rgba(0, 0, 0, 0.6);
+      }
+
+      .directionImage {
+        margin-top: 48px;
+      }
+
+      .directionDescriptionTwo {
+        width: 792px;
+        
+        margin-top: 48px;
+
+        line-height: 28px;
+        letter-spacing: -2%;
+
+        color: rgba(0, 0, 0, 0.6);
+      }
+
+      .horizontalLine {
+        width: 840px;
+        height: 1px;
+
+        background-color: rgba(0, 0, 0, 0.1);
+
+        margin-top: 48px;
+      }
+
+      .directionDescriptionThree {
+        width: 792px;
+        
+        margin-top: 48px;
+
+        line-height: 28px;
+        letter-spacing: -2%;
+
+        color: rgba(0, 0, 0, 0.6);
+      }
+
+      .directionDescriptionFour {
+        width: 792px;
+        
+        margin-top: 48px;
+
+        line-height: 28px;
+        letter-spacing: -2%;
+
+        color: rgba(0, 0, 0, 0.6);
+      }
+    }
+  }
+
+  .newsletterContainer {
+    margin-top: 160px;
+  }
+
+  .likeRecipesContainer {
+    display: flex;
+    flex-direction: column;
+
+    margin-top: 160px;
+
+    .likeRecipesTitle {
+      font-size: 36px;
+      font-weight: 600;
+      letter-spacing: -4%;
+
+      text-align: center;
+    }
+
+    .likeRecipesCard {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+
+      column-gap: 40px;
+
+      margin-top: 80px;
+    }
   }
 }
 
