@@ -19,6 +19,7 @@ import { Newsletter } from "../../components/newsletter";
 import { CardOtherRecipes } from "../../components/cardOtherRecipes";
 import { likeRecipes } from "../../utils/like-recipes";
 import { Footer } from "../../components/footer";
+import { otherRecipe } from "../../utils/other-recipe";
 
 export function RecipeDetails() {
   return (
@@ -77,15 +78,20 @@ export function RecipeDetails() {
             </div>
             <div className={styles.ingredientsOtherRecipes}>
               <h3 className={styles.titleOtherRecipes}>Other Recipe</h3>
-              <IngredientsCards />
-              <IngredientsCards />
-              <IngredientsCards />
+              {otherRecipe.map((othersRecipe) => {
+                return (
+                  <IngredientsCards
+                    othersRecipe={othersRecipe}
+                    key={othersRecipe.id}
+                  />
+                );
+              })}
               <img src={adsImage} alt="" className={styles.ads} />
             </div>
           </div>
           <div className={styles.directionsContainer}>
             <h3 className={styles.directionsTitle}>Directions</h3>
-            <DirectionsTask />
+            <DirectionsTask task="1. Lorem ipsum dolor sit amet " />
             <p className={styles.directionDescriptionOne}>
               Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit
               aut fugit, sed quia consequuntur magni dolores eos qui ratione
@@ -108,7 +114,7 @@ export function RecipeDetails() {
               aliquam quaerat voluptatem.
             </p>
             <div className={styles.horizontalLine} />
-            <DirectionsTask />
+            <DirectionsTask task="2. Lorem ipsum dolor sit amet " />
             <p className={styles.directionDescriptionThree}>
               Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit
               aut fugit, sed quia consequuntur magni dolores eos qui ratione
@@ -118,7 +124,7 @@ export function RecipeDetails() {
               aliquam quaerat voluptatem.
             </p>
             <div className={styles.horizontalLine} />
-            <DirectionsTask />
+            <DirectionsTask task="3. Lorem ipsum dolor sit amet " />
             <p className={styles.directionDescriptionFour}>
               Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit
               aut fugit, sed quia consequuntur magni dolores eos qui ratione
