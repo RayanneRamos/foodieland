@@ -6,6 +6,8 @@ import { tastyRecipes } from "../../utils/tasty-recipes";
 import adsImage from "../../assets/recipes/image-06.png";
 import styles from "./styles.module.scss";
 import { Pagination } from "../../components/pagination";
+import { Newsletter } from "../../components/newsletter";
+import { Footer } from "../../components/footer";
 
 export function BlogList() {
   return (
@@ -49,6 +51,9 @@ export function BlogList() {
       </div>
       <div className={styles.paginationSection}>
         <Pagination />
+      </div>
+      <div className={styles.newsletterSection}>
+        <Newsletter />
       </div>
     </div>
   );
