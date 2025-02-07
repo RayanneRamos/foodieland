@@ -1,0 +1,27 @@
+.container {
+  display: flex;
+  gap: 16px;
+
+  margin-top: 80px;
+
+  .content {
+    width: 64px;
+    height: 64px;
+
+    background-color: none;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 16px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    cursor: pointer;
+
+    .number {
+      font-size: 18px;
+      font-weight: 700;
+      letter-spacing: -2%;
+    }
+  }
+}
