@@ -9,8 +9,15 @@ import { Pagination } from "../../components/pagination";
 import { Newsletter } from "../../components/newsletter";
 import { Footer } from "../../components/footer";
 import { recipes } from "../../utils/recipes";
+import { useState } from "react";
+
+const itemsPerPage = 6;
+const items = Array.from({ length: 31 }, (_, i) => `Items ${i + 1}`);
 
 export function BlogList() {
+  const [currentPage, setCurrentPage] = useState(1);
+  const totalPages = Math.ceil(items.length / itemsPerPage);
+
   return (
     <div className={styles.container}>
       <Navigation />
@@ -50,7 +57,11 @@ export function BlogList() {
         </div>
       </div>
       <div className={styles.paginationSection}>
-        <Pagination />
+        <Pagination
+          currentPage={currentPage}
+          totalPages={totalPages}
+          onPageChange={setCurrentPage}
+        />
       </div>
       <div className={styles.newsletterSection}>
         <Newsletter />
