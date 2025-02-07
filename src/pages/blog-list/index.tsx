@@ -55,6 +55,9 @@ export function BlogList() {
       <div className={styles.newsletterSection}>
         <Newsletter />
       </div>
+      <div className={styles.footerSection}>
+        <Footer />
+      </div>
     </div>
   );
 }
