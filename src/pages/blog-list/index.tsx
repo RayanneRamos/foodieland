@@ -5,6 +5,7 @@ import { Navigation } from "../../components/navigation";
 import { tastyRecipes } from "../../utils/tasty-recipes";
 import adsImage from "../../assets/recipes/image-06.png";
 import styles from "./styles.module.scss";
+import { Pagination } from "../../components/pagination";
 
 export function BlogList() {
   return (
@@ -45,6 +46,9 @@ export function BlogList() {
           </div>
           <img src={adsImage} alt="" className={styles.adsImage} />
         </div>
+      </div>
+      <div className={styles.paginationSection}>
+        <Pagination />
       </div>
     </div>
   );
