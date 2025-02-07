@@ -1,26 +1,37 @@
 import styles from "./styles.module.scss";
-import cardImage from "../../assets/recipes/image-01.png";
-import avatarImage from "../../assets/avatar.png";
 
-export function CardBlogPosts() {
+interface CardBlogPostsInterface {
+  blogRecipes: {
+    id: string;
+    image: string;
+    recipeTitle: string;
+    recipeDescription: string;
+    author: {
+      image: string;
+      name: string;
+    };
+    date: string;
+  };
+}
+
+export function CardBlogPosts({ blogRecipes }: CardBlogPostsInterface) {
   return (
     <div className={styles.container}>
-      <img src={cardImage} alt="" />
+      <img src={blogRecipes.image} alt="" />
       <div className={styles.cardInfo}>
-        <strong className={styles.cardTitle}>
-          Crochet Projects for Noodle Lovers
-        </strong>
-        <p className={styles.cardSubtitle}>
-          Lorem ipsum dolor sit amet, consectetuipisicing elit, sed do eiusmod
-          tempor incididunt ut labore et dolore magna aliqut enim
-        </p>
+        <strong className={styles.cardTitle}>{blogRecipes.recipeTitle}</strong>
+        <p className={styles.cardSubtitle}>{blogRecipes.recipeDescription}</p>
         <div className={styles.cardFooter}>
           <div className={styles.footerAvatar}>
-            <img src={avatarImage} alt="" className={styles.avtarImage} />
-            <span className={styles.avatarName}>Wade Warren</span>
+            <img
+              src={blogRecipes.author.image}
+              alt=""
+              className={styles.avtarImage}
+            />
+            <span className={styles.avatarName}>{blogRecipes.author.name}</span>
           </div>
           <div className={styles.separator} />
-          <span className={styles.date}>12 November 2021</span>
+          <span className={styles.date}>{blogRecipes.date}</span>
         </div>
       </div>
     </div>

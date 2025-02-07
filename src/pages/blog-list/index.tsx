@@ -8,6 +8,7 @@ import styles from "./styles.module.scss";
 import { Pagination } from "../../components/pagination";
 import { Newsletter } from "../../components/newsletter";
 import { Footer } from "../../components/footer";
+import { recipes } from "../../utils/recipes";
 
 export function BlogList() {
   return (
@@ -32,12 +33,11 @@ export function BlogList() {
       </div>
       <div className={styles.main}>
         <div className={styles.posts}>
-          <CardBlogPosts />
-          <CardBlogPosts />
-          <CardBlogPosts />
-          <CardBlogPosts />
-          <CardBlogPosts />
-          <CardBlogPosts />
+          {recipes.map((blogRecipes) => {
+            return (
+              <CardBlogPosts blogRecipes={blogRecipes} key={blogRecipes.id} />
+            );
+          })}
         </div>
         <div className={styles.tastyRecipes}>
           <strong className={styles.tastyRecipesTitle}>Tasty Recipes</strong>
