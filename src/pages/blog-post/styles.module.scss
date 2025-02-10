@@ -243,4 +243,29 @@
 
     padding: 0 80px;
   }
+
+  .recipeContainer {
+    display: flex;
+    flex-direction: column;
+
+    gap: 80px;
+
+    margin: 160px 80px;
+
+    .recipeTitle {
+      font-size: 36px;
+      font-weight: 600;
+      letter-spacing: -4%;
+
+      text-align: center ;
+    }
+
+    .deliciousRecipe {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+
+      column-gap: 40px;
+      
+    }
+  }
 }
