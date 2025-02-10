@@ -7,6 +7,10 @@ import postImage from "../../assets/direction-image.png";
 import facebookImage from "../../assets/facebook.svg";
 import twitterImage from "../../assets/twitter.svg";
 import instagramImage from "../../assets/instagram.svg";
+import { Newsletter } from "../../components/newsletter";
+import { likeRecipes } from "../../utils/like-recipes";
+import { CardOtherRecipes } from "../../components/card-other-recipes";
+import { Footer } from "../../components/footer";
 
 export function BlogPost() {
   return (
@@ -112,6 +116,9 @@ export function BlogPost() {
               <img src={instagramImage} alt="" />
             </div>
           </div>
+        </div>
+        <div className={styles.newsletterSection}>
+          <Newsletter />
         </div>
       </div>
     </div>
