@@ -120,6 +120,16 @@ export function BlogPost() {
         <div className={styles.newsletterSection}>
           <Newsletter />
         </div>
+        <div className={styles.recipeContainer}>
+          <strong className={styles.recipeTitle}>
+            Check out the delicious recipe
+          </strong>
+          <div className={styles.deliciousRecipe}>
+            {likeRecipes.map((recipe) => {
+              return <CardOtherRecipes moreRecipe={recipe} key={recipe.id} />;
+            })}
+          </div>
+        </div>
       </div>
     </div>
   );
