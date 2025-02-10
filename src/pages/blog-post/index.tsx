@@ -130,6 +130,9 @@ export function BlogPost() {
             })}
           </div>
         </div>
+        <div className={styles.footer}>
+          <Footer />
+        </div>
       </div>
     </div>
   );
