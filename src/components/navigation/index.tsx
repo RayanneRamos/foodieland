@@ -3,27 +3,28 @@ import logoImage from "../../assets/logo.svg";
 import facebookImage from "../../assets/facebook.svg";
 import twitterLogo from "../../assets/twitter.svg";
 import instagramLogo from "../../assets/instagram.svg";
+import { Link } from "react-router";
 
 export function Navigation() {
   return (
     <div className={styles.container}>
       <img src={logoImage} alt="logo" />
       <nav className={styles.navbar}>
-        <a href="#" className={styles.navLink}>
+        <Link to="/" className={styles.navLink}>
           <span className={styles.navName}>Home</span>
-        </a>
-        <a href="#" className={styles.navLink}>
+        </Link>
+        <Link to="#" className={styles.navLink}>
           <span className={styles.navName}>Recipes</span>
-        </a>
-        <a href="#" className={styles.navLink}>
+        </Link>
+        <Link to="/blog-list" className={styles.navLink}>
           <span className={styles.navName}>Blog</span>
-        </a>
-        <a href="#" className={styles.navLink}>
+        </Link>
+        <Link to="/contact" className={styles.navLink}>
           <span className={styles.navName}>Contact</span>
-        </a>
-        <a href="#" className={styles.navLink}>
+        </Link>
+        <Link to="#" className={styles.navLink}>
           <span className={styles.navName}>About us</span>
-        </a>
+        </Link>
       </nav>
       <div className={styles.socialMedia}>
         <a href="#" className={styles.navSocial}>
