@@ -3,6 +3,9 @@ import { Navigation } from "../../components/navigation";
 import styles from "./styles.module.scss";
 import chefContactImage from "../../assets/chef-contact.png";
 import { Newsletter } from "../../components/newsletter";
+import { Footer } from "../../components/footer";
+import { likeRecipes } from "../../utils/like-recipes";
+import { CardOtherRecipes } from "../../components/card-other-recipes";
 
 export function Contact() {
   return (
@@ -85,6 +88,16 @@ export function Contact() {
       </div>
       <div className={styles.newsletterSection}>
         <Newsletter />
+      </div>
+      <div className={styles.recipeSection}>
+        <strong className={styles.recipeTitle}>
+          Check out the delicious recipe
+        </strong>
+        <div className={styles.recipeContent}>
+          {likeRecipes.map((recipe) => {
+            return <CardOtherRecipes moreRecipe={recipe} key={recipe.id} />;
+          })}
+        </div>
       </div>
     </div>
   );
