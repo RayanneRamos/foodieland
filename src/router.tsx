@@ -4,6 +4,8 @@ import { RecipeDetails } from "./pages/recipe-details";
 import { BlogList } from "./pages/blog-list";
 import { BlogPost } from "./pages/blog-post";
 import { Contact } from "./pages/contact";
+import { AboutUs } from "./pages/about-us";
+import { Recipes } from "./pages/recipes";
 
 export function Router() {
   return (
@@ -14,6 +16,8 @@ export function Router() {
         <Route path="/blog-list" element={<BlogList />} />
         <Route path="/blog-post/:id" element={<BlogPost />} />
         <Route path="/contact" element={<Contact />} />
+        <Route path="/about-us" element={<AboutUs />} />
+        <Route path="/recipes" element={<Recipes />} />
       </Routes>
     </BrowserRouter>
   );
