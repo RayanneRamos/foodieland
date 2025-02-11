@@ -1,6 +1,5 @@
-import { Home } from "./pages/home";
-import { RecipeDetails } from "./pages/recipe-details";
+import { Router } from "./router";
 
 export function App() {
-  return <Home />;
+  return <Router />;
 }
