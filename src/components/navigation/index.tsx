@@ -13,7 +13,7 @@ export function Navigation() {
         <Link to="/" className={styles.navLink}>
           <span className={styles.navName}>Home</span>
         </Link>
-        <Link to="#" className={styles.navLink}>
+        <Link to="/recipes" className={styles.navLink}>
           <span className={styles.navName}>Recipes</span>
         </Link>
         <Link to="/blog-list" className={styles.navLink}>
@@ -22,7 +22,7 @@ export function Navigation() {
         <Link to="/contact" className={styles.navLink}>
           <span className={styles.navName}>Contact</span>
         </Link>
-        <Link to="#" className={styles.navLink}>
+        <Link to="/about-us" className={styles.navLink}>
           <span className={styles.navName}>About us</span>
         </Link>
       </nav>
