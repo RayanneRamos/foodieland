@@ -99,6 +99,9 @@ export function Contact() {
           })}
         </div>
       </div>
+      <div className={styles.footerSection}>
+        <Footer />
+      </div>
     </div>
   );
 }
