@@ -1,0 +1,156 @@
+.main {
+  max-width: 1440px;
+  margin: 0 auto;
+
+  .title {
+    font-size: 64px;
+    font-weight: 600;
+    letter-spacing: -4%;
+
+    margin-top: 84px;
+
+    text-align: center;
+  }
+
+  .mainContent {
+    display: flex;
+    gap: 40px;
+
+    padding: 0 80px;
+    margin-top: 80px;
+
+    .form {
+      display: flex;
+      flex-direction: column;
+      gap: 24px;
+
+      .formContainer {
+        display: flex;
+        gap: 40px;
+
+        .formContent {
+          display: flex;
+          flex-direction: column;
+          gap: 12px;
+
+          .labelName {
+            font-size: 12px;
+            font-weight: 500;
+            line-height: 20px;
+            letter-spacing: 8%;
+
+            color: rgba(0, 0, 0, 0.6);
+
+            text-transform: uppercase;
+          }
+
+          .input {
+            width: 400px;
+            height: 60px;
+
+            border: 1px solid rgba(0, 0, 0, 0.1);
+            border-radius: 16px;
+
+            padding: 18px 20px;
+
+            font-size: 14px;
+            line-height: 24px;
+            letter-spacing: -2%;
+          }
+
+          .input::placeholder {
+            color: rgba(0, 0, 0, 0.6);
+          }
+
+          .input:focus {
+            outline: none;
+          }
+
+          .select {
+            width: 400px;
+            height: 60px;
+
+            border: 1px solid rgba(0, 0, 0, 0.1);
+            border-radius: 16px;
+
+            padding: 18px 20px;
+          }
+
+          .select:focus {
+            outline: none;
+          }
+        }
+      }
+
+      .messageBox {
+        display: flex;
+        flex-direction: column;
+
+        gap: 12px;
+
+        .labelName {
+          font-size: 12px;
+          font-weight: 500;
+          line-height: 20px;
+          letter-spacing: 8%;
+
+          color: rgba(0, 0, 0, 0.6);
+
+          text-transform: uppercase;
+        }
+
+        .textarea {
+          width: 840px;
+          height: 220px;
+
+          border: 1px solid rgba(0, 0, 0, 0.1);
+          border-radius: 16px;
+
+          padding: 20px;
+
+          font-family: 'Inter', sans-serif;
+
+          resize: none;
+        }
+
+        .textarea::placeholder {
+          font-size: 14px;
+          line-height: 24px;
+          letter-spacing: -2%;
+          font-family: 'Inter', sans-serif;
+
+          color: rgba(0, 0, 0, 0.6);
+        }
+
+        .textarea:focus {
+          outline: none;
+        }
+      }
+
+      .formButton {
+        width: 180px;
+        height: 64px;
+
+        border: none;
+        border-radius: 16px;
+
+        background-color: #000;
+        color: #fff;
+
+        cursor: pointer;
+
+        font-weight: 600;
+        line-height: 24px;
+        letter-spacing: -2%;
+
+        margin-top: 48px;
+
+        transition: all 0.4s;
+      }
+
+      .formButton:hover {
+        background-color: #454545;
+      }
+    }
+  }
+}
