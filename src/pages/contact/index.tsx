@@ -2,6 +2,7 @@ import { Divider } from "../../components/divider";
 import { Navigation } from "../../components/navigation";
 import styles from "./styles.module.scss";
 import chefContactImage from "../../assets/chef-contact.png";
+import { Newsletter } from "../../components/newsletter";
 
 export function Contact() {
   return (
@@ -81,6 +82,9 @@ export function Contact() {
             <button className={styles.formButton}>Submit</button>
           </div>
         </div>
+      </div>
+      <div className={styles.newsletterSection}>
+        <Newsletter />
       </div>
     </div>
   );
