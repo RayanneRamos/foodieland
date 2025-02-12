@@ -2,6 +2,8 @@
   max-width: 1440px;
   margin: 0 auto;
 
+  padding: 0 80px;
+
   .title {
     font-size: 64px;
     letter-spacing: -4%;
@@ -15,7 +17,12 @@
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     row-gap: 72px;
+    column-gap: 40px;
 
     margin-top: 112px;
+  }
+
+  .newsletterSection {
+    margin-top: 160px;
   }
 }
