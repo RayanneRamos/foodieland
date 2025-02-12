@@ -1,6 +1,7 @@
 import { CardOtherRecipes } from "../../components/card-other-recipes";
 import { Divider } from "../../components/divider";
 import { Navigation } from "../../components/navigation";
+import { Newsletter } from "../../components/newsletter";
 import { likeRecipes } from "../../utils/like-recipes";
 import styles from "./styles.module.scss";
 
@@ -24,6 +25,9 @@ export function Recipes() {
           {likeRecipes.map((recipe) => {
             return <CardOtherRecipes moreRecipe={recipe} key={recipe.id} />;
           })}
+        </div>
+        <div className={styles.newsletterSection}>
+          <Newsletter />
         </div>
       </div>
     </div>
