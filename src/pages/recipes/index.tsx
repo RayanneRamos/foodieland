@@ -1,5 +1,6 @@
 import { CardOtherRecipes } from "../../components/card-other-recipes";
 import { Divider } from "../../components/divider";
+import { Footer } from "../../components/footer";
 import { Navigation } from "../../components/navigation";
 import { Newsletter } from "../../components/newsletter";
 import { likeRecipes } from "../../utils/like-recipes";
@@ -29,6 +30,7 @@ export function Recipes() {
         <div className={styles.newsletterSection}>
           <Newsletter />
         </div>
+        <Footer />
       </div>
     </div>
   );
