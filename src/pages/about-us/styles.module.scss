@@ -1,0 +1,140 @@
+.main {
+  max-width: 1440px;
+  margin: 0 auto;
+
+  padding: 0 80px;
+
+  h1 {
+    font-size: 64px;
+    letter-spacing: -4%;
+
+    margin-top: 84px;
+
+    text-align: center;
+  }
+
+  .mainContent {
+    display: flex;
+    justify-content: space-between;
+
+    gap: 60px;
+
+    margin-top: 72px;
+
+    .about {
+      display: flex;
+      flex-direction: column;
+
+      gap: 16px;
+
+      .aboutText {
+        font-weight: 500;
+        letter-spacing: -4%;
+
+        color: rgba(0, 0, 0, 0.6);
+
+        text-align: justify;
+
+        .aboutBold {
+          font-weight: 600;
+          letter-spacing: -4%;
+        }
+      }
+    }
+  }
+}
+
+.moreAbout {
+  display: flex;
+  justify-content: space-between;
+
+  gap: 115px;
+
+  margin-top: 48px;
+
+  .aboutChef {
+    width: 570px;
+
+    border: 1px solid rgba(0, 0, 0, 0.6);
+    border-radius: 24px;
+
+    display: flex;
+    flex-direction: column;
+
+    gap: 22px;
+
+    padding: 20px;
+
+    .aboutChefTitle {
+      font-size: 24px;
+      font-weight: 600;
+
+      letter-spacing: -4%;
+    }
+
+    .aboutChefText {
+      font-weight: 500;
+      letter-spacing: -4%;
+
+      color: rgba(0, 0, 0, 0.6);
+
+      text-align: justify;
+    }
+
+    .aboutChefBold {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+
+      font-size: 18px;
+      font-weight: 700;
+
+      letter-spacing: -4%;
+    }
+  }
+
+  .aboutChooseFoodieland {
+    width: 570px;
+
+    border: 1px solid rgba(0, 0, 0, 0.6);
+    border-radius: 24px;
+
+    display: flex;
+    flex-direction: column;
+
+    gap: 22px;
+
+    padding: 20px;
+
+    .aboutChooseFoodielandTitle {
+      font-size: 24px;
+      font-weight: 600;
+
+      letter-spacing: -4%;
+    }
+
+    .aboutChooseFoodielandBold {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+
+      font-size: 18px;
+      font-weight: 700;
+
+      letter-spacing: -4%;
+    }
+
+    .aboutChooseFoodielandText {
+      font-weight: 500;
+      letter-spacing: -4%;
+
+      color: rgba(0, 0, 0, 0.6);
+
+      text-align: justify;
+
+      display: flex;
+      align-items: center;
+      gap: 12px;
+    }
+  }
+}
