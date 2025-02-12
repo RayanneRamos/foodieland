@@ -120,8 +120,9 @@ main {
       cursor: pointer;
 
       .buttonText {
+        font-family: 'Inter', sans-serif;
         font-weight: 600;
-        letter-spacing: 2%;
+        letter-spacing: -2%;
       }
     }
   }

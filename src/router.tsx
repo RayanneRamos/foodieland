@@ -6,6 +6,7 @@ import { BlogPost } from "./pages/blog-post";
 import { Contact } from "./pages/contact";
 import { AboutUs } from "./pages/about-us";
 import { Recipes } from "./pages/recipes";
+import { Categories } from "./pages/categories";
 
 export function Router() {
   return (
@@ -18,6 +19,7 @@ export function Router() {
         <Route path="/contact" element={<Contact />} />
         <Route path="/about-us" element={<AboutUs />} />
         <Route path="/recipes" element={<Recipes />} />
+        <Route path="/categories" element={<Categories />} />
       </Routes>
     </BrowserRouter>
   );

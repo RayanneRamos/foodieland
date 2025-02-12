@@ -21,8 +21,11 @@ import { CardOtherRecipes } from "../../components/card-other-recipes";
 import { moreRecipes } from "../../utils/more-recipes";
 import { Newsletter } from "../../components/newsletter";
 import { Footer } from "../../components/footer";
+import { useNavigate } from "react-router";
 
 export function Home() {
+  const navigate = useNavigate();
+
   return (
     <div className={styles.container}>
       <Navigation />
@@ -34,9 +37,9 @@ export function Home() {
             <Tag />
             <h1 className={styles.title}>Spicy delicious chicken wings</h1>
             <p className={styles.subtitle}>
-              Lorem ipsum dolor sit amet, consectetuipisicing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqut enim ad
-              minim{" "}
+              Indulge in the bold flavors of Spicy Delicious Chicken
+              Wings—crispy on the outside, juicy on the inside, and coated in a
+              fiery, mouthwatering sauce.{" "}
             </p>
             <div className={styles.tagContainer}>
               <RecipeFood icon="Clock" name="30 Minutes" />
@@ -56,18 +59,23 @@ export function Home() {
         <div className={styles.categoriesContainer}>
           <div className={styles.categoriesHeader}>
             <strong className={styles.categoriesTitle}>Categories</strong>
-            <button className={styles.categoriesButton}>
+            <button
+              className={styles.categoriesButton}
+              onClick={() => navigate("/categories")}
+            >
               <span className={styles.buttonText}>View All Categories</span>
             </button>
           </div>
           <div className={styles.categoriesContent}>
-            {categories.map((category) => (
-              <Category
-                key={category.id}
-                image={category.image}
-                name={category.name}
-              />
-            ))}
+            {categories.slice(0, 6).map((category) => {
+              return (
+                <Category
+                  image={category.image}
+                  name={category.name}
+                  key={category.id}
+                />
+              );
+            })}
           </div>
         </div>
         <div className={styles.recipesContainer}>
