@@ -11,6 +11,8 @@ import {
   Wine,
 } from "phosphor-react";
 import { Newsletter } from "../../components/newsletter";
+import { likeRecipes } from "../../utils/like-recipes";
+import { CardOtherRecipes } from "../../components/card-other-recipes";
 
 export function AboutUs() {
   return (
@@ -168,6 +170,16 @@ export function AboutUs() {
         </div>
         <div className={styles.newsletterSection}>
           <Newsletter />
+        </div>
+        <div className={styles.recipeSection}>
+          <strong className={styles.recipeTitle}>
+            Check out the delicious recipe
+          </strong>
+          <div className={styles.recipeContainer}>
+            {likeRecipes.map((recipe) => {
+              return <CardOtherRecipes moreRecipe={recipe} key={recipe.id} />;
+            })}
+          </div>
         </div>
       </div>
     </div>
