@@ -1,6 +1,7 @@
 import { Category } from "../../components/category";
 import { Divider } from "../../components/divider";
 import { Navigation } from "../../components/navigation";
+import { Newsletter } from "../../components/newsletter";
 import { categories } from "../../utils/categories";
 import styles from "./styles.module.scss";
 
@@ -21,6 +22,9 @@ export function Categories() {
               />
             );
           })}
+        </div>
+        <div className={styles.newsletterSection}>
+          <Newsletter />
         </div>
       </div>
     </div>
