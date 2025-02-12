@@ -142,3 +142,27 @@
 .newsletterSection {
   margin-top: 160px;
 }
+
+.recipeSection {
+  display: flex;
+  flex-direction: column;
+
+  .recipeTitle {
+    margin-top: 160px;
+
+    font-size: 36px;
+    font-weight: 600;
+    letter-spacing: -4%;
+
+    text-align: center;
+  }
+
+  .recipeContainer {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+
+    column-gap: 40px;
+
+    margin-top: 80px;
+  }
+}
