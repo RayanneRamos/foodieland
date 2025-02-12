@@ -1,0 +1,32 @@
+.main {
+  max-width: 1440px;
+  margin: 0 auto;
+
+  padding: 0 80px;
+
+  .title {
+    font-size: 64px;
+    letter-spacing: -4%;
+
+    margin-top: 84px;
+
+    text-align: center;
+  }
+
+  .categoriesContainer {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+
+    row-gap: 40px;
+    column-gap: 48px;
+
+    margin-top: 80px;
+  }
+
+  .newsletterSection {
+  
+  
+    margin-top: 160px;
+  }
+}
+
