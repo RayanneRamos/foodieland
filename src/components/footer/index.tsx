@@ -4,6 +4,7 @@ import logoImage from "../../assets/logo.svg";
 import facebookImage from "../../assets/facebook.svg";
 import twitterImage from "../../assets/twitter.svg";
 import instagramImage from "../../assets/instagram.svg";
+import { Link } from "react-router";
 
 export function Footer() {
   return (
@@ -14,18 +15,18 @@ export function Footer() {
           Lorem ipsum dolor sit amet, consectetuipisicing elit.
         </span>
         <nav className={styles.footerNav}>
-          <a href="#" className={styles.link}>
+          <Link to="/recipes" className={styles.link}>
             Recipes
-          </a>
-          <a href="#" className={styles.link}>
+          </Link>
+          <Link to="/blog-list" className={styles.link}>
             Blog
-          </a>
-          <a href="#" className={styles.link}>
+          </Link>
+          <Link to="/contact" className={styles.link}>
             Contact
-          </a>
-          <a href="#" className={styles.link}>
+          </Link>
+          <Link to="/about-us" className={styles.link}>
             About us
-          </a>
+          </Link>
         </nav>
       </div>
       <Divider />
