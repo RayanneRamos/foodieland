@@ -10,6 +10,7 @@ import {
   UsersThree,
   Wine,
 } from "phosphor-react";
+import { Newsletter } from "../../components/newsletter";
 
 export function AboutUs() {
   return (
@@ -164,6 +165,9 @@ export function AboutUs() {
               Let’s cook something amazing together!
             </p>
           </div>
+        </div>
+        <div className={styles.newsletterSection}>
+          <Newsletter />
         </div>
       </div>
     </div>
