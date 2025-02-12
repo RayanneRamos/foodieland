@@ -13,6 +13,7 @@ import {
 import { Newsletter } from "../../components/newsletter";
 import { likeRecipes } from "../../utils/like-recipes";
 import { CardOtherRecipes } from "../../components/card-other-recipes";
+import { Footer } from "../../components/footer";
 
 export function AboutUs() {
   return (
@@ -181,6 +182,7 @@ export function AboutUs() {
             })}
           </div>
         </div>
+        <Footer />
       </div>
     </div>
   );
