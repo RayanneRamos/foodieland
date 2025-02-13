@@ -8,8 +8,8 @@ import styles from "./styles.module.scss";
 import { Pagination } from "../../components/pagination";
 import { Newsletter } from "../../components/newsletter";
 import { Footer } from "../../components/footer";
-import { recipes } from "../../utils/recipes";
 import { useState } from "react";
+import { blogLists } from "../../utils/blog-list";
 
 const itemsPerPage = 6;
 const items = Array.from({ length: 31 }, (_, i) => `Items ${i + 1}`);
@@ -40,7 +40,7 @@ export function BlogList() {
       </div>
       <div className={styles.main}>
         <div className={styles.posts}>
-          {recipes.map((blogRecipes) => {
+          {blogLists.map((blogRecipes) => {
             return (
               <CardBlogPosts blogRecipes={blogRecipes} key={blogRecipes.id} />
             );
