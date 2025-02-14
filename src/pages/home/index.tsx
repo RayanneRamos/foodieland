@@ -111,7 +111,12 @@ export function Home() {
               eiusmod tempor incididunt ut labore et dolore magna aliqut enim ad
               minim{" "}
             </span>
-            <button className={styles.chefButton}>Learn More</button>
+            <button
+              className={styles.chefButton}
+              onClick={() => navigate("/about-us")}
+            >
+              Learn More
+            </button>
           </div>
           <img src={chefImage} alt="chef" />
         </div>
