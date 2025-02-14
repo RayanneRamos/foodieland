@@ -1,3 +1,4 @@
+import { useNavigate } from "react-router";
 import { Category } from "../../components/category";
 import { Divider } from "../../components/divider";
 import { Footer } from "../../components/footer";
@@ -7,6 +8,8 @@ import { categories } from "../../utils/categories";
 import styles from "./styles.module.scss";
 
 export function Categories() {
+  const navigate = useNavigate();
+
   return (
     <div className={styles.container}>
       <Navigation />
@@ -20,6 +23,7 @@ export function Categories() {
                 image={category.image}
                 name={category.name}
                 key={category.id}
+                onClick={() => navigate(`/categories/${category.id}`)}
               />
             );
           })}
