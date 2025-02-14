@@ -2703,33 +2703,62 @@ export const recipes = [
   },
   // Chicken
   {
-    id: "",
-    recipeName: "",
+    id: "47b68820-c540-4580-a2fd-c478a9f2b3e7",
+    recipeName: "Garlic Butter Chicken Breast",
     author: {
       authorAvatar: "",
-      authorName: "",
-      authorDatePosted: "",
+      authorName: "Logan James",
+      authorDatePosted: "01 January 2024",
     },
-    prepareTime: "",
-    cookTime: "",
+    prepareTime: "10",
+    cookTime: "20",
     recipeCategory: "Chicken",
     recipeImage: "",
     nutritionInformation: {
-      calories: "",
-      totalFat: "",
-      protein: "",
-      carbohydrate: "",
-      cholesterol: "",
+      calories: "320",
+      totalFat: "18",
+      protein: "35",
+      carbohydrate: "2",
+      cholesterol: "90",
     },
-    recipeDescription: "",
+    recipeDescription:
+      "Juicy, tender chicken breast cooked in a flavorful garlic butter sauce. A quick and easy recipe perfect for weeknight dinners.",
     recipeIngredients: [
       {
         recipeSteps: {
           name: "",
           steps: [
             {
-              ingredientsQuantity: "",
-              inredientsName: "",
+              ingredientsQuantity: "2",
+              inredientsName: "boneless, skinless chicken breasts",
+            },
+            {
+              ingredientsQuantity: "2",
+              inredientsName: "tbsp butter",
+            },
+            {
+              ingredientsQuantity: "3",
+              inredientsName: "garlic cloves (minced)",
+            },
+            {
+              ingredientsQuantity: "1/2",
+              inredientsName: "tsp salt",
+            },
+            {
+              ingredientsQuantity: "1/2",
+              inredientsName: "tsp black pepper",
+            },
+            {
+              ingredientsQuantity: "1/2",
+              inredientsName: "tsp paprika",
+            },
+            {
+              ingredientsQuantity: "1/2",
+              inredientsName: "tsp dried thyme",
+            },
+            {
+              ingredientsQuantity: "1",
+              inredientsName: "tbsp olive oil",
             },
           ],
         },
@@ -2737,39 +2766,83 @@ export const recipes = [
     ],
     recipeDirections: [
       {
-        directionTitle: "",
-        directionDescription: "",
+        directionTitle: "Season the chicken",
+        directionDescription: "Rub with salt, pepper, paprika, and thyme.",
+      },
+      {
+        directionTitle: "Sear the chicken",
+        directionDescription:
+          "Heat olive oil in a pan and cook chicken for 5 minutes per side until golden.",
+      },
+      {
+        directionTitle: "Add garlic butter",
+        directionDescription:
+          "Melt butter, add garlic, and cook for 2 minutes.",
+      },
+      {
+        directionTitle: "Finish cooking",
+        directionDescription:
+          "Spoon butter over chicken and cook for 5 more minutes. Serve hot.",
       },
     ],
   },
   {
-    id: "",
-    recipeName: "",
+    id: "1baa6927-f3cb-4f3a-ad51-52c762e78875",
+    recipeName: "Honey Mustard Chicken Thighs",
     author: {
       authorAvatar: "",
-      authorName: "",
-      authorDatePosted: "",
+      authorName: "Joseph Smith",
+      authorDatePosted: "05 December 2023",
     },
-    prepareTime: "",
-    cookTime: "",
+    prepareTime: "10",
+    cookTime: "25",
     recipeCategory: "Chicken",
     recipeImage: "",
     nutritionInformation: {
-      calories: "",
-      totalFat: "",
-      protein: "",
-      carbohydrate: "",
-      cholesterol: "",
+      calories: "350",
+      totalFat: "20",
+      protein: "40",
+      carbohydrate: "8",
+      cholesterol: "110",
     },
-    recipeDescription: "",
+    recipeDescription:
+      "Sweet and tangy honey mustard glaze gives these chicken thighs a delicious caramelized crust.",
     recipeIngredients: [
       {
         recipeSteps: {
           name: "",
           steps: [
             {
-              ingredientsQuantity: "",
-              inredientsName: "",
+              ingredientsQuantity: "4",
+              inredientsName: "chicken thighs (bone-in, skin-on)",
+            },
+            {
+              ingredientsQuantity: "2",
+              inredientsName: "tbsp honey",
+            },
+            {
+              ingredientsQuantity: "2",
+              inredientsName: "tbsp Dijon mustard",
+            },
+            {
+              ingredientsQuantity: "1",
+              inredientsName: "tbsp olive oil",
+            },
+            {
+              ingredientsQuantity: "1",
+              inredientsName: "tsp salt",
+            },
+            {
+              ingredientsQuantity: "1/2",
+              inredientsName: "tsp black pepper",
+            },
+            {
+              ingredientsQuantity: "1/2",
+              inredientsName: "tsp garlic powder",
+            },
+            {
+              ingredientsQuantity: "1/2",
+              inredientsName: "tsp paprika",
             },
           ],
         },
@@ -2777,39 +2850,82 @@ export const recipes = [
     ],
     recipeDirections: [
       {
-        directionTitle: "",
-        directionDescription: "",
+        directionTitle: "Preheat oven",
+        directionDescription: "Set to 200°C (400°F).",
+      },
+      {
+        directionTitle: "Season chicken",
+        directionDescription:
+          "Rub with salt, pepper, garlic powder, and paprika.",
+      },
+      {
+        directionTitle: "Make glaze",
+        directionDescription: "Mix honey and mustard, then brush over chicken.",
+      },
+      {
+        directionTitle: "Bake",
+        directionDescription:
+          "Cook for 25 minutes, basting with more glaze halfway through.",
       },
     ],
   },
   {
-    id: "",
-    recipeName: "",
+    id: "0e5b6d5a-03e5-40eb-b50d-aa3013088919",
+    recipeName: "Spicy Grilled Chicken Wings",
     author: {
       authorAvatar: "",
-      authorName: "",
-      authorDatePosted: "",
+      authorName: "Landon Lee",
+      authorDatePosted: "26 July 2021",
     },
-    prepareTime: "",
-    cookTime: "",
+    prepareTime: "15",
+    cookTime: "25",
     recipeCategory: "Chicken",
     recipeImage: "",
     nutritionInformation: {
-      calories: "",
-      totalFat: "",
-      protein: "",
-      carbohydrate: "",
-      cholesterol: "",
+      calories: "280",
+      totalFat: "15",
+      protein: "30",
+      carbohydrate: "3",
+      cholesterol: "85",
     },
-    recipeDescription: "",
+    recipeDescription:
+      "Crispy, smoky, and packed with spicy flavors, these grilled wings are perfect for game nights and parties.",
     recipeIngredients: [
       {
         recipeSteps: {
           name: "",
           steps: [
             {
-              ingredientsQuantity: "",
-              inredientsName: "",
+              ingredientsQuantity: "1",
+              inredientsName: "kg chicken wings",
+            },
+            {
+              ingredientsQuantity: "2",
+              inredientsName: "tbsp olive oil",
+            },
+            {
+              ingredientsQuantity: "1",
+              inredientsName: "tsp salt",
+            },
+            {
+              ingredientsQuantity: "1",
+              inredientsName: "tsp black pepper",
+            },
+            {
+              ingredientsQuantity: "1",
+              inredientsName: "tsp smoked paprika",
+            },
+            {
+              ingredientsQuantity: "1",
+              inredientsName: "tsp cayenne pepper",
+            },
+            {
+              ingredientsQuantity: "1",
+              inredientsName: "tsp garlic powder",
+            },
+            {
+              ingredientsQuantity: "1",
+              inredientsName: "tbsp hot sauce",
             },
           ],
         },
@@ -2817,39 +2933,82 @@ export const recipes = [
     ],
     recipeDirections: [
       {
-        directionTitle: "",
-        directionDescription: "",
+        directionTitle: "Season wings",
+        directionDescription:
+          "Toss with olive oil, salt, pepper, paprika, cayenne, and garlic powder.",
+      },
+      {
+        directionTitle: "Preheat grill",
+        directionDescription: "Heat to medium-high.",
+      },
+      {
+        directionTitle: "Grill wings",
+        directionDescription:
+          "Cook for 10 minutes per side, brushing with hot sauce.",
+      },
+      {
+        directionTitle: "Serve",
+        directionDescription: "Let rest for 5 minutes before serving.",
       },
     ],
   },
   {
-    id: "",
-    recipeName: "",
+    id: "71206948-7d3b-485c-bb68-c2baeeb2496f",
+    recipeName: "Creamy Chicken Alfredo",
     author: {
       authorAvatar: "",
-      authorName: "",
-      authorDatePosted: "",
+      authorName: "Liam Clark",
+      authorDatePosted: "28 August 2020",
     },
-    prepareTime: "",
-    cookTime: "",
+    prepareTime: "10",
+    cookTime: "20",
     recipeCategory: "Chicken",
     recipeImage: "",
     nutritionInformation: {
-      calories: "",
-      totalFat: "",
-      protein: "",
-      carbohydrate: "",
-      cholesterol: "",
+      calories: "450",
+      totalFat: "25",
+      protein: "40",
+      carbohydrate: "30",
+      cholesterol: "95",
     },
-    recipeDescription: "",
+    recipeDescription:
+      "Rich and creamy Alfredo sauce coats tender chicken and pasta for the ultimate comfort food.",
     recipeIngredients: [
       {
         recipeSteps: {
           name: "",
           steps: [
             {
-              ingredientsQuantity: "",
-              inredientsName: "",
+              ingredientsQuantity: "2",
+              inredientsName: "chicken breasts (sliced)",
+            },
+            {
+              ingredientsQuantity: "200g",
+              inredientsName: "fettuccine pasta",
+            },
+            {
+              ingredientsQuantity: "2",
+              inredientsName: "tbsp butter",
+            },
+            {
+              ingredientsQuantity: "2",
+              inredientsName: "garlic cloves (minced)",
+            },
+            {
+              ingredientsQuantity: "1",
+              inredientsName: "cup heavy cream",
+            },
+            {
+              ingredientsQuantity: "1/2",
+              inredientsName: "cup grated Parmesan cheese",
+            },
+            {
+              ingredientsQuantity: "1/2",
+              inredientsName: "tsp salt",
+            },
+            {
+              ingredientsQuantity: "1/2",
+              inredientsName: "tsp black pepper",
             },
           ],
         },
@@ -2857,39 +3016,86 @@ export const recipes = [
     ],
     recipeDirections: [
       {
-        directionTitle: "",
-        directionDescription: "",
+        directionTitle: "Cook pasta",
+        directionDescription: "Boil until al dente, then drain.",
+      },
+      {
+        directionTitle: "Cook chicken",
+        directionDescription:
+          "Sauté in butter with salt and pepper until golden.",
+      },
+      {
+        directionTitle: "Make sauce",
+        directionDescription:
+          "Add garlic, cream, and Parmesan, stirring until thick.",
+      },
+      {
+        directionTitle: "Combine",
+        directionDescription: "Toss pasta with sauce and chicken. Serve hot.",
       },
     ],
   },
   {
-    id: "",
-    recipeName: "",
+    id: "0c176541-5fd9-4d28-ba17-5e61d7a62af0",
+    recipeName: "Lemon Herb Roasted Chicken",
     author: {
       authorAvatar: "",
-      authorName: "",
-      authorDatePosted: "",
+      authorName: "Jonathan Williams",
+      authorDatePosted: "11 August 2022",
     },
-    prepareTime: "",
-    cookTime: "",
+    prepareTime: "15",
+    cookTime: "50",
     recipeCategory: "Chicken",
     recipeImage: "",
     nutritionInformation: {
-      calories: "",
-      totalFat: "",
-      protein: "",
-      carbohydrate: "",
-      cholesterol: "",
+      calories: "400",
+      totalFat: "22",
+      protein: "42",
+      carbohydrate: "5",
+      cholesterol: "120",
     },
-    recipeDescription: "",
+    recipeDescription:
+      "A juicy, oven-roasted chicken with fresh herbs and zesty lemon, perfect for a wholesome meal.",
     recipeIngredients: [
       {
         recipeSteps: {
           name: "",
           steps: [
             {
-              ingredientsQuantity: "",
-              inredientsName: "",
+              ingredientsQuantity: "1",
+              inredientsName: "whole chicken (about 1.5 kg)",
+            },
+            {
+              ingredientsQuantity: "2",
+              inredientsName: "tbsp olive oil",
+            },
+            {
+              ingredientsQuantity: "2",
+              inredientsName: "tbsp butter (melted)",
+            },
+            {
+              ingredientsQuantity: "1",
+              inredientsName: "lemon (sliced)",
+            },
+            {
+              ingredientsQuantity: "3",
+              inredientsName: "garlic cloves (smashed)",
+            },
+            {
+              ingredientsQuantity: "1",
+              inredientsName: "tsp salt",
+            },
+            {
+              ingredientsQuantity: "1/2",
+              inredientsName: "tsp black pepper",
+            },
+            {
+              ingredientsQuantity: "1",
+              inredientsName: "tsp dried oregano",
+            },
+            {
+              ingredientsQuantity: "1",
+              inredientsName: "tsp dried thyme",
             },
           ],
         },
@@ -2897,8 +3103,22 @@ export const recipes = [
     ],
     recipeDirections: [
       {
-        directionTitle: "",
-        directionDescription: "",
+        directionTitle: "Preheat oven",
+        directionDescription: "Set to 190°C (375°F).",
+      },
+      {
+        directionTitle: "Season chicken",
+        directionDescription:
+          "Rub with olive oil, butter, salt, pepper, oregano, and thyme. Stuff with lemon slices and garlic.",
+      },
+      {
+        directionTitle: "Roast",
+        directionDescription:
+          "Place in a roasting pan and cook for 50 minutes, basting occasionally.",
+      },
+      {
+        directionTitle: "Rest & serve",
+        directionDescription: "Let rest for 10 minutes before carving.",
       },
     ],
   },
