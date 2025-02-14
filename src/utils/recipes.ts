@@ -502,33 +502,54 @@ export const recipes = [
   },
   // Meat
   {
-    id: "",
-    recipeName: "",
+    id: "9d99aeca-c456-4df6-9e6e-0a5d1a58d3cf",
+    recipeName: "Classic Beef Steak with Garlic Butter",
     author: {
       authorAvatar: "",
-      authorName: "",
-      authorDatePosted: "",
+      authorName: "Leah Chavez",
+      authorDatePosted: "17 June 2020",
     },
-    prepareTime: "",
-    cookTime: "",
+    prepareTime: "10",
+    cookTime: "10",
     recipeCategory: "Meat",
     recipeImage: "",
     nutritionInformation: {
-      calories: "",
-      totalFat: "",
-      protein: "",
-      carbohydrate: "",
-      cholesterol: "",
+      calories: "450",
+      totalFat: "28",
+      protein: "40",
+      carbohydrate: "2",
+      cholesterol: "120",
     },
-    recipeDescription: "",
+    recipeDescription:
+      "A juicy and flavorful beef steak seared to perfection and topped with rich garlic butter. This simple yet elegant dish is ideal for a quick dinner.",
     recipeIngredients: [
       {
         recipeSteps: {
           name: "",
           steps: [
             {
+              ingredientsQuantity: "2",
+              inredientsName: "beef steaks (ribeye or sirloin)",
+            },
+            {
+              ingredientsQuantity: "1",
+              inredientsName: "tbsp olive oil",
+            },
+            {
+              ingredientsQuantity: "2",
+              inredientsName: "tbsp butter",
+            },
+            {
+              ingredientsQuantity: "3",
+              inredientsName: "garlic cloves (minced)",
+            },
+            {
+              ingredientsQuantity: "1",
+              inredientsName: "tsp fresh thyme",
+            },
+            {
               ingredientsQuantity: "",
-              inredientsName: "",
+              inredientsName: "Salt & black pepper to taste",
             },
           ],
         },
@@ -536,39 +557,347 @@ export const recipes = [
     ],
     recipeDirections: [
       {
-        directionTitle: "",
+        directionTitle: "Season steak",
+        directionDescription: "Rub steaks with salt and black pepper.",
+      },
+      {
+        directionTitle: "Sear in a pan",
+        directionDescription: "Heat oil, sear steaks for 3-4 minutes per side.",
+      },
+      {
+        directionTitle: "Add butter & garlic",
+        directionDescription:
+          "Melt butter, add garlic and thyme, and baste steaks.",
+      },
+      {
+        directionTitle: "Rest & serve",
+        directionDescription: "Let steaks rest for 5 minutes before serving.",
+      },
+    ],
+  },
+  {
+    id: "a2ef0b5b-6215-4062-bd23-ce010e5edb53",
+    recipeName: "BBQ Pork Ribs",
+    author: {
+      authorAvatar: "",
+      authorName: "Madelyn Chavez",
+      authorDatePosted: "21 March 2023",
+    },
+    prepareTime: "15",
+    cookTime: "150",
+    recipeCategory: "Meat",
+    recipeImage: "",
+    nutritionInformation: {
+      calories: "600",
+      totalFat: "35",
+      protein: "50",
+      carbohydrate: "18",
+      cholesterol: "140",
+    },
+    recipeDescription:
+      "Tender, fall-off-the-bone pork ribs slow-cooked and smothered in a sweet and smoky barbecue sauce.",
+    recipeIngredients: [
+      {
+        recipeSteps: {
+          name: "",
+          steps: [
+            {
+              ingredientsQuantity: "1",
+              inredientsName: "rack pork ribs",
+            },
+            {
+              ingredientsQuantity: "1",
+              inredientsName: "tbsp paprika",
+            },
+            {
+              ingredientsQuantity: "1",
+              inredientsName: "tsp garlic powder",
+            },
+            {
+              ingredientsQuantity: "1",
+              inredientsName: "tsp salt",
+            },
+            {
+              ingredientsQuantity: "1",
+              inredientsName: "cup BBQ sauce",
+            },
+          ],
+        },
+      },
+    ],
+    recipeDirections: [
+      {
+        directionTitle: "Season ribs",
+        directionDescription: "Rub with salt, paprika, and garlic powder.",
+      },
+      {
+        directionTitle: "Slow cook",
+        directionDescription:
+          "Wrap in foil and bake at 150°C (300°F) for 2 hours.",
+      },
+      {
+        directionTitle: "Add BBQ sauce",
+        directionDescription: "Brush with BBQ sauce and broil for 10 minutes.",
+      },
+      {
+        directionTitle: "Serve",
+        directionDescription: "Slice and enjoy with coleslaw or fries.",
+      },
+    ],
+  },
+  {
+    id: "786b9a6d-6611-476b-becb-59db7f3cb286",
+    recipeName: "Spicy Chicken Wings",
+    author: {
+      authorAvatar: "",
+      authorName: "Maria Miller",
+      authorDatePosted: "27 January 2021",
+    },
+    prepareTime: "10",
+    cookTime: "25",
+    recipeCategory: "Meat",
+    recipeImage: "",
+    nutritionInformation: {
+      calories: "430",
+      totalFat: "28",
+      protein: "35",
+      carbohydrate: "10",
+      cholesterol: "95",
+    },
+    recipeDescription:
+      "Crispy, spicy, and coated in a delicious buffalo sauce, these chicken wings are the perfect appetizer for any gathering.",
+    recipeIngredients: [
+      {
+        recipeSteps: {
+          name: "",
+          steps: [
+            {
+              ingredientsQuantity: "1",
+              inredientsName: "kg chicken wings",
+            },
+            {
+              ingredientsQuantity: "1",
+              inredientsName: "tsp salt",
+            },
+            {
+              ingredientsQuantity: "1",
+              inredientsName: "tsp black pepper",
+            },
+            {
+              ingredientsQuantity: "1",
+              inredientsName: "cup hot sauce",
+            },
+            {
+              ingredientsQuantity: "2",
+              inredientsName: "tbsp butter",
+            },
+          ],
+        },
+      },
+    ],
+    recipeDirections: [
+      {
+        directionTitle: "Season wings",
+        directionDescription: "Toss wings with salt and pepper.",
+      },
+      {
+        directionTitle: "Bake or fry",
+        directionDescription:
+          "Cook at 200°C (400°F) for 25 minutes or deep-fry until golden.",
+      },
+      {
+        directionTitle: "Prepare sauce",
+        directionDescription: "Melt butter, mix with hot sauce.",
+      },
+      {
+        directionTitle: "Coat & serve",
+        directionDescription: "Toss wings in sauce and serve hot.",
+      },
+    ],
+  },
+  {
+    id: "4c53dce4-5ab2-4411-841c-35dc19bdaf88",
+    recipeName: "Lamb Chops with Rosemary",
+    author: {
+      authorAvatar: "",
+      authorName: "Gabriella Kim",
+      authorDatePosted: "15 March 2023",
+    },
+    prepareTime: "10",
+    cookTime: "15",
+    recipeCategory: "Meat",
+    recipeImage: "",
+    nutritionInformation: {
+      calories: "480",
+      totalFat: "30",
+      protein: "45",
+      carbohydrate: "2",
+      cholesterol: "110",
+    },
+    recipeDescription:
+      "Succulent lamb chops marinated with garlic and rosemary, grilled to perfection for a juicy and aromatic dish.",
+    recipeIngredients: [
+      {
+        recipeSteps: {
+          name: "",
+          steps: [
+            {
+              ingredientsQuantity: "4",
+              inredientsName: "lamb chops",
+            },
+            {
+              ingredientsQuantity: "1",
+              inredientsName: "tbsp olive oil",
+            },
+            {
+              ingredientsQuantity: "2",
+              inredientsName: "garlic cloves (minced)",
+            },
+            {
+              ingredientsQuantity: "1",
+              inredientsName: "tsp rosemary",
+            },
+            {
+              ingredientsQuantity: "",
+              inredientsName: "Salt & pepper",
+            },
+          ],
+        },
+      },
+    ],
+    recipeDirections: [
+      {
+        directionTitle: "Marinate lamb",
+        directionDescription: "Mix oil, garlic, rosemary, salt, and pepper.",
+      },
+      {
+        directionTitle: "Sear chops",
+        directionDescription: "Cook on high heat for 3-4 minutes per side.",
+      },
+      {
+        directionTitle: "Rest & serve",
+        directionDescription: "Let rest for 5 minutes before serving.",
+      },
+    ],
+  },
+  {
+    id: "10fa3cdc-5e37-4e44-8c95-4315329f8bfc",
+    recipeName: "Ground Beef Tacos",
+    author: {
+      authorAvatar: "",
+      authorName: "Penelope Martin",
+      authorDatePosted: "14 May 2022",
+    },
+    prepareTime: "15",
+    cookTime: "10",
+    recipeCategory: "Meat",
+    recipeImage: "",
+    nutritionInformation: {
+      calories: "380",
+      totalFat: "18",
+      protein: "30",
+      carbohydrate: "28",
+      cholesterol: "85",
+    },
+    recipeDescription:
+      "Flavorful and easy-to-make ground beef tacos, topped with fresh veggies and cheese in a warm tortilla.",
+    recipeIngredients: [
+      {
+        recipeSteps: {
+          name: "",
+          steps: [
+            {
+              ingredientsQuantity: "500g",
+              inredientsName: "ground beef",
+            },
+            {
+              ingredientsQuantity: "1",
+              inredientsName: "tsp chili powder",
+            },
+            {
+              ingredientsQuantity: "1",
+              inredientsName: "tsp cumin",
+            },
+            {
+              ingredientsQuantity: "1",
+              inredientsName: "tsp salt",
+            },
+            {
+              ingredientsQuantity: "8",
+              inredientsName: "taco shells",
+            },
+            {
+              ingredientsQuantity: "",
+              inredientsName: "Toppings: lettuce, tomato, cheese",
+            },
+          ],
+        },
+      },
+    ],
+    recipeDirections: [
+      {
+        directionTitle: "Cook beef",
+        directionDescription: "Sauté ground beef with spices until browned.",
+      },
+      {
+        directionTitle: "Warm tortillas",
+        directionDescription: "Heat taco shells in the oven.",
+      },
+      {
+        directionTitle: "Assemble tacos",
+        directionDescription: "Fill with beef and toppings",
+      },
+      {
+        directionTitle: "Serve & enjoy!",
         directionDescription: "",
       },
     ],
   },
   {
-    id: "",
-    recipeName: "",
+    id: "f2450814-bf40-4ef0-a97d-34fd7498e123",
+    recipeName: "Meatballs in Marinara Sauce",
     author: {
       authorAvatar: "",
-      authorName: "",
-      authorDatePosted: "",
+      authorName: "Delilah Harris",
+      authorDatePosted: "18 November 2023",
     },
-    prepareTime: "",
-    cookTime: "",
+    prepareTime: "15",
+    cookTime: "30",
     recipeCategory: "Meat",
     recipeImage: "",
     nutritionInformation: {
-      calories: "",
-      totalFat: "",
-      protein: "",
-      carbohydrate: "",
-      cholesterol: "",
+      calories: "460",
+      totalFat: "24",
+      protein: "40",
+      carbohydrate: "20",
+      cholesterol: "100",
     },
-    recipeDescription: "",
+    recipeDescription:
+      "Juicy homemade meatballs cooked in a rich tomato sauce, perfect over pasta or on a sub.",
     recipeIngredients: [
       {
         recipeSteps: {
           name: "",
           steps: [
             {
-              ingredientsQuantity: "",
-              inredientsName: "",
+              ingredientsQuantity: "500g",
+              inredientsName: "ground beef",
+            },
+            {
+              ingredientsQuantity: "1",
+              inredientsName: "egg",
+            },
+            {
+              ingredientsQuantity: "1/2",
+              inredientsName: "cup breadcrumbs",
+            },
+            {
+              ingredientsQuantity: "1",
+              inredientsName: "tsp garlic powder",
+            },
+            {
+              ingredientsQuantity: "2",
+              inredientsName: "cups marinara sauce",
             },
           ],
         },
@@ -576,39 +905,72 @@ export const recipes = [
     ],
     recipeDirections: [
       {
-        directionTitle: "",
-        directionDescription: "",
+        directionTitle: "Mix meatballs",
+        directionDescription: "Combine beef, egg, breadcrumbs, and garlic.",
+      },
+      {
+        directionTitle: "Shape & cook",
+        directionDescription: "Form into balls, sear in a pan.",
+      },
+      {
+        directionTitle: "Add sauce",
+        directionDescription: "Simmer in marinara sauce for 20 minutes.",
+      },
+      {
+        directionTitle: "Serve",
+        directionDescription: "Over pasta or in a sandwich.",
       },
     ],
   },
   {
-    id: "",
-    recipeName: "",
+    id: "50fff391-1afb-4e2d-8a11-fa28fda28057",
+    recipeName: "Honey Garlic Pork Chops",
     author: {
       authorAvatar: "",
-      authorName: "",
-      authorDatePosted: "",
+      authorName: "Naomi Ramos",
+      authorDatePosted: "28 November 2023",
     },
-    prepareTime: "",
-    cookTime: "",
+    prepareTime: "10",
+    cookTime: "15",
     recipeCategory: "Meat",
     recipeImage: "",
     nutritionInformation: {
-      calories: "",
-      totalFat: "",
-      protein: "",
-      carbohydrate: "",
-      cholesterol: "",
+      calories: "420",
+      totalFat: "22",
+      protein: "45",
+      carbohydrate: "15",
+      cholesterol: "110",
     },
-    recipeDescription: "",
+    recipeDescription:
+      "These juicy pork chops are seared and glazed with a sweet and savory honey garlic sauce, making them irresistibly flavorful.",
     recipeIngredients: [
       {
         recipeSteps: {
           name: "",
           steps: [
             {
-              ingredientsQuantity: "",
-              inredientsName: "",
+              ingredientsQuantity: "4",
+              inredientsName: "pork chops",
+            },
+            {
+              ingredientsQuantity: "1",
+              inredientsName: "tbsp olive oil",
+            },
+            {
+              ingredientsQuantity: "3",
+              inredientsName: "garlic cloves (minced)",
+            },
+            {
+              ingredientsQuantity: "1/4",
+              inredientsName: "cup honey",
+            },
+            {
+              ingredientsQuantity: "2",
+              inredientsName: "tbsp soy sauce",
+            },
+            {
+              ingredientsQuantity: "1",
+              inredientsName: "tsp black pepper",
             },
           ],
         },
@@ -616,39 +978,78 @@ export const recipes = [
     ],
     recipeDirections: [
       {
-        directionTitle: "",
-        directionDescription: "",
+        directionTitle: "Season pork chops",
+        directionDescription: "Sprinkle with salt and pepper.",
+      },
+      {
+        directionTitle: "Sear in a pan",
+        directionDescription:
+          "Heat oil and cook chops for 4-5 minutes per side.",
+      },
+      {
+        directionTitle: "Prepare glaze",
+        directionDescription:
+          "In the same pan, sauté garlic, then add honey and soy sauce.",
+      },
+      {
+        directionTitle: "Coat and serve",
+        directionDescription: "Pour glaze over the chops and serve hot.",
       },
     ],
   },
   {
-    id: "",
-    recipeName: "",
+    id: "782d25ca-8bae-477e-9721-045f46466cab",
+    recipeName: "Beef Stroganoff",
     author: {
       authorAvatar: "",
-      authorName: "",
-      authorDatePosted: "",
+      authorName: "Camila Collins",
+      authorDatePosted: "31 August 2022",
     },
-    prepareTime: "",
-    cookTime: "",
+    prepareTime: "15",
+    cookTime: "25",
     recipeCategory: "Meat",
     recipeImage: "",
     nutritionInformation: {
-      calories: "",
-      totalFat: "",
-      protein: "",
-      carbohydrate: "",
-      cholesterol: "",
+      calories: "550",
+      totalFat: "28",
+      protein: "45",
+      carbohydrate: "35",
+      cholesterol: "120",
     },
-    recipeDescription: "",
+    recipeDescription:
+      "A creamy and comforting dish featuring tender beef strips cooked in a rich mushroom sauce, served over pasta or rice.",
     recipeIngredients: [
       {
         recipeSteps: {
           name: "",
           steps: [
             {
-              ingredientsQuantity: "",
-              inredientsName: "",
+              ingredientsQuantity: "500g",
+              inredientsName: "beef strips",
+            },
+            {
+              ingredientsQuantity: "1",
+              inredientsName: "tbsp olive oil",
+            },
+            {
+              ingredientsQuantity: "1",
+              inredientsName: "onion (chopped)",
+            },
+            {
+              ingredientsQuantity: "1",
+              inredientsName: "cup mushrooms (sliced)",
+            },
+            {
+              ingredientsQuantity: "1",
+              inredientsName: "cup beef broth",
+            },
+            {
+              ingredientsQuantity: "1/2",
+              inredientsName: "cup sour cream",
+            },
+            {
+              ingredientsQuantity: "2",
+              inredientsName: "tbsp flour",
             },
           ],
         },
@@ -656,39 +1057,72 @@ export const recipes = [
     ],
     recipeDirections: [
       {
-        directionTitle: "",
-        directionDescription: "",
+        directionTitle: "Sauté onion & mushrooms",
+        directionDescription: "Cook in oil until soft.",
+      },
+      {
+        directionTitle: "Add beef",
+        directionDescription: "Sear beef strips until browned.",
+      },
+      {
+        directionTitle: "Make sauce",
+        directionDescription: "Stir in flour, broth, and sour cream.",
+      },
+      {
+        directionTitle: "Simmer & serve",
+        directionDescription: "Cook until thickened, then serve over pasta.",
       },
     ],
   },
   {
-    id: "",
-    recipeName: "",
+    id: "c3f866ce-addc-40cc-9e71-d52d88cb5fae",
+    recipeName: "Grilled T-Bone Steak with Herb Butter",
     author: {
       authorAvatar: "",
-      authorName: "",
-      authorDatePosted: "",
+      authorName: "Paisley Price",
+      authorDatePosted: "03 July 2024",
     },
-    prepareTime: "",
-    cookTime: "",
+    prepareTime: "10",
+    cookTime: "10",
     recipeCategory: "Meat",
     recipeImage: "",
     nutritionInformation: {
-      calories: "",
-      totalFat: "",
-      protein: "",
-      carbohydrate: "",
-      cholesterol: "",
+      calories: "600",
+      totalFat: "38",
+      protein: "50",
+      carbohydrate: "3",
+      cholesterol: "130",
     },
-    recipeDescription: "",
+    recipeDescription:
+      "A perfectly grilled T-bone steak topped with a rich and flavorful herb butter for an unbeatable taste.",
     recipeIngredients: [
       {
         recipeSteps: {
           name: "",
           steps: [
             {
+              ingredientsQuantity: "2",
+              inredientsName: "T-bone steaks",
+            },
+            {
+              ingredientsQuantity: "1",
+              inredientsName: "tbsp olive oil",
+            },
+            {
+              ingredientsQuantity: "2",
+              inredientsName: "tbsp butter",
+            },
+            {
+              ingredientsQuantity: "1",
+              inredientsName: "tsp garlic powder",
+            },
+            {
+              ingredientsQuantity: "1",
+              inredientsName: "tsp fresh parsley (chopped)",
+            },
+            {
               ingredientsQuantity: "",
-              inredientsName: "",
+              inredientsName: "Salt & pepper to taste",
             },
           ],
         },
@@ -696,39 +1130,73 @@ export const recipes = [
     ],
     recipeDirections: [
       {
-        directionTitle: "",
-        directionDescription: "",
+        directionTitle: "Season steak",
+        directionDescription: "Rub with salt, pepper, and garlic powder.",
+      },
+      {
+        directionTitle: "Grill to perfection",
+        directionDescription: "Cook over high heat for 4-5 minutes per side.",
+      },
+      {
+        directionTitle: "Prepare herb butter",
+        directionDescription: "Mix butter with parsley and garlic.",
+      },
+      {
+        directionTitle: "Rest & serve",
+        directionDescription:
+          "Let steak rest for 5 minutes, then top with butter.",
       },
     ],
   },
   {
-    id: "",
-    recipeName: "",
+    id: "c79e19c3-758e-4693-8edd-f2a5d81e9950",
+    recipeName: "Teriyaki Chicken",
     author: {
       authorAvatar: "",
-      authorName: "",
-      authorDatePosted: "",
+      authorName: "Eleanor Wright",
+      authorDatePosted: "25 December 2023",
     },
-    prepareTime: "",
-    cookTime: "",
+    prepareTime: "10",
+    cookTime: "20",
     recipeCategory: "Meat",
     recipeImage: "",
     nutritionInformation: {
-      calories: "",
-      totalFat: "",
-      protein: "",
-      carbohydrate: "",
-      cholesterol: "",
+      calories: "450",
+      totalFat: "18",
+      protein: "42",
+      carbohydrate: "25",
+      cholesterol: "95",
     },
-    recipeDescription: "",
+    recipeDescription:
+      "A sweet and savory dish where chicken is glazed with a delicious homemade teriyaki sauce, perfect over rice.",
     recipeIngredients: [
       {
         recipeSteps: {
           name: "",
           steps: [
             {
-              ingredientsQuantity: "",
-              inredientsName: "",
+              ingredientsQuantity: "4",
+              inredientsName: "boneless chicken breasts",
+            },
+            {
+              ingredientsQuantity: "1/4",
+              inredientsName: "cup soy sauce",
+            },
+            {
+              ingredientsQuantity: "2",
+              inredientsName: "tbsp honey",
+            },
+            {
+              ingredientsQuantity: "2",
+              inredientsName: "tbsp mirin",
+            },
+            {
+              ingredientsQuantity: "1",
+              inredientsName: "tsp ginger (grated)",
+            },
+            {
+              ingredientsQuantity: "1",
+              inredientsName: "tsp sesame seeds",
             },
           ],
         },
@@ -736,168 +1204,21 @@ export const recipes = [
     ],
     recipeDirections: [
       {
-        directionTitle: "",
-        directionDescription: "",
+        directionTitle: "Marinate chicken",
+        directionDescription: "Mix soy sauce, honey, mirin, and ginger.",
       },
-    ],
-  },
-  {
-    id: "",
-    recipeName: "",
-    author: {
-      authorAvatar: "",
-      authorName: "",
-      authorDatePosted: "",
-    },
-    prepareTime: "",
-    cookTime: "",
-    recipeCategory: "Meat",
-    recipeImage: "",
-    nutritionInformation: {
-      calories: "",
-      totalFat: "",
-      protein: "",
-      carbohydrate: "",
-      cholesterol: "",
-    },
-    recipeDescription: "",
-    recipeIngredients: [
       {
-        recipeSteps: {
-          name: "",
-          steps: [
-            {
-              ingredientsQuantity: "",
-              inredientsName: "",
-            },
-          ],
-        },
+        directionTitle: "Sear chicken",
+        directionDescription: "Cook over medium heat until golden.",
       },
-    ],
-    recipeDirections: [
       {
-        directionTitle: "",
-        directionDescription: "",
+        directionTitle: "Add sauce",
+        directionDescription:
+          "Pour marinade into the pan and cook until thickened.",
       },
-    ],
-  },
-  {
-    id: "",
-    recipeName: "",
-    author: {
-      authorAvatar: "",
-      authorName: "",
-      authorDatePosted: "",
-    },
-    prepareTime: "",
-    cookTime: "",
-    recipeCategory: "Meat",
-    recipeImage: "",
-    nutritionInformation: {
-      calories: "",
-      totalFat: "",
-      protein: "",
-      carbohydrate: "",
-      cholesterol: "",
-    },
-    recipeDescription: "",
-    recipeIngredients: [
       {
-        recipeSteps: {
-          name: "",
-          steps: [
-            {
-              ingredientsQuantity: "",
-              inredientsName: "",
-            },
-          ],
-        },
-      },
-    ],
-    recipeDirections: [
-      {
-        directionTitle: "",
-        directionDescription: "",
-      },
-    ],
-  },
-  {
-    id: "",
-    recipeName: "",
-    author: {
-      authorAvatar: "",
-      authorName: "",
-      authorDatePosted: "",
-    },
-    prepareTime: "",
-    cookTime: "",
-    recipeCategory: "Meat",
-    recipeImage: "",
-    nutritionInformation: {
-      calories: "",
-      totalFat: "",
-      protein: "",
-      carbohydrate: "",
-      cholesterol: "",
-    },
-    recipeDescription: "",
-    recipeIngredients: [
-      {
-        recipeSteps: {
-          name: "",
-          steps: [
-            {
-              ingredientsQuantity: "",
-              inredientsName: "",
-            },
-          ],
-        },
-      },
-    ],
-    recipeDirections: [
-      {
-        directionTitle: "",
-        directionDescription: "",
-      },
-    ],
-  },
-  {
-    id: "",
-    recipeName: "",
-    author: {
-      authorAvatar: "",
-      authorName: "",
-      authorDatePosted: "",
-    },
-    prepareTime: "",
-    cookTime: "",
-    recipeCategory: "Meat",
-    recipeImage: "",
-    nutritionInformation: {
-      calories: "",
-      totalFat: "",
-      protein: "",
-      carbohydrate: "",
-      cholesterol: "",
-    },
-    recipeDescription: "",
-    recipeIngredients: [
-      {
-        recipeSteps: {
-          name: "",
-          steps: [
-            {
-              ingredientsQuantity: "",
-              inredientsName: "",
-            },
-          ],
-        },
-      },
-    ],
-    recipeDirections: [
-      {
-        directionTitle: "",
-        directionDescription: "",
+        directionTitle: "Garnish & serve",
+        directionDescription: "Sprinkle sesame seeds and serve with rice.",
       },
     ],
   },
