@@ -1224,33 +1224,66 @@ export const recipes = [
   },
   // Dessert
   {
-    id: "",
-    recipeName: "",
+    id: "1ab983b9-434c-40c8-a2fc-ec793b1c71d2",
+    recipeName: "Classic Chocolate Brownies",
     author: {
       authorAvatar: "",
-      authorName: "",
-      authorDatePosted: "",
+      authorName: "Leonardo Campbell",
+      authorDatePosted: "17 September 2024",
     },
-    prepareTime: "",
-    cookTime: "",
+    prepareTime: "15",
+    cookTime: "25",
     recipeCategory: "Dessert",
     recipeImage: "",
     nutritionInformation: {
-      calories: "",
-      totalFat: "",
-      protein: "",
-      carbohydrate: "",
-      cholesterol: "",
+      calories: "320",
+      totalFat: "18",
+      protein: "4",
+      carbohydrate: "38",
+      cholesterol: "55",
     },
-    recipeDescription: "",
+    recipeDescription:
+      "These rich and fudgy chocolate brownies are the ultimate treat for chocolate lovers. They have a gooey texture with a crackly top, making them absolutely irresistible.",
     recipeIngredients: [
       {
         recipeSteps: {
           name: "",
           steps: [
             {
-              ingredientsQuantity: "",
-              inredientsName: "",
+              ingredientsQuantity: "1",
+              inredientsName: "cup unsalted butter (melted)",
+            },
+            {
+              ingredientsQuantity: "1",
+              inredientsName: "cup sugar",
+            },
+            {
+              ingredientsQuantity: "1/2",
+              inredientsName: "cup brown sugar",
+            },
+            {
+              ingredientsQuantity: "3",
+              inredientsName: "eggs",
+            },
+            {
+              ingredientsQuantity: "1",
+              inredientsName: "tsp vanilla extract",
+            },
+            {
+              ingredientsQuantity: "1",
+              inredientsName: "cup all-purpose flour",
+            },
+            {
+              ingredientsQuantity: "1/2",
+              inredientsName: "cup cocoa powder",
+            },
+            {
+              ingredientsQuantity: "1/2",
+              inredientsName: "tsp salt",
+            },
+            {
+              ingredientsQuantity: "1/2",
+              inredientsName: "cup chocolate chips",
             },
           ],
         },
@@ -1258,39 +1291,110 @@ export const recipes = [
     ],
     recipeDirections: [
       {
-        directionTitle: "",
-        directionDescription: "",
+        directionTitle: "Preheat & prepare",
+        directionDescription:
+          "Preheat the oven to 350°F (175°C) and line a baking pan with parchment paper.",
+      },
+      {
+        directionTitle: "Mix wet ingredients",
+        directionDescription:
+          "In a bowl, whisk melted butter, sugar, eggs, and vanilla.",
+      },
+      {
+        directionTitle: "Add dry ingredients",
+        directionDescription:
+          "Sift in flour, cocoa powder, and salt. Mix until just combined.",
+      },
+      {
+        directionTitle: "Fold in chocolate chips",
+        directionDescription: "Stir gently, then pour batter into the pan.",
+      },
+      {
+        directionTitle: "Bake & cool",
+        directionDescription:
+          "Bake for 25 minutes, then let cool before slicing.",
       },
     ],
   },
   {
-    id: "",
-    recipeName: "",
+    id: "ed874a8f-6e61-4634-9d69-6baf3a92dea0",
+    recipeName: "Strawberry Cheesecake",
     author: {
       authorAvatar: "",
-      authorName: "",
-      authorDatePosted: "",
+      authorName: "Thomas Moore",
+      authorDatePosted: "01 September 2023",
     },
-    prepareTime: "",
-    cookTime: "",
+    prepareTime: "20",
+    cookTime: "60",
     recipeCategory: "Dessert",
     recipeImage: "",
     nutritionInformation: {
-      calories: "",
-      totalFat: "",
-      protein: "",
-      carbohydrate: "",
-      cholesterol: "",
+      calories: "450",
+      totalFat: "28",
+      protein: "7",
+      carbohydrate: "40",
+      cholesterol: "90",
     },
-    recipeDescription: "",
+    recipeDescription:
+      "A creamy and tangy cheesecake with a buttery graham cracker crust, topped with fresh strawberries and a sweet glaze.",
     recipeIngredients: [
       {
         recipeSteps: {
-          name: "",
+          name: "Crust",
           steps: [
             {
-              ingredientsQuantity: "",
-              inredientsName: "",
+              ingredientsQuantity: "2",
+              inredientsName: "cups graham cracker crumbs",
+            },
+            {
+              ingredientsQuantity: "1/2",
+              inredientsName: "cup melted butter",
+            },
+            {
+              ingredientsQuantity: "1/4",
+              inredientsName: "cup sugar",
+            },
+          ],
+        },
+      },
+      {
+        recipeSteps: {
+          name: "Filling",
+          steps: [
+            {
+              ingredientsQuantity: "2",
+              inredientsName: "cups cream cheese",
+            },
+            {
+              ingredientsQuantity: "3/4",
+              inredientsName: "cup sugar",
+            },
+            {
+              ingredientsQuantity: "2",
+              inredientsName: "eggs",
+            },
+            {
+              ingredientsQuantity: "1",
+              inredientsName: "tsp vanilla extract",
+            },
+            {
+              ingredientsQuantity: "1/2",
+              inredientsName: "cup sour cream",
+            },
+          ],
+        },
+      },
+      {
+        recipeSteps: {
+          name: "Topping",
+          steps: [
+            {
+              ingredientsQuantity: "1",
+              inredientsName: "cup fresh strawberries",
+            },
+            {
+              ingredientsQuantity: "1/4",
+              inredientsName: "cup strawberry jam",
             },
           ],
         },
@@ -1298,39 +1402,72 @@ export const recipes = [
     ],
     recipeDirections: [
       {
-        directionTitle: "",
-        directionDescription: "",
+        directionTitle: "Prepare the crust",
+        directionDescription:
+          "Mix graham crumbs, melted butter, and sugar. Press into a springform pan.",
+      },
+      {
+        directionTitle: "Make the filling",
+        directionDescription:
+          "Beat cream cheese and sugar, then add eggs and vanilla. Stir in sour cream.",
+      },
+      {
+        directionTitle: "Bake the cheesecake",
+        directionDescription:
+          "Pour filling over crust and bake at 325°F (160°C) for 1 hour.",
+      },
+      {
+        directionTitle: "Cool & top",
+        directionDescription:
+          "Let it cool, then top with strawberries and glaze with jam.",
       },
     ],
   },
   {
-    id: "",
-    recipeName: "",
+    id: "6d437096-964c-44f3-ae7d-e7e1b55dd07b",
+    recipeName: "Vanilla Panna Cotta",
     author: {
       authorAvatar: "",
-      authorName: "",
-      authorDatePosted: "",
+      authorName: "Andrew Wilson",
+      authorDatePosted: "06 April 2022",
     },
-    prepareTime: "",
-    cookTime: "",
+    prepareTime: "10",
+    cookTime: "5 + chilling",
     recipeCategory: "Dessert",
     recipeImage: "",
     nutritionInformation: {
-      calories: "",
-      totalFat: "",
-      protein: "",
-      carbohydrate: "",
-      cholesterol: "",
+      calories: "350",
+      totalFat: "25",
+      protein: "5",
+      carbohydrate: "30",
+      cholesterol: "80",
     },
-    recipeDescription: "",
+    recipeDescription:
+      "This silky Italian dessert is lightly sweetened and infused with vanilla, making it the perfect creamy treat.",
     recipeIngredients: [
       {
         recipeSteps: {
           name: "",
           steps: [
             {
-              ingredientsQuantity: "",
-              inredientsName: "",
+              ingredientsQuantity: "2",
+              inredientsName: "cups heavy cream",
+            },
+            {
+              ingredientsQuantity: "1/2",
+              inredientsName: "cup sugar",
+            },
+            {
+              ingredientsQuantity: "1",
+              inredientsName: "tsp vanilla extract",
+            },
+            {
+              ingredientsQuantity: "2",
+              inredientsName: "tsp gelatin",
+            },
+            {
+              ingredientsQuantity: "1/4",
+              inredientsName: "cup cold water",
             },
           ],
         },
@@ -1338,39 +1475,72 @@ export const recipes = [
     ],
     recipeDirections: [
       {
-        directionTitle: "",
-        directionDescription: "",
+        directionTitle: "Bloom gelatin",
+        directionDescription:
+          "Sprinkle gelatin over cold water and let sit for 5 minutes.",
+      },
+      {
+        directionTitle: "Heat cream",
+        directionDescription:
+          "Warm heavy cream with sugar and vanilla until hot (but not boiling).",
+      },
+      {
+        directionTitle: "Combine & chill",
+        directionDescription:
+          "Stir in gelatin until dissolved, then pour into molds and refrigerate for 4 hours",
+      },
+      {
+        directionTitle: "Serve",
+        directionDescription:
+          "Unmold onto plates and top with fruit or caramel.",
       },
     ],
   },
   {
-    id: "",
+    id: "82fa3073-4775-4e52-a527-86ed3bc56902",
     recipeName: "",
     author: {
       authorAvatar: "",
-      authorName: "",
-      authorDatePosted: "",
+      authorName: "Santiago Jones",
+      authorDatePosted: "20 April 2022",
     },
-    prepareTime: "",
-    cookTime: "",
+    prepareTime: "10",
+    cookTime: "12",
     recipeCategory: "Dessert",
     recipeImage: "",
     nutritionInformation: {
-      calories: "",
-      totalFat: "",
-      protein: "",
-      carbohydrate: "",
-      cholesterol: "",
+      calories: "400",
+      totalFat: "26",
+      protein: "6",
+      carbohydrate: "38",
+      cholesterol: "90",
     },
-    recipeDescription: "",
+    recipeDescription:
+      "A decadent chocolate cake with a gooey, molten center that oozes out when cut.",
     recipeIngredients: [
       {
         recipeSteps: {
           name: "",
           steps: [
             {
-              ingredientsQuantity: "",
-              inredientsName: "",
+              ingredientsQuantity: "1/2",
+              inredientsName: "cup dark chocolate",
+            },
+            {
+              ingredientsQuantity: "1/4",
+              inredientsName: "cup butter",
+            },
+            {
+              ingredientsQuantity: "2",
+              inredientsName: "eggs",
+            },
+            {
+              ingredientsQuantity: "1/4",
+              inredientsName: "cup sugar",
+            },
+            {
+              ingredientsQuantity: "2",
+              inredientsName: "tbsp flour",
             },
           ],
         },
@@ -1378,39 +1548,84 @@ export const recipes = [
     ],
     recipeDirections: [
       {
-        directionTitle: "",
-        directionDescription: "",
+        directionTitle: "Melt chocolate & butter",
+        directionDescription: "Heat together until smooth.",
+      },
+      {
+        directionTitle: "Whisk eggs & sugar",
+        directionDescription: "Beat until fluffy, then mix with chocolate.",
+      },
+      {
+        directionTitle: "Fold in flour",
+        directionDescription: "Stir gently and pour into greased ramekins.",
+      },
+      {
+        directionTitle: "Bake & serve",
+        directionDescription:
+          "Bake at 425°F (220°C) for 12 minutes, then serve immediately.",
       },
     ],
   },
   {
-    id: "",
-    recipeName: "",
+    id: "5a337ea1-2677-4a41-b5f5-014812285a46",
+    recipeName: "Apple Crisp",
     author: {
       authorAvatar: "",
-      authorName: "",
-      authorDatePosted: "",
+      authorName: "Leonardo Parker",
+      authorDatePosted: "05 June 2022",
     },
-    prepareTime: "",
-    cookTime: "",
+    prepareTime: "15",
+    cookTime: "35",
     recipeCategory: "Dessert",
     recipeImage: "",
     nutritionInformation: {
-      calories: "",
-      totalFat: "",
-      protein: "",
-      carbohydrate: "",
-      cholesterol: "",
+      calories: "320",
+      totalFat: "12",
+      protein: "3",
+      carbohydrate: "50",
+      cholesterol: "15",
     },
-    recipeDescription: "",
+    recipeDescription:
+      "A warm and comforting apple dessert with a crunchy oat topping and cinnamon-spiced filling.",
     recipeIngredients: [
       {
         recipeSteps: {
           name: "",
           steps: [
             {
-              ingredientsQuantity: "",
-              inredientsName: "",
+              ingredientsQuantity: "4",
+              inredientsName: "apples (sliced)",
+            },
+            {
+              ingredientsQuantity: "1/2",
+              inredientsName: "cup sugar",
+            },
+            {
+              ingredientsQuantity: "1",
+              inredientsName: "tsp cinnamon",
+            },
+          ],
+        },
+      },
+      {
+        recipeSteps: {
+          name: "Topping",
+          steps: [
+            {
+              ingredientsQuantity: "1/2",
+              inredientsName: "cup oats",
+            },
+            {
+              ingredientsQuantity: "1/2",
+              inredientsName: "cup flour",
+            },
+            {
+              ingredientsQuantity: "1/4",
+              inredientsName: "cup butter",
+            },
+            {
+              ingredientsQuantity: "1/4",
+              inredientsName: "cup brown sugar",
             },
           ],
         },
@@ -1418,39 +1633,61 @@ export const recipes = [
     ],
     recipeDirections: [
       {
-        directionTitle: "",
-        directionDescription: "",
+        directionTitle: "Mix apples & sugar",
+        directionDescription: "Toss sliced apples with sugar and cinnamon.",
+      },
+      {
+        directionTitle: "Prepare topping",
+        directionDescription: "Mix oats, flour, butter, and brown sugar.",
+      },
+      {
+        directionTitle: "Assemble & bake",
+        directionDescription:
+          "Layer apples in a baking dish, cover with topping, and bake at 350°F (175°C) for 35 minutes.",
+      },
+      {
+        directionTitle: "Serve warm",
+        directionDescription: "Enjoy with ice cream.",
       },
     ],
   },
   {
-    id: "",
-    recipeName: "",
+    id: "b2b8493e-0edf-499f-a4ef-6ce3953846a2",
+    recipeName: "Coconut Macaroons",
     author: {
       authorAvatar: "",
-      authorName: "",
-      authorDatePosted: "",
+      authorName: "Colton Wood",
+      authorDatePosted: "25 November 2023",
     },
-    prepareTime: "",
-    cookTime: "",
+    prepareTime: "10",
+    cookTime: "15",
     recipeCategory: "Dessert",
     recipeImage: "",
     nutritionInformation: {
-      calories: "",
-      totalFat: "",
-      protein: "",
-      carbohydrate: "",
-      cholesterol: "",
+      calories: "150",
+      totalFat: "10",
+      protein: "2",
+      carbohydrate: "15",
+      cholesterol: "0",
     },
-    recipeDescription: "",
+    recipeDescription:
+      "These crispy-on-the-outside, chewy-on-the-inside coconut macaroons are simple yet delicious.",
     recipeIngredients: [
       {
         recipeSteps: {
           name: "",
           steps: [
             {
-              ingredientsQuantity: "",
-              inredientsName: "",
+              ingredientsQuantity: "2",
+              inredientsName: "cups shredded coconut",
+            },
+            {
+              ingredientsQuantity: "1/2",
+              inredientsName: "cup condensed milk",
+            },
+            {
+              ingredientsQuantity: "1",
+              inredientsName: "tsp vanilla",
             },
           ],
         },
@@ -1458,39 +1695,76 @@ export const recipes = [
     ],
     recipeDirections: [
       {
-        directionTitle: "",
-        directionDescription: "",
+        directionTitle: "Mix ingredients",
+        directionDescription: "Combine coconut, condensed milk, and vanilla.",
+      },
+      {
+        directionTitle: "Shape macaroons",
+        directionDescription: "Form small mounds on a baking sheet.",
+      },
+      {
+        directionTitle: "Bake",
+        directionDescription:
+          "Bake at 350°F (175°C) for 15 minutes until golden.",
       },
     ],
   },
   {
-    id: "",
-    recipeName: "",
+    id: "2bf6da94-7011-4630-ac63-a72600c97f6a",
+    recipeName: "Lemon Bars",
     author: {
       authorAvatar: "",
-      authorName: "",
-      authorDatePosted: "",
+      authorName: "Nathan Hill",
+      authorDatePosted: "28 December 2024",
     },
-    prepareTime: "",
-    cookTime: "",
+    prepareTime: "15",
+    cookTime: "40",
     recipeCategory: "Dessert",
     recipeImage: "",
     nutritionInformation: {
-      calories: "",
-      totalFat: "",
-      protein: "",
-      carbohydrate: "",
-      cholesterol: "",
+      calories: "280",
+      totalFat: "12",
+      protein: "3",
+      carbohydrate: "40",
+      cholesterol: "45",
     },
-    recipeDescription: "",
+    recipeDescription:
+      "Sweet and tangy lemon bars with a buttery shortbread crust.",
     recipeIngredients: [
       {
         recipeSteps: {
-          name: "",
+          name: "Crust",
           steps: [
             {
-              ingredientsQuantity: "",
-              inredientsName: "",
+              ingredientsQuantity: "1",
+              inredientsName: "cup flour",
+            },
+            {
+              ingredientsQuantity: "1/2",
+              inredientsName: "cup better",
+            },
+            {
+              ingredientsQuantity: "1/4",
+              inredientsName: "cup sugar",
+            },
+          ],
+        },
+      },
+      {
+        recipeSteps: {
+          name: "Filling",
+          steps: [
+            {
+              ingredientsQuantity: "2",
+              inredientsName: "eggs",
+            },
+            {
+              ingredientsQuantity: "3/4",
+              inredientsName: "cup sugar",
+            },
+            {
+              ingredientsQuantity: "1/4",
+              inredientsName: "cup lemon juice",
             },
           ],
         },
@@ -1498,8 +1772,19 @@ export const recipes = [
     ],
     recipeDirections: [
       {
-        directionTitle: "",
-        directionDescription: "",
+        directionTitle: "Make crust",
+        directionDescription:
+          "Mix flour, butter, and sugar, then press into a pan. Bake for 15 min.",
+      },
+      {
+        directionTitle: "Prepare filling",
+        directionDescription:
+          "Whisk eggs, sugar, and lemon juice, then pour over crust.",
+      },
+      {
+        directionTitle: "Bake again",
+        directionDescription:
+          "Bake for 25 minutes, then cool and cut into squares.",
       },
     ],
   },
