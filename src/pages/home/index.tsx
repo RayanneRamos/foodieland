@@ -47,7 +47,11 @@ export function Home() {
             </div>
             <div className={styles.headerFooter}>
               <Avatar />
-              <Button icon="PlayCircle" name="View Recipes" />
+              <Button
+                icon="PlayCircle"
+                name="View Recipes"
+                onClick={() => navigate("/recipes")}
+              />
             </div>
           </div>
           <img src={bannerImage} alt="banner" />
@@ -73,6 +77,7 @@ export function Home() {
                   image={category.image}
                   name={category.name}
                   key={category.id}
+                  onClick={() => navigate(`/categories/${category.id}`)}
                 />
               );
             })}
