@@ -1790,33 +1790,54 @@ export const recipes = [
   },
   // Lunch
   {
-    id: "",
-    recipeName: "",
+    id: "ed433054-6aec-4fb9-aae3-3d6dae387b9a",
+    recipeName: "Grilled Chicken Caesar Wrap",
     author: {
       authorAvatar: "",
-      authorName: "",
-      authorDatePosted: "",
+      authorName: "Beau Murphy",
+      authorDatePosted: "19 October 2023",
     },
-    prepareTime: "",
-    cookTime: "",
+    prepareTime: "10",
+    cookTime: "10",
     recipeCategory: "Lunch",
     recipeImage: "",
     nutritionInformation: {
-      calories: "",
-      totalFat: "",
-      protein: "",
-      carbohydrate: "",
-      cholesterol: "",
+      calories: "450",
+      totalFat: "18",
+      protein: "35",
+      carbohydrate: "40",
+      cholesterol: "65",
     },
-    recipeDescription: "",
+    recipeDescription:
+      "A light yet filling wrap packed with grilled chicken, fresh romaine lettuce, parmesan cheese, and creamy Caesar dressing wrapped in a soft tortilla.",
     recipeIngredients: [
       {
         recipeSteps: {
           name: "",
           steps: [
             {
-              ingredientsQuantity: "",
-              inredientsName: "",
+              ingredientsQuantity: "1",
+              inredientsName: "grilled chicken breast (sliced)",
+            },
+            {
+              ingredientsQuantity: "1",
+              inredientsName: "large tortilla wrap",
+            },
+            {
+              ingredientsQuantity: "1",
+              inredientsName: "cup romaine lettuce (chopped)",
+            },
+            {
+              ingredientsQuantity: "2",
+              inredientsName: "tbsp Caesar dressing",
+            },
+            {
+              ingredientsQuantity: "2",
+              inredientsName: "tbsp parmesan cheese (grated)",
+            },
+            {
+              ingredientsQuantity: "1/2",
+              inredientsName: "tsp black pepper",
             },
           ],
         },
@@ -1824,39 +1845,70 @@ export const recipes = [
     ],
     recipeDirections: [
       {
-        directionTitle: "",
-        directionDescription: "",
+        directionTitle: "Grill the chicken",
+        directionDescription:
+          "Cook the chicken breast over medium heat until fully cooked. Slice into strips.",
+      },
+      {
+        directionTitle: "Assemble the wrap",
+        directionDescription:
+          "Lay the tortilla flat and add lettuce, grilled chicken, dressing, and parmesan.",
+      },
+      {
+        directionTitle: "Wrap it up",
+        directionDescription: "Fold in the sides and roll tightly.",
+      },
+      {
+        directionTitle: "Serve & enjoy",
+        directionDescription: "Slice in half and serve immediately.",
       },
     ],
   },
   {
-    id: "",
-    recipeName: "",
+    id: "5a6ad972-877b-4c59-b45d-58daca2c1cf1",
+    recipeName: "Classic BLT Sandwich",
     author: {
       authorAvatar: "",
-      authorName: "",
-      authorDatePosted: "",
+      authorName: "Jose King",
+      authorDatePosted: "12 November 2024",
     },
-    prepareTime: "",
-    cookTime: "",
+    prepareTime: "5",
+    cookTime: "10",
     recipeCategory: "Lunch",
     recipeImage: "",
     nutritionInformation: {
-      calories: "",
-      totalFat: "",
-      protein: "",
-      carbohydrate: "",
-      cholesterol: "",
+      calories: "480",
+      totalFat: "25",
+      protein: "20",
+      carbohydrate: "40",
+      cholesterol: "45",
     },
-    recipeDescription: "",
+    recipeDescription:
+      "A classic bacon, lettuce, and tomato sandwich layered between crispy toasted bread with a hint of creamy mayo.",
     recipeIngredients: [
       {
         recipeSteps: {
           name: "",
           steps: [
             {
-              ingredientsQuantity: "",
-              inredientsName: "",
+              ingredientsQuantity: "2",
+              inredientsName: "slices of bread (toasted)",
+            },
+            {
+              ingredientsQuantity: "3",
+              inredientsName: "slices of bacon",
+            },
+            {
+              ingredientsQuantity: "2",
+              inredientsName: "lettuce leaves",
+            },
+            {
+              ingredientsQuantity: "2",
+              inredientsName: "tomato slices",
+            },
+            {
+              ingredientsQuantity: "1",
+              inredientsName: "tbsp mayonnaise",
             },
           ],
         },
@@ -1864,39 +1916,77 @@ export const recipes = [
     ],
     recipeDirections: [
       {
-        directionTitle: "",
-        directionDescription: "",
+        directionTitle: "Cook the bacon",
+        directionDescription: "Fry the bacon in a pan until crispy.",
+      },
+      {
+        directionTitle: "Toast the bread",
+        directionDescription: "Lightly toast both slices of bread.",
+      },
+      {
+        directionTitle: "Assemble the sandwich",
+        directionDescription:
+          "Spread mayo on one slice, add lettuce, tomato, bacon, and top with the second slice.",
+      },
+      {
+        directionTitle: "Slice & serve",
+        directionDescription: "Cut diagonally and enjoy!",
       },
     ],
   },
   {
-    id: "",
-    recipeName: "",
+    id: "6be5ffdc-5589-4fd2-aab7-74bc9f1b8676",
+    recipeName: "Veggie Stir-Fry with Tofu",
     author: {
       authorAvatar: "",
-      authorName: "",
-      authorDatePosted: "",
+      authorName: "Aaron Martinez",
+      authorDatePosted: "01 October 2020",
     },
-    prepareTime: "",
-    cookTime: "",
+    prepareTime: "15",
+    cookTime: "10",
     recipeCategory: "Lunch",
     recipeImage: "",
     nutritionInformation: {
-      calories: "",
-      totalFat: "",
-      protein: "",
-      carbohydrate: "",
-      cholesterol: "",
+      calories: "350",
+      totalFat: "15",
+      protein: "20",
+      carbohydrate: "40",
+      cholesterol: "0",
     },
-    recipeDescription: "",
+    recipeDescription:
+      "A colorful, nutrient-packed stir-fry with tofu, bell peppers, carrots, and a savory soy-ginger sauce.",
     recipeIngredients: [
       {
         recipeSteps: {
           name: "",
           steps: [
             {
-              ingredientsQuantity: "",
-              inredientsName: "",
+              ingredientsQuantity: "1",
+              inredientsName: "cup firm tofu (cubed)",
+            },
+            {
+              ingredientsQuantity: "1",
+              inredientsName: "red bell pepper (sliced)",
+            },
+            {
+              ingredientsQuantity: "1",
+              inredientsName: "carrot (julienned)",
+            },
+            {
+              ingredientsQuantity: "1",
+              inredientsName: "cup broccoli florets",
+            },
+            {
+              ingredientsQuantity: "2",
+              inredientsName: "tbsp soy sauce",
+            },
+            {
+              ingredientsQuantity: "1",
+              inredientsName: "tsp ginger (grated)",
+            },
+            {
+              ingredientsQuantity: "1",
+              inredientsName: "tbsp sesame oil",
             },
           ],
         },
@@ -1904,39 +1994,74 @@ export const recipes = [
     ],
     recipeDirections: [
       {
-        directionTitle: "",
-        directionDescription: "",
+        directionTitle: "Sauté tofu",
+        directionDescription:
+          "Heat sesame oil in a pan and cook tofu until golden brown.",
+      },
+      {
+        directionTitle: "Add veggies",
+        directionDescription: "Stir in bell pepper, carrots, and broccoli.",
+      },
+      {
+        directionTitle: "Season",
+        directionDescription:
+          "Pour in soy sauce and ginger, then stir-fry for 5 minutes.",
+      },
+      {
+        directionTitle: "Serve hot",
+        directionDescription: "Enjoy over rice or noodles.",
       },
     ],
   },
   {
-    id: "",
-    recipeName: "",
+    id: "802a6612-3b24-448c-be06-947c9ff90555",
+    recipeName: "Tuna Salad Sandwich",
     author: {
       authorAvatar: "",
-      authorName: "",
-      authorDatePosted: "",
+      authorName: "Joseph Anderson",
+      authorDatePosted: "06 January 2021",
     },
-    prepareTime: "",
-    cookTime: "",
+    prepareTime: "10",
+    cookTime: "0",
     recipeCategory: "Lunch",
     recipeImage: "",
     nutritionInformation: {
-      calories: "",
-      totalFat: "",
-      protein: "",
-      carbohydrate: "",
-      cholesterol: "",
+      calories: "400",
+      totalFat: "18",
+      protein: "28",
+      carbohydrate: "35",
+      cholesterol: "50",
     },
-    recipeDescription: "",
+    recipeDescription:
+      "A creamy and delicious tuna salad, made with mayo and crunchy celery, served between fresh slices of bread.",
     recipeIngredients: [
       {
         recipeSteps: {
           name: "",
           steps: [
             {
+              ingredientsQuantity: "1",
+              inredientsName: "can tuna (drained)",
+            },
+            {
+              ingredientsQuantity: "2",
+              inredientsName: "tbsp mayonnaise",
+            },
+            {
+              ingredientsQuantity: "1",
+              inredientsName: "tbsp celery (chopped)",
+            },
+            {
+              ingredientsQuantity: "1/2",
+              inredientsName: "tsp black pepper",
+            },
+            {
+              ingredientsQuantity: "2",
+              inredientsName: "slices of bread",
+            },
+            {
               ingredientsQuantity: "",
-              inredientsName: "",
+              inredientsName: "Lettuce leaves",
             },
           ],
         },
@@ -1944,39 +2069,74 @@ export const recipes = [
     ],
     recipeDirections: [
       {
-        directionTitle: "",
-        directionDescription: "",
+        directionTitle: "Make tuna salad",
+        directionDescription:
+          "Mix tuna, mayo, celery, and black pepper in a bowl.",
+      },
+      {
+        directionTitle: "Assemble sandwich",
+        directionDescription:
+          "Spread the mixture on a slice of bread, add lettuce, and top with another slice.",
+      },
+      {
+        directionTitle: "Slice & serve",
+        directionDescription: "Cut in half and enjoy.",
       },
     ],
   },
   {
-    id: "",
-    recipeName: "",
+    id: "5f981c96-9472-4153-807a-1fb02e4a0c58",
+    recipeName: "Shrimp & Avocado Salad",
     author: {
       authorAvatar: "",
-      authorName: "",
-      authorDatePosted: "",
+      authorName: "Jose Ortiz",
+      authorDatePosted: "28 September 2024",
     },
-    prepareTime: "",
-    cookTime: "",
+    prepareTime: "10",
+    cookTime: "5",
     recipeCategory: "Lunch",
     recipeImage: "",
     nutritionInformation: {
-      calories: "",
-      totalFat: "",
-      protein: "",
-      carbohydrate: "",
-      cholesterol: "",
+      calories: "320",
+      totalFat: "14",
+      protein: "30",
+      carbohydrate: "20",
+      cholesterol: "120",
     },
-    recipeDescription: "",
+    recipeDescription:
+      "A refreshing salad with juicy shrimp, creamy avocado, and a zesty lime dressing.",
     recipeIngredients: [
       {
         recipeSteps: {
           name: "",
           steps: [
             {
+              ingredientsQuantity: "1",
+              inredientsName: "cup cooked shrimp",
+            },
+            {
+              ingredientsQuantity: "1",
+              inredientsName: "avocado (diced)",
+            },
+            {
+              ingredientsQuantity: "1",
+              inredientsName: "cup mixed greens",
+            },
+            {
+              ingredientsQuantity: "1/2",
+              inredientsName: "cup cherry tomatoes (halved)",
+            },
+            {
+              ingredientsQuantity: "1",
+              inredientsName: "tbsp olive oil",
+            },
+            {
+              ingredientsQuantity: "1",
+              inredientsName: "tbsp lime juice",
+            },
+            {
               ingredientsQuantity: "",
-              inredientsName: "",
+              inredientsName: "Salt & pepper",
             },
           ],
         },
@@ -1984,39 +2144,69 @@ export const recipes = [
     ],
     recipeDirections: [
       {
-        directionTitle: "",
-        directionDescription: "",
+        directionTitle: "Prepare ingredients",
+        directionDescription:
+          "Cook and peel the shrimp, dice the avocado, and slice tomatoes.",
+      },
+      {
+        directionTitle: "Make dressing",
+        directionDescription: "Whisk olive oil, lime juice, salt, and pepper.",
+      },
+      {
+        directionTitle: "Assemble salad",
+        directionDescription: "Toss all ingredients together in a bowl.",
+      },
+      {
+        directionTitle: "Serve chilled",
+        directionDescription: "Enjoy immediately.",
       },
     ],
   },
   {
-    id: "",
-    recipeName: "",
+    id: "f5970fa0-ea7b-4faa-a8e1-0084d740b185",
+    recipeName: "Beef & Cheese Quesadilla",
     author: {
       authorAvatar: "",
-      authorName: "",
-      authorDatePosted: "",
+      authorName: "Owen Richardson",
+      authorDatePosted: "20 December 2022",
     },
-    prepareTime: "",
-    cookTime: "",
+    prepareTime: "10",
+    cookTime: "10",
     recipeCategory: "Lunch",
     recipeImage: "",
     nutritionInformation: {
-      calories: "",
-      totalFat: "",
-      protein: "",
-      carbohydrate: "",
-      cholesterol: "",
+      calories: "500",
+      totalFat: "22",
+      protein: "40",
+      carbohydrate: "35",
+      cholesterol: "70",
     },
-    recipeDescription: "",
+    recipeDescription:
+      "A crispy tortilla filled with seasoned ground beef, melted cheese, and fresh salsa.",
     recipeIngredients: [
       {
         recipeSteps: {
           name: "",
           steps: [
             {
-              ingredientsQuantity: "",
-              inredientsName: "",
+              ingredientsQuantity: "1",
+              inredientsName: "large tortilla",
+            },
+            {
+              ingredientsQuantity: "1/2",
+              inredientsName: "cup ground beef (cooked)",
+            },
+            {
+              ingredientsQuantity: "1/2",
+              inredientsName: "cup shredded cheese",
+            },
+            {
+              ingredientsQuantity: "2",
+              inredientsName: "tbsp salsa",
+            },
+            {
+              ingredientsQuantity: "1/2",
+              inredientsName: "tsp chili powder",
             },
           ],
         },
@@ -2024,8 +2214,22 @@ export const recipes = [
     ],
     recipeDirections: [
       {
-        directionTitle: "",
-        directionDescription: "",
+        directionTitle: "Cook beef",
+        directionDescription: "Brown ground beef in a pan with chili powder.",
+      },
+      {
+        directionTitle: "Assemble quesadilla",
+        directionDescription:
+          "Place beef, cheese, and salsa on one half of the tortilla.",
+      },
+      {
+        directionTitle: "Cook",
+        directionDescription:
+          "Fold the tortilla in half and grill on a pan for 2-3 minutes per side.",
+      },
+      {
+        directionTitle: "Slice & serve",
+        directionDescription: "Cut into wedges and enjoy.",
       },
     ],
   },
