@@ -2235,33 +2235,62 @@ export const recipes = [
   },
   // Chocolate
   {
-    id: "",
-    recipeName: "",
+    id: "e591f40c-caba-4e66-b308-7ff26e64c474",
+    recipeName: "Classic Chocolate Brownies",
     author: {
       authorAvatar: "",
-      authorName: "",
-      authorDatePosted: "",
+      authorName: "Abigail Phillips",
+      authorDatePosted: "09 August 2020",
     },
-    prepareTime: "",
-    cookTime: "",
+    prepareTime: "15",
+    cookTime: "25",
     recipeCategory: "Chocolate",
     recipeImage: "",
     nutritionInformation: {
-      calories: "",
-      totalFat: "",
-      protein: "",
-      carbohydrate: "",
-      cholesterol: "",
+      calories: "280",
+      totalFat: "14",
+      protein: "3",
+      carbohydrate: "35",
+      cholesterol: "40",
     },
-    recipeDescription: "",
+    recipeDescription:
+      "These rich and fudgy brownies are the perfect balance of chewy and chocolatey goodness. A simple yet indulgent treat for any chocolate lover.",
     recipeIngredients: [
       {
         recipeSteps: {
           name: "",
           steps: [
             {
-              ingredientsQuantity: "",
-              inredientsName: "",
+              ingredientsQuantity: "1/2",
+              inredientsName: "cup unsalted butter (melted)",
+            },
+            {
+              ingredientsQuantity: "1",
+              inredientsName: "cup granulated sugar",
+            },
+            {
+              ingredientsQuantity: "2",
+              inredientsName: "eggs",
+            },
+            {
+              ingredientsQuantity: "1",
+              inredientsName: "tsp vanilla extract",
+            },
+            {
+              ingredientsQuantity: "1/2",
+              inredientsName: "cup cocoa powder",
+            },
+            {
+              ingredientsQuantity: "1/2",
+              inredientsName: "cup all-purpose flour",
+            },
+            {
+              ingredientsQuantity: "1/4",
+              inredientsName: "tsp salt",
+            },
+            {
+              ingredientsQuantity: "1/4",
+              inredientsName: "tsp baking powder",
             },
           ],
         },
@@ -2269,39 +2298,78 @@ export const recipes = [
     ],
     recipeDirections: [
       {
-        directionTitle: "",
-        directionDescription: "",
+        directionTitle: "Preheat oven",
+        directionDescription: "Set to 175°C (350°F) and grease a baking pan.",
+      },
+      {
+        directionTitle: "Mix wet ingredients",
+        directionDescription:
+          "Combine melted butter, sugar, eggs, and vanilla.",
+      },
+      {
+        directionTitle: "Add dry ingredients",
+        directionDescription: "Stir in cocoa, flour, salt, and baking powder.",
+      },
+      {
+        directionTitle: "Bake",
+        directionDescription:
+          "Pour into the pan and bake for 25 minutes. Let cool before slicing.",
       },
     ],
   },
   {
-    id: "",
-    recipeName: "",
+    id: "64198e89-944b-4ca4-b70d-2e462fb0e809",
+    recipeName: "Chocolate Lava Cake",
     author: {
       authorAvatar: "",
-      authorName: "",
-      authorDatePosted: "",
+      authorName: "Paisley Ramirez",
+      authorDatePosted: "29 July 2023",
     },
-    prepareTime: "",
-    cookTime: "",
+    prepareTime: "10",
+    cookTime: "12",
     recipeCategory: "Chocolate",
     recipeImage: "",
     nutritionInformation: {
-      calories: "",
-      totalFat: "",
-      protein: "",
-      carbohydrate: "",
-      cholesterol: "",
+      calories: "350",
+      totalFat: "22",
+      protein: "6",
+      carbohydrate: "35",
+      cholesterol: "70",
     },
-    recipeDescription: "",
+    recipeDescription:
+      "A decadent chocolate dessert with a gooey molten center, perfect for impressing guests or treating yourself.",
     recipeIngredients: [
       {
         recipeSteps: {
           name: "",
           steps: [
             {
-              ingredientsQuantity: "",
-              inredientsName: "",
+              ingredientsQuantity: "100g",
+              inredientsName: "dark chocolate",
+            },
+            {
+              ingredientsQuantity: "1/2",
+              inredientsName: "cup unsalted butter",
+            },
+            {
+              ingredientsQuantity: "1/4",
+              inredientsName: "cup all-purpose flour",
+            },
+            {
+              ingredientsQuantity: "1/2",
+              inredientsName: "cup powdered sugar",
+            },
+            {
+              ingredientsQuantity: "2",
+              inredientsName: "eggs",
+            },
+            {
+              ingredientsQuantity: "2",
+              inredientsName: "egg yolks",
+            },
+            {
+              ingredientsQuantity: "1/2",
+              inredientsName: "tsp vanilla extract",
             },
           ],
         },
@@ -2309,39 +2377,87 @@ export const recipes = [
     ],
     recipeDirections: [
       {
-        directionTitle: "",
-        directionDescription: "",
+        directionTitle: "Preheat oven",
+        directionDescription: "Set to 200°C (400°F) and grease ramekins.",
+      },
+      {
+        directionTitle: "Melt chocolate",
+        directionDescription:
+          "Combine chocolate and butter in a bowl over simmering water.",
+      },
+      {
+        directionTitle: "Mix batter",
+        directionDescription:
+          "Stir in sugar, eggs, yolks, and vanilla, then add flour.",
+      },
+      {
+        directionTitle: "Bake",
+        directionDescription:
+          "Pour into ramekins and bake for 12 minutes. Serve warm.",
       },
     ],
   },
   {
-    id: "",
-    recipeName: "",
+    id: "bae38cff-d339-4279-b1ea-e9aefd796e74",
+    recipeName: "Chocolate Chip Cookies",
     author: {
       authorAvatar: "",
-      authorName: "",
-      authorDatePosted: "",
+      authorName: "Brooklyn Hill",
+      authorDatePosted: "09 June 2023",
     },
-    prepareTime: "",
-    cookTime: "",
+    prepareTime: "15",
+    cookTime: "12",
     recipeCategory: "Chocolate",
     recipeImage: "",
     nutritionInformation: {
-      calories: "",
-      totalFat: "",
-      protein: "",
-      carbohydrate: "",
-      cholesterol: "",
+      calories: "200",
+      totalFat: "10",
+      protein: "2",
+      carbohydrate: "25",
+      cholesterol: "20",
     },
-    recipeDescription: "",
+    recipeDescription:
+      "A timeless classic with crispy edges and a soft, chewy center, packed with chocolate chips.",
     recipeIngredients: [
       {
         recipeSteps: {
           name: "",
           steps: [
             {
-              ingredientsQuantity: "",
-              inredientsName: "",
+              ingredientsQuantity: "1/2",
+              inredientsName: "cup unsalted butter (softened)",
+            },
+            {
+              ingredientsQuantity: "1/2",
+              inredientsName: "cup brown sugar",
+            },
+            {
+              ingredientsQuantity: "1/2",
+              inredientsName: "cup granulated sugar",
+            },
+            {
+              ingredientsQuantity: "1",
+              inredientsName: "egg",
+            },
+            {
+              ingredientsQuantity: "1",
+              inredientsName: "tsp vanilla extract",
+            },
+            {
+              ingredientsQuantity: "1 1/4",
+              inredientsName: "cups all-purpose flour",
+            },
+            {
+              ingredientsQuantity: "1/2",
+              inredientsName: "tsp baking soda",
+            },
+            {
+              ingredientsQuantity: "1/2",
+              inredientsName: "tsp salt",
+            },
+            {
+              ingredientsQuantity: "1",
+              inredientsName: "cup chocolate chips",
             },
           ],
         },
@@ -2349,39 +2465,70 @@ export const recipes = [
     ],
     recipeDirections: [
       {
-        directionTitle: "",
-        directionDescription: "",
+        directionTitle: "Preheat oven",
+        directionDescription: "Set to 175°C (350°F).",
+      },
+      {
+        directionTitle: "Make dough",
+        directionDescription:
+          "Cream butter and sugars, add egg and vanilla, then mix in dry ingredients.",
+      },
+      {
+        directionTitle: "Add chocolate",
+        directionDescription: "Fold in chocolate chips.",
+      },
+      {
+        directionTitle: "Bake",
+        directionDescription:
+          "Drop spoonfuls onto a baking sheet and bake for 12 minutes.",
       },
     ],
   },
   {
-    id: "",
-    recipeName: "",
+    id: "0683800e-c59d-421e-8664-ae5a6a4af93c",
+    recipeName: "Chocolate Mousse",
     author: {
       authorAvatar: "",
-      authorName: "",
-      authorDatePosted: "",
+      authorName: "Gianna Gray",
+      authorDatePosted: "18 January 2020",
     },
-    prepareTime: "",
-    cookTime: "",
+    prepareTime: "10",
+    cookTime: "120",
     recipeCategory: "Chocolate",
     recipeImage: "",
     nutritionInformation: {
-      calories: "",
-      totalFat: "",
-      protein: "",
-      carbohydrate: "",
-      cholesterol: "",
+      calories: "300",
+      totalFat: "18",
+      protein: "5",
+      carbohydrate: "30",
+      cholesterol: "90",
     },
-    recipeDescription: "",
+    recipeDescription:
+      "A light, airy, and velvety chocolate mousse that melts in your mouth, made with just a few ingredients.",
     recipeIngredients: [
       {
         recipeSteps: {
           name: "",
           steps: [
             {
-              ingredientsQuantity: "",
-              inredientsName: "",
+              ingredientsQuantity: "200g",
+              inredientsName: "dark chocolate",
+            },
+            {
+              ingredientsQuantity: "2",
+              inredientsName: "tbsp butter",
+            },
+            {
+              ingredientsQuantity: "3",
+              inredientsName: "eggs (separated)",
+            },
+            {
+              ingredientsQuantity: "1/4",
+              inredientsName: "cup sugar",
+            },
+            {
+              ingredientsQuantity: "1/2",
+              inredientsName: "cup heavy cream",
             },
           ],
         },
@@ -2389,39 +2536,69 @@ export const recipes = [
     ],
     recipeDirections: [
       {
-        directionTitle: "",
-        directionDescription: "",
+        directionTitle: "Melt chocolate",
+        directionDescription: "Combine chocolate and butter over a water bath.",
+      },
+      {
+        directionTitle: "Whisk yolks",
+        directionDescription: "Add sugar to yolks and mix into the chocolate.",
+      },
+      {
+        directionTitle: "Beat egg whites",
+        directionDescription: "Whip to soft peaks and fold in.",
+      },
+      {
+        directionTitle: "Chill",
+        directionDescription:
+          "Refrigerate for at least 2 hours before serving.",
       },
     ],
   },
   {
-    id: "",
-    recipeName: "",
+    id: "905f2b31-5ea6-4a6e-8cd1-711a7886297d",
+    recipeName: "Hot Chocolate",
     author: {
       authorAvatar: "",
-      authorName: "",
-      authorDatePosted: "",
+      authorName: "Cora Rodriguez",
+      authorDatePosted: "20 November 2020",
     },
-    prepareTime: "",
-    cookTime: "",
+    prepareTime: "5",
+    cookTime: "5",
     recipeCategory: "Chocolate",
     recipeImage: "",
     nutritionInformation: {
-      calories: "",
-      totalFat: "",
-      protein: "",
-      carbohydrate: "",
-      cholesterol: "",
+      calories: "250",
+      totalFat: "12",
+      protein: "6",
+      carbohydrate: "30",
+      cholesterol: "20",
     },
-    recipeDescription: "",
+    recipeDescription:
+      "A creamy, rich hot chocolate made with real cocoa and milk, perfect for cozy evenings.",
     recipeIngredients: [
       {
         recipeSteps: {
           name: "",
           steps: [
             {
+              ingredientsQuantity: "2",
+              inredientsName: "cups milk",
+            },
+            {
+              ingredientsQuantity: "2",
+              inredientsName: "tbsp cocoa powder",
+            },
+            {
+              ingredientsQuantity: "2",
+              inredientsName: "tbsp sugar",
+            },
+            {
+              ingredientsQuantity: "1/4",
+              inredientsName: "tsp vanilla extract",
+            },
+            {
               ingredientsQuantity: "",
-              inredientsName: "",
+              inredientsName: "Whipped cream (optional)",
             },
           ],
         },
@@ -2429,39 +2606,76 @@ export const recipes = [
     ],
     recipeDirections: [
       {
-        directionTitle: "",
-        directionDescription: "",
+        directionTitle: "Heat milk",
+        directionDescription: "Warm in a saucepan without boiling.",
+      },
+      {
+        directionTitle: "Mix cocoa",
+        directionDescription: "Stir in cocoa powder and sugar.",
+      },
+      {
+        directionTitle: "Add vanilla",
+        directionDescription: "Mix well and pour into mugs.",
+      },
+      {
+        directionTitle: "Serve",
+        directionDescription: "Top with whipped cream if desired.",
       },
     ],
   },
   {
-    id: "",
-    recipeName: "",
+    id: "8bccf9e2-77b6-4fa0-83a6-a1303c4c4c3f",
+    recipeName: "Chocolate Pancakes",
     author: {
       authorAvatar: "",
-      authorName: "",
-      authorDatePosted: "",
+      authorName: "Abigail Reed",
+      authorDatePosted: "31 March 2024",
     },
-    prepareTime: "",
-    cookTime: "",
+    prepareTime: "10",
+    cookTime: "10",
     recipeCategory: "Chocolate",
     recipeImage: "",
     nutritionInformation: {
-      calories: "",
-      totalFat: "",
-      protein: "",
-      carbohydrate: "",
-      cholesterol: "",
+      calories: "180",
+      totalFat: "7",
+      protein: "5",
+      carbohydrate: "25",
+      cholesterol: "35",
     },
-    recipeDescription: "",
+    recipeDescription:
+      "Fluffy and chocolatey pancakes that make breakfast feel like dessert.",
     recipeIngredients: [
       {
         recipeSteps: {
           name: "",
           steps: [
             {
-              ingredientsQuantity: "",
-              inredientsName: "",
+              ingredientsQuantity: "1",
+              inredientsName: "cup all-purpose flour",
+            },
+            {
+              ingredientsQuantity: "1/4",
+              inredientsName: "cup cocoa powder",
+            },
+            {
+              ingredientsQuantity: "2",
+              inredientsName: "tbsp sugar",
+            },
+            {
+              ingredientsQuantity: "1",
+              inredientsName: "tsp baking powder",
+            },
+            {
+              ingredientsQuantity: "1",
+              inredientsName: "egg",
+            },
+            {
+              ingredientsQuantity: "3/4",
+              inredientsName: "cup milk",
+            },
+            {
+              ingredientsQuantity: "1",
+              inredientsName: "tbsp butter (melted)",
             },
           ],
         },
@@ -2469,8 +2683,21 @@ export const recipes = [
     ],
     recipeDirections: [
       {
-        directionTitle: "",
-        directionDescription: "",
+        directionTitle: "Mix dry ingredients",
+        directionDescription: "Combine flour, cocoa, sugar, and baking powder.",
+      },
+      {
+        directionTitle: "Add wet ingredients",
+        directionDescription: "Stir in egg, milk, and melted butter.",
+      },
+      {
+        directionTitle: "Cook pancakes",
+        directionDescription:
+          "Pour batter onto a hot griddle and cook until bubbles form. Flip and cook another minute.",
+      },
+      {
+        directionTitle: "Serve",
+        directionDescription: "Enjoy with syrup or chocolate sauce.",
       },
     ],
   },
