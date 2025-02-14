@@ -248,33 +248,62 @@ export const recipes = [
   },
   // Vegan
   {
-    id: "",
-    recipeName: "",
+    id: "7ca6ae24-50b6-4e2a-8d3a-0fc205a85d81",
+    recipeName: "Vegan Chickpea Scramble",
     author: {
       authorAvatar: "",
-      authorName: "",
-      authorDatePosted: "",
+      authorName: "Rowan Sanchez",
+      authorDatePosted: "08 February 2024",
     },
-    prepareTime: "",
-    cookTime: "",
+    prepareTime: "5",
+    cookTime: "10",
     recipeCategory: "Vegan",
     recipeImage: "",
     nutritionInformation: {
-      calories: "",
-      totalFat: "",
-      protein: "",
-      carbohydrate: "",
-      cholesterol: "",
+      calories: "230",
+      totalFat: "8",
+      protein: "12",
+      carbohydrate: "28",
+      cholesterol: "0",
     },
-    recipeDescription: "",
+    recipeDescription:
+      "A protein-packed, flavorful alternative to scrambled eggs. Made with chickpeas, turmeric, and nutritional yeast, this dish is rich in nutrients and has a creamy, egg-like texture. It’s a perfect breakfast option, served on toast or alongside sautéed veggies.",
     recipeIngredients: [
       {
         recipeSteps: {
           name: "",
           steps: [
             {
+              ingredientsQuantity: "1",
+              inredientsName: "cup canned chickpeas (drained & mashed)",
+            },
+            {
+              ingredientsQuantity: "1",
+              inredientsName: "tbsp olive oil",
+            },
+            {
+              ingredientsQuantity: "1",
+              inredientsName: "tbsp nutritional yeast",
+            },
+            {
+              ingredientsQuantity: "1/2",
+              inredientsName: "tsp turmeric powder",
+            },
+            {
+              ingredientsQuantity: "1/2",
+              inredientsName: "tsp garlic powder",
+            },
+            {
               ingredientsQuantity: "",
-              inredientsName: "",
+              inredientsName: "Salt & pepper to taste",
+            },
+            {
+              ingredientsQuantity: "2",
+              inredientsName: "tbsp plant-based milk",
+            },
+            {
+              ingredientsQuantity: "1/4",
+              inredientsName: "cup diced bell peppers (optional)",
             },
           ],
         },
@@ -282,39 +311,85 @@ export const recipes = [
     ],
     recipeDirections: [
       {
-        directionTitle: "",
-        directionDescription: "",
+        directionTitle: "Mash the chickpeas",
+        directionDescription:
+          "In a bowl, lightly mash chickpeas, leaving some chunks for texture.",
+      },
+      {
+        directionTitle: "Sauté vegetables",
+        directionDescription:
+          "Heat olive oil in a pan and cook bell peppers for 2 minutes.",
+      },
+      {
+        directionTitle: "Add chickpeas & spices",
+        directionDescription:
+          "Stir in mashed chickpeas, turmeric, garlic powder, salt, and nutritional yeast.",
+      },
+      {
+        directionTitle: "Cook & mix",
+        directionDescription:
+          "Pour in plant-based milk and stir continuously for 5 minutes until creamy.",
+      },
+      {
+        directionTitle: "Serve",
+        directionDescription: "Enjoy on toast or as a side dish!",
       },
     ],
   },
   {
-    id: "",
-    recipeName: "",
+    id: "6e1745e6-681e-498c-a541-47d62c7d5a8a",
+    recipeName: "Creamy Vegan Oatmeal with Berries",
     author: {
       authorAvatar: "",
-      authorName: "",
-      authorDatePosted: "",
+      authorName: "Leo Jackson",
+      authorDatePosted: "06 December 2021",
     },
-    prepareTime: "",
-    cookTime: "",
+    prepareTime: "5",
+    cookTime: "5",
     recipeCategory: "Vegan",
     recipeImage: "",
     nutritionInformation: {
-      calories: "",
-      totalFat: "",
-      protein: "",
-      carbohydrate: "",
-      cholesterol: "",
+      calories: "270",
+      totalFat: "7",
+      protein: "8",
+      carbohydrate: "45",
+      cholesterol: "0",
     },
-    recipeDescription: "",
+    recipeDescription:
+      "A warm and comforting bowl of oatmeal made with almond milk, topped with fresh berries and crunchy nuts. This dish is packed with fiber, protein, and antioxidants, making it a wholesome and energizing breakfast.",
     recipeIngredients: [
       {
         recipeSteps: {
           name: "",
           steps: [
             {
-              ingredientsQuantity: "",
-              inredientsName: "",
+              ingredientsQuantity: "1/2",
+              inredientsName: "cup rolled oats",
+            },
+            {
+              ingredientsQuantity: "1",
+              inredientsName: "cup almond milk (or any plant-based milk)",
+            },
+            {
+              ingredientsQuantity: "1",
+              inredientsName: "tbsp chia seeds",
+            },
+            {
+              ingredientsQuantity: "1",
+              inredientsName: "tbsp maple syrup",
+            },
+            {
+              ingredientsQuantity: "1/4",
+              inredientsName: "tsp cinnamon",
+            },
+            {
+              ingredientsQuantity: "1/2",
+              inredientsName:
+                "cup mixed berries (strawberries, blueberries, raspberries)",
+            },
+            {
+              ingredientsQuantity: "1",
+              inredientsName: "tbsp chopped almonds or walnuts",
             },
           ],
         },
@@ -322,39 +397,79 @@ export const recipes = [
     ],
     recipeDirections: [
       {
-        directionTitle: "",
-        directionDescription: "",
+        directionTitle: "Cook oats",
+        directionDescription:
+          "In a saucepan, bring almond milk to a boil and add oats, stirring occasionally.",
+      },
+      {
+        directionTitle: "Add flavor",
+        directionDescription:
+          "Mix in chia seeds, maple syrup, and cinnamon. Cook for 5 minutes.",
+      },
+      {
+        directionTitle: "Top with berries & nuts",
+        directionDescription:
+          "Once thick and creamy, transfer to a bowl and add berries and chopped nuts.",
+      },
+      {
+        directionTitle: "Serve immediately",
+        directionDescription: "Enjoy warm for a satisfying breakfast!",
       },
     ],
   },
   {
-    id: "",
-    recipeName: "",
+    id: "05e5c8e3-08c9-4014-b8e4-073b7483f7d4",
+    recipeName: "Vegan Avocado Toast with Hummus",
     author: {
       authorAvatar: "",
-      authorName: "",
-      authorDatePosted: "",
+      authorName: "Christopher Robinson",
+      authorDatePosted: "08 May 2023",
     },
-    prepareTime: "",
-    cookTime: "",
+    prepareTime: "5",
+    cookTime: "0",
     recipeCategory: "Vegan",
     recipeImage: "",
     nutritionInformation: {
-      calories: "",
-      totalFat: "",
-      protein: "",
-      carbohydrate: "",
-      cholesterol: "",
+      calories: "300",
+      totalFat: "15",
+      protein: "10",
+      carbohydrate: "35",
+      cholesterol: "0",
     },
-    recipeDescription: "",
+    recipeDescription:
+      "A crunchy, creamy, and protein-rich toast made with hummus and mashed avocado. This dish is packed with healthy fats and fiber, making it an excellent choice for a nourishing breakfast or snack.",
     recipeIngredients: [
       {
         recipeSteps: {
           name: "",
           steps: [
             {
+              ingredientsQuantity: "1",
+              inredientsName: "slice whole-grain bread",
+            },
+            {
+              ingredientsQuantity: "1/2",
+              inredientsName: "avocado (mashed)",
+            },
+            {
+              ingredientsQuantity: "2",
+              inredientsName: "tbsp hummus",
+            },
+            {
+              ingredientsQuantity: "1/2",
+              inredientsName: "tsp lemon juice",
+            },
+            {
               ingredientsQuantity: "",
-              inredientsName: "",
+              inredientsName: "Salt & black pepper to taste",
+            },
+            {
+              ingredientsQuantity: "",
+              inredientsName: "Red pepper flakes (optional)",
+            },
+            {
+              ingredientsQuantity: "",
+              inredientsName: "Cherry tomatoes (sliced, optional)",
             },
           ],
         },
@@ -362,8 +477,26 @@ export const recipes = [
     ],
     recipeDirections: [
       {
-        directionTitle: "",
-        directionDescription: "",
+        directionTitle: "Toast the bread",
+        directionDescription:
+          "Toast whole-grain bread until golden and crispy.",
+      },
+      {
+        directionTitle: "Prepare avocado mash",
+        directionDescription: "Mix avocado with lemon juice, salt, and pepper.",
+      },
+      {
+        directionTitle: "Spread hummus",
+        directionDescription: "Layer hummus over the toasted bread.",
+      },
+      {
+        directionTitle: "Top with avocado mash",
+        directionDescription: "Spread the mashed avocado over the hummus.",
+      },
+      {
+        directionTitle: "Garnish & serve",
+        directionDescription:
+          "Add cherry tomatoes and red pepper flakes for extra flavor!",
       },
     ],
   },
