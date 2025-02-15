@@ -6222,33 +6222,62 @@ export const recipes = [
   },
   // Pasta
   {
-    id: "",
-    recipeName: "",
+    id: "24ee89d5-8639-41d7-a766-143ccbf53b18",
+    recipeName: "Classic Spaghetti Carbonara",
     author: {
       authorAvatar: "",
-      authorName: "",
-      authorDatePosted: "",
+      authorName: "Logan Roberts",
+      authorDatePosted: "12 March 2021",
     },
-    prepareTime: "",
-    cookTime: "",
+    prepareTime: "10",
+    cookTime: "15",
     recipeCategory: "Pasta",
     recipeImage: "",
     nutritionInformation: {
-      calories: "",
-      totalFat: "",
-      protein: "",
-      carbohydrate: "",
-      cholesterol: "",
+      calories: "520",
+      totalFat: "22",
+      protein: "23",
+      carbohydrate: "58",
+      cholesterol: "110",
     },
-    recipeDescription: "",
+    recipeDescription:
+      "A rich and creamy Italian pasta dish made with eggs, cheese, pancetta, and black pepper.",
     recipeIngredients: [
       {
         recipeSteps: {
           name: "",
           steps: [
             {
-              ingredientsQuantity: "",
-              inredientsName: "",
+              ingredientsQuantity: "12",
+              inredientsName: "oz (340g) spaghetti",
+            },
+            {
+              ingredientsQuantity: "4",
+              inredientsName: "oz (115g) pancetta, diced",
+            },
+            {
+              ingredientsQuantity: "2",
+              inredientsName: "large eggs",
+            },
+            {
+              ingredientsQuantity: "1",
+              inredientsName: "large egg yolk",
+            },
+            {
+              ingredientsQuantity: "1",
+              inredientsName: "cup grated Parmesan cheese",
+            },
+            {
+              ingredientsQuantity: "1",
+              inredientsName: "tsp freshly ground black pepper",
+            },
+            {
+              ingredientsQuantity: "1/2",
+              inredientsName: "tsp salt",
+            },
+            {
+              ingredientsQuantity: "2",
+              inredientsName: "tbsp pasta cooking water",
             },
           ],
         },
@@ -6256,39 +6285,97 @@ export const recipes = [
     ],
     recipeDirections: [
       {
-        directionTitle: "",
-        directionDescription: "",
+        directionTitle: "Cook the Pasta",
+        directionDescription:
+          "Bring a large pot of salted water to a boil. Add the spaghetti and cook until al dente (about 8–10 minutes). Reserve 2 tbsp of pasta water before draining.",
+      },
+      {
+        directionTitle: "Cook the Pancetta",
+        directionDescription:
+          "In a large skillet over medium heat, cook the pancetta until crispy (about 5 minutes). Remove from heat.",
+      },
+      {
+        directionTitle: "Prepare the Sauce",
+        directionDescription:
+          "In a bowl, whisk together eggs, egg yolk, Parmesan, black pepper, and salt.",
+      },
+      {
+        directionTitle: "Combine Everything",
+        directionDescription:
+          "Add the drained pasta to the skillet with pancetta. Toss well. Slowly pour in the egg mixture, stirring quickly to prevent scrambling. Add reserved pasta water to create a creamy consistency.",
+      },
+      {
+        directionTitle: "Serve Immediately",
+        directionDescription:
+          "Plate the pasta and garnish with additional Parmesan and black pepper.",
       },
     ],
   },
   {
-    id: "",
-    recipeName: "",
+    id: "f6941272-eee0-4f85-81d0-5cf9d2b8acd1",
+    recipeName: "Creamy Garlic Parmesan Fettuccine",
     author: {
       authorAvatar: "",
-      authorName: "",
-      authorDatePosted: "",
+      authorName: "Axel Thomas",
+      authorDatePosted: "07 May 2022",
     },
-    prepareTime: "",
-    cookTime: "",
+    prepareTime: "10",
+    cookTime: "20",
     recipeCategory: "Pasta",
     recipeImage: "",
     nutritionInformation: {
-      calories: "",
-      totalFat: "",
-      protein: "",
-      carbohydrate: "",
-      cholesterol: "",
+      calories: "600",
+      totalFat: "30",
+      protein: "18",
+      carbohydrate: "65",
+      cholesterol: "80",
     },
-    recipeDescription: "",
+    recipeDescription:
+      "A smooth and velvety fettuccine pasta coated in a creamy garlic Parmesan sauce.",
     recipeIngredients: [
       {
         recipeSteps: {
           name: "",
           steps: [
             {
-              ingredientsQuantity: "",
-              inredientsName: "",
+              ingredientsQuantity: "12",
+              inredientsName: "oz (340g) fettuccine",
+            },
+            {
+              ingredientsQuantity: "2",
+              inredientsName: "tbsp butter",
+            },
+            {
+              ingredientsQuantity: "4",
+              inredientsName: "cloves garlic, minced",
+            },
+            {
+              ingredientsQuantity: "1",
+              inredientsName: "cup heavy cream",
+            },
+            {
+              ingredientsQuantity: "1",
+              inredientsName: "cup grated Parmesan cheese",
+            },
+            {
+              ingredientsQuantity: "1/2",
+              inredientsName: "cup whole milk",
+            },
+            {
+              ingredientsQuantity: "1/2",
+              inredientsName: "tsp salt",
+            },
+            {
+              ingredientsQuantity: "1/2",
+              inredientsName: "tsp black pepper",
+            },
+            {
+              ingredientsQuantity: "1/2",
+              inredientsName: "tsp nutmeg (optional)",
+            },
+            {
+              ingredientsQuantity: "1/4",
+              inredientsName: "cup chopped parsley",
             },
           ],
         },
@@ -6296,39 +6383,101 @@ export const recipes = [
     ],
     recipeDirections: [
       {
-        directionTitle: "",
-        directionDescription: "",
+        directionTitle: "Cook the Pasta",
+        directionDescription:
+          "Boil the fettuccine in salted water until al dente (about 10–12 minutes). Reserve 1/2 cup pasta water before draining.",
+      },
+      {
+        directionTitle: "Prepare the Sauce",
+        directionDescription:
+          "In a large skillet, melt butter over medium heat. Add minced garlic and sauté until fragrant (about 1 minute).",
+      },
+      {
+        directionTitle: "Add Cream and Cheese",
+        directionDescription:
+          "Pour in the heavy cream and milk. Stir in Parmesan cheese and continue stirring until melted and smooth. Add salt, pepper, and nutmeg.",
+      },
+      {
+        directionTitle: "Combine Pasta and Sauce",
+        directionDescription:
+          "Add the drained pasta to the sauce, tossing well. If needed, add reserved pasta water to thin the sauce.",
+      },
+      {
+        directionTitle: "Serve and Garnish",
+        directionDescription:
+          "Sprinkle with fresh parsley and serve immediately.",
       },
     ],
   },
   {
-    id: "",
-    recipeName: "",
+    id: "e7dc0e93-60a9-445c-ac72-21ef14977da1",
+    recipeName: "Spicy Shrimp Penne Arrabbiata",
     author: {
       authorAvatar: "",
-      authorName: "",
-      authorDatePosted: "",
+      authorName: "Elijah Hughes",
+      authorDatePosted: "16 December 2020",
     },
-    prepareTime: "",
-    cookTime: "",
+    prepareTime: "10",
+    cookTime: "20",
     recipeCategory: "Pasta",
     recipeImage: "",
     nutritionInformation: {
-      calories: "",
-      totalFat: "",
-      protein: "",
-      carbohydrate: "",
-      cholesterol: "",
+      calories: "450",
+      totalFat: "12",
+      protein: "32",
+      carbohydrate: "55",
+      cholesterol: "120",
     },
-    recipeDescription: "",
+    recipeDescription:
+      "A bold and spicy tomato-based pasta with shrimp and chili flakes.",
     recipeIngredients: [
       {
         recipeSteps: {
           name: "",
           steps: [
             {
-              ingredientsQuantity: "",
-              inredientsName: "",
+              ingredientsQuantity: "12",
+              inredientsName: "oz (340g) penne pasta",
+            },
+            {
+              ingredientsQuantity: "2",
+              inredientsName: "tbsp olive oil",
+            },
+            {
+              ingredientsQuantity: "4",
+              inredientsName: "cloves garlic, minced",
+            },
+            {
+              ingredientsQuantity: "1/2",
+              inredientsName: "tsp red pepper flakes",
+            },
+            {
+              ingredientsQuantity: "1",
+              inredientsName: "can (14 oz) crushed tomatoes",
+            },
+            {
+              ingredientsQuantity: "1/2",
+              inredientsName: "tsp salt",
+            },
+            {
+              ingredientsQuantity: "1/2",
+              inredientsName: "tsp black pepper",
+            },
+            {
+              ingredientsQuantity: "1",
+              inredientsName: "tsp dried oregano",
+            },
+            {
+              ingredientsQuantity: "1/2",
+              inredientsName: "lb (225g) shrimp, peeled and deveined",
+            },
+            {
+              ingredientsQuantity: "1/4",
+              inredientsName: "cup chopped fresh basil",
+            },
+            {
+              ingredientsQuantity: "1/4",
+              inredientsName: "cup grated Parmesan cheese",
             },
           ],
         },
@@ -6336,39 +6485,89 @@ export const recipes = [
     ],
     recipeDirections: [
       {
-        directionTitle: "",
-        directionDescription: "",
+        directionTitle: "Cook the Pasta",
+        directionDescription:
+          "Boil penne in salted water until al dente (about 10 minutes). Drain and set aside.",
+      },
+      {
+        directionTitle: "Prepare the Sauce",
+        directionDescription:
+          "In a large pan, heat olive oil over medium heat. Add garlic and red pepper flakes, sautéing for 1 minute.",
+      },
+      {
+        directionTitle: "Add Tomatoes and Shrimp",
+        directionDescription:
+          "Stir in crushed tomatoes, oregano, salt, and black pepper. Simmer for 10 minutes. Add shrimp and cook for another 5 minutes until pink.",
+      },
+      {
+        directionTitle: "Combine Pasta and Sauce",
+        directionDescription:
+          "Toss the cooked penne with the sauce, ensuring even coating.",
+      },
+      {
+        directionTitle: "Serve and Garnish",
+        directionDescription:
+          "Top with fresh basil and Parmesan cheese before serving.",
       },
     ],
   },
   {
-    id: "",
-    recipeName: "",
+    id: "4f752548-6b6f-4ffb-a652-8d304b40461f",
+    recipeName: "Pesto Chicken Pasta",
     author: {
       authorAvatar: "",
-      authorName: "",
-      authorDatePosted: "",
+      authorName: "Parker Anderson",
+      authorDatePosted: "01 November 2023",
     },
-    prepareTime: "",
-    cookTime: "",
+    prepareTime: "10",
+    cookTime: "20",
     recipeCategory: "Pasta",
     recipeImage: "",
     nutritionInformation: {
-      calories: "",
-      totalFat: "",
-      protein: "",
-      carbohydrate: "",
-      cholesterol: "",
+      calories: "520",
+      totalFat: "22",
+      protein: "40",
+      carbohydrate: "50",
+      cholesterol: "70",
     },
-    recipeDescription: "",
+    recipeDescription:
+      "A fresh and flavorful pasta dish with basil pesto and grilled chicken.",
     recipeIngredients: [
       {
         recipeSteps: {
           name: "",
           steps: [
             {
-              ingredientsQuantity: "",
-              inredientsName: "",
+              ingredientsQuantity: "12",
+              inredientsName: "oz (340g) penne pasta",
+            },
+            {
+              ingredientsQuantity: "2",
+              inredientsName: "tbsp olive oil",
+            },
+            {
+              ingredientsQuantity: "2",
+              inredientsName: "boneless, skinless chicken breasts",
+            },
+            {
+              ingredientsQuantity: "1/2",
+              inredientsName: "tsp salt",
+            },
+            {
+              ingredientsQuantity: "1/2",
+              inredientsName: "tsp black pepper",
+            },
+            {
+              ingredientsQuantity: "1",
+              inredientsName: "cup basil pesto",
+            },
+            {
+              ingredientsQuantity: "1/2",
+              inredientsName: "cup cherry tomatoes, halved",
+            },
+            {
+              ingredientsQuantity: "1/4",
+              inredientsName: "cup grated Parmesan cheese",
             },
           ],
         },
@@ -6376,39 +6575,92 @@ export const recipes = [
     ],
     recipeDirections: [
       {
-        directionTitle: "",
-        directionDescription: "",
+        directionTitle: "Cook the Pasta",
+        directionDescription:
+          "Boil penne in salted water until al dente (about 10 minutes). Drain and set aside.",
+      },
+      {
+        directionTitle: "Grill the Chicken",
+        directionDescription:
+          "Heat olive oil in a pan over medium-high heat. Season chicken with salt and pepper. Cook for 6–7 minutes per side until golden brown. Let rest, then slice into strips.",
+      },
+      {
+        directionTitle: "Toss with Pesto",
+        directionDescription:
+          "Mix the cooked pasta with basil pesto until evenly coated.",
+      },
+      {
+        directionTitle: "Add Chicken and Tomatoes",
+        directionDescription:
+          "Stir in grilled chicken slices and cherry tomatoes.",
+      },
+      {
+        directionTitle: "Serve and Garnish",
+        directionDescription: "Sprinkle with Parmesan cheese and serve warm.",
       },
     ],
   },
   {
-    id: "",
-    recipeName: "",
+    id: "d07b2572-04db-4913-9413-749b55e12b97",
+    recipeName: "Baked Ziti with Ricotta and Mozzarella",
     author: {
       authorAvatar: "",
-      authorName: "",
-      authorDatePosted: "",
+      authorName: "Daniel Bennett",
+      authorDatePosted: "11 March 2021",
     },
-    prepareTime: "",
-    cookTime: "",
+    prepareTime: "15",
+    cookTime: "35",
     recipeCategory: "Pasta",
     recipeImage: "",
     nutritionInformation: {
-      calories: "",
-      totalFat: "",
-      protein: "",
-      carbohydrate: "",
-      cholesterol: "",
+      calories: "600",
+      totalFat: "28",
+      protein: "30",
+      carbohydrate: "65",
+      cholesterol: "55",
     },
-    recipeDescription: "",
+    recipeDescription:
+      "A comforting baked pasta dish with layers of ricotta, mozzarella, and marinara sauce.",
     recipeIngredients: [
       {
         recipeSteps: {
           name: "",
           steps: [
             {
-              ingredientsQuantity: "",
-              inredientsName: "",
+              ingredientsQuantity: "12",
+              inredientsName: "oz (340g) ziti pasta",
+            },
+            {
+              ingredientsQuantity: "2",
+              inredientsName: "tbsp olive oil",
+            },
+            {
+              ingredientsQuantity: "3",
+              inredientsName: "cups marinara sauce",
+            },
+            {
+              ingredientsQuantity: "1",
+              inredientsName: "tsp dried basil",
+            },
+            {
+              ingredientsQuantity: "1/2",
+              inredientsName: "tsp salt",
+            },
+            {
+              ingredientsQuantity: "1/2",
+              inredientsName: "tsp black pepper",
+            },
+            {
+              ingredientsQuantity: "1",
+              inredientsName: "cup ricotta cheese",
+            },
+            {
+              ingredientsQuantity: "1",
+              inredientsName: "cup shredded mozzarella cheese",
+            },
+            {
+              ingredientsQuantity: "1/2",
+              inredientsName: "cup grated Parmesan cheese",
             },
           ],
         },
@@ -6416,39 +6668,96 @@ export const recipes = [
     ],
     recipeDirections: [
       {
-        directionTitle: "",
-        directionDescription: "",
+        directionTitle: "Cook the Pasta",
+        directionDescription:
+          "Boil ziti in salted water until al dente (about 10 minutes). Drain and set aside.",
+      },
+      {
+        directionTitle: "Prepare the Sauce",
+        directionDescription:
+          "Heat marinara sauce with basil, salt, and black pepper in a saucepan over medium heat.",
+      },
+      {
+        directionTitle: "Assemble the Bake",
+        directionDescription:
+          "In a baking dish, layer half of the cooked pasta, followed by dollops of ricotta cheese, half of the marinara sauce, and half of the mozzarella cheese. Repeat with the remaining pasta, sauce, and mozzarella. Sprinkle Parmesan on top.",
+      },
+      {
+        directionTitle: "Bake",
+        directionDescription:
+          "Preheat the oven to 375°F (190°C) and bake for 20 minutes until bubbly and golden.",
+      },
+      {
+        directionTitle: "Serve Hot",
+        directionDescription: "Let cool for a few minutes before serving.",
       },
     ],
   },
   {
-    id: "",
-    recipeName: "",
+    id: "137db798-9773-447e-b8b1-1d4d2c683c1f",
+    recipeName: "Lemon Garlic Butter Linguine",
     author: {
       authorAvatar: "",
-      authorName: "",
-      authorDatePosted: "",
+      authorName: "Isaiah Young",
+      authorDatePosted: "27 January 2020",
     },
-    prepareTime: "",
-    cookTime: "",
+    prepareTime: "10",
+    cookTime: "15",
     recipeCategory: "Pasta",
     recipeImage: "",
     nutritionInformation: {
-      calories: "",
-      totalFat: "",
-      protein: "",
-      carbohydrate: "",
-      cholesterol: "",
+      calories: "480",
+      totalFat: "18",
+      protein: "12",
+      carbohydrate: "68",
+      cholesterol: "35",
     },
-    recipeDescription: "",
+    recipeDescription:
+      "A light and refreshing pasta dish with zesty lemon, rich butter, and fragrant garlic.",
     recipeIngredients: [
       {
         recipeSteps: {
           name: "",
           steps: [
             {
-              ingredientsQuantity: "",
-              inredientsName: "",
+              ingredientsQuantity: "12",
+              inredientsName: "oz (340g) linguine",
+            },
+            {
+              ingredientsQuantity: "3",
+              inredientsName: "tbsp unsalted butter",
+            },
+            {
+              ingredientsQuantity: "4",
+              inredientsName: "cloves garlic, minced",
+            },
+            {
+              ingredientsQuantity: "1",
+              inredientsName: "tsp red pepper flakes (optional)",
+            },
+            {
+              ingredientsQuantity: "1/4",
+              inredientsName: "cup fresh lemon juice",
+            },
+            {
+              ingredientsQuantity: "1",
+              inredientsName: "tsp lemon zest",
+            },
+            {
+              ingredientsQuantity: "1/2",
+              inredientsName: "tsp salt",
+            },
+            {
+              ingredientsQuantity: "1/2",
+              inredientsName: "tsp black pepper",
+            },
+            {
+              ingredientsQuantity: "1/4",
+              inredientsName: "cup grated Parmesan cheese",
+            },
+            {
+              ingredientsQuantity: "1/4",
+              inredientsName: "cup chopped fresh parsley",
             },
           ],
         },
@@ -6456,39 +6765,101 @@ export const recipes = [
     ],
     recipeDirections: [
       {
-        directionTitle: "",
-        directionDescription: "",
+        directionTitle: "Cook the Pasta",
+        directionDescription:
+          "Boil linguine in salted water until al dente (about 10–12 minutes). Reserve 1/2 cup pasta water before draining.",
+      },
+      {
+        directionTitle: "Sauté Garlic",
+        directionDescription:
+          "In a large skillet over medium heat, melt butter. Add minced garlic and red pepper flakes (if using) and sauté for 1 minute until fragrant.",
+      },
+      {
+        directionTitle: "Add Lemon Flavor",
+        directionDescription:
+          "Stir in lemon juice, lemon zest, salt, and black pepper. Cook for 1 minute.",
+      },
+      {
+        directionTitle: "Combine Pasta and Sauce",
+        directionDescription:
+          "Add the drained pasta to the skillet and toss to coat. If needed, add reserved pasta water to loosen the sauce.",
+      },
+      {
+        directionTitle: "Serve and Garnish",
+        directionDescription:
+          "Sprinkle with Parmesan cheese and chopped parsley before serving.",
       },
     ],
   },
   {
-    id: "",
-    recipeName: "",
+    id: "67799cdc-f660-4b0b-90a7-664988314488",
+    recipeName: "Mushroom and Spinach Penne",
     author: {
       authorAvatar: "",
-      authorName: "",
-      authorDatePosted: "",
+      authorName: "Mateo Young",
+      authorDatePosted: "13 May 2021",
     },
-    prepareTime: "",
-    cookTime: "",
+    prepareTime: "10",
+    cookTime: "20",
     recipeCategory: "Pasta",
     recipeImage: "",
     nutritionInformation: {
-      calories: "",
-      totalFat: "",
-      protein: "",
-      carbohydrate: "",
-      cholesterol: "",
+      calories: "420",
+      totalFat: "14",
+      protein: "16",
+      carbohydrate: "58",
+      cholesterol: "10",
     },
-    recipeDescription: "",
+    recipeDescription:
+      "A hearty and nutritious pasta dish with earthy mushrooms and fresh spinach in a light sauce.",
     recipeIngredients: [
       {
         recipeSteps: {
           name: "",
           steps: [
             {
-              ingredientsQuantity: "",
-              inredientsName: "",
+              ingredientsQuantity: "12",
+              inredientsName: "oz (340g) penne pasta",
+            },
+            {
+              ingredientsQuantity: "2",
+              inredientsName: "tbsp olive oil",
+            },
+            {
+              ingredientsQuantity: "1",
+              inredientsName: "small onion, finely chopped",
+            },
+            {
+              ingredientsQuantity: "3",
+              inredientsName: "cloves garlic, minced",
+            },
+            {
+              ingredientsQuantity: "8",
+              inredientsName: "oz (225g) cremini mushrooms, sliced",
+            },
+            {
+              ingredientsQuantity: "4",
+              inredientsName: "cups fresh spinach",
+            },
+            {
+              ingredientsQuantity: "1/2",
+              inredientsName: "cup vegetable broth",
+            },
+            {
+              ingredientsQuantity: "1/2",
+              inredientsName: "cup grated Parmesan cheese",
+            },
+            {
+              ingredientsQuantity: "1/2",
+              inredientsName: "tsp salt",
+            },
+            {
+              ingredientsQuantity: "1/2",
+              inredientsName: "tsp black pepper",
+            },
+            {
+              ingredientsQuantity: "1/4",
+              inredientsName: "cup chopped fresh basil",
             },
           ],
         },
@@ -6496,39 +6867,101 @@ export const recipes = [
     ],
     recipeDirections: [
       {
-        directionTitle: "",
-        directionDescription: "",
+        directionTitle: "Cook the Pasta",
+        directionDescription:
+          "Boil penne in salted water until al dente (about 10 minutes). Drain and set aside.",
+      },
+      {
+        directionTitle: "Sauté Vegetables",
+        directionDescription:
+          "Heat olive oil in a large skillet over medium heat. Add onions and cook for 3 minutes. Stir in garlic and cook for another minute.",
+      },
+      {
+        directionTitle: "Add Mushrooms",
+        directionDescription:
+          "Add sliced mushrooms and cook for 5 minutes until tender. Pour in vegetable broth and bring to a simmer.",
+      },
+      {
+        directionTitle: "Wilt the Spinach",
+        directionDescription:
+          "Add fresh spinach and stir until wilted (about 2 minutes). Season with salt and black pepper.",
+      },
+      {
+        directionTitle: "Combine and Serve",
+        directionDescription:
+          "Toss the cooked penne into the sauce, stir in Parmesan cheese, and garnish with fresh basil before serving.",
       },
     ],
   },
   {
-    id: "",
-    recipeName: "",
+    id: "ed63355f-0a27-4e8a-9713-8c5000209d81",
+    recipeName: "Cajun Chicken Alfredo",
     author: {
       authorAvatar: "",
-      authorName: "",
-      authorDatePosted: "",
+      authorName: "Angel Ward",
+      authorDatePosted: "08 April 2024",
     },
-    prepareTime: "",
-    cookTime: "",
+    prepareTime: "15",
+    cookTime: "25",
     recipeCategory: "Pasta",
     recipeImage: "",
     nutritionInformation: {
-      calories: "",
-      totalFat: "",
-      protein: "",
-      carbohydrate: "",
-      cholesterol: "",
+      calories: "650",
+      totalFat: "30",
+      protein: "45",
+      carbohydrate: "58",
+      cholesterol: "110",
     },
-    recipeDescription: "",
+    recipeDescription:
+      "A spicy and creamy pasta dish with tender Cajun-seasoned chicken in a rich Alfredo sauce.",
     recipeIngredients: [
       {
         recipeSteps: {
           name: "",
           steps: [
             {
-              ingredientsQuantity: "",
-              inredientsName: "",
+              ingredientsQuantity: "12",
+              inredientsName: "oz (340g) fettuccine",
+            },
+            {
+              ingredientsQuantity: "2",
+              inredientsName: "boneless, skinless chicken breasts",
+            },
+            {
+              ingredientsQuantity: "1",
+              inredientsName: "tbsp Cajun seasoning",
+            },
+            {
+              ingredientsQuantity: "2",
+              inredientsName: "tbsp olive oil",
+            },
+            {
+              ingredientsQuantity: "2",
+              inredientsName: "tbsp butter",
+            },
+            {
+              ingredientsQuantity: "3",
+              inredientsName: "cloves garlic, minced",
+            },
+            {
+              ingredientsQuantity: "1",
+              inredientsName: "cup heavy cream",
+            },
+            {
+              ingredientsQuantity: "1",
+              inredientsName: "cup grated Parmesan cheese",
+            },
+            {
+              ingredientsQuantity: "1/2",
+              inredientsName: "tsp salt",
+            },
+            {
+              ingredientsQuantity: "1/2",
+              inredientsName: "tsp black pepper",
+            },
+            {
+              ingredientsQuantity: "1/4",
+              inredientsName: "cup chopped fresh parsley",
             },
           ],
         },
@@ -6536,39 +6969,97 @@ export const recipes = [
     ],
     recipeDirections: [
       {
-        directionTitle: "",
-        directionDescription: "",
+        directionTitle: "Cook the Pasta",
+        directionDescription:
+          "Boil fettuccine in salted water until al dente (about 12 minutes). Drain and set aside.",
+      },
+      {
+        directionTitle: "Season the Chicken",
+        directionDescription:
+          "Rub Cajun seasoning evenly over both chicken breasts.",
+      },
+      {
+        directionTitle: "Cook the Chicken",
+        directionDescription:
+          "Heat olive oil in a skillet over medium-high heat. Cook chicken for 6–7 minutes per side until fully cooked. Remove from heat and slice into strips.",
+      },
+      {
+        directionTitle: "Prepare Alfredo Sauce",
+        directionDescription:
+          "Melt butter in the same skillet, add garlic, and sauté for 1 minute. Pour in heavy cream and simmer for 2 minutes. Stir in Parmesan cheese, salt, and black pepper until smooth.",
+      },
+      {
+        directionTitle: "Combine and Serve",
+        directionDescription:
+          "Toss the pasta with the sauce, add sliced chicken, and garnish with fresh parsley.",
       },
     ],
   },
   {
-    id: "",
-    recipeName: "",
+    id: "61be4370-0c76-4b07-a2bb-0e7c7c6183f8",
+    recipeName: "Sun-Dried Tomato and Basil Farfalle",
     author: {
       authorAvatar: "",
-      authorName: "",
-      authorDatePosted: "",
+      authorName: "Elijah Jackson",
+      authorDatePosted: "09 July 2022",
     },
-    prepareTime: "",
-    cookTime: "",
+    prepareTime: "10",
+    cookTime: "15",
     recipeCategory: "Pasta",
     recipeImage: "",
     nutritionInformation: {
-      calories: "",
-      totalFat: "",
-      protein: "",
-      carbohydrate: "",
-      cholesterol: "",
+      calories: "500",
+      totalFat: "18",
+      protein: "14",
+      carbohydrate: "70",
+      cholesterol: "20",
     },
-    recipeDescription: "",
+    recipeDescription:
+      "A vibrant Mediterranean-style pasta dish with sun-dried tomatoes, garlic, and fresh basil.",
     recipeIngredients: [
       {
         recipeSteps: {
           name: "",
           steps: [
             {
-              ingredientsQuantity: "",
-              inredientsName: "",
+              ingredientsQuantity: "12",
+              inredientsName: "oz (340g) farfalle (bow-tie) pasta",
+            },
+            {
+              ingredientsQuantity: "2",
+              inredientsName: "tbsp olive oil",
+            },
+            {
+              ingredientsQuantity: "3",
+              inredientsName: "cloves garlic, minced",
+            },
+            {
+              ingredientsQuantity: "1/2",
+              inredientsName: "cup sun-dried tomatoes, chopped",
+            },
+            {
+              ingredientsQuantity: "1/2",
+              inredientsName: "cup cherry tomatoes, halved",
+            },
+            {
+              ingredientsQuantity: "1/2",
+              inredientsName: "tsp salt",
+            },
+            {
+              ingredientsQuantity: "1/2",
+              inredientsName: "tsp black pepper",
+            },
+            {
+              ingredientsQuantity: "1/2",
+              inredientsName: "tsp red pepper flakes",
+            },
+            {
+              ingredientsQuantity: "1/4",
+              inredientsName: "cup grated Parmesan cheese",
+            },
+            {
+              ingredientsQuantity: "1/4",
+              inredientsName: "cup chopped fresh basil",
             },
           ],
         },
@@ -6576,39 +7067,105 @@ export const recipes = [
     ],
     recipeDirections: [
       {
-        directionTitle: "",
-        directionDescription: "",
+        directionTitle: "Cook the Pasta",
+        directionDescription:
+          "Boil farfalle in salted water until al dente (about 10 minutes). Reserve 1/4 cup pasta water before draining.",
+      },
+      {
+        directionTitle: "Sauté the Garlic",
+        directionDescription:
+          "Heat olive oil in a large pan over medium heat. Add garlic and cook for 1 minute until fragrant.",
+      },
+      {
+        directionTitle: "Add Tomatoes and Seasoning",
+        directionDescription:
+          "Stir in sun-dried tomatoes, cherry tomatoes, salt, black pepper, and red pepper flakes. Cook for 3 minutes.",
+      },
+      {
+        directionTitle: "Combine with Pasta",
+        directionDescription:
+          "Toss the drained farfalle with the sauce. If needed, add reserved pasta water.",
+      },
+      {
+        directionTitle: "Serve with Garnishes",
+        directionDescription:
+          "Sprinkle with Parmesan and fresh basil before serving.",
       },
     ],
   },
   {
-    id: "",
-    recipeName: "",
+    id: "2a684d84-dfca-49ee-b182-80b652d94044",
+    recipeName: "Beef and Tomato Rigatoni",
     author: {
       authorAvatar: "",
-      authorName: "",
-      authorDatePosted: "",
+      authorName: "Aaron Lopez",
+      authorDatePosted: "27 March 2021",
     },
-    prepareTime: "",
-    cookTime: "",
+    prepareTime: "10",
+    cookTime: "25",
     recipeCategory: "Pasta",
     recipeImage: "",
     nutritionInformation: {
-      calories: "",
-      totalFat: "",
-      protein: "",
-      carbohydrate: "",
-      cholesterol: "",
+      calories: "600",
+      totalFat: "25",
+      protein: "35",
+      carbohydrate: "70",
+      cholesterol: "80",
     },
-    recipeDescription: "",
+    recipeDescription:
+      "A hearty, meaty pasta with ground beef and a rich tomato sauce.",
     recipeIngredients: [
       {
         recipeSteps: {
           name: "",
           steps: [
             {
-              ingredientsQuantity: "",
-              inredientsName: "",
+              ingredientsQuantity: "12",
+              inredientsName: "oz (340g) rigatoni",
+            },
+            {
+              ingredientsQuantity: "2",
+              inredientsName: "tbsp olive oil",
+            },
+            {
+              ingredientsQuantity: "1",
+              inredientsName: "lb (450g) ground beef",
+            },
+            {
+              ingredientsQuantity: "1",
+              inredientsName: "small onion, diced",
+            },
+            {
+              ingredientsQuantity: "3",
+              inredientsName: "cloves garlic, minced",
+            },
+            {
+              ingredientsQuantity: "1",
+              inredientsName: "can (14 oz) crushed tomatoes",
+            },
+            {
+              ingredientsQuantity: "1",
+              inredientsName: "tsp dried oregano",
+            },
+            {
+              ingredientsQuantity: "1/2",
+              inredientsName: "tsp salt",
+            },
+            {
+              ingredientsQuantity: "1/2",
+              inredientsName: "tsp black pepper",
+            },
+            {
+              ingredientsQuantity: "1/4",
+              inredientsName: "tsp red pepper flakes",
+            },
+            {
+              ingredientsQuantity: "1/2",
+              inredientsName: "cup grated Parmesan cheese",
+            },
+            {
+              ingredientsQuantity: "1/4",
+              inredientsName: "cup chopped fresh parsley",
             },
           ],
         },
@@ -6616,39 +7173,119 @@ export const recipes = [
     ],
     recipeDirections: [
       {
-        directionTitle: "",
-        directionDescription: "",
+        directionTitle: "Cook the Pasta",
+        directionDescription:
+          "Boil rigatoni in salted water until al dente (about 10 minutes). Drain and set aside.",
+      },
+      {
+        directionTitle: "Brown the Beef",
+        directionDescription:
+          "Heat olive oil in a pan over medium heat. Add ground beef and cook until browned (about 5 minutes).",
+      },
+      {
+        directionTitle: "Add Aromatics and Tomatoes",
+        directionDescription:
+          "Stir in onions, garlic, and cook for 3 minutes. Add crushed tomatoes, oregano, salt, black pepper, and red pepper flakes. Simmer for 10 minutes.",
+      },
+      {
+        directionTitle: "Combine and Serve",
+        directionDescription:
+          "Toss the cooked pasta with the sauce, then sprinkle with Parmesan and fresh parsley.",
       },
     ],
   },
   {
-    id: "",
-    recipeName: "",
+    id: "9f7e36fc-ffec-4f45-bf8c-1208970a0daa",
+    recipeName: "Pesto Shrimp Spaghetti",
     author: {
       authorAvatar: "",
-      authorName: "",
-      authorDatePosted: "",
+      authorName: "Asher Reyes",
+      authorDatePosted: "04 September 2024",
     },
-    prepareTime: "",
-    cookTime: "",
+    prepareTime: "10",
+    cookTime: "15",
     recipeCategory: "Pasta",
     recipeImage: "",
     nutritionInformation: {
-      calories: "",
-      totalFat: "",
-      protein: "",
-      carbohydrate: "",
-      cholesterol: "",
+      calories: "520",
+      totalFat: "24",
+      protein: "32",
+      carbohydrate: "50",
+      cholesterol: "140",
     },
-    recipeDescription: "",
+    recipeDescription:
+      "A vibrant and refreshing pasta with juicy shrimp, homemade basil pesto, and a hint of lemon.",
     recipeIngredients: [
       {
         recipeSteps: {
           name: "",
           steps: [
             {
-              ingredientsQuantity: "",
-              inredientsName: "",
+              ingredientsQuantity: "12",
+              inredientsName: "oz (340g) spaghetti",
+            },
+            {
+              ingredientsQuantity: "2",
+              inredientsName: "tbsp olive oil",
+            },
+            {
+              ingredientsQuantity: "1",
+              inredientsName: "lb (450g) shrimp, peeled and deveined",
+            },
+            {
+              ingredientsQuantity: "2",
+              inredientsName: "cloves garlic, minced",
+            },
+            {
+              ingredientsQuantity: "1/2",
+              inredientsName: "tsp salt",
+            },
+            {
+              ingredientsQuantity: "1/2",
+              inredientsName: "tsp black pepper",
+            },
+            {
+              ingredientsQuantity: "1/4",
+              inredientsName: "tsp red pepper flakes",
+            },
+            {
+              ingredientsQuantity: "1/4",
+              inredientsName: "cup grated Parmesan cheese",
+            },
+            {
+              ingredientsQuantity: "1/2",
+              inredientsName: "lemon, juiced",
+            },
+          ],
+        },
+      },
+      {
+        recipeSteps: {
+          name: "Pesto Sauce",
+          steps: [
+            {
+              ingredientsQuantity: "2",
+              inredientsName: "cups fresh basil leaves",
+            },
+            {
+              ingredientsQuantity: "1/4",
+              inredientsName: "cup pine nuts",
+            },
+            {
+              ingredientsQuantity: "2",
+              inredientsName: "cloves garlic",
+            },
+            {
+              ingredientsQuantity: "1/2",
+              inredientsName: "cup grated Parmesan cheese",
+            },
+            {
+              ingredientsQuantity: "1/2",
+              inredientsName: "cup olive oil",
+            },
+            {
+              ingredientsQuantity: "1/2",
+              inredientsName: "tsp salt",
             },
           ],
         },
@@ -6656,39 +7293,93 @@ export const recipes = [
     ],
     recipeDirections: [
       {
-        directionTitle: "",
-        directionDescription: "",
+        directionTitle: "Cook the Pasta",
+        directionDescription:
+          "Boil spaghetti in salted water until al dente (about 10 minutes). Reserve 1/2 cup pasta water before draining.",
+      },
+      {
+        directionTitle: "Make the Pesto",
+        directionDescription:
+          "Blend basil, pine nuts, garlic, Parmesan cheese, olive oil, and salt until smooth. Set aside.",
+      },
+      {
+        directionTitle: "Sauté the Shrimp",
+        directionDescription:
+          "Heat olive oil in a large skillet over medium heat. Add shrimp, garlic, salt, black pepper, and red pepper flakes. Cook for 3–4 minutes per side until pink and opaque. Remove shrimp from the pan.",
+      },
+      {
+        directionTitle: "Combine Pasta and Sauce",
+        directionDescription:
+          "Add cooked spaghetti to the pan, stir in the pesto, and mix well. Add a splash of reserved pasta water if needed.",
+      },
+      {
+        directionTitle: "Finish and Serve",
+        directionDescription:
+          "Stir in the shrimp, squeeze fresh lemon juice, sprinkle Parmesan cheese, and serve immediately.",
       },
     ],
   },
   {
-    id: "",
-    recipeName: "",
+    id: "e4334db4-9366-4944-9783-f7627e4e44f7",
+    recipeName: "Carbonara with Pancetta and Peas",
     author: {
       authorAvatar: "",
-      authorName: "",
-      authorDatePosted: "",
+      authorName: "Elijah Taylor",
+      authorDatePosted: "17 May 2023",
     },
-    prepareTime: "",
-    cookTime: "",
+    prepareTime: "10",
+    cookTime: "15",
     recipeCategory: "Pasta",
     recipeImage: "",
     nutritionInformation: {
-      calories: "",
-      totalFat: "",
-      protein: "",
-      carbohydrate: "",
-      cholesterol: "",
+      calories: "610",
+      totalFat: "30",
+      protein: "27",
+      carbohydrate: "65",
+      cholesterol: "180",
     },
-    recipeDescription: "",
+    recipeDescription:
+      "A creamy and rich carbonara with crispy pancetta and sweet green peas.",
     recipeIngredients: [
       {
         recipeSteps: {
           name: "",
           steps: [
             {
-              ingredientsQuantity: "",
-              inredientsName: "",
+              ingredientsQuantity: "12",
+              inredientsName: "oz (340g) spaghetti",
+            },
+            {
+              ingredientsQuantity: "4",
+              inredientsName: "oz (115g) pancetta, diced",
+            },
+            {
+              ingredientsQuantity: "3",
+              inredientsName: "large eggs",
+            },
+            {
+              ingredientsQuantity: "1",
+              inredientsName: "cup grated Parmesan cheese",
+            },
+            {
+              ingredientsQuantity: "1",
+              inredientsName: "cup frozen peas, thawed",
+            },
+            {
+              ingredientsQuantity: "2",
+              inredientsName: "cloves garlic, minced",
+            },
+            {
+              ingredientsQuantity: "1/2",
+              inredientsName: "tsp salt",
+            },
+            {
+              ingredientsQuantity: "1/2",
+              inredientsName: "tsp black pepper",
+            },
+            {
+              ingredientsQuantity: "1/2",
+              inredientsName: "cup reserved pasta water",
             },
           ],
         },
@@ -6696,39 +7387,109 @@ export const recipes = [
     ],
     recipeDirections: [
       {
-        directionTitle: "",
-        directionDescription: "",
+        directionTitle: "Cook the Pasta",
+        directionDescription:
+          "Boil spaghetti in salted water until al dente (about 10 minutes). Reserve 1/2 cup pasta water before draining.",
+      },
+      {
+        directionTitle: "Cook Pancetta",
+        directionDescription:
+          "In a large skillet over medium heat, cook diced pancetta until crispy (about 5 minutes). Add garlic and cook for another minute.",
+      },
+      {
+        directionTitle: "Prepare Egg Mixture",
+        directionDescription:
+          "In a bowl, whisk eggs, Parmesan cheese, salt, and black pepper.",
+      },
+      {
+        directionTitle: "Combine Everything",
+        directionDescription:
+          "Turn off the heat, add cooked pasta and peas to the skillet, and slowly pour in the egg mixture while tossing quickly to prevent scrambling. Add reserved pasta water a little at a time until the sauce is smooth.",
+      },
+      {
+        directionTitle: "Serve Immediately",
+        directionDescription:
+          "Garnish with extra Parmesan and black pepper before serving.",
       },
     ],
   },
   {
-    id: "",
-    recipeName: "",
+    id: "e3ab0d74-ae27-435b-b104-a89d7cac542e",
+    recipeName: "Creamy Tuscan Chicken Pasta",
     author: {
       authorAvatar: "",
-      authorName: "",
-      authorDatePosted: "",
+      authorName: "Gabriel Jimenez",
+      authorDatePosted: "06 August 2022",
     },
-    prepareTime: "",
-    cookTime: "",
+    prepareTime: "15",
+    cookTime: "20",
     recipeCategory: "Pasta",
     recipeImage: "",
     nutritionInformation: {
-      calories: "",
-      totalFat: "",
-      protein: "",
-      carbohydrate: "",
-      cholesterol: "",
+      calories: "750",
+      totalFat: "35",
+      protein: "45",
+      carbohydrate: "68",
+      cholesterol: "120",
     },
-    recipeDescription: "",
+    recipeDescription:
+      "A decadent pasta with a creamy garlic-Parmesan sauce, sun-dried tomatoes, and tender chicken.",
     recipeIngredients: [
       {
         recipeSteps: {
           name: "",
           steps: [
             {
-              ingredientsQuantity: "",
-              inredientsName: "",
+              ingredientsQuantity: "12",
+              inredientsName: "oz (340g) penne pasta",
+            },
+            {
+              ingredientsQuantity: "2",
+              inredientsName: "boneless, skinless chicken breasts",
+            },
+            {
+              ingredientsQuantity: "1",
+              inredientsName: "tsp salt",
+            },
+            {
+              ingredientsQuantity: "1/2",
+              inredientsName: "tsp black pepper",
+            },
+            {
+              ingredientsQuantity: "1",
+              inredientsName: "tsp Italian seasoning",
+            },
+            {
+              ingredientsQuantity: "2",
+              inredientsName: "tbsp olive oil",
+            },
+            {
+              ingredientsQuantity: "3",
+              inredientsName: "cloves garlic, minced",
+            },
+            {
+              ingredientsQuantity: "1/2",
+              inredientsName: "cup sun-dried tomatoes, chopped",
+            },
+            {
+              ingredientsQuantity: "1",
+              inredientsName: "cup heavy cream",
+            },
+            {
+              ingredientsQuantity: "1/2",
+              inredientsName: "cup grated Parmesan cheese",
+            },
+            {
+              ingredientsQuantity: "1",
+              inredientsName: "cup baby spinach",
+            },
+            {
+              ingredientsQuantity: "1/2",
+              inredientsName: "tsp red pepper flakes",
+            },
+            {
+              ingredientsQuantity: "1/2",
+              inredientsName: "cup reserved pasta water",
             },
           ],
         },
@@ -6736,39 +7497,101 @@ export const recipes = [
     ],
     recipeDirections: [
       {
-        directionTitle: "",
-        directionDescription: "",
+        directionTitle: "Cook the Pasta",
+        directionDescription:
+          "Boil penne in salted water until al dente (about 10 minutes). Reserve 1/2 cup pasta water before draining.",
+      },
+      {
+        directionTitle: "Cook the Chicken",
+        directionDescription:
+          "Season chicken breasts with salt, black pepper, and Italian seasoning. Heat olive oil in a large skillet over medium-high heat and cook the chicken for 5–6 minutes per side. Remove from heat and slice.",
+      },
+      {
+        directionTitle: "Make the Sauce",
+        directionDescription:
+          "In the same skillet, add garlic and sun-dried tomatoes. Cook for 1 minute. Pour in heavy cream, Parmesan cheese, and red pepper flakes. Stir and let simmer for 3 minutes.",
+      },
+      {
+        directionTitle: "Combine with Pasta",
+        directionDescription:
+          "Add the cooked pasta, reserved pasta water, and baby spinach to the sauce. Stir until well coated and the spinach wilts.",
+      },
+      {
+        directionTitle: "Finish and Serve",
+        directionDescription:
+          "Toss in sliced chicken, stir well, and serve hot with extra Parmesan on top.",
       },
     ],
   },
   {
-    id: "",
-    recipeName: "",
+    id: "593d30a7-4ceb-46b2-8168-1ba99c5f7e5f",
+    recipeName: "Spicy Arrabbiata Rigatoni",
     author: {
       authorAvatar: "",
-      authorName: "",
-      authorDatePosted: "",
+      authorName: "Mason Alvarez",
+      authorDatePosted: "07 June 2021",
     },
-    prepareTime: "",
-    cookTime: "",
+    prepareTime: "10",
+    cookTime: "20",
     recipeCategory: "Pasta",
     recipeImage: "",
     nutritionInformation: {
-      calories: "",
-      totalFat: "",
-      protein: "",
-      carbohydrate: "",
-      cholesterol: "",
+      calories: "480",
+      totalFat: "14",
+      protein: "12",
+      carbohydrate: "72",
+      cholesterol: "0",
     },
-    recipeDescription: "",
+    recipeDescription:
+      "A bold and spicy tomato-based pasta with garlic and chili flakes for an extra kick.",
     recipeIngredients: [
       {
         recipeSteps: {
           name: "",
           steps: [
             {
-              ingredientsQuantity: "",
-              inredientsName: "",
+              ingredientsQuantity: "12",
+              inredientsName: "oz (340g) rigatoni",
+            },
+            {
+              ingredientsQuantity: "2",
+              inredientsName: "tbsp olive oil",
+            },
+            {
+              ingredientsQuantity: "4",
+              inredientsName: "cloves garlic, minced",
+            },
+            {
+              ingredientsQuantity: "1",
+              inredientsName: "tsp red pepper flakes (adjust to taste)",
+            },
+            {
+              ingredientsQuantity: "1",
+              inredientsName: "can (14 oz) crushed tomatoes",
+            },
+            {
+              ingredientsQuantity: "1/2",
+              inredientsName: "tsp salt",
+            },
+            {
+              ingredientsQuantity: "1/2",
+              inredientsName: "tsp black pepper",
+            },
+            {
+              ingredientsQuantity: "1",
+              inredientsName: "tsp dried oregano",
+            },
+            {
+              ingredientsQuantity: "1/2",
+              inredientsName: "tsp sugar",
+            },
+            {
+              ingredientsQuantity: "1/4",
+              inredientsName: "cup chopped fresh basil",
+            },
+            {
+              ingredientsQuantity: "1/4",
+              inredientsName: "cup grated Parmesan cheese",
             },
           ],
         },
@@ -6776,8 +7599,29 @@ export const recipes = [
     ],
     recipeDirections: [
       {
-        directionTitle: "",
-        directionDescription: "",
+        directionTitle: "Cook the Pasta",
+        directionDescription:
+          "Boil rigatoni in salted water until al dente (about 10 minutes). Reserve 1/4 cup pasta water before draining.",
+      },
+      {
+        directionTitle: "Prepare the Sauce",
+        directionDescription:
+          "In a large pan, heat olive oil over medium heat. Add garlic and red pepper flakes, cooking for 1 minute until fragrant.",
+      },
+      {
+        directionTitle: "Simmer the Tomatoes",
+        directionDescription:
+          "Add crushed tomatoes, salt, black pepper, oregano, and sugar. Stir and let simmer for 10 minutes, stirring occasionally.",
+      },
+      {
+        directionTitle: "Combine with Pasta",
+        directionDescription:
+          "Toss the cooked rigatoni into the sauce. If needed, add reserved pasta water for a smoother consistency.",
+      },
+      {
+        directionTitle: "Serve with Garnishes",
+        directionDescription:
+          "Stir in fresh basil and top with Parmesan cheese before serving.",
       },
     ],
   },
