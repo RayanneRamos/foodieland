@@ -5386,33 +5386,67 @@ export const recipes = [
   },
   // Soup
   {
-    id: "",
-    recipeName: "",
+    id: "c223c4f2-0eb1-4d12-a54d-8ab73f5a4bb0",
+    recipeName: "Classic Tomato Soup",
     author: {
       authorAvatar: "",
-      authorName: "",
-      authorDatePosted: "",
+      authorName: "Maya Gray",
+      authorDatePosted: "15 October 2021",
     },
-    prepareTime: "",
-    cookTime: "",
+    prepareTime: "10",
+    cookTime: "30",
     recipeCategory: "Soup",
     recipeImage: "",
     nutritionInformation: {
-      calories: "",
-      totalFat: "",
-      protein: "",
-      carbohydrate: "",
-      cholesterol: "",
+      calories: "210",
+      totalFat: "14",
+      protein: "4",
+      carbohydrate: "24",
+      cholesterol: "15",
     },
-    recipeDescription: "",
+    recipeDescription:
+      "A creamy and comforting tomato soup made from fresh tomatoes and aromatic vegetables, perfect for pairing with a grilled cheese sandwich on a cold day.",
     recipeIngredients: [
       {
         recipeSteps: {
           name: "",
           steps: [
             {
+              ingredientsQuantity: "2",
+              inredientsName: "tbsp olive oil",
+            },
+            {
+              ingredientsQuantity: "1",
+              inredientsName: "medium onion, chopped",
+            },
+            {
+              ingredientsQuantity: "2",
+              inredientsName: "cloves garlic, minced",
+            },
+            {
+              ingredientsQuantity: "4",
+              inredientsName:
+                "cups canned tomatoes (or fresh tomatoes, chopped)",
+            },
+            {
+              ingredientsQuantity: "1",
+              inredientsName: "cup vegetable broth",
+            },
+            {
+              ingredientsQuantity: "1",
+              inredientsName: "tsp sugar",
+            },
+            {
+              ingredientsQuantity: "1/2",
+              inredientsName: "cup heavy cream",
+            },
+            {
               ingredientsQuantity: "",
-              inredientsName: "",
+              inredientsName: "Salt and pepper to taste",
+            },
+            {
+              ingredientsQuantity: "",
+              inredientsName: "Fresh basil for garnish",
             },
           ],
         },
@@ -5420,39 +5454,100 @@ export const recipes = [
     ],
     recipeDirections: [
       {
-        directionTitle: "",
-        directionDescription: "",
+        directionTitle: "Sauté onions and garlic",
+        directionDescription:
+          "Heat olive oil in a large pot over medium heat. Add chopped onions and sauté for 5-7 minutes until softened. Add minced garlic and cook for 1 more minute.",
+      },
+      {
+        directionTitle: "Add tomatoes and broth",
+        directionDescription:
+          "Stir in the tomatoes (either canned or fresh) and vegetable broth. Bring to a simmer and cook for 15-20 minutes, allowing the flavors to meld together.",
+      },
+      {
+        directionTitle: "Blend the soup",
+        directionDescription:
+          "Use an immersion blender to puree the soup until smooth, or transfer it to a regular blender in batches.",
+      },
+      {
+        directionTitle: "Add cream and season",
+        directionDescription:
+          "Stir in the heavy cream and season with salt, pepper, and sugar. Cook for an additional 5 minutes.",
+      },
+      {
+        directionTitle: "Serve",
+        directionDescription: "Garnish with fresh basil and serve hot.",
       },
     ],
   },
   {
-    id: "",
-    recipeName: "",
+    id: "f5e51349-bddf-452a-ba9d-c0c6f2bd4424",
+    recipeName: "Chicken and Vegetable Soup",
     author: {
       authorAvatar: "",
-      authorName: "",
-      authorDatePosted: "",
+      authorName: "Everly Morris",
+      authorDatePosted: "27 September 2021",
     },
-    prepareTime: "",
-    cookTime: "",
+    prepareTime: "15",
+    cookTime: "45",
     recipeCategory: "Soup",
     recipeImage: "",
     nutritionInformation: {
-      calories: "",
-      totalFat: "",
-      protein: "",
-      carbohydrate: "",
-      cholesterol: "",
+      calories: "330",
+      totalFat: "9",
+      protein: "30",
+      carbohydrate: "36",
+      cholesterol: "70",
     },
-    recipeDescription: "",
+    recipeDescription:
+      "A hearty, healthy soup with chunks of chicken, vegetables, and a savory broth. Packed with protein and fiber, it's a perfect meal for any time of the year.",
     recipeIngredients: [
       {
         recipeSteps: {
           name: "",
           steps: [
             {
+              ingredientsQuantity: "2",
+              inredientsName: "tbsp olive oil",
+            },
+            {
+              ingredientsQuantity: "1",
+              inredientsName: "lb chicken breast, diced",
+            },
+            {
+              ingredientsQuantity: "1",
+              inredientsName: "medium onion, chopped",
+            },
+            {
+              ingredientsQuantity: "2",
+              inredientsName: "carrots, peeled and diced",
+            },
+            {
+              ingredientsQuantity: "2",
+              inredientsName: "celery stalks, diced",
+            },
+            {
+              ingredientsQuantity: "2",
+              inredientsName: "cloves garlic, minced",
+            },
+            {
+              ingredientsQuantity: "6",
+              inredientsName: "cups chicken broth",
+            },
+            {
+              ingredientsQuantity: "1",
+              inredientsName: "cup green beans, chopped",
+            },
+            {
+              ingredientsQuantity: "1/2",
+              inredientsName: "cup corn kernels (fresh or frozen)",
+            },
+            {
+              ingredientsQuantity: "1",
+              inredientsName: "tsp dried thyme",
+            },
+            {
               ingredientsQuantity: "",
-              inredientsName: "",
+              inredientsName: "Salt and pepper to taste",
             },
           ],
         },
@@ -5460,39 +5555,105 @@ export const recipes = [
     ],
     recipeDirections: [
       {
-        directionTitle: "",
-        directionDescription: "",
+        directionTitle: "Cook the chicken",
+        directionDescription:
+          "Heat olive oil in a large pot over medium heat. Add diced chicken breast and cook until browned and fully cooked, about 7-10 minutes. Remove chicken from the pot and set aside.",
+      },
+      {
+        directionTitle: "Sauté vegetables",
+        directionDescription:
+          "In the same pot, add the chopped onions, carrots, and celery. Cook for 5-7 minutes until softened. Add minced garlic and cook for 1 more minute.",
+      },
+      {
+        directionTitle: "Add broth and vegetables",
+        directionDescription:
+          "Stir in the chicken broth, green beans, corn, and dried thyme. Bring the soup to a boil, then reduce to a simmer and cook for 20-25 minutes.",
+      },
+      {
+        directionTitle: "Combine chicken and soup",
+        directionDescription:
+          "Return the cooked chicken to the pot and cook for an additional 5 minutes.",
+      },
+      {
+        directionTitle: "Season and serve",
+        directionDescription:
+          "Season with salt and pepper to taste. Serve hot.",
       },
     ],
   },
   {
-    id: "",
-    recipeName: "",
+    id: "3b81aa6e-3ae0-4bc5-aa14-1c5b0956cc1c",
+    recipeName: "Lentil Soup",
     author: {
       authorAvatar: "",
-      authorName: "",
-      authorDatePosted: "",
+      authorName: "Isabella Lee",
+      authorDatePosted: "16 December 2021",
     },
-    prepareTime: "",
-    cookTime: "",
+    prepareTime: "10",
+    cookTime: "40",
     recipeCategory: "Soup",
     recipeImage: "",
     nutritionInformation: {
-      calories: "",
-      totalFat: "",
-      protein: "",
-      carbohydrate: "",
-      cholesterol: "",
+      calories: "250",
+      totalFat: "8",
+      protein: "15",
+      carbohydrate: "35",
+      cholesterol: "0",
     },
-    recipeDescription: "",
+    recipeDescription:
+      "A nutritious and filling lentil soup made with a variety of vegetables and spices. This soup is rich in protein and fiber, making it a hearty and healthy meal option.",
     recipeIngredients: [
       {
         recipeSteps: {
           name: "",
           steps: [
             {
+              ingredientsQuantity: "2",
+              inredientsName: "tbsp olive oil",
+            },
+            {
+              ingredientsQuantity: "1",
+              inredientsName: "medium onion, chopped",
+            },
+            {
+              ingredientsQuantity: "2",
+              inredientsName: "carrots, diced",
+            },
+            {
+              ingredientsQuantity: "2",
+              inredientsName: "celery stalks, diced",
+            },
+            {
+              ingredientsQuantity: "2",
+              inredientsName: "cloves garlic, minced",
+            },
+            {
+              ingredientsQuantity: "1 1/2",
+              inredientsName: "cups dried lentils, rinsed",
+            },
+            {
+              ingredientsQuantity: "6",
+              inredientsName: "cups vegetable broth",
+            },
+            {
+              ingredientsQuantity: "1",
+              inredientsName: "tsp cumin",
+            },
+            {
+              ingredientsQuantity: "1",
+              inredientsName: "tsp turmeric",
+            },
+            {
+              ingredientsQuantity: "1/2",
+              inredientsName: "tsp paprika",
+            },
+            {
               ingredientsQuantity: "",
-              inredientsName: "",
+              inredientsName: "Salt and pepper to taste",
+            },
+            {
+              ingredientsQuantity: "",
+              inredientsName: "Fresh parsley for garnish",
             },
           ],
         },
@@ -5500,39 +5661,79 @@ export const recipes = [
     ],
     recipeDirections: [
       {
-        directionTitle: "",
-        directionDescription: "",
+        directionTitle: "Sauté the vegetables",
+        directionDescription:
+          "Heat olive oil in a large pot over medium heat. Add chopped onions, carrots, and celery. Cook for 5-7 minutes until softened. Add minced garlic and cook for 1 more minute.",
+      },
+      {
+        directionTitle: "Add lentils and broth",
+        directionDescription:
+          "Stir in the rinsed lentils, vegetable broth, cumin, turmeric, and paprika. Bring the soup to a boil, then reduce to a simmer. Cook for 30-35 minutes until the lentils are tender.",
+      },
+      {
+        directionTitle: "Season and blend",
+        directionDescription:
+          "Season with salt and pepper to taste. If you prefer a smoother texture, use an immersion blender to puree part of the soup.",
+      },
+      {
+        directionTitle: "Serve",
+        directionDescription: "Garnish with fresh parsley and serve hot.",
       },
     ],
   },
   {
-    id: "",
-    recipeName: "",
+    id: "b499f36a-332d-4b46-acee-b5ac3eca4173",
+    recipeName: "Creamy Potato Leek Soup",
     author: {
       authorAvatar: "",
-      authorName: "",
-      authorDatePosted: "",
+      authorName: "Hailey Campbell",
+      authorDatePosted: "22 November 2024",
     },
-    prepareTime: "",
-    cookTime: "",
+    prepareTime: "10",
+    cookTime: "40",
     recipeCategory: "Soup",
     recipeImage: "",
     nutritionInformation: {
-      calories: "",
-      totalFat: "",
-      protein: "",
-      carbohydrate: "",
-      cholesterol: "",
+      calories: "350",
+      totalFat: "18",
+      protein: "6",
+      carbohydrate: "45",
+      cholesterol: "30",
     },
-    recipeDescription: "",
+    recipeDescription:
+      "A rich and creamy soup made with potatoes and leeks, perfect for cold weather. This soup has a velvety texture and a mild, comforting flavor.",
     recipeIngredients: [
       {
         recipeSteps: {
           name: "",
           steps: [
             {
+              ingredientsQuantity: "2",
+              inredientsName: "tbsp butter",
+            },
+            {
+              ingredientsQuantity: "2",
+              inredientsName: "large leeks, cleaned and sliced",
+            },
+            {
+              ingredientsQuantity: "3",
+              inredientsName: "medium potatoes, peeled and diced",
+            },
+            {
+              ingredientsQuantity: "4",
+              inredientsName: "cups vegetable or chicken broth",
+            },
+            {
+              ingredientsQuantity: "1",
+              inredientsName: "cup heavy cream",
+            },
+            {
               ingredientsQuantity: "",
-              inredientsName: "",
+              inredientsName: "Salt and pepper to taste",
+            },
+            {
+              ingredientsQuantity: "",
+              inredientsName: "Fresh chives for garnish",
             },
           ],
         },
@@ -5540,39 +5741,109 @@ export const recipes = [
     ],
     recipeDirections: [
       {
-        directionTitle: "",
-        directionDescription: "",
+        directionTitle: "Cook the leeks",
+        directionDescription:
+          "In a large pot, melt butter over medium heat. Add the sliced leeks and cook for 5 minutes, stirring occasionally, until softened.",
+      },
+      {
+        directionTitle: "Add potatoes and broth",
+        directionDescription:
+          "Stir in the diced potatoes and vegetable (or chicken) broth. Bring to a boil, then reduce to a simmer and cook for 20-25 minutes, until the potatoes are tender.",
+      },
+      {
+        directionTitle: "Blend the soup",
+        directionDescription:
+          "Use an immersion blender to puree the soup until smooth, or transfer the soup in batches to a regular blender.",
+      },
+      {
+        directionTitle: "Add cream and season",
+        directionDescription:
+          "Stir in the heavy cream and season with salt and pepper to taste.",
+      },
+      {
+        directionTitle: "Serve",
+        directionDescription: "Garnish with fresh chives and serve hot.",
       },
     ],
   },
   {
-    id: "",
-    recipeName: "",
+    id: "74f81694-24bc-4236-9081-96729d0e2e0b",
+    recipeName: "Minestrone Soup",
     author: {
       authorAvatar: "",
-      authorName: "",
-      authorDatePosted: "",
+      authorName: "Sophie Harris",
+      authorDatePosted: "13 August 3020",
     },
-    prepareTime: "",
-    cookTime: "",
+    prepareTime: "15",
+    cookTime: "45",
     recipeCategory: "Soup",
     recipeImage: "",
     nutritionInformation: {
-      calories: "",
-      totalFat: "",
-      protein: "",
-      carbohydrate: "",
-      cholesterol: "",
+      calories: "300",
+      totalFat: "8",
+      protein: "12",
+      carbohydrate: "40",
+      cholesterol: "10",
     },
-    recipeDescription: "",
+    recipeDescription:
+      "A classic Italian vegetable soup with beans, pasta, and a variety of vegetables. This hearty soup is packed with nutrients and is perfect for a cozy dinner.",
     recipeIngredients: [
       {
         recipeSteps: {
           name: "",
           steps: [
             {
+              ingredientsQuantity: "2",
+              inredientsName: "tbsp olive oil",
+            },
+            {
+              ingredientsQuantity: "1",
+              inredientsName: "onion, chopped",
+            },
+            {
+              ingredientsQuantity: "2",
+              inredientsName: "carrots, diced",
+            },
+            {
+              ingredientsQuantity: "2",
+              inredientsName: "celery stalks, diced",
+            },
+            {
+              ingredientsQuantity: "2",
+              inredientsName: "cloves garlic, minced",
+            },
+            {
+              ingredientsQuantity: "1",
+              inredientsName: "zucchini, diced",
+            },
+            {
+              ingredientsQuantity: "1",
+              inredientsName: "can (15 oz) diced tomatoes",
+            },
+            {
+              ingredientsQuantity: "1",
+              inredientsName:
+                "can (15 oz) cannellini beans, drained and rinsed",
+            },
+            {
+              ingredientsQuantity: "6",
+              inredientsName: "cups vegetable broth",
+            },
+            {
+              ingredientsQuantity: "1/2",
+              inredientsName: "cup small pasta (like elbow or ditalini)",
+            },
+            {
+              ingredientsQuantity: "1",
+              inredientsName: "tsp dried oregano",
+            },
+            {
               ingredientsQuantity: "",
-              inredientsName: "",
+              inredientsName: "Salt and pepper to taste",
+            },
+            {
+              ingredientsQuantity: "",
+              inredientsName: "Fresh basil for garnish",
             },
           ],
         },
@@ -5580,39 +5851,88 @@ export const recipes = [
     ],
     recipeDirections: [
       {
-        directionTitle: "",
-        directionDescription: "",
+        directionTitle: "Sauté vegetables",
+        directionDescription:
+          "Heat olive oil in a large pot over medium heat. Add the chopped onion, carrots, celery, and zucchini. Cook for 7-10 minutes until the vegetables begin to soften. Add minced garlic and cook for another minute.",
+      },
+      {
+        directionTitle: "Add tomatoes and beans",
+        directionDescription:
+          "Stir in the diced tomatoes, cannellini beans, and vegetable broth. Bring the soup to a boil, then reduce to a simmer and cook for 20 minutes.",
+      },
+      {
+        directionTitle: "Cook pasta",
+        directionDescription:
+          "Add the pasta and cook for an additional 10-12 minutes until the pasta is tender.",
+      },
+      {
+        directionTitle: "Season and serve",
+        directionDescription:
+          "Season the soup with dried oregano, salt, and pepper to taste. Garnish with fresh basil and serve hot.",
       },
     ],
   },
   {
-    id: "",
-    recipeName: "",
+    id: "6b1a4fef-8d3c-410c-bd1d-63035f21b431",
+    recipeName: "Creamy Tomato Basil Soup",
     author: {
       authorAvatar: "",
-      authorName: "",
-      authorDatePosted: "",
+      authorName: "Ariana Ortiz",
+      authorDatePosted: "06 April 2023",
     },
-    prepareTime: "",
-    cookTime: "",
+    prepareTime: "10",
+    cookTime: "30",
     recipeCategory: "Soup",
     recipeImage: "",
     nutritionInformation: {
-      calories: "",
-      totalFat: "",
-      protein: "",
-      carbohydrate: "",
-      cholesterol: "",
+      calories: "220",
+      totalFat: "12",
+      protein: "4",
+      carbohydrate: "25",
+      cholesterol: "30",
     },
-    recipeDescription: "",
+    recipeDescription:
+      "A smooth and creamy tomato soup infused with fresh basil, garlic, and a hint of cream, perfect for a cozy meal.",
     recipeIngredients: [
       {
         recipeSteps: {
           name: "",
           steps: [
             {
+              ingredientsQuantity: "2",
+              inredientsName: "tbsp olive oil",
+            },
+            {
+              ingredientsQuantity: "1",
+              inredientsName: "small onion, chopped",
+            },
+            {
+              ingredientsQuantity: "2",
+              inredientsName: "cloves garlic, minced",
+            },
+            {
+              ingredientsQuantity: "1",
+              inredientsName: "can (28 oz) crushed tomatoes",
+            },
+            {
+              ingredientsQuantity: "2",
+              inredientsName: "cups vegetable broth",
+            },
+            {
+              ingredientsQuantity: "1/2",
+              inredientsName: "cup heavy cream",
+            },
+            {
+              ingredientsQuantity: "1/4",
+              inredientsName: "cup fresh basil leaves, chopped",
+            },
+            {
+              ingredientsQuantity: "1",
+              inredientsName: "tsp sugar",
+            },
+            {
               ingredientsQuantity: "",
-              inredientsName: "",
+              inredientsName: "Salt and black pepper to taste",
             },
           ],
         },
@@ -5620,39 +5940,121 @@ export const recipes = [
     ],
     recipeDirections: [
       {
-        directionTitle: "",
-        directionDescription: "",
+        directionTitle: "Sauté the Aromatics",
+        directionDescription:
+          "Heat the olive oil in a large pot over medium heat. Add the chopped onion and sauté for 3–4 minutes until soft and translucent. Stir in the minced garlic and cook for another 30 seconds until fragrant.",
+      },
+      {
+        directionTitle: "Simmer the Soup Base",
+        directionDescription:
+          "Pour in the crushed tomatoes and vegetable broth. Stir well and bring the mixture to a simmer. Add sugar, salt, and black pepper. Cover the pot and let it simmer for 20 minutes, stirring occasionally.",
+      },
+      {
+        directionTitle: "Blend the Soup",
+        directionDescription:
+          "Remove the pot from heat and use an immersion blender to puree the soup until smooth. If using a regular blender, carefully transfer the soup in batches, blend until smooth, and return it to the pot.",
+      },
+      {
+        directionTitle: "Add Cream and Basil",
+        directionDescription:
+          "Stir in the heavy cream and chopped basil, then return the pot to low heat. Let it cook for another 5 minutes to allow the flavors to blend.",
+      },
+      {
+        directionTitle: "Serve Hot",
+        directionDescription:
+          "Ladle the soup into bowls and garnish with extra basil leaves if desired. Serve with crusty bread or grilled cheese for a complete meal.",
       },
     ],
   },
   {
-    id: "",
-    recipeName: "",
+    id: "0030da8f-1427-4e74-81cf-69f4ca2488a0",
+    recipeName: "Spicy Thai Coconut Shrimp Soup",
     author: {
       authorAvatar: "",
-      authorName: "",
-      authorDatePosted: "",
+      authorName: "Quinn Morgan",
+      authorDatePosted: "26 March 2023",
     },
-    prepareTime: "",
-    cookTime: "",
+    prepareTime: "15",
+    cookTime: "20",
     recipeCategory: "Soup",
     recipeImage: "",
     nutritionInformation: {
-      calories: "",
-      totalFat: "",
-      protein: "",
-      carbohydrate: "",
-      cholesterol: "",
+      calories: "280",
+      totalFat: "18",
+      protein: "16",
+      carbohydrate: "20",
+      cholesterol: "110",
     },
-    recipeDescription: "",
+    recipeDescription:
+      "A fragrant and spicy Thai-style coconut soup with shrimp, lime, and lemongrass, delivering a burst of bold flavors.",
     recipeIngredients: [
       {
         recipeSteps: {
           name: "",
           steps: [
             {
+              ingredientsQuantity: "1",
+              inredientsName: "tbsp coconut oil",
+            },
+            {
+              ingredientsQuantity: "1",
+              inredientsName: "small onion, sliced",
+            },
+            {
+              ingredientsQuantity: "2",
+              inredientsName: "cloves garlic, minced",
+            },
+            {
+              ingredientsQuantity: "1",
+              inredientsName: "tbsp fresh ginger, grated",
+            },
+            {
+              ingredientsQuantity: "1",
+              inredientsName: "stalk lemongrass, cut into 2-inch pieces",
+            },
+            {
+              ingredientsQuantity: "2",
+              inredientsName: "tbsp red curry paste",
+            },
+            {
+              ingredientsQuantity: "4",
+              inredientsName: "cups chicken or vegetable broth",
+            },
+            {
+              ingredientsQuantity: "1",
+              inredientsName: "can (14 oz) coconut milk",
+            },
+            {
+              ingredientsQuantity: "1",
+              inredientsName: "tbsp fish sauce",
+            },
+            {
+              ingredientsQuantity: "1",
+              inredientsName: "tbsp soy sauce",
+            },
+            {
+              ingredientsQuantity: "1",
+              inredientsName: "tsp sugar",
+            },
+            {
+              ingredientsQuantity: "8",
+              inredientsName: "oz shrimp, peeled and deveined",
+            },
+            {
+              ingredientsQuantity: "1",
+              inredientsName: "cup mushrooms, sliced",
+            },
+            {
+              ingredientsQuantity: "1",
+              inredientsName: "red bell pepper, sliced",
+            },
+            {
+              ingredientsQuantity: "2",
+              inredientsName: "tbsp lime juice",
+            },
+            {
               ingredientsQuantity: "",
-              inredientsName: "",
+              inredientsName: "Fresh cilantro and lime wedges for garnish",
             },
           ],
         },
@@ -5660,39 +6062,131 @@ export const recipes = [
     ],
     recipeDirections: [
       {
-        directionTitle: "",
-        directionDescription: "",
+        directionTitle: "Sauté Aromatics",
+        directionDescription:
+          "Heat coconut oil in a large pot over medium heat. Add sliced onion, garlic, and ginger, and cook for 2–3 minutes until fragrant.",
+      },
+      {
+        directionTitle: "Infuse Flavor",
+        directionDescription:
+          "Add the lemongrass and red curry paste, stirring well for 1 minute to release its aroma.",
+      },
+      {
+        directionTitle: "Simmer the Soup",
+        directionDescription:
+          "Pour in the chicken or vegetable broth and bring it to a boil. Reduce heat and let it simmer for 10 minutes to infuse the flavors.",
+      },
+      {
+        directionTitle: "Add Coconut Milk & Seasonings",
+        directionDescription:
+          "Stir in the coconut milk, fish sauce, soy sauce, and sugar. Let it simmer for another 5 minutes.",
+      },
+      {
+        directionTitle: "Cook Shrimp & Vegetables",
+        directionDescription:
+          "Add the shrimp, mushrooms, and red bell pepper. Cook for 3–4 minutes until the shrimp turn pink and opaque.",
+      },
+      {
+        directionTitle: "Finish with Lime",
+        directionDescription:
+          "Remove lemongrass stalks and stir in lime juice. Taste and adjust seasoning if needed.",
+      },
+      {
+        directionTitle: "Serve Hot",
+        directionDescription:
+          "Ladle into bowls and garnish with fresh cilantro and lime wedges. Serve immediately.",
       },
     ],
   },
   {
-    id: "",
-    recipeName: "",
+    id: "f610949e-ba7d-4071-a0a6-3489c8dbecb3",
+    recipeName: "Hearty Lentil and Vegetable Soup",
     author: {
       authorAvatar: "",
-      authorName: "",
-      authorDatePosted: "",
+      authorName: "Sophia Richardson",
+      authorDatePosted: "28 September 2023",
     },
-    prepareTime: "",
-    cookTime: "",
+    prepareTime: "10",
+    cookTime: "40",
     recipeCategory: "Soup",
     recipeImage: "",
     nutritionInformation: {
-      calories: "",
-      totalFat: "",
-      protein: "",
-      carbohydrate: "",
-      cholesterol: "",
+      calories: "240",
+      totalFat: "6",
+      protein: "12",
+      carbohydrate: "35",
+      cholesterol: "0",
     },
-    recipeDescription: "",
+    recipeDescription:
+      "A nourishing and hearty lentil soup packed with vegetables and warm spices, perfect for a wholesome meal.",
     recipeIngredients: [
       {
         recipeSteps: {
           name: "",
           steps: [
             {
-              ingredientsQuantity: "",
-              inredientsName: "",
+              ingredientsQuantity: "2",
+              inredientsName: "tbsp olive oil",
+            },
+            {
+              ingredientsQuantity: "1",
+              inredientsName: "small onion, chopped",
+            },
+            {
+              ingredientsQuantity: "2",
+              inredientsName: "cloves garlic, minced",
+            },
+            {
+              ingredientsQuantity: "2",
+              inredientsName: "carrots, diced",
+            },
+            {
+              ingredientsQuantity: "1",
+              inredientsName: "celery stalk, diced",
+            },
+            {
+              ingredientsQuantity: "1",
+              inredientsName: "tsp cumin",
+            },
+            {
+              ingredientsQuantity: "1/2",
+              inredientsName: "tsp smoked paprika",
+            },
+            {
+              ingredientsQuantity: "1/2",
+              inredientsName: "tsp turmeric",
+            },
+            {
+              ingredientsQuantity: "1",
+              inredientsName: "cup dried lentils, rinsed",
+            },
+            {
+              ingredientsQuantity: "4",
+              inredientsName: "cups vegetable broth",
+            },
+            {
+              ingredientsQuantity: "1",
+              inredientsName: "can (14 oz) diced tomatoes",
+            },
+            {
+              ingredientsQuantity: "1",
+              inredientsName: "bay leaf",
+            },
+            {
+              ingredientsQuantity: "1/2",
+              inredientsName: "tsp salt",
+            },
+            {
+              ingredientsQuantity: "1/4",
+              inredientsName: "tsp black pepper",
+            },
+            {
+              ingredientsQuantity: "2",
+              inredientsName: "cups spinach or kale, chopped",
+            },
+            {
+              ingredientsQuantity: "1",
+              inredientsName: "tbsp lemon juice",
             },
           ],
         },
@@ -5700,8 +6194,29 @@ export const recipes = [
     ],
     recipeDirections: [
       {
-        directionTitle: "",
-        directionDescription: "",
+        directionTitle: "Sauté Aromatics",
+        directionDescription:
+          "Heat olive oil in a large pot over medium heat. Add the chopped onion and sauté for 3–4 minutes until softened. Stir in the minced garlic, diced carrots, and celery. Cook for another 3 minutes.",
+      },
+      {
+        directionTitle: "Toast the Spices",
+        directionDescription:
+          "Add cumin, smoked paprika, and turmeric. Stir well for 30 seconds to release their flavors.",
+      },
+      {
+        directionTitle: "Simmer the Lentils",
+        directionDescription:
+          "Pour in the vegetable broth, lentils, diced tomatoes, bay leaf, salt, and black pepper. Stir well and bring the soup to a gentle boil. Reduce heat and let it simmer for 30 minutes until the lentils are tender. Stir occasionally.",
+      },
+      {
+        directionTitle: "Add Greens & Finish",
+        directionDescription:
+          "Remove the bay leaf and stir in the chopped spinach or kale. Let it cook for another 5 minutes until the greens are wilted. Stir in the lemon juice for a fresh, tangy finish.",
+      },
+      {
+        directionTitle: "Serve Warm",
+        directionDescription:
+          "Ladle the soup into bowls and enjoy with whole-grain bread or a side of rice.",
       },
     ],
   },
