@@ -3124,33 +3124,70 @@ export const recipes = [
   },
   // Seafood
   {
-    id: "",
-    recipeName: "",
+    id: "c050d959-b2aa-418b-9e75-db5a9c500057",
+    recipeName: "Garlic Butter Shrimp Scampi",
     author: {
       authorAvatar: "",
-      authorName: "",
-      authorDatePosted: "",
+      authorName: "Levi Foster",
+      authorDatePosted: "02 July 2023",
     },
-    prepareTime: "",
-    cookTime: "",
+    prepareTime: "10",
+    cookTime: "15",
     recipeCategory: "Seafood",
     recipeImage: "",
     nutritionInformation: {
-      calories: "",
-      totalFat: "",
-      protein: "",
-      carbohydrate: "",
-      cholesterol: "",
+      calories: "420",
+      totalFat: "18",
+      protein: "32",
+      carbohydrate: "38",
+      cholesterol: "220",
     },
-    recipeDescription: "",
+    recipeDescription:
+      "A rich and flavorful shrimp dish cooked in a garlic butter sauce, served over pasta for a perfect seafood meal.",
     recipeIngredients: [
       {
         recipeSteps: {
           name: "",
           steps: [
             {
+              ingredientsQuantity: "1",
+              inredientsName: "lb shrimp (peeled and deveined)",
+            },
+            {
+              ingredientsQuantity: "8",
+              inredientsName: "oz linguine or spaghetti",
+            },
+            {
+              ingredientsQuantity: "4",
+              inredientsName: "cloves garlic (minced)",
+            },
+            {
+              ingredientsQuantity: "2",
+              inredientsName: "tbsp olive oil",
+            },
+            {
+              ingredientsQuantity: "3",
+              inredientsName: "tbsp unsalted butter",
+            },
+            {
+              ingredientsQuantity: "1/2",
+              inredientsName: "cup dry white wine",
+            },
+            {
+              ingredientsQuantity: "1/2",
+              inredientsName: "tsp red pepper flakes",
+            },
+            {
+              ingredientsQuantity: "1",
+              inredientsName: "lemon (juiced)",
+            },
+            {
+              ingredientsQuantity: "1/4",
+              inredientsName: "cup chopped parsley",
+            },
+            {
               ingredientsQuantity: "",
-              inredientsName: "",
+              inredientsName: "Salt and black pepper to taste",
             },
           ],
         },
@@ -3158,39 +3195,107 @@ export const recipes = [
     ],
     recipeDirections: [
       {
-        directionTitle: "",
-        directionDescription: "",
+        directionTitle: "Cook the pasta",
+        directionDescription:
+          "Bring a large pot of salted water to a boil. Add linguine and cook according to package instructions until al dente. Drain and set aside.",
+      },
+      {
+        directionTitle: "Prepare the shrimp",
+        directionDescription:
+          "Pat the shrimp dry with a paper towel. Season with salt and black pepper.",
+      },
+      {
+        directionTitle: "Sauté garlic",
+        directionDescription:
+          "In a large skillet over medium heat, heat olive oil and 1 tbsp butter. Add minced garlic and sauté for 30 seconds until fragrant.",
+      },
+      {
+        directionTitle: "Cook the shrimp",
+        directionDescription:
+          "Add shrimp to the skillet and cook for about 2 minutes on one side. Flip and cook for another 1-2 minutes, until pink and opaque. Remove shrimp from the pan and set aside.",
+      },
+      {
+        directionTitle: "Deglaze the pan",
+        directionDescription:
+          "Pour white wine into the skillet, scraping up any bits stuck to the bottom. Let it simmer for 3 minutes.",
+      },
+      {
+        directionTitle: "Make the sauce",
+        directionDescription:
+          "Stir in the remaining butter, red pepper flakes, and lemon juice. Let the sauce reduce for 2 minutes.",
+      },
+      {
+        directionTitle: "Combine everything",
+        directionDescription:
+          "Return the shrimp to the skillet and toss to coat. Add the cooked pasta and mix everything together.",
+      },
+      {
+        directionTitle: "Garnish and serve",
+        directionDescription: "Sprinkle with parsley and serve immediately.",
       },
     ],
   },
   {
-    id: "",
-    recipeName: "",
+    id: "580b7242-ceed-4edb-a031-9e56ca87895c",
+    recipeName: "Grilled Salmon with Honey Garlic Glaze",
     author: {
       authorAvatar: "",
-      authorName: "",
-      authorDatePosted: "",
+      authorName: "Aiden Green",
+      authorDatePosted: "07 May 2023",
     },
-    prepareTime: "",
-    cookTime: "",
+    prepareTime: "10",
+    cookTime: "12",
     recipeCategory: "Seafood",
     recipeImage: "",
     nutritionInformation: {
-      calories: "",
-      totalFat: "",
-      protein: "",
-      carbohydrate: "",
-      cholesterol: "",
+      calories: "480",
+      totalFat: "22",
+      protein: "45",
+      carbohydrate: "18",
+      cholesterol: "105",
     },
-    recipeDescription: "",
+    recipeDescription:
+      "A juicy, flaky salmon fillet grilled to perfection and coated in a sweet and savory honey garlic glaze.",
     recipeIngredients: [
       {
         recipeSteps: {
           name: "",
           steps: [
             {
-              ingredientsQuantity: "",
-              inredientsName: "",
+              ingredientsQuantity: "4",
+              inredientsName: "salmon fillets (6 oz each)",
+            },
+            {
+              ingredientsQuantity: "3",
+              inredientsName: "tbsp soy sauce",
+            },
+            {
+              ingredientsQuantity: "3",
+              inredientsName: "tbsp honey",
+            },
+            {
+              ingredientsQuantity: "2",
+              inredientsName: "tbsp lemon juice",
+            },
+            {
+              ingredientsQuantity: "3",
+              inredientsName: "cloves garlic (minced)",
+            },
+            {
+              ingredientsQuantity: "1",
+              inredientsName: "tsp Dijon mustard",
+            },
+            {
+              ingredientsQuantity: "1",
+              inredientsName: "tbsp olive oil",
+            },
+            {
+              ingredientsQuantity: "1/2",
+              inredientsName: "tsp black pepper",
+            },
+            {
+              ingredientsQuantity: "1/2",
+              inredientsName: "tsp salt",
             },
           ],
         },
@@ -3198,39 +3303,89 @@ export const recipes = [
     ],
     recipeDirections: [
       {
-        directionTitle: "",
-        directionDescription: "",
+        directionTitle: "Prepare the marinade",
+        directionDescription:
+          "In a small bowl, whisk together soy sauce, honey, lemon juice, garlic, Dijon mustard, olive oil, salt, and black pepper.",
+      },
+      {
+        directionTitle: "Marinate the salmon",
+        directionDescription:
+          "Place the salmon fillets in a shallow dish and pour the marinade over them. Let them marinate for at least 15 minutes (or up to 1 hour for deeper flavor).",
+      },
+      {
+        directionTitle: "Preheat the grill",
+        directionDescription:
+          "Heat the grill to medium-high (about 400°F). Lightly oil the grates to prevent sticking.",
+      },
+      {
+        directionTitle: "Grill the salmon",
+        directionDescription:
+          "Place the salmon skin-side down on the grill. Cook for about 5-6 minutes without moving it. Flip gently and grill for another 4-5 minutes, or until the salmon easily flakes with a fork.",
+      },
+      {
+        directionTitle: "Glaze and serve",
+        directionDescription:
+          "Brush any remaining marinade over the cooked salmon and serve hot with steamed vegetables or rice.",
       },
     ],
   },
   {
-    id: "",
-    recipeName: "",
+    id: "d8ef8aa6-eb8c-4df8-acad-a2b6f791edb8",
+    recipeName: "Lemon Garlic Butter Scallops",
     author: {
       authorAvatar: "",
-      authorName: "",
-      authorDatePosted: "",
+      authorName: "Leonardo Rodriguez",
+      authorDatePosted: "08 September 2020",
     },
-    prepareTime: "",
-    cookTime: "",
+    prepareTime: "10",
+    cookTime: "7",
     recipeCategory: "Seafood",
     recipeImage: "",
     nutritionInformation: {
-      calories: "",
-      totalFat: "",
-      protein: "",
-      carbohydrate: "",
-      cholesterol: "",
+      calories: "350",
+      totalFat: "20",
+      protein: "38",
+      carbohydrate: "6",
+      cholesterol: "90",
     },
-    recipeDescription: "",
+    recipeDescription:
+      "Seared scallops in a zesty lemon garlic butter sauce, crispy on the outside and tender inside.",
     recipeIngredients: [
       {
         recipeSteps: {
           name: "",
           steps: [
             {
-              ingredientsQuantity: "",
-              inredientsName: "",
+              ingredientsQuantity: "1",
+              inredientsName: "lb sea scallops",
+            },
+            {
+              ingredientsQuantity: "2",
+              inredientsName: "tbsp olive oil",
+            },
+            {
+              ingredientsQuantity: "2",
+              inredientsName: "tbsp butter",
+            },
+            {
+              ingredientsQuantity: "3",
+              inredientsName: "cloves garlic (minced)",
+            },
+            {
+              ingredientsQuantity: "1",
+              inredientsName: "lemon (juiced)",
+            },
+            {
+              ingredientsQuantity: "1/4",
+              inredientsName: "tsp salt",
+            },
+            {
+              ingredientsQuantity: "1/4",
+              inredientsName: "tsp black pepper",
+            },
+            {
+              ingredientsQuantity: "1",
+              inredientsName: "tbsp chopped parsley",
             },
           ],
         },
@@ -3238,39 +3393,80 @@ export const recipes = [
     ],
     recipeDirections: [
       {
-        directionTitle: "",
-        directionDescription: "",
+        directionTitle: "Prepare the scallops",
+        directionDescription:
+          "Pat the scallops dry with paper towels. Season with salt and pepper.",
+      },
+      {
+        directionTitle: "Sear the scallops",
+        directionDescription:
+          "Heat olive oil in a skillet over high heat. Add scallops in a single layer and sear for 2-3 minutes without moving them. Flip and cook for another 2 minutes until golden brown. Remove and set aside.",
+      },
+      {
+        directionTitle: "Make the sauce",
+        directionDescription:
+          "Reduce heat to medium, add butter and garlic, and sauté for 30 seconds. Stir in lemon juice.",
+      },
+      {
+        directionTitle: "Combine and serve",
+        directionDescription:
+          "Return scallops to the pan, spoon sauce over them, and garnish with parsley. Serve immediately.",
       },
     ],
   },
   {
-    id: "",
-    recipeName: "",
+    id: "4d4c126f-4f98-4a55-b1c3-788ffa6484db",
+    recipeName: "Creamy Garlic Parmesan Lobster Tail",
     author: {
       authorAvatar: "",
-      authorName: "",
-      authorDatePosted: "",
+      authorName: "Micah Nguyen",
+      authorDatePosted: "16 December 2021",
     },
-    prepareTime: "",
-    cookTime: "",
+    prepareTime: "10",
+    cookTime: "15",
     recipeCategory: "Seafood",
     recipeImage: "",
     nutritionInformation: {
-      calories: "",
-      totalFat: "",
-      protein: "",
-      carbohydrate: "",
-      cholesterol: "",
+      calories: "540",
+      totalFat: "35",
+      protein: "45",
+      carbohydrate: "12",
+      cholesterol: "250",
     },
-    recipeDescription: "",
+    recipeDescription:
+      "Tender lobster tails smothered in a creamy garlic Parmesan sauce.",
     recipeIngredients: [
       {
         recipeSteps: {
           name: "",
           steps: [
             {
+              ingredientsQuantity: "2",
+              inredientsName: "lobster tails",
+            },
+            {
+              ingredientsQuantity: "2",
+              inredientsName: "tbsp butter",
+            },
+            {
+              ingredientsQuantity: "2",
+              inredientsName: "cloves garlic (minced)",
+            },
+            {
+              ingredientsQuantity: "1/2",
+              inredientsName: "cup heavy cream",
+            },
+            {
+              ingredientsQuantity: "1/4",
+              inredientsName: "cup grated Parmesan",
+            },
+            {
+              ingredientsQuantity: "1/2",
+              inredientsName: "tsp paprika",
+            },
+            {
               ingredientsQuantity: "",
-              inredientsName: "",
+              inredientsName: "Salt and pepper to taste",
             },
           ],
         },
@@ -3278,39 +3474,87 @@ export const recipes = [
     ],
     recipeDirections: [
       {
-        directionTitle: "",
-        directionDescription: "",
+        directionTitle: "Preheat oven",
+        directionDescription: "to 400°F.",
+      },
+      {
+        directionTitle: "Prepare lobster",
+        directionDescription:
+          "Cut down the center of the lobster shell and pull the meat out slightly.",
+      },
+      {
+        directionTitle: "Bake",
+        directionDescription:
+          "Place lobster on a baking sheet, season with salt, pepper, and paprika, and bake for 8 minutes.",
+      },
+      {
+        directionTitle: "Make sauce",
+        directionDescription:
+          "Melt butter in a skillet, sauté garlic, add cream, and stir in Parmesan. Simmer until thickened.",
+      },
+      {
+        directionTitle: "Coat and serve",
+        directionDescription: "Pour sauce over baked lobster and serve hot.",
       },
     ],
   },
   {
-    id: "",
-    recipeName: "",
+    id: "704a6695-40d8-4129-b592-bf3dd4e0d3b9",
+    recipeName: "Classic New England Clam Chowder",
     author: {
       authorAvatar: "",
-      authorName: "",
-      authorDatePosted: "",
+      authorName: "Luca Bennett",
+      authorDatePosted: "20 November 2024",
     },
-    prepareTime: "",
-    cookTime: "",
+    prepareTime: "15",
+    cookTime: "30",
     recipeCategory: "Seafood",
     recipeImage: "",
     nutritionInformation: {
-      calories: "",
-      totalFat: "",
-      protein: "",
-      carbohydrate: "",
-      cholesterol: "",
+      calories: "480",
+      totalFat: "28",
+      protein: "25",
+      carbohydrate: "38",
+      cholesterol: "75",
     },
-    recipeDescription: "",
+    recipeDescription:
+      "A creamy and hearty clam chowder with potatoes, bacon, and fresh clams.",
     recipeIngredients: [
       {
         recipeSteps: {
           name: "",
           steps: [
             {
+              ingredientsQuantity: "2",
+              inredientsName: "cups clams (chopped)",
+            },
+            {
+              ingredientsQuantity: "3",
+              inredientsName: "slices bacon (chopped)",
+            },
+            {
+              ingredientsQuantity: "1",
+              inredientsName: "onion (diced)",
+            },
+            {
+              ingredientsQuantity: "2",
+              inredientsName: "potatoes (cubed)",
+            },
+            {
+              ingredientsQuantity: "2",
+              inredientsName: "cups milk",
+            },
+            {
+              ingredientsQuantity: "1",
+              inredientsName: "cup heavy cream",
+            },
+            {
+              ingredientsQuantity: "2",
+              inredientsName: "tbsp butter",
+            },
+            {
               ingredientsQuantity: "",
-              inredientsName: "",
+              inredientsName: "Salt and pepper to taste",
             },
           ],
         },
@@ -3318,39 +3562,94 @@ export const recipes = [
     ],
     recipeDirections: [
       {
-        directionTitle: "",
-        directionDescription: "",
+        directionTitle: "Cook the Bacon",
+        directionDescription:
+          "In a large pot, cook the bacon until crispy. Once done, remove it from the pot and set it aside, leaving the bacon fat in the pot for flavor.",
+      },
+      {
+        directionTitle: "Sauté the Onion",
+        directionDescription:
+          "Add the chopped onion to the bacon fat and sauté it over medium heat until softened and translucent, about 3-4 minutes.",
+      },
+      {
+        directionTitle: "Add the Potatoes",
+        directionDescription:
+          "Add the diced potatoes to the pot and cook for 5 minutes, stirring occasionally to ensure they’re coated in the fat and start to soften.",
+      },
+      {
+        directionTitle: "Add the Clams, Milk, and Cream",
+        directionDescription:
+          "Pour in the clams, milk, and heavy cream. Bring the mixture to a simmer, then reduce the heat to low and let it cook for about 20 minutes, or until the potatoes are tender.",
+      },
+      {
+        directionTitle: "Finish the Soup",
+        directionDescription:
+          "Stir in butter, allowing it to melt into the chowder for extra richness. Taste and adjust seasoning with salt and pepper.",
+      },
+      {
+        directionTitle: "Serve",
+        directionDescription:
+          "Ladle the chowder into bowls and serve hot, garnished with crumbled bacon and a side of crusty bread to soak up the delicious broth.",
       },
     ],
   },
   {
-    id: "",
-    recipeName: "",
+    id: "8d3fe216-af97-4e03-920a-fc5e52e34c4f",
+    recipeName: "Lobster Roll",
     author: {
       authorAvatar: "",
-      authorName: "",
-      authorDatePosted: "",
+      authorName: "Carter Scott",
+      authorDatePosted: "02 February 2024",
     },
-    prepareTime: "",
-    cookTime: "",
+    prepareTime: "15",
+    cookTime: "10",
     recipeCategory: "Seafood",
     recipeImage: "",
     nutritionInformation: {
-      calories: "",
-      totalFat: "",
-      protein: "",
-      carbohydrate: "",
-      cholesterol: "",
+      calories: "450",
+      totalFat: "25",
+      protein: "25",
+      carbohydrate: "35",
+      cholesterol: "100",
     },
-    recipeDescription: "",
+    recipeDescription:
+      "A classic New England lobster roll, with sweet lobster meat dressed in a simple, buttery, and creamy sauce, served in a toasted bun.",
     recipeIngredients: [
       {
         recipeSteps: {
           name: "",
           steps: [
             {
+              ingredientsQuantity: "2",
+              inredientsName: "lobster tails (cooked and chopped)",
+            },
+            {
+              ingredientsQuantity: "2",
+              inredientsName: "tbsp mayonnaise",
+            },
+            {
+              ingredientsQuantity: "1",
+              inredientsName: "tbsp lemon juice",
+            },
+            {
+              ingredientsQuantity: "1",
+              inredientsName: "tbsp chopped fresh chives",
+            },
+            {
+              ingredientsQuantity: "2",
+              inredientsName: "tsp Dijon mustard",
+            },
+            {
               ingredientsQuantity: "",
-              inredientsName: "",
+              inredientsName: "Salt and pepper to taste",
+            },
+            {
+              ingredientsQuantity: "2",
+              inredientsName: "hot dog buns (preferably New England-style)",
+            },
+            {
+              ingredientsQuantity: "2",
+              inredientsName: "tbsp butter (for toasting the buns)",
             },
           ],
         },
@@ -3358,39 +3657,89 @@ export const recipes = [
     ],
     recipeDirections: [
       {
-        directionTitle: "",
-        directionDescription: "",
+        directionTitle: "Prepare the lobster",
+        directionDescription:
+          "Boil the lobster tails in salted water for about 5-7 minutes until fully cooked. Let cool, then remove the meat from the shells and chop it into bite-sized pieces.",
+      },
+      {
+        directionTitle: "Make the dressing",
+        directionDescription:
+          "In a mixing bowl, combine mayonnaise, lemon juice, Dijon mustard, chopped chives, salt, and pepper. Stir until smooth.",
+      },
+      {
+        directionTitle: "Assemble",
+        directionDescription:
+          "Gently fold the lobster meat into the dressing, being careful not to break it up too much.",
+      },
+      {
+        directionTitle: "Toast the buns",
+        directionDescription:
+          "In a skillet, melt butter over medium heat. Toast the buns for about 2-3 minutes until golden brown.",
+      },
+      {
+        directionTitle: "Serve",
+        directionDescription:
+          "Fill the toasted buns with the lobster mixture and serve immediately.",
       },
     ],
   },
   {
-    id: "",
-    recipeName: "",
+    id: "0a17147a-5506-4bf9-8efd-365ad86fcec9",
+    recipeName: "Seared Tuna Steaks with Avocado Salsa",
     author: {
       authorAvatar: "",
-      authorName: "",
-      authorDatePosted: "",
+      authorName: "Christian Bailey",
+      authorDatePosted: "05 September 2022",
     },
-    prepareTime: "",
-    cookTime: "",
+    prepareTime: "10",
+    cookTime: "5",
     recipeCategory: "Seafood",
     recipeImage: "",
     nutritionInformation: {
-      calories: "",
-      totalFat: "",
-      protein: "",
-      carbohydrate: "",
-      cholesterol: "",
+      calories: "380",
+      totalFat: "22",
+      protein: "42",
+      carbohydrate: "10",
+      cholesterol: "60",
     },
-    recipeDescription: "",
+    recipeDescription:
+      "This dish features perfectly seared tuna steaks, paired with a fresh, zesty avocado salsa.",
     recipeIngredients: [
       {
         recipeSteps: {
           name: "",
           steps: [
             {
+              ingredientsQuantity: "2",
+              inredientsName: "tuna steaks",
+            },
+            {
+              ingredientsQuantity: "1",
+              inredientsName: "tbsp olive oil",
+            },
+            {
               ingredientsQuantity: "",
-              inredientsName: "",
+              inredientsName: "Salt and pepper to taste",
+            },
+            {
+              ingredientsQuantity: "1",
+              inredientsName: "avocado, diced",
+            },
+            {
+              ingredientsQuantity: "1/2",
+              inredientsName: "red onion, finely chopped",
+            },
+            {
+              ingredientsQuantity: "1/2",
+              inredientsName: "cup cherry tomatoes, halved",
+            },
+            {
+              ingredientsQuantity: "1",
+              inredientsName: "tbsp cilantro, chopped",
+            },
+            {
+              ingredientsQuantity: "1",
+              inredientsName: "tbsp lime juice",
             },
           ],
         },
@@ -3398,39 +3747,84 @@ export const recipes = [
     ],
     recipeDirections: [
       {
-        directionTitle: "",
-        directionDescription: "",
+        directionTitle: "Prepare the tuna",
+        directionDescription:
+          "Rub the tuna steaks with olive oil, and season both sides with salt and pepper.",
+      },
+      {
+        directionTitle: "Sear the tuna",
+        directionDescription:
+          "Heat a skillet over medium-high heat and sear the tuna steaks for 2-3 minutes per side (for rare), or longer depending on your desired doneness. Remove from heat and set aside.",
+      },
+      {
+        directionTitle: "Make the salsa",
+        directionDescription:
+          "In a small bowl, combine diced avocado, red onion, cherry tomatoes, cilantro, and lime juice. Season with salt and pepper.",
+      },
+      {
+        directionTitle: "Serve",
+        directionDescription:
+          "Slice the seared tuna steaks and top with the fresh avocado salsa. Serve immediately with rice or salad.",
       },
     ],
   },
   {
-    id: "",
-    recipeName: "",
+    id: "ce063fec-6bf7-4521-ac64-a54736d1427c",
+    recipeName: "Baked Cod with Garlic and Herb Crust",
     author: {
       authorAvatar: "",
-      authorName: "",
-      authorDatePosted: "",
+      authorName: "Parker Cruz",
+      authorDatePosted: "08 April 2023",
     },
-    prepareTime: "",
-    cookTime: "",
+    prepareTime: "15",
+    cookTime: "20",
     recipeCategory: "Seafood",
     recipeImage: "",
     nutritionInformation: {
-      calories: "",
-      totalFat: "",
-      protein: "",
-      carbohydrate: "",
-      cholesterol: "",
+      calories: "350",
+      totalFat: "15",
+      protein: "40",
+      carbohydrate: "12",
+      cholesterol: "75",
     },
-    recipeDescription: "",
+    recipeDescription:
+      "Tender cod fillets topped with a savory garlic and herb crust, baked until golden and crispy.",
     recipeIngredients: [
       {
         recipeSteps: {
           name: "",
           steps: [
             {
+              ingredientsQuantity: "4",
+              inredientsName: "cod fillets",
+            },
+            {
+              ingredientsQuantity: "3",
+              inredientsName: "tbsp olive oil",
+            },
+            {
+              ingredientsQuantity: "3",
+              inredientsName: "garlic cloves, minced",
+            },
+            {
+              ingredientsQuantity: "1/4",
+              inredientsName: "cup breadcrumbs",
+            },
+            {
+              ingredientsQuantity: "1/4",
+              inredientsName: "cup grated Parmesan cheese",
+            },
+            {
+              ingredientsQuantity: "1",
+              inredientsName: "tbsp fresh parsley, chopped",
+            },
+            {
+              ingredientsQuantity: "1",
+              inredientsName: "tsp lemon zest",
+            },
+            {
               ingredientsQuantity: "",
-              inredientsName: "",
+              inredientsName: "Salt and pepper to taste",
             },
           ],
         },
@@ -3438,39 +3832,108 @@ export const recipes = [
     ],
     recipeDirections: [
       {
-        directionTitle: "",
-        directionDescription: "",
+        directionTitle: "Preheat the oven",
+        directionDescription: "Set your oven to 400°F (200°C).",
+      },
+      {
+        directionTitle: "Prepare the cod",
+        directionDescription:
+          "Place the cod fillets on a baking sheet lined with parchment paper. Drizzle with olive oil and season with salt and pepper.",
+      },
+      {
+        directionTitle: "Make the crust",
+        directionDescription:
+          "In a small bowl, combine the minced garlic, breadcrumbs, Parmesan cheese, parsley, and lemon zest.",
+      },
+      {
+        directionTitle: "Top the fillets",
+        directionDescription:
+          "Press the breadcrumb mixture onto the top of each cod fillet, forming a crust.",
+      },
+      {
+        directionTitle: "Bake",
+        directionDescription:
+          "Bake the cod for 15-20 minutes, or until the fish is cooked through and the crust is golden brown. Serve immediately with vegetables or potatoes.",
       },
     ],
   },
   {
-    id: "",
-    recipeName: "",
+    id: "87e0dd83-3480-41f7-aaa6-6a72b71d3c87",
+    recipeName: "Crispy Fish Tacos",
     author: {
       authorAvatar: "",
-      authorName: "",
-      authorDatePosted: "",
+      authorName: "Liam Davis",
+      authorDatePosted: "03 May 2020",
     },
-    prepareTime: "",
-    cookTime: "",
+    prepareTime: "15",
+    cookTime: "15",
     recipeCategory: "Seafood",
     recipeImage: "",
     nutritionInformation: {
-      calories: "",
-      totalFat: "",
-      protein: "",
-      carbohydrate: "",
-      cholesterol: "",
+      calories: "400",
+      totalFat: "20",
+      protein: "30",
+      carbohydrate: "35",
+      cholesterol: "60",
     },
-    recipeDescription: "",
+    recipeDescription:
+      "Golden, crispy battered fish served in soft tortillas with a tangy slaw and creamy sauce.",
     recipeIngredients: [
       {
         recipeSteps: {
           name: "",
           steps: [
             {
+              ingredientsQuantity: "4",
+              inredientsName: "white fish fillets (such as cod or tilapia)",
+            },
+            {
+              ingredientsQuantity: "1",
+              inredientsName: "cup flour",
+            },
+            {
+              ingredientsQuantity: "1",
+              inredientsName: "tsp paprika",
+            },
+            {
+              ingredientsQuantity: "1",
+              inredientsName: "tsp garlic powder",
+            },
+            {
+              ingredientsQuantity: "1",
+              inredientsName: "tsp cumin",
+            },
+            {
               ingredientsQuantity: "",
-              inredientsName: "",
+              inredientsName: "Salt and pepper to taste",
+            },
+            {
+              ingredientsQuantity: "1/2",
+              inredientsName: "cup cold beer (or sparkling water)",
+            },
+            {
+              ingredientsQuantity: "2",
+              inredientsName: "tbsp vegetable oil for frying",
+            },
+            {
+              ingredientsQuantity: "8",
+              inredientsName: "small flour tortillas",
+            },
+            {
+              ingredientsQuantity: "1",
+              inredientsName: "cup cabbage, shredded",
+            },
+            {
+              ingredientsQuantity: "1/2",
+              inredientsName: "cup sour cream",
+            },
+            {
+              ingredientsQuantity: "1",
+              inredientsName: "tbsp lime juice",
+            },
+            {
+              ingredientsQuantity: "2",
+              inredientsName: "tbsp cilantro, chopped",
             },
           ],
         },
@@ -3478,39 +3941,107 @@ export const recipes = [
     ],
     recipeDirections: [
       {
-        directionTitle: "",
-        directionDescription: "",
+        directionTitle: "Prepare the batter",
+        directionDescription:
+          "In a bowl, whisk together flour, paprika, garlic powder, cumin, salt, and pepper. Slowly pour in the cold beer (or sparkling water) and whisk until smooth.",
+      },
+      {
+        directionTitle: "Cook the fish",
+        directionDescription:
+          "Heat vegetable oil in a large skillet over medium heat. Dip each fish fillet into the batter, ensuring it’s fully coated. Fry the fillets for 3-4 minutes on each side, or until golden brown and cooked through. Remove from the skillet and drain on paper towels.",
+      },
+      {
+        directionTitle: "Prepare the slaw",
+        directionDescription:
+          "In a small bowl, combine shredded cabbage, sour cream, lime juice, and cilantro. Mix well and season with salt and pepper.",
+      },
+      {
+        directionTitle: "Assemble the tacos",
+        directionDescription:
+          "Warm the tortillas in a dry skillet for 30 seconds per side. Place a crispy fish fillet on each tortilla, top with the slaw, and serve with lime wedges.",
       },
     ],
   },
   {
-    id: "",
-    recipeName: "",
+    id: "78e62f43-4f7f-47a4-b480-b3f0312adcdb",
+    recipeName: "Crispy Calamari with Lemon Aioli",
     author: {
       authorAvatar: "",
-      authorName: "",
-      authorDatePosted: "",
+      authorName: "Jeremiah White",
+      authorDatePosted: "28 January 2022",
     },
-    prepareTime: "",
-    cookTime: "",
+    prepareTime: "15",
+    cookTime: "5",
     recipeCategory: "Seafood",
     recipeImage: "",
     nutritionInformation: {
-      calories: "",
-      totalFat: "",
-      protein: "",
-      carbohydrate: "",
-      cholesterol: "",
+      calories: "350",
+      totalFat: "18",
+      protein: "22",
+      carbohydrate: "30",
+      cholesterol: "85",
     },
-    recipeDescription: "",
+    recipeDescription:
+      "Crispy, golden calamari served with a tangy lemon aioli for dipping, perfect as an appetizer or snack.",
     recipeIngredients: [
       {
         recipeSteps: {
           name: "",
           steps: [
             {
+              ingredientsQuantity: "1",
+              inredientsName: "lb fresh calamari rings",
+            },
+            {
+              ingredientsQuantity: "1",
+              inredientsName: "cup all-purpose flour",
+            },
+            {
+              ingredientsQuantity: "1",
+              inredientsName: "tsp paprika",
+            },
+            {
+              ingredientsQuantity: "1",
+              inredientsName: "tsp garlic powder",
+            },
+            {
               ingredientsQuantity: "",
-              inredientsName: "",
+              inredientsName: "Salt and pepper to taste",
+            },
+            {
+              ingredientsQuantity: "",
+              inredientsName: "Vegetable oil for frying",
+            },
+            {
+              ingredientsQuantity: "1",
+              inredientsName: "lemon, sliced for garnish",
+            },
+          ],
+        },
+      },
+      {
+        recipeSteps: {
+          name: "Lemon Aioli",
+          steps: [
+            {
+              ingredientsQuantity: "1/2",
+              inredientsName: "cup mayonnaise",
+            },
+            {
+              ingredientsQuantity: "1",
+              inredientsName: "tbsp lemon juice",
+            },
+            {
+              ingredientsQuantity: "1",
+              inredientsName: "tsp lemon zest",
+            },
+            {
+              ingredientsQuantity: "1",
+              inredientsName: "garlic clove, minced",
+            },
+            {
+              ingredientsQuantity: "",
+              inredientsName: "Salt and pepper to taste",
             },
           ],
         },
@@ -3518,39 +4049,84 @@ export const recipes = [
     ],
     recipeDirections: [
       {
-        directionTitle: "",
-        directionDescription: "",
+        directionTitle: "Make the aioli",
+        directionDescription:
+          "In a small bowl, combine mayonnaise, lemon juice, lemon zest, minced garlic, salt, and pepper. Stir until smooth and refrigerate until ready to serve.",
+      },
+      {
+        directionTitle: "Prepare the calamari",
+        directionDescription:
+          "In a shallow dish, combine flour, paprika, garlic powder, salt, and pepper. Dredge the calamari rings in the flour mixture, coating them evenly.",
+      },
+      {
+        directionTitle: "Fry the calamari",
+        directionDescription:
+          "Heat vegetable oil in a deep pan over medium-high heat. Fry the calamari in batches for about 1-2 minutes until golden brown and crispy. Remove and drain on paper towels.",
+      },
+      {
+        directionTitle: "Serve",
+        directionDescription:
+          "Arrange the crispy calamari on a plate, garnish with lemon slices, and serve with lemon aioli on the side.",
       },
     ],
   },
   {
-    id: "",
-    recipeName: "",
+    id: "da9e8c2b-b692-4c10-8e59-908e163ef505",
+    recipeName: "Mussels in White Wine Sauce",
     author: {
       authorAvatar: "",
-      authorName: "",
-      authorDatePosted: "",
+      authorName: "Jacob Wilson",
+      authorDatePosted: "31 August 2023",
     },
-    prepareTime: "",
-    cookTime: "",
+    prepareTime: "10",
+    cookTime: "10",
     recipeCategory: "Seafood",
     recipeImage: "",
     nutritionInformation: {
-      calories: "",
-      totalFat: "",
-      protein: "",
-      carbohydrate: "",
-      cholesterol: "",
+      calories: "250",
+      totalFat: "12",
+      protein: "28",
+      carbohydrate: "10",
+      cholesterol: "50",
     },
-    recipeDescription: "",
+    recipeDescription:
+      "Tender mussels cooked in a fragrant white wine, garlic, and herb sauce, perfect for a quick and flavorful meal.",
     recipeIngredients: [
       {
         recipeSteps: {
           name: "",
           steps: [
             {
+              ingredientsQuantity: "2",
+              inredientsName: "lbs fresh mussels, cleaned and debearded",
+            },
+            {
+              ingredientsQuantity: "2",
+              inredientsName: "tbsp olive oil",
+            },
+            {
+              ingredientsQuantity: "4",
+              inredientsName: "garlic cloves, minced",
+            },
+            {
+              ingredientsQuantity: "1/2",
+              inredientsName: "cup dry white wine",
+            },
+            {
+              ingredientsQuantity: "1/4",
+              inredientsName: "cup heavy cream",
+            },
+            {
+              ingredientsQuantity: "1",
+              inredientsName: "tbsp fresh parsley, chopped",
+            },
+            {
               ingredientsQuantity: "",
-              inredientsName: "",
+              inredientsName: "Salt and pepper to taste",
+            },
+            {
+              ingredientsQuantity: "1",
+              inredientsName: "lemon, cut into wedges",
             },
           ],
         },
@@ -3558,39 +4134,96 @@ export const recipes = [
     ],
     recipeDirections: [
       {
-        directionTitle: "",
-        directionDescription: "",
+        directionTitle: "Prepare the mussels",
+        directionDescription:
+          "Rinse the mussels under cold water and remove any beards. Discard any mussels that do not close when tapped.",
+      },
+      {
+        directionTitle: "Cook the garlic",
+        directionDescription:
+          "In a large pot, heat olive oil over medium heat. Add the minced garlic and sauté for 1-2 minutes until fragrant.",
+      },
+      {
+        directionTitle: "Simmer the sauce",
+        directionDescription:
+          "Pour in the white wine and bring it to a simmer. Cook for 2 minutes to reduce the wine slightly. Stir in the heavy cream and season with salt and pepper.",
+      },
+      {
+        directionTitle: "Cook the mussels",
+        directionDescription:
+          "Add the mussels to the pot, cover, and cook for 5-7 minutes until the mussels open. Discard any mussels that remain closed.",
+      },
+      {
+        directionTitle: "Serve",
+        directionDescription:
+          "Sprinkle the mussels with fresh parsley and serve with lemon wedges. Enjoy with crusty bread to soak up the sauce.",
       },
     ],
   },
   {
-    id: "",
-    recipeName: "",
+    id: "c4ce15bd-64e1-47bd-b2d2-c1d4f18b40ed",
+    recipeName: "Grilled Salmon with Mango Salsa",
     author: {
       authorAvatar: "",
-      authorName: "",
-      authorDatePosted: "",
+      authorName: "Maverick Lopez",
+      authorDatePosted: "24 April 2021",
     },
-    prepareTime: "",
-    cookTime: "",
+    prepareTime: "15",
+    cookTime: "10",
     recipeCategory: "Seafood",
     recipeImage: "",
     nutritionInformation: {
-      calories: "",
-      totalFat: "",
-      protein: "",
-      carbohydrate: "",
-      cholesterol: "",
+      calories: "450",
+      totalFat: "22",
+      protein: "40",
+      carbohydrate: "20",
+      cholesterol: "70",
     },
-    recipeDescription: "",
+    recipeDescription:
+      "A fresh and flavorful grilled salmon fillet topped with a zesty mango salsa, perfect for a summer meal.",
     recipeIngredients: [
       {
         recipeSteps: {
           name: "",
           steps: [
             {
+              ingredientsQuantity: "2",
+              inredientsName: "salmon fillets",
+            },
+            {
+              ingredientsQuantity: "1",
+              inredientsName: "tbsp olive oil",
+            },
+            {
               ingredientsQuantity: "",
-              inredientsName: "",
+              inredientsName: "Salt and pepper to taste",
+            },
+          ],
+        },
+      },
+      {
+        recipeSteps: {
+          name: "Mango salsa",
+          steps: [
+            {
+              ingredientsQuantity: "1",
+              inredientsName: "ripe mango, peeled and diced",
+            },
+            {
+              ingredientsQuantity: "1/2",
+              inredientsName: "red onion, finely chopped",
+            },
+            {
+              ingredientsQuantity: "1/4",
+              inredientsName: "cup cilantro, chopped",
+            },
+            {
+              ingredientsQuantity: "1",
+              inredientsName: "tbsp lime juice",
+            },
+            {
+              ingredientsQuantity: "",
+              inredientsName: "Salt and pepper to taste",
             },
           ],
         },
@@ -3598,39 +4231,108 @@ export const recipes = [
     ],
     recipeDirections: [
       {
-        directionTitle: "",
-        directionDescription: "",
+        directionTitle: "Prepare the salmon",
+        directionDescription:
+          "Preheat the grill to medium-high heat. Brush the salmon fillets with olive oil and season with salt and pepper.",
+      },
+      {
+        directionTitle: "Grill the salmon",
+        directionDescription:
+          "Grill the salmon for 4-5 minutes per side, or until the fish is cooked through and flakes easily with a fork.",
+      },
+      {
+        directionTitle: "Make the salsa",
+        directionDescription:
+          "In a bowl, combine diced mango, red onion, cilantro, lime juice, salt, and pepper. Mix gently.",
+      },
+      {
+        directionTitle: "Serve",
+        directionDescription:
+          "Place the grilled salmon on plates and top with the fresh mango salsa. Serve immediately with a side of rice or salad.",
       },
     ],
   },
   {
-    id: "",
-    recipeName: "",
+    id: "883b4244-f167-4d57-aae2-ad185c096c58",
+    recipeName: "Seafood Paella",
     author: {
       authorAvatar: "",
-      authorName: "",
-      authorDatePosted: "",
+      authorName: "Wesley Ortiz",
+      authorDatePosted: "28 February 2022",
     },
-    prepareTime: "",
-    cookTime: "",
+    prepareTime: "20",
+    cookTime: "30",
     recipeCategory: "Seafood",
     recipeImage: "",
     nutritionInformation: {
-      calories: "",
-      totalFat: "",
-      protein: "",
-      carbohydrate: "",
-      cholesterol: "",
+      calories: "500",
+      totalFat: "18",
+      protein: "38",
+      carbohydrate: "45",
+      cholesterol: "90",
     },
-    recipeDescription: "",
+    recipeDescription:
+      "A vibrant and hearty Spanish dish with a variety of seafood, saffron-infused rice, and vegetables.",
     recipeIngredients: [
       {
         recipeSteps: {
           name: "",
           steps: [
             {
+              ingredientsQuantity: "1",
+              inredientsName: "tbsp olive oil",
+            },
+            {
+              ingredientsQuantity: "1",
+              inredientsName: "onion, chopped",
+            },
+            {
+              ingredientsQuantity: "1",
+              inredientsName: "red bell pepper, chopped",
+            },
+            {
+              ingredientsQuantity: "2",
+              inredientsName: "garlic cloves, minced",
+            },
+            {
+              ingredientsQuantity: "1",
+              inredientsName: "cup Arborio rice",
+            },
+            {
+              ingredientsQuantity: "2 1/2",
+              inredientsName: "cups chicken broth",
+            },
+            {
+              ingredientsQuantity: "1/2",
+              inredientsName: "tsp saffron threads",
+            },
+            {
+              ingredientsQuantity: "1/2",
+              inredientsName: "tsp paprika",
+            },
+            {
+              ingredientsQuantity: "1/2",
+              inredientsName: "lb shrimp, peeled and deveined",
+            },
+            {
+              ingredientsQuantity: "1/2",
+              inredientsName: "lb mussels, cleaned",
+            },
+            {
+              ingredientsQuantity: "1/2",
+              inredientsName: "lb squid, sliced",
+            },
+            {
+              ingredientsQuantity: "1/2",
+              inredientsName: "cup frozen peas",
+            },
+            {
               ingredientsQuantity: "",
-              inredientsName: "",
+              inredientsName: "Salt and pepper to taste",
+            },
+            {
+              ingredientsQuantity: "1",
+              inredientsName: "lemon, sliced",
             },
           ],
         },
@@ -3638,39 +4340,111 @@ export const recipes = [
     ],
     recipeDirections: [
       {
-        directionTitle: "",
-        directionDescription: "",
+        directionTitle: "Prepare the base",
+        directionDescription:
+          "In a large pan or paella dish, heat olive oil over medium heat. Add the onion, bell pepper, and garlic, and sauté for 5 minutes until softened.",
+      },
+      {
+        directionTitle: "Cook the rice",
+        directionDescription:
+          "Stir in the rice, saffron, and paprika. Pour in the chicken broth and bring to a boil. Lower the heat to a simmer and cook for 10 minutes.",
+      },
+      {
+        directionTitle: "Add the seafood",
+        directionDescription:
+          "Stir in the shrimp, mussels, squid, and peas. Cover the pan and cook for another 10-15 minutes, until the seafood is cooked through and the rice is tender.",
+      },
+      {
+        directionTitle: "Serve",
+        directionDescription:
+          "Season with salt and pepper to taste. Garnish with lemon slices and serve immediately.",
       },
     ],
   },
   {
-    id: "",
-    recipeName: "",
+    id: "5d7b0dbf-36b9-448e-b88c-f573682b34d8",
+    recipeName: "Shrimp and Avocado Salad",
     author: {
       authorAvatar: "",
-      authorName: "",
-      authorDatePosted: "",
+      authorName: "Parker Morales",
+      authorDatePosted: "28 April 2022",
     },
-    prepareTime: "",
-    cookTime: "",
+    prepareTime: "15",
+    cookTime: "5",
     recipeCategory: "Seafood",
     recipeImage: "",
     nutritionInformation: {
-      calories: "",
-      totalFat: "",
-      protein: "",
-      carbohydrate: "",
-      cholesterol: "",
+      calories: "350",
+      totalFat: "20",
+      protein: "30",
+      carbohydrate: "15",
+      cholesterol: "170",
     },
-    recipeDescription: "",
+    recipeDescription:
+      "A refreshing and light salad with succulent shrimp, creamy avocado, and a tangy citrus dressing.",
     recipeIngredients: [
       {
         recipeSteps: {
           name: "",
           steps: [
             {
+              ingredientsQuantity: "1",
+              inredientsName: "lb shrimp, peeled and deveined",
+            },
+            {
+              ingredientsQuantity: "2",
+              inredientsName: "tbsp olive oil",
+            },
+            {
+              ingredientsQuantity: "1",
+              inredientsName: "tsp paprika",
+            },
+            {
               ingredientsQuantity: "",
-              inredientsName: "",
+              inredientsName: "Salt and pepper to taste",
+            },
+            {
+              ingredientsQuantity: "2",
+              inredientsName: "ripe avocados, diced",
+            },
+            {
+              ingredientsQuantity: "1/2",
+              inredientsName: "red onion, thinly sliced",
+            },
+            {
+              ingredientsQuantity: "1",
+              inredientsName: "cucumber, sliced",
+            },
+            {
+              ingredientsQuantity: "2",
+              inredientsName: "cups mixed greens",
+            },
+            {
+              ingredientsQuantity: "1/4",
+              inredientsName: "cup cilantro, chopped",
+            },
+          ],
+        },
+      },
+      {
+        recipeSteps: {
+          name: "Citrus Dressing",
+          steps: [
+            {
+              ingredientsQuantity: "3",
+              inredientsName: "tbsp olive oil",
+            },
+            {
+              ingredientsQuantity: "1",
+              inredientsName: "tbsp lime juice",
+            },
+            {
+              ingredientsQuantity: "1",
+              inredientsName: "tbsp orange juice",
+            },
+            {
+              ingredientsQuantity: "",
+              inredientsName: "Salt and pepper to taste",
             },
           ],
         },
@@ -3678,39 +4452,104 @@ export const recipes = [
     ],
     recipeDirections: [
       {
-        directionTitle: "",
-        directionDescription: "",
+        directionTitle: "Cook the shrimp",
+        directionDescription:
+          "Heat olive oil in a skillet over medium-high heat. Season the shrimp with paprika, salt, and pepper, and cook for 2-3 minutes per side until pink and opaque. Remove from heat and set aside.",
+      },
+      {
+        directionTitle: "Make the dressing",
+        directionDescription:
+          "In a small bowl, whisk together olive oil, lime juice, orange juice, salt, and pepper.",
+      },
+      {
+        directionTitle: "Assemble the salad",
+        directionDescription:
+          "In a large bowl, combine mixed greens, avocado, red onion, cucumber, and cilantro. Add the cooked shrimp on top.",
+      },
+      {
+        directionTitle: "Serve",
+        directionDescription:
+          "Drizzle the citrus dressing over the salad and toss gently. Serve immediately as a light and refreshing meal.",
       },
     ],
   },
   {
-    id: "",
-    recipeName: "",
+    id: "86c088c2-df01-4573-876f-23595e67fc92",
+    recipeName: "Seafood Risotto",
     author: {
       authorAvatar: "",
-      authorName: "",
-      authorDatePosted: "",
+      authorName: "Walker Ward",
+      authorDatePosted: "23 October 2024",
     },
-    prepareTime: "",
-    cookTime: "",
+    prepareTime: "10",
+    cookTime: "25",
     recipeCategory: "Seafood",
     recipeImage: "",
     nutritionInformation: {
-      calories: "",
-      totalFat: "",
-      protein: "",
-      carbohydrate: "",
-      cholesterol: "",
+      calories: "600",
+      totalFat: "22",
+      protein: "35",
+      carbohydrate: "60",
+      cholesterol: "90",
     },
-    recipeDescription: "",
+    recipeDescription:
+      "A creamy and indulgent seafood risotto made with shrimp, scallops, and mussels, creating a rich and flavorful dish.",
     recipeIngredients: [
       {
         recipeSteps: {
           name: "",
           steps: [
             {
+              ingredientsQuantity: "1",
+              inredientsName: "cup Arborio rice",
+            },
+            {
+              ingredientsQuantity: "2",
+              inredientsName: "tbsp olive oil",
+            },
+            {
+              ingredientsQuantity: "1/2",
+              inredientsName: "onion, finely chopped",
+            },
+            {
+              ingredientsQuantity: "2",
+              inredientsName: "garlic cloves, minced",
+            },
+            {
+              ingredientsQuantity: "1/2",
+              inredientsName: "cup dry white wine",
+            },
+            {
+              ingredientsQuantity: "4",
+              inredientsName: "cups seafood broth (or chicken broth)",
+            },
+            {
+              ingredientsQuantity: "1/2",
+              inredientsName: "lb shrimp, peeled and deveined",
+            },
+            {
+              ingredientsQuantity: "1/2",
+              inredientsName: "lb scallops",
+            },
+            {
+              ingredientsQuantity: "1/2",
+              inredientsName: "lb mussels, cleaned",
+            },
+            {
+              ingredientsQuantity: "1/4",
+              inredientsName: "cup heavy cream",
+            },
+            {
+              ingredientsQuantity: "1/4",
+              inredientsName: "cup grated Parmesan cheese",
+            },
+            {
               ingredientsQuantity: "",
-              inredientsName: "",
+              inredientsName: "Salt and pepper to taste",
+            },
+            {
+              ingredientsQuantity: "",
+              inredientsName: "Fresh parsley, chopped for garnish",
             },
           ],
         },
@@ -3718,39 +4557,95 @@ export const recipes = [
     ],
     recipeDirections: [
       {
-        directionTitle: "",
-        directionDescription: "",
+        directionTitle: "Prepare the broth",
+        directionDescription:
+          "In a saucepan, keep the seafood broth warm over low heat.",
+      },
+      {
+        directionTitle: "Cook the aromatics",
+        directionDescription:
+          "In a large pan, heat olive oil over medium heat. Add the onion and garlic, and sauté for 3-4 minutes until softened.",
+      },
+      {
+        directionTitle: "Cook the rice",
+        directionDescription:
+          "Stir in the Arborio rice and cook for 1-2 minutes until the rice is lightly toasted. Add the white wine and cook until absorbed.",
+      },
+      {
+        directionTitle: "Add the broth",
+        directionDescription:
+          "Begin adding the warm broth one ladleful at a time, stirring frequently. Allow the liquid to be absorbed before adding more broth. Continue until the rice is creamy and al dente, which should take around 18-20 minutes.",
+      },
+      {
+        directionTitle: "Cook the seafood",
+        directionDescription:
+          "While the rice is cooking, heat a separate pan over medium-high heat. Add the shrimp, scallops, and mussels, and cook for 3-4 minutes until the shrimp turns pink and the mussels open.",
+      },
+      {
+        directionTitle: "Finish the risotto",
+        directionDescription:
+          "Once the rice is done, stir in the seafood, heavy cream, and Parmesan cheese. Season with salt and pepper to taste.",
+      },
+      {
+        directionTitle: "Serve",
+        directionDescription:
+          "Garnish with chopped fresh parsley and serve immediately for a rich and creamy seafood meal.",
       },
     ],
   },
   {
-    id: "",
-    recipeName: "",
+    id: "0d23f882-5ff3-416a-a5f5-002a4e952892",
+    recipeName: "Pan-Seared Scallops with Garlic Butter Sauce",
     author: {
       authorAvatar: "",
-      authorName: "",
-      authorDatePosted: "",
+      authorName: "Ezekiel Robinson",
+      authorDatePosted: "29 March 2020",
     },
-    prepareTime: "",
-    cookTime: "",
+    prepareTime: "5",
+    cookTime: "10",
     recipeCategory: "Seafood",
     recipeImage: "",
     nutritionInformation: {
-      calories: "",
-      totalFat: "",
-      protein: "",
-      carbohydrate: "",
-      cholesterol: "",
+      calories: "250",
+      totalFat: "16",
+      protein: "24",
+      carbohydrate: "2",
+      cholesterol: "40",
     },
-    recipeDescription: "",
+    recipeDescription:
+      "Tender and juicy scallops are pan-seared to perfection and served with a rich garlic butter sauce. This dish is quick, flavorful, and a perfect way to enjoy the natural sweetness of scallops.",
     recipeIngredients: [
       {
         recipeSteps: {
           name: "",
           steps: [
             {
+              ingredientsQuantity: "1",
+              inredientsName: "lb large scallops, patted dry",
+            },
+            {
+              ingredientsQuantity: "2",
+              inredientsName: "tbsp olive oil",
+            },
+            {
+              ingredientsQuantity: "4",
+              inredientsName: "tbsp unsalted butter",
+            },
+            {
+              ingredientsQuantity: "3",
+              inredientsName: "garlic cloves, minced",
+            },
+            {
+              ingredientsQuantity: "1",
+              inredientsName: "tbsp fresh lemon juice",
+            },
+            {
+              ingredientsQuantity: "2",
+              inredientsName: "tbsp fresh parsley, chopped",
+            },
+            {
               ingredientsQuantity: "",
-              inredientsName: "",
+              inredientsName: "Salt and pepper to taste",
             },
           ],
         },
@@ -3758,8 +4653,34 @@ export const recipes = [
     ],
     recipeDirections: [
       {
-        directionTitle: "",
-        directionDescription: "",
+        directionTitle: "Prepare the scallops",
+        directionDescription:
+          "Pat the scallops dry with paper towels to ensure a good sear. Season both sides with salt and pepper.",
+      },
+      {
+        directionTitle: "Heat the pan",
+        directionDescription:
+          "In a large skillet, heat the olive oil over medium-high heat. Once the oil is hot and shimmering, add the scallops in a single layer.",
+      },
+      {
+        directionTitle: "Sear the scallops",
+        directionDescription:
+          "Cook the scallops for 2-3 minutes on each side without moving them, until a golden crust forms. Flip the scallops carefully using tongs. Once both sides are seared, remove the scallops from the pan and set them aside.",
+      },
+      {
+        directionTitle: "Make the garlic butter sauce",
+        directionDescription:
+          "In the same pan, add the butter and allow it to melt. Add the minced garlic and sauté for 30 seconds until fragrant.",
+      },
+      {
+        directionTitle: "Finish the dish",
+        directionDescription:
+          "Stir in the lemon juice and fresh parsley, then return the scallops to the pan to coat them in the sauce for 1 minute.",
+      },
+      {
+        directionTitle: "Serve",
+        directionDescription:
+          "Plate the scallops and drizzle the garlic butter sauce over them. Serve immediately with a side of vegetables or pasta.",
       },
     ],
   },
