@@ -4686,33 +4686,58 @@ export const recipes = [
   },
   // Salad
   {
-    id: "",
-    recipeName: "",
+    id: "12e7902f-a2e5-4e53-af1f-8d5859befa02",
+    recipeName: "Grilled Chicken Caesar Salad",
     author: {
       authorAvatar: "",
-      authorName: "",
-      authorDatePosted: "",
+      authorName: "Greyson Long",
+      authorDatePosted: "29 January 2023",
     },
-    prepareTime: "",
-    cookTime: "",
+    prepareTime: "10",
+    cookTime: "15",
     recipeCategory: "Salad",
     recipeImage: "",
     nutritionInformation: {
-      calories: "",
-      totalFat: "",
-      protein: "",
-      carbohydrate: "",
-      cholesterol: "",
+      calories: "400",
+      totalFat: "22",
+      protein: "30",
+      carbohydrate: "10",
+      cholesterol: "80",
     },
-    recipeDescription: "",
+    recipeDescription:
+      "A classic Caesar salad with grilled chicken breast, romaine lettuce, croutons, Parmesan cheese, and a creamy Caesar dressing.",
     recipeIngredients: [
       {
         recipeSteps: {
           name: "",
           steps: [
             {
+              ingredientsQuantity: "2",
+              inredientsName: "boneless skinless chicken breasts",
+            },
+            {
+              ingredientsQuantity: "4",
+              inredientsName: "cups romaine lettuce, chopped",
+            },
+            {
+              ingredientsQuantity: "1/2",
+              inredientsName: "cup Caesar dressing",
+            },
+            {
+              ingredientsQuantity: "1/4",
+              inredientsName: "cup grated Parmesan cheese",
+            },
+            {
+              ingredientsQuantity: "1/2",
+              inredientsName: "cup croutons",
+            },
+            {
+              ingredientsQuantity: "1",
+              inredientsName: "tbsp olive oil",
+            },
+            {
               ingredientsQuantity: "",
-              inredientsName: "",
+              inredientsName: "Salt and pepper to taste",
             },
           ],
         },
@@ -4720,39 +4745,92 @@ export const recipes = [
     ],
     recipeDirections: [
       {
-        directionTitle: "",
-        directionDescription: "",
+        directionTitle: "Grill the chicken",
+        directionDescription:
+          "Preheat your grill or grill pan to medium-high heat. Rub the chicken breasts with olive oil, salt, and pepper. Grill the chicken for 6-7 minutes per side until fully cooked (internal temperature should reach 165°F). Remove from heat and let it rest for 5 minutes, then slice thinly.",
+      },
+      {
+        directionTitle: "Prepare the salad",
+        directionDescription:
+          "In a large bowl, combine the chopped romaine lettuce, croutons, and Parmesan cheese.",
+      },
+      {
+        directionTitle: "Add the chicken",
+        directionDescription: "Top the salad with sliced grilled chicken.",
+      },
+      {
+        directionTitle: "Dress the salad",
+        directionDescription:
+          "Drizzle the Caesar dressing over the salad and toss to combine.",
+      },
+      {
+        directionTitle: "Serve",
+        directionDescription:
+          "Serve immediately with extra Parmesan on top if desired.",
       },
     ],
   },
   {
-    id: "",
-    recipeName: "",
+    id: "f46cc74a-a9d6-400e-a77e-c8733ad7b67c",
+    recipeName: "Greek Salad",
     author: {
       authorAvatar: "",
-      authorName: "",
-      authorDatePosted: "",
+      authorName: "Jackson Johnson",
+      authorDatePosted: "09 February 2022",
     },
-    prepareTime: "",
-    cookTime: "",
+    prepareTime: "10",
+    cookTime: "0",
     recipeCategory: "Salad",
     recipeImage: "",
     nutritionInformation: {
-      calories: "",
-      totalFat: "",
-      protein: "",
-      carbohydrate: "",
-      cholesterol: "",
+      calories: "250",
+      totalFat: "18",
+      protein: "6",
+      carbohydrate: "10",
+      cholesterol: "10",
     },
-    recipeDescription: "",
+    recipeDescription:
+      "A fresh and tangy Greek salad featuring tomatoes, cucumbers, red onions, Kalamata olives, and feta cheese, tossed in olive oil and oregano.",
     recipeIngredients: [
       {
         recipeSteps: {
           name: "",
           steps: [
             {
+              ingredientsQuantity: "2",
+              inredientsName: "cups cherry tomatoes, halved",
+            },
+            {
+              ingredientsQuantity: "1",
+              inredientsName: "cucumber, sliced",
+            },
+            {
+              ingredientsQuantity: "1/2",
+              inredientsName: "red onion, thinly sliced",
+            },
+            {
+              ingredientsQuantity: "1/2",
+              inredientsName: "cup Kalamata olives",
+            },
+            {
+              ingredientsQuantity: "1/4",
+              inredientsName: "cup feta cheese, crumbled",
+            },
+            {
+              ingredientsQuantity: "3",
+              inredientsName: "tbsp extra virgin olive oil",
+            },
+            {
+              ingredientsQuantity: "1",
+              inredientsName: "tbsp red wine vinegar",
+            },
+            {
+              ingredientsQuantity: "1",
+              inredientsName: "tsp dried oregano",
+            },
+            {
               ingredientsQuantity: "",
-              inredientsName: "",
+              inredientsName: "Salt and pepper to taste",
             },
           ],
         },
@@ -4760,39 +4838,89 @@ export const recipes = [
     ],
     recipeDirections: [
       {
-        directionTitle: "",
-        directionDescription: "",
+        directionTitle: "Prepare the vegetables",
+        directionDescription:
+          "In a large bowl, combine the cherry tomatoes, cucumber, red onion, and Kalamata olives.",
+      },
+      {
+        directionTitle: "Make the dressing",
+        directionDescription:
+          "In a small bowl, whisk together the olive oil, red wine vinegar, oregano, salt, and pepper.",
+      },
+      {
+        directionTitle: "Toss the salad",
+        directionDescription:
+          "Drizzle the dressing over the vegetables and toss gently to combine.",
+      },
+      {
+        directionTitle: "Top with feta",
+        directionDescription:
+          "Sprinkle the crumbled feta cheese on top of the salad.",
+      },
+      {
+        directionTitle: "Serve",
+        directionDescription:
+          "Serve immediately or refrigerate for 30 minutes to allow the flavors to meld.",
       },
     ],
   },
   {
-    id: "",
-    recipeName: "",
+    id: "29bfaa2a-394c-4048-bac1-032a4d3955ad",
+    recipeName: "Quinoa and Avocado Salad",
     author: {
       authorAvatar: "",
-      authorName: "",
-      authorDatePosted: "",
+      authorName: "Cameron Mendoza",
+      authorDatePosted: "21 December 2021",
     },
-    prepareTime: "",
-    cookTime: "",
+    prepareTime: "15",
+    cookTime: "15",
     recipeCategory: "Salad",
     recipeImage: "",
     nutritionInformation: {
-      calories: "",
-      totalFat: "",
-      protein: "",
-      carbohydrate: "",
-      cholesterol: "",
+      calories: "350",
+      totalFat: "15",
+      protein: "12",
+      carbohydrate: "40",
+      cholesterol: "0",
     },
-    recipeDescription: "",
+    recipeDescription:
+      "A hearty and nutritious salad featuring quinoa, avocado, black beans, and a fresh lime dressing.",
     recipeIngredients: [
       {
         recipeSteps: {
           name: "",
           steps: [
             {
+              ingredientsQuantity: "1",
+              inredientsName: "cup quinoa, cooked",
+            },
+            {
+              ingredientsQuantity: "1",
+              inredientsName: "ripe avocado, diced",
+            },
+            {
+              ingredientsQuantity: "1/2",
+              inredientsName: "cup black beans, rinsed and drained",
+            },
+            {
+              ingredientsQuantity: "1/4",
+              inredientsName: "cup red bell pepper, diced",
+            },
+            {
+              ingredientsQuantity: "1/4",
+              inredientsName: "cup cilantro, chopped",
+            },
+            {
+              ingredientsQuantity: "2",
+              inredientsName: "tbsp lime juice",
+            },
+            {
+              ingredientsQuantity: "2",
+              inredientsName: "tbsp olive oil",
+            },
+            {
               ingredientsQuantity: "",
-              inredientsName: "",
+              inredientsName: "Salt and pepper to taste",
             },
           ],
         },
@@ -4800,39 +4928,80 @@ export const recipes = [
     ],
     recipeDirections: [
       {
-        directionTitle: "",
-        directionDescription: "",
+        directionTitle: "Cook the quinoa",
+        directionDescription:
+          "Rinse the quinoa under cold water. In a medium saucepan, combine 1 cup of quinoa with 2 cups of water. Bring to a boil, then reduce the heat and simmer for about 12-15 minutes, until the quinoa is tender. Let it cool.",
+      },
+      {
+        directionTitle: "Prepare the salad",
+        directionDescription:
+          "In a large bowl, combine the cooked quinoa, diced avocado, black beans, red bell pepper, and chopped cilantro.",
+      },
+      {
+        directionTitle: "Make the dressing",
+        directionDescription:
+          "In a small bowl, whisk together the lime juice, olive oil, salt, and pepper.",
+      },
+      {
+        directionTitle: "Toss the salad",
+        directionDescription:
+          "Pour the dressing over the quinoa mixture and toss gently to combine.",
+      },
+      {
+        directionTitle: "Serve",
+        directionDescription: "Serve chilled or at room temperature.",
       },
     ],
   },
   {
-    id: "",
-    recipeName: "",
+    id: "3e9757e5-3709-49ab-8c7b-a629f8880fca",
+    recipeName: "Caprese Salad",
     author: {
       authorAvatar: "",
-      authorName: "",
-      authorDatePosted: "",
+      authorName: "Isaac Foster",
+      authorDatePosted: "27 June 2021",
     },
-    prepareTime: "",
-    cookTime: "",
+    prepareTime: "10",
+    cookTime: "0",
     recipeCategory: "Salad",
     recipeImage: "",
     nutritionInformation: {
-      calories: "",
-      totalFat: "",
-      protein: "",
-      carbohydrate: "",
-      cholesterol: "",
+      calories: "250",
+      totalFat: "20",
+      protein: "8",
+      carbohydrate: "7",
+      cholesterol: "25",
     },
-    recipeDescription: "",
+    recipeDescription:
+      "A simple yet flavorful salad with fresh mozzarella, tomatoes, basil, and a drizzle of balsamic glaze, perfect for a light meal or appetizer.",
     recipeIngredients: [
       {
         recipeSteps: {
           name: "",
           steps: [
             {
+              ingredientsQuantity: "2",
+              inredientsName: "large tomatoes, sliced",
+            },
+            {
+              ingredientsQuantity: "8",
+              inredientsName: "oz fresh mozzarella cheese, sliced",
+            },
+            {
+              ingredientsQuantity: "1/4",
+              inredientsName: "cup fresh basil leaves",
+            },
+            {
+              ingredientsQuantity: "2",
+              inredientsName: "tbsp extra virgin olive oil",
+            },
+            {
+              ingredientsQuantity: "1",
+              inredientsName: "tbsp balsamic glaze",
+            },
+            {
               ingredientsQuantity: "",
-              inredientsName: "",
+              inredientsName: "Salt and pepper to taste",
             },
           ],
         },
@@ -4840,39 +5009,75 @@ export const recipes = [
     ],
     recipeDirections: [
       {
-        directionTitle: "",
-        directionDescription: "",
+        directionTitle: "Arrange the salad",
+        directionDescription:
+          "On a serving plate, alternate layers of tomato slices, mozzarella slices, and fresh basil leaves.",
+      },
+      {
+        directionTitle: "Season",
+        directionDescription:
+          "Drizzle the olive oil and balsamic glaze over the salad.",
+      },
+      {
+        directionTitle: "Serve",
+        directionDescription:
+          "Sprinkle with salt and pepper to taste. Serve immediately or chill for 15 minutes before serving.",
       },
     ],
   },
   {
-    id: "",
-    recipeName: "",
+    id: "a012280e-600a-4630-a5ac-de1c549c2ae8",
+    recipeName: "Spinach and Strawberry Salad",
     author: {
       authorAvatar: "",
-      authorName: "",
-      authorDatePosted: "",
+      authorName: "Christian Rodriguez",
+      authorDatePosted: "11 November 2024",
     },
-    prepareTime: "",
-    cookTime: "",
+    prepareTime: "10",
+    cookTime: "0",
     recipeCategory: "Salad",
     recipeImage: "",
     nutritionInformation: {
-      calories: "",
-      totalFat: "",
-      protein: "",
-      carbohydrate: "",
-      cholesterol: "",
+      calories: "200",
+      totalFat: "12",
+      protein: "4",
+      carbohydrate: "22",
+      cholesterol: "0",
     },
-    recipeDescription: "",
+    recipeDescription:
+      "A refreshing salad with baby spinach, fresh strawberries, almonds, and a light balsamic vinaigrette, perfect for a spring or summer meal.",
     recipeIngredients: [
       {
         recipeSteps: {
           name: "",
           steps: [
             {
+              ingredientsQuantity: "4",
+              inredientsName: "cups baby spinach",
+            },
+            {
+              ingredientsQuantity: "1",
+              inredientsName: "cup strawberries, sliced",
+            },
+            {
+              ingredientsQuantity: "1/4",
+              inredientsName: "cup sliced almonds",
+            },
+            {
+              ingredientsQuantity: "2",
+              inredientsName: "tbsp balsamic vinegar",
+            },
+            {
+              ingredientsQuantity: "1",
+              inredientsName: "tbsp honey",
+            },
+            {
+              ingredientsQuantity: "1/4",
+              inredientsName: "cup olive oil",
+            },
+            {
               ingredientsQuantity: "",
-              inredientsName: "",
+              inredientsName: "Salt and pepper to taste",
             },
           ],
         },
@@ -4880,39 +5085,85 @@ export const recipes = [
     ],
     recipeDirections: [
       {
-        directionTitle: "",
-        directionDescription: "",
+        directionTitle: "Prepare the salad",
+        directionDescription:
+          "In a large bowl, combine the baby spinach and sliced strawberries.",
+      },
+      {
+        directionTitle: "Toast the almonds",
+        directionDescription:
+          "In a small skillet, toast the sliced almonds over medium heat for 2-3 minutes, stirring constantly until golden brown.",
+      },
+      {
+        directionTitle: "Make the dressing",
+        directionDescription:
+          "In a small bowl, whisk together the balsamic vinegar, honey, olive oil, salt, and pepper.",
+      },
+      {
+        directionTitle: "Toss the salad",
+        directionDescription:
+          "Drizzle the dressing over the spinach and strawberries and toss gently.",
+      },
+      {
+        directionTitle: "Top with almonds",
+        directionDescription:
+          "Sprinkle the toasted almonds on top of the salad and serve immediately.",
       },
     ],
   },
   {
-    id: "",
-    recipeName: "",
+    id: "fc302d42-a2c9-4fe8-ad80-46252c50932d",
+    recipeName: "Roasted Beetroot and Goat Cheese Salad",
     author: {
       authorAvatar: "",
-      authorName: "",
-      authorDatePosted: "",
+      authorName: "Samuel Parker",
+      authorDatePosted: "30 November 2023",
     },
-    prepareTime: "",
-    cookTime: "",
+    prepareTime: "10",
+    cookTime: "30",
     recipeCategory: "Salad",
     recipeImage: "",
     nutritionInformation: {
-      calories: "",
-      totalFat: "",
-      protein: "",
-      carbohydrate: "",
-      cholesterol: "",
+      calories: "280",
+      totalFat: "18",
+      protein: "6",
+      carbohydrate: "25",
+      cholesterol: "10",
     },
-    recipeDescription: "",
+    recipeDescription:
+      "A vibrant and earthy salad made with roasted beets, creamy goat cheese, and a light balsamic dressing. Perfect for any occasion, this salad brings a beautiful mix of flavors and textures.",
     recipeIngredients: [
       {
         recipeSteps: {
           name: "",
           steps: [
             {
+              ingredientsQuantity: "4",
+              inredientsName: "medium-sized beets, peeled and cut into wedges",
+            },
+            {
+              ingredientsQuantity: "4",
+              inredientsName: "oz goat cheese, crumbled",
+            },
+            {
+              ingredientsQuantity: "2",
+              inredientsName: "cups arugula or mixed greens",
+            },
+            {
+              ingredientsQuantity: "1/4",
+              inredientsName: "cup walnuts, toasted",
+            },
+            {
+              ingredientsQuantity: "2",
+              inredientsName: "tbsp olive oil",
+            },
+            {
+              ingredientsQuantity: "1",
+              inredientsName: "tbsp balsamic vinegar",
+            },
+            {
               ingredientsQuantity: "",
-              inredientsName: "",
+              inredientsName: "Salt and pepper to taste",
             },
           ],
         },
@@ -4920,39 +5171,101 @@ export const recipes = [
     ],
     recipeDirections: [
       {
-        directionTitle: "",
-        directionDescription: "",
+        directionTitle: "Roast the beets",
+        directionDescription:
+          "Preheat the oven to 400°F (200°C). Place the beet wedges on a baking sheet, drizzle with 1 tablespoon of olive oil, and season with salt and pepper. Roast for 30 minutes, flipping halfway through, until tender and slightly caramelized.",
+      },
+      {
+        directionTitle: "Prepare the salad",
+        directionDescription:
+          "In a large bowl, combine the arugula (or mixed greens), roasted beets, crumbled goat cheese, and toasted walnuts.",
+      },
+      {
+        directionTitle: "Make the dressing",
+        directionDescription:
+          "In a small bowl, whisk together the remaining olive oil and balsamic vinegar. Season with salt and pepper to taste.",
+      },
+      {
+        directionTitle: "Dress the salad",
+        directionDescription:
+          "Drizzle the balsamic dressing over the salad and toss gently to combine.",
+      },
+      {
+        directionTitle: "Serve",
+        directionDescription:
+          "Serve immediately as a light and flavorful starter or side dish.",
       },
     ],
   },
   {
-    id: "",
-    recipeName: "",
+    id: "28516af2-537b-4ff6-95f7-c11e4908fd94",
+    recipeName: "Asian Cabbage Salad with Sesame Dressing",
     author: {
       authorAvatar: "",
-      authorName: "",
-      authorDatePosted: "",
+      authorName: "Isaiah Ross",
+      authorDatePosted: "01 August 2022",
     },
-    prepareTime: "",
-    cookTime: "",
+    prepareTime: "15",
+    cookTime: "0",
     recipeCategory: "Salad",
     recipeImage: "",
     nutritionInformation: {
-      calories: "",
-      totalFat: "",
-      protein: "",
-      carbohydrate: "",
-      cholesterol: "",
+      calories: "210",
+      totalFat: "16",
+      protein: "4",
+      carbohydrate: "16",
+      cholesterol: "0",
     },
-    recipeDescription: "",
+    recipeDescription:
+      "A crunchy and refreshing salad made with shredded cabbage, carrots, and a tangy sesame dressing. Perfect as a side dish or light meal, this salad offers a satisfying crunch and savory flavor.",
     recipeIngredients: [
       {
         recipeSteps: {
           name: "",
           steps: [
             {
+              ingredientsQuantity: "4",
+              inredientsName: "cups cabbage, shredded",
+            },
+            {
+              ingredientsQuantity: "1",
+              inredientsName: "cup carrots, julienned",
+            },
+            {
+              ingredientsQuantity: "1/4",
+              inredientsName: "cup green onions, chopped",
+            },
+            {
+              ingredientsQuantity: "1/4",
+              inredientsName: "cup toasted sesame seeds",
+            },
+            {
+              ingredientsQuantity: "1/4",
+              inredientsName: "cup rice vinegar",
+            },
+            {
+              ingredientsQuantity: "2",
+              inredientsName: "tbsp soy sauce",
+            },
+            {
+              ingredientsQuantity: "1",
+              inredientsName: "tbsp honey",
+            },
+            {
+              ingredientsQuantity: "1",
+              inredientsName: "tbsp sesame oil",
+            },
+            {
+              ingredientsQuantity: "1",
+              inredientsName: "tbsp olive oil",
+            },
+            {
+              ingredientsQuantity: "1",
+              inredientsName: "tsp grated ginger",
+            },
+            {
               ingredientsQuantity: "",
-              inredientsName: "",
+              inredientsName: "Salt and pepper to taste",
             },
           ],
         },
@@ -4960,39 +5273,89 @@ export const recipes = [
     ],
     recipeDirections: [
       {
-        directionTitle: "",
-        directionDescription: "",
+        directionTitle: "Prepare the vegetables",
+        directionDescription:
+          "In a large bowl, combine the shredded cabbage, julienned carrots, and chopped green onions.",
+      },
+      {
+        directionTitle: "Make the dressing",
+        directionDescription:
+          "In a small bowl, whisk together the rice vinegar, soy sauce, honey, sesame oil, olive oil, grated ginger, salt, and pepper.",
+      },
+      {
+        directionTitle: "Toss the salad",
+        directionDescription:
+          "Pour the dressing over the cabbage mixture and toss well to coat.",
+      },
+      {
+        directionTitle: "Add sesame seeds",
+        directionDescription:
+          "Sprinkle the toasted sesame seeds over the salad and give it a final toss.",
+      },
+      {
+        directionTitle: "Serve",
+        directionDescription:
+          "Serve immediately for a crunchy and flavorful salad.",
       },
     ],
   },
   {
-    id: "",
-    recipeName: "",
+    id: "dcf439ce-f71b-4305-b67e-141e93a03138",
+    recipeName: "Chickpea and Avocado Salad",
     author: {
       authorAvatar: "",
-      authorName: "",
-      authorDatePosted: "",
+      authorName: "Julian Mitchell",
+      authorDatePosted: "20 March 2021",
     },
-    prepareTime: "",
-    cookTime: "",
+    prepareTime: "10",
+    cookTime: "0",
     recipeCategory: "Salad",
     recipeImage: "",
     nutritionInformation: {
-      calories: "",
-      totalFat: "",
-      protein: "",
-      carbohydrate: "",
-      cholesterol: "",
+      calories: "320",
+      totalFat: "20",
+      protein: "9",
+      carbohydrate: "28",
+      cholesterol: "0",
     },
-    recipeDescription: "",
+    recipeDescription:
+      "A hearty and nutritious salad with protein-packed chickpeas, creamy avocado, cherry tomatoes, and a simple lemon dressing. A perfect option for a light lunch or a side dish.",
     recipeIngredients: [
       {
         recipeSteps: {
           name: "",
           steps: [
             {
+              ingredientsQuantity: "1",
+              inredientsName: "can (15 oz) chickpeas, drained and rinsed",
+            },
+            {
+              ingredientsQuantity: "1",
+              inredientsName: "ripe avocado, diced",
+            },
+            {
+              ingredientsQuantity: "1",
+              inredientsName: "cup cherry tomatoes, halved",
+            },
+            {
+              ingredientsQuantity: "1/4",
+              inredientsName: "cup red onion, finely chopped",
+            },
+            {
+              ingredientsQuantity: "2",
+              inredientsName: "tbsp fresh cilantro, chopped",
+            },
+            {
+              ingredientsQuantity: "2",
+              inredientsName: "tbsp olive oil",
+            },
+            {
+              ingredientsQuantity: "1",
+              inredientsName: "tbsp lemon juice",
+            },
+            {
               ingredientsQuantity: "",
-              inredientsName: "",
+              inredientsName: "Salt and pepper to taste",
             },
           ],
         },
@@ -5000,8 +5363,24 @@ export const recipes = [
     ],
     recipeDirections: [
       {
-        directionTitle: "",
-        directionDescription: "",
+        directionTitle: "Prepare the ingredients",
+        directionDescription:
+          "In a large bowl, combine the chickpeas, diced avocado, cherry tomatoes, red onion, and cilantro.",
+      },
+      {
+        directionTitle: "Make the dressing",
+        directionDescription:
+          "In a small bowl, whisk together the olive oil, lemon juice, salt, and pepper.",
+      },
+      {
+        directionTitle: "Toss the salad",
+        directionDescription:
+          "Pour the dressing over the chickpea mixture and toss gently to combine. Be careful not to mash the avocado.",
+      },
+      {
+        directionTitle: "Serve",
+        directionDescription:
+          "Serve immediately as a nutritious and satisfying salad.",
       },
     ],
   },
