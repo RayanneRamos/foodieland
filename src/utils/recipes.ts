@@ -7627,33 +7627,54 @@ export const recipes = [
   },
   // Beverages
   {
-    id: "",
-    recipeName: "",
+    id: "e79971f7-1e6a-46d6-b248-b1162854adb2",
+    recipeName: "Mango Coconut Smoothie",
     author: {
       authorAvatar: "",
-      authorName: "",
-      authorDatePosted: "",
+      authorName: "Sebastian Castillo",
+      authorDatePosted: "24 May 2022",
     },
-    prepareTime: "",
-    cookTime: "",
+    prepareTime: "5",
+    cookTime: "0",
     recipeCategory: "Beverages",
     recipeImage: "",
     nutritionInformation: {
-      calories: "",
-      totalFat: "",
-      protein: "",
-      carbohydrate: "",
-      cholesterol: "",
+      calories: "210",
+      totalFat: "8",
+      protein: "3",
+      carbohydrate: "35",
+      cholesterol: "0",
     },
-    recipeDescription: "",
+    recipeDescription:
+      "A tropical, creamy smoothie that combines the sweetness of mango with the richness of coconut milk. Perfect for a refreshing summer drink.",
     recipeIngredients: [
       {
         recipeSteps: {
           name: "",
           steps: [
             {
-              ingredientsQuantity: "",
-              inredientsName: "",
+              ingredientsQuantity: "1",
+              inredientsName: "ripe mango, peeled and chopped",
+            },
+            {
+              ingredientsQuantity: "1/2",
+              inredientsName: "cup coconut milk",
+            },
+            {
+              ingredientsQuantity: "1/2",
+              inredientsName: "cup Greek yogurt",
+            },
+            {
+              ingredientsQuantity: "1/2",
+              inredientsName: "cup ice cubes",
+            },
+            {
+              ingredientsQuantity: "1",
+              inredientsName: "tbsp honey (optional)",
+            },
+            {
+              ingredientsQuantity: "1/2",
+              inredientsName: "tsp vanilla extract",
             },
           ],
         },
@@ -7661,39 +7682,74 @@ export const recipes = [
     ],
     recipeDirections: [
       {
-        directionTitle: "",
-        directionDescription: "",
+        directionTitle: "Prepare the Ingredients",
+        directionDescription: "Peel and chop the mango into small pieces.",
+      },
+      {
+        directionTitle: "Blend Everything",
+        directionDescription:
+          "In a blender, add the mango, coconut milk, Greek yogurt, ice cubes, honey, and vanilla extract.",
+      },
+      {
+        directionTitle: "Blend Until Smooth",
+        directionDescription:
+          "Blend on high speed for about 30–45 seconds until smooth and creamy.",
+      },
+      {
+        directionTitle: "Adjust Sweetness",
+        directionDescription: "Taste and add more honey if needed.",
+      },
+      {
+        directionTitle: "Serve Immediately",
+        directionDescription: "Pour into a glass and enjoy cold.",
       },
     ],
   },
   {
-    id: "",
-    recipeName: "",
+    id: "6dd4dcd4-4e01-4b1e-a20d-352010b2b1cf",
+    recipeName: "Iced Matcha Latte",
     author: {
       authorAvatar: "",
-      authorName: "",
-      authorDatePosted: "",
+      authorName: "Sebastian Bennett",
+      authorDatePosted: "10 November 2023",
     },
-    prepareTime: "",
-    cookTime: "",
+    prepareTime: "5",
+    cookTime: "0",
     recipeCategory: "Beverages",
     recipeImage: "",
     nutritionInformation: {
-      calories: "",
-      totalFat: "",
-      protein: "",
-      carbohydrate: "",
-      cholesterol: "",
+      calories: "140",
+      totalFat: "5",
+      protein: "4",
+      carbohydrate: "18",
+      cholesterol: "10",
     },
-    recipeDescription: "",
+    recipeDescription:
+      "A smooth and slightly sweet iced matcha latte made with high-quality green tea powder and milk, perfect for an energizing start to your day.",
     recipeIngredients: [
       {
         recipeSteps: {
           name: "",
           steps: [
             {
-              ingredientsQuantity: "",
-              inredientsName: "",
+              ingredientsQuantity: "1",
+              inredientsName: "tsp matcha powder",
+            },
+            {
+              ingredientsQuantity: "2",
+              inredientsName: "tbsp hot water (not boiling)",
+            },
+            {
+              ingredientsQuantity: "1",
+              inredientsName: "cup milk (dairy or non-dairy)",
+            },
+            {
+              ingredientsQuantity: "1",
+              inredientsName: "tsp honey or sweetener of choice",
+            },
+            {
+              ingredientsQuantity: "1/2",
+              inredientsName: "cup ice cubes",
             },
           ],
         },
@@ -7701,39 +7757,79 @@ export const recipes = [
     ],
     recipeDirections: [
       {
-        directionTitle: "",
-        directionDescription: "",
+        directionTitle: "Whisk the Matcha",
+        directionDescription:
+          "In a small bowl, sift the matcha powder to remove clumps. Add the hot water and whisk using a bamboo whisk (or a small frother) in a zigzag motion until fully dissolved and foamy.",
+      },
+      {
+        directionTitle: "Prepare the Glass",
+        directionDescription: "Fill a tall glass with ice cubes.",
+      },
+      {
+        directionTitle: "Sweeten the Milk",
+        directionDescription:
+          "In a separate cup, mix the milk and honey (or preferred sweetener) until well combined.",
+      },
+      {
+        directionTitle: "Combine the Drink",
+        directionDescription:
+          "Pour the sweetened milk over the ice, then gently pour the whisked matcha on top.",
+      },
+      {
+        directionTitle: "Stir and Serve",
+        directionDescription: "Mix well with a straw and enjoy cold.",
       },
     ],
   },
   {
-    id: "",
-    recipeName: "",
+    id: "ddfc827d-dadd-4879-be44-cb4031254726",
+    recipeName: "Classic Hot Chocolate",
     author: {
       authorAvatar: "",
-      authorName: "",
-      authorDatePosted: "",
+      authorName: "Ezra Turner",
+      authorDatePosted: "28 February 2024",
     },
-    prepareTime: "",
-    cookTime: "",
+    prepareTime: "5",
+    cookTime: "5",
     recipeCategory: "Beverages",
     recipeImage: "",
     nutritionInformation: {
-      calories: "",
-      totalFat: "",
-      protein: "",
-      carbohydrate: "",
-      cholesterol: "",
+      calories: "250",
+      totalFat: "10",
+      protein: "7",
+      carbohydrate: "32",
+      cholesterol: "15",
     },
-    recipeDescription: "",
+    recipeDescription:
+      "A rich and creamy hot chocolate made from real cocoa powder, perfect for cozying up on a cold day.",
     recipeIngredients: [
       {
         recipeSteps: {
           name: "",
           steps: [
             {
+              ingredientsQuantity: "2",
+              inredientsName: "cups whole milk",
+            },
+            {
+              ingredientsQuantity: "2",
+              inredientsName: "tbsp unsweetened cocoa powder",
+            },
+            {
+              ingredientsQuantity: "2",
+              inredientsName: "tbsp sugar",
+            },
+            {
+              ingredientsQuantity: "1/2",
+              inredientsName: "tsp vanilla extract",
+            },
+            {
+              ingredientsQuantity: "1",
+              inredientsName: "oz dark chocolate, finely chopped",
+            },
+            {
               ingredientsQuantity: "",
-              inredientsName: "",
+              inredientsName: "Whipped cream (optional)",
             },
           ],
         },
@@ -7741,39 +7837,82 @@ export const recipes = [
     ],
     recipeDirections: [
       {
-        directionTitle: "",
-        directionDescription: "",
+        directionTitle: "Heat the Milk",
+        directionDescription:
+          "In a small saucepan, heat the milk over medium heat until warm but not boiling.",
+      },
+      {
+        directionTitle: "Mix Cocoa and Sugar",
+        directionDescription:
+          "In a small bowl, mix the cocoa powder and sugar together to avoid lumps.",
+      },
+      {
+        directionTitle: "Combine Ingredients",
+        directionDescription:
+          "Add the cocoa mixture to the milk, whisking continuously until fully dissolved.",
+      },
+      {
+        directionTitle: "Melt the Chocolate",
+        directionDescription:
+          "Stir in the chopped dark chocolate and continue whisking until it melts completely.",
+      },
+      {
+        directionTitle: "Add Vanilla Extract",
+        directionDescription:
+          "Remove from heat and stir in the vanilla extract.",
+      },
+      {
+        directionTitle: "Serve Hot",
+        directionDescription:
+          "Pour into a mug and top with whipped cream if desired.",
       },
     ],
   },
   {
-    id: "",
-    recipeName: "",
+    id: "94fcbbdd-cc36-480c-9f8f-49eda7cc4b07",
+    recipeName: "Fresh Lemonade",
     author: {
       authorAvatar: "",
-      authorName: "",
-      authorDatePosted: "",
+      authorName: "Aiden Torres",
+      authorDatePosted: "15 March 2020",
     },
-    prepareTime: "",
-    cookTime: "",
+    prepareTime: "10",
+    cookTime: "0",
     recipeCategory: "Beverages",
     recipeImage: "",
     nutritionInformation: {
-      calories: "",
-      totalFat: "",
-      protein: "",
-      carbohydrate: "",
-      cholesterol: "",
+      calories: "100",
+      totalFat: "0",
+      protein: "0",
+      carbohydrate: "26",
+      cholesterol: "0",
     },
-    recipeDescription: "",
+    recipeDescription:
+      "A refreshing and tangy homemade lemonade, perfect for hot summer days.",
     recipeIngredients: [
       {
         recipeSteps: {
           name: "",
           steps: [
             {
+              ingredientsQuantity: "4",
+              inredientsName: "fresh lemons",
+            },
+            {
+              ingredientsQuantity: "4",
+              inredientsName: "cups cold water",
+            },
+            {
+              ingredientsQuantity: "1/2",
+              inredientsName: "cup sugar (or honey)",
+            },
+            {
               ingredientsQuantity: "",
-              inredientsName: "",
+              inredientsName: "Ice cubes",
+            },
+            {
+              ingredientsQuantity: "",
+              inredientsName: "Lemon slices and mint leaves for garnish",
             },
           ],
         },
@@ -7781,39 +7920,76 @@ export const recipes = [
     ],
     recipeDirections: [
       {
-        directionTitle: "",
-        directionDescription: "",
+        directionTitle: "Extract the Lemon Juice",
+        directionDescription:
+          "Roll the lemons on a flat surface to release more juice. Cut them in half and squeeze the juice into a pitcher, removing the seeds.",
+      },
+      {
+        directionTitle: "Dissolve the Sugar",
+        directionDescription:
+          "In a small bowl, mix the sugar with 1/2 cup of warm water until dissolved.",
+      },
+      {
+        directionTitle: "Mix Everything",
+        directionDescription:
+          "Add the sugar mixture and 4 cups of cold water to the pitcher with the lemon juice. Stir well.",
+      },
+      {
+        directionTitle: "Chill and Serve",
+        directionDescription:
+          "Add ice cubes, garnish with lemon slices and mint leaves, and serve cold.",
       },
     ],
   },
   {
-    id: "",
-    recipeName: "",
+    id: "732f5262-b566-47f0-a623-56a606ceb1ad",
+    recipeName: "Strawberry Banana Protein Shake",
     author: {
       authorAvatar: "",
-      authorName: "",
-      authorDatePosted: "",
+      authorName: "Maverick Brooks",
+      authorDatePosted: "24 September 2023",
     },
-    prepareTime: "",
-    cookTime: "",
+    prepareTime: "5",
+    cookTime: "0",
     recipeCategory: "Beverages",
     recipeImage: "",
     nutritionInformation: {
-      calories: "",
-      totalFat: "",
-      protein: "",
-      carbohydrate: "",
-      cholesterol: "",
+      calories: "300",
+      totalFat: "6",
+      protein: "20",
+      carbohydrate: "45",
+      cholesterol: "10",
     },
-    recipeDescription: "",
+    recipeDescription:
+      "A nutritious and protein-packed shake that’s perfect for post-workout recovery or a healthy breakfast.",
     recipeIngredients: [
       {
         recipeSteps: {
           name: "",
           steps: [
             {
-              ingredientsQuantity: "",
-              inredientsName: "",
+              ingredientsQuantity: "1",
+              inredientsName: "ripe banana",
+            },
+            {
+              ingredientsQuantity: "1/2",
+              inredientsName: "cup strawberries (fresh or frozen)",
+            },
+            {
+              ingredientsQuantity: "1",
+              inredientsName: "scoop vanilla protein powder",
+            },
+            {
+              ingredientsQuantity: "1",
+              inredientsName: "cup milk (or almond milk)",
+            },
+            {
+              ingredientsQuantity: "1",
+              inredientsName: "tbsp peanut butter",
+            },
+            {
+              ingredientsQuantity: "1/2",
+              inredientsName: "cup ice cubes",
             },
           ],
         },
@@ -7821,39 +7997,75 @@ export const recipes = [
     ],
     recipeDirections: [
       {
-        directionTitle: "",
-        directionDescription: "",
+        directionTitle: "Prepare the Ingredients",
+        directionDescription:
+          "Slice the banana and measure out the strawberries, protein powder, and peanut butter.",
+      },
+      {
+        directionTitle: "Blend Everything",
+        directionDescription: "In a blender, combine all the ingredients.",
+      },
+      {
+        directionTitle: "Blend Until Smooth",
+        directionDescription:
+          "Blend on high speed for about 45 seconds until smooth and creamy.",
+      },
+      {
+        directionTitle: "Adjust Consistency",
+        directionDescription:
+          "If too thick, add a little more milk and blend again.",
+      },
+      {
+        directionTitle: "Serve Immediately",
+        directionDescription: "Pour into a glass and enjoy fresh.",
       },
     ],
   },
   {
-    id: "",
-    recipeName: "",
+    id: "172cd1a7-8a1f-4173-a767-1c711b0720ad",
+    recipeName: "Honey Ginger Tea",
     author: {
       authorAvatar: "",
-      authorName: "",
-      authorDatePosted: "",
+      authorName: "Angel Stewart",
+      authorDatePosted: "24 April 2020",
     },
-    prepareTime: "",
-    cookTime: "",
+    prepareTime: "5",
+    cookTime: "10",
     recipeCategory: "Beverages",
     recipeImage: "",
     nutritionInformation: {
-      calories: "",
-      totalFat: "",
-      protein: "",
-      carbohydrate: "",
-      cholesterol: "",
+      calories: "60",
+      totalFat: "0",
+      protein: "0",
+      carbohydrate: "16",
+      cholesterol: "0",
     },
-    recipeDescription: "",
+    recipeDescription:
+      "A soothing and aromatic tea infused with fresh ginger and honey, perfect for boosting immunity and relaxing your body.",
     recipeIngredients: [
       {
         recipeSteps: {
           name: "",
           steps: [
             {
-              ingredientsQuantity: "",
-              inredientsName: "",
+              ingredientsQuantity: "2",
+              inredientsName: "cups water",
+            },
+            {
+              ingredientsQuantity: "1",
+              inredientsName: "inch fresh ginger root, sliced",
+            },
+            {
+              ingredientsQuantity: "1",
+              inredientsName: "tbsp honey",
+            },
+            {
+              ingredientsQuantity: "1/2",
+              inredientsName: "lemon, juiced",
+            },
+            {
+              ingredientsQuantity: "1",
+              inredientsName: "cinnamon stick (optional)",
             },
           ],
         },
@@ -7861,39 +8073,85 @@ export const recipes = [
     ],
     recipeDirections: [
       {
-        directionTitle: "",
-        directionDescription: "",
+        directionTitle: "Prepare the Ginger",
+        directionDescription:
+          "Wash and peel the ginger root. Slice it thinly to release more flavor.",
+      },
+      {
+        directionTitle: "Boil the Water",
+        directionDescription:
+          "In a small saucepan, bring 2 cups of water to a boil.",
+      },
+      {
+        directionTitle: "Infuse the Tea",
+        directionDescription:
+          "Add the sliced ginger and cinnamon stick (if using) to the boiling water. Reduce the heat and let it simmer for 10 minutes.",
+      },
+      {
+        directionTitle: "Strain the Tea",
+        directionDescription:
+          "Remove the saucepan from heat and strain the tea into a cup to remove the ginger slices.",
+      },
+      {
+        directionTitle: "Add Honey and Lemon",
+        directionDescription:
+          "Stir in the honey and freshly squeezed lemon juice.",
+      },
+      {
+        directionTitle: "Serve Hot",
+        directionDescription: "Pour into a mug and enjoy warm.",
       },
     ],
   },
   {
-    id: "",
-    recipeName: "",
+    id: "fc2d4a1e-47b9-4c22-ad54-f4948d161e3d",
+    recipeName: "Avocado Banana Smoothie",
     author: {
       authorAvatar: "",
-      authorName: "",
-      authorDatePosted: "",
+      authorName: "Ryan Hall",
+      authorDatePosted: "12 October 2023",
     },
-    prepareTime: "",
-    cookTime: "",
+    prepareTime: "5",
+    cookTime: "0",
     recipeCategory: "Beverages",
     recipeImage: "",
     nutritionInformation: {
-      calories: "",
-      totalFat: "",
-      protein: "",
-      carbohydrate: "",
-      cholesterol: "",
+      calories: "320",
+      totalFat: "14",
+      protein: "7",
+      carbohydrate: "45",
+      cholesterol: "5",
     },
-    recipeDescription: "",
+    recipeDescription:
+      "A creamy and nutrient-dense smoothie made with avocado and banana, packed with healthy fats and fiber to keep you energized.",
     recipeIngredients: [
       {
         recipeSteps: {
           name: "",
           steps: [
             {
-              ingredientsQuantity: "",
-              inredientsName: "",
+              ingredientsQuantity: "1",
+              inredientsName: "ripe banana",
+            },
+            {
+              ingredientsQuantity: "1/2",
+              inredientsName: "ripe avocado",
+            },
+            {
+              ingredientsQuantity: "1",
+              inredientsName: "cup milk (or almond milk)",
+            },
+            {
+              ingredientsQuantity: "1",
+              inredientsName: "tbsp honey or maple syrup",
+            },
+            {
+              ingredientsQuantity: "1/2",
+              inredientsName: "tsp vanilla extract",
+            },
+            {
+              ingredientsQuantity: "1/2",
+              inredientsName: "cup ice cubes",
             },
           ],
         },
@@ -7901,39 +8159,88 @@ export const recipes = [
     ],
     recipeDirections: [
       {
-        directionTitle: "",
-        directionDescription: "",
+        directionTitle: "Prepare the Ingredients",
+        directionDescription:
+          "Peel the banana and avocado, and cut them into chunks.",
+      },
+      {
+        directionTitle: "Blend Everything",
+        directionDescription:
+          "In a blender, add the banana, avocado, milk, honey, vanilla extract, and ice cubes.",
+      },
+      {
+        directionTitle: "Blend Until Smooth",
+        directionDescription:
+          "Blend on high speed for about 30–45 seconds until the mixture becomes creamy and smooth.",
+      },
+      {
+        directionTitle: "Adjust Consistency",
+        directionDescription:
+          "If the smoothie is too thick, add a little more milk and blend again.",
+      },
+      {
+        directionTitle: "Serve Immediately",
+        directionDescription: "Pour into a glass and enjoy cold.",
       },
     ],
   },
   {
-    id: "",
-    recipeName: "",
+    id: "a7a2130e-7791-4e1e-9ba9-fed3244e8f35",
+    recipeName: "Spiced Apple Cider",
     author: {
       authorAvatar: "",
-      authorName: "",
-      authorDatePosted: "",
+      authorName: "Thomas Richardson",
+      authorDatePosted: "26 May 2020",
     },
-    prepareTime: "",
-    cookTime: "",
+    prepareTime: "5",
+    cookTime: "15",
     recipeCategory: "Beverages",
     recipeImage: "",
     nutritionInformation: {
-      calories: "",
-      totalFat: "",
-      protein: "",
-      carbohydrate: "",
-      cholesterol: "",
+      calories: "150",
+      totalFat: "0",
+      protein: "0",
+      carbohydrate: "38",
+      cholesterol: "0",
     },
-    recipeDescription: "",
+    recipeDescription:
+      "A warm and comforting drink made with apple cider and aromatic spices, perfect for autumn and winter.",
     recipeIngredients: [
       {
         recipeSteps: {
           name: "",
           steps: [
             {
-              ingredientsQuantity: "",
-              inredientsName: "",
+              ingredientsQuantity: "4",
+              inredientsName: "cups apple cider",
+            },
+            {
+              ingredientsQuantity: "1",
+              inredientsName: "cinnamon stick",
+            },
+            {
+              ingredientsQuantity: "2",
+              inredientsName: "cloves",
+            },
+            {
+              ingredientsQuantity: "1/2",
+              inredientsName: "tsp nutmeg",
+            },
+            {
+              ingredientsQuantity: "1/2",
+              inredientsName: "tsp allspice",
+            },
+            {
+              ingredientsQuantity: "1",
+              inredientsName: "tbsp brown sugar",
+            },
+            {
+              ingredientsQuantity: "1/2",
+              inredientsName: "orange, sliced",
+            },
+            {
+              ingredientsQuantity: "1/2",
+              inredientsName: "apple, sliced",
             },
           ],
         },
@@ -7941,8 +8248,32 @@ export const recipes = [
     ],
     recipeDirections: [
       {
-        directionTitle: "",
-        directionDescription: "",
+        directionTitle: "Prepare the Ingredients",
+        directionDescription: "Slice the orange and apple.",
+      },
+      {
+        directionTitle: "Heat the Apple Cider",
+        directionDescription:
+          "In a saucepan, pour the apple cider and heat it over medium-low heat.",
+      },
+      {
+        directionTitle: "Add Spices and Fruit",
+        directionDescription:
+          "Add the cinnamon stick, cloves, nutmeg, allspice, brown sugar, and the sliced orange and apple.",
+      },
+      {
+        directionTitle: "Simmer Gently",
+        directionDescription:
+          "Let the mixture simmer for about 15 minutes, stirring occasionally to blend the flavors.",
+      },
+      {
+        directionTitle: "Strain the Cider",
+        directionDescription:
+          "Remove the saucepan from heat and strain the cider into a cup, discarding the fruit and spices.",
+      },
+      {
+        directionTitle: "Serve Warm",
+        directionDescription: "Pour into mugs and enjoy hot.",
       },
     ],
   },
