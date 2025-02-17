@@ -11683,32 +11683,65 @@ export const recipes = [
   },
   {
     id: "79a9fb4e-768f-4680-a197-4b56c7628511",
-    recipeName: "",
+    recipeName: "Tonkatsu (とんかつ) – Japanese Breaded Pork Cutlet",
     author: {
       authorAvatar: "",
       authorName: "Aria Rogers",
       authorDatePosted: "16 February 2022",
     },
-    prepareTime: "",
-    cookTime: "",
+    prepareTime: "10",
+    cookTime: "15",
     recipeCategory: "Japan",
     recipeImage: "",
     nutritionInformation: {
-      calories: "",
-      totalFat: "",
-      protein: "",
-      carbohydrate: "",
-      cholesterol: "",
+      calories: "510",
+      totalFat: "29",
+      protein: "40",
+      carbohydrate: "28",
+      cholesterol: "110",
     },
-    recipeDescription: "",
+    recipeDescription:
+      "Tonkatsu is a crispy, deep-fried pork cutlet coated in panko breadcrumbs and served with a tangy tonkatsu sauce.",
     recipeIngredients: [
       {
         recipeSteps: {
           name: "",
           steps: [
             {
+              ingredientsQuantity: "2",
+              inredientsName: "boneless pork loin chops",
+            },
+            {
               ingredientsQuantity: "",
-              inredientsName: "",
+              inredientsName: "Salt and black pepper, to taste",
+            },
+            {
+              ingredientsQuantity: "1/2",
+              inredientsName: "cup all-purpose flour",
+            },
+            {
+              ingredientsQuantity: "1",
+              inredientsName: "egg, beaten",
+            },
+            {
+              ingredientsQuantity: "1",
+              inredientsName: "cup panko breadcrumbs",
+            },
+            {
+              ingredientsQuantity: "1",
+              inredientsName: "cup vegetable oil (for frying)",
+            },
+            {
+              ingredientsQuantity: "1/2",
+              inredientsName: "cup tonkatsu sauce (store-bought or homemade)",
+            },
+            {
+              ingredientsQuantity: "",
+              inredientsName: "Shredded cabbage, for serving",
+            },
+            {
+              ingredientsQuantity: "",
+              inredientsName: "Steamed white rice, for serving",
             },
           ],
         },
@@ -11716,39 +11749,105 @@ export const recipes = [
     ],
     recipeDirections: [
       {
-        directionTitle: "",
-        directionDescription: "",
+        directionTitle: "Prepare the Pork",
+        directionDescription:
+          "Season pork chops with salt and black pepper. Using a meat mallet, pound them slightly to even thickness.",
+      },
+      {
+        directionTitle: "Coating Process",
+        directionDescription:
+          "Dredge each pork chop in flour, shaking off excess. Dip into beaten egg, ensuring full coverage. Then coat with panko breadcrumbs, pressing firmly so they stick.",
+      },
+      {
+        directionTitle: "Heat the Oil",
+        directionDescription:
+          "In a deep frying pan, heat vegetable oil to 170°C (340°F).",
+      },
+      {
+        directionTitle: "Fry the Pork",
+        directionDescription:
+          "Carefully place the pork in the oil and fry for about 3-4 minutes on each side until golden brown and crispy.",
+      },
+      {
+        directionTitle: "Drain and Serve",
+        directionDescription:
+          "Remove and place on a paper towel to drain excess oil. Slice into strips and serve with tonkatsu sauce, shredded cabbage, and rice.",
       },
     ],
   },
   {
     id: "2424a80a-0dc7-4635-8c97-19f009e9b677",
-    recipeName: "",
+    recipeName: "Okonomiyaki (お好み焼き) – Japanese Savory Pancake",
     author: {
       authorAvatar: "",
       authorName: "Eloise Roberts",
       authorDatePosted: "16 February 2020",
     },
-    prepareTime: "",
-    cookTime: "",
+    prepareTime: "15",
+    cookTime: "10",
     recipeCategory: "Japan",
     recipeImage: "",
     nutritionInformation: {
-      calories: "",
-      totalFat: "",
-      protein: "",
-      carbohydrate: "",
-      cholesterol: "",
+      calories: "420",
+      totalFat: "18",
+      protein: "20",
+      carbohydrate: "45",
+      cholesterol: "80",
     },
-    recipeDescription: "",
+    recipeDescription:
+      "Okonomiyaki is a savory Japanese pancake filled with cabbage, pork, and seafood, topped with a sweet and savory sauce.",
     recipeIngredients: [
       {
         recipeSteps: {
           name: "",
           steps: [
             {
-              ingredientsQuantity: "",
-              inredientsName: "",
+              ingredientsQuantity: "1",
+              inredientsName: "cup all-purpose flour",
+            },
+            {
+              ingredientsQuantity: "1/2",
+              inredientsName: "cup dashi broth",
+            },
+            {
+              ingredientsQuantity: "1",
+              inredientsName: "egg",
+            },
+            {
+              ingredientsQuantity: "2",
+              inredientsName: "cups shredded cabbage",
+            },
+            {
+              ingredientsQuantity: "1/4",
+              inredientsName: "cup chopped green onions",
+            },
+            {
+              ingredientsQuantity: "4",
+              inredientsName: "slices pork belly (or bacon)",
+            },
+            {
+              ingredientsQuantity: "1/4",
+              inredientsName: "cup cooked shrimp (optional)",
+            },
+            {
+              ingredientsQuantity: "1",
+              inredientsName: "tbsp vegetable oil",
+            },
+            {
+              ingredientsQuantity: "2",
+              inredientsName: "tbsp okonomiyaki sauce",
+            },
+            {
+              ingredientsQuantity: "1",
+              inredientsName: "tbsp mayonnaise",
+            },
+            {
+              ingredientsQuantity: "1",
+              inredientsName: "tbsp bonito flakes",
+            },
+            {
+              ingredientsQuantity: "1",
+              inredientsName: "tsp aonori (seaweed flakes)",
             },
           ],
         },
@@ -11756,39 +11855,93 @@ export const recipes = [
     ],
     recipeDirections: [
       {
-        directionTitle: "",
-        directionDescription: "",
+        directionTitle: "Prepare the Batter",
+        directionDescription:
+          "In a bowl, mix flour, dashi broth, and egg until smooth.",
+      },
+      {
+        directionTitle: "Add Fillings",
+        directionDescription:
+          "Fold in shredded cabbage, green onions, and shrimp.",
+      },
+      {
+        directionTitle: "Cook the Pancake",
+        directionDescription:
+          "Heat oil in a non-stick pan over medium heat. Pour the batter in a round shape, about 1-inch thick. Lay pork belly slices on top.",
+      },
+      {
+        directionTitle: "Flip and Cook",
+        directionDescription:
+          "After 4-5 minutes, flip using a spatula and cook for another 4 minutes until golden brown and cooked through.",
+      },
+      {
+        directionTitle: "Serve with Toppings",
+        directionDescription:
+          "Transfer to a plate, drizzle with okonomiyaki sauce and mayonnaise, and sprinkle with bonito flakes and aonori.",
       },
     ],
   },
   {
     id: "3adf18f1-3d82-42f3-9479-0bf6497f23e0",
-    recipeName: "",
+    recipeName: "Chawanmushi (茶碗蒸し) – Savory Steamed Egg Custard",
     author: {
       authorAvatar: "",
       authorName: "Ariana Clark",
       authorDatePosted: "24 December 2022",
     },
-    prepareTime: "",
-    cookTime: "",
+    prepareTime: "10",
+    cookTime: "20",
     recipeCategory: "Japan",
     recipeImage: "",
     nutritionInformation: {
-      calories: "",
-      totalFat: "",
-      protein: "",
-      carbohydrate: "",
-      cholesterol: "",
+      calories: "160",
+      totalFat: "8",
+      protein: "14",
+      carbohydrate: "6",
+      cholesterol: "150",
     },
-    recipeDescription: "",
+    recipeDescription:
+      "Chawanmushi is a delicate, silky-smooth steamed egg custard dish flavored with dashi and soy sauce.",
     recipeIngredients: [
       {
         recipeSteps: {
           name: "",
           steps: [
             {
+              ingredientsQuantity: "2",
+              inredientsName: "eggs",
+            },
+            {
+              ingredientsQuantity: "1",
+              inredientsName: "cup dashi broth",
+            },
+            {
+              ingredientsQuantity: "1",
+              inredientsName: "tsp soy sauce",
+            },
+            {
+              ingredientsQuantity: "1/2",
+              inredientsName: "tsp mirin",
+            },
+            {
+              ingredientsQuantity: "1/4",
+              inredientsName: "tsp salt",
+            },
+            {
+              ingredientsQuantity: "4",
+              inredientsName: "small shrimp, peeled and deveined",
+            },
+            {
+              ingredientsQuantity: "4",
+              inredientsName: "small shiitake mushrooms",
+            },
+            {
+              ingredientsQuantity: "4",
+              inredientsName: "slices kamaboko (fish cake)",
+            },
+            {
               ingredientsQuantity: "",
-              inredientsName: "",
+              inredientsName: "Chopped green onions, for garnish",
             },
           ],
         },
@@ -11796,39 +11949,96 @@ export const recipes = [
     ],
     recipeDirections: [
       {
-        directionTitle: "",
-        directionDescription: "",
+        directionTitle: "Prepare Egg Mixture",
+        directionDescription:
+          "Beat eggs lightly, then slowly mix in dashi, soy sauce, mirin, and salt, ensuring no bubbles form.",
+      },
+      {
+        directionTitle: "Strain the Mixture",
+        directionDescription:
+          "Pour the egg mixture through a fine sieve to ensure a smooth texture.",
+      },
+      {
+        directionTitle: "Assemble the Cups",
+        directionDescription:
+          "Divide shrimp, mushrooms, and fish cake into heatproof cups, then pour the egg mixture over.",
+      },
+      {
+        directionTitle: "Steam the Custard",
+        directionDescription:
+          "Cover each cup with foil and steam in a pot with 1 inch of water over low heat for 15-18 minutes.",
+      },
+      {
+        directionTitle: "Serve",
+        directionDescription: "Garnish with green onions and enjoy warm.",
       },
     ],
   },
   {
     id: "0e4f0405-1f92-4e46-918a-eb2adbbcf4ed",
-    recipeName: "",
+    recipeName: "Yaki Udon (焼きうどん) – Stir-Fried Udon Noodles",
     author: {
       authorAvatar: "",
       authorName: "Athena Taylor",
       authorDatePosted: "19 June 2020",
     },
-    prepareTime: "",
-    cookTime: "",
+    prepareTime: "10",
+    cookTime: "10",
     recipeCategory: "Japan",
     recipeImage: "",
     nutritionInformation: {
-      calories: "",
-      totalFat: "",
-      protein: "",
-      carbohydrate: "",
-      cholesterol: "",
+      calories: "450",
+      totalFat: "12",
+      protein: "22",
+      carbohydrate: "65",
+      cholesterol: "30",
     },
-    recipeDescription: "",
+    recipeDescription:
+      "Yaki Udon is a stir-fried noodle dish made with thick udon noodles, vegetables, and soy-based sauce.",
     recipeIngredients: [
       {
         recipeSteps: {
           name: "",
           steps: [
             {
-              ingredientsQuantity: "",
-              inredientsName: "",
+              ingredientsQuantity: "200g",
+              inredientsName: "fresh udon noodles",
+            },
+            {
+              ingredientsQuantity: "100g",
+              inredientsName: "chicken (or pork), thinly sliced",
+            },
+            {
+              ingredientsQuantity: "1/2",
+              inredientsName: "onion, sliced",
+            },
+            {
+              ingredientsQuantity: "1/2",
+              inredientsName: "cup shredded cabbage",
+            },
+            {
+              ingredientsQuantity: "1/2",
+              inredientsName: "carrot, julienned",
+            },
+            {
+              ingredientsQuantity: "2",
+              inredientsName: "tbsp soy sauce",
+            },
+            {
+              ingredientsQuantity: "1",
+              inredientsName: "tbsp oyster sauce",
+            },
+            {
+              ingredientsQuantity: "1",
+              inredientsName: "tsp sugar",
+            },
+            {
+              ingredientsQuantity: "1",
+              inredientsName: "tbsp vegetable oil",
+            },
+            {
+              ingredientsQuantity: "1",
+              inredientsName: "green onion, chopped",
             },
           ],
         },
@@ -11836,39 +12046,92 @@ export const recipes = [
     ],
     recipeDirections: [
       {
-        directionTitle: "",
-        directionDescription: "",
+        directionTitle: "Prepare Udon",
+        directionDescription:
+          "Cook udon noodles according to package instructions and set aside.",
+      },
+      {
+        directionTitle: "Stir-Fry Meat",
+        directionDescription:
+          "Heat oil in a pan and stir-fry chicken until fully cooked.",
+      },
+      {
+        directionTitle: "Add Vegetables",
+        directionDescription:
+          "Stir in onions, cabbage, and carrots, cooking until slightly tender.",
+      },
+      {
+        directionTitle: "Combine Noodles",
+        directionDescription: "Add udon noodles and mix well.",
+      },
+      {
+        directionTitle: "Season",
+        directionDescription:
+          "Pour in soy sauce, oyster sauce, and sugar. Toss everything until evenly coated.",
+      },
+      {
+        directionTitle: "Serve",
+        directionDescription: "Garnish with green onions and serve hot.",
       },
     ],
   },
   {
     id: "b6e28b81-ba20-45bc-b061-bb6f402cec81",
-    recipeName: "",
+    recipeName: "Dorayaki (どら焼き) – Japanese Pancake with Red Bean Filling",
     author: {
       authorAvatar: "",
       authorName: "Eloise James",
       authorDatePosted: "25 January 2022",
     },
-    prepareTime: "",
-    cookTime: "",
+    prepareTime: "15",
+    cookTime: "10",
     recipeCategory: "Japan",
     recipeImage: "",
     nutritionInformation: {
-      calories: "",
-      totalFat: "",
-      protein: "",
-      carbohydrate: "",
-      cholesterol: "",
+      calories: "320",
+      totalFat: "5",
+      protein: "8",
+      carbohydrate: "65",
+      cholesterol: "50",
     },
-    recipeDescription: "",
+    recipeDescription:
+      "Dorayaki is a traditional Japanese confection consisting of two fluffy pancakes filled with sweet red bean paste.",
     recipeIngredients: [
       {
         recipeSteps: {
           name: "",
           steps: [
             {
+              ingredientsQuantity: "1",
+              inredientsName: "cup all-purpose flour",
+            },
+            {
+              ingredientsQuantity: "2",
+              inredientsName: "eggs",
+            },
+            {
+              ingredientsQuantity: "1/4",
+              inredientsName: "cup sugar",
+            },
+            {
+              ingredientsQuantity: "1",
+              inredientsName: "tbsp honey",
+            },
+            {
+              ingredientsQuantity: "1/2",
+              inredientsName: "tsp baking soda",
+            },
+            {
+              ingredientsQuantity: "1/2",
+              inredientsName: "cup water",
+            },
+            {
+              ingredientsQuantity: "1/2",
+              inredientsName: "cup anko (sweet red bean paste)",
+            },
+            {
               ingredientsQuantity: "",
-              inredientsName: "",
+              inredientsName: "Vegetable oil, for cooking",
             },
           ],
         },
@@ -11876,39 +12139,99 @@ export const recipes = [
     ],
     recipeDirections: [
       {
-        directionTitle: "",
-        directionDescription: "",
+        directionTitle: "Make the Batter",
+        directionDescription:
+          "Whisk eggs, sugar, honey, and water. Gradually mix in flour and baking soda until smooth.",
+      },
+      {
+        directionTitle: "Cook the Pancakes",
+        directionDescription:
+          "Heat a lightly oiled pan over medium heat. Pour small amounts of batter to form round pancakes. Cook for 1-2 minutes per side.",
+      },
+      {
+        directionTitle: "Assemble",
+        directionDescription:
+          "Spread red bean paste on one pancake and sandwich with another.",
+      },
+      {
+        directionTitle: "Serve",
+        directionDescription: "Let them cool slightly before enjoying.",
       },
     ],
   },
   {
     id: "7cb9317e-39d5-4e3b-ae56-1240f3cfa6d3",
-    recipeName: "",
+    recipeName: "Gyudon (牛丼) – Japanese Beef Bowl",
     author: {
       authorAvatar: "",
       authorName: "Natalia Brown",
       authorDatePosted: "01 September 2023",
     },
-    prepareTime: "",
-    cookTime: "",
+    prepareTime: "10",
+    cookTime: "15",
     recipeCategory: "Japan",
     recipeImage: "",
     nutritionInformation: {
-      calories: "",
-      totalFat: "",
-      protein: "",
-      carbohydrate: "",
-      cholesterol: "",
+      calories: "550",
+      totalFat: "20",
+      protein: "32",
+      carbohydrate: "62",
+      cholesterol: "75",
     },
-    recipeDescription: "",
+    recipeDescription:
+      "Gyudon is a classic Japanese rice bowl topped with thinly sliced beef and onions simmered in a savory-sweet sauce made from soy sauce, mirin, and dashi.",
     recipeIngredients: [
       {
         recipeSteps: {
           name: "",
           steps: [
             {
+              ingredientsQuantity: "200g",
+              inredientsName: "thinly sliced beef (ribeye or sirloin)",
+            },
+            {
+              ingredientsQuantity: "1/2",
+              inredientsName: "onion, thinly sliced",
+            },
+            {
+              ingredientsQuantity: "1",
+              inredientsName: "cup dashi broth",
+            },
+            {
+              ingredientsQuantity: "2",
+              inredientsName: "tbsp soy sauce",
+            },
+            {
+              ingredientsQuantity: "1",
+              inredientsName: "tbsp mirin",
+            },
+            {
+              ingredientsQuantity: "1",
+              inredientsName: "tbsp sake",
+            },
+            {
+              ingredientsQuantity: "1",
+              inredientsName: "tbsp sugar",
+            },
+            {
+              ingredientsQuantity: "1/2",
+              inredientsName: "tsp grated ginger",
+            },
+            {
+              ingredientsQuantity: "2",
+              inredientsName: "cups cooked white rice",
+            },
+            {
+              ingredientsQuantity: "1",
+              inredientsName: "soft-boiled egg (optional)",
+            },
+            {
               ingredientsQuantity: "",
-              inredientsName: "",
+              inredientsName: "Chopped green onions, for garnish",
+            },
+            {
+              ingredientsQuantity: "",
+              inredientsName: "Pickled red ginger (beni shoga), for garnish",
             },
           ],
         },
@@ -11916,39 +12239,85 @@ export const recipes = [
     ],
     recipeDirections: [
       {
-        directionTitle: "",
-        directionDescription: "",
+        directionTitle: "Prepare the Sauce",
+        directionDescription:
+          "In a saucepan, combine dashi broth, soy sauce, mirin, sake, sugar, and grated ginger. Bring to a simmer over medium heat.",
+      },
+      {
+        directionTitle: "Cook the Onions",
+        directionDescription:
+          "Add the sliced onions and cook until soft and translucent, about 5 minutes.",
+      },
+      {
+        directionTitle: "Add the Beef",
+        directionDescription:
+          "Add the thinly sliced beef and cook until no longer pink, stirring occasionally. Let it simmer for an additional 3 minutes to absorb flavors.",
+      },
+      {
+        directionTitle: "Assemble the Bowl",
+        directionDescription:
+          "Serve the beef and onions over a bowl of hot rice.",
+      },
+      {
+        directionTitle: "Add Toppings",
+        directionDescription:
+          "Garnish with green onions, pickled red ginger, and a soft-boiled egg if desired.",
       },
     ],
   },
   {
     id: "ea36df73-fbf9-4140-8df6-24b4fe19d53c",
-    recipeName: "",
+    recipeName: "Tamagoyaki (卵焼き) – Japanese Rolled Omelet",
     author: {
       authorAvatar: "",
       authorName: "Mia Murphy",
       authorDatePosted: "31 January 2024",
     },
-    prepareTime: "",
-    cookTime: "",
+    prepareTime: "5",
+    cookTime: "10",
     recipeCategory: "Japan",
     recipeImage: "",
     nutritionInformation: {
-      calories: "",
-      totalFat: "",
-      protein: "",
-      carbohydrate: "",
-      cholesterol: "",
+      calories: "180",
+      totalFat: "10",
+      protein: "12",
+      carbohydrate: "8",
+      cholesterol: "190",
     },
-    recipeDescription: "",
+    recipeDescription:
+      "Tamagoyaki is a slightly sweet, rolled Japanese omelet made with layers of seasoned egg, commonly served as breakfast or sushi topping.",
     recipeIngredients: [
       {
         recipeSteps: {
           name: "",
           steps: [
             {
-              ingredientsQuantity: "",
-              inredientsName: "",
+              ingredientsQuantity: "3",
+              inredientsName: "large eggs",
+            },
+            {
+              ingredientsQuantity: "1",
+              inredientsName: "tbsp dashi broth",
+            },
+            {
+              ingredientsQuantity: "1",
+              inredientsName: "tsp soy sauce",
+            },
+            {
+              ingredientsQuantity: "1",
+              inredientsName: "tsp mirin",
+            },
+            {
+              ingredientsQuantity: "1",
+              inredientsName: "tsp sugar",
+            },
+            {
+              ingredientsQuantity: "1/2",
+              inredientsName: "tsp salt",
+            },
+            {
+              ingredientsQuantity: "1",
+              inredientsName: "tsp vegetable oil (for cooking)",
             },
           ],
         },
@@ -11956,39 +12325,94 @@ export const recipes = [
     ],
     recipeDirections: [
       {
-        directionTitle: "",
-        directionDescription: "",
+        directionTitle: "Prepare the Egg Mixture",
+        directionDescription:
+          "In a bowl, whisk together eggs, dashi, soy sauce, mirin, sugar, and salt until well combined.",
+      },
+      {
+        directionTitle: "Heat the Pan",
+        directionDescription:
+          "Lightly grease a rectangular tamagoyaki pan (or regular frying pan) with oil over medium-low heat.",
+      },
+      {
+        directionTitle: "Cook the First Layer",
+        directionDescription:
+          "Pour a thin layer of the egg mixture into the pan, tilting to spread evenly. When half-set, roll the omelet from one side to the other using chopsticks or a spatula.",
+      },
+      {
+        directionTitle: "Add More Layers",
+        directionDescription:
+          "Push the rolled egg to one side, add more egg mixture to cover the pan, and let it set slightly before rolling it onto the previous layer. Repeat until all the egg mixture is used.",
+      },
+      {
+        directionTitle: "Shape and Slice",
+        directionDescription:
+          "Remove from heat, let it cool slightly, then slice into bite-sized pieces. Serve warm or at room temperature.",
       },
     ],
   },
   {
     id: "9aa8b1a5-eb4e-429b-887d-b9fe9fb289c9",
-    recipeName: "",
+    recipeName:
+      "Zaru Soba (ざるそば) – Chilled Buckwheat Noodles with Dipping Sauce",
     author: {
       authorAvatar: "",
       authorName: "Lucy Roberts",
       authorDatePosted: "28 February 2021",
     },
-    prepareTime: "",
-    cookTime: "",
+    prepareTime: "5",
+    cookTime: "5",
     recipeCategory: "Japan",
     recipeImage: "",
     nutritionInformation: {
-      calories: "",
-      totalFat: "",
-      protein: "",
-      carbohydrate: "",
-      cholesterol: "",
+      calories: "290",
+      totalFat: "2",
+      protein: "12",
+      carbohydrate: "55",
+      cholesterol: "0",
     },
-    recipeDescription: "",
+    recipeDescription:
+      "Zaru Soba is a refreshing Japanese dish featuring chilled buckwheat noodles served with a dipping sauce called 'tsuyu.'",
     recipeIngredients: [
       {
         recipeSteps: {
           name: "",
           steps: [
             {
-              ingredientsQuantity: "",
-              inredientsName: "",
+              ingredientsQuantity: "200g",
+              inredientsName: "soba noodles",
+            },
+            {
+              ingredientsQuantity: "1",
+              inredientsName: "cup dashi broth",
+            },
+            {
+              ingredientsQuantity: "2",
+              inredientsName: "tbsp soy sauce",
+            },
+            {
+              ingredientsQuantity: "1",
+              inredientsName: "tbsp mirin",
+            },
+            {
+              ingredientsQuantity: "1/2",
+              inredientsName: "tsp sugar",
+            },
+            {
+              ingredientsQuantity: "1/2",
+              inredientsName: "tsp wasabi (optional)",
+            },
+            {
+              ingredientsQuantity: "1",
+              inredientsName: "tbsp chopped green onions",
+            },
+            {
+              ingredientsQuantity: "1",
+              inredientsName: "tsp toasted sesame seeds",
+            },
+            {
+              ingredientsQuantity: "1",
+              inredientsName: "sheet nori (seaweed), cut into thin strips",
             },
           ],
         },
@@ -11996,8 +12420,24 @@ export const recipes = [
     ],
     recipeDirections: [
       {
-        directionTitle: "",
-        directionDescription: "",
+        directionTitle: "Cook the Noodles",
+        directionDescription:
+          "Boil soba noodles according to package instructions (about 4-5 minutes). Drain and rinse under cold running water to remove excess starch.",
+      },
+      {
+        directionTitle: "Prepare the Dipping Sauce",
+        directionDescription:
+          "In a small saucepan, combine dashi, soy sauce, mirin, and sugar. Heat until warm, then let cool.",
+      },
+      {
+        directionTitle: "Assemble the Dish",
+        directionDescription:
+          "Place soba noodles on a bamboo mat or plate, and top with shredded nori.",
+      },
+      {
+        directionTitle: "Serve",
+        directionDescription:
+          "Pour the dipping sauce into a small bowl, and serve with green onions, sesame seeds, and wasabi on the side. Dip the noodles into the sauce before eating.",
       },
     ],
   },
