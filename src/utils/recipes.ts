@@ -10290,33 +10290,85 @@ export const recipes = [
   },
   // Thailand
   {
-    id: "",
-    recipeName: "",
+    id: "103db46c-1825-4ff6-a269-c1b51f8f8cd8",
+    recipeName: "Pad Thai (Stir-Fried Noodles)",
     author: {
       authorAvatar: "",
-      authorName: "",
-      authorDatePosted: "",
+      authorName: "Andrew Kelly",
+      authorDatePosted: "01 January 2022",
     },
-    prepareTime: "",
-    cookTime: "",
+    prepareTime: "15",
+    cookTime: "15",
     recipeCategory: "Thailand",
     recipeImage: "",
     nutritionInformation: {
-      calories: "",
-      totalFat: "",
-      protein: "",
-      carbohydrate: "",
-      cholesterol: "",
+      calories: "450",
+      totalFat: "14",
+      protein: "30",
+      carbohydrate: "55",
+      cholesterol: "180",
     },
-    recipeDescription: "",
+    recipeDescription:
+      "Pad Thai is a classic Thai street food dish made with stir-fried rice noodles, protein, eggs, and a flavorful sweet-savory sauce.",
     recipeIngredients: [
       {
         recipeSteps: {
           name: "",
           steps: [
             {
-              ingredientsQuantity: "",
-              inredientsName: "",
+              ingredientsQuantity: "150g",
+              inredientsName: "rice noodles",
+            },
+            {
+              ingredientsQuantity: "200g",
+              inredientsName: "chicken breast (or tofu), thinly sliced",
+            },
+            {
+              ingredientsQuantity: "2",
+              inredientsName: "eggs",
+            },
+            {
+              ingredientsQuantity: "2",
+              inredientsName: "tbsp vegetable oil",
+            },
+            {
+              ingredientsQuantity: "1/2",
+              inredientsName: "cup bean sprouts",
+            },
+            {
+              ingredientsQuantity: "2",
+              inredientsName: "tbsp crushed peanuts",
+            },
+            {
+              ingredientsQuantity: "2",
+              inredientsName: "green onions, chopped",
+            },
+            {
+              ingredientsQuantity: "1",
+              inredientsName: "lime, cut into wedges",
+            },
+          ],
+        },
+      },
+      {
+        recipeSteps: {
+          name: "Pad Thai Sauce",
+          steps: [
+            {
+              ingredientsQuantity: "2",
+              ingredientsName: "tbsp fish sauce (or soy sauce for vegetarian)",
+            },
+            {
+              ingredientsQuantity: "1",
+              ingredientsName: "tbsp tamarind paste",
+            },
+            {
+              ingredientsQuantity: "1",
+              ingredientsName: "tbsp sugar",
+            },
+            {
+              ingredientsQuantity: "1",
+              ingredientsName: "tsp chili flakes (optional)",
             },
           ],
         },
@@ -10324,39 +10376,107 @@ export const recipes = [
     ],
     recipeDirections: [
       {
-        directionTitle: "",
-        directionDescription: "",
+        directionTitle: "Soak the Noodles",
+        directionDescription:
+          "Soak rice noodles in warm water for 30 minutes until soft, then drain.",
+      },
+      {
+        directionTitle: "Make the Sauce",
+        directionDescription:
+          "In a small bowl, mix fish sauce, tamarind paste, sugar, and chili flakes. Stir until dissolved.",
+      },
+      {
+        directionTitle: "Cook the Protein",
+        directionDescription:
+          "Heat 1 tbsp oil in a wok or large pan over medium heat. Add chicken (or tofu) and stir-fry until cooked (5-6 minutes). Remove and set aside.",
+      },
+      {
+        directionTitle: "Scramble the Eggs",
+        directionDescription:
+          "In the same pan, add 1 tbsp oil and crack in the eggs. Scramble gently until cooked through.",
+      },
+      {
+        directionTitle: "Stir-Fry Noodles",
+        directionDescription:
+          "Add the softened noodles to the pan. Pour the Pad Thai sauce over them and stir well. Cook for 2-3 minutes.",
+      },
+      {
+        directionTitle: "Combine Everything",
+        directionDescription:
+          "Return the cooked chicken (or tofu) to the pan. Add bean sprouts and green onions. Stir everything together for 2 minutes.",
+      },
+      {
+        directionTitle: "Serve",
+        directionDescription:
+          "Transfer to plates, sprinkle with crushed peanuts, and serve with lime wedges.",
       },
     ],
   },
   {
-    id: "",
-    recipeName: "",
+    id: "4a39074c-5104-4c12-b10f-dd9d9010b949",
+    recipeName: "Tom Yum Goong (Spicy Shrimp Soup)",
     author: {
       authorAvatar: "",
-      authorName: "",
-      authorDatePosted: "",
+      authorName: "Adam Ramirez",
+      authorDatePosted: "18 September 2023",
     },
-    prepareTime: "",
-    cookTime: "",
+    prepareTime: "10",
+    cookTime: "20",
     recipeCategory: "Thailand",
     recipeImage: "",
     nutritionInformation: {
-      calories: "",
-      totalFat: "",
-      protein: "",
-      carbohydrate: "",
-      cholesterol: "",
+      calories: "220",
+      totalFat: "8",
+      protein: "25",
+      carbohydrate: "12",
+      cholesterol: "180",
     },
-    recipeDescription: "",
+    recipeDescription:
+      "Tom Yum Goong is a hot and sour Thai soup with shrimp, flavored with lemongrass, lime leaves, and chili.",
     recipeIngredients: [
       {
         recipeSteps: {
           name: "",
           steps: [
             {
-              ingredientsQuantity: "",
-              inredientsName: "",
+              ingredientsQuantity: "200g",
+              inredientsName: "shrimp (peeled and deveined)",
+            },
+            {
+              ingredientsQuantity: "3",
+              inredientsName: "cups chicken broth",
+            },
+            {
+              ingredientsQuantity: "2",
+              inredientsName: "stalks lemongrass, cut into 3-inch pieces",
+            },
+            {
+              ingredientsQuantity: "3",
+              inredientsName: "kaffir lime leaves",
+            },
+            {
+              ingredientsQuantity: "2",
+              inredientsName: "tbsp fish sauce",
+            },
+            {
+              ingredientsQuantity: "1",
+              inredientsName: "tbsp lime juice",
+            },
+            {
+              ingredientsQuantity: "3",
+              inredientsName: "Thai bird’s eye chilies, sliced",
+            },
+            {
+              ingredientsQuantity: "100g",
+              inredientsName: "mushrooms, sliced",
+            },
+            {
+              ingredientsQuantity: "1/2",
+              inredientsName: "cup cherry tomatoes, halved",
+            },
+            {
+              ingredientsQuantity: "1",
+              inredientsName: "tbsp cilantro, chopped",
             },
           ],
         },
@@ -10364,39 +10484,93 @@ export const recipes = [
     ],
     recipeDirections: [
       {
-        directionTitle: "",
-        directionDescription: "",
+        directionTitle: "Prepare the Broth",
+        directionDescription:
+          "In a pot, bring chicken broth to a boil. Add lemongrass and kaffir lime leaves. Simmer for 10 minutes to infuse the flavors.",
+      },
+      {
+        directionTitle: "Add Vegetables",
+        directionDescription:
+          "Add mushrooms and cherry tomatoes. Cook for 5 minutes until the mushrooms are tender.",
+      },
+      {
+        directionTitle: "Cook the Shrimp",
+        directionDescription:
+          "Add shrimp to the pot and cook for 3-4 minutes until pink and cooked through.",
+      },
+      {
+        directionTitle: "Season the Soup",
+        directionDescription:
+          "Stir in fish sauce, lime juice, and chilies. Adjust the taste by adding more lime juice for sourness or fish sauce for saltiness.",
+      },
+      {
+        directionTitle: "Serve",
+        directionDescription:
+          "Remove lemongrass and lime leaves. Garnish with chopped cilantro and serve hot.",
       },
     ],
   },
   {
-    id: "",
-    recipeName: "",
+    id: "005c6ea6-15c9-4a15-8811-573761e051f2",
+    recipeName: "Green Curry (Gaeng Keow Wan)",
     author: {
       authorAvatar: "",
-      authorName: "",
-      authorDatePosted: "",
+      authorName: "Angel Reed",
+      authorDatePosted: "19 August 2020",
     },
-    prepareTime: "",
-    cookTime: "",
+    prepareTime: "15",
+    cookTime: "25",
     recipeCategory: "Thailand",
     recipeImage: "",
     nutritionInformation: {
-      calories: "",
-      totalFat: "",
-      protein: "",
-      carbohydrate: "",
-      cholesterol: "",
+      calories: "480",
+      totalFat: "35",
+      protein: "28",
+      carbohydrate: "25",
+      cholesterol: "70",
     },
-    recipeDescription: "",
+    recipeDescription:
+      "Green curry is a creamy, spicy Thai dish with coconut milk, chicken, and aromatic herbs.",
     recipeIngredients: [
       {
         recipeSteps: {
           name: "",
           steps: [
             {
-              ingredientsQuantity: "",
-              inredientsName: "",
+              ingredientsQuantity: "300g",
+              inredientsName: "chicken breast, cut into thin slices",
+            },
+            {
+              ingredientsQuantity: "1",
+              inredientsName: "cup coconut milk",
+            },
+            {
+              ingredientsQuantity: "1",
+              inredientsName: "tbsp green curry paste",
+            },
+            {
+              ingredientsQuantity: "1/2",
+              inredientsName: "cup Thai eggplant (or zucchini), sliced",
+            },
+            {
+              ingredientsQuantity: "2",
+              inredientsName: "kaffir lime leaves",
+            },
+            {
+              ingredientsQuantity: "1",
+              inredientsName: "red chili, sliced",
+            },
+            {
+              ingredientsQuantity: "1",
+              inredientsName: "tbsp fish sauce",
+            },
+            {
+              ingredientsQuantity: "1",
+              inredientsName: "tsp sugar",
+            },
+            {
+              ingredientsQuantity: "1/4",
+              inredientsName: "cup fresh basil leaves",
             },
           ],
         },
@@ -10404,39 +10578,104 @@ export const recipes = [
     ],
     recipeDirections: [
       {
-        directionTitle: "",
-        directionDescription: "",
+        directionTitle: "Sauté the Curry Paste",
+        directionDescription:
+          "In a pan over medium heat, cook the green curry paste in 2 tbsp coconut milk until fragrant (2-3 minutes).",
+      },
+      {
+        directionTitle: "Add Chicken",
+        directionDescription:
+          "Add the chicken slices and stir until coated with the curry paste.",
+      },
+      {
+        directionTitle: "Simmer",
+        directionDescription:
+          "Pour in the remaining coconut milk, bring to a simmer, and cook for 10 minutes.",
+      },
+      {
+        directionTitle: "Add Vegetables",
+        directionDescription:
+          "Add Thai eggplant, kaffir lime leaves, fish sauce, sugar, and red chili. Simmer for 10 more minutes until the chicken is fully cooked.",
+      },
+      {
+        directionTitle: "Finish with Basil",
+        directionDescription: "Stir in fresh basil leaves just before serving.",
+      },
+      {
+        directionTitle: "Serve",
+        directionDescription: "Serve hot with steamed jasmine rice.",
       },
     ],
   },
   {
-    id: "",
-    recipeName: "",
+    id: "9aecb5cd-261a-4ac5-bdae-659c31695a27",
+    recipeName: "Som Tum (Green Papaya Salad)",
     author: {
       authorAvatar: "",
-      authorName: "",
-      authorDatePosted: "",
+      authorName: "Micah Long",
+      authorDatePosted: "17 November 2023",
     },
-    prepareTime: "",
-    cookTime: "",
+    prepareTime: "15",
+    cookTime: "0",
     recipeCategory: "Thailand",
     recipeImage: "",
     nutritionInformation: {
-      calories: "",
-      totalFat: "",
-      protein: "",
-      carbohydrate: "",
-      cholesterol: "",
+      calories: "160",
+      totalFat: "5",
+      protein: "4",
+      carbohydrate: "25",
+      cholesterol: "0",
     },
-    recipeDescription: "",
+    recipeDescription:
+      "Som Tum is a refreshing and spicy Thai salad made with shredded green papaya and a tangy dressing.",
     recipeIngredients: [
       {
         recipeSteps: {
           name: "",
           steps: [
             {
-              ingredientsQuantity: "",
-              inredientsName: "",
+              ingredientsQuantity: "2",
+              inredientsName: "cups shredded green papaya",
+            },
+            {
+              ingredientsQuantity: "1/2",
+              inredientsName: "cup cherry tomatoes, halved",
+            },
+            {
+              ingredientsQuantity: "2",
+              inredientsName:
+                "long beans (or green beans), cut into 2-inch pieces",
+            },
+            {
+              ingredientsQuantity: "2",
+              inredientsName: "tbsp peanuts, roasted",
+            },
+            {
+              ingredientsQuantity: "1",
+              inredientsName: "red chili, chopped",
+            },
+          ],
+        },
+      },
+      {
+        recipeSteps: {
+          name: "Dressing",
+          steps: [
+            {
+              ingredientsQuantity: "1",
+              inredientsName: "tbsp fish sauce",
+            },
+            {
+              ingredientsQuantity: "1",
+              inredientsName: "tbsp lime juice",
+            },
+            {
+              ingredientsQuantity: "1",
+              inredientsName: "tsp sugar",
+            },
+            {
+              ingredientsQuantity: "1",
+              inredientsName: "garlic clove, minced",
             },
           ],
         },
@@ -10444,39 +10683,70 @@ export const recipes = [
     ],
     recipeDirections: [
       {
-        directionTitle: "",
-        directionDescription: "",
+        directionTitle: "Prepare the Dressing",
+        directionDescription:
+          "In a mortar and pestle, pound garlic and chili until crushed. Add fish sauce, lime juice, and sugar. Mix well.",
+      },
+      {
+        directionTitle: "Mix the Salad",
+        directionDescription:
+          "In a large bowl, combine shredded green papaya, tomatoes, and beans. Pour the dressing over and toss gently.",
+      },
+      {
+        directionTitle: "Serve",
+        directionDescription: "Top with roasted peanuts and serve fresh.",
       },
     ],
   },
   {
-    id: "",
-    recipeName: "",
+    id: "dfee7b00-7d86-40ad-9af1-724ce04901fe",
+    recipeName: "Thai Mango Sticky Rice (Khao Niew Mamuang)",
     author: {
       authorAvatar: "",
-      authorName: "",
-      authorDatePosted: "",
+      authorName: "Gabriel Ramos",
+      authorDatePosted: "16 January 2024",
     },
-    prepareTime: "",
-    cookTime: "",
+    prepareTime: "10",
+    cookTime: "25",
     recipeCategory: "Thailand",
     recipeImage: "",
     nutritionInformation: {
-      calories: "",
-      totalFat: "",
-      protein: "",
-      carbohydrate: "",
-      cholesterol: "",
+      calories: "350",
+      totalFat: "10",
+      protein: "5",
+      carbohydrate: "60",
+      cholesterol: "0",
     },
-    recipeDescription: "",
+    recipeDescription:
+      "A traditional Thai dessert made with sweet sticky rice, ripe mango, and coconut sauce.",
     recipeIngredients: [
       {
         recipeSteps: {
           name: "",
           steps: [
             {
-              ingredientsQuantity: "",
-              inredientsName: "",
+              ingredientsQuantity: "1",
+              inredientsName: "cup glutinous rice (sticky rice)",
+            },
+            {
+              ingredientsQuantity: "1",
+              inredientsName: "ripe mango, peeled and sliced",
+            },
+            {
+              ingredientsQuantity: "1",
+              inredientsName: "cup coconut milk",
+            },
+            {
+              ingredientsQuantity: "3",
+              inredientsName: "tbsp sugar",
+            },
+            {
+              ingredientsQuantity: "1/4",
+              inredientsName: "tsp salt",
+            },
+            {
+              ingredientsQuantity: "1",
+              inredientsName: "tsp sesame seeds (optional)",
             },
           ],
         },
@@ -10484,39 +10754,104 @@ export const recipes = [
     ],
     recipeDirections: [
       {
-        directionTitle: "",
-        directionDescription: "",
+        directionTitle: "Cook the Sticky Rice",
+        directionDescription:
+          "Soak the rice for 2 hours, then steam for 20 minutes until soft.",
+      },
+      {
+        directionTitle: "Make the Coconut Sauce",
+        directionDescription:
+          "In a saucepan, heat coconut milk, sugar, and salt over low heat. Stir until dissolved (5 minutes).",
+      },
+      {
+        directionTitle: "Mix with Rice",
+        directionDescription:
+          "Pour 2/3 of the coconut sauce over the cooked rice. Let it absorb for 10 minutes.",
+      },
+      {
+        directionTitle: "Assemble",
+        directionDescription:
+          "Place sticky rice on a plate, top with sliced mango, and drizzle with the remaining coconut sauce.",
+      },
+      {
+        directionTitle: "Serve",
+        directionDescription: "Garnish with sesame seeds and serve warm.",
       },
     ],
   },
   {
-    id: "",
-    recipeName: "",
+    id: "714f9fb6-1c62-4afd-bb7c-687d27b910af",
+    recipeName: "Thai Basil Chicken (Pad Krapow Gai)",
     author: {
       authorAvatar: "",
-      authorName: "",
-      authorDatePosted: "",
+      authorName: "Levi Turner",
+      authorDatePosted: "26 March 2024",
     },
-    prepareTime: "",
-    cookTime: "",
+    prepareTime: "10",
+    cookTime: "15",
     recipeCategory: "Thailand",
     recipeImage: "",
     nutritionInformation: {
-      calories: "",
-      totalFat: "",
-      protein: "",
-      carbohydrate: "",
-      cholesterol: "",
+      calories: "350",
+      totalFat: "12",
+      protein: "40",
+      carbohydrate: "20",
+      cholesterol: "90",
     },
-    recipeDescription: "",
+    recipeDescription:
+      "Pad Krapow Gai is a popular Thai street food dish made with ground chicken stir-fried with garlic, chili, and Thai basil, served with jasmine rice and a fried egg.",
     recipeIngredients: [
       {
         recipeSteps: {
           name: "",
           steps: [
             {
+              ingredientsQuantity: "300g",
+              inredientsName: "ground chicken",
+            },
+            {
+              ingredientsQuantity: "2",
+              inredientsName: "tbsp vegetable oil",
+            },
+            {
+              ingredientsQuantity: "4",
+              inredientsName: "cloves garlic, minced",
+            },
+            {
+              ingredientsQuantity: "2",
+              inredientsName: "Thai bird’s eye chilies, chopped",
+            },
+            {
+              ingredientsQuantity: "2",
+              inredientsName: "tbsp oyster sauce",
+            },
+            {
+              ingredientsQuantity: "1",
+              inredientsName: "tbsp fish sauce",
+            },
+            {
+              ingredientsQuantity: "1",
+              inredientsName: "tsp soy sauce",
+            },
+            {
+              ingredientsQuantity: "1",
+              inredientsName: "tsp sugar",
+            },
+            {
+              ingredientsQuantity: "1/2",
+              inredientsName: "cup fresh Thai basil leaves",
+            },
+            {
+              ingredientsQuantity: "1/2",
+              inredientsName: "cup sliced bell peppers",
+            },
+            {
+              ingredientsQuantity: "1",
+              inredientsName: "fried egg (optional)",
+            },
+            {
               ingredientsQuantity: "",
-              inredientsName: "",
+              inredientsName: "Steamed jasmine rice, for serving",
             },
           ],
         },
@@ -10524,39 +10859,114 @@ export const recipes = [
     ],
     recipeDirections: [
       {
-        directionTitle: "",
-        directionDescription: "",
+        directionTitle: "Prepare the Ingredients",
+        directionDescription:
+          "Mince garlic and chilies, slice the bell peppers, and measure the sauces.",
+      },
+      {
+        directionTitle: "Cook the Chicken",
+        directionDescription:
+          "Heat vegetable oil in a pan over medium heat. Add garlic and chilies, stir-frying for 30 seconds until fragrant.",
+      },
+      {
+        directionTitle: "Add the Meat",
+        directionDescription:
+          "Add ground chicken and cook, stirring frequently, for 5-6 minutes until fully cooked.",
+      },
+      {
+        directionTitle: "Season the Dish",
+        directionDescription:
+          "Pour in oyster sauce, fish sauce, soy sauce, and sugar. Stir well and cook for another 2 minutes.",
+      },
+      {
+        directionTitle: "Add Vegetables and Basil",
+        directionDescription:
+          "Toss in the sliced bell peppers and cook for 1-2 minutes. Then, add Thai basil leaves, stirring until they wilt.",
+      },
+      {
+        directionTitle: "Serve",
+        directionDescription:
+          "Plate with steamed jasmine rice and top with a fried egg.",
       },
     ],
   },
   {
-    id: "",
-    recipeName: "",
+    id: "0d4502e6-dce4-4c1e-969c-2a2eb1e71bb6",
+    recipeName: "Thai Massaman Curry",
     author: {
       authorAvatar: "",
-      authorName: "",
-      authorDatePosted: "",
+      authorName: "Julian Nguyen",
+      authorDatePosted: "12 September 2023",
     },
-    prepareTime: "",
-    cookTime: "",
+    prepareTime: "15",
+    cookTime: "40",
     recipeCategory: "Thailand",
     recipeImage: "",
     nutritionInformation: {
-      calories: "",
-      totalFat: "",
-      protein: "",
-      carbohydrate: "",
-      cholesterol: "",
+      calories: "550",
+      totalFat: "35",
+      protein: "30",
+      carbohydrate: "40",
+      cholesterol: "70",
     },
-    recipeDescription: "",
+    recipeDescription:
+      "Massaman Curry is a rich and flavorful Thai curry with tender beef, potatoes, and a blend of aromatic spices.",
     recipeIngredients: [
       {
         recipeSteps: {
           name: "",
           steps: [
             {
-              ingredientsQuantity: "",
-              inredientsName: "",
+              ingredientsQuantity: "400g",
+              inredientsName: "beef chuck, cut into cubes",
+            },
+            {
+              ingredientsQuantity: "2",
+              inredientsName: "tbsp vegetable oil",
+            },
+            {
+              ingredientsQuantity: "3",
+              inredientsName: "tbsp Massaman curry paste",
+            },
+            {
+              ingredientsQuantity: "1",
+              inredientsName: "can (400ml) coconut milk",
+            },
+            {
+              ingredientsQuantity: "2",
+              inredientsName: "cups beef broth",
+            },
+            {
+              ingredientsQuantity: "2",
+              inredientsName: "medium potatoes, cubed",
+            },
+            {
+              ingredientsQuantity: "1",
+              inredientsName: "onion, sliced",
+            },
+            {
+              ingredientsQuantity: "1",
+              inredientsName: "cinnamon stick",
+            },
+            {
+              ingredientsQuantity: "3",
+              inredientsName: "cardamom pods",
+            },
+            {
+              ingredientsQuantity: "2",
+              inredientsName: "tbsp fish sauce",
+            },
+            {
+              ingredientsQuantity: "1",
+              inredientsName: "tbsp palm sugar (or brown sugar)",
+            },
+            {
+              ingredientsQuantity: "1/4",
+              inredientsName: "cup roasted peanuts",
+            },
+            {
+              ingredientsQuantity: "1",
+              inredientsName: "tbsp lime juice",
             },
           ],
         },
@@ -10564,39 +10974,107 @@ export const recipes = [
     ],
     recipeDirections: [
       {
-        directionTitle: "",
-        directionDescription: "",
+        directionTitle: "Sear the Beef",
+        directionDescription:
+          "Heat 1 tbsp oil in a pot over medium-high heat. Brown the beef cubes on all sides, then remove and set aside.",
+      },
+      {
+        directionTitle: "Cook the Curry Paste",
+        directionDescription:
+          "Add 1 tbsp oil to the same pot, then stir in the Massaman curry paste. Cook for 2 minutes until fragrant.",
+      },
+      {
+        directionTitle: "Simmer the Curry",
+        directionDescription:
+          "Pour in coconut milk and beef broth. Add the cinnamon stick, cardamom pods, and beef. Simmer for 25 minutes.",
+      },
+      {
+        directionTitle: "Add Vegetables",
+        directionDescription:
+          "Stir in potatoes and onions. Cook for another 15 minutes until potatoes are tender.",
+      },
+      {
+        directionTitle: "Season",
+        directionDescription:
+          "Add fish sauce, palm sugar, lime juice, and peanuts. Stir well.",
+      },
+      {
+        directionTitle: "Serve",
+        directionDescription:
+          "Remove cinnamon stick and cardamom pods. Serve with steamed rice.",
       },
     ],
   },
   {
-    id: "",
-    recipeName: "",
+    id: "faa99d16-a0e3-4d47-bae1-a0ede4bb943d",
+    recipeName: "Thai Larb (Spicy Minced Chicken Salad)",
     author: {
       authorAvatar: "",
-      authorName: "",
-      authorDatePosted: "",
+      authorName: "Robert Gutierrez",
+      authorDatePosted: "22 September 2024",
     },
-    prepareTime: "",
-    cookTime: "",
+    prepareTime: "15",
+    cookTime: "10",
     recipeCategory: "Thailand",
     recipeImage: "",
     nutritionInformation: {
-      calories: "",
-      totalFat: "",
-      protein: "",
-      carbohydrate: "",
-      cholesterol: "",
+      calories: "270",
+      totalFat: "10",
+      protein: "32",
+      carbohydrate: "15",
+      cholesterol: "80",
     },
-    recipeDescription: "",
+    recipeDescription:
+      "Larb is a Thai minced chicken salad with fresh herbs, lime juice, and toasted rice powder, traditionally served with lettuce or sticky rice.",
     recipeIngredients: [
       {
         recipeSteps: {
           name: "",
           steps: [
             {
+              ingredientsQuantity: "300g",
+              inredientsName: "ground chicken",
+            },
+            {
+              ingredientsQuantity: "1",
+              inredientsName: "tbsp vegetable oil",
+            },
+            {
+              ingredientsQuantity: "2",
+              inredientsName: "tbsp fish sauce",
+            },
+            {
+              ingredientsQuantity: "1",
+              inredientsName: "tbsp lime juice",
+            },
+            {
+              ingredientsQuantity: "1",
+              inredientsName: "tsp sugar",
+            },
+            {
+              ingredientsQuantity: "1",
+              inredientsName: "shallot, finely sliced",
+            },
+            {
+              ingredientsQuantity: "2",
+              inredientsName: "tbsp fresh mint leaves",
+            },
+            {
+              ingredientsQuantity: "2",
+              inredientsName: "tbsp fresh cilantro, chopped",
+            },
+            {
+              ingredientsQuantity: "1",
+              inredientsName:
+                "tbsp toasted rice powder (see preparation below)",
+            },
+            {
+              ingredientsQuantity: "1",
+              inredientsName: "Thai chili, finely chopped",
+            },
+            {
               ingredientsQuantity: "",
-              inredientsName: "",
+              inredientsName: "Lettuce leaves, for serving",
             },
           ],
         },
@@ -10604,39 +11082,105 @@ export const recipes = [
     ],
     recipeDirections: [
       {
-        directionTitle: "",
-        directionDescription: "",
+        directionTitle: "Make Toasted Rice Powder",
+        directionDescription:
+          "Dry-roast 2 tbsp uncooked sticky rice in a pan over medium heat until golden brown. Grind into a fine powder using a mortar and pestle.",
+      },
+      {
+        directionTitle: "Cook the Chicken",
+        directionDescription:
+          "Heat oil in a pan over medium heat. Add ground chicken and cook for 7-8 minutes until fully cooked.",
+      },
+      {
+        directionTitle: "Season the Salad",
+        directionDescription:
+          "Remove from heat and stir in fish sauce, lime juice, and sugar. Mix well.",
+      },
+      {
+        directionTitle: "Add Fresh Herbs",
+        directionDescription:
+          "Toss in shallots, mint, cilantro, Thai chili, and toasted rice powder. Stir to combine.",
+      },
+      {
+        directionTitle: "Serve",
+        directionDescription:
+          "Spoon onto lettuce leaves and serve immediately.",
       },
     ],
   },
   {
-    id: "",
-    recipeName: "",
+    id: "262e3904-7f15-4705-b7f5-5f1e39cca29d",
+    recipeName: "Thai Pineapple Fried Rice",
     author: {
       authorAvatar: "",
-      authorName: "",
-      authorDatePosted: "",
+      authorName: "Colton Cruz",
+      authorDatePosted: "10 September 2020",
     },
-    prepareTime: "",
-    cookTime: "",
+    prepareTime: "10",
+    cookTime: "15",
     recipeCategory: "Thailand",
     recipeImage: "",
     nutritionInformation: {
-      calories: "",
-      totalFat: "",
-      protein: "",
-      carbohydrate: "",
-      cholesterol: "",
+      calories: "400",
+      totalFat: "12",
+      protein: "18",
+      carbohydrate: "60",
+      cholesterol: "120",
     },
-    recipeDescription: "",
+    recipeDescription:
+      "This Thai fried rice is a sweet-savory dish made with fresh pineapple, shrimp, and cashews.",
     recipeIngredients: [
       {
         recipeSteps: {
           name: "",
           steps: [
             {
-              ingredientsQuantity: "",
-              inredientsName: "",
+              ingredientsQuantity: "2",
+              inredientsName: "cups cooked jasmine rice (preferably day-old)",
+            },
+            {
+              ingredientsQuantity: "200g",
+              inredientsName: "shrimp, peeled and deveined",
+            },
+            {
+              ingredientsQuantity: "1/2",
+              inredientsName: "cup fresh pineapple, diced",
+            },
+            {
+              ingredientsQuantity: "1/4",
+              inredientsName: "cup cashew nuts",
+            },
+            {
+              ingredientsQuantity: "2",
+              inredientsName: "tbsp vegetable oil",
+            },
+            {
+              ingredientsQuantity: "2",
+              inredientsName: "eggs, beaten",
+            },
+            {
+              ingredientsQuantity: "2",
+              inredientsName: "tbsp soy sauce",
+            },
+            {
+              ingredientsQuantity: "1",
+              inredientsName: "tbsp fish sauce",
+            },
+            {
+              ingredientsQuantity: "1",
+              inredientsName: "tsp curry powder",
+            },
+            {
+              ingredientsQuantity: "2",
+              inredientsName: "green onions, chopped",
+            },
+            {
+              ingredientsQuantity: "1",
+              inredientsName: "red chili, sliced",
+            },
+            {
+              ingredientsQuantity: "1/4",
+              inredientsName: "cup fresh cilantro, chopped",
             },
           ],
         },
@@ -10644,19 +11188,506 @@ export const recipes = [
     ],
     recipeDirections: [
       {
-        directionTitle: "",
-        directionDescription: "",
+        directionTitle: "Prepare Ingredients",
+        directionDescription:
+          "Dice pineapple, chop green onions, and slice chili.",
+      },
+      {
+        directionTitle: "Cook the Eggs",
+        directionDescription:
+          "Heat 1 tbsp oil in a wok over medium heat. Add beaten eggs and scramble lightly. Remove and set aside.",
+      },
+      {
+        directionTitle: "Sauté Shrimp",
+        directionDescription:
+          "Add 1 tbsp oil to the pan. Cook shrimp for 3 minutes until pink, then remove.",
+      },
+      {
+        directionTitle: "Stir-Fry Rice",
+        directionDescription:
+          "In the same pan, add cooked rice, soy sauce, fish sauce, and curry powder. Stir well to coat.",
+      },
+      {
+        directionTitle: "Add Pineapple & Nuts",
+        directionDescription:
+          "Toss in pineapple, cashew nuts, and cooked shrimp. Stir-fry for 3-4 minutes.",
+      },
+      {
+        directionTitle: "Combine Everything",
+        directionDescription:
+          "Return the scrambled eggs to the pan. Stir in green onions and red chili. Cook for 2 more minutes.",
+      },
+      {
+        directionTitle: "Serve",
+        directionDescription: "Garnish with fresh cilantro and serve warm.",
       },
     ],
   },
   // Japan
   {
-    id: "",
+    id: "259806f5-e804-4fe6-9639-eed807ecd939",
+    recipeName: "Chicken Teriyaki (照り焼きチキン)",
+    author: {
+      authorAvatar: "",
+      authorName: "Josephine Murphy",
+      authorDatePosted: "28 June 2024",
+    },
+    prepareTime: "10",
+    cookTime: "15",
+    recipeCategory: "Japan",
+    recipeImage: "",
+    nutritionInformation: {
+      calories: "320",
+      totalFat: "12",
+      protein: "35",
+      carbohydrate: "18",
+      cholesterol: "90",
+    },
+    recipeDescription:
+      "Chicken Teriyaki is a popular Japanese dish where juicy chicken is pan-fried and glazed with a sweet and savory teriyaki sauce.",
+    recipeIngredients: [
+      {
+        recipeSteps: {
+          name: "",
+          steps: [
+            {
+              ingredientsQuantity: "2",
+              inredientsName: "boneless, skin-on chicken thighs",
+            },
+            {
+              ingredientsQuantity: "1",
+              inredientsName: "tbsp vegetable oil",
+            },
+            {
+              ingredientsQuantity: "2",
+              inredientsName: "tbsp soy sauce",
+            },
+            {
+              ingredientsQuantity: "1",
+              inredientsName: "tbsp mirin",
+            },
+            {
+              ingredientsQuantity: "1",
+              inredientsName: "tbsp sake",
+            },
+            {
+              ingredientsQuantity: "1",
+              inredientsName: "tbsp sugar",
+            },
+            {
+              ingredientsQuantity: "1",
+              inredientsName: "tsp grated ginger",
+            },
+            {
+              ingredientsQuantity: "1",
+              inredientsName: "tsp grated garlic",
+            },
+            {
+              ingredientsQuantity: "1",
+              inredientsName: "tsp cornstarch (optional, for thickening)",
+            },
+            {
+              ingredientsQuantity: "1",
+              inredientsName: "green onion, chopped (for garnish)",
+            },
+            {
+              ingredientsQuantity: "",
+              inredientsName: "Steamed white rice, for serving",
+            },
+          ],
+        },
+      },
+    ],
+    recipeDirections: [
+      {
+        directionTitle: "Prepare the Chicken",
+        directionDescription:
+          "Pat the chicken thighs dry with a paper towel. If desired, score the skin slightly to prevent curling when cooking.",
+      },
+      {
+        directionTitle: "Make the Sauce",
+        directionDescription:
+          "In a small bowl, mix soy sauce, mirin, sake, sugar, ginger, and garlic. Set aside.",
+      },
+      {
+        directionTitle: "Cook the Chicken",
+        directionDescription:
+          "Heat oil in a pan over medium heat. Place chicken skin-side down and cook for about 5 minutes until golden brown. Flip and cook for another 4-5 minutes.",
+      },
+      {
+        directionTitle: "Add the Sauce",
+        directionDescription:
+          "Pour the teriyaki sauce over the chicken. Simmer for 3-4 minutes, occasionally spooning the sauce over the chicken.",
+      },
+      {
+        directionTitle: "Thicken the Sauce (Optional)",
+        directionDescription:
+          "Mix 1 tsp cornstarch with 1 tbsp water and stir into the sauce if a thicker consistency is desired.",
+      },
+      {
+        directionTitle: "Serve",
+        directionDescription:
+          "Slice the chicken, drizzle with extra sauce, garnish with green onions, and serve with steamed rice.",
+      },
+    ],
+  },
+  {
+    id: "e8e9b2e0-f567-428c-a818-f3cfeead5059",
+    recipeName: "Miso Soup (味噌汁)",
+    author: {
+      authorAvatar: "",
+      authorName: "Liliana Adams",
+      authorDatePosted: "05 September 2023",
+    },
+    prepareTime: "5",
+    cookTime: "10",
+    recipeCategory: "Japan",
+    recipeImage: "",
+    nutritionInformation: {
+      calories: "70",
+      totalFat: "2",
+      protein: "5",
+      carbohydrate: "8",
+      cholesterol: "0",
+    },
+    recipeDescription:
+      "A classic Japanese soup made with miso paste, tofu, and seaweed, served as a warm and comforting side dish.",
+    recipeIngredients: [
+      {
+        recipeSteps: {
+          name: "",
+          steps: [
+            {
+              ingredientsQuantity: "2",
+              inredientsName:
+                "cups dashi broth (or water + 1 tsp dashi powder)",
+            },
+            {
+              ingredientsQuantity: "2",
+              inredientsName: "tbsp white miso paste",
+            },
+            {
+              ingredientsQuantity: "1/2",
+              inredientsName: "cup silken tofu, cubed",
+            },
+            {
+              ingredientsQuantity: "1",
+              inredientsName: "tbsp dried wakame seaweed",
+            },
+            {
+              ingredientsQuantity: "2",
+              inredientsName: "tbsp chopped green onions",
+            },
+          ],
+        },
+      },
+    ],
+    recipeDirections: [
+      {
+        directionTitle: "Prepare the Dashi",
+        directionDescription:
+          "Heat dashi broth in a pot over medium heat, but do not let it boil.",
+      },
+      {
+        directionTitle: "Rehydrate Wakame",
+        directionDescription:
+          "Soak dried wakame in water for 5 minutes, then drain.",
+      },
+      {
+        directionTitle: "Dissolve Miso",
+        directionDescription:
+          "In a small bowl, mix miso paste with a few tablespoons of warm broth until smooth, then add back into the pot.",
+      },
+      {
+        directionTitle: "Add Tofu and Wakame",
+        directionDescription:
+          "Gently stir in tofu and wakame, cooking for 1-2 minutes.",
+      },
+      {
+        directionTitle: "Serve",
+        directionDescription: "Garnish with green onions and serve hot.",
+      },
+    ],
+  },
+  {
+    id: "518b36c5-1382-4551-a6e8-f99ddebf7b7d",
+    recipeName: "Japanese Tamago Sushi (卵寿司)",
+    author: {
+      authorAvatar: "",
+      authorName: "Amelia Ward",
+      authorDatePosted: "19 May 2023",
+    },
+    prepareTime: "15",
+    cookTime: "10",
+    recipeCategory: "Japan",
+    recipeImage: "",
+    nutritionInformation: {
+      calories: "180",
+      totalFat: "8",
+      protein: "12",
+      carbohydrate: "15",
+      cholesterol: "180",
+    },
+    recipeDescription:
+      "Tamago Sushi features a fluffy Japanese omelet (tamagoyaki) placed on top of seasoned sushi rice and wrapped with a strip of nori.",
+    recipeIngredients: [
+      {
+        recipeSteps: {
+          name: "",
+          steps: [
+            {
+              ingredientsQuantity: "2",
+              inredientsName: "large eggs",
+            },
+            {
+              ingredientsQuantity: "1",
+              inredientsName: "tbsp mirin",
+            },
+            {
+              ingredientsQuantity: "1",
+              inredientsName: "tsp soy sauce",
+            },
+            {
+              ingredientsQuantity: "1",
+              inredientsName: "tsp sugar",
+            },
+            {
+              ingredientsQuantity: "1",
+              inredientsName: "tsp dashi stock",
+            },
+            {
+              ingredientsQuantity: "1",
+              inredientsName: "tsp vegetable oil",
+            },
+            {
+              ingredientsQuantity: "1",
+              inredientsName:
+                "cup sushi rice, cooked and seasoned with vinegar",
+            },
+            {
+              ingredientsQuantity: "1",
+              inredientsName: "sheet nori, cut into thin strips",
+            },
+          ],
+        },
+      },
+    ],
+    recipeDirections: [
+      {
+        directionTitle: "Make the Egg Mixture",
+        directionDescription:
+          "Beat eggs with mirin, soy sauce, sugar, and dashi.",
+      },
+      {
+        directionTitle: "Cook the Tamagoyaki",
+        directionDescription:
+          "Heat a rectangular tamagoyaki pan (or a non-stick pan) with oil over low heat. Pour a thin layer of egg and let it set. Roll it to one side, then add more egg and repeat until all the egg is cooked into a layered omelet.",
+      },
+      {
+        directionTitle: "Shape the Sushi",
+        directionDescription:
+          "Form small oval mounds of sushi rice using wet hands.",
+      },
+      {
+        directionTitle: "Assemble",
+        directionDescription:
+          "Slice the tamagoyaki into strips and place them on the rice. Secure with a strip of nori.",
+      },
+      {
+        directionTitle: "Serve",
+        directionDescription: "Enjoy with soy sauce and wasabi.",
+      },
+    ],
+  },
+  {
+    id: "250c9c14-b45a-41e7-8f11-ff5f17b0ccd5",
+    recipeName: "Japanese Beef Gyudon (牛丼)",
+    author: {
+      authorAvatar: "",
+      authorName: "Maria Wright",
+      authorDatePosted: "11 January 2020",
+    },
+    prepareTime: "10",
+    cookTime: "15",
+    recipeCategory: "Japan",
+    recipeImage: "",
+    nutritionInformation: {
+      calories: "480",
+      totalFat: "18",
+      protein: "30",
+      carbohydrate: "50",
+      cholesterol: "70",
+    },
+    recipeDescription:
+      "Gyudon is a classic Japanese rice bowl dish with thinly sliced beef simmered in a sweet and savory sauce.",
+    recipeIngredients: [
+      {
+        recipeSteps: {
+          name: "",
+          steps: [
+            {
+              ingredientsQuantity: "200g",
+              inredientsName: "thinly sliced beef (ribeye or sirloin)",
+            },
+            {
+              ingredientsQuantity: "1/2",
+              inredientsName: "onion, sliced",
+            },
+            {
+              ingredientsQuantity: "1/2",
+              inredientsName: "cup dashi broth",
+            },
+            {
+              ingredientsQuantity: "2",
+              inredientsName: "tbsp soy sauce",
+            },
+            {
+              ingredientsQuantity: "1",
+              inredientsName: "tbsp mirin",
+            },
+            {
+              ingredientsQuantity: "1",
+              inredientsName: "tbsp sake",
+            },
+            {
+              ingredientsQuantity: "1",
+              inredientsName: "tsp sugar",
+            },
+            {
+              ingredientsQuantity: "1/2",
+              inredientsName: "tsp grated ginger",
+            },
+            {
+              ingredientsQuantity: "1",
+              inredientsName: "green onion, chopped",
+            },
+            {
+              ingredientsQuantity: "",
+              inredientsName: "Steamed rice, for serving",
+            },
+          ],
+        },
+      },
+    ],
+    recipeDirections: [
+      {
+        directionTitle: "Prepare the Sauce",
+        directionDescription:
+          "In a pot, mix dashi, soy sauce, mirin, sake, sugar, and ginger. Bring to a simmer.",
+      },
+      {
+        directionTitle: "Cook the Onions",
+        directionDescription:
+          "Add sliced onions and simmer until soft (about 5 minutes).",
+      },
+      {
+        directionTitle: "Add the Beef",
+        directionDescription:
+          "Stir in the beef slices and cook for 2-3 minutes until tender.",
+      },
+      {
+        directionTitle: "Serve",
+        directionDescription:
+          "Place over steamed rice, garnish with green onions, and serve hot.",
+      },
+    ],
+  },
+  {
+    id: "663fe5d8-25da-43e4-bdfd-0b34c5eea71d",
+    recipeName: "Japanese Matcha Cheesecake (抹茶チーズケーキ)",
+    author: {
+      authorAvatar: "",
+      authorName: "Eleanor Morris",
+      authorDatePosted: "24 September 2023",
+    },
+    prepareTime: "15",
+    cookTime: "60",
+    recipeCategory: "Japan",
+    recipeImage: "",
+    nutritionInformation: {
+      calories: "380",
+      totalFat: "22",
+      protein: "8",
+      carbohydrate: "40",
+      cholesterol: "90",
+    },
+    recipeDescription:
+      "A light and fluffy Japanese-style cheesecake infused with matcha green tea powder.",
+    recipeIngredients: [
+      {
+        recipeSteps: {
+          name: "",
+          steps: [
+            {
+              ingredientsQuantity: "250g",
+              inredientsName: "cream cheese, softened",
+            },
+            {
+              ingredientsQuantity: "3",
+              inredientsName: "large eggs",
+            },
+            {
+              ingredientsQuantity: "80g",
+              inredientsName: "sugar",
+            },
+            {
+              ingredientsQuantity: "100ml",
+              inredientsName: "heavy cream",
+            },
+            {
+              ingredientsQuantity: "2",
+              inredientsName: "tbsp matcha powder",
+            },
+            {
+              ingredientsQuantity: "1",
+              inredientsName: "tbsp cornstarch",
+            },
+            {
+              ingredientsQuantity: "1/2",
+              inredientsName: "tsp vanilla extract",
+            },
+            {
+              ingredientsQuantity: "1",
+              inredientsName: "tbsp lemon juice",
+            },
+          ],
+        },
+      },
+    ],
+    recipeDirections: [
+      {
+        directionTitle: "Preheat Oven",
+        directionDescription:
+          "Set the oven to 160°C (320°F). Grease and line a cake pan with parchment paper.",
+      },
+      {
+        directionTitle: "Mix Cream Cheese",
+        directionDescription:
+          "Beat cream cheese and sugar until smooth. Add eggs one at a time, mixing well.",
+      },
+      {
+        directionTitle: "Incorporate Ingredients",
+        directionDescription:
+          "Stir in heavy cream, vanilla, lemon juice, and sifted matcha powder and cornstarch. Mix until combined.",
+      },
+      {
+        directionTitle: "Bake",
+        directionDescription:
+          "Pour batter into the pan. Place the pan in a larger baking tray with hot water (water bath method). Bake for 60 minutes.",
+      },
+      {
+        directionTitle: "Cool & Serve",
+        directionDescription: "Let it cool completely before slicing.",
+      },
+    ],
+  },
+  {
+    id: "79a9fb4e-768f-4680-a197-4b56c7628511",
     recipeName: "",
     author: {
       authorAvatar: "",
-      authorName: "",
-      authorDatePosted: "",
+      authorName: "Aria Rogers",
+      authorDatePosted: "16 February 2022",
     },
     prepareTime: "",
     cookTime: "",
@@ -10691,12 +11722,12 @@ export const recipes = [
     ],
   },
   {
-    id: "",
+    id: "2424a80a-0dc7-4635-8c97-19f009e9b677",
     recipeName: "",
     author: {
       authorAvatar: "",
-      authorName: "",
-      authorDatePosted: "",
+      authorName: "Eloise Roberts",
+      authorDatePosted: "16 February 2020",
     },
     prepareTime: "",
     cookTime: "",
@@ -10731,12 +11762,12 @@ export const recipes = [
     ],
   },
   {
-    id: "",
+    id: "3adf18f1-3d82-42f3-9479-0bf6497f23e0",
     recipeName: "",
     author: {
       authorAvatar: "",
-      authorName: "",
-      authorDatePosted: "",
+      authorName: "Ariana Clark",
+      authorDatePosted: "24 December 2022",
     },
     prepareTime: "",
     cookTime: "",
@@ -10771,12 +11802,12 @@ export const recipes = [
     ],
   },
   {
-    id: "",
+    id: "0e4f0405-1f92-4e46-918a-eb2adbbcf4ed",
     recipeName: "",
     author: {
       authorAvatar: "",
-      authorName: "",
-      authorDatePosted: "",
+      authorName: "Athena Taylor",
+      authorDatePosted: "19 June 2020",
     },
     prepareTime: "",
     cookTime: "",
@@ -10811,12 +11842,12 @@ export const recipes = [
     ],
   },
   {
-    id: "",
+    id: "b6e28b81-ba20-45bc-b061-bb6f402cec81",
     recipeName: "",
     author: {
       authorAvatar: "",
-      authorName: "",
-      authorDatePosted: "",
+      authorName: "Eloise James",
+      authorDatePosted: "25 January 2022",
     },
     prepareTime: "",
     cookTime: "",
@@ -10851,12 +11882,12 @@ export const recipes = [
     ],
   },
   {
-    id: "",
+    id: "7cb9317e-39d5-4e3b-ae56-1240f3cfa6d3",
     recipeName: "",
     author: {
       authorAvatar: "",
-      authorName: "",
-      authorDatePosted: "",
+      authorName: "Natalia Brown",
+      authorDatePosted: "01 September 2023",
     },
     prepareTime: "",
     cookTime: "",
@@ -10891,12 +11922,12 @@ export const recipes = [
     ],
   },
   {
-    id: "",
+    id: "ea36df73-fbf9-4140-8df6-24b4fe19d53c",
     recipeName: "",
     author: {
       authorAvatar: "",
-      authorName: "",
-      authorDatePosted: "",
+      authorName: "Mia Murphy",
+      authorDatePosted: "31 January 2024",
     },
     prepareTime: "",
     cookTime: "",
@@ -10931,212 +11962,12 @@ export const recipes = [
     ],
   },
   {
-    id: "",
+    id: "9aa8b1a5-eb4e-429b-887d-b9fe9fb289c9",
     recipeName: "",
     author: {
       authorAvatar: "",
-      authorName: "",
-      authorDatePosted: "",
-    },
-    prepareTime: "",
-    cookTime: "",
-    recipeCategory: "Japan",
-    recipeImage: "",
-    nutritionInformation: {
-      calories: "",
-      totalFat: "",
-      protein: "",
-      carbohydrate: "",
-      cholesterol: "",
-    },
-    recipeDescription: "",
-    recipeIngredients: [
-      {
-        recipeSteps: {
-          name: "",
-          steps: [
-            {
-              ingredientsQuantity: "",
-              inredientsName: "",
-            },
-          ],
-        },
-      },
-    ],
-    recipeDirections: [
-      {
-        directionTitle: "",
-        directionDescription: "",
-      },
-    ],
-  },
-  {
-    id: "",
-    recipeName: "",
-    author: {
-      authorAvatar: "",
-      authorName: "",
-      authorDatePosted: "",
-    },
-    prepareTime: "",
-    cookTime: "",
-    recipeCategory: "Japan",
-    recipeImage: "",
-    nutritionInformation: {
-      calories: "",
-      totalFat: "",
-      protein: "",
-      carbohydrate: "",
-      cholesterol: "",
-    },
-    recipeDescription: "",
-    recipeIngredients: [
-      {
-        recipeSteps: {
-          name: "",
-          steps: [
-            {
-              ingredientsQuantity: "",
-              inredientsName: "",
-            },
-          ],
-        },
-      },
-    ],
-    recipeDirections: [
-      {
-        directionTitle: "",
-        directionDescription: "",
-      },
-    ],
-  },
-  {
-    id: "",
-    recipeName: "",
-    author: {
-      authorAvatar: "",
-      authorName: "",
-      authorDatePosted: "",
-    },
-    prepareTime: "",
-    cookTime: "",
-    recipeCategory: "Japan",
-    recipeImage: "",
-    nutritionInformation: {
-      calories: "",
-      totalFat: "",
-      protein: "",
-      carbohydrate: "",
-      cholesterol: "",
-    },
-    recipeDescription: "",
-    recipeIngredients: [
-      {
-        recipeSteps: {
-          name: "",
-          steps: [
-            {
-              ingredientsQuantity: "",
-              inredientsName: "",
-            },
-          ],
-        },
-      },
-    ],
-    recipeDirections: [
-      {
-        directionTitle: "",
-        directionDescription: "",
-      },
-    ],
-  },
-  {
-    id: "",
-    recipeName: "",
-    author: {
-      authorAvatar: "",
-      authorName: "",
-      authorDatePosted: "",
-    },
-    prepareTime: "",
-    cookTime: "",
-    recipeCategory: "Japan",
-    recipeImage: "",
-    nutritionInformation: {
-      calories: "",
-      totalFat: "",
-      protein: "",
-      carbohydrate: "",
-      cholesterol: "",
-    },
-    recipeDescription: "",
-    recipeIngredients: [
-      {
-        recipeSteps: {
-          name: "",
-          steps: [
-            {
-              ingredientsQuantity: "",
-              inredientsName: "",
-            },
-          ],
-        },
-      },
-    ],
-    recipeDirections: [
-      {
-        directionTitle: "",
-        directionDescription: "",
-      },
-    ],
-  },
-  {
-    id: "",
-    recipeName: "",
-    author: {
-      authorAvatar: "",
-      authorName: "",
-      authorDatePosted: "",
-    },
-    prepareTime: "",
-    cookTime: "",
-    recipeCategory: "Japan",
-    recipeImage: "",
-    nutritionInformation: {
-      calories: "",
-      totalFat: "",
-      protein: "",
-      carbohydrate: "",
-      cholesterol: "",
-    },
-    recipeDescription: "",
-    recipeIngredients: [
-      {
-        recipeSteps: {
-          name: "",
-          steps: [
-            {
-              ingredientsQuantity: "",
-              inredientsName: "",
-            },
-          ],
-        },
-      },
-    ],
-    recipeDirections: [
-      {
-        directionTitle: "",
-        directionDescription: "",
-      },
-    ],
-  },
-  {
-    id: "",
-    recipeName: "",
-    author: {
-      authorAvatar: "",
-      authorName: "",
-      authorDatePosted: "",
+      authorName: "Lucy Roberts",
+      authorDatePosted: "28 February 2021",
     },
     prepareTime: "",
     cookTime: "",
