@@ -11,6 +11,7 @@ export const recipes = [
     prepareTime: "10",
     cookTime: "15",
     recipeCategory: "Breakfast",
+    categoryId: "1",
     recipeImage: "",
     nutritionInformation: {
       calories: "250",
@@ -28,39 +29,39 @@ export const recipes = [
           steps: [
             {
               ingredientsQuantity: "1",
-              inredientsName: "ripe banana (mashed)",
+              ingredientsName: "ripe banana (mashed)",
             },
             {
               ingredientsQuantity: "1",
-              inredientsName: "cup all-purpose flour",
+              ingredientsName: "cup all-purpose flour",
             },
             {
               ingredientsQuantity: "1",
-              inredientsName: "tbsp sugar",
+              ingredientsName: "tbsp sugar",
             },
             {
               ingredientsQuantity: "1",
-              inredientsName: "tsp baking powder",
+              ingredientsName: "tsp baking powder",
             },
             {
               ingredientsQuantity: "1/2",
-              inredientsName: "tsp cinnamon",
+              ingredientsName: "tsp cinnamon",
             },
             {
               ingredientsQuantity: "1",
-              inredientsName: "cup milk (dairy or plant-based)",
+              ingredientsName: "cup milk (dairy or plant-based)",
             },
             {
               ingredientsQuantity: "1",
-              inredientsName: "egg",
+              ingredientsName: "egg",
             },
             {
               ingredientsQuantity: "1",
-              inredientsName: "tsp vanilla extract",
+              ingredientsName: "tsp vanilla extract",
             },
             {
               ingredientsQuantity: "1",
-              inredientsName: "tbsp melted butter",
+              ingredientsName: "tbsp melted butter",
             },
           ],
         },
@@ -104,6 +105,7 @@ export const recipes = [
     prepareTime: "5",
     cookTime: "5",
     recipeCategory: "Breakfast",
+    categoryId: "1",
     recipeImage: "",
     nutritionInformation: {
       calories: "280",
@@ -121,31 +123,31 @@ export const recipes = [
           steps: [
             {
               ingredientsQuantity: "1",
-              inredientsName: "slice whole-grain bread",
+              ingredientsName: "slice whole-grain bread",
             },
             {
               ingredientsQuantity: "1/2",
-              inredientsName: "avocado (mashed)",
+              ingredientsName: "avocado (mashed)",
             },
             {
               ingredientsQuantity: "1",
-              inredientsName: "egg",
+              ingredientsName: "egg",
             },
             {
               ingredientsQuantity: "1",
-              inredientsName: "tbsp vinegar (for poaching)",
+              ingredientsName: "tbsp vinegar (for poaching)",
             },
             {
               ingredientsQuantity: "",
-              inredientsName: "Salt & black pepper to taste",
+              ingredientsName: "Salt & black pepper to taste",
             },
             {
               ingredientsQuantity: "",
-              inredientsName: "Red pepper flakes (optional)",
+              ingredientsName: "Red pepper flakes (optional)",
             },
             {
               ingredientsQuantity: "",
-              inredientsName: "Lemon juice (optional)",
+              ingredientsName: "Lemon juice (optional)",
             },
           ],
         },
@@ -189,6 +191,7 @@ export const recipes = [
     prepareTime: "5",
     cookTime: "0",
     recipeCategory: "Breakfast",
+    categoryId: "1",
     recipeImage: "",
     nutritionInformation: {
       calories: "220",
@@ -206,20 +209,20 @@ export const recipes = [
           steps: [
             {
               ingredientsQuantity: "1",
-              inredientsName: "cup Greek yogurt (plain or vanilla)",
+              ingredientsName: "cup Greek yogurt (plain or vanilla)",
             },
             {
               ingredientsQuantity: "1/2",
-              inredientsName:
+              ingredientsName:
                 "cup mixed berries (strawberries, blueberries, raspberries)",
             },
             {
               ingredientsQuantity: "1/4",
-              inredientsName: "cup granola",
+              ingredientsName: "cup granola",
             },
             {
               ingredientsQuantity: "1",
-              inredientsName: "tbsp honey (optional)",
+              ingredientsName: "tbsp honey (optional)",
             },
           ],
         },
@@ -258,6 +261,7 @@ export const recipes = [
     prepareTime: "5",
     cookTime: "10",
     recipeCategory: "Vegan",
+    categoryId: "2",
     recipeImage: "",
     nutritionInformation: {
       calories: "230",
@@ -275,35 +279,35 @@ export const recipes = [
           steps: [
             {
               ingredientsQuantity: "1",
-              inredientsName: "cup canned chickpeas (drained & mashed)",
+              ingredientsName: "cup canned chickpeas (drained & mashed)",
             },
             {
               ingredientsQuantity: "1",
-              inredientsName: "tbsp olive oil",
+              ingredientsName: "tbsp olive oil",
             },
             {
               ingredientsQuantity: "1",
-              inredientsName: "tbsp nutritional yeast",
+              ingredientsName: "tbsp nutritional yeast",
             },
             {
               ingredientsQuantity: "1/2",
-              inredientsName: "tsp turmeric powder",
+              ingredientsName: "tsp turmeric powder",
             },
             {
               ingredientsQuantity: "1/2",
-              inredientsName: "tsp garlic powder",
+              ingredientsName: "tsp garlic powder",
             },
             {
               ingredientsQuantity: "",
-              inredientsName: "Salt & pepper to taste",
+              ingredientsName: "Salt & pepper to taste",
             },
             {
               ingredientsQuantity: "2",
-              inredientsName: "tbsp plant-based milk",
+              ingredientsName: "tbsp plant-based milk",
             },
             {
               ingredientsQuantity: "1/4",
-              inredientsName: "cup diced bell peppers (optional)",
+              ingredientsName: "cup diced bell peppers (optional)",
             },
           ],
         },
@@ -347,6 +351,7 @@ export const recipes = [
     prepareTime: "5",
     cookTime: "5",
     recipeCategory: "Vegan",
+    categoryId: "2",
     recipeImage: "",
     nutritionInformation: {
       calories: "270",
@@ -364,32 +369,32 @@ export const recipes = [
           steps: [
             {
               ingredientsQuantity: "1/2",
-              inredientsName: "cup rolled oats",
+              ingredientsName: "cup rolled oats",
             },
             {
               ingredientsQuantity: "1",
-              inredientsName: "cup almond milk (or any plant-based milk)",
+              ingredientsName: "cup almond milk (or any plant-based milk)",
             },
             {
               ingredientsQuantity: "1",
-              inredientsName: "tbsp chia seeds",
+              ingredientsName: "tbsp chia seeds",
             },
             {
               ingredientsQuantity: "1",
-              inredientsName: "tbsp maple syrup",
+              ingredientsName: "tbsp maple syrup",
             },
             {
               ingredientsQuantity: "1/4",
-              inredientsName: "tsp cinnamon",
+              ingredientsName: "tsp cinnamon",
             },
             {
               ingredientsQuantity: "1/2",
-              inredientsName:
+              ingredientsName:
                 "cup mixed berries (strawberries, blueberries, raspberries)",
             },
             {
               ingredientsQuantity: "1",
-              inredientsName: "tbsp chopped almonds or walnuts",
+              ingredientsName: "tbsp chopped almonds or walnuts",
             },
           ],
         },
@@ -428,6 +433,7 @@ export const recipes = [
     prepareTime: "5",
     cookTime: "0",
     recipeCategory: "Vegan",
+    categoryId: "2",
     recipeImage: "",
     nutritionInformation: {
       calories: "300",
@@ -445,31 +451,31 @@ export const recipes = [
           steps: [
             {
               ingredientsQuantity: "1",
-              inredientsName: "slice whole-grain bread",
+              ingredientsName: "slice whole-grain bread",
             },
             {
               ingredientsQuantity: "1/2",
-              inredientsName: "avocado (mashed)",
+              ingredientsName: "avocado (mashed)",
             },
             {
               ingredientsQuantity: "2",
-              inredientsName: "tbsp hummus",
+              ingredientsName: "tbsp hummus",
             },
             {
               ingredientsQuantity: "1/2",
-              inredientsName: "tsp lemon juice",
+              ingredientsName: "tsp lemon juice",
             },
             {
               ingredientsQuantity: "",
-              inredientsName: "Salt & black pepper to taste",
+              ingredientsName: "Salt & black pepper to taste",
             },
             {
               ingredientsQuantity: "",
-              inredientsName: "Red pepper flakes (optional)",
+              ingredientsName: "Red pepper flakes (optional)",
             },
             {
               ingredientsQuantity: "",
-              inredientsName: "Cherry tomatoes (sliced, optional)",
+              ingredientsName: "Cherry tomatoes (sliced, optional)",
             },
           ],
         },
@@ -512,6 +518,7 @@ export const recipes = [
     prepareTime: "10",
     cookTime: "10",
     recipeCategory: "Meat",
+    categoryId: "3",
     recipeImage: "",
     nutritionInformation: {
       calories: "450",
@@ -529,27 +536,27 @@ export const recipes = [
           steps: [
             {
               ingredientsQuantity: "2",
-              inredientsName: "beef steaks (ribeye or sirloin)",
+              ingredientsName: "beef steaks (ribeye or sirloin)",
             },
             {
               ingredientsQuantity: "1",
-              inredientsName: "tbsp olive oil",
+              ingredientsName: "tbsp olive oil",
             },
             {
               ingredientsQuantity: "2",
-              inredientsName: "tbsp butter",
+              ingredientsName: "tbsp butter",
             },
             {
               ingredientsQuantity: "3",
-              inredientsName: "garlic cloves (minced)",
+              ingredientsName: "garlic cloves (minced)",
             },
             {
               ingredientsQuantity: "1",
-              inredientsName: "tsp fresh thyme",
+              ingredientsName: "tsp fresh thyme",
             },
             {
               ingredientsQuantity: "",
-              inredientsName: "Salt & black pepper to taste",
+              ingredientsName: "Salt & black pepper to taste",
             },
           ],
         },
@@ -586,6 +593,7 @@ export const recipes = [
     prepareTime: "15",
     cookTime: "150",
     recipeCategory: "Meat",
+    categoryId: "3",
     recipeImage: "",
     nutritionInformation: {
       calories: "600",
@@ -603,23 +611,23 @@ export const recipes = [
           steps: [
             {
               ingredientsQuantity: "1",
-              inredientsName: "rack pork ribs",
+              ingredientsName: "rack pork ribs",
             },
             {
               ingredientsQuantity: "1",
-              inredientsName: "tbsp paprika",
+              ingredientsName: "tbsp paprika",
             },
             {
               ingredientsQuantity: "1",
-              inredientsName: "tsp garlic powder",
+              ingredientsName: "tsp garlic powder",
             },
             {
               ingredientsQuantity: "1",
-              inredientsName: "tsp salt",
+              ingredientsName: "tsp salt",
             },
             {
               ingredientsQuantity: "1",
-              inredientsName: "cup BBQ sauce",
+              ingredientsName: "cup BBQ sauce",
             },
           ],
         },
@@ -656,6 +664,7 @@ export const recipes = [
     prepareTime: "10",
     cookTime: "25",
     recipeCategory: "Meat",
+    categoryId: "3",
     recipeImage: "",
     nutritionInformation: {
       calories: "430",
@@ -673,23 +682,23 @@ export const recipes = [
           steps: [
             {
               ingredientsQuantity: "1",
-              inredientsName: "kg chicken wings",
+              ingredientsName: "kg chicken wings",
             },
             {
               ingredientsQuantity: "1",
-              inredientsName: "tsp salt",
+              ingredientsName: "tsp salt",
             },
             {
               ingredientsQuantity: "1",
-              inredientsName: "tsp black pepper",
+              ingredientsName: "tsp black pepper",
             },
             {
               ingredientsQuantity: "1",
-              inredientsName: "cup hot sauce",
+              ingredientsName: "cup hot sauce",
             },
             {
               ingredientsQuantity: "2",
-              inredientsName: "tbsp butter",
+              ingredientsName: "tbsp butter",
             },
           ],
         },
@@ -726,6 +735,7 @@ export const recipes = [
     prepareTime: "10",
     cookTime: "15",
     recipeCategory: "Meat",
+    categoryId: "3",
     recipeImage: "",
     nutritionInformation: {
       calories: "480",
@@ -743,23 +753,23 @@ export const recipes = [
           steps: [
             {
               ingredientsQuantity: "4",
-              inredientsName: "lamb chops",
+              ingredientsName: "lamb chops",
             },
             {
               ingredientsQuantity: "1",
-              inredientsName: "tbsp olive oil",
+              ingredientsName: "tbsp olive oil",
             },
             {
               ingredientsQuantity: "2",
-              inredientsName: "garlic cloves (minced)",
+              ingredientsName: "garlic cloves (minced)",
             },
             {
               ingredientsQuantity: "1",
-              inredientsName: "tsp rosemary",
+              ingredientsName: "tsp rosemary",
             },
             {
               ingredientsQuantity: "",
-              inredientsName: "Salt & pepper",
+              ingredientsName: "Salt & pepper",
             },
           ],
         },
@@ -791,6 +801,7 @@ export const recipes = [
     prepareTime: "15",
     cookTime: "10",
     recipeCategory: "Meat",
+    categoryId: "3",
     recipeImage: "",
     nutritionInformation: {
       calories: "380",
@@ -808,27 +819,27 @@ export const recipes = [
           steps: [
             {
               ingredientsQuantity: "500g",
-              inredientsName: "ground beef",
+              ingredientsName: "ground beef",
             },
             {
               ingredientsQuantity: "1",
-              inredientsName: "tsp chili powder",
+              ingredientsName: "tsp chili powder",
             },
             {
               ingredientsQuantity: "1",
-              inredientsName: "tsp cumin",
+              ingredientsName: "tsp cumin",
             },
             {
               ingredientsQuantity: "1",
-              inredientsName: "tsp salt",
+              ingredientsName: "tsp salt",
             },
             {
               ingredientsQuantity: "8",
-              inredientsName: "taco shells",
+              ingredientsName: "taco shells",
             },
             {
               ingredientsQuantity: "",
-              inredientsName: "Toppings: lettuce, tomato, cheese",
+              ingredientsName: "Toppings: lettuce, tomato, cheese",
             },
           ],
         },
@@ -864,6 +875,7 @@ export const recipes = [
     prepareTime: "15",
     cookTime: "30",
     recipeCategory: "Meat",
+    categoryId: "3",
     recipeImage: "",
     nutritionInformation: {
       calories: "460",
@@ -881,23 +893,23 @@ export const recipes = [
           steps: [
             {
               ingredientsQuantity: "500g",
-              inredientsName: "ground beef",
+              ingredientsName: "ground beef",
             },
             {
               ingredientsQuantity: "1",
-              inredientsName: "egg",
+              ingredientsName: "egg",
             },
             {
               ingredientsQuantity: "1/2",
-              inredientsName: "cup breadcrumbs",
+              ingredientsName: "cup breadcrumbs",
             },
             {
               ingredientsQuantity: "1",
-              inredientsName: "tsp garlic powder",
+              ingredientsName: "tsp garlic powder",
             },
             {
               ingredientsQuantity: "2",
-              inredientsName: "cups marinara sauce",
+              ingredientsName: "cups marinara sauce",
             },
           ],
         },
@@ -933,6 +945,7 @@ export const recipes = [
     prepareTime: "10",
     cookTime: "15",
     recipeCategory: "Meat",
+    categoryId: "3",
     recipeImage: "",
     nutritionInformation: {
       calories: "420",
@@ -950,27 +963,27 @@ export const recipes = [
           steps: [
             {
               ingredientsQuantity: "4",
-              inredientsName: "pork chops",
+              ingredientsName: "pork chops",
             },
             {
               ingredientsQuantity: "1",
-              inredientsName: "tbsp olive oil",
+              ingredientsName: "tbsp olive oil",
             },
             {
               ingredientsQuantity: "3",
-              inredientsName: "garlic cloves (minced)",
+              ingredientsName: "garlic cloves (minced)",
             },
             {
               ingredientsQuantity: "1/4",
-              inredientsName: "cup honey",
+              ingredientsName: "cup honey",
             },
             {
               ingredientsQuantity: "2",
-              inredientsName: "tbsp soy sauce",
+              ingredientsName: "tbsp soy sauce",
             },
             {
               ingredientsQuantity: "1",
-              inredientsName: "tsp black pepper",
+              ingredientsName: "tsp black pepper",
             },
           ],
         },
@@ -1008,6 +1021,7 @@ export const recipes = [
     prepareTime: "15",
     cookTime: "25",
     recipeCategory: "Meat",
+    categoryId: "3",
     recipeImage: "",
     nutritionInformation: {
       calories: "550",
@@ -1025,31 +1039,31 @@ export const recipes = [
           steps: [
             {
               ingredientsQuantity: "500g",
-              inredientsName: "beef strips",
+              ingredientsName: "beef strips",
             },
             {
               ingredientsQuantity: "1",
-              inredientsName: "tbsp olive oil",
+              ingredientsName: "tbsp olive oil",
             },
             {
               ingredientsQuantity: "1",
-              inredientsName: "onion (chopped)",
+              ingredientsName: "onion (chopped)",
             },
             {
               ingredientsQuantity: "1",
-              inredientsName: "cup mushrooms (sliced)",
+              ingredientsName: "cup mushrooms (sliced)",
             },
             {
               ingredientsQuantity: "1",
-              inredientsName: "cup beef broth",
+              ingredientsName: "cup beef broth",
             },
             {
               ingredientsQuantity: "1/2",
-              inredientsName: "cup sour cream",
+              ingredientsName: "cup sour cream",
             },
             {
               ingredientsQuantity: "2",
-              inredientsName: "tbsp flour",
+              ingredientsName: "tbsp flour",
             },
           ],
         },
@@ -1085,6 +1099,7 @@ export const recipes = [
     prepareTime: "10",
     cookTime: "10",
     recipeCategory: "Meat",
+    categoryId: "3",
     recipeImage: "",
     nutritionInformation: {
       calories: "600",
@@ -1102,27 +1117,27 @@ export const recipes = [
           steps: [
             {
               ingredientsQuantity: "2",
-              inredientsName: "T-bone steaks",
+              ingredientsName: "T-bone steaks",
             },
             {
               ingredientsQuantity: "1",
-              inredientsName: "tbsp olive oil",
+              ingredientsName: "tbsp olive oil",
             },
             {
               ingredientsQuantity: "2",
-              inredientsName: "tbsp butter",
+              ingredientsName: "tbsp butter",
             },
             {
               ingredientsQuantity: "1",
-              inredientsName: "tsp garlic powder",
+              ingredientsName: "tsp garlic powder",
             },
             {
               ingredientsQuantity: "1",
-              inredientsName: "tsp fresh parsley (chopped)",
+              ingredientsName: "tsp fresh parsley (chopped)",
             },
             {
               ingredientsQuantity: "",
-              inredientsName: "Salt & pepper to taste",
+              ingredientsName: "Salt & pepper to taste",
             },
           ],
         },
@@ -1159,6 +1174,7 @@ export const recipes = [
     prepareTime: "10",
     cookTime: "20",
     recipeCategory: "Meat",
+    categoryId: "3",
     recipeImage: "",
     nutritionInformation: {
       calories: "450",
@@ -1176,27 +1192,27 @@ export const recipes = [
           steps: [
             {
               ingredientsQuantity: "4",
-              inredientsName: "boneless chicken breasts",
+              ingredientsName: "boneless chicken breasts",
             },
             {
               ingredientsQuantity: "1/4",
-              inredientsName: "cup soy sauce",
+              ingredientsName: "cup soy sauce",
             },
             {
               ingredientsQuantity: "2",
-              inredientsName: "tbsp honey",
+              ingredientsName: "tbsp honey",
             },
             {
               ingredientsQuantity: "2",
-              inredientsName: "tbsp mirin",
+              ingredientsName: "tbsp mirin",
             },
             {
               ingredientsQuantity: "1",
-              inredientsName: "tsp ginger (grated)",
+              ingredientsName: "tsp ginger (grated)",
             },
             {
               ingredientsQuantity: "1",
-              inredientsName: "tsp sesame seeds",
+              ingredientsName: "tsp sesame seeds",
             },
           ],
         },
@@ -1234,6 +1250,7 @@ export const recipes = [
     prepareTime: "15",
     cookTime: "25",
     recipeCategory: "Dessert",
+    categoryId: "4",
     recipeImage: "",
     nutritionInformation: {
       calories: "320",
@@ -1251,39 +1268,39 @@ export const recipes = [
           steps: [
             {
               ingredientsQuantity: "1",
-              inredientsName: "cup unsalted butter (melted)",
+              ingredientsName: "cup unsalted butter (melted)",
             },
             {
               ingredientsQuantity: "1",
-              inredientsName: "cup sugar",
+              ingredientsName: "cup sugar",
             },
             {
               ingredientsQuantity: "1/2",
-              inredientsName: "cup brown sugar",
+              ingredientsName: "cup brown sugar",
             },
             {
               ingredientsQuantity: "3",
-              inredientsName: "eggs",
+              ingredientsName: "eggs",
             },
             {
               ingredientsQuantity: "1",
-              inredientsName: "tsp vanilla extract",
+              ingredientsName: "tsp vanilla extract",
             },
             {
               ingredientsQuantity: "1",
-              inredientsName: "cup all-purpose flour",
+              ingredientsName: "cup all-purpose flour",
             },
             {
               ingredientsQuantity: "1/2",
-              inredientsName: "cup cocoa powder",
+              ingredientsName: "cup cocoa powder",
             },
             {
               ingredientsQuantity: "1/2",
-              inredientsName: "tsp salt",
+              ingredientsName: "tsp salt",
             },
             {
               ingredientsQuantity: "1/2",
-              inredientsName: "cup chocolate chips",
+              ingredientsName: "cup chocolate chips",
             },
           ],
         },
@@ -1327,6 +1344,7 @@ export const recipes = [
     prepareTime: "20",
     cookTime: "60",
     recipeCategory: "Dessert",
+    categoryId: "4",
     recipeImage: "",
     nutritionInformation: {
       calories: "450",
@@ -1344,15 +1362,15 @@ export const recipes = [
           steps: [
             {
               ingredientsQuantity: "2",
-              inredientsName: "cups graham cracker crumbs",
+              ingredientsName: "cups graham cracker crumbs",
             },
             {
               ingredientsQuantity: "1/2",
-              inredientsName: "cup melted butter",
+              ingredientsName: "cup melted butter",
             },
             {
               ingredientsQuantity: "1/4",
-              inredientsName: "cup sugar",
+              ingredientsName: "cup sugar",
             },
           ],
         },
@@ -1363,23 +1381,23 @@ export const recipes = [
           steps: [
             {
               ingredientsQuantity: "2",
-              inredientsName: "cups cream cheese",
+              ingredientsName: "cups cream cheese",
             },
             {
               ingredientsQuantity: "3/4",
-              inredientsName: "cup sugar",
+              ingredientsName: "cup sugar",
             },
             {
               ingredientsQuantity: "2",
-              inredientsName: "eggs",
+              ingredientsName: "eggs",
             },
             {
               ingredientsQuantity: "1",
-              inredientsName: "tsp vanilla extract",
+              ingredientsName: "tsp vanilla extract",
             },
             {
               ingredientsQuantity: "1/2",
-              inredientsName: "cup sour cream",
+              ingredientsName: "cup sour cream",
             },
           ],
         },
@@ -1390,11 +1408,11 @@ export const recipes = [
           steps: [
             {
               ingredientsQuantity: "1",
-              inredientsName: "cup fresh strawberries",
+              ingredientsName: "cup fresh strawberries",
             },
             {
               ingredientsQuantity: "1/4",
-              inredientsName: "cup strawberry jam",
+              ingredientsName: "cup strawberry jam",
             },
           ],
         },
@@ -1434,6 +1452,7 @@ export const recipes = [
     prepareTime: "10",
     cookTime: "5 + chilling",
     recipeCategory: "Dessert",
+    categoryId: "4",
     recipeImage: "",
     nutritionInformation: {
       calories: "350",
@@ -1451,23 +1470,23 @@ export const recipes = [
           steps: [
             {
               ingredientsQuantity: "2",
-              inredientsName: "cups heavy cream",
+              ingredientsName: "cups heavy cream",
             },
             {
               ingredientsQuantity: "1/2",
-              inredientsName: "cup sugar",
+              ingredientsName: "cup sugar",
             },
             {
               ingredientsQuantity: "1",
-              inredientsName: "tsp vanilla extract",
+              ingredientsName: "tsp vanilla extract",
             },
             {
               ingredientsQuantity: "2",
-              inredientsName: "tsp gelatin",
+              ingredientsName: "tsp gelatin",
             },
             {
               ingredientsQuantity: "1/4",
-              inredientsName: "cup cold water",
+              ingredientsName: "cup cold water",
             },
           ],
         },
@@ -1507,6 +1526,7 @@ export const recipes = [
     prepareTime: "10",
     cookTime: "12",
     recipeCategory: "Dessert",
+    categoryId: "4",
     recipeImage: "",
     nutritionInformation: {
       calories: "400",
@@ -1524,23 +1544,23 @@ export const recipes = [
           steps: [
             {
               ingredientsQuantity: "1/2",
-              inredientsName: "cup dark chocolate",
+              ingredientsName: "cup dark chocolate",
             },
             {
               ingredientsQuantity: "1/4",
-              inredientsName: "cup butter",
+              ingredientsName: "cup butter",
             },
             {
               ingredientsQuantity: "2",
-              inredientsName: "eggs",
+              ingredientsName: "eggs",
             },
             {
               ingredientsQuantity: "1/4",
-              inredientsName: "cup sugar",
+              ingredientsName: "cup sugar",
             },
             {
               ingredientsQuantity: "2",
-              inredientsName: "tbsp flour",
+              ingredientsName: "tbsp flour",
             },
           ],
         },
@@ -1577,6 +1597,7 @@ export const recipes = [
     prepareTime: "15",
     cookTime: "35",
     recipeCategory: "Dessert",
+    categoryId: "4",
     recipeImage: "",
     nutritionInformation: {
       calories: "320",
@@ -1594,15 +1615,15 @@ export const recipes = [
           steps: [
             {
               ingredientsQuantity: "4",
-              inredientsName: "apples (sliced)",
+              ingredientsName: "apples (sliced)",
             },
             {
               ingredientsQuantity: "1/2",
-              inredientsName: "cup sugar",
+              ingredientsName: "cup sugar",
             },
             {
               ingredientsQuantity: "1",
-              inredientsName: "tsp cinnamon",
+              ingredientsName: "tsp cinnamon",
             },
           ],
         },
@@ -1613,19 +1634,19 @@ export const recipes = [
           steps: [
             {
               ingredientsQuantity: "1/2",
-              inredientsName: "cup oats",
+              ingredientsName: "cup oats",
             },
             {
               ingredientsQuantity: "1/2",
-              inredientsName: "cup flour",
+              ingredientsName: "cup flour",
             },
             {
               ingredientsQuantity: "1/4",
-              inredientsName: "cup butter",
+              ingredientsName: "cup butter",
             },
             {
               ingredientsQuantity: "1/4",
-              inredientsName: "cup brown sugar",
+              ingredientsName: "cup brown sugar",
             },
           ],
         },
@@ -1662,6 +1683,7 @@ export const recipes = [
     prepareTime: "10",
     cookTime: "15",
     recipeCategory: "Dessert",
+    categoryId: "4",
     recipeImage: "",
     nutritionInformation: {
       calories: "150",
@@ -1679,15 +1701,15 @@ export const recipes = [
           steps: [
             {
               ingredientsQuantity: "2",
-              inredientsName: "cups shredded coconut",
+              ingredientsName: "cups shredded coconut",
             },
             {
               ingredientsQuantity: "1/2",
-              inredientsName: "cup condensed milk",
+              ingredientsName: "cup condensed milk",
             },
             {
               ingredientsQuantity: "1",
-              inredientsName: "tsp vanilla",
+              ingredientsName: "tsp vanilla",
             },
           ],
         },
@@ -1720,6 +1742,7 @@ export const recipes = [
     prepareTime: "15",
     cookTime: "40",
     recipeCategory: "Dessert",
+    categoryId: "4",
     recipeImage: "",
     nutritionInformation: {
       calories: "280",
@@ -1737,15 +1760,15 @@ export const recipes = [
           steps: [
             {
               ingredientsQuantity: "1",
-              inredientsName: "cup flour",
+              ingredientsName: "cup flour",
             },
             {
               ingredientsQuantity: "1/2",
-              inredientsName: "cup better",
+              ingredientsName: "cup better",
             },
             {
               ingredientsQuantity: "1/4",
-              inredientsName: "cup sugar",
+              ingredientsName: "cup sugar",
             },
           ],
         },
@@ -1756,15 +1779,15 @@ export const recipes = [
           steps: [
             {
               ingredientsQuantity: "2",
-              inredientsName: "eggs",
+              ingredientsName: "eggs",
             },
             {
               ingredientsQuantity: "3/4",
-              inredientsName: "cup sugar",
+              ingredientsName: "cup sugar",
             },
             {
               ingredientsQuantity: "1/4",
-              inredientsName: "cup lemon juice",
+              ingredientsName: "cup lemon juice",
             },
           ],
         },
@@ -1800,6 +1823,7 @@ export const recipes = [
     prepareTime: "10",
     cookTime: "10",
     recipeCategory: "Lunch",
+    categoryId: "5",
     recipeImage: "",
     nutritionInformation: {
       calories: "450",
@@ -1817,27 +1841,27 @@ export const recipes = [
           steps: [
             {
               ingredientsQuantity: "1",
-              inredientsName: "grilled chicken breast (sliced)",
+              ingredientsName: "grilled chicken breast (sliced)",
             },
             {
               ingredientsQuantity: "1",
-              inredientsName: "large tortilla wrap",
+              ingredientsName: "large tortilla wrap",
             },
             {
               ingredientsQuantity: "1",
-              inredientsName: "cup romaine lettuce (chopped)",
+              ingredientsName: "cup romaine lettuce (chopped)",
             },
             {
               ingredientsQuantity: "2",
-              inredientsName: "tbsp Caesar dressing",
+              ingredientsName: "tbsp Caesar dressing",
             },
             {
               ingredientsQuantity: "2",
-              inredientsName: "tbsp parmesan cheese (grated)",
+              ingredientsName: "tbsp parmesan cheese (grated)",
             },
             {
               ingredientsQuantity: "1/2",
-              inredientsName: "tsp black pepper",
+              ingredientsName: "tsp black pepper",
             },
           ],
         },
@@ -1875,6 +1899,7 @@ export const recipes = [
     prepareTime: "5",
     cookTime: "10",
     recipeCategory: "Lunch",
+    categoryId: "5",
     recipeImage: "",
     nutritionInformation: {
       calories: "480",
@@ -1892,23 +1917,23 @@ export const recipes = [
           steps: [
             {
               ingredientsQuantity: "2",
-              inredientsName: "slices of bread (toasted)",
+              ingredientsName: "slices of bread (toasted)",
             },
             {
               ingredientsQuantity: "3",
-              inredientsName: "slices of bacon",
+              ingredientsName: "slices of bacon",
             },
             {
               ingredientsQuantity: "2",
-              inredientsName: "lettuce leaves",
+              ingredientsName: "lettuce leaves",
             },
             {
               ingredientsQuantity: "2",
-              inredientsName: "tomato slices",
+              ingredientsName: "tomato slices",
             },
             {
               ingredientsQuantity: "1",
-              inredientsName: "tbsp mayonnaise",
+              ingredientsName: "tbsp mayonnaise",
             },
           ],
         },
@@ -1945,6 +1970,7 @@ export const recipes = [
     prepareTime: "15",
     cookTime: "10",
     recipeCategory: "Lunch",
+    categoryId: "5",
     recipeImage: "",
     nutritionInformation: {
       calories: "350",
@@ -1962,31 +1988,31 @@ export const recipes = [
           steps: [
             {
               ingredientsQuantity: "1",
-              inredientsName: "cup firm tofu (cubed)",
+              ingredientsName: "cup firm tofu (cubed)",
             },
             {
               ingredientsQuantity: "1",
-              inredientsName: "red bell pepper (sliced)",
+              ingredientsName: "red bell pepper (sliced)",
             },
             {
               ingredientsQuantity: "1",
-              inredientsName: "carrot (julienned)",
+              ingredientsName: "carrot (julienned)",
             },
             {
               ingredientsQuantity: "1",
-              inredientsName: "cup broccoli florets",
+              ingredientsName: "cup broccoli florets",
             },
             {
               ingredientsQuantity: "2",
-              inredientsName: "tbsp soy sauce",
+              ingredientsName: "tbsp soy sauce",
             },
             {
               ingredientsQuantity: "1",
-              inredientsName: "tsp ginger (grated)",
+              ingredientsName: "tsp ginger (grated)",
             },
             {
               ingredientsQuantity: "1",
-              inredientsName: "tbsp sesame oil",
+              ingredientsName: "tbsp sesame oil",
             },
           ],
         },
@@ -2024,6 +2050,7 @@ export const recipes = [
     prepareTime: "10",
     cookTime: "0",
     recipeCategory: "Lunch",
+    categoryId: "5",
     recipeImage: "",
     nutritionInformation: {
       calories: "400",
@@ -2041,27 +2068,27 @@ export const recipes = [
           steps: [
             {
               ingredientsQuantity: "1",
-              inredientsName: "can tuna (drained)",
+              ingredientsName: "can tuna (drained)",
             },
             {
               ingredientsQuantity: "2",
-              inredientsName: "tbsp mayonnaise",
+              ingredientsName: "tbsp mayonnaise",
             },
             {
               ingredientsQuantity: "1",
-              inredientsName: "tbsp celery (chopped)",
+              ingredientsName: "tbsp celery (chopped)",
             },
             {
               ingredientsQuantity: "1/2",
-              inredientsName: "tsp black pepper",
+              ingredientsName: "tsp black pepper",
             },
             {
               ingredientsQuantity: "2",
-              inredientsName: "slices of bread",
+              ingredientsName: "slices of bread",
             },
             {
               ingredientsQuantity: "",
-              inredientsName: "Lettuce leaves",
+              ingredientsName: "Lettuce leaves",
             },
           ],
         },
@@ -2095,6 +2122,7 @@ export const recipes = [
     prepareTime: "10",
     cookTime: "5",
     recipeCategory: "Lunch",
+    categoryId: "5",
     recipeImage: "",
     nutritionInformation: {
       calories: "320",
@@ -2112,31 +2140,31 @@ export const recipes = [
           steps: [
             {
               ingredientsQuantity: "1",
-              inredientsName: "cup cooked shrimp",
+              ingredientsName: "cup cooked shrimp",
             },
             {
               ingredientsQuantity: "1",
-              inredientsName: "avocado (diced)",
+              ingredientsName: "avocado (diced)",
             },
             {
               ingredientsQuantity: "1",
-              inredientsName: "cup mixed greens",
+              ingredientsName: "cup mixed greens",
             },
             {
               ingredientsQuantity: "1/2",
-              inredientsName: "cup cherry tomatoes (halved)",
+              ingredientsName: "cup cherry tomatoes (halved)",
             },
             {
               ingredientsQuantity: "1",
-              inredientsName: "tbsp olive oil",
+              ingredientsName: "tbsp olive oil",
             },
             {
               ingredientsQuantity: "1",
-              inredientsName: "tbsp lime juice",
+              ingredientsName: "tbsp lime juice",
             },
             {
               ingredientsQuantity: "",
-              inredientsName: "Salt & pepper",
+              ingredientsName: "Salt & pepper",
             },
           ],
         },
@@ -2173,6 +2201,7 @@ export const recipes = [
     prepareTime: "10",
     cookTime: "10",
     recipeCategory: "Lunch",
+    categoryId: "5",
     recipeImage: "",
     nutritionInformation: {
       calories: "500",
@@ -2190,23 +2219,23 @@ export const recipes = [
           steps: [
             {
               ingredientsQuantity: "1",
-              inredientsName: "large tortilla",
+              ingredientsName: "large tortilla",
             },
             {
               ingredientsQuantity: "1/2",
-              inredientsName: "cup ground beef (cooked)",
+              ingredientsName: "cup ground beef (cooked)",
             },
             {
               ingredientsQuantity: "1/2",
-              inredientsName: "cup shredded cheese",
+              ingredientsName: "cup shredded cheese",
             },
             {
               ingredientsQuantity: "2",
-              inredientsName: "tbsp salsa",
+              ingredientsName: "tbsp salsa",
             },
             {
               ingredientsQuantity: "1/2",
-              inredientsName: "tsp chili powder",
+              ingredientsName: "tsp chili powder",
             },
           ],
         },
@@ -2245,6 +2274,7 @@ export const recipes = [
     prepareTime: "15",
     cookTime: "25",
     recipeCategory: "Chocolate",
+    categoryId: "6",
     recipeImage: "",
     nutritionInformation: {
       calories: "280",
@@ -2262,35 +2292,35 @@ export const recipes = [
           steps: [
             {
               ingredientsQuantity: "1/2",
-              inredientsName: "cup unsalted butter (melted)",
+              ingredientsName: "cup unsalted butter (melted)",
             },
             {
               ingredientsQuantity: "1",
-              inredientsName: "cup granulated sugar",
+              ingredientsName: "cup granulated sugar",
             },
             {
               ingredientsQuantity: "2",
-              inredientsName: "eggs",
+              ingredientsName: "eggs",
             },
             {
               ingredientsQuantity: "1",
-              inredientsName: "tsp vanilla extract",
+              ingredientsName: "tsp vanilla extract",
             },
             {
               ingredientsQuantity: "1/2",
-              inredientsName: "cup cocoa powder",
+              ingredientsName: "cup cocoa powder",
             },
             {
               ingredientsQuantity: "1/2",
-              inredientsName: "cup all-purpose flour",
+              ingredientsName: "cup all-purpose flour",
             },
             {
               ingredientsQuantity: "1/4",
-              inredientsName: "tsp salt",
+              ingredientsName: "tsp salt",
             },
             {
               ingredientsQuantity: "1/4",
-              inredientsName: "tsp baking powder",
+              ingredientsName: "tsp baking powder",
             },
           ],
         },
@@ -2328,6 +2358,7 @@ export const recipes = [
     prepareTime: "10",
     cookTime: "12",
     recipeCategory: "Chocolate",
+    categoryId: "6",
     recipeImage: "",
     nutritionInformation: {
       calories: "350",
@@ -2345,31 +2376,31 @@ export const recipes = [
           steps: [
             {
               ingredientsQuantity: "100g",
-              inredientsName: "dark chocolate",
+              ingredientsName: "dark chocolate",
             },
             {
               ingredientsQuantity: "1/2",
-              inredientsName: "cup unsalted butter",
+              ingredientsName: "cup unsalted butter",
             },
             {
               ingredientsQuantity: "1/4",
-              inredientsName: "cup all-purpose flour",
+              ingredientsName: "cup all-purpose flour",
             },
             {
               ingredientsQuantity: "1/2",
-              inredientsName: "cup powdered sugar",
+              ingredientsName: "cup powdered sugar",
             },
             {
               ingredientsQuantity: "2",
-              inredientsName: "eggs",
+              ingredientsName: "eggs",
             },
             {
               ingredientsQuantity: "2",
-              inredientsName: "egg yolks",
+              ingredientsName: "egg yolks",
             },
             {
               ingredientsQuantity: "1/2",
-              inredientsName: "tsp vanilla extract",
+              ingredientsName: "tsp vanilla extract",
             },
           ],
         },
@@ -2408,6 +2439,7 @@ export const recipes = [
     prepareTime: "15",
     cookTime: "12",
     recipeCategory: "Chocolate",
+    categoryId: "6",
     recipeImage: "",
     nutritionInformation: {
       calories: "200",
@@ -2425,39 +2457,39 @@ export const recipes = [
           steps: [
             {
               ingredientsQuantity: "1/2",
-              inredientsName: "cup unsalted butter (softened)",
+              ingredientsName: "cup unsalted butter (softened)",
             },
             {
               ingredientsQuantity: "1/2",
-              inredientsName: "cup brown sugar",
+              ingredientsName: "cup brown sugar",
             },
             {
               ingredientsQuantity: "1/2",
-              inredientsName: "cup granulated sugar",
+              ingredientsName: "cup granulated sugar",
             },
             {
               ingredientsQuantity: "1",
-              inredientsName: "egg",
+              ingredientsName: "egg",
             },
             {
               ingredientsQuantity: "1",
-              inredientsName: "tsp vanilla extract",
+              ingredientsName: "tsp vanilla extract",
             },
             {
               ingredientsQuantity: "1 1/4",
-              inredientsName: "cups all-purpose flour",
+              ingredientsName: "cups all-purpose flour",
             },
             {
               ingredientsQuantity: "1/2",
-              inredientsName: "tsp baking soda",
+              ingredientsName: "tsp baking soda",
             },
             {
               ingredientsQuantity: "1/2",
-              inredientsName: "tsp salt",
+              ingredientsName: "tsp salt",
             },
             {
               ingredientsQuantity: "1",
-              inredientsName: "cup chocolate chips",
+              ingredientsName: "cup chocolate chips",
             },
           ],
         },
@@ -2495,6 +2527,7 @@ export const recipes = [
     prepareTime: "10",
     cookTime: "120",
     recipeCategory: "Chocolate",
+    categoryId: "6",
     recipeImage: "",
     nutritionInformation: {
       calories: "300",
@@ -2512,23 +2545,23 @@ export const recipes = [
           steps: [
             {
               ingredientsQuantity: "200g",
-              inredientsName: "dark chocolate",
+              ingredientsName: "dark chocolate",
             },
             {
               ingredientsQuantity: "2",
-              inredientsName: "tbsp butter",
+              ingredientsName: "tbsp butter",
             },
             {
               ingredientsQuantity: "3",
-              inredientsName: "eggs (separated)",
+              ingredientsName: "eggs (separated)",
             },
             {
               ingredientsQuantity: "1/4",
-              inredientsName: "cup sugar",
+              ingredientsName: "cup sugar",
             },
             {
               ingredientsQuantity: "1/2",
-              inredientsName: "cup heavy cream",
+              ingredientsName: "cup heavy cream",
             },
           ],
         },
@@ -2565,6 +2598,7 @@ export const recipes = [
     prepareTime: "5",
     cookTime: "5",
     recipeCategory: "Chocolate",
+    categoryId: "6",
     recipeImage: "",
     nutritionInformation: {
       calories: "250",
@@ -2582,23 +2616,23 @@ export const recipes = [
           steps: [
             {
               ingredientsQuantity: "2",
-              inredientsName: "cups milk",
+              ingredientsName: "cups milk",
             },
             {
               ingredientsQuantity: "2",
-              inredientsName: "tbsp cocoa powder",
+              ingredientsName: "tbsp cocoa powder",
             },
             {
               ingredientsQuantity: "2",
-              inredientsName: "tbsp sugar",
+              ingredientsName: "tbsp sugar",
             },
             {
               ingredientsQuantity: "1/4",
-              inredientsName: "tsp vanilla extract",
+              ingredientsName: "tsp vanilla extract",
             },
             {
               ingredientsQuantity: "",
-              inredientsName: "Whipped cream (optional)",
+              ingredientsName: "Whipped cream (optional)",
             },
           ],
         },
@@ -2634,6 +2668,7 @@ export const recipes = [
     prepareTime: "10",
     cookTime: "10",
     recipeCategory: "Chocolate",
+    categoryId: "6",
     recipeImage: "",
     nutritionInformation: {
       calories: "180",
@@ -2651,31 +2686,31 @@ export const recipes = [
           steps: [
             {
               ingredientsQuantity: "1",
-              inredientsName: "cup all-purpose flour",
+              ingredientsName: "cup all-purpose flour",
             },
             {
               ingredientsQuantity: "1/4",
-              inredientsName: "cup cocoa powder",
+              ingredientsName: "cup cocoa powder",
             },
             {
               ingredientsQuantity: "2",
-              inredientsName: "tbsp sugar",
+              ingredientsName: "tbsp sugar",
             },
             {
               ingredientsQuantity: "1",
-              inredientsName: "tsp baking powder",
+              ingredientsName: "tsp baking powder",
             },
             {
               ingredientsQuantity: "1",
-              inredientsName: "egg",
+              ingredientsName: "egg",
             },
             {
               ingredientsQuantity: "3/4",
-              inredientsName: "cup milk",
+              ingredientsName: "cup milk",
             },
             {
               ingredientsQuantity: "1",
-              inredientsName: "tbsp butter (melted)",
+              ingredientsName: "tbsp butter (melted)",
             },
           ],
         },
@@ -2713,6 +2748,7 @@ export const recipes = [
     prepareTime: "10",
     cookTime: "20",
     recipeCategory: "Chicken",
+    categoryId: "7",
     recipeImage: "",
     nutritionInformation: {
       calories: "320",
@@ -2730,35 +2766,35 @@ export const recipes = [
           steps: [
             {
               ingredientsQuantity: "2",
-              inredientsName: "boneless, skinless chicken breasts",
+              ingredientsName: "boneless, skinless chicken breasts",
             },
             {
               ingredientsQuantity: "2",
-              inredientsName: "tbsp butter",
+              ingredientsName: "tbsp butter",
             },
             {
               ingredientsQuantity: "3",
-              inredientsName: "garlic cloves (minced)",
+              ingredientsName: "garlic cloves (minced)",
             },
             {
               ingredientsQuantity: "1/2",
-              inredientsName: "tsp salt",
+              ingredientsName: "tsp salt",
             },
             {
               ingredientsQuantity: "1/2",
-              inredientsName: "tsp black pepper",
+              ingredientsName: "tsp black pepper",
             },
             {
               ingredientsQuantity: "1/2",
-              inredientsName: "tsp paprika",
+              ingredientsName: "tsp paprika",
             },
             {
               ingredientsQuantity: "1/2",
-              inredientsName: "tsp dried thyme",
+              ingredientsName: "tsp dried thyme",
             },
             {
               ingredientsQuantity: "1",
-              inredientsName: "tbsp olive oil",
+              ingredientsName: "tbsp olive oil",
             },
           ],
         },
@@ -2797,6 +2833,7 @@ export const recipes = [
     prepareTime: "10",
     cookTime: "25",
     recipeCategory: "Chicken",
+    categoryId: "7",
     recipeImage: "",
     nutritionInformation: {
       calories: "350",
@@ -2814,35 +2851,35 @@ export const recipes = [
           steps: [
             {
               ingredientsQuantity: "4",
-              inredientsName: "chicken thighs (bone-in, skin-on)",
+              ingredientsName: "chicken thighs (bone-in, skin-on)",
             },
             {
               ingredientsQuantity: "2",
-              inredientsName: "tbsp honey",
+              ingredientsName: "tbsp honey",
             },
             {
               ingredientsQuantity: "2",
-              inredientsName: "tbsp Dijon mustard",
+              ingredientsName: "tbsp Dijon mustard",
             },
             {
               ingredientsQuantity: "1",
-              inredientsName: "tbsp olive oil",
+              ingredientsName: "tbsp olive oil",
             },
             {
               ingredientsQuantity: "1",
-              inredientsName: "tsp salt",
+              ingredientsName: "tsp salt",
             },
             {
               ingredientsQuantity: "1/2",
-              inredientsName: "tsp black pepper",
+              ingredientsName: "tsp black pepper",
             },
             {
               ingredientsQuantity: "1/2",
-              inredientsName: "tsp garlic powder",
+              ingredientsName: "tsp garlic powder",
             },
             {
               ingredientsQuantity: "1/2",
-              inredientsName: "tsp paprika",
+              ingredientsName: "tsp paprika",
             },
           ],
         },
@@ -2880,6 +2917,7 @@ export const recipes = [
     prepareTime: "15",
     cookTime: "25",
     recipeCategory: "Chicken",
+    categoryId: "7",
     recipeImage: "",
     nutritionInformation: {
       calories: "280",
@@ -2897,35 +2935,35 @@ export const recipes = [
           steps: [
             {
               ingredientsQuantity: "1",
-              inredientsName: "kg chicken wings",
+              ingredientsName: "kg chicken wings",
             },
             {
               ingredientsQuantity: "2",
-              inredientsName: "tbsp olive oil",
+              ingredientsName: "tbsp olive oil",
             },
             {
               ingredientsQuantity: "1",
-              inredientsName: "tsp salt",
+              ingredientsName: "tsp salt",
             },
             {
               ingredientsQuantity: "1",
-              inredientsName: "tsp black pepper",
+              ingredientsName: "tsp black pepper",
             },
             {
               ingredientsQuantity: "1",
-              inredientsName: "tsp smoked paprika",
+              ingredientsName: "tsp smoked paprika",
             },
             {
               ingredientsQuantity: "1",
-              inredientsName: "tsp cayenne pepper",
+              ingredientsName: "tsp cayenne pepper",
             },
             {
               ingredientsQuantity: "1",
-              inredientsName: "tsp garlic powder",
+              ingredientsName: "tsp garlic powder",
             },
             {
               ingredientsQuantity: "1",
-              inredientsName: "tbsp hot sauce",
+              ingredientsName: "tbsp hot sauce",
             },
           ],
         },
@@ -2963,6 +3001,7 @@ export const recipes = [
     prepareTime: "10",
     cookTime: "20",
     recipeCategory: "Chicken",
+    categoryId: "7",
     recipeImage: "",
     nutritionInformation: {
       calories: "450",
@@ -2980,35 +3019,35 @@ export const recipes = [
           steps: [
             {
               ingredientsQuantity: "2",
-              inredientsName: "chicken breasts (sliced)",
+              ingredientsName: "chicken breasts (sliced)",
             },
             {
               ingredientsQuantity: "200g",
-              inredientsName: "fettuccine pasta",
+              ingredientsName: "fettuccine pasta",
             },
             {
               ingredientsQuantity: "2",
-              inredientsName: "tbsp butter",
+              ingredientsName: "tbsp butter",
             },
             {
               ingredientsQuantity: "2",
-              inredientsName: "garlic cloves (minced)",
+              ingredientsName: "garlic cloves (minced)",
             },
             {
               ingredientsQuantity: "1",
-              inredientsName: "cup heavy cream",
+              ingredientsName: "cup heavy cream",
             },
             {
               ingredientsQuantity: "1/2",
-              inredientsName: "cup grated Parmesan cheese",
+              ingredientsName: "cup grated Parmesan cheese",
             },
             {
               ingredientsQuantity: "1/2",
-              inredientsName: "tsp salt",
+              ingredientsName: "tsp salt",
             },
             {
               ingredientsQuantity: "1/2",
-              inredientsName: "tsp black pepper",
+              ingredientsName: "tsp black pepper",
             },
           ],
         },
@@ -3046,6 +3085,7 @@ export const recipes = [
     prepareTime: "15",
     cookTime: "50",
     recipeCategory: "Chicken",
+    categoryId: "7",
     recipeImage: "",
     nutritionInformation: {
       calories: "400",
@@ -3063,39 +3103,39 @@ export const recipes = [
           steps: [
             {
               ingredientsQuantity: "1",
-              inredientsName: "whole chicken (about 1.5 kg)",
+              ingredientsName: "whole chicken (about 1.5 kg)",
             },
             {
               ingredientsQuantity: "2",
-              inredientsName: "tbsp olive oil",
+              ingredientsName: "tbsp olive oil",
             },
             {
               ingredientsQuantity: "2",
-              inredientsName: "tbsp butter (melted)",
+              ingredientsName: "tbsp butter (melted)",
             },
             {
               ingredientsQuantity: "1",
-              inredientsName: "lemon (sliced)",
+              ingredientsName: "lemon (sliced)",
             },
             {
               ingredientsQuantity: "3",
-              inredientsName: "garlic cloves (smashed)",
+              ingredientsName: "garlic cloves (smashed)",
             },
             {
               ingredientsQuantity: "1",
-              inredientsName: "tsp salt",
+              ingredientsName: "tsp salt",
             },
             {
               ingredientsQuantity: "1/2",
-              inredientsName: "tsp black pepper",
+              ingredientsName: "tsp black pepper",
             },
             {
               ingredientsQuantity: "1",
-              inredientsName: "tsp dried oregano",
+              ingredientsName: "tsp dried oregano",
             },
             {
               ingredientsQuantity: "1",
-              inredientsName: "tsp dried thyme",
+              ingredientsName: "tsp dried thyme",
             },
           ],
         },
@@ -3134,6 +3174,7 @@ export const recipes = [
     prepareTime: "10",
     cookTime: "15",
     recipeCategory: "Seafood",
+    categoryId: "8",
     recipeImage: "",
     nutritionInformation: {
       calories: "420",
@@ -3151,43 +3192,43 @@ export const recipes = [
           steps: [
             {
               ingredientsQuantity: "1",
-              inredientsName: "lb shrimp (peeled and deveined)",
+              ingredientsName: "lb shrimp (peeled and deveined)",
             },
             {
               ingredientsQuantity: "8",
-              inredientsName: "oz linguine or spaghetti",
+              ingredientsName: "oz linguine or spaghetti",
             },
             {
               ingredientsQuantity: "4",
-              inredientsName: "cloves garlic (minced)",
+              ingredientsName: "cloves garlic (minced)",
             },
             {
               ingredientsQuantity: "2",
-              inredientsName: "tbsp olive oil",
+              ingredientsName: "tbsp olive oil",
             },
             {
               ingredientsQuantity: "3",
-              inredientsName: "tbsp unsalted butter",
+              ingredientsName: "tbsp unsalted butter",
             },
             {
               ingredientsQuantity: "1/2",
-              inredientsName: "cup dry white wine",
+              ingredientsName: "cup dry white wine",
             },
             {
               ingredientsQuantity: "1/2",
-              inredientsName: "tsp red pepper flakes",
+              ingredientsName: "tsp red pepper flakes",
             },
             {
               ingredientsQuantity: "1",
-              inredientsName: "lemon (juiced)",
+              ingredientsName: "lemon (juiced)",
             },
             {
               ingredientsQuantity: "1/4",
-              inredientsName: "cup chopped parsley",
+              ingredientsName: "cup chopped parsley",
             },
             {
               ingredientsQuantity: "",
-              inredientsName: "Salt and black pepper to taste",
+              ingredientsName: "Salt and black pepper to taste",
             },
           ],
         },
@@ -3246,6 +3287,7 @@ export const recipes = [
     prepareTime: "10",
     cookTime: "12",
     recipeCategory: "Seafood",
+    categoryId: "8",
     recipeImage: "",
     nutritionInformation: {
       calories: "480",
@@ -3263,39 +3305,39 @@ export const recipes = [
           steps: [
             {
               ingredientsQuantity: "4",
-              inredientsName: "salmon fillets (6 oz each)",
+              ingredientsName: "salmon fillets (6 oz each)",
             },
             {
               ingredientsQuantity: "3",
-              inredientsName: "tbsp soy sauce",
+              ingredientsName: "tbsp soy sauce",
             },
             {
               ingredientsQuantity: "3",
-              inredientsName: "tbsp honey",
+              ingredientsName: "tbsp honey",
             },
             {
               ingredientsQuantity: "2",
-              inredientsName: "tbsp lemon juice",
+              ingredientsName: "tbsp lemon juice",
             },
             {
               ingredientsQuantity: "3",
-              inredientsName: "cloves garlic (minced)",
+              ingredientsName: "cloves garlic (minced)",
             },
             {
               ingredientsQuantity: "1",
-              inredientsName: "tsp Dijon mustard",
+              ingredientsName: "tsp Dijon mustard",
             },
             {
               ingredientsQuantity: "1",
-              inredientsName: "tbsp olive oil",
+              ingredientsName: "tbsp olive oil",
             },
             {
               ingredientsQuantity: "1/2",
-              inredientsName: "tsp black pepper",
+              ingredientsName: "tsp black pepper",
             },
             {
               ingredientsQuantity: "1/2",
-              inredientsName: "tsp salt",
+              ingredientsName: "tsp salt",
             },
           ],
         },
@@ -3340,6 +3382,7 @@ export const recipes = [
     prepareTime: "10",
     cookTime: "7",
     recipeCategory: "Seafood",
+    categoryId: "8",
     recipeImage: "",
     nutritionInformation: {
       calories: "350",
@@ -3357,35 +3400,35 @@ export const recipes = [
           steps: [
             {
               ingredientsQuantity: "1",
-              inredientsName: "lb sea scallops",
+              ingredientsName: "lb sea scallops",
             },
             {
               ingredientsQuantity: "2",
-              inredientsName: "tbsp olive oil",
+              ingredientsName: "tbsp olive oil",
             },
             {
               ingredientsQuantity: "2",
-              inredientsName: "tbsp butter",
+              ingredientsName: "tbsp butter",
             },
             {
               ingredientsQuantity: "3",
-              inredientsName: "cloves garlic (minced)",
+              ingredientsName: "cloves garlic (minced)",
             },
             {
               ingredientsQuantity: "1",
-              inredientsName: "lemon (juiced)",
+              ingredientsName: "lemon (juiced)",
             },
             {
               ingredientsQuantity: "1/4",
-              inredientsName: "tsp salt",
+              ingredientsName: "tsp salt",
             },
             {
               ingredientsQuantity: "1/4",
-              inredientsName: "tsp black pepper",
+              ingredientsName: "tsp black pepper",
             },
             {
               ingredientsQuantity: "1",
-              inredientsName: "tbsp chopped parsley",
+              ingredientsName: "tbsp chopped parsley",
             },
           ],
         },
@@ -3425,6 +3468,7 @@ export const recipes = [
     prepareTime: "10",
     cookTime: "15",
     recipeCategory: "Seafood",
+    categoryId: "8",
     recipeImage: "",
     nutritionInformation: {
       calories: "540",
@@ -3442,31 +3486,31 @@ export const recipes = [
           steps: [
             {
               ingredientsQuantity: "2",
-              inredientsName: "lobster tails",
+              ingredientsName: "lobster tails",
             },
             {
               ingredientsQuantity: "2",
-              inredientsName: "tbsp butter",
+              ingredientsName: "tbsp butter",
             },
             {
               ingredientsQuantity: "2",
-              inredientsName: "cloves garlic (minced)",
+              ingredientsName: "cloves garlic (minced)",
             },
             {
               ingredientsQuantity: "1/2",
-              inredientsName: "cup heavy cream",
+              ingredientsName: "cup heavy cream",
             },
             {
               ingredientsQuantity: "1/4",
-              inredientsName: "cup grated Parmesan",
+              ingredientsName: "cup grated Parmesan",
             },
             {
               ingredientsQuantity: "1/2",
-              inredientsName: "tsp paprika",
+              ingredientsName: "tsp paprika",
             },
             {
               ingredientsQuantity: "",
-              inredientsName: "Salt and pepper to taste",
+              ingredientsName: "Salt and pepper to taste",
             },
           ],
         },
@@ -3509,6 +3553,7 @@ export const recipes = [
     prepareTime: "15",
     cookTime: "30",
     recipeCategory: "Seafood",
+    categoryId: "8",
     recipeImage: "",
     nutritionInformation: {
       calories: "480",
@@ -3526,35 +3571,35 @@ export const recipes = [
           steps: [
             {
               ingredientsQuantity: "2",
-              inredientsName: "cups clams (chopped)",
+              ingredientsName: "cups clams (chopped)",
             },
             {
               ingredientsQuantity: "3",
-              inredientsName: "slices bacon (chopped)",
+              ingredientsName: "slices bacon (chopped)",
             },
             {
               ingredientsQuantity: "1",
-              inredientsName: "onion (diced)",
+              ingredientsName: "onion (diced)",
             },
             {
               ingredientsQuantity: "2",
-              inredientsName: "potatoes (cubed)",
+              ingredientsName: "potatoes (cubed)",
             },
             {
               ingredientsQuantity: "2",
-              inredientsName: "cups milk",
+              ingredientsName: "cups milk",
             },
             {
               ingredientsQuantity: "1",
-              inredientsName: "cup heavy cream",
+              ingredientsName: "cup heavy cream",
             },
             {
               ingredientsQuantity: "2",
-              inredientsName: "tbsp butter",
+              ingredientsName: "tbsp butter",
             },
             {
               ingredientsQuantity: "",
-              inredientsName: "Salt and pepper to taste",
+              ingredientsName: "Salt and pepper to taste",
             },
           ],
         },
@@ -3604,6 +3649,7 @@ export const recipes = [
     prepareTime: "15",
     cookTime: "10",
     recipeCategory: "Seafood",
+    categoryId: "8",
     recipeImage: "",
     nutritionInformation: {
       calories: "450",
@@ -3621,35 +3667,35 @@ export const recipes = [
           steps: [
             {
               ingredientsQuantity: "2",
-              inredientsName: "lobster tails (cooked and chopped)",
+              ingredientsName: "lobster tails (cooked and chopped)",
             },
             {
               ingredientsQuantity: "2",
-              inredientsName: "tbsp mayonnaise",
+              ingredientsName: "tbsp mayonnaise",
             },
             {
               ingredientsQuantity: "1",
-              inredientsName: "tbsp lemon juice",
+              ingredientsName: "tbsp lemon juice",
             },
             {
               ingredientsQuantity: "1",
-              inredientsName: "tbsp chopped fresh chives",
+              ingredientsName: "tbsp chopped fresh chives",
             },
             {
               ingredientsQuantity: "2",
-              inredientsName: "tsp Dijon mustard",
+              ingredientsName: "tsp Dijon mustard",
             },
             {
               ingredientsQuantity: "",
-              inredientsName: "Salt and pepper to taste",
+              ingredientsName: "Salt and pepper to taste",
             },
             {
               ingredientsQuantity: "2",
-              inredientsName: "hot dog buns (preferably New England-style)",
+              ingredientsName: "hot dog buns (preferably New England-style)",
             },
             {
               ingredientsQuantity: "2",
-              inredientsName: "tbsp butter (for toasting the buns)",
+              ingredientsName: "tbsp butter (for toasting the buns)",
             },
           ],
         },
@@ -3694,6 +3740,7 @@ export const recipes = [
     prepareTime: "10",
     cookTime: "5",
     recipeCategory: "Seafood",
+    categoryId: "8",
     recipeImage: "",
     nutritionInformation: {
       calories: "380",
@@ -3711,35 +3758,35 @@ export const recipes = [
           steps: [
             {
               ingredientsQuantity: "2",
-              inredientsName: "tuna steaks",
+              ingredientsName: "tuna steaks",
             },
             {
               ingredientsQuantity: "1",
-              inredientsName: "tbsp olive oil",
+              ingredientsName: "tbsp olive oil",
             },
             {
               ingredientsQuantity: "",
-              inredientsName: "Salt and pepper to taste",
+              ingredientsName: "Salt and pepper to taste",
             },
             {
               ingredientsQuantity: "1",
-              inredientsName: "avocado, diced",
+              ingredientsName: "avocado, diced",
             },
             {
               ingredientsQuantity: "1/2",
-              inredientsName: "red onion, finely chopped",
+              ingredientsName: "red onion, finely chopped",
             },
             {
               ingredientsQuantity: "1/2",
-              inredientsName: "cup cherry tomatoes, halved",
+              ingredientsName: "cup cherry tomatoes, halved",
             },
             {
               ingredientsQuantity: "1",
-              inredientsName: "tbsp cilantro, chopped",
+              ingredientsName: "tbsp cilantro, chopped",
             },
             {
               ingredientsQuantity: "1",
-              inredientsName: "tbsp lime juice",
+              ingredientsName: "tbsp lime juice",
             },
           ],
         },
@@ -3779,6 +3826,7 @@ export const recipes = [
     prepareTime: "15",
     cookTime: "20",
     recipeCategory: "Seafood",
+    categoryId: "8",
     recipeImage: "",
     nutritionInformation: {
       calories: "350",
@@ -3796,35 +3844,35 @@ export const recipes = [
           steps: [
             {
               ingredientsQuantity: "4",
-              inredientsName: "cod fillets",
+              ingredientsName: "cod fillets",
             },
             {
               ingredientsQuantity: "3",
-              inredientsName: "tbsp olive oil",
+              ingredientsName: "tbsp olive oil",
             },
             {
               ingredientsQuantity: "3",
-              inredientsName: "garlic cloves, minced",
+              ingredientsName: "garlic cloves, minced",
             },
             {
               ingredientsQuantity: "1/4",
-              inredientsName: "cup breadcrumbs",
+              ingredientsName: "cup breadcrumbs",
             },
             {
               ingredientsQuantity: "1/4",
-              inredientsName: "cup grated Parmesan cheese",
+              ingredientsName: "cup grated Parmesan cheese",
             },
             {
               ingredientsQuantity: "1",
-              inredientsName: "tbsp fresh parsley, chopped",
+              ingredientsName: "tbsp fresh parsley, chopped",
             },
             {
               ingredientsQuantity: "1",
-              inredientsName: "tsp lemon zest",
+              ingredientsName: "tsp lemon zest",
             },
             {
               ingredientsQuantity: "",
-              inredientsName: "Salt and pepper to taste",
+              ingredientsName: "Salt and pepper to taste",
             },
           ],
         },
@@ -3868,6 +3916,7 @@ export const recipes = [
     prepareTime: "15",
     cookTime: "15",
     recipeCategory: "Seafood",
+    categoryId: "8",
     recipeImage: "",
     nutritionInformation: {
       calories: "400",
@@ -3885,55 +3934,55 @@ export const recipes = [
           steps: [
             {
               ingredientsQuantity: "4",
-              inredientsName: "white fish fillets (such as cod or tilapia)",
+              ingredientsName: "white fish fillets (such as cod or tilapia)",
             },
             {
               ingredientsQuantity: "1",
-              inredientsName: "cup flour",
+              ingredientsName: "cup flour",
             },
             {
               ingredientsQuantity: "1",
-              inredientsName: "tsp paprika",
+              ingredientsName: "tsp paprika",
             },
             {
               ingredientsQuantity: "1",
-              inredientsName: "tsp garlic powder",
+              ingredientsName: "tsp garlic powder",
             },
             {
               ingredientsQuantity: "1",
-              inredientsName: "tsp cumin",
+              ingredientsName: "tsp cumin",
             },
             {
               ingredientsQuantity: "",
-              inredientsName: "Salt and pepper to taste",
+              ingredientsName: "Salt and pepper to taste",
             },
             {
               ingredientsQuantity: "1/2",
-              inredientsName: "cup cold beer (or sparkling water)",
+              ingredientsName: "cup cold beer (or sparkling water)",
             },
             {
               ingredientsQuantity: "2",
-              inredientsName: "tbsp vegetable oil for frying",
+              ingredientsName: "tbsp vegetable oil for frying",
             },
             {
               ingredientsQuantity: "8",
-              inredientsName: "small flour tortillas",
+              ingredientsName: "small flour tortillas",
             },
             {
               ingredientsQuantity: "1",
-              inredientsName: "cup cabbage, shredded",
+              ingredientsName: "cup cabbage, shredded",
             },
             {
               ingredientsQuantity: "1/2",
-              inredientsName: "cup sour cream",
+              ingredientsName: "cup sour cream",
             },
             {
               ingredientsQuantity: "1",
-              inredientsName: "tbsp lime juice",
+              ingredientsName: "tbsp lime juice",
             },
             {
               ingredientsQuantity: "2",
-              inredientsName: "tbsp cilantro, chopped",
+              ingredientsName: "tbsp cilantro, chopped",
             },
           ],
         },
@@ -3973,6 +4022,7 @@ export const recipes = [
     prepareTime: "15",
     cookTime: "5",
     recipeCategory: "Seafood",
+    categoryId: "8",
     recipeImage: "",
     nutritionInformation: {
       calories: "350",
@@ -3990,31 +4040,31 @@ export const recipes = [
           steps: [
             {
               ingredientsQuantity: "1",
-              inredientsName: "lb fresh calamari rings",
+              ingredientsName: "lb fresh calamari rings",
             },
             {
               ingredientsQuantity: "1",
-              inredientsName: "cup all-purpose flour",
+              ingredientsName: "cup all-purpose flour",
             },
             {
               ingredientsQuantity: "1",
-              inredientsName: "tsp paprika",
+              ingredientsName: "tsp paprika",
             },
             {
               ingredientsQuantity: "1",
-              inredientsName: "tsp garlic powder",
+              ingredientsName: "tsp garlic powder",
             },
             {
               ingredientsQuantity: "",
-              inredientsName: "Salt and pepper to taste",
+              ingredientsName: "Salt and pepper to taste",
             },
             {
               ingredientsQuantity: "",
-              inredientsName: "Vegetable oil for frying",
+              ingredientsName: "Vegetable oil for frying",
             },
             {
               ingredientsQuantity: "1",
-              inredientsName: "lemon, sliced for garnish",
+              ingredientsName: "lemon, sliced for garnish",
             },
           ],
         },
@@ -4025,23 +4075,23 @@ export const recipes = [
           steps: [
             {
               ingredientsQuantity: "1/2",
-              inredientsName: "cup mayonnaise",
+              ingredientsName: "cup mayonnaise",
             },
             {
               ingredientsQuantity: "1",
-              inredientsName: "tbsp lemon juice",
+              ingredientsName: "tbsp lemon juice",
             },
             {
               ingredientsQuantity: "1",
-              inredientsName: "tsp lemon zest",
+              ingredientsName: "tsp lemon zest",
             },
             {
               ingredientsQuantity: "1",
-              inredientsName: "garlic clove, minced",
+              ingredientsName: "garlic clove, minced",
             },
             {
               ingredientsQuantity: "",
-              inredientsName: "Salt and pepper to taste",
+              ingredientsName: "Salt and pepper to taste",
             },
           ],
         },
@@ -4081,6 +4131,7 @@ export const recipes = [
     prepareTime: "10",
     cookTime: "10",
     recipeCategory: "Seafood",
+    categoryId: "8",
     recipeImage: "",
     nutritionInformation: {
       calories: "250",
@@ -4098,35 +4149,35 @@ export const recipes = [
           steps: [
             {
               ingredientsQuantity: "2",
-              inredientsName: "lbs fresh mussels, cleaned and debearded",
+              ingredientsName: "lbs fresh mussels, cleaned and debearded",
             },
             {
               ingredientsQuantity: "2",
-              inredientsName: "tbsp olive oil",
+              ingredientsName: "tbsp olive oil",
             },
             {
               ingredientsQuantity: "4",
-              inredientsName: "garlic cloves, minced",
+              ingredientsName: "garlic cloves, minced",
             },
             {
               ingredientsQuantity: "1/2",
-              inredientsName: "cup dry white wine",
+              ingredientsName: "cup dry white wine",
             },
             {
               ingredientsQuantity: "1/4",
-              inredientsName: "cup heavy cream",
+              ingredientsName: "cup heavy cream",
             },
             {
               ingredientsQuantity: "1",
-              inredientsName: "tbsp fresh parsley, chopped",
+              ingredientsName: "tbsp fresh parsley, chopped",
             },
             {
               ingredientsQuantity: "",
-              inredientsName: "Salt and pepper to taste",
+              ingredientsName: "Salt and pepper to taste",
             },
             {
               ingredientsQuantity: "1",
-              inredientsName: "lemon, cut into wedges",
+              ingredientsName: "lemon, cut into wedges",
             },
           ],
         },
@@ -4171,6 +4222,7 @@ export const recipes = [
     prepareTime: "15",
     cookTime: "10",
     recipeCategory: "Seafood",
+    categoryId: "8",
     recipeImage: "",
     nutritionInformation: {
       calories: "450",
@@ -4188,15 +4240,15 @@ export const recipes = [
           steps: [
             {
               ingredientsQuantity: "2",
-              inredientsName: "salmon fillets",
+              ingredientsName: "salmon fillets",
             },
             {
               ingredientsQuantity: "1",
-              inredientsName: "tbsp olive oil",
+              ingredientsName: "tbsp olive oil",
             },
             {
               ingredientsQuantity: "",
-              inredientsName: "Salt and pepper to taste",
+              ingredientsName: "Salt and pepper to taste",
             },
           ],
         },
@@ -4207,23 +4259,23 @@ export const recipes = [
           steps: [
             {
               ingredientsQuantity: "1",
-              inredientsName: "ripe mango, peeled and diced",
+              ingredientsName: "ripe mango, peeled and diced",
             },
             {
               ingredientsQuantity: "1/2",
-              inredientsName: "red onion, finely chopped",
+              ingredientsName: "red onion, finely chopped",
             },
             {
               ingredientsQuantity: "1/4",
-              inredientsName: "cup cilantro, chopped",
+              ingredientsName: "cup cilantro, chopped",
             },
             {
               ingredientsQuantity: "1",
-              inredientsName: "tbsp lime juice",
+              ingredientsName: "tbsp lime juice",
             },
             {
               ingredientsQuantity: "",
-              inredientsName: "Salt and pepper to taste",
+              ingredientsName: "Salt and pepper to taste",
             },
           ],
         },
@@ -4263,6 +4315,7 @@ export const recipes = [
     prepareTime: "20",
     cookTime: "30",
     recipeCategory: "Seafood",
+    categoryId: "8",
     recipeImage: "",
     nutritionInformation: {
       calories: "500",
@@ -4280,59 +4333,59 @@ export const recipes = [
           steps: [
             {
               ingredientsQuantity: "1",
-              inredientsName: "tbsp olive oil",
+              ingredientsName: "tbsp olive oil",
             },
             {
               ingredientsQuantity: "1",
-              inredientsName: "onion, chopped",
+              ingredientsName: "onion, chopped",
             },
             {
               ingredientsQuantity: "1",
-              inredientsName: "red bell pepper, chopped",
+              ingredientsName: "red bell pepper, chopped",
             },
             {
               ingredientsQuantity: "2",
-              inredientsName: "garlic cloves, minced",
+              ingredientsName: "garlic cloves, minced",
             },
             {
               ingredientsQuantity: "1",
-              inredientsName: "cup Arborio rice",
+              ingredientsName: "cup Arborio rice",
             },
             {
               ingredientsQuantity: "2 1/2",
-              inredientsName: "cups chicken broth",
+              ingredientsName: "cups chicken broth",
             },
             {
               ingredientsQuantity: "1/2",
-              inredientsName: "tsp saffron threads",
+              ingredientsName: "tsp saffron threads",
             },
             {
               ingredientsQuantity: "1/2",
-              inredientsName: "tsp paprika",
+              ingredientsName: "tsp paprika",
             },
             {
               ingredientsQuantity: "1/2",
-              inredientsName: "lb shrimp, peeled and deveined",
+              ingredientsName: "lb shrimp, peeled and deveined",
             },
             {
               ingredientsQuantity: "1/2",
-              inredientsName: "lb mussels, cleaned",
+              ingredientsName: "lb mussels, cleaned",
             },
             {
               ingredientsQuantity: "1/2",
-              inredientsName: "lb squid, sliced",
+              ingredientsName: "lb squid, sliced",
             },
             {
               ingredientsQuantity: "1/2",
-              inredientsName: "cup frozen peas",
+              ingredientsName: "cup frozen peas",
             },
             {
               ingredientsQuantity: "",
-              inredientsName: "Salt and pepper to taste",
+              ingredientsName: "Salt and pepper to taste",
             },
             {
               ingredientsQuantity: "1",
-              inredientsName: "lemon, sliced",
+              ingredientsName: "lemon, sliced",
             },
           ],
         },
@@ -4372,6 +4425,7 @@ export const recipes = [
     prepareTime: "15",
     cookTime: "5",
     recipeCategory: "Seafood",
+    categoryId: "8",
     recipeImage: "",
     nutritionInformation: {
       calories: "350",
@@ -4389,39 +4443,39 @@ export const recipes = [
           steps: [
             {
               ingredientsQuantity: "1",
-              inredientsName: "lb shrimp, peeled and deveined",
+              ingredientsName: "lb shrimp, peeled and deveined",
             },
             {
               ingredientsQuantity: "2",
-              inredientsName: "tbsp olive oil",
+              ingredientsName: "tbsp olive oil",
             },
             {
               ingredientsQuantity: "1",
-              inredientsName: "tsp paprika",
+              ingredientsName: "tsp paprika",
             },
             {
               ingredientsQuantity: "",
-              inredientsName: "Salt and pepper to taste",
+              ingredientsName: "Salt and pepper to taste",
             },
             {
               ingredientsQuantity: "2",
-              inredientsName: "ripe avocados, diced",
+              ingredientsName: "ripe avocados, diced",
             },
             {
               ingredientsQuantity: "1/2",
-              inredientsName: "red onion, thinly sliced",
+              ingredientsName: "red onion, thinly sliced",
             },
             {
               ingredientsQuantity: "1",
-              inredientsName: "cucumber, sliced",
+              ingredientsName: "cucumber, sliced",
             },
             {
               ingredientsQuantity: "2",
-              inredientsName: "cups mixed greens",
+              ingredientsName: "cups mixed greens",
             },
             {
               ingredientsQuantity: "1/4",
-              inredientsName: "cup cilantro, chopped",
+              ingredientsName: "cup cilantro, chopped",
             },
           ],
         },
@@ -4432,19 +4486,19 @@ export const recipes = [
           steps: [
             {
               ingredientsQuantity: "3",
-              inredientsName: "tbsp olive oil",
+              ingredientsName: "tbsp olive oil",
             },
             {
               ingredientsQuantity: "1",
-              inredientsName: "tbsp lime juice",
+              ingredientsName: "tbsp lime juice",
             },
             {
               ingredientsQuantity: "1",
-              inredientsName: "tbsp orange juice",
+              ingredientsName: "tbsp orange juice",
             },
             {
               ingredientsQuantity: "",
-              inredientsName: "Salt and pepper to taste",
+              ingredientsName: "Salt and pepper to taste",
             },
           ],
         },
@@ -4484,6 +4538,7 @@ export const recipes = [
     prepareTime: "10",
     cookTime: "25",
     recipeCategory: "Seafood",
+    categoryId: "8",
     recipeImage: "",
     nutritionInformation: {
       calories: "600",
@@ -4501,55 +4556,55 @@ export const recipes = [
           steps: [
             {
               ingredientsQuantity: "1",
-              inredientsName: "cup Arborio rice",
+              ingredientsName: "cup Arborio rice",
             },
             {
               ingredientsQuantity: "2",
-              inredientsName: "tbsp olive oil",
+              ingredientsName: "tbsp olive oil",
             },
             {
               ingredientsQuantity: "1/2",
-              inredientsName: "onion, finely chopped",
+              ingredientsName: "onion, finely chopped",
             },
             {
               ingredientsQuantity: "2",
-              inredientsName: "garlic cloves, minced",
+              ingredientsName: "garlic cloves, minced",
             },
             {
               ingredientsQuantity: "1/2",
-              inredientsName: "cup dry white wine",
+              ingredientsName: "cup dry white wine",
             },
             {
               ingredientsQuantity: "4",
-              inredientsName: "cups seafood broth (or chicken broth)",
+              ingredientsName: "cups seafood broth (or chicken broth)",
             },
             {
               ingredientsQuantity: "1/2",
-              inredientsName: "lb shrimp, peeled and deveined",
+              ingredientsName: "lb shrimp, peeled and deveined",
             },
             {
               ingredientsQuantity: "1/2",
-              inredientsName: "lb scallops",
+              ingredientsName: "lb scallops",
             },
             {
               ingredientsQuantity: "1/2",
-              inredientsName: "lb mussels, cleaned",
+              ingredientsName: "lb mussels, cleaned",
             },
             {
               ingredientsQuantity: "1/4",
-              inredientsName: "cup heavy cream",
+              ingredientsName: "cup heavy cream",
             },
             {
               ingredientsQuantity: "1/4",
-              inredientsName: "cup grated Parmesan cheese",
+              ingredientsName: "cup grated Parmesan cheese",
             },
             {
               ingredientsQuantity: "",
-              inredientsName: "Salt and pepper to taste",
+              ingredientsName: "Salt and pepper to taste",
             },
             {
               ingredientsQuantity: "",
-              inredientsName: "Fresh parsley, chopped for garnish",
+              ingredientsName: "Fresh parsley, chopped for garnish",
             },
           ],
         },
@@ -4604,6 +4659,7 @@ export const recipes = [
     prepareTime: "5",
     cookTime: "10",
     recipeCategory: "Seafood",
+    categoryId: "8",
     recipeImage: "",
     nutritionInformation: {
       calories: "250",
@@ -4621,31 +4677,31 @@ export const recipes = [
           steps: [
             {
               ingredientsQuantity: "1",
-              inredientsName: "lb large scallops, patted dry",
+              ingredientsName: "lb large scallops, patted dry",
             },
             {
               ingredientsQuantity: "2",
-              inredientsName: "tbsp olive oil",
+              ingredientsName: "tbsp olive oil",
             },
             {
               ingredientsQuantity: "4",
-              inredientsName: "tbsp unsalted butter",
+              ingredientsName: "tbsp unsalted butter",
             },
             {
               ingredientsQuantity: "3",
-              inredientsName: "garlic cloves, minced",
+              ingredientsName: "garlic cloves, minced",
             },
             {
               ingredientsQuantity: "1",
-              inredientsName: "tbsp fresh lemon juice",
+              ingredientsName: "tbsp fresh lemon juice",
             },
             {
               ingredientsQuantity: "2",
-              inredientsName: "tbsp fresh parsley, chopped",
+              ingredientsName: "tbsp fresh parsley, chopped",
             },
             {
               ingredientsQuantity: "",
-              inredientsName: "Salt and pepper to taste",
+              ingredientsName: "Salt and pepper to taste",
             },
           ],
         },
@@ -4696,6 +4752,7 @@ export const recipes = [
     prepareTime: "10",
     cookTime: "15",
     recipeCategory: "Salad",
+    categoryId: "9",
     recipeImage: "",
     nutritionInformation: {
       calories: "400",
@@ -4713,31 +4770,31 @@ export const recipes = [
           steps: [
             {
               ingredientsQuantity: "2",
-              inredientsName: "boneless skinless chicken breasts",
+              ingredientsName: "boneless skinless chicken breasts",
             },
             {
               ingredientsQuantity: "4",
-              inredientsName: "cups romaine lettuce, chopped",
+              ingredientsName: "cups romaine lettuce, chopped",
             },
             {
               ingredientsQuantity: "1/2",
-              inredientsName: "cup Caesar dressing",
+              ingredientsName: "cup Caesar dressing",
             },
             {
               ingredientsQuantity: "1/4",
-              inredientsName: "cup grated Parmesan cheese",
+              ingredientsName: "cup grated Parmesan cheese",
             },
             {
               ingredientsQuantity: "1/2",
-              inredientsName: "cup croutons",
+              ingredientsName: "cup croutons",
             },
             {
               ingredientsQuantity: "1",
-              inredientsName: "tbsp olive oil",
+              ingredientsName: "tbsp olive oil",
             },
             {
               ingredientsQuantity: "",
-              inredientsName: "Salt and pepper to taste",
+              ingredientsName: "Salt and pepper to taste",
             },
           ],
         },
@@ -4781,6 +4838,7 @@ export const recipes = [
     prepareTime: "10",
     cookTime: "0",
     recipeCategory: "Salad",
+    categoryId: "9",
     recipeImage: "",
     nutritionInformation: {
       calories: "250",
@@ -4798,39 +4856,39 @@ export const recipes = [
           steps: [
             {
               ingredientsQuantity: "2",
-              inredientsName: "cups cherry tomatoes, halved",
+              ingredientsName: "cups cherry tomatoes, halved",
             },
             {
               ingredientsQuantity: "1",
-              inredientsName: "cucumber, sliced",
+              ingredientsName: "cucumber, sliced",
             },
             {
               ingredientsQuantity: "1/2",
-              inredientsName: "red onion, thinly sliced",
+              ingredientsName: "red onion, thinly sliced",
             },
             {
               ingredientsQuantity: "1/2",
-              inredientsName: "cup Kalamata olives",
+              ingredientsName: "cup Kalamata olives",
             },
             {
               ingredientsQuantity: "1/4",
-              inredientsName: "cup feta cheese, crumbled",
+              ingredientsName: "cup feta cheese, crumbled",
             },
             {
               ingredientsQuantity: "3",
-              inredientsName: "tbsp extra virgin olive oil",
+              ingredientsName: "tbsp extra virgin olive oil",
             },
             {
               ingredientsQuantity: "1",
-              inredientsName: "tbsp red wine vinegar",
+              ingredientsName: "tbsp red wine vinegar",
             },
             {
               ingredientsQuantity: "1",
-              inredientsName: "tsp dried oregano",
+              ingredientsName: "tsp dried oregano",
             },
             {
               ingredientsQuantity: "",
-              inredientsName: "Salt and pepper to taste",
+              ingredientsName: "Salt and pepper to taste",
             },
           ],
         },
@@ -4875,6 +4933,7 @@ export const recipes = [
     prepareTime: "15",
     cookTime: "15",
     recipeCategory: "Salad",
+    categoryId: "9",
     recipeImage: "",
     nutritionInformation: {
       calories: "350",
@@ -4892,35 +4951,35 @@ export const recipes = [
           steps: [
             {
               ingredientsQuantity: "1",
-              inredientsName: "cup quinoa, cooked",
+              ingredientsName: "cup quinoa, cooked",
             },
             {
               ingredientsQuantity: "1",
-              inredientsName: "ripe avocado, diced",
+              ingredientsName: "ripe avocado, diced",
             },
             {
               ingredientsQuantity: "1/2",
-              inredientsName: "cup black beans, rinsed and drained",
+              ingredientsName: "cup black beans, rinsed and drained",
             },
             {
               ingredientsQuantity: "1/4",
-              inredientsName: "cup red bell pepper, diced",
+              ingredientsName: "cup red bell pepper, diced",
             },
             {
               ingredientsQuantity: "1/4",
-              inredientsName: "cup cilantro, chopped",
+              ingredientsName: "cup cilantro, chopped",
             },
             {
               ingredientsQuantity: "2",
-              inredientsName: "tbsp lime juice",
+              ingredientsName: "tbsp lime juice",
             },
             {
               ingredientsQuantity: "2",
-              inredientsName: "tbsp olive oil",
+              ingredientsName: "tbsp olive oil",
             },
             {
               ingredientsQuantity: "",
-              inredientsName: "Salt and pepper to taste",
+              ingredientsName: "Salt and pepper to taste",
             },
           ],
         },
@@ -4964,6 +5023,7 @@ export const recipes = [
     prepareTime: "10",
     cookTime: "0",
     recipeCategory: "Salad",
+    categoryId: "9",
     recipeImage: "",
     nutritionInformation: {
       calories: "250",
@@ -4981,27 +5041,27 @@ export const recipes = [
           steps: [
             {
               ingredientsQuantity: "2",
-              inredientsName: "large tomatoes, sliced",
+              ingredientsName: "large tomatoes, sliced",
             },
             {
               ingredientsQuantity: "8",
-              inredientsName: "oz fresh mozzarella cheese, sliced",
+              ingredientsName: "oz fresh mozzarella cheese, sliced",
             },
             {
               ingredientsQuantity: "1/4",
-              inredientsName: "cup fresh basil leaves",
+              ingredientsName: "cup fresh basil leaves",
             },
             {
               ingredientsQuantity: "2",
-              inredientsName: "tbsp extra virgin olive oil",
+              ingredientsName: "tbsp extra virgin olive oil",
             },
             {
               ingredientsQuantity: "1",
-              inredientsName: "tbsp balsamic glaze",
+              ingredientsName: "tbsp balsamic glaze",
             },
             {
               ingredientsQuantity: "",
-              inredientsName: "Salt and pepper to taste",
+              ingredientsName: "Salt and pepper to taste",
             },
           ],
         },
@@ -5036,6 +5096,7 @@ export const recipes = [
     prepareTime: "10",
     cookTime: "0",
     recipeCategory: "Salad",
+    categoryId: "9",
     recipeImage: "",
     nutritionInformation: {
       calories: "200",
@@ -5053,31 +5114,31 @@ export const recipes = [
           steps: [
             {
               ingredientsQuantity: "4",
-              inredientsName: "cups baby spinach",
+              ingredientsName: "cups baby spinach",
             },
             {
               ingredientsQuantity: "1",
-              inredientsName: "cup strawberries, sliced",
+              ingredientsName: "cup strawberries, sliced",
             },
             {
               ingredientsQuantity: "1/4",
-              inredientsName: "cup sliced almonds",
+              ingredientsName: "cup sliced almonds",
             },
             {
               ingredientsQuantity: "2",
-              inredientsName: "tbsp balsamic vinegar",
+              ingredientsName: "tbsp balsamic vinegar",
             },
             {
               ingredientsQuantity: "1",
-              inredientsName: "tbsp honey",
+              ingredientsName: "tbsp honey",
             },
             {
               ingredientsQuantity: "1/4",
-              inredientsName: "cup olive oil",
+              ingredientsName: "cup olive oil",
             },
             {
               ingredientsQuantity: "",
-              inredientsName: "Salt and pepper to taste",
+              ingredientsName: "Salt and pepper to taste",
             },
           ],
         },
@@ -5122,6 +5183,7 @@ export const recipes = [
     prepareTime: "10",
     cookTime: "30",
     recipeCategory: "Salad",
+    categoryId: "9",
     recipeImage: "",
     nutritionInformation: {
       calories: "280",
@@ -5139,31 +5201,31 @@ export const recipes = [
           steps: [
             {
               ingredientsQuantity: "4",
-              inredientsName: "medium-sized beets, peeled and cut into wedges",
+              ingredientsName: "medium-sized beets, peeled and cut into wedges",
             },
             {
               ingredientsQuantity: "4",
-              inredientsName: "oz goat cheese, crumbled",
+              ingredientsName: "oz goat cheese, crumbled",
             },
             {
               ingredientsQuantity: "2",
-              inredientsName: "cups arugula or mixed greens",
+              ingredientsName: "cups arugula or mixed greens",
             },
             {
               ingredientsQuantity: "1/4",
-              inredientsName: "cup walnuts, toasted",
+              ingredientsName: "cup walnuts, toasted",
             },
             {
               ingredientsQuantity: "2",
-              inredientsName: "tbsp olive oil",
+              ingredientsName: "tbsp olive oil",
             },
             {
               ingredientsQuantity: "1",
-              inredientsName: "tbsp balsamic vinegar",
+              ingredientsName: "tbsp balsamic vinegar",
             },
             {
               ingredientsQuantity: "",
-              inredientsName: "Salt and pepper to taste",
+              ingredientsName: "Salt and pepper to taste",
             },
           ],
         },
@@ -5208,6 +5270,7 @@ export const recipes = [
     prepareTime: "15",
     cookTime: "0",
     recipeCategory: "Salad",
+    categoryId: "9",
     recipeImage: "",
     nutritionInformation: {
       calories: "210",
@@ -5225,47 +5288,47 @@ export const recipes = [
           steps: [
             {
               ingredientsQuantity: "4",
-              inredientsName: "cups cabbage, shredded",
+              ingredientsName: "cups cabbage, shredded",
             },
             {
               ingredientsQuantity: "1",
-              inredientsName: "cup carrots, julienned",
+              ingredientsName: "cup carrots, julienned",
             },
             {
               ingredientsQuantity: "1/4",
-              inredientsName: "cup green onions, chopped",
+              ingredientsName: "cup green onions, chopped",
             },
             {
               ingredientsQuantity: "1/4",
-              inredientsName: "cup toasted sesame seeds",
+              ingredientsName: "cup toasted sesame seeds",
             },
             {
               ingredientsQuantity: "1/4",
-              inredientsName: "cup rice vinegar",
+              ingredientsName: "cup rice vinegar",
             },
             {
               ingredientsQuantity: "2",
-              inredientsName: "tbsp soy sauce",
+              ingredientsName: "tbsp soy sauce",
             },
             {
               ingredientsQuantity: "1",
-              inredientsName: "tbsp honey",
+              ingredientsName: "tbsp honey",
             },
             {
               ingredientsQuantity: "1",
-              inredientsName: "tbsp sesame oil",
+              ingredientsName: "tbsp sesame oil",
             },
             {
               ingredientsQuantity: "1",
-              inredientsName: "tbsp olive oil",
+              ingredientsName: "tbsp olive oil",
             },
             {
               ingredientsQuantity: "1",
-              inredientsName: "tsp grated ginger",
+              ingredientsName: "tsp grated ginger",
             },
             {
               ingredientsQuantity: "",
-              inredientsName: "Salt and pepper to taste",
+              ingredientsName: "Salt and pepper to taste",
             },
           ],
         },
@@ -5310,6 +5373,7 @@ export const recipes = [
     prepareTime: "10",
     cookTime: "0",
     recipeCategory: "Salad",
+    categoryId: "9",
     recipeImage: "",
     nutritionInformation: {
       calories: "320",
@@ -5327,35 +5391,35 @@ export const recipes = [
           steps: [
             {
               ingredientsQuantity: "1",
-              inredientsName: "can (15 oz) chickpeas, drained and rinsed",
+              ingredientsName: "can (15 oz) chickpeas, drained and rinsed",
             },
             {
               ingredientsQuantity: "1",
-              inredientsName: "ripe avocado, diced",
+              ingredientsName: "ripe avocado, diced",
             },
             {
               ingredientsQuantity: "1",
-              inredientsName: "cup cherry tomatoes, halved",
+              ingredientsName: "cup cherry tomatoes, halved",
             },
             {
               ingredientsQuantity: "1/4",
-              inredientsName: "cup red onion, finely chopped",
+              ingredientsName: "cup red onion, finely chopped",
             },
             {
               ingredientsQuantity: "2",
-              inredientsName: "tbsp fresh cilantro, chopped",
+              ingredientsName: "tbsp fresh cilantro, chopped",
             },
             {
               ingredientsQuantity: "2",
-              inredientsName: "tbsp olive oil",
+              ingredientsName: "tbsp olive oil",
             },
             {
               ingredientsQuantity: "1",
-              inredientsName: "tbsp lemon juice",
+              ingredientsName: "tbsp lemon juice",
             },
             {
               ingredientsQuantity: "",
-              inredientsName: "Salt and pepper to taste",
+              ingredientsName: "Salt and pepper to taste",
             },
           ],
         },
@@ -5396,6 +5460,7 @@ export const recipes = [
     prepareTime: "10",
     cookTime: "30",
     recipeCategory: "Soup",
+    categoryId: "10",
     recipeImage: "",
     nutritionInformation: {
       calories: "210",
@@ -5413,40 +5478,40 @@ export const recipes = [
           steps: [
             {
               ingredientsQuantity: "2",
-              inredientsName: "tbsp olive oil",
+              ingredientsName: "tbsp olive oil",
             },
             {
               ingredientsQuantity: "1",
-              inredientsName: "medium onion, chopped",
+              ingredientsName: "medium onion, chopped",
             },
             {
               ingredientsQuantity: "2",
-              inredientsName: "cloves garlic, minced",
+              ingredientsName: "cloves garlic, minced",
             },
             {
               ingredientsQuantity: "4",
-              inredientsName:
+              ingredientsName:
                 "cups canned tomatoes (or fresh tomatoes, chopped)",
             },
             {
               ingredientsQuantity: "1",
-              inredientsName: "cup vegetable broth",
+              ingredientsName: "cup vegetable broth",
             },
             {
               ingredientsQuantity: "1",
-              inredientsName: "tsp sugar",
+              ingredientsName: "tsp sugar",
             },
             {
               ingredientsQuantity: "1/2",
-              inredientsName: "cup heavy cream",
+              ingredientsName: "cup heavy cream",
             },
             {
               ingredientsQuantity: "",
-              inredientsName: "Salt and pepper to taste",
+              ingredientsName: "Salt and pepper to taste",
             },
             {
               ingredientsQuantity: "",
-              inredientsName: "Fresh basil for garnish",
+              ingredientsName: "Fresh basil for garnish",
             },
           ],
         },
@@ -5490,6 +5555,7 @@ export const recipes = [
     prepareTime: "15",
     cookTime: "45",
     recipeCategory: "Soup",
+    categoryId: "10",
     recipeImage: "",
     nutritionInformation: {
       calories: "330",
@@ -5507,47 +5573,47 @@ export const recipes = [
           steps: [
             {
               ingredientsQuantity: "2",
-              inredientsName: "tbsp olive oil",
+              ingredientsName: "tbsp olive oil",
             },
             {
               ingredientsQuantity: "1",
-              inredientsName: "lb chicken breast, diced",
+              ingredientsName: "lb chicken breast, diced",
             },
             {
               ingredientsQuantity: "1",
-              inredientsName: "medium onion, chopped",
+              ingredientsName: "medium onion, chopped",
             },
             {
               ingredientsQuantity: "2",
-              inredientsName: "carrots, peeled and diced",
+              ingredientsName: "carrots, peeled and diced",
             },
             {
               ingredientsQuantity: "2",
-              inredientsName: "celery stalks, diced",
+              ingredientsName: "celery stalks, diced",
             },
             {
               ingredientsQuantity: "2",
-              inredientsName: "cloves garlic, minced",
+              ingredientsName: "cloves garlic, minced",
             },
             {
               ingredientsQuantity: "6",
-              inredientsName: "cups chicken broth",
+              ingredientsName: "cups chicken broth",
             },
             {
               ingredientsQuantity: "1",
-              inredientsName: "cup green beans, chopped",
+              ingredientsName: "cup green beans, chopped",
             },
             {
               ingredientsQuantity: "1/2",
-              inredientsName: "cup corn kernels (fresh or frozen)",
+              ingredientsName: "cup corn kernels (fresh or frozen)",
             },
             {
               ingredientsQuantity: "1",
-              inredientsName: "tsp dried thyme",
+              ingredientsName: "tsp dried thyme",
             },
             {
               ingredientsQuantity: "",
-              inredientsName: "Salt and pepper to taste",
+              ingredientsName: "Salt and pepper to taste",
             },
           ],
         },
@@ -5592,6 +5658,7 @@ export const recipes = [
     prepareTime: "10",
     cookTime: "40",
     recipeCategory: "Soup",
+    categoryId: "10",
     recipeImage: "",
     nutritionInformation: {
       calories: "250",
@@ -5609,51 +5676,51 @@ export const recipes = [
           steps: [
             {
               ingredientsQuantity: "2",
-              inredientsName: "tbsp olive oil",
+              ingredientsName: "tbsp olive oil",
             },
             {
               ingredientsQuantity: "1",
-              inredientsName: "medium onion, chopped",
+              ingredientsName: "medium onion, chopped",
             },
             {
               ingredientsQuantity: "2",
-              inredientsName: "carrots, diced",
+              ingredientsName: "carrots, diced",
             },
             {
               ingredientsQuantity: "2",
-              inredientsName: "celery stalks, diced",
+              ingredientsName: "celery stalks, diced",
             },
             {
               ingredientsQuantity: "2",
-              inredientsName: "cloves garlic, minced",
+              ingredientsName: "cloves garlic, minced",
             },
             {
               ingredientsQuantity: "1 1/2",
-              inredientsName: "cups dried lentils, rinsed",
+              ingredientsName: "cups dried lentils, rinsed",
             },
             {
               ingredientsQuantity: "6",
-              inredientsName: "cups vegetable broth",
+              ingredientsName: "cups vegetable broth",
             },
             {
               ingredientsQuantity: "1",
-              inredientsName: "tsp cumin",
+              ingredientsName: "tsp cumin",
             },
             {
               ingredientsQuantity: "1",
-              inredientsName: "tsp turmeric",
+              ingredientsName: "tsp turmeric",
             },
             {
               ingredientsQuantity: "1/2",
-              inredientsName: "tsp paprika",
+              ingredientsName: "tsp paprika",
             },
             {
               ingredientsQuantity: "",
-              inredientsName: "Salt and pepper to taste",
+              ingredientsName: "Salt and pepper to taste",
             },
             {
               ingredientsQuantity: "",
-              inredientsName: "Fresh parsley for garnish",
+              ingredientsName: "Fresh parsley for garnish",
             },
           ],
         },
@@ -5692,6 +5759,7 @@ export const recipes = [
     prepareTime: "10",
     cookTime: "40",
     recipeCategory: "Soup",
+    categoryId: "10",
     recipeImage: "",
     nutritionInformation: {
       calories: "350",
@@ -5709,31 +5777,31 @@ export const recipes = [
           steps: [
             {
               ingredientsQuantity: "2",
-              inredientsName: "tbsp butter",
+              ingredientsName: "tbsp butter",
             },
             {
               ingredientsQuantity: "2",
-              inredientsName: "large leeks, cleaned and sliced",
+              ingredientsName: "large leeks, cleaned and sliced",
             },
             {
               ingredientsQuantity: "3",
-              inredientsName: "medium potatoes, peeled and diced",
+              ingredientsName: "medium potatoes, peeled and diced",
             },
             {
               ingredientsQuantity: "4",
-              inredientsName: "cups vegetable or chicken broth",
+              ingredientsName: "cups vegetable or chicken broth",
             },
             {
               ingredientsQuantity: "1",
-              inredientsName: "cup heavy cream",
+              ingredientsName: "cup heavy cream",
             },
             {
               ingredientsQuantity: "",
-              inredientsName: "Salt and pepper to taste",
+              ingredientsName: "Salt and pepper to taste",
             },
             {
               ingredientsQuantity: "",
-              inredientsName: "Fresh chives for garnish",
+              ingredientsName: "Fresh chives for garnish",
             },
           ],
         },
@@ -5777,6 +5845,7 @@ export const recipes = [
     prepareTime: "15",
     cookTime: "45",
     recipeCategory: "Soup",
+    categoryId: "10",
     recipeImage: "",
     nutritionInformation: {
       calories: "300",
@@ -5794,56 +5863,56 @@ export const recipes = [
           steps: [
             {
               ingredientsQuantity: "2",
-              inredientsName: "tbsp olive oil",
+              ingredientsName: "tbsp olive oil",
             },
             {
               ingredientsQuantity: "1",
-              inredientsName: "onion, chopped",
+              ingredientsName: "onion, chopped",
             },
             {
               ingredientsQuantity: "2",
-              inredientsName: "carrots, diced",
+              ingredientsName: "carrots, diced",
             },
             {
               ingredientsQuantity: "2",
-              inredientsName: "celery stalks, diced",
+              ingredientsName: "celery stalks, diced",
             },
             {
               ingredientsQuantity: "2",
-              inredientsName: "cloves garlic, minced",
+              ingredientsName: "cloves garlic, minced",
             },
             {
               ingredientsQuantity: "1",
-              inredientsName: "zucchini, diced",
+              ingredientsName: "zucchini, diced",
             },
             {
               ingredientsQuantity: "1",
-              inredientsName: "can (15 oz) diced tomatoes",
+              ingredientsName: "can (15 oz) diced tomatoes",
             },
             {
               ingredientsQuantity: "1",
-              inredientsName:
+              ingredientsName:
                 "can (15 oz) cannellini beans, drained and rinsed",
             },
             {
               ingredientsQuantity: "6",
-              inredientsName: "cups vegetable broth",
+              ingredientsName: "cups vegetable broth",
             },
             {
               ingredientsQuantity: "1/2",
-              inredientsName: "cup small pasta (like elbow or ditalini)",
+              ingredientsName: "cup small pasta (like elbow or ditalini)",
             },
             {
               ingredientsQuantity: "1",
-              inredientsName: "tsp dried oregano",
+              ingredientsName: "tsp dried oregano",
             },
             {
               ingredientsQuantity: "",
-              inredientsName: "Salt and pepper to taste",
+              ingredientsName: "Salt and pepper to taste",
             },
             {
               ingredientsQuantity: "",
-              inredientsName: "Fresh basil for garnish",
+              ingredientsName: "Fresh basil for garnish",
             },
           ],
         },
@@ -5883,6 +5952,7 @@ export const recipes = [
     prepareTime: "10",
     cookTime: "30",
     recipeCategory: "Soup",
+    categoryId: "10",
     recipeImage: "",
     nutritionInformation: {
       calories: "220",
@@ -5900,39 +5970,39 @@ export const recipes = [
           steps: [
             {
               ingredientsQuantity: "2",
-              inredientsName: "tbsp olive oil",
+              ingredientsName: "tbsp olive oil",
             },
             {
               ingredientsQuantity: "1",
-              inredientsName: "small onion, chopped",
+              ingredientsName: "small onion, chopped",
             },
             {
               ingredientsQuantity: "2",
-              inredientsName: "cloves garlic, minced",
+              ingredientsName: "cloves garlic, minced",
             },
             {
               ingredientsQuantity: "1",
-              inredientsName: "can (28 oz) crushed tomatoes",
+              ingredientsName: "can (28 oz) crushed tomatoes",
             },
             {
               ingredientsQuantity: "2",
-              inredientsName: "cups vegetable broth",
+              ingredientsName: "cups vegetable broth",
             },
             {
               ingredientsQuantity: "1/2",
-              inredientsName: "cup heavy cream",
+              ingredientsName: "cup heavy cream",
             },
             {
               ingredientsQuantity: "1/4",
-              inredientsName: "cup fresh basil leaves, chopped",
+              ingredientsName: "cup fresh basil leaves, chopped",
             },
             {
               ingredientsQuantity: "1",
-              inredientsName: "tsp sugar",
+              ingredientsName: "tsp sugar",
             },
             {
               ingredientsQuantity: "",
-              inredientsName: "Salt and black pepper to taste",
+              ingredientsName: "Salt and black pepper to taste",
             },
           ],
         },
@@ -5977,6 +6047,7 @@ export const recipes = [
     prepareTime: "15",
     cookTime: "20",
     recipeCategory: "Soup",
+    categoryId: "10",
     recipeImage: "",
     nutritionInformation: {
       calories: "280",
@@ -5994,67 +6065,67 @@ export const recipes = [
           steps: [
             {
               ingredientsQuantity: "1",
-              inredientsName: "tbsp coconut oil",
+              ingredientsName: "tbsp coconut oil",
             },
             {
               ingredientsQuantity: "1",
-              inredientsName: "small onion, sliced",
+              ingredientsName: "small onion, sliced",
             },
             {
               ingredientsQuantity: "2",
-              inredientsName: "cloves garlic, minced",
+              ingredientsName: "cloves garlic, minced",
             },
             {
               ingredientsQuantity: "1",
-              inredientsName: "tbsp fresh ginger, grated",
+              ingredientsName: "tbsp fresh ginger, grated",
             },
             {
               ingredientsQuantity: "1",
-              inredientsName: "stalk lemongrass, cut into 2-inch pieces",
+              ingredientsName: "stalk lemongrass, cut into 2-inch pieces",
             },
             {
               ingredientsQuantity: "2",
-              inredientsName: "tbsp red curry paste",
+              ingredientsName: "tbsp red curry paste",
             },
             {
               ingredientsQuantity: "4",
-              inredientsName: "cups chicken or vegetable broth",
+              ingredientsName: "cups chicken or vegetable broth",
             },
             {
               ingredientsQuantity: "1",
-              inredientsName: "can (14 oz) coconut milk",
+              ingredientsName: "can (14 oz) coconut milk",
             },
             {
               ingredientsQuantity: "1",
-              inredientsName: "tbsp fish sauce",
+              ingredientsName: "tbsp fish sauce",
             },
             {
               ingredientsQuantity: "1",
-              inredientsName: "tbsp soy sauce",
+              ingredientsName: "tbsp soy sauce",
             },
             {
               ingredientsQuantity: "1",
-              inredientsName: "tsp sugar",
+              ingredientsName: "tsp sugar",
             },
             {
               ingredientsQuantity: "8",
-              inredientsName: "oz shrimp, peeled and deveined",
+              ingredientsName: "oz shrimp, peeled and deveined",
             },
             {
               ingredientsQuantity: "1",
-              inredientsName: "cup mushrooms, sliced",
+              ingredientsName: "cup mushrooms, sliced",
             },
             {
               ingredientsQuantity: "1",
-              inredientsName: "red bell pepper, sliced",
+              ingredientsName: "red bell pepper, sliced",
             },
             {
               ingredientsQuantity: "2",
-              inredientsName: "tbsp lime juice",
+              ingredientsName: "tbsp lime juice",
             },
             {
               ingredientsQuantity: "",
-              inredientsName: "Fresh cilantro and lime wedges for garnish",
+              ingredientsName: "Fresh cilantro and lime wedges for garnish",
             },
           ],
         },
@@ -6109,6 +6180,7 @@ export const recipes = [
     prepareTime: "10",
     cookTime: "40",
     recipeCategory: "Soup",
+    categoryId: "10",
     recipeImage: "",
     nutritionInformation: {
       calories: "240",
@@ -6126,67 +6198,67 @@ export const recipes = [
           steps: [
             {
               ingredientsQuantity: "2",
-              inredientsName: "tbsp olive oil",
+              ingredientsName: "tbsp olive oil",
             },
             {
               ingredientsQuantity: "1",
-              inredientsName: "small onion, chopped",
+              ingredientsName: "small onion, chopped",
             },
             {
               ingredientsQuantity: "2",
-              inredientsName: "cloves garlic, minced",
+              ingredientsName: "cloves garlic, minced",
             },
             {
               ingredientsQuantity: "2",
-              inredientsName: "carrots, diced",
+              ingredientsName: "carrots, diced",
             },
             {
               ingredientsQuantity: "1",
-              inredientsName: "celery stalk, diced",
+              ingredientsName: "celery stalk, diced",
             },
             {
               ingredientsQuantity: "1",
-              inredientsName: "tsp cumin",
+              ingredientsName: "tsp cumin",
             },
             {
               ingredientsQuantity: "1/2",
-              inredientsName: "tsp smoked paprika",
+              ingredientsName: "tsp smoked paprika",
             },
             {
               ingredientsQuantity: "1/2",
-              inredientsName: "tsp turmeric",
+              ingredientsName: "tsp turmeric",
             },
             {
               ingredientsQuantity: "1",
-              inredientsName: "cup dried lentils, rinsed",
+              ingredientsName: "cup dried lentils, rinsed",
             },
             {
               ingredientsQuantity: "4",
-              inredientsName: "cups vegetable broth",
+              ingredientsName: "cups vegetable broth",
             },
             {
               ingredientsQuantity: "1",
-              inredientsName: "can (14 oz) diced tomatoes",
+              ingredientsName: "can (14 oz) diced tomatoes",
             },
             {
               ingredientsQuantity: "1",
-              inredientsName: "bay leaf",
+              ingredientsName: "bay leaf",
             },
             {
               ingredientsQuantity: "1/2",
-              inredientsName: "tsp salt",
+              ingredientsName: "tsp salt",
             },
             {
               ingredientsQuantity: "1/4",
-              inredientsName: "tsp black pepper",
+              ingredientsName: "tsp black pepper",
             },
             {
               ingredientsQuantity: "2",
-              inredientsName: "cups spinach or kale, chopped",
+              ingredientsName: "cups spinach or kale, chopped",
             },
             {
               ingredientsQuantity: "1",
-              inredientsName: "tbsp lemon juice",
+              ingredientsName: "tbsp lemon juice",
             },
           ],
         },
@@ -6232,6 +6304,7 @@ export const recipes = [
     prepareTime: "10",
     cookTime: "15",
     recipeCategory: "Pasta",
+    categoryId: "11",
     recipeImage: "",
     nutritionInformation: {
       calories: "520",
@@ -6249,35 +6322,35 @@ export const recipes = [
           steps: [
             {
               ingredientsQuantity: "12",
-              inredientsName: "oz (340g) spaghetti",
+              ingredientsName: "oz (340g) spaghetti",
             },
             {
               ingredientsQuantity: "4",
-              inredientsName: "oz (115g) pancetta, diced",
+              ingredientsName: "oz (115g) pancetta, diced",
             },
             {
               ingredientsQuantity: "2",
-              inredientsName: "large eggs",
+              ingredientsName: "large eggs",
             },
             {
               ingredientsQuantity: "1",
-              inredientsName: "large egg yolk",
+              ingredientsName: "large egg yolk",
             },
             {
               ingredientsQuantity: "1",
-              inredientsName: "cup grated Parmesan cheese",
+              ingredientsName: "cup grated Parmesan cheese",
             },
             {
               ingredientsQuantity: "1",
-              inredientsName: "tsp freshly ground black pepper",
+              ingredientsName: "tsp freshly ground black pepper",
             },
             {
               ingredientsQuantity: "1/2",
-              inredientsName: "tsp salt",
+              ingredientsName: "tsp salt",
             },
             {
               ingredientsQuantity: "2",
-              inredientsName: "tbsp pasta cooking water",
+              ingredientsName: "tbsp pasta cooking water",
             },
           ],
         },
@@ -6322,6 +6395,7 @@ export const recipes = [
     prepareTime: "10",
     cookTime: "20",
     recipeCategory: "Pasta",
+    categoryId: "11",
     recipeImage: "",
     nutritionInformation: {
       calories: "600",
@@ -6339,43 +6413,43 @@ export const recipes = [
           steps: [
             {
               ingredientsQuantity: "12",
-              inredientsName: "oz (340g) fettuccine",
+              ingredientsName: "oz (340g) fettuccine",
             },
             {
               ingredientsQuantity: "2",
-              inredientsName: "tbsp butter",
+              ingredientsName: "tbsp butter",
             },
             {
               ingredientsQuantity: "4",
-              inredientsName: "cloves garlic, minced",
+              ingredientsName: "cloves garlic, minced",
             },
             {
               ingredientsQuantity: "1",
-              inredientsName: "cup heavy cream",
+              ingredientsName: "cup heavy cream",
             },
             {
               ingredientsQuantity: "1",
-              inredientsName: "cup grated Parmesan cheese",
+              ingredientsName: "cup grated Parmesan cheese",
             },
             {
               ingredientsQuantity: "1/2",
-              inredientsName: "cup whole milk",
+              ingredientsName: "cup whole milk",
             },
             {
               ingredientsQuantity: "1/2",
-              inredientsName: "tsp salt",
+              ingredientsName: "tsp salt",
             },
             {
               ingredientsQuantity: "1/2",
-              inredientsName: "tsp black pepper",
+              ingredientsName: "tsp black pepper",
             },
             {
               ingredientsQuantity: "1/2",
-              inredientsName: "tsp nutmeg (optional)",
+              ingredientsName: "tsp nutmeg (optional)",
             },
             {
               ingredientsQuantity: "1/4",
-              inredientsName: "cup chopped parsley",
+              ingredientsName: "cup chopped parsley",
             },
           ],
         },
@@ -6420,6 +6494,7 @@ export const recipes = [
     prepareTime: "10",
     cookTime: "20",
     recipeCategory: "Pasta",
+    categoryId: "11",
     recipeImage: "",
     nutritionInformation: {
       calories: "450",
@@ -6437,47 +6512,47 @@ export const recipes = [
           steps: [
             {
               ingredientsQuantity: "12",
-              inredientsName: "oz (340g) penne pasta",
+              ingredientsName: "oz (340g) penne pasta",
             },
             {
               ingredientsQuantity: "2",
-              inredientsName: "tbsp olive oil",
+              ingredientsName: "tbsp olive oil",
             },
             {
               ingredientsQuantity: "4",
-              inredientsName: "cloves garlic, minced",
+              ingredientsName: "cloves garlic, minced",
             },
             {
               ingredientsQuantity: "1/2",
-              inredientsName: "tsp red pepper flakes",
+              ingredientsName: "tsp red pepper flakes",
             },
             {
               ingredientsQuantity: "1",
-              inredientsName: "can (14 oz) crushed tomatoes",
+              ingredientsName: "can (14 oz) crushed tomatoes",
             },
             {
               ingredientsQuantity: "1/2",
-              inredientsName: "tsp salt",
+              ingredientsName: "tsp salt",
             },
             {
               ingredientsQuantity: "1/2",
-              inredientsName: "tsp black pepper",
+              ingredientsName: "tsp black pepper",
             },
             {
               ingredientsQuantity: "1",
-              inredientsName: "tsp dried oregano",
+              ingredientsName: "tsp dried oregano",
             },
             {
               ingredientsQuantity: "1/2",
-              inredientsName: "lb (225g) shrimp, peeled and deveined",
+              ingredientsName: "lb (225g) shrimp, peeled and deveined",
             },
             {
               ingredientsQuantity: "1/4",
-              inredientsName: "cup chopped fresh basil",
+              ingredientsName: "cup chopped fresh basil",
             },
             {
               ingredientsQuantity: "1/4",
-              inredientsName: "cup grated Parmesan cheese",
+              ingredientsName: "cup grated Parmesan cheese",
             },
           ],
         },
@@ -6522,6 +6597,7 @@ export const recipes = [
     prepareTime: "10",
     cookTime: "20",
     recipeCategory: "Pasta",
+    categoryId: "11",
     recipeImage: "",
     nutritionInformation: {
       calories: "520",
@@ -6539,35 +6615,35 @@ export const recipes = [
           steps: [
             {
               ingredientsQuantity: "12",
-              inredientsName: "oz (340g) penne pasta",
+              ingredientsName: "oz (340g) penne pasta",
             },
             {
               ingredientsQuantity: "2",
-              inredientsName: "tbsp olive oil",
+              ingredientsName: "tbsp olive oil",
             },
             {
               ingredientsQuantity: "2",
-              inredientsName: "boneless, skinless chicken breasts",
+              ingredientsName: "boneless, skinless chicken breasts",
             },
             {
               ingredientsQuantity: "1/2",
-              inredientsName: "tsp salt",
+              ingredientsName: "tsp salt",
             },
             {
               ingredientsQuantity: "1/2",
-              inredientsName: "tsp black pepper",
+              ingredientsName: "tsp black pepper",
             },
             {
               ingredientsQuantity: "1",
-              inredientsName: "cup basil pesto",
+              ingredientsName: "cup basil pesto",
             },
             {
               ingredientsQuantity: "1/2",
-              inredientsName: "cup cherry tomatoes, halved",
+              ingredientsName: "cup cherry tomatoes, halved",
             },
             {
               ingredientsQuantity: "1/4",
-              inredientsName: "cup grated Parmesan cheese",
+              ingredientsName: "cup grated Parmesan cheese",
             },
           ],
         },
@@ -6611,6 +6687,7 @@ export const recipes = [
     prepareTime: "15",
     cookTime: "35",
     recipeCategory: "Pasta",
+    categoryId: "11",
     recipeImage: "",
     nutritionInformation: {
       calories: "600",
@@ -6628,39 +6705,39 @@ export const recipes = [
           steps: [
             {
               ingredientsQuantity: "12",
-              inredientsName: "oz (340g) ziti pasta",
+              ingredientsName: "oz (340g) ziti pasta",
             },
             {
               ingredientsQuantity: "2",
-              inredientsName: "tbsp olive oil",
+              ingredientsName: "tbsp olive oil",
             },
             {
               ingredientsQuantity: "3",
-              inredientsName: "cups marinara sauce",
+              ingredientsName: "cups marinara sauce",
             },
             {
               ingredientsQuantity: "1",
-              inredientsName: "tsp dried basil",
+              ingredientsName: "tsp dried basil",
             },
             {
               ingredientsQuantity: "1/2",
-              inredientsName: "tsp salt",
+              ingredientsName: "tsp salt",
             },
             {
               ingredientsQuantity: "1/2",
-              inredientsName: "tsp black pepper",
+              ingredientsName: "tsp black pepper",
             },
             {
               ingredientsQuantity: "1",
-              inredientsName: "cup ricotta cheese",
+              ingredientsName: "cup ricotta cheese",
             },
             {
               ingredientsQuantity: "1",
-              inredientsName: "cup shredded mozzarella cheese",
+              ingredientsName: "cup shredded mozzarella cheese",
             },
             {
               ingredientsQuantity: "1/2",
-              inredientsName: "cup grated Parmesan cheese",
+              ingredientsName: "cup grated Parmesan cheese",
             },
           ],
         },
@@ -6704,6 +6781,7 @@ export const recipes = [
     prepareTime: "10",
     cookTime: "15",
     recipeCategory: "Pasta",
+    categoryId: "11",
     recipeImage: "",
     nutritionInformation: {
       calories: "480",
@@ -6721,43 +6799,43 @@ export const recipes = [
           steps: [
             {
               ingredientsQuantity: "12",
-              inredientsName: "oz (340g) linguine",
+              ingredientsName: "oz (340g) linguine",
             },
             {
               ingredientsQuantity: "3",
-              inredientsName: "tbsp unsalted butter",
+              ingredientsName: "tbsp unsalted butter",
             },
             {
               ingredientsQuantity: "4",
-              inredientsName: "cloves garlic, minced",
+              ingredientsName: "cloves garlic, minced",
             },
             {
               ingredientsQuantity: "1",
-              inredientsName: "tsp red pepper flakes (optional)",
+              ingredientsName: "tsp red pepper flakes (optional)",
             },
             {
               ingredientsQuantity: "1/4",
-              inredientsName: "cup fresh lemon juice",
+              ingredientsName: "cup fresh lemon juice",
             },
             {
               ingredientsQuantity: "1",
-              inredientsName: "tsp lemon zest",
+              ingredientsName: "tsp lemon zest",
             },
             {
               ingredientsQuantity: "1/2",
-              inredientsName: "tsp salt",
+              ingredientsName: "tsp salt",
             },
             {
               ingredientsQuantity: "1/2",
-              inredientsName: "tsp black pepper",
+              ingredientsName: "tsp black pepper",
             },
             {
               ingredientsQuantity: "1/4",
-              inredientsName: "cup grated Parmesan cheese",
+              ingredientsName: "cup grated Parmesan cheese",
             },
             {
               ingredientsQuantity: "1/4",
-              inredientsName: "cup chopped fresh parsley",
+              ingredientsName: "cup chopped fresh parsley",
             },
           ],
         },
@@ -6802,6 +6880,7 @@ export const recipes = [
     prepareTime: "10",
     cookTime: "20",
     recipeCategory: "Pasta",
+    categoryId: "11",
     recipeImage: "",
     nutritionInformation: {
       calories: "420",
@@ -6819,47 +6898,47 @@ export const recipes = [
           steps: [
             {
               ingredientsQuantity: "12",
-              inredientsName: "oz (340g) penne pasta",
+              ingredientsName: "oz (340g) penne pasta",
             },
             {
               ingredientsQuantity: "2",
-              inredientsName: "tbsp olive oil",
+              ingredientsName: "tbsp olive oil",
             },
             {
               ingredientsQuantity: "1",
-              inredientsName: "small onion, finely chopped",
+              ingredientsName: "small onion, finely chopped",
             },
             {
               ingredientsQuantity: "3",
-              inredientsName: "cloves garlic, minced",
+              ingredientsName: "cloves garlic, minced",
             },
             {
               ingredientsQuantity: "8",
-              inredientsName: "oz (225g) cremini mushrooms, sliced",
+              ingredientsName: "oz (225g) cremini mushrooms, sliced",
             },
             {
               ingredientsQuantity: "4",
-              inredientsName: "cups fresh spinach",
+              ingredientsName: "cups fresh spinach",
             },
             {
               ingredientsQuantity: "1/2",
-              inredientsName: "cup vegetable broth",
+              ingredientsName: "cup vegetable broth",
             },
             {
               ingredientsQuantity: "1/2",
-              inredientsName: "cup grated Parmesan cheese",
+              ingredientsName: "cup grated Parmesan cheese",
             },
             {
               ingredientsQuantity: "1/2",
-              inredientsName: "tsp salt",
+              ingredientsName: "tsp salt",
             },
             {
               ingredientsQuantity: "1/2",
-              inredientsName: "tsp black pepper",
+              ingredientsName: "tsp black pepper",
             },
             {
               ingredientsQuantity: "1/4",
-              inredientsName: "cup chopped fresh basil",
+              ingredientsName: "cup chopped fresh basil",
             },
           ],
         },
@@ -6904,6 +6983,7 @@ export const recipes = [
     prepareTime: "15",
     cookTime: "25",
     recipeCategory: "Pasta",
+    categoryId: "11",
     recipeImage: "",
     nutritionInformation: {
       calories: "650",
@@ -6921,47 +7001,47 @@ export const recipes = [
           steps: [
             {
               ingredientsQuantity: "12",
-              inredientsName: "oz (340g) fettuccine",
+              ingredientsName: "oz (340g) fettuccine",
             },
             {
               ingredientsQuantity: "2",
-              inredientsName: "boneless, skinless chicken breasts",
+              ingredientsName: "boneless, skinless chicken breasts",
             },
             {
               ingredientsQuantity: "1",
-              inredientsName: "tbsp Cajun seasoning",
+              ingredientsName: "tbsp Cajun seasoning",
             },
             {
               ingredientsQuantity: "2",
-              inredientsName: "tbsp olive oil",
+              ingredientsName: "tbsp olive oil",
             },
             {
               ingredientsQuantity: "2",
-              inredientsName: "tbsp butter",
+              ingredientsName: "tbsp butter",
             },
             {
               ingredientsQuantity: "3",
-              inredientsName: "cloves garlic, minced",
+              ingredientsName: "cloves garlic, minced",
             },
             {
               ingredientsQuantity: "1",
-              inredientsName: "cup heavy cream",
+              ingredientsName: "cup heavy cream",
             },
             {
               ingredientsQuantity: "1",
-              inredientsName: "cup grated Parmesan cheese",
+              ingredientsName: "cup grated Parmesan cheese",
             },
             {
               ingredientsQuantity: "1/2",
-              inredientsName: "tsp salt",
+              ingredientsName: "tsp salt",
             },
             {
               ingredientsQuantity: "1/2",
-              inredientsName: "tsp black pepper",
+              ingredientsName: "tsp black pepper",
             },
             {
               ingredientsQuantity: "1/4",
-              inredientsName: "cup chopped fresh parsley",
+              ingredientsName: "cup chopped fresh parsley",
             },
           ],
         },
@@ -7006,6 +7086,7 @@ export const recipes = [
     prepareTime: "10",
     cookTime: "15",
     recipeCategory: "Pasta",
+    categoryId: "11",
     recipeImage: "",
     nutritionInformation: {
       calories: "500",
@@ -7023,43 +7104,43 @@ export const recipes = [
           steps: [
             {
               ingredientsQuantity: "12",
-              inredientsName: "oz (340g) farfalle (bow-tie) pasta",
+              ingredientsName: "oz (340g) farfalle (bow-tie) pasta",
             },
             {
               ingredientsQuantity: "2",
-              inredientsName: "tbsp olive oil",
+              ingredientsName: "tbsp olive oil",
             },
             {
               ingredientsQuantity: "3",
-              inredientsName: "cloves garlic, minced",
+              ingredientsName: "cloves garlic, minced",
             },
             {
               ingredientsQuantity: "1/2",
-              inredientsName: "cup sun-dried tomatoes, chopped",
+              ingredientsName: "cup sun-dried tomatoes, chopped",
             },
             {
               ingredientsQuantity: "1/2",
-              inredientsName: "cup cherry tomatoes, halved",
+              ingredientsName: "cup cherry tomatoes, halved",
             },
             {
               ingredientsQuantity: "1/2",
-              inredientsName: "tsp salt",
+              ingredientsName: "tsp salt",
             },
             {
               ingredientsQuantity: "1/2",
-              inredientsName: "tsp black pepper",
+              ingredientsName: "tsp black pepper",
             },
             {
               ingredientsQuantity: "1/2",
-              inredientsName: "tsp red pepper flakes",
+              ingredientsName: "tsp red pepper flakes",
             },
             {
               ingredientsQuantity: "1/4",
-              inredientsName: "cup grated Parmesan cheese",
+              ingredientsName: "cup grated Parmesan cheese",
             },
             {
               ingredientsQuantity: "1/4",
-              inredientsName: "cup chopped fresh basil",
+              ingredientsName: "cup chopped fresh basil",
             },
           ],
         },
@@ -7104,6 +7185,7 @@ export const recipes = [
     prepareTime: "10",
     cookTime: "25",
     recipeCategory: "Pasta",
+    categoryId: "11",
     recipeImage: "",
     nutritionInformation: {
       calories: "600",
@@ -7121,51 +7203,51 @@ export const recipes = [
           steps: [
             {
               ingredientsQuantity: "12",
-              inredientsName: "oz (340g) rigatoni",
+              ingredientsName: "oz (340g) rigatoni",
             },
             {
               ingredientsQuantity: "2",
-              inredientsName: "tbsp olive oil",
+              ingredientsName: "tbsp olive oil",
             },
             {
               ingredientsQuantity: "1",
-              inredientsName: "lb (450g) ground beef",
+              ingredientsName: "lb (450g) ground beef",
             },
             {
               ingredientsQuantity: "1",
-              inredientsName: "small onion, diced",
+              ingredientsName: "small onion, diced",
             },
             {
               ingredientsQuantity: "3",
-              inredientsName: "cloves garlic, minced",
+              ingredientsName: "cloves garlic, minced",
             },
             {
               ingredientsQuantity: "1",
-              inredientsName: "can (14 oz) crushed tomatoes",
+              ingredientsName: "can (14 oz) crushed tomatoes",
             },
             {
               ingredientsQuantity: "1",
-              inredientsName: "tsp dried oregano",
+              ingredientsName: "tsp dried oregano",
             },
             {
               ingredientsQuantity: "1/2",
-              inredientsName: "tsp salt",
+              ingredientsName: "tsp salt",
             },
             {
               ingredientsQuantity: "1/2",
-              inredientsName: "tsp black pepper",
+              ingredientsName: "tsp black pepper",
             },
             {
               ingredientsQuantity: "1/4",
-              inredientsName: "tsp red pepper flakes",
+              ingredientsName: "tsp red pepper flakes",
             },
             {
               ingredientsQuantity: "1/2",
-              inredientsName: "cup grated Parmesan cheese",
+              ingredientsName: "cup grated Parmesan cheese",
             },
             {
               ingredientsQuantity: "1/4",
-              inredientsName: "cup chopped fresh parsley",
+              ingredientsName: "cup chopped fresh parsley",
             },
           ],
         },
@@ -7205,6 +7287,7 @@ export const recipes = [
     prepareTime: "10",
     cookTime: "15",
     recipeCategory: "Pasta",
+    categoryId: "11",
     recipeImage: "",
     nutritionInformation: {
       calories: "520",
@@ -7222,39 +7305,39 @@ export const recipes = [
           steps: [
             {
               ingredientsQuantity: "12",
-              inredientsName: "oz (340g) spaghetti",
+              ingredientsName: "oz (340g) spaghetti",
             },
             {
               ingredientsQuantity: "2",
-              inredientsName: "tbsp olive oil",
+              ingredientsName: "tbsp olive oil",
             },
             {
               ingredientsQuantity: "1",
-              inredientsName: "lb (450g) shrimp, peeled and deveined",
+              ingredientsName: "lb (450g) shrimp, peeled and deveined",
             },
             {
               ingredientsQuantity: "2",
-              inredientsName: "cloves garlic, minced",
+              ingredientsName: "cloves garlic, minced",
             },
             {
               ingredientsQuantity: "1/2",
-              inredientsName: "tsp salt",
+              ingredientsName: "tsp salt",
             },
             {
               ingredientsQuantity: "1/2",
-              inredientsName: "tsp black pepper",
+              ingredientsName: "tsp black pepper",
             },
             {
               ingredientsQuantity: "1/4",
-              inredientsName: "tsp red pepper flakes",
+              ingredientsName: "tsp red pepper flakes",
             },
             {
               ingredientsQuantity: "1/4",
-              inredientsName: "cup grated Parmesan cheese",
+              ingredientsName: "cup grated Parmesan cheese",
             },
             {
               ingredientsQuantity: "1/2",
-              inredientsName: "lemon, juiced",
+              ingredientsName: "lemon, juiced",
             },
           ],
         },
@@ -7265,27 +7348,27 @@ export const recipes = [
           steps: [
             {
               ingredientsQuantity: "2",
-              inredientsName: "cups fresh basil leaves",
+              ingredientsName: "cups fresh basil leaves",
             },
             {
               ingredientsQuantity: "1/4",
-              inredientsName: "cup pine nuts",
+              ingredientsName: "cup pine nuts",
             },
             {
               ingredientsQuantity: "2",
-              inredientsName: "cloves garlic",
+              ingredientsName: "cloves garlic",
             },
             {
               ingredientsQuantity: "1/2",
-              inredientsName: "cup grated Parmesan cheese",
+              ingredientsName: "cup grated Parmesan cheese",
             },
             {
               ingredientsQuantity: "1/2",
-              inredientsName: "cup olive oil",
+              ingredientsName: "cup olive oil",
             },
             {
               ingredientsQuantity: "1/2",
-              inredientsName: "tsp salt",
+              ingredientsName: "tsp salt",
             },
           ],
         },
@@ -7330,6 +7413,7 @@ export const recipes = [
     prepareTime: "10",
     cookTime: "15",
     recipeCategory: "Pasta",
+    categoryId: "11",
     recipeImage: "",
     nutritionInformation: {
       calories: "610",
@@ -7347,39 +7431,39 @@ export const recipes = [
           steps: [
             {
               ingredientsQuantity: "12",
-              inredientsName: "oz (340g) spaghetti",
+              ingredientsName: "oz (340g) spaghetti",
             },
             {
               ingredientsQuantity: "4",
-              inredientsName: "oz (115g) pancetta, diced",
+              ingredientsName: "oz (115g) pancetta, diced",
             },
             {
               ingredientsQuantity: "3",
-              inredientsName: "large eggs",
+              ingredientsName: "large eggs",
             },
             {
               ingredientsQuantity: "1",
-              inredientsName: "cup grated Parmesan cheese",
+              ingredientsName: "cup grated Parmesan cheese",
             },
             {
               ingredientsQuantity: "1",
-              inredientsName: "cup frozen peas, thawed",
+              ingredientsName: "cup frozen peas, thawed",
             },
             {
               ingredientsQuantity: "2",
-              inredientsName: "cloves garlic, minced",
+              ingredientsName: "cloves garlic, minced",
             },
             {
               ingredientsQuantity: "1/2",
-              inredientsName: "tsp salt",
+              ingredientsName: "tsp salt",
             },
             {
               ingredientsQuantity: "1/2",
-              inredientsName: "tsp black pepper",
+              ingredientsName: "tsp black pepper",
             },
             {
               ingredientsQuantity: "1/2",
-              inredientsName: "cup reserved pasta water",
+              ingredientsName: "cup reserved pasta water",
             },
           ],
         },
@@ -7424,6 +7508,7 @@ export const recipes = [
     prepareTime: "15",
     cookTime: "20",
     recipeCategory: "Pasta",
+    categoryId: "11",
     recipeImage: "",
     nutritionInformation: {
       calories: "750",
@@ -7441,55 +7526,55 @@ export const recipes = [
           steps: [
             {
               ingredientsQuantity: "12",
-              inredientsName: "oz (340g) penne pasta",
+              ingredientsName: "oz (340g) penne pasta",
             },
             {
               ingredientsQuantity: "2",
-              inredientsName: "boneless, skinless chicken breasts",
+              ingredientsName: "boneless, skinless chicken breasts",
             },
             {
               ingredientsQuantity: "1",
-              inredientsName: "tsp salt",
+              ingredientsName: "tsp salt",
             },
             {
               ingredientsQuantity: "1/2",
-              inredientsName: "tsp black pepper",
+              ingredientsName: "tsp black pepper",
             },
             {
               ingredientsQuantity: "1",
-              inredientsName: "tsp Italian seasoning",
+              ingredientsName: "tsp Italian seasoning",
             },
             {
               ingredientsQuantity: "2",
-              inredientsName: "tbsp olive oil",
+              ingredientsName: "tbsp olive oil",
             },
             {
               ingredientsQuantity: "3",
-              inredientsName: "cloves garlic, minced",
+              ingredientsName: "cloves garlic, minced",
             },
             {
               ingredientsQuantity: "1/2",
-              inredientsName: "cup sun-dried tomatoes, chopped",
+              ingredientsName: "cup sun-dried tomatoes, chopped",
             },
             {
               ingredientsQuantity: "1",
-              inredientsName: "cup heavy cream",
+              ingredientsName: "cup heavy cream",
             },
             {
               ingredientsQuantity: "1/2",
-              inredientsName: "cup grated Parmesan cheese",
+              ingredientsName: "cup grated Parmesan cheese",
             },
             {
               ingredientsQuantity: "1",
-              inredientsName: "cup baby spinach",
+              ingredientsName: "cup baby spinach",
             },
             {
               ingredientsQuantity: "1/2",
-              inredientsName: "tsp red pepper flakes",
+              ingredientsName: "tsp red pepper flakes",
             },
             {
               ingredientsQuantity: "1/2",
-              inredientsName: "cup reserved pasta water",
+              ingredientsName: "cup reserved pasta water",
             },
           ],
         },
@@ -7534,6 +7619,7 @@ export const recipes = [
     prepareTime: "10",
     cookTime: "20",
     recipeCategory: "Pasta",
+    categoryId: "11",
     recipeImage: "",
     nutritionInformation: {
       calories: "480",
@@ -7551,47 +7637,47 @@ export const recipes = [
           steps: [
             {
               ingredientsQuantity: "12",
-              inredientsName: "oz (340g) rigatoni",
+              ingredientsName: "oz (340g) rigatoni",
             },
             {
               ingredientsQuantity: "2",
-              inredientsName: "tbsp olive oil",
+              ingredientsName: "tbsp olive oil",
             },
             {
               ingredientsQuantity: "4",
-              inredientsName: "cloves garlic, minced",
+              ingredientsName: "cloves garlic, minced",
             },
             {
               ingredientsQuantity: "1",
-              inredientsName: "tsp red pepper flakes (adjust to taste)",
+              ingredientsName: "tsp red pepper flakes (adjust to taste)",
             },
             {
               ingredientsQuantity: "1",
-              inredientsName: "can (14 oz) crushed tomatoes",
+              ingredientsName: "can (14 oz) crushed tomatoes",
             },
             {
               ingredientsQuantity: "1/2",
-              inredientsName: "tsp salt",
+              ingredientsName: "tsp salt",
             },
             {
               ingredientsQuantity: "1/2",
-              inredientsName: "tsp black pepper",
+              ingredientsName: "tsp black pepper",
             },
             {
               ingredientsQuantity: "1",
-              inredientsName: "tsp dried oregano",
+              ingredientsName: "tsp dried oregano",
             },
             {
               ingredientsQuantity: "1/2",
-              inredientsName: "tsp sugar",
+              ingredientsName: "tsp sugar",
             },
             {
               ingredientsQuantity: "1/4",
-              inredientsName: "cup chopped fresh basil",
+              ingredientsName: "cup chopped fresh basil",
             },
             {
               ingredientsQuantity: "1/4",
-              inredientsName: "cup grated Parmesan cheese",
+              ingredientsName: "cup grated Parmesan cheese",
             },
           ],
         },
@@ -7637,6 +7723,7 @@ export const recipes = [
     prepareTime: "5",
     cookTime: "0",
     recipeCategory: "Beverages",
+    categoryId: "12",
     recipeImage: "",
     nutritionInformation: {
       calories: "210",
@@ -7654,27 +7741,27 @@ export const recipes = [
           steps: [
             {
               ingredientsQuantity: "1",
-              inredientsName: "ripe mango, peeled and chopped",
+              ingredientsName: "ripe mango, peeled and chopped",
             },
             {
               ingredientsQuantity: "1/2",
-              inredientsName: "cup coconut milk",
+              ingredientsName: "cup coconut milk",
             },
             {
               ingredientsQuantity: "1/2",
-              inredientsName: "cup Greek yogurt",
+              ingredientsName: "cup Greek yogurt",
             },
             {
               ingredientsQuantity: "1/2",
-              inredientsName: "cup ice cubes",
+              ingredientsName: "cup ice cubes",
             },
             {
               ingredientsQuantity: "1",
-              inredientsName: "tbsp honey (optional)",
+              ingredientsName: "tbsp honey (optional)",
             },
             {
               ingredientsQuantity: "1/2",
-              inredientsName: "tsp vanilla extract",
+              ingredientsName: "tsp vanilla extract",
             },
           ],
         },
@@ -7716,6 +7803,7 @@ export const recipes = [
     prepareTime: "5",
     cookTime: "0",
     recipeCategory: "Beverages",
+    categoryId: "12",
     recipeImage: "",
     nutritionInformation: {
       calories: "140",
@@ -7733,23 +7821,23 @@ export const recipes = [
           steps: [
             {
               ingredientsQuantity: "1",
-              inredientsName: "tsp matcha powder",
+              ingredientsName: "tsp matcha powder",
             },
             {
               ingredientsQuantity: "2",
-              inredientsName: "tbsp hot water (not boiling)",
+              ingredientsName: "tbsp hot water (not boiling)",
             },
             {
               ingredientsQuantity: "1",
-              inredientsName: "cup milk (dairy or non-dairy)",
+              ingredientsName: "cup milk (dairy or non-dairy)",
             },
             {
               ingredientsQuantity: "1",
-              inredientsName: "tsp honey or sweetener of choice",
+              ingredientsName: "tsp honey or sweetener of choice",
             },
             {
               ingredientsQuantity: "1/2",
-              inredientsName: "cup ice cubes",
+              ingredientsName: "cup ice cubes",
             },
           ],
         },
@@ -7792,6 +7880,7 @@ export const recipes = [
     prepareTime: "5",
     cookTime: "5",
     recipeCategory: "Beverages",
+    categoryId: "12",
     recipeImage: "",
     nutritionInformation: {
       calories: "250",
@@ -7809,27 +7898,27 @@ export const recipes = [
           steps: [
             {
               ingredientsQuantity: "2",
-              inredientsName: "cups whole milk",
+              ingredientsName: "cups whole milk",
             },
             {
               ingredientsQuantity: "2",
-              inredientsName: "tbsp unsweetened cocoa powder",
+              ingredientsName: "tbsp unsweetened cocoa powder",
             },
             {
               ingredientsQuantity: "2",
-              inredientsName: "tbsp sugar",
+              ingredientsName: "tbsp sugar",
             },
             {
               ingredientsQuantity: "1/2",
-              inredientsName: "tsp vanilla extract",
+              ingredientsName: "tsp vanilla extract",
             },
             {
               ingredientsQuantity: "1",
-              inredientsName: "oz dark chocolate, finely chopped",
+              ingredientsName: "oz dark chocolate, finely chopped",
             },
             {
               ingredientsQuantity: "",
-              inredientsName: "Whipped cream (optional)",
+              ingredientsName: "Whipped cream (optional)",
             },
           ],
         },
@@ -7879,6 +7968,7 @@ export const recipes = [
     prepareTime: "10",
     cookTime: "0",
     recipeCategory: "Beverages",
+    categoryId: "12",
     recipeImage: "",
     nutritionInformation: {
       calories: "100",
@@ -7896,23 +7986,23 @@ export const recipes = [
           steps: [
             {
               ingredientsQuantity: "4",
-              inredientsName: "fresh lemons",
+              ingredientsName: "fresh lemons",
             },
             {
               ingredientsQuantity: "4",
-              inredientsName: "cups cold water",
+              ingredientsName: "cups cold water",
             },
             {
               ingredientsQuantity: "1/2",
-              inredientsName: "cup sugar (or honey)",
+              ingredientsName: "cup sugar (or honey)",
             },
             {
               ingredientsQuantity: "",
-              inredientsName: "Ice cubes",
+              ingredientsName: "Ice cubes",
             },
             {
               ingredientsQuantity: "",
-              inredientsName: "Lemon slices and mint leaves for garnish",
+              ingredientsName: "Lemon slices and mint leaves for garnish",
             },
           ],
         },
@@ -7952,6 +8042,7 @@ export const recipes = [
     prepareTime: "5",
     cookTime: "0",
     recipeCategory: "Beverages",
+    categoryId: "12",
     recipeImage: "",
     nutritionInformation: {
       calories: "300",
@@ -7969,27 +8060,27 @@ export const recipes = [
           steps: [
             {
               ingredientsQuantity: "1",
-              inredientsName: "ripe banana",
+              ingredientsName: "ripe banana",
             },
             {
               ingredientsQuantity: "1/2",
-              inredientsName: "cup strawberries (fresh or frozen)",
+              ingredientsName: "cup strawberries (fresh or frozen)",
             },
             {
               ingredientsQuantity: "1",
-              inredientsName: "scoop vanilla protein powder",
+              ingredientsName: "scoop vanilla protein powder",
             },
             {
               ingredientsQuantity: "1",
-              inredientsName: "cup milk (or almond milk)",
+              ingredientsName: "cup milk (or almond milk)",
             },
             {
               ingredientsQuantity: "1",
-              inredientsName: "tbsp peanut butter",
+              ingredientsName: "tbsp peanut butter",
             },
             {
               ingredientsQuantity: "1/2",
-              inredientsName: "cup ice cubes",
+              ingredientsName: "cup ice cubes",
             },
           ],
         },
@@ -8032,6 +8123,7 @@ export const recipes = [
     prepareTime: "5",
     cookTime: "10",
     recipeCategory: "Beverages",
+    categoryId: "12",
     recipeImage: "",
     nutritionInformation: {
       calories: "60",
@@ -8049,23 +8141,23 @@ export const recipes = [
           steps: [
             {
               ingredientsQuantity: "2",
-              inredientsName: "cups water",
+              ingredientsName: "cups water",
             },
             {
               ingredientsQuantity: "1",
-              inredientsName: "inch fresh ginger root, sliced",
+              ingredientsName: "inch fresh ginger root, sliced",
             },
             {
               ingredientsQuantity: "1",
-              inredientsName: "tbsp honey",
+              ingredientsName: "tbsp honey",
             },
             {
               ingredientsQuantity: "1/2",
-              inredientsName: "lemon, juiced",
+              ingredientsName: "lemon, juiced",
             },
             {
               ingredientsQuantity: "1",
-              inredientsName: "cinnamon stick (optional)",
+              ingredientsName: "cinnamon stick (optional)",
             },
           ],
         },
@@ -8114,6 +8206,7 @@ export const recipes = [
     prepareTime: "5",
     cookTime: "0",
     recipeCategory: "Beverages",
+    categoryId: "12",
     recipeImage: "",
     nutritionInformation: {
       calories: "320",
@@ -8131,27 +8224,27 @@ export const recipes = [
           steps: [
             {
               ingredientsQuantity: "1",
-              inredientsName: "ripe banana",
+              ingredientsName: "ripe banana",
             },
             {
               ingredientsQuantity: "1/2",
-              inredientsName: "ripe avocado",
+              ingredientsName: "ripe avocado",
             },
             {
               ingredientsQuantity: "1",
-              inredientsName: "cup milk (or almond milk)",
+              ingredientsName: "cup milk (or almond milk)",
             },
             {
               ingredientsQuantity: "1",
-              inredientsName: "tbsp honey or maple syrup",
+              ingredientsName: "tbsp honey or maple syrup",
             },
             {
               ingredientsQuantity: "1/2",
-              inredientsName: "tsp vanilla extract",
+              ingredientsName: "tsp vanilla extract",
             },
             {
               ingredientsQuantity: "1/2",
-              inredientsName: "cup ice cubes",
+              ingredientsName: "cup ice cubes",
             },
           ],
         },
@@ -8195,6 +8288,7 @@ export const recipes = [
     prepareTime: "5",
     cookTime: "15",
     recipeCategory: "Beverages",
+    categoryId: "12",
     recipeImage: "",
     nutritionInformation: {
       calories: "150",
@@ -8212,35 +8306,35 @@ export const recipes = [
           steps: [
             {
               ingredientsQuantity: "4",
-              inredientsName: "cups apple cider",
+              ingredientsName: "cups apple cider",
             },
             {
               ingredientsQuantity: "1",
-              inredientsName: "cinnamon stick",
+              ingredientsName: "cinnamon stick",
             },
             {
               ingredientsQuantity: "2",
-              inredientsName: "cloves",
+              ingredientsName: "cloves",
             },
             {
               ingredientsQuantity: "1/2",
-              inredientsName: "tsp nutmeg",
+              ingredientsName: "tsp nutmeg",
             },
             {
               ingredientsQuantity: "1/2",
-              inredientsName: "tsp allspice",
+              ingredientsName: "tsp allspice",
             },
             {
               ingredientsQuantity: "1",
-              inredientsName: "tbsp brown sugar",
+              ingredientsName: "tbsp brown sugar",
             },
             {
               ingredientsQuantity: "1/2",
-              inredientsName: "orange, sliced",
+              ingredientsName: "orange, sliced",
             },
             {
               ingredientsQuantity: "1/2",
-              inredientsName: "apple, sliced",
+              ingredientsName: "apple, sliced",
             },
           ],
         },
@@ -8289,6 +8383,7 @@ export const recipes = [
     prepareTime: "10",
     cookTime: "15",
     recipeCategory: "Healthy",
+    categoryId: "13",
     recipeImage: "",
     nutritionInformation: {
       calories: "350",
@@ -8306,47 +8401,47 @@ export const recipes = [
           steps: [
             {
               ingredientsQuantity: "2",
-              inredientsName: "salmon fillets (about 150g each)",
+              ingredientsName: "salmon fillets (about 150g each)",
             },
             {
               ingredientsQuantity: "1",
-              inredientsName: "cup cooked quinoa",
+              ingredientsName: "cup cooked quinoa",
             },
             {
               ingredientsQuantity: "1/2",
-              inredientsName: "cucumber, diced",
+              ingredientsName: "cucumber, diced",
             },
             {
               ingredientsQuantity: "1/2",
-              inredientsName: "cup cherry tomatoes, halved",
+              ingredientsName: "cup cherry tomatoes, halved",
             },
             {
               ingredientsQuantity: "1/4",
-              inredientsName: "red onion, finely chopped",
+              ingredientsName: "red onion, finely chopped",
             },
             {
               ingredientsQuantity: "1",
-              inredientsName: "tbsp olive oil",
+              ingredientsName: "tbsp olive oil",
             },
             {
               ingredientsQuantity: "1",
-              inredientsName: "tbsp lemon juice",
+              ingredientsName: "tbsp lemon juice",
             },
             {
               ingredientsQuantity: "1",
-              inredientsName: "tsp garlic powder",
+              ingredientsName: "tsp garlic powder",
             },
             {
               ingredientsQuantity: "1/2",
-              inredientsName: "tsp salt",
+              ingredientsName: "tsp salt",
             },
             {
               ingredientsQuantity: "1/2",
-              inredientsName: "tsp black pepper",
+              ingredientsName: "tsp black pepper",
             },
             {
               ingredientsQuantity: "1/2",
-              inredientsName: "tsp paprika",
+              ingredientsName: "tsp paprika",
             },
           ],
         },
@@ -8391,6 +8486,7 @@ export const recipes = [
     prepareTime: "5",
     cookTime: "5",
     recipeCategory: "Healthy",
+    categoryId: "13",
     recipeImage: "",
     nutritionInformation: {
       calories: "250",
@@ -8408,31 +8504,31 @@ export const recipes = [
           steps: [
             {
               ingredientsQuantity: "1",
-              inredientsName: "slice whole-grain bread",
+              ingredientsName: "slice whole-grain bread",
             },
             {
               ingredientsQuantity: "1/2",
-              inredientsName: "ripe avocado",
+              ingredientsName: "ripe avocado",
             },
             {
               ingredientsQuantity: "1",
-              inredientsName: "egg",
+              ingredientsName: "egg",
             },
             {
               ingredientsQuantity: "1/2",
-              inredientsName: "tsp lemon juice",
+              ingredientsName: "tsp lemon juice",
             },
             {
               ingredientsQuantity: "1/4",
-              inredientsName: "tsp salt",
+              ingredientsName: "tsp salt",
             },
             {
               ingredientsQuantity: "1/4",
-              inredientsName: "tsp black pepper",
+              ingredientsName: "tsp black pepper",
             },
             {
               ingredientsQuantity: "1/2",
-              inredientsName: "tsp olive oil",
+              ingredientsName: "tsp olive oil",
             },
           ],
         },
@@ -8476,6 +8572,7 @@ export const recipes = [
     prepareTime: "5",
     cookTime: "10",
     recipeCategory: "Healthy",
+    categoryId: "13",
     recipeImage: "",
     nutritionInformation: {
       calories: "220",
@@ -8493,39 +8590,39 @@ export const recipes = [
           steps: [
             {
               ingredientsQuantity: "1",
-              inredientsName: "cup cooked chickpeas (or canned, drained)",
+              ingredientsName: "cup cooked chickpeas (or canned, drained)",
             },
             {
               ingredientsQuantity: "2",
-              inredientsName: "cups fresh spinach",
+              ingredientsName: "cups fresh spinach",
             },
             {
               ingredientsQuantity: "1/2",
-              inredientsName: "red bell pepper, sliced",
+              ingredientsName: "red bell pepper, sliced",
             },
             {
               ingredientsQuantity: "1/4",
-              inredientsName: "red onion, sliced",
+              ingredientsName: "red onion, sliced",
             },
             {
               ingredientsQuantity: "1",
-              inredientsName: "tbsp olive oil",
+              ingredientsName: "tbsp olive oil",
             },
             {
               ingredientsQuantity: "1",
-              inredientsName: "garlic clove, minced",
+              ingredientsName: "garlic clove, minced",
             },
             {
               ingredientsQuantity: "1/2",
-              inredientsName: "tsp cumin",
+              ingredientsName: "tsp cumin",
             },
             {
               ingredientsQuantity: "1/2",
-              inredientsName: "tsp salt",
+              ingredientsName: "tsp salt",
             },
             {
               ingredientsQuantity: "1/4",
-              inredientsName: "tsp red pepper flakes (optional)",
+              ingredientsName: "tsp red pepper flakes (optional)",
             },
           ],
         },
@@ -8570,6 +8667,7 @@ export const recipes = [
     prepareTime: "5",
     cookTime: "0",
     recipeCategory: "Healthy",
+    categoryId: "13",
     recipeImage: "",
     nutritionInformation: {
       calories: "180",
@@ -8587,20 +8685,20 @@ export const recipes = [
           steps: [
             {
               ingredientsQuantity: "1",
-              inredientsName: "cup Greek yogurt",
+              ingredientsName: "cup Greek yogurt",
             },
             {
               ingredientsQuantity: "1/2",
-              inredientsName:
+              ingredientsName:
                 "cup mixed berries (strawberries, blueberries, raspberries)",
             },
             {
               ingredientsQuantity: "1/4",
-              inredientsName: "cup granola",
+              ingredientsName: "cup granola",
             },
             {
               ingredientsQuantity: "1",
-              inredientsName: "tsp honey",
+              ingredientsName: "tsp honey",
             },
           ],
         },
@@ -8644,6 +8742,7 @@ export const recipes = [
     prepareTime: "10",
     cookTime: "20",
     recipeCategory: "Healthy",
+    categoryId: "13",
     recipeImage: "",
     nutritionInformation: {
       calories: "270",
@@ -8661,31 +8760,31 @@ export const recipes = [
           steps: [
             {
               ingredientsQuantity: "1",
-              inredientsName: "medium sweet potato, diced",
+              ingredientsName: "medium sweet potato, diced",
             },
             {
               ingredientsQuantity: "2",
-              inredientsName: "cups kale, chopped",
+              ingredientsName: "cups kale, chopped",
             },
             {
               ingredientsQuantity: "1",
-              inredientsName: "tbsp olive oil",
+              ingredientsName: "tbsp olive oil",
             },
             {
               ingredientsQuantity: "1/2",
-              inredientsName: "tsp salt",
+              ingredientsName: "tsp salt",
             },
             {
               ingredientsQuantity: "1/2",
-              inredientsName: "tsp black pepper",
+              ingredientsName: "tsp black pepper",
             },
             {
               ingredientsQuantity: "1",
-              inredientsName: "tbsp lemon juice",
+              ingredientsName: "tbsp lemon juice",
             },
             {
               ingredientsQuantity: "1",
-              inredientsName: "tbsp pumpkin seeds",
+              ingredientsName: "tbsp pumpkin seeds",
             },
           ],
         },
@@ -8728,6 +8827,7 @@ export const recipes = [
     prepareTime: "10",
     cookTime: "30",
     recipeCategory: "Healthy",
+    categoryId: "13",
     recipeImage: "",
     nutritionInformation: {
       calories: "280",
@@ -8745,55 +8845,55 @@ export const recipes = [
           steps: [
             {
               ingredientsQuantity: "1",
-              inredientsName: "cup dry lentils, rinsed",
+              ingredientsName: "cup dry lentils, rinsed",
             },
             {
               ingredientsQuantity: "1",
-              inredientsName: "medium carrot, diced",
+              ingredientsName: "medium carrot, diced",
             },
             {
               ingredientsQuantity: "1",
-              inredientsName: "celery stalk, chopped",
+              ingredientsName: "celery stalk, chopped",
             },
             {
               ingredientsQuantity: "1",
-              inredientsName: "small onion, diced",
+              ingredientsName: "small onion, diced",
             },
             {
               ingredientsQuantity: "1",
-              inredientsName: "garlic clove, minced",
+              ingredientsName: "garlic clove, minced",
             },
             {
               ingredientsQuantity: "4",
-              inredientsName: "cups vegetable broth",
+              ingredientsName: "cups vegetable broth",
             },
             {
               ingredientsQuantity: "1",
-              inredientsName: "can (400g) diced tomatoes",
+              ingredientsName: "can (400g) diced tomatoes",
             },
             {
               ingredientsQuantity: "1",
-              inredientsName: "tsp olive oil",
+              ingredientsName: "tsp olive oil",
             },
             {
               ingredientsQuantity: "1/2",
-              inredientsName: "tsp cumin",
+              ingredientsName: "tsp cumin",
             },
             {
               ingredientsQuantity: "1/2",
-              inredientsName: "tsp salt",
+              ingredientsName: "tsp salt",
             },
             {
               ingredientsQuantity: "1/2",
-              inredientsName: "tsp black pepper",
+              ingredientsName: "tsp black pepper",
             },
             {
               ingredientsQuantity: "1/4",
-              inredientsName: "tsp turmeric",
+              ingredientsName: "tsp turmeric",
             },
             {
               ingredientsQuantity: "1",
-              inredientsName: "bay leaf",
+              ingredientsName: "bay leaf",
             },
           ],
         },
@@ -8837,6 +8937,7 @@ export const recipes = [
     prepareTime: "5",
     cookTime: "7",
     recipeCategory: "Healthy",
+    categoryId: "13",
     recipeImage: "",
     nutritionInformation: {
       calories: "210",
@@ -8854,27 +8955,27 @@ export const recipes = [
           steps: [
             {
               ingredientsQuantity: "2",
-              inredientsName: "eggs",
+              ingredientsName: "eggs",
             },
             {
               ingredientsQuantity: "1/2",
-              inredientsName: "cup fresh spinach, chopped",
+              ingredientsName: "cup fresh spinach, chopped",
             },
             {
               ingredientsQuantity: "1/4",
-              inredientsName: "cup mushrooms, sliced",
+              ingredientsName: "cup mushrooms, sliced",
             },
             {
               ingredientsQuantity: "1",
-              inredientsName: "tbsp olive oil",
+              ingredientsName: "tbsp olive oil",
             },
             {
               ingredientsQuantity: "1/4",
-              inredientsName: "tsp salt",
+              ingredientsName: "tsp salt",
             },
             {
               ingredientsQuantity: "1/4",
-              inredientsName: "tsp black pepper",
+              ingredientsName: "tsp black pepper",
             },
           ],
         },
@@ -8914,6 +9015,7 @@ export const recipes = [
     prepareTime: "10",
     cookTime: "15",
     recipeCategory: "Healthy",
+    categoryId: "13",
     recipeImage: "",
     nutritionInformation: {
       calories: "320",
@@ -8931,39 +9033,39 @@ export const recipes = [
           steps: [
             {
               ingredientsQuantity: "1/2",
-              inredientsName: "cup quinoa, rinsed",
+              ingredientsName: "cup quinoa, rinsed",
             },
             {
               ingredientsQuantity: "1",
-              inredientsName: "cup water",
+              ingredientsName: "cup water",
             },
             {
               ingredientsQuantity: "1/2",
-              inredientsName: "cup canned chickpeas, drained",
+              ingredientsName: "cup canned chickpeas, drained",
             },
             {
               ingredientsQuantity: "1/2",
-              inredientsName: "cucumber, diced",
+              ingredientsName: "cucumber, diced",
             },
             {
               ingredientsQuantity: "1/4",
-              inredientsName: "red bell pepper, diced",
+              ingredientsName: "red bell pepper, diced",
             },
             {
               ingredientsQuantity: "1",
-              inredientsName: "tbsp olive oil",
+              ingredientsName: "tbsp olive oil",
             },
             {
               ingredientsQuantity: "1",
-              inredientsName: "tbsp lemon juice",
+              ingredientsName: "tbsp lemon juice",
             },
             {
               ingredientsQuantity: "1/4",
-              inredientsName: "tsp salt",
+              ingredientsName: "tsp salt",
             },
             {
               ingredientsQuantity: "1/4",
-              inredientsName: "tsp black pepper",
+              ingredientsName: "tsp black pepper",
             },
           ],
         },
@@ -9002,6 +9104,7 @@ export const recipes = [
     prepareTime: "10",
     cookTime: "20",
     recipeCategory: "Healthy",
+    categoryId: "13",
     recipeImage: "",
     nutritionInformation: {
       calories: "350",
@@ -9019,39 +9122,39 @@ export const recipes = [
           steps: [
             {
               ingredientsQuantity: "1",
-              inredientsName: "chicken breast (about 150g)",
+              ingredientsName: "chicken breast (about 150g)",
             },
             {
               ingredientsQuantity: "1",
-              inredientsName: "zucchini, sliced",
+              ingredientsName: "zucchini, sliced",
             },
             {
               ingredientsQuantity: "1",
-              inredientsName: "bell pepper, chopped",
+              ingredientsName: "bell pepper, chopped",
             },
             {
               ingredientsQuantity: "1/2",
-              inredientsName: "red onion, sliced",
+              ingredientsName: "red onion, sliced",
             },
             {
               ingredientsQuantity: "1",
-              inredientsName: "tbsp olive oil",
+              ingredientsName: "tbsp olive oil",
             },
             {
               ingredientsQuantity: "1/2",
-              inredientsName: "tsp garlic powder",
+              ingredientsName: "tsp garlic powder",
             },
             {
               ingredientsQuantity: "1/2",
-              inredientsName: "tsp salt",
+              ingredientsName: "tsp salt",
             },
             {
               ingredientsQuantity: "1/4",
-              inredientsName: "tsp black pepper",
+              ingredientsName: "tsp black pepper",
             },
             {
               ingredientsQuantity: "1/4",
-              inredientsName: "tsp paprika",
+              ingredientsName: "tsp paprika",
             },
           ],
         },
@@ -9096,6 +9199,7 @@ export const recipes = [
     prepareTime: "5",
     cookTime: "120",
     recipeCategory: "Healthy",
+    categoryId: "13",
     recipeImage: "",
     nutritionInformation: {
       calories: "200",
@@ -9113,23 +9217,23 @@ export const recipes = [
           steps: [
             {
               ingredientsQuantity: "2",
-              inredientsName: "tbsp chia seeds",
+              ingredientsName: "tbsp chia seeds",
             },
             {
               ingredientsQuantity: "1/2",
-              inredientsName: "cup almond milk",
+              ingredientsName: "cup almond milk",
             },
             {
               ingredientsQuantity: "1",
-              inredientsName: "tsp honey",
+              ingredientsName: "tsp honey",
             },
             {
               ingredientsQuantity: "1/2",
-              inredientsName: "tsp vanilla extract",
+              ingredientsName: "tsp vanilla extract",
             },
             {
               ingredientsQuantity: "1/4",
-              inredientsName: "cup mixed berries (strawberries, blueberries)",
+              ingredientsName: "cup mixed berries (strawberries, blueberries)",
             },
           ],
         },
@@ -9163,6 +9267,7 @@ export const recipes = [
     prepareTime: "10",
     cookTime: "0",
     recipeCategory: "Healthy",
+    categoryId: "13",
     recipeImage: "",
     nutritionInformation: {
       calories: "280",
@@ -9180,39 +9285,39 @@ export const recipes = [
           steps: [
             {
               ingredientsQuantity: "1",
-              inredientsName: "can (120g) tuna in water, drained",
+              ingredientsName: "can (120g) tuna in water, drained",
             },
             {
               ingredientsQuantity: "1",
-              inredientsName: "ripe avocado, diced",
+              ingredientsName: "ripe avocado, diced",
             },
             {
               ingredientsQuantity: "1/4",
-              inredientsName: "red onion, finely chopped",
+              ingredientsName: "red onion, finely chopped",
             },
             {
               ingredientsQuantity: "1/2",
-              inredientsName: "cucumber, diced",
+              ingredientsName: "cucumber, diced",
             },
             {
               ingredientsQuantity: "1",
-              inredientsName: "tbsp lemon juice",
+              ingredientsName: "tbsp lemon juice",
             },
             {
               ingredientsQuantity: "1",
-              inredientsName: "tbsp olive oil",
+              ingredientsName: "tbsp olive oil",
             },
             {
               ingredientsQuantity: "1/4",
-              inredientsName: "tsp salt",
+              ingredientsName: "tsp salt",
             },
             {
               ingredientsQuantity: "1/4",
-              inredientsName: "tsp black pepper",
+              ingredientsName: "tsp black pepper",
             },
             {
               ingredientsQuantity: "1",
-              inredientsName: "tbsp chopped fresh parsley",
+              ingredientsName: "tbsp chopped fresh parsley",
             },
           ],
         },
@@ -9252,6 +9357,7 @@ export const recipes = [
     prepareTime: "10",
     cookTime: "20",
     recipeCategory: "Healthy",
+    categoryId: "13",
     recipeImage: "",
     nutritionInformation: {
       calories: "350",
@@ -9269,47 +9375,47 @@ export const recipes = [
           steps: [
             {
               ingredientsQuantity: "1",
-              inredientsName: "medium sweet potato, peeled and diced",
+              ingredientsName: "medium sweet potato, peeled and diced",
             },
             {
               ingredientsQuantity: "1/2",
-              inredientsName: "cup black beans, drained and rinsed",
+              ingredientsName: "cup black beans, drained and rinsed",
             },
             {
               ingredientsQuantity: "1/2",
-              inredientsName: "tsp cumin",
+              ingredientsName: "tsp cumin",
             },
             {
               ingredientsQuantity: "1/2",
-              inredientsName: "tsp smoked paprika",
+              ingredientsName: "tsp smoked paprika",
             },
             {
               ingredientsQuantity: "1/4",
-              inredientsName: "tsp salt",
+              ingredientsName: "tsp salt",
             },
             {
               ingredientsQuantity: "1",
-              inredientsName: "tbsp olive oil",
+              ingredientsName: "tbsp olive oil",
             },
             {
               ingredientsQuantity: "4",
-              inredientsName: "small whole wheat tortillas",
+              ingredientsName: "small whole wheat tortillas",
             },
             {
               ingredientsQuantity: "1/4",
-              inredientsName: "cup diced tomatoes",
+              ingredientsName: "cup diced tomatoes",
             },
             {
               ingredientsQuantity: "1/4",
-              inredientsName: "cup shredded lettuce",
+              ingredientsName: "cup shredded lettuce",
             },
             {
               ingredientsQuantity: "1",
-              inredientsName: "tbsp chopped cilantro",
+              ingredientsName: "tbsp chopped cilantro",
             },
             {
               ingredientsQuantity: "1",
-              inredientsName: "tbsp lime juice",
+              ingredientsName: "tbsp lime juice",
             },
           ],
         },
@@ -9354,6 +9460,7 @@ export const recipes = [
     prepareTime: "15",
     cookTime: "15",
     recipeCategory: "Korean",
+    categoryId: "14",
     recipeImage: "",
     nutritionInformation: {
       calories: "450",
@@ -9371,55 +9478,55 @@ export const recipes = [
           steps: [
             {
               ingredientsQuantity: "1",
-              inredientsName: "cup cooked short-grain rice",
+              ingredientsName: "cup cooked short-grain rice",
             },
             {
               ingredientsQuantity: "100g",
-              inredientsName: "beef (ribeye or sirloin), thinly sliced",
+              ingredientsName: "beef (ribeye or sirloin), thinly sliced",
             },
             {
               ingredientsQuantity: "1/2",
-              inredientsName: "carrot, julienned",
+              ingredientsName: "carrot, julienned",
             },
             {
               ingredientsQuantity: "1/2",
-              inredientsName: "zucchini, julienned",
+              ingredientsName: "zucchini, julienned",
             },
             {
               ingredientsQuantity: "1/4",
-              inredientsName: "cup bean sprouts",
+              ingredientsName: "cup bean sprouts",
             },
             {
               ingredientsQuantity: "1/4",
-              inredientsName: "cup spinach",
+              ingredientsName: "cup spinach",
             },
             {
               ingredientsQuantity: "1/2",
-              inredientsName: "tsp sesame oil",
+              ingredientsName: "tsp sesame oil",
             },
             {
               ingredientsQuantity: "1",
-              inredientsName: "tsp soy sauce",
+              ingredientsName: "tsp soy sauce",
             },
             {
               ingredientsQuantity: "1",
-              inredientsName: "egg",
+              ingredientsName: "egg",
             },
             {
               ingredientsQuantity: "1",
-              inredientsName: "tbsp gochujang (Korean chili paste)",
+              ingredientsName: "tbsp gochujang (Korean chili paste)",
             },
             {
               ingredientsQuantity: "1",
-              inredientsName: "tsp sesame seeds",
+              ingredientsName: "tsp sesame seeds",
             },
             {
               ingredientsQuantity: "1",
-              inredientsName: "clove garlic, minced",
+              ingredientsName: "clove garlic, minced",
             },
             {
               ingredientsQuantity: "1/2",
-              inredientsName: "tbsp vegetable oil",
+              ingredientsName: "tbsp vegetable oil",
             },
           ],
         },
@@ -9474,6 +9581,7 @@ export const recipes = [
     prepareTime: "10",
     cookTime: "25",
     recipeCategory: "Korean",
+    categoryId: "14",
     recipeImage: "",
     nutritionInformation: {
       calories: "320",
@@ -9491,43 +9599,43 @@ export const recipes = [
           steps: [
             {
               ingredientsQuantity: "1",
-              inredientsName: "cup aged kimchi, chopped",
+              ingredientsName: "cup aged kimchi, chopped",
             },
             {
               ingredientsQuantity: "100g",
-              inredientsName: "pork belly, sliced",
+              ingredientsName: "pork belly, sliced",
             },
             {
               ingredientsQuantity: "1/2",
-              inredientsName: "onion, sliced",
+              ingredientsName: "onion, sliced",
             },
             {
               ingredientsQuantity: "1/2",
-              inredientsName: "block tofu, cubed",
+              ingredientsName: "block tofu, cubed",
             },
             {
               ingredientsQuantity: "2",
-              inredientsName: "cups water",
+              ingredientsName: "cups water",
             },
             {
               ingredientsQuantity: "1/2",
-              inredientsName: "tbsp gochugaru (Korean chili flakes)",
+              ingredientsName: "tbsp gochugaru (Korean chili flakes)",
             },
             {
               ingredientsQuantity: "1",
-              inredientsName: "tbsp gochujang (Korean chili paste)",
+              ingredientsName: "tbsp gochujang (Korean chili paste)",
             },
             {
               ingredientsQuantity: "1",
-              inredientsName: "tbsp soy sauce",
+              ingredientsName: "tbsp soy sauce",
             },
             {
               ingredientsQuantity: "1",
-              inredientsName: "tsp sesame oil",
+              ingredientsName: "tsp sesame oil",
             },
             {
               ingredientsQuantity: "1",
-              inredientsName: "green onion, chopped",
+              ingredientsName: "green onion, chopped",
             },
           ],
         },
@@ -9576,6 +9684,7 @@ export const recipes = [
     prepareTime: "15",
     cookTime: "15",
     recipeCategory: "Korean",
+    categoryId: "14",
     recipeImage: "",
     nutritionInformation: {
       calories: "400",
@@ -9593,47 +9702,47 @@ export const recipes = [
           steps: [
             {
               ingredientsQuantity: "100g",
-              inredientsName: "sweet potato glass noodles",
+              ingredientsName: "sweet potato glass noodles",
             },
             {
               ingredientsQuantity: "1/2",
-              inredientsName: "carrot, julienned",
+              ingredientsName: "carrot, julienned",
             },
             {
               ingredientsQuantity: "1/2",
-              inredientsName: "zucchini, julienned",
+              ingredientsName: "zucchini, julienned",
             },
             {
               ingredientsQuantity: "1/2",
-              inredientsName: "onion, sliced",
+              ingredientsName: "onion, sliced",
             },
             {
               ingredientsQuantity: "1/2",
-              inredientsName: "red bell pepper, julienned",
+              ingredientsName: "red bell pepper, julienned",
             },
             {
               ingredientsQuantity: "1/2",
-              inredientsName: "cup mushrooms, sliced",
+              ingredientsName: "cup mushrooms, sliced",
             },
             {
               ingredientsQuantity: "1",
-              inredientsName: "tbsp soy sauce",
+              ingredientsName: "tbsp soy sauce",
             },
             {
               ingredientsQuantity: "1",
-              inredientsName: "tsp sesame oil",
+              ingredientsName: "tsp sesame oil",
             },
             {
               ingredientsQuantity: "1",
-              inredientsName: "tsp sugar",
+              ingredientsName: "tsp sugar",
             },
             {
               ingredientsQuantity: "1",
-              inredientsName: "tbsp vegetable oil",
+              ingredientsName: "tbsp vegetable oil",
             },
             {
               ingredientsQuantity: "1",
-              inredientsName: "tsp sesame seeds",
+              ingredientsName: "tsp sesame seeds",
             },
           ],
         },
@@ -9676,6 +9785,7 @@ export const recipes = [
     prepareTime: "10",
     cookTime: "20",
     recipeCategory: "Korean",
+    categoryId: "14",
     recipeImage: "",
     nutritionInformation: {
       calories: "500",
@@ -9693,39 +9803,39 @@ export const recipes = [
           steps: [
             {
               ingredientsQuantity: "1",
-              inredientsName: "cup Korean rice cakes (tteok)",
+              ingredientsName: "cup Korean rice cakes (tteok)",
             },
             {
               ingredientsQuantity: "2",
-              inredientsName: "cups water",
+              ingredientsName: "cups water",
             },
             {
               ingredientsQuantity: "1",
-              inredientsName: "tbsp gochujang (Korean chili paste)",
+              ingredientsName: "tbsp gochujang (Korean chili paste)",
             },
             {
               ingredientsQuantity: "1",
-              inredientsName: "tsp gochugaru (Korean chili flakes)",
+              ingredientsName: "tsp gochugaru (Korean chili flakes)",
             },
             {
               ingredientsQuantity: "1",
-              inredientsName: "tbsp soy sauce",
+              ingredientsName: "tbsp soy sauce",
             },
             {
               ingredientsQuantity: "1",
-              inredientsName: "tsp sugar",
+              ingredientsName: "tsp sugar",
             },
             {
               ingredientsQuantity: "1/2",
-              inredientsName: "cup fish cakes, sliced (optional)",
+              ingredientsName: "cup fish cakes, sliced (optional)",
             },
             {
               ingredientsQuantity: "1/2",
-              inredientsName: "green onion, chopped",
+              ingredientsName: "green onion, chopped",
             },
             {
               ingredientsQuantity: "1",
-              inredientsName: "tsp sesame oil",
+              ingredientsName: "tsp sesame oil",
             },
           ],
         },
@@ -9765,6 +9875,7 @@ export const recipes = [
     prepareTime: "10",
     cookTime: "10",
     recipeCategory: "Korean",
+    categoryId: "14",
     recipeImage: "",
     nutritionInformation: {
       calories: "430",
@@ -9782,35 +9893,35 @@ export const recipes = [
           steps: [
             {
               ingredientsQuantity: "1",
-              inredientsName: "cup cooked rice (day-old rice is best)",
+              ingredientsName: "cup cooked rice (day-old rice is best)",
             },
             {
               ingredientsQuantity: "1/2",
-              inredientsName: "cup kimchi, chopped",
+              ingredientsName: "cup kimchi, chopped",
             },
             {
               ingredientsQuantity: "1/2",
-              inredientsName: "onion, diced",
+              ingredientsName: "onion, diced",
             },
             {
               ingredientsQuantity: "1",
-              inredientsName: "tsp soy sauce",
+              ingredientsName: "tsp soy sauce",
             },
             {
               ingredientsQuantity: "1",
-              inredientsName: "tsp gochujang",
+              ingredientsName: "tsp gochujang",
             },
             {
               ingredientsQuantity: "1",
-              inredientsName: "egg (fried, for topping)",
+              ingredientsName: "egg (fried, for topping)",
             },
             {
               ingredientsQuantity: "1",
-              inredientsName: "tsp sesame oil",
+              ingredientsName: "tsp sesame oil",
             },
             {
               ingredientsQuantity: "1/2",
-              inredientsName: "green onion, chopped",
+              ingredientsName: "green onion, chopped",
             },
           ],
         },
@@ -9845,6 +9956,7 @@ export const recipes = [
     prepareTime: "15",
     cookTime: "10",
     recipeCategory: "Korean",
+    categoryId: "14",
     recipeImage: "",
     nutritionInformation: {
       calories: "450",
@@ -9862,32 +9974,32 @@ export const recipes = [
           steps: [
             {
               ingredientsQuantity: "300g",
-              inredientsName:
+              ingredientsName:
                 "boneless chicken thighs, cut into bite-sized pieces",
             },
             {
               ingredientsQuantity: "1/2",
-              inredientsName: "cup Korean rice cakes (tteok)",
+              ingredientsName: "cup Korean rice cakes (tteok)",
             },
             {
               ingredientsQuantity: "1/2",
-              inredientsName: "onion, sliced",
+              ingredientsName: "onion, sliced",
             },
             {
               ingredientsQuantity: "1/2",
-              inredientsName: "carrot, julienned",
+              ingredientsName: "carrot, julienned",
             },
             {
               ingredientsQuantity: "1/2",
-              inredientsName: "cup cabbage, chopped",
+              ingredientsName: "cup cabbage, chopped",
             },
             {
               ingredientsQuantity: "1",
-              inredientsName: "green onion, chopped",
+              ingredientsName: "green onion, chopped",
             },
             {
               ingredientsQuantity: "1",
-              inredientsName: "tbsp vegetable oil",
+              ingredientsName: "tbsp vegetable oil",
             },
           ],
         },
@@ -9963,6 +10075,7 @@ export const recipes = [
     prepareTime: "10",
     cookTime: "15",
     recipeCategory: "Korean",
+    categoryId: "14",
     recipeImage: "",
     nutritionInformation: {
       calories: "600",
@@ -9980,27 +10093,27 @@ export const recipes = [
           steps: [
             {
               ingredientsQuantity: "300g",
-              inredientsName: "pork belly, sliced thick",
+              ingredientsName: "pork belly, sliced thick",
             },
             {
               ingredientsQuantity: "1/2",
-              inredientsName: "onion, sliced",
+              ingredientsName: "onion, sliced",
             },
             {
               ingredientsQuantity: "1/2",
-              inredientsName: "zucchini, sliced",
+              ingredientsName: "zucchini, sliced",
             },
             {
               ingredientsQuantity: "5",
-              inredientsName: "lettuce leaves",
+              ingredientsName: "lettuce leaves",
             },
             {
               ingredientsQuantity: "2",
-              inredientsName: "cloves garlic, sliced",
+              ingredientsName: "cloves garlic, sliced",
             },
             {
               ingredientsQuantity: "1",
-              inredientsName: "tsp sesame oil",
+              ingredientsName: "tsp sesame oil",
             },
           ],
         },
@@ -10011,23 +10124,23 @@ export const recipes = [
           steps: [
             {
               ingredientsQuantity: "1",
-              inredientsName: "tbsp gochujang",
+              ingredientsName: "tbsp gochujang",
             },
             {
               ingredientsQuantity: "1",
-              inredientsName: "tbsp doenjang (Korean soybean paste)",
+              ingredientsName: "tbsp doenjang (Korean soybean paste)",
             },
             {
               ingredientsQuantity: "1",
-              inredientsName: "tsp sesame oil",
+              ingredientsName: "tsp sesame oil",
             },
             {
               ingredientsQuantity: "1/2",
-              inredientsName: "tsp sugar",
+              ingredientsName: "tsp sugar",
             },
             {
               ingredientsQuantity: "1",
-              inredientsName: "clove garlic, minced",
+              ingredientsName: "clove garlic, minced",
             },
           ],
         },
@@ -10067,6 +10180,7 @@ export const recipes = [
     prepareTime: "10",
     cookTime: "20",
     recipeCategory: "Korean",
+    categoryId: "14",
     recipeImage: "",
     nutritionInformation: {
       calories: "320",
@@ -10084,35 +10198,35 @@ export const recipes = [
           steps: [
             {
               ingredientsQuantity: "1/2",
-              inredientsName: "block soft tofu",
+              ingredientsName: "block soft tofu",
             },
             {
               ingredientsQuantity: "100g",
-              inredientsName: "shrimp or clams",
+              ingredientsName: "shrimp or clams",
             },
             {
               ingredientsQuantity: "1/2",
-              inredientsName: "cup mushrooms, sliced",
+              ingredientsName: "cup mushrooms, sliced",
             },
             {
               ingredientsQuantity: "1/2",
-              inredientsName: "onion, chopped",
+              ingredientsName: "onion, chopped",
             },
             {
               ingredientsQuantity: "1/2",
-              inredientsName: "zucchini, chopped",
+              ingredientsName: "zucchini, chopped",
             },
             {
               ingredientsQuantity: "2",
-              inredientsName: "cups water or anchovy broth",
+              ingredientsName: "cups water or anchovy broth",
             },
             {
               ingredientsQuantity: "1",
-              inredientsName: "egg",
+              ingredientsName: "egg",
             },
             {
               ingredientsQuantity: "1",
-              inredientsName: "green onion, chopped",
+              ingredientsName: "green onion, chopped",
             },
           ],
         },
@@ -10123,23 +10237,23 @@ export const recipes = [
           steps: [
             {
               ingredientsQuantity: "1",
-              inredientsName: "tbsp gochugaru (Korean chili flakes)",
+              ingredientsName: "tbsp gochugaru (Korean chili flakes)",
             },
             {
               ingredientsQuantity: "1",
-              inredientsName: "tbsp gochujang (Korean chili paste)",
+              ingredientsName: "tbsp gochujang (Korean chili paste)",
             },
             {
               ingredientsQuantity: "1",
-              inredientsName: "tbsp soy sauce",
+              ingredientsName: "tbsp soy sauce",
             },
             {
               ingredientsQuantity: "1",
-              inredientsName: "tsp sesame oil",
+              ingredientsName: "tsp sesame oil",
             },
             {
               ingredientsQuantity: "2",
-              inredientsName: "cloves garlic, minced",
+              ingredientsName: "cloves garlic, minced",
             },
           ],
         },
@@ -10183,6 +10297,7 @@ export const recipes = [
     prepareTime: "15",
     cookTime: "20",
     recipeCategory: "Korean",
+    categoryId: "14",
     recipeImage: "",
     nutritionInformation: {
       calories: "500",
@@ -10200,51 +10315,51 @@ export const recipes = [
           steps: [
             {
               ingredientsQuantity: "200g",
-              inredientsName: "fresh Korean wheat noodles",
+              ingredientsName: "fresh Korean wheat noodles",
             },
             {
               ingredientsQuantity: "150g",
-              inredientsName: "pork belly or ground pork",
+              ingredientsName: "pork belly or ground pork",
             },
             {
               ingredientsQuantity: "1/2",
-              inredientsName: "onion, chopped",
+              ingredientsName: "onion, chopped",
             },
             {
               ingredientsQuantity: "1/2",
-              inredientsName: "zucchini, diced",
+              ingredientsName: "zucchini, diced",
             },
             {
               ingredientsQuantity: "1/2",
-              inredientsName: "potato, diced",
+              ingredientsName: "potato, diced",
             },
             {
               ingredientsQuantity: "1/2",
-              inredientsName: "cup mushrooms, sliced",
+              ingredientsName: "cup mushrooms, sliced",
             },
             {
               ingredientsQuantity: "2",
-              inredientsName: "tbsp chunjang (Korean black bean paste)",
+              ingredientsName: "tbsp chunjang (Korean black bean paste)",
             },
             {
               ingredientsQuantity: "1",
-              inredientsName: "tbsp soy sauce",
+              ingredientsName: "tbsp soy sauce",
             },
             {
               ingredientsQuantity: "1",
-              inredientsName: "tsp sugar",
+              ingredientsName: "tsp sugar",
             },
             {
               ingredientsQuantity: "1/2",
-              inredientsName: "cup water",
+              ingredientsName: "cup water",
             },
             {
               ingredientsQuantity: "1",
-              inredientsName: "tbsp vegetable oil",
+              ingredientsName: "tbsp vegetable oil",
             },
             {
               ingredientsQuantity: "1",
-              inredientsName: "tsp cornstarch (mixed with 2 tbsp water)",
+              ingredientsName: "tsp cornstarch (mixed with 2 tbsp water)",
             },
           ],
         },
@@ -10300,6 +10415,7 @@ export const recipes = [
     prepareTime: "15",
     cookTime: "15",
     recipeCategory: "Thailand",
+    categoryId: "15",
     recipeImage: "",
     nutritionInformation: {
       calories: "450",
@@ -10317,35 +10433,35 @@ export const recipes = [
           steps: [
             {
               ingredientsQuantity: "150g",
-              inredientsName: "rice noodles",
+              ingredientsName: "rice noodles",
             },
             {
               ingredientsQuantity: "200g",
-              inredientsName: "chicken breast (or tofu), thinly sliced",
+              ingredientsName: "chicken breast (or tofu), thinly sliced",
             },
             {
               ingredientsQuantity: "2",
-              inredientsName: "eggs",
+              ingredientsName: "eggs",
             },
             {
               ingredientsQuantity: "2",
-              inredientsName: "tbsp vegetable oil",
+              ingredientsName: "tbsp vegetable oil",
             },
             {
               ingredientsQuantity: "1/2",
-              inredientsName: "cup bean sprouts",
+              ingredientsName: "cup bean sprouts",
             },
             {
               ingredientsQuantity: "2",
-              inredientsName: "tbsp crushed peanuts",
+              ingredientsName: "tbsp crushed peanuts",
             },
             {
               ingredientsQuantity: "2",
-              inredientsName: "green onions, chopped",
+              ingredientsName: "green onions, chopped",
             },
             {
               ingredientsQuantity: "1",
-              inredientsName: "lime, cut into wedges",
+              ingredientsName: "lime, cut into wedges",
             },
           ],
         },
@@ -10423,6 +10539,7 @@ export const recipes = [
     prepareTime: "10",
     cookTime: "20",
     recipeCategory: "Thailand",
+    categoryId: "15",
     recipeImage: "",
     nutritionInformation: {
       calories: "220",
@@ -10440,43 +10557,43 @@ export const recipes = [
           steps: [
             {
               ingredientsQuantity: "200g",
-              inredientsName: "shrimp (peeled and deveined)",
+              ingredientsName: "shrimp (peeled and deveined)",
             },
             {
               ingredientsQuantity: "3",
-              inredientsName: "cups chicken broth",
+              ingredientsName: "cups chicken broth",
             },
             {
               ingredientsQuantity: "2",
-              inredientsName: "stalks lemongrass, cut into 3-inch pieces",
+              ingredientsName: "stalks lemongrass, cut into 3-inch pieces",
             },
             {
               ingredientsQuantity: "3",
-              inredientsName: "kaffir lime leaves",
+              ingredientsName: "kaffir lime leaves",
             },
             {
               ingredientsQuantity: "2",
-              inredientsName: "tbsp fish sauce",
+              ingredientsName: "tbsp fish sauce",
             },
             {
               ingredientsQuantity: "1",
-              inredientsName: "tbsp lime juice",
+              ingredientsName: "tbsp lime juice",
             },
             {
               ingredientsQuantity: "3",
-              inredientsName: "Thai bird’s eye chilies, sliced",
+              ingredientsName: "Thai bird’s eye chilies, sliced",
             },
             {
               ingredientsQuantity: "100g",
-              inredientsName: "mushrooms, sliced",
+              ingredientsName: "mushrooms, sliced",
             },
             {
               ingredientsQuantity: "1/2",
-              inredientsName: "cup cherry tomatoes, halved",
+              ingredientsName: "cup cherry tomatoes, halved",
             },
             {
               ingredientsQuantity: "1",
-              inredientsName: "tbsp cilantro, chopped",
+              ingredientsName: "tbsp cilantro, chopped",
             },
           ],
         },
@@ -10521,6 +10638,7 @@ export const recipes = [
     prepareTime: "15",
     cookTime: "25",
     recipeCategory: "Thailand",
+    categoryId: "15",
     recipeImage: "",
     nutritionInformation: {
       calories: "480",
@@ -10538,39 +10656,39 @@ export const recipes = [
           steps: [
             {
               ingredientsQuantity: "300g",
-              inredientsName: "chicken breast, cut into thin slices",
+              ingredientsName: "chicken breast, cut into thin slices",
             },
             {
               ingredientsQuantity: "1",
-              inredientsName: "cup coconut milk",
+              ingredientsName: "cup coconut milk",
             },
             {
               ingredientsQuantity: "1",
-              inredientsName: "tbsp green curry paste",
+              ingredientsName: "tbsp green curry paste",
             },
             {
               ingredientsQuantity: "1/2",
-              inredientsName: "cup Thai eggplant (or zucchini), sliced",
+              ingredientsName: "cup Thai eggplant (or zucchini), sliced",
             },
             {
               ingredientsQuantity: "2",
-              inredientsName: "kaffir lime leaves",
+              ingredientsName: "kaffir lime leaves",
             },
             {
               ingredientsQuantity: "1",
-              inredientsName: "red chili, sliced",
+              ingredientsName: "red chili, sliced",
             },
             {
               ingredientsQuantity: "1",
-              inredientsName: "tbsp fish sauce",
+              ingredientsName: "tbsp fish sauce",
             },
             {
               ingredientsQuantity: "1",
-              inredientsName: "tsp sugar",
+              ingredientsName: "tsp sugar",
             },
             {
               ingredientsQuantity: "1/4",
-              inredientsName: "cup fresh basil leaves",
+              ingredientsName: "cup fresh basil leaves",
             },
           ],
         },
@@ -10618,6 +10736,7 @@ export const recipes = [
     prepareTime: "15",
     cookTime: "0",
     recipeCategory: "Thailand",
+    categoryId: "15",
     recipeImage: "",
     nutritionInformation: {
       calories: "160",
@@ -10635,24 +10754,24 @@ export const recipes = [
           steps: [
             {
               ingredientsQuantity: "2",
-              inredientsName: "cups shredded green papaya",
+              ingredientsName: "cups shredded green papaya",
             },
             {
               ingredientsQuantity: "1/2",
-              inredientsName: "cup cherry tomatoes, halved",
+              ingredientsName: "cup cherry tomatoes, halved",
             },
             {
               ingredientsQuantity: "2",
-              inredientsName:
+              ingredientsName:
                 "long beans (or green beans), cut into 2-inch pieces",
             },
             {
               ingredientsQuantity: "2",
-              inredientsName: "tbsp peanuts, roasted",
+              ingredientsName: "tbsp peanuts, roasted",
             },
             {
               ingredientsQuantity: "1",
-              inredientsName: "red chili, chopped",
+              ingredientsName: "red chili, chopped",
             },
           ],
         },
@@ -10663,19 +10782,19 @@ export const recipes = [
           steps: [
             {
               ingredientsQuantity: "1",
-              inredientsName: "tbsp fish sauce",
+              ingredientsName: "tbsp fish sauce",
             },
             {
               ingredientsQuantity: "1",
-              inredientsName: "tbsp lime juice",
+              ingredientsName: "tbsp lime juice",
             },
             {
               ingredientsQuantity: "1",
-              inredientsName: "tsp sugar",
+              ingredientsName: "tsp sugar",
             },
             {
               ingredientsQuantity: "1",
-              inredientsName: "garlic clove, minced",
+              ingredientsName: "garlic clove, minced",
             },
           ],
         },
@@ -10709,6 +10828,7 @@ export const recipes = [
     prepareTime: "10",
     cookTime: "25",
     recipeCategory: "Thailand",
+    categoryId: "15",
     recipeImage: "",
     nutritionInformation: {
       calories: "350",
@@ -10726,27 +10846,27 @@ export const recipes = [
           steps: [
             {
               ingredientsQuantity: "1",
-              inredientsName: "cup glutinous rice (sticky rice)",
+              ingredientsName: "cup glutinous rice (sticky rice)",
             },
             {
               ingredientsQuantity: "1",
-              inredientsName: "ripe mango, peeled and sliced",
+              ingredientsName: "ripe mango, peeled and sliced",
             },
             {
               ingredientsQuantity: "1",
-              inredientsName: "cup coconut milk",
+              ingredientsName: "cup coconut milk",
             },
             {
               ingredientsQuantity: "3",
-              inredientsName: "tbsp sugar",
+              ingredientsName: "tbsp sugar",
             },
             {
               ingredientsQuantity: "1/4",
-              inredientsName: "tsp salt",
+              ingredientsName: "tsp salt",
             },
             {
               ingredientsQuantity: "1",
-              inredientsName: "tsp sesame seeds (optional)",
+              ingredientsName: "tsp sesame seeds (optional)",
             },
           ],
         },
@@ -10790,6 +10910,7 @@ export const recipes = [
     prepareTime: "10",
     cookTime: "15",
     recipeCategory: "Thailand",
+    categoryId: "15",
     recipeImage: "",
     nutritionInformation: {
       calories: "350",
@@ -10807,51 +10928,51 @@ export const recipes = [
           steps: [
             {
               ingredientsQuantity: "300g",
-              inredientsName: "ground chicken",
+              ingredientsName: "ground chicken",
             },
             {
               ingredientsQuantity: "2",
-              inredientsName: "tbsp vegetable oil",
+              ingredientsName: "tbsp vegetable oil",
             },
             {
               ingredientsQuantity: "4",
-              inredientsName: "cloves garlic, minced",
+              ingredientsName: "cloves garlic, minced",
             },
             {
               ingredientsQuantity: "2",
-              inredientsName: "Thai bird’s eye chilies, chopped",
+              ingredientsName: "Thai bird’s eye chilies, chopped",
             },
             {
               ingredientsQuantity: "2",
-              inredientsName: "tbsp oyster sauce",
+              ingredientsName: "tbsp oyster sauce",
             },
             {
               ingredientsQuantity: "1",
-              inredientsName: "tbsp fish sauce",
+              ingredientsName: "tbsp fish sauce",
             },
             {
               ingredientsQuantity: "1",
-              inredientsName: "tsp soy sauce",
+              ingredientsName: "tsp soy sauce",
             },
             {
               ingredientsQuantity: "1",
-              inredientsName: "tsp sugar",
+              ingredientsName: "tsp sugar",
             },
             {
               ingredientsQuantity: "1/2",
-              inredientsName: "cup fresh Thai basil leaves",
+              ingredientsName: "cup fresh Thai basil leaves",
             },
             {
               ingredientsQuantity: "1/2",
-              inredientsName: "cup sliced bell peppers",
+              ingredientsName: "cup sliced bell peppers",
             },
             {
               ingredientsQuantity: "1",
-              inredientsName: "fried egg (optional)",
+              ingredientsName: "fried egg (optional)",
             },
             {
               ingredientsQuantity: "",
-              inredientsName: "Steamed jasmine rice, for serving",
+              ingredientsName: "Steamed jasmine rice, for serving",
             },
           ],
         },
@@ -10901,6 +11022,7 @@ export const recipes = [
     prepareTime: "15",
     cookTime: "40",
     recipeCategory: "Thailand",
+    categoryId: "15",
     recipeImage: "",
     nutritionInformation: {
       calories: "550",
@@ -10918,55 +11040,55 @@ export const recipes = [
           steps: [
             {
               ingredientsQuantity: "400g",
-              inredientsName: "beef chuck, cut into cubes",
+              ingredientsName: "beef chuck, cut into cubes",
             },
             {
               ingredientsQuantity: "2",
-              inredientsName: "tbsp vegetable oil",
+              ingredientsName: "tbsp vegetable oil",
             },
             {
               ingredientsQuantity: "3",
-              inredientsName: "tbsp Massaman curry paste",
+              ingredientsName: "tbsp Massaman curry paste",
             },
             {
               ingredientsQuantity: "1",
-              inredientsName: "can (400ml) coconut milk",
+              ingredientsName: "can (400ml) coconut milk",
             },
             {
               ingredientsQuantity: "2",
-              inredientsName: "cups beef broth",
+              ingredientsName: "cups beef broth",
             },
             {
               ingredientsQuantity: "2",
-              inredientsName: "medium potatoes, cubed",
+              ingredientsName: "medium potatoes, cubed",
             },
             {
               ingredientsQuantity: "1",
-              inredientsName: "onion, sliced",
+              ingredientsName: "onion, sliced",
             },
             {
               ingredientsQuantity: "1",
-              inredientsName: "cinnamon stick",
+              ingredientsName: "cinnamon stick",
             },
             {
               ingredientsQuantity: "3",
-              inredientsName: "cardamom pods",
+              ingredientsName: "cardamom pods",
             },
             {
               ingredientsQuantity: "2",
-              inredientsName: "tbsp fish sauce",
+              ingredientsName: "tbsp fish sauce",
             },
             {
               ingredientsQuantity: "1",
-              inredientsName: "tbsp palm sugar (or brown sugar)",
+              ingredientsName: "tbsp palm sugar (or brown sugar)",
             },
             {
               ingredientsQuantity: "1/4",
-              inredientsName: "cup roasted peanuts",
+              ingredientsName: "cup roasted peanuts",
             },
             {
               ingredientsQuantity: "1",
-              inredientsName: "tbsp lime juice",
+              ingredientsName: "tbsp lime juice",
             },
           ],
         },
@@ -11016,6 +11138,7 @@ export const recipes = [
     prepareTime: "15",
     cookTime: "10",
     recipeCategory: "Thailand",
+    categoryId: "15",
     recipeImage: "",
     nutritionInformation: {
       calories: "270",
@@ -11033,48 +11156,48 @@ export const recipes = [
           steps: [
             {
               ingredientsQuantity: "300g",
-              inredientsName: "ground chicken",
+              ingredientsName: "ground chicken",
             },
             {
               ingredientsQuantity: "1",
-              inredientsName: "tbsp vegetable oil",
+              ingredientsName: "tbsp vegetable oil",
             },
             {
               ingredientsQuantity: "2",
-              inredientsName: "tbsp fish sauce",
+              ingredientsName: "tbsp fish sauce",
             },
             {
               ingredientsQuantity: "1",
-              inredientsName: "tbsp lime juice",
+              ingredientsName: "tbsp lime juice",
             },
             {
               ingredientsQuantity: "1",
-              inredientsName: "tsp sugar",
+              ingredientsName: "tsp sugar",
             },
             {
               ingredientsQuantity: "1",
-              inredientsName: "shallot, finely sliced",
+              ingredientsName: "shallot, finely sliced",
             },
             {
               ingredientsQuantity: "2",
-              inredientsName: "tbsp fresh mint leaves",
+              ingredientsName: "tbsp fresh mint leaves",
             },
             {
               ingredientsQuantity: "2",
-              inredientsName: "tbsp fresh cilantro, chopped",
+              ingredientsName: "tbsp fresh cilantro, chopped",
             },
             {
               ingredientsQuantity: "1",
-              inredientsName:
+              ingredientsName:
                 "tbsp toasted rice powder (see preparation below)",
             },
             {
               ingredientsQuantity: "1",
-              inredientsName: "Thai chili, finely chopped",
+              ingredientsName: "Thai chili, finely chopped",
             },
             {
               ingredientsQuantity: "",
-              inredientsName: "Lettuce leaves, for serving",
+              ingredientsName: "Lettuce leaves, for serving",
             },
           ],
         },
@@ -11119,6 +11242,7 @@ export const recipes = [
     prepareTime: "10",
     cookTime: "15",
     recipeCategory: "Thailand",
+    categoryId: "15",
     recipeImage: "",
     nutritionInformation: {
       calories: "400",
@@ -11136,51 +11260,51 @@ export const recipes = [
           steps: [
             {
               ingredientsQuantity: "2",
-              inredientsName: "cups cooked jasmine rice (preferably day-old)",
+              ingredientsName: "cups cooked jasmine rice (preferably day-old)",
             },
             {
               ingredientsQuantity: "200g",
-              inredientsName: "shrimp, peeled and deveined",
+              ingredientsName: "shrimp, peeled and deveined",
             },
             {
               ingredientsQuantity: "1/2",
-              inredientsName: "cup fresh pineapple, diced",
+              ingredientsName: "cup fresh pineapple, diced",
             },
             {
               ingredientsQuantity: "1/4",
-              inredientsName: "cup cashew nuts",
+              ingredientsName: "cup cashew nuts",
             },
             {
               ingredientsQuantity: "2",
-              inredientsName: "tbsp vegetable oil",
+              ingredientsName: "tbsp vegetable oil",
             },
             {
               ingredientsQuantity: "2",
-              inredientsName: "eggs, beaten",
+              ingredientsName: "eggs, beaten",
             },
             {
               ingredientsQuantity: "2",
-              inredientsName: "tbsp soy sauce",
+              ingredientsName: "tbsp soy sauce",
             },
             {
               ingredientsQuantity: "1",
-              inredientsName: "tbsp fish sauce",
+              ingredientsName: "tbsp fish sauce",
             },
             {
               ingredientsQuantity: "1",
-              inredientsName: "tsp curry powder",
+              ingredientsName: "tsp curry powder",
             },
             {
               ingredientsQuantity: "2",
-              inredientsName: "green onions, chopped",
+              ingredientsName: "green onions, chopped",
             },
             {
               ingredientsQuantity: "1",
-              inredientsName: "red chili, sliced",
+              ingredientsName: "red chili, sliced",
             },
             {
               ingredientsQuantity: "1/4",
-              inredientsName: "cup fresh cilantro, chopped",
+              ingredientsName: "cup fresh cilantro, chopped",
             },
           ],
         },
@@ -11235,6 +11359,7 @@ export const recipes = [
     prepareTime: "10",
     cookTime: "15",
     recipeCategory: "Japan",
+    categoryId: "16",
     recipeImage: "",
     nutritionInformation: {
       calories: "320",
@@ -11252,47 +11377,47 @@ export const recipes = [
           steps: [
             {
               ingredientsQuantity: "2",
-              inredientsName: "boneless, skin-on chicken thighs",
+              ingredientsName: "boneless, skin-on chicken thighs",
             },
             {
               ingredientsQuantity: "1",
-              inredientsName: "tbsp vegetable oil",
+              ingredientsName: "tbsp vegetable oil",
             },
             {
               ingredientsQuantity: "2",
-              inredientsName: "tbsp soy sauce",
+              ingredientsName: "tbsp soy sauce",
             },
             {
               ingredientsQuantity: "1",
-              inredientsName: "tbsp mirin",
+              ingredientsName: "tbsp mirin",
             },
             {
               ingredientsQuantity: "1",
-              inredientsName: "tbsp sake",
+              ingredientsName: "tbsp sake",
             },
             {
               ingredientsQuantity: "1",
-              inredientsName: "tbsp sugar",
+              ingredientsName: "tbsp sugar",
             },
             {
               ingredientsQuantity: "1",
-              inredientsName: "tsp grated ginger",
+              ingredientsName: "tsp grated ginger",
             },
             {
               ingredientsQuantity: "1",
-              inredientsName: "tsp grated garlic",
+              ingredientsName: "tsp grated garlic",
             },
             {
               ingredientsQuantity: "1",
-              inredientsName: "tsp cornstarch (optional, for thickening)",
+              ingredientsName: "tsp cornstarch (optional, for thickening)",
             },
             {
               ingredientsQuantity: "1",
-              inredientsName: "green onion, chopped (for garnish)",
+              ingredientsName: "green onion, chopped (for garnish)",
             },
             {
               ingredientsQuantity: "",
-              inredientsName: "Steamed white rice, for serving",
+              ingredientsName: "Steamed white rice, for serving",
             },
           ],
         },
@@ -11342,6 +11467,7 @@ export const recipes = [
     prepareTime: "5",
     cookTime: "10",
     recipeCategory: "Japan",
+    categoryId: "16",
     recipeImage: "",
     nutritionInformation: {
       calories: "70",
@@ -11359,24 +11485,24 @@ export const recipes = [
           steps: [
             {
               ingredientsQuantity: "2",
-              inredientsName:
+              ingredientsName:
                 "cups dashi broth (or water + 1 tsp dashi powder)",
             },
             {
               ingredientsQuantity: "2",
-              inredientsName: "tbsp white miso paste",
+              ingredientsName: "tbsp white miso paste",
             },
             {
               ingredientsQuantity: "1/2",
-              inredientsName: "cup silken tofu, cubed",
+              ingredientsName: "cup silken tofu, cubed",
             },
             {
               ingredientsQuantity: "1",
-              inredientsName: "tbsp dried wakame seaweed",
+              ingredientsName: "tbsp dried wakame seaweed",
             },
             {
               ingredientsQuantity: "2",
-              inredientsName: "tbsp chopped green onions",
+              ingredientsName: "tbsp chopped green onions",
             },
           ],
         },
@@ -11420,6 +11546,7 @@ export const recipes = [
     prepareTime: "15",
     cookTime: "10",
     recipeCategory: "Japan",
+    categoryId: "16",
     recipeImage: "",
     nutritionInformation: {
       calories: "180",
@@ -11437,36 +11564,36 @@ export const recipes = [
           steps: [
             {
               ingredientsQuantity: "2",
-              inredientsName: "large eggs",
+              ingredientsName: "large eggs",
             },
             {
               ingredientsQuantity: "1",
-              inredientsName: "tbsp mirin",
+              ingredientsName: "tbsp mirin",
             },
             {
               ingredientsQuantity: "1",
-              inredientsName: "tsp soy sauce",
+              ingredientsName: "tsp soy sauce",
             },
             {
               ingredientsQuantity: "1",
-              inredientsName: "tsp sugar",
+              ingredientsName: "tsp sugar",
             },
             {
               ingredientsQuantity: "1",
-              inredientsName: "tsp dashi stock",
+              ingredientsName: "tsp dashi stock",
             },
             {
               ingredientsQuantity: "1",
-              inredientsName: "tsp vegetable oil",
+              ingredientsName: "tsp vegetable oil",
             },
             {
               ingredientsQuantity: "1",
-              inredientsName:
+              ingredientsName:
                 "cup sushi rice, cooked and seasoned with vinegar",
             },
             {
               ingredientsQuantity: "1",
-              inredientsName: "sheet nori, cut into thin strips",
+              ingredientsName: "sheet nori, cut into thin strips",
             },
           ],
         },
@@ -11510,6 +11637,7 @@ export const recipes = [
     prepareTime: "10",
     cookTime: "15",
     recipeCategory: "Japan",
+    categoryId: "16",
     recipeImage: "",
     nutritionInformation: {
       calories: "480",
@@ -11527,43 +11655,43 @@ export const recipes = [
           steps: [
             {
               ingredientsQuantity: "200g",
-              inredientsName: "thinly sliced beef (ribeye or sirloin)",
+              ingredientsName: "thinly sliced beef (ribeye or sirloin)",
             },
             {
               ingredientsQuantity: "1/2",
-              inredientsName: "onion, sliced",
+              ingredientsName: "onion, sliced",
             },
             {
               ingredientsQuantity: "1/2",
-              inredientsName: "cup dashi broth",
+              ingredientsName: "cup dashi broth",
             },
             {
               ingredientsQuantity: "2",
-              inredientsName: "tbsp soy sauce",
+              ingredientsName: "tbsp soy sauce",
             },
             {
               ingredientsQuantity: "1",
-              inredientsName: "tbsp mirin",
+              ingredientsName: "tbsp mirin",
             },
             {
               ingredientsQuantity: "1",
-              inredientsName: "tbsp sake",
+              ingredientsName: "tbsp sake",
             },
             {
               ingredientsQuantity: "1",
-              inredientsName: "tsp sugar",
+              ingredientsName: "tsp sugar",
             },
             {
               ingredientsQuantity: "1/2",
-              inredientsName: "tsp grated ginger",
+              ingredientsName: "tsp grated ginger",
             },
             {
               ingredientsQuantity: "1",
-              inredientsName: "green onion, chopped",
+              ingredientsName: "green onion, chopped",
             },
             {
               ingredientsQuantity: "",
-              inredientsName: "Steamed rice, for serving",
+              ingredientsName: "Steamed rice, for serving",
             },
           ],
         },
@@ -11603,6 +11731,7 @@ export const recipes = [
     prepareTime: "15",
     cookTime: "60",
     recipeCategory: "Japan",
+    categoryId: "16",
     recipeImage: "",
     nutritionInformation: {
       calories: "380",
@@ -11620,35 +11749,35 @@ export const recipes = [
           steps: [
             {
               ingredientsQuantity: "250g",
-              inredientsName: "cream cheese, softened",
+              ingredientsName: "cream cheese, softened",
             },
             {
               ingredientsQuantity: "3",
-              inredientsName: "large eggs",
+              ingredientsName: "large eggs",
             },
             {
               ingredientsQuantity: "80g",
-              inredientsName: "sugar",
+              ingredientsName: "sugar",
             },
             {
               ingredientsQuantity: "100ml",
-              inredientsName: "heavy cream",
+              ingredientsName: "heavy cream",
             },
             {
               ingredientsQuantity: "2",
-              inredientsName: "tbsp matcha powder",
+              ingredientsName: "tbsp matcha powder",
             },
             {
               ingredientsQuantity: "1",
-              inredientsName: "tbsp cornstarch",
+              ingredientsName: "tbsp cornstarch",
             },
             {
               ingredientsQuantity: "1/2",
-              inredientsName: "tsp vanilla extract",
+              ingredientsName: "tsp vanilla extract",
             },
             {
               ingredientsQuantity: "1",
-              inredientsName: "tbsp lemon juice",
+              ingredientsName: "tbsp lemon juice",
             },
           ],
         },
@@ -11692,6 +11821,7 @@ export const recipes = [
     prepareTime: "10",
     cookTime: "15",
     recipeCategory: "Japan",
+    categoryId: "16",
     recipeImage: "",
     nutritionInformation: {
       calories: "510",
@@ -11709,39 +11839,39 @@ export const recipes = [
           steps: [
             {
               ingredientsQuantity: "2",
-              inredientsName: "boneless pork loin chops",
+              ingredientsName: "boneless pork loin chops",
             },
             {
               ingredientsQuantity: "",
-              inredientsName: "Salt and black pepper, to taste",
+              ingredientsName: "Salt and black pepper, to taste",
             },
             {
               ingredientsQuantity: "1/2",
-              inredientsName: "cup all-purpose flour",
+              ingredientsName: "cup all-purpose flour",
             },
             {
               ingredientsQuantity: "1",
-              inredientsName: "egg, beaten",
+              ingredientsName: "egg, beaten",
             },
             {
               ingredientsQuantity: "1",
-              inredientsName: "cup panko breadcrumbs",
+              ingredientsName: "cup panko breadcrumbs",
             },
             {
               ingredientsQuantity: "1",
-              inredientsName: "cup vegetable oil (for frying)",
+              ingredientsName: "cup vegetable oil (for frying)",
             },
             {
               ingredientsQuantity: "1/2",
-              inredientsName: "cup tonkatsu sauce (store-bought or homemade)",
+              ingredientsName: "cup tonkatsu sauce (store-bought or homemade)",
             },
             {
               ingredientsQuantity: "",
-              inredientsName: "Shredded cabbage, for serving",
+              ingredientsName: "Shredded cabbage, for serving",
             },
             {
               ingredientsQuantity: "",
-              inredientsName: "Steamed white rice, for serving",
+              ingredientsName: "Steamed white rice, for serving",
             },
           ],
         },
@@ -11786,6 +11916,7 @@ export const recipes = [
     prepareTime: "15",
     cookTime: "10",
     recipeCategory: "Japan",
+    categoryId: "16",
     recipeImage: "",
     nutritionInformation: {
       calories: "420",
@@ -11803,51 +11934,51 @@ export const recipes = [
           steps: [
             {
               ingredientsQuantity: "1",
-              inredientsName: "cup all-purpose flour",
+              ingredientsName: "cup all-purpose flour",
             },
             {
               ingredientsQuantity: "1/2",
-              inredientsName: "cup dashi broth",
+              ingredientsName: "cup dashi broth",
             },
             {
               ingredientsQuantity: "1",
-              inredientsName: "egg",
+              ingredientsName: "egg",
             },
             {
               ingredientsQuantity: "2",
-              inredientsName: "cups shredded cabbage",
+              ingredientsName: "cups shredded cabbage",
             },
             {
               ingredientsQuantity: "1/4",
-              inredientsName: "cup chopped green onions",
+              ingredientsName: "cup chopped green onions",
             },
             {
               ingredientsQuantity: "4",
-              inredientsName: "slices pork belly (or bacon)",
+              ingredientsName: "slices pork belly (or bacon)",
             },
             {
               ingredientsQuantity: "1/4",
-              inredientsName: "cup cooked shrimp (optional)",
+              ingredientsName: "cup cooked shrimp (optional)",
             },
             {
               ingredientsQuantity: "1",
-              inredientsName: "tbsp vegetable oil",
+              ingredientsName: "tbsp vegetable oil",
             },
             {
               ingredientsQuantity: "2",
-              inredientsName: "tbsp okonomiyaki sauce",
+              ingredientsName: "tbsp okonomiyaki sauce",
             },
             {
               ingredientsQuantity: "1",
-              inredientsName: "tbsp mayonnaise",
+              ingredientsName: "tbsp mayonnaise",
             },
             {
               ingredientsQuantity: "1",
-              inredientsName: "tbsp bonito flakes",
+              ingredientsName: "tbsp bonito flakes",
             },
             {
               ingredientsQuantity: "1",
-              inredientsName: "tsp aonori (seaweed flakes)",
+              ingredientsName: "tsp aonori (seaweed flakes)",
             },
           ],
         },
@@ -11892,6 +12023,7 @@ export const recipes = [
     prepareTime: "10",
     cookTime: "20",
     recipeCategory: "Japan",
+    categoryId: "16",
     recipeImage: "",
     nutritionInformation: {
       calories: "160",
@@ -11909,39 +12041,39 @@ export const recipes = [
           steps: [
             {
               ingredientsQuantity: "2",
-              inredientsName: "eggs",
+              ingredientsName: "eggs",
             },
             {
               ingredientsQuantity: "1",
-              inredientsName: "cup dashi broth",
+              ingredientsName: "cup dashi broth",
             },
             {
               ingredientsQuantity: "1",
-              inredientsName: "tsp soy sauce",
+              ingredientsName: "tsp soy sauce",
             },
             {
               ingredientsQuantity: "1/2",
-              inredientsName: "tsp mirin",
+              ingredientsName: "tsp mirin",
             },
             {
               ingredientsQuantity: "1/4",
-              inredientsName: "tsp salt",
+              ingredientsName: "tsp salt",
             },
             {
               ingredientsQuantity: "4",
-              inredientsName: "small shrimp, peeled and deveined",
+              ingredientsName: "small shrimp, peeled and deveined",
             },
             {
               ingredientsQuantity: "4",
-              inredientsName: "small shiitake mushrooms",
+              ingredientsName: "small shiitake mushrooms",
             },
             {
               ingredientsQuantity: "4",
-              inredientsName: "slices kamaboko (fish cake)",
+              ingredientsName: "slices kamaboko (fish cake)",
             },
             {
               ingredientsQuantity: "",
-              inredientsName: "Chopped green onions, for garnish",
+              ingredientsName: "Chopped green onions, for garnish",
             },
           ],
         },
@@ -11985,6 +12117,7 @@ export const recipes = [
     prepareTime: "10",
     cookTime: "10",
     recipeCategory: "Japan",
+    categoryId: "16",
     recipeImage: "",
     nutritionInformation: {
       calories: "450",
@@ -12002,43 +12135,43 @@ export const recipes = [
           steps: [
             {
               ingredientsQuantity: "200g",
-              inredientsName: "fresh udon noodles",
+              ingredientsName: "fresh udon noodles",
             },
             {
               ingredientsQuantity: "100g",
-              inredientsName: "chicken (or pork), thinly sliced",
+              ingredientsName: "chicken (or pork), thinly sliced",
             },
             {
               ingredientsQuantity: "1/2",
-              inredientsName: "onion, sliced",
+              ingredientsName: "onion, sliced",
             },
             {
               ingredientsQuantity: "1/2",
-              inredientsName: "cup shredded cabbage",
+              ingredientsName: "cup shredded cabbage",
             },
             {
               ingredientsQuantity: "1/2",
-              inredientsName: "carrot, julienned",
+              ingredientsName: "carrot, julienned",
             },
             {
               ingredientsQuantity: "2",
-              inredientsName: "tbsp soy sauce",
+              ingredientsName: "tbsp soy sauce",
             },
             {
               ingredientsQuantity: "1",
-              inredientsName: "tbsp oyster sauce",
+              ingredientsName: "tbsp oyster sauce",
             },
             {
               ingredientsQuantity: "1",
-              inredientsName: "tsp sugar",
+              ingredientsName: "tsp sugar",
             },
             {
               ingredientsQuantity: "1",
-              inredientsName: "tbsp vegetable oil",
+              ingredientsName: "tbsp vegetable oil",
             },
             {
               ingredientsQuantity: "1",
-              inredientsName: "green onion, chopped",
+              ingredientsName: "green onion, chopped",
             },
           ],
         },
@@ -12086,6 +12219,7 @@ export const recipes = [
     prepareTime: "15",
     cookTime: "10",
     recipeCategory: "Japan",
+    categoryId: "16",
     recipeImage: "",
     nutritionInformation: {
       calories: "320",
@@ -12103,35 +12237,35 @@ export const recipes = [
           steps: [
             {
               ingredientsQuantity: "1",
-              inredientsName: "cup all-purpose flour",
+              ingredientsName: "cup all-purpose flour",
             },
             {
               ingredientsQuantity: "2",
-              inredientsName: "eggs",
+              ingredientsName: "eggs",
             },
             {
               ingredientsQuantity: "1/4",
-              inredientsName: "cup sugar",
+              ingredientsName: "cup sugar",
             },
             {
               ingredientsQuantity: "1",
-              inredientsName: "tbsp honey",
+              ingredientsName: "tbsp honey",
             },
             {
               ingredientsQuantity: "1/2",
-              inredientsName: "tsp baking soda",
+              ingredientsName: "tsp baking soda",
             },
             {
               ingredientsQuantity: "1/2",
-              inredientsName: "cup water",
+              ingredientsName: "cup water",
             },
             {
               ingredientsQuantity: "1/2",
-              inredientsName: "cup anko (sweet red bean paste)",
+              ingredientsName: "cup anko (sweet red bean paste)",
             },
             {
               ingredientsQuantity: "",
-              inredientsName: "Vegetable oil, for cooking",
+              ingredientsName: "Vegetable oil, for cooking",
             },
           ],
         },
@@ -12170,6 +12304,7 @@ export const recipes = [
     prepareTime: "10",
     cookTime: "15",
     recipeCategory: "Japan",
+    categoryId: "16",
     recipeImage: "",
     nutritionInformation: {
       calories: "550",
@@ -12187,51 +12322,51 @@ export const recipes = [
           steps: [
             {
               ingredientsQuantity: "200g",
-              inredientsName: "thinly sliced beef (ribeye or sirloin)",
+              ingredientsName: "thinly sliced beef (ribeye or sirloin)",
             },
             {
               ingredientsQuantity: "1/2",
-              inredientsName: "onion, thinly sliced",
+              ingredientsName: "onion, thinly sliced",
             },
             {
               ingredientsQuantity: "1",
-              inredientsName: "cup dashi broth",
+              ingredientsName: "cup dashi broth",
             },
             {
               ingredientsQuantity: "2",
-              inredientsName: "tbsp soy sauce",
+              ingredientsName: "tbsp soy sauce",
             },
             {
               ingredientsQuantity: "1",
-              inredientsName: "tbsp mirin",
+              ingredientsName: "tbsp mirin",
             },
             {
               ingredientsQuantity: "1",
-              inredientsName: "tbsp sake",
+              ingredientsName: "tbsp sake",
             },
             {
               ingredientsQuantity: "1",
-              inredientsName: "tbsp sugar",
+              ingredientsName: "tbsp sugar",
             },
             {
               ingredientsQuantity: "1/2",
-              inredientsName: "tsp grated ginger",
+              ingredientsName: "tsp grated ginger",
             },
             {
               ingredientsQuantity: "2",
-              inredientsName: "cups cooked white rice",
+              ingredientsName: "cups cooked white rice",
             },
             {
               ingredientsQuantity: "1",
-              inredientsName: "soft-boiled egg (optional)",
+              ingredientsName: "soft-boiled egg (optional)",
             },
             {
               ingredientsQuantity: "",
-              inredientsName: "Chopped green onions, for garnish",
+              ingredientsName: "Chopped green onions, for garnish",
             },
             {
               ingredientsQuantity: "",
-              inredientsName: "Pickled red ginger (beni shoga), for garnish",
+              ingredientsName: "Pickled red ginger (beni shoga), for garnish",
             },
           ],
         },
@@ -12276,6 +12411,7 @@ export const recipes = [
     prepareTime: "5",
     cookTime: "10",
     recipeCategory: "Japan",
+    categoryId: "16",
     recipeImage: "",
     nutritionInformation: {
       calories: "180",
@@ -12293,31 +12429,31 @@ export const recipes = [
           steps: [
             {
               ingredientsQuantity: "3",
-              inredientsName: "large eggs",
+              ingredientsName: "large eggs",
             },
             {
               ingredientsQuantity: "1",
-              inredientsName: "tbsp dashi broth",
+              ingredientsName: "tbsp dashi broth",
             },
             {
               ingredientsQuantity: "1",
-              inredientsName: "tsp soy sauce",
+              ingredientsName: "tsp soy sauce",
             },
             {
               ingredientsQuantity: "1",
-              inredientsName: "tsp mirin",
+              ingredientsName: "tsp mirin",
             },
             {
               ingredientsQuantity: "1",
-              inredientsName: "tsp sugar",
+              ingredientsName: "tsp sugar",
             },
             {
               ingredientsQuantity: "1/2",
-              inredientsName: "tsp salt",
+              ingredientsName: "tsp salt",
             },
             {
               ingredientsQuantity: "1",
-              inredientsName: "tsp vegetable oil (for cooking)",
+              ingredientsName: "tsp vegetable oil (for cooking)",
             },
           ],
         },
@@ -12363,6 +12499,7 @@ export const recipes = [
     prepareTime: "5",
     cookTime: "5",
     recipeCategory: "Japan",
+    categoryId: "16",
     recipeImage: "",
     nutritionInformation: {
       calories: "290",
@@ -12380,39 +12517,39 @@ export const recipes = [
           steps: [
             {
               ingredientsQuantity: "200g",
-              inredientsName: "soba noodles",
+              ingredientsName: "soba noodles",
             },
             {
               ingredientsQuantity: "1",
-              inredientsName: "cup dashi broth",
+              ingredientsName: "cup dashi broth",
             },
             {
               ingredientsQuantity: "2",
-              inredientsName: "tbsp soy sauce",
+              ingredientsName: "tbsp soy sauce",
             },
             {
               ingredientsQuantity: "1",
-              inredientsName: "tbsp mirin",
+              ingredientsName: "tbsp mirin",
             },
             {
               ingredientsQuantity: "1/2",
-              inredientsName: "tsp sugar",
+              ingredientsName: "tsp sugar",
             },
             {
               ingredientsQuantity: "1/2",
-              inredientsName: "tsp wasabi (optional)",
+              ingredientsName: "tsp wasabi (optional)",
             },
             {
               ingredientsQuantity: "1",
-              inredientsName: "tbsp chopped green onions",
+              ingredientsName: "tbsp chopped green onions",
             },
             {
               ingredientsQuantity: "1",
-              inredientsName: "tsp toasted sesame seeds",
+              ingredientsName: "tsp toasted sesame seeds",
             },
             {
               ingredientsQuantity: "1",
-              inredientsName: "sheet nori (seaweed), cut into thin strips",
+              ingredientsName: "sheet nori (seaweed), cut into thin strips",
             },
           ],
         },
@@ -12453,6 +12590,7 @@ export const recipes = [
     prepareTime: "15",
     cookTime: "15",
     recipeCategory: "China",
+    categoryId: "17",
     recipeImage: "",
     nutritionInformation: {
       calories: "400",
@@ -12470,43 +12608,43 @@ export const recipes = [
           steps: [
             {
               ingredientsQuantity: "400g",
-              inredientsName: "boneless, skinless chicken breast, diced",
+              ingredientsName: "boneless, skinless chicken breast, diced",
             },
             {
               ingredientsQuantity: "2",
-              inredientsName: "tbsp soy sauce",
+              ingredientsName: "tbsp soy sauce",
             },
             {
               ingredientsQuantity: "1",
-              inredientsName: "tbsp Shaoxing wine (or dry sherry)",
+              ingredientsName: "tbsp Shaoxing wine (or dry sherry)",
             },
             {
               ingredientsQuantity: "1",
-              inredientsName: "tsp cornstarch",
+              ingredientsName: "tsp cornstarch",
             },
             {
               ingredientsQuantity: "2",
-              inredientsName: "tbsp vegetable oil",
+              ingredientsName: "tbsp vegetable oil",
             },
             {
               ingredientsQuantity: "6",
-              inredientsName: "dried red chilies, cut into halves",
+              ingredientsName: "dried red chilies, cut into halves",
             },
             {
               ingredientsQuantity: "2",
-              inredientsName: "cloves garlic, minced",
+              ingredientsName: "cloves garlic, minced",
             },
             {
               ingredientsQuantity: "1",
-              inredientsName: "tsp ginger, minced",
+              ingredientsName: "tsp ginger, minced",
             },
             {
               ingredientsQuantity: "1/4",
-              inredientsName: "cup roasted peanuts",
+              ingredientsName: "cup roasted peanuts",
             },
             {
               ingredientsQuantity: "2",
-              inredientsName: "green onions, chopped",
+              ingredientsName: "green onions, chopped",
             },
           ],
         },
@@ -12517,27 +12655,27 @@ export const recipes = [
           steps: [
             {
               ingredientsQuantity: "1",
-              inredientsName: "tbsp soy sauce",
+              ingredientsName: "tbsp soy sauce",
             },
             {
               ingredientsQuantity: "1",
-              inredientsName: "tbsp oyster sauce",
+              ingredientsName: "tbsp oyster sauce",
             },
             {
               ingredientsQuantity: "1",
-              inredientsName: "tsp sugar",
+              ingredientsName: "tsp sugar",
             },
             {
               ingredientsQuantity: "1",
-              inredientsName: "tsp cornstarch",
+              ingredientsName: "tsp cornstarch",
             },
             {
               ingredientsQuantity: "2",
-              inredientsName: "tbsp water",
+              ingredientsName: "tbsp water",
             },
             {
               ingredientsQuantity: "1",
-              inredientsName: "tsp sesame oil",
+              ingredientsName: "tsp sesame oil",
             },
           ],
         },
@@ -12587,6 +12725,7 @@ export const recipes = [
     prepareTime: "10",
     cookTime: "15",
     recipeCategory: "China",
+    categoryId: "17",
     recipeImage: "",
     nutritionInformation: {
       calories: "330",
@@ -12604,51 +12743,51 @@ export const recipes = [
           steps: [
             {
               ingredientsQuantity: "1",
-              inredientsName: "block (400g) firm tofu, cut into cubes",
+              ingredientsName: "block (400g) firm tofu, cut into cubes",
             },
             {
               ingredientsQuantity: "200g",
-              inredientsName: "ground pork",
+              ingredientsName: "ground pork",
             },
             {
               ingredientsQuantity: "2",
-              inredientsName: "tbsp vegetable oil",
+              ingredientsName: "tbsp vegetable oil",
             },
             {
               ingredientsQuantity: "2",
-              inredientsName: "cloves garlic, minced",
+              ingredientsName: "cloves garlic, minced",
             },
             {
               ingredientsQuantity: "1",
-              inredientsName: "tsp ginger, minced",
+              ingredientsName: "tsp ginger, minced",
             },
             {
               ingredientsQuantity: "1",
-              inredientsName: "tbsp Sichuan peppercorns, toasted and ground",
+              ingredientsName: "tbsp Sichuan peppercorns, toasted and ground",
             },
             {
               ingredientsQuantity: "2",
-              inredientsName: "tbsp doubanjiang (fermented chili bean paste)",
+              ingredientsName: "tbsp doubanjiang (fermented chili bean paste)",
             },
             {
               ingredientsQuantity: "1",
-              inredientsName: "tbsp soy sauce",
+              ingredientsName: "tbsp soy sauce",
             },
             {
               ingredientsQuantity: "1",
-              inredientsName: "tbsp Shaoxing wine",
+              ingredientsName: "tbsp Shaoxing wine",
             },
             {
               ingredientsQuantity: "1/2",
-              inredientsName: "cup chicken broth",
+              ingredientsName: "cup chicken broth",
             },
             {
               ingredientsQuantity: "1",
-              inredientsName: "tsp cornstarch mixed with 2 tbsp water",
+              ingredientsName: "tsp cornstarch mixed with 2 tbsp water",
             },
             {
               ingredientsQuantity: "1",
-              inredientsName: "green onion, chopped",
+              ingredientsName: "green onion, chopped",
             },
           ],
         },
@@ -12703,6 +12842,7 @@ export const recipes = [
     prepareTime: "15",
     cookTime: "20",
     recipeCategory: "China",
+    categoryId: "17",
     recipeImage: "",
     nutritionInformation: {
       calories: "480",
@@ -12720,39 +12860,39 @@ export const recipes = [
           steps: [
             {
               ingredientsQuantity: "400g",
-              inredientsName: "pork loin, cut into cubes",
+              ingredientsName: "pork loin, cut into cubes",
             },
             {
               ingredientsQuantity: "1",
-              inredientsName: "egg",
+              ingredientsName: "egg",
             },
             {
               ingredientsQuantity: "2",
-              inredientsName: "tbsp cornstarch",
+              ingredientsName: "tbsp cornstarch",
             },
             {
               ingredientsQuantity: "1/2",
-              inredientsName: "cup flour",
+              ingredientsName: "cup flour",
             },
             {
               ingredientsQuantity: "1/2",
-              inredientsName: "cup pineapple chunks",
+              ingredientsName: "cup pineapple chunks",
             },
             {
               ingredientsQuantity: "1/2",
-              inredientsName: "red bell pepper, chopped",
+              ingredientsName: "red bell pepper, chopped",
             },
             {
               ingredientsQuantity: "1/2",
-              inredientsName: "green bell pepper, chopped",
+              ingredientsName: "green bell pepper, chopped",
             },
             {
               ingredientsQuantity: "1/2",
-              inredientsName: "onion, sliced",
+              ingredientsName: "onion, sliced",
             },
             {
               ingredientsQuantity: "2",
-              inredientsName: "cups vegetable oil (for frying)",
+              ingredientsName: "cups vegetable oil (for frying)",
             },
           ],
         },
@@ -12763,23 +12903,23 @@ export const recipes = [
           steps: [
             {
               ingredientsQuantity: "3",
-              inredientsName: "tbsp ketchup",
+              ingredientsName: "tbsp ketchup",
             },
             {
               ingredientsQuantity: "2",
-              inredientsName: "tbsp vinegar",
+              ingredientsName: "tbsp vinegar",
             },
             {
               ingredientsQuantity: "2",
-              inredientsName: "tbsp sugar",
+              ingredientsName: "tbsp sugar",
             },
             {
               ingredientsQuantity: "1",
-              inredientsName: "tbsp soy sauce",
+              ingredientsName: "tbsp soy sauce",
             },
             {
               ingredientsQuantity: "1",
-              inredientsName: "tsp cornstarch mixed with 2 tbsp water",
+              ingredientsName: "tsp cornstarch mixed with 2 tbsp water",
             },
           ],
         },
@@ -12828,6 +12968,7 @@ export const recipes = [
     prepareTime: "15",
     cookTime: "15",
     recipeCategory: "China",
+    categoryId: "17",
     recipeImage: "",
     nutritionInformation: {
       calories: "320",
@@ -12845,27 +12986,27 @@ export const recipes = [
           steps: [
             {
               ingredientsQuantity: "2",
-              inredientsName: "cups all-purpose flour",
+              ingredientsName: "cups all-purpose flour",
             },
             {
               ingredientsQuantity: "3/4",
-              inredientsName: "cup hot water",
+              ingredientsName: "cup hot water",
             },
             {
               ingredientsQuantity: "1/2",
-              inredientsName: "tsp salt",
+              ingredientsName: "tsp salt",
             },
             {
               ingredientsQuantity: "1/2",
-              inredientsName: "cup chopped green onions",
+              ingredientsName: "cup chopped green onions",
             },
             {
               ingredientsQuantity: "2",
-              inredientsName: "tbsp sesame oil",
+              ingredientsName: "tbsp sesame oil",
             },
             {
               ingredientsQuantity: "3",
-              inredientsName: "tbsp vegetable oil (for frying)",
+              ingredientsName: "tbsp vegetable oil (for frying)",
             },
           ],
         },
@@ -12909,6 +13050,7 @@ export const recipes = [
     prepareTime: "10",
     cookTime: "15",
     recipeCategory: "China",
+    categoryId: "17",
     recipeImage: "",
     nutritionInformation: {
       calories: "150",
@@ -12926,35 +13068,35 @@ export const recipes = [
           steps: [
             {
               ingredientsQuantity: "4",
-              inredientsName: "cups chicken broth",
+              ingredientsName: "cups chicken broth",
             },
             {
               ingredientsQuantity: "1/2",
-              inredientsName: "cup mushrooms, sliced",
+              ingredientsName: "cup mushrooms, sliced",
             },
             {
               ingredientsQuantity: "1/2",
-              inredientsName: "block tofu, cubed",
+              ingredientsName: "block tofu, cubed",
             },
             {
               ingredientsQuantity: "1",
-              inredientsName: "egg, beaten",
+              ingredientsName: "egg, beaten",
             },
             {
               ingredientsQuantity: "2",
-              inredientsName: "tbsp vinegar",
+              ingredientsName: "tbsp vinegar",
             },
             {
               ingredientsQuantity: "1",
-              inredientsName: "tbsp soy sauce",
+              ingredientsName: "tbsp soy sauce",
             },
             {
               ingredientsQuantity: "1",
-              inredientsName: "tsp white pepper",
+              ingredientsName: "tsp white pepper",
             },
             {
               ingredientsQuantity: "1",
-              inredientsName: "tsp cornstarch mixed with 2 tbsp water",
+              ingredientsName: "tsp cornstarch mixed with 2 tbsp water",
             },
           ],
         },
@@ -12995,6 +13137,7 @@ export const recipes = [
     prepareTime: "10",
     cookTime: "25",
     recipeCategory: "Air Fryer",
+    categoryId: "18",
     recipeImage: "",
     nutritionInformation: {
       calories: "350",
@@ -13012,27 +13155,27 @@ export const recipes = [
           steps: [
             {
               ingredientsQuantity: "12",
-              inredientsName: "chicken wings",
+              ingredientsName: "chicken wings",
             },
             {
               ingredientsQuantity: "1",
-              inredientsName: "tbsp olive oil",
+              ingredientsName: "tbsp olive oil",
             },
             {
               ingredientsQuantity: "1",
-              inredientsName: "tsp garlic powder",
+              ingredientsName: "tsp garlic powder",
             },
             {
               ingredientsQuantity: "1",
-              inredientsName: "tsp onion powder",
+              ingredientsName: "tsp onion powder",
             },
             {
               ingredientsQuantity: "1",
-              inredientsName: "tsp paprika",
+              ingredientsName: "tsp paprika",
             },
             {
               ingredientsQuantity: "",
-              inredientsName: "Salt and pepper to taste",
+              ingredientsName: "Salt and pepper to taste",
             },
           ],
         },
@@ -13077,6 +13220,7 @@ export const recipes = [
     prepareTime: "10",
     cookTime: "20",
     recipeCategory: "Air Fryer",
+    categoryId: "18",
     recipeImage: "",
     nutritionInformation: {
       calories: "150",
@@ -13094,24 +13238,24 @@ export const recipes = [
           steps: [
             {
               ingredientsQuantity: "2",
-              inredientsName:
+              ingredientsName:
                 "medium sweet potatoes, peeled and cut into fries",
             },
             {
               ingredientsQuantity: "1",
-              inredientsName: "tbsp olive oil",
+              ingredientsName: "tbsp olive oil",
             },
             {
               ingredientsQuantity: "1/2",
-              inredientsName: "tsp salt",
+              ingredientsName: "tsp salt",
             },
             {
               ingredientsQuantity: "1/2",
-              inredientsName: "tsp black pepper",
+              ingredientsName: "tsp black pepper",
             },
             {
               ingredientsQuantity: "1/2",
-              inredientsName: "tsp paprika",
+              ingredientsName: "tsp paprika",
             },
           ],
         },
@@ -13156,6 +13300,7 @@ export const recipes = [
     prepareTime: "15",
     cookTime: "12",
     recipeCategory: "Air Fryer",
+    categoryId: "18",
     recipeImage: "",
     nutritionInformation: {
       calories: "180",
@@ -13173,35 +13318,35 @@ export const recipes = [
           steps: [
             {
               ingredientsQuantity: "1",
-              inredientsName: "medium zucchini, grated",
+              ingredientsName: "medium zucchini, grated",
             },
             {
               ingredientsQuantity: "1",
-              inredientsName: "small carrot, grated",
+              ingredientsName: "small carrot, grated",
             },
             {
               ingredientsQuantity: "1/4",
-              inredientsName: "cup flour",
+              ingredientsName: "cup flour",
             },
             {
               ingredientsQuantity: "1",
-              inredientsName: "egg",
+              ingredientsName: "egg",
             },
             {
               ingredientsQuantity: "1/4",
-              inredientsName: "cup breadcrumbs",
+              ingredientsName: "cup breadcrumbs",
             },
             {
               ingredientsQuantity: "1/2",
-              inredientsName: "tsp garlic powder",
+              ingredientsName: "tsp garlic powder",
             },
             {
               ingredientsQuantity: "",
-              inredientsName: "Salt and pepper to taste",
+              ingredientsName: "Salt and pepper to taste",
             },
             {
               ingredientsQuantity: "1",
-              inredientsName: "tbsp olive oil",
+              ingredientsName: "tbsp olive oil",
             },
           ],
         },
@@ -13251,6 +13396,7 @@ export const recipes = [
     prepareTime: "5",
     cookTime: "12",
     recipeCategory: "Air Fryer",
+    categoryId: "18",
     recipeImage: "",
     nutritionInformation: {
       calories: "250",
@@ -13268,27 +13414,27 @@ export const recipes = [
           steps: [
             {
               ingredientsQuantity: "2",
-              inredientsName: "salmon fillets",
+              ingredientsName: "salmon fillets",
             },
             {
               ingredientsQuantity: "1",
-              inredientsName: "tbsp olive oil",
+              ingredientsName: "tbsp olive oil",
             },
             {
               ingredientsQuantity: "1/2",
-              inredientsName: "tsp garlic powder",
+              ingredientsName: "tsp garlic powder",
             },
             {
               ingredientsQuantity: "1/2",
-              inredientsName: "tsp paprika",
+              ingredientsName: "tsp paprika",
             },
             {
               ingredientsQuantity: "",
-              inredientsName: "Salt and pepper to taste",
+              ingredientsName: "Salt and pepper to taste",
             },
             {
               ingredientsQuantity: "",
-              inredientsName: "Lemon wedges for serving",
+              ingredientsName: "Lemon wedges for serving",
             },
           ],
         },
