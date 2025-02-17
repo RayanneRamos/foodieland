@@ -5470,7 +5470,7 @@ export const recipes = [
       cholesterol: "15",
     },
     recipeDescription:
-      "A creamy and comforting tomato soup made from fresh tomatoes and aromatic vegetables, perfect for pairing with a grilled cheese sandwich on a cold day.",
+      "Classic Tomato Soup is a warm and comforting dish that blends the rich, tangy flavor of ripe tomatoes with a creamy, smooth texture. The soup is typically made by sautéing onions and garlic in butter or olive oil, then simmering fresh or canned tomatoes with vegetable or chicken broth. A touch of salt, pepper, and herbs like basil or thyme adds depth, while a splash of cream or milk creates a velvety finish. Served with a grilled cheese sandwich or a crusty baguette, this timeless soup is perfect for cozying up on a chilly day.",
     recipeIngredients: [
       {
         recipeSteps: {
@@ -5565,7 +5565,7 @@ export const recipes = [
       cholesterol: "70",
     },
     recipeDescription:
-      "A hearty, healthy soup with chunks of chicken, vegetables, and a savory broth. Packed with protein and fiber, it's a perfect meal for any time of the year.",
+      "Chicken and Vegetable Soup is a hearty and nourishing dish filled with tender pieces of chicken, a medley of vegetables, and a flavorful broth. Typically, carrots, celery, onions, and potatoes are simmered alongside chicken breast or thighs, creating a comforting base. Herbs like thyme, rosemary, and bay leaves add aromatic depth to the soup, while a dash of salt and pepper enhances the flavors. The chicken is cooked until tender and shredded, then added back to the pot, creating a satisfying and well-balanced meal perfect for cold days or when you're in need of some cozy nourishment.",
     recipeIngredients: [
       {
         recipeSteps: {
@@ -5668,7 +5668,7 @@ export const recipes = [
       cholesterol: "0",
     },
     recipeDescription:
-      "A nutritious and filling lentil soup made with a variety of vegetables and spices. This soup is rich in protein and fiber, making it a hearty and healthy meal option.",
+      "Lentil Soup is a hearty and nutritious dish that features tender lentils simmered in a flavorful broth with vegetables and spices. Common ingredients include onions, garlic, carrots, and celery, which are sautéed to create a rich base before adding lentils and vegetable or chicken broth. Spices like cumin, coriander, turmeric, and bay leaves infuse the soup with warmth and depth. The lentils cook to a soft, comforting texture, making this soup a filling and healthy meal. It’s an excellent source of protein, fiber, and essential nutrients, perfect for a light lunch or dinner.",
     recipeIngredients: [
       {
         recipeSteps: {
@@ -5769,7 +5769,7 @@ export const recipes = [
       cholesterol: "30",
     },
     recipeDescription:
-      "A rich and creamy soup made with potatoes and leeks, perfect for cold weather. This soup has a velvety texture and a mild, comforting flavor.",
+      "Creamy Potato Leek Soup is a rich and velvety dish made from tender potatoes and leeks simmered in a savory broth, then blended to create a smooth texture. The leeks, which have a mild onion flavor, are sautéed in butter until soft, adding a delicate sweetness to the soup. Potatoes are added for their creaminess and ability to thicken the soup. Once cooked, the soup is pureed until smooth, and a touch of cream or milk is added for richness. It's a comforting, flavorful soup perfect for chilly days, often topped with a sprinkle of fresh herbs or crispy bacon.",
     recipeIngredients: [
       {
         recipeSteps: {
@@ -5855,7 +5855,7 @@ export const recipes = [
       cholesterol: "10",
     },
     recipeDescription:
-      "A classic Italian vegetable soup with beans, pasta, and a variety of vegetables. This hearty soup is packed with nutrients and is perfect for a cozy dinner.",
+      "Minestrone Soup is a hearty and flavorful Italian vegetable soup packed with a variety of seasonal vegetables, beans, and pasta, all simmered in a savory tomato-based broth. The soup typically includes ingredients like onions, carrots, celery, zucchini, and tomatoes, along with beans such as cannellini or kidney beans, and small pasta like ditalini or elbow macaroni. Fresh herbs like basil, thyme, and bay leaves enhance the depth of flavor, while a drizzle of olive oil adds richness. Minestrone is both nutritious and filling, making it a perfect meal for any time of year. It’s often served with a sprinkle of Parmesan cheese and crusty bread on the side.",
     recipeIngredients: [
       {
         recipeSteps: {
@@ -5962,7 +5962,7 @@ export const recipes = [
       cholesterol: "30",
     },
     recipeDescription:
-      "A smooth and creamy tomato soup infused with fresh basil, garlic, and a hint of cream, perfect for a cozy meal.",
+      "Creamy Tomato Basil Soup is a comforting and velvety dish made with ripe tomatoes, fresh basil, and a touch of cream. The tomatoes are simmered with onions and garlic to create a flavorful base, then blended until smooth for a silky texture. Fresh basil is added for a fragrant, herbaceous note that complements the sweetness of the tomatoes. A splash of cream is stirred in at the end to enrich the soup, making it creamy and luxurious. It's often served with grilled cheese sandwiches or crusty bread for a classic and satisfying meal.",
     recipeIngredients: [
       {
         recipeSteps: {
@@ -6057,7 +6057,7 @@ export const recipes = [
       cholesterol: "110",
     },
     recipeDescription:
-      "A fragrant and spicy Thai-style coconut soup with shrimp, lime, and lemongrass, delivering a burst of bold flavors.",
+      "Spicy Thai Coconut Shrimp Soup, also known as Tom Kha Gai, is a fragrant and flavorful soup that combines the richness of coconut milk with the heat of Thai chilies. The soup starts with a base of coconut milk and chicken or vegetable broth, flavored with aromatic ingredients such as lemongrass, ginger, kaffir lime leaves, and fish sauce. Shrimp are added to the soup, absorbing the fragrant broth while cooking to tender perfection. Red chilies bring a touch of spice, and a splash of lime juice adds tanginess to balance the flavors. Garnished with fresh cilantro and served hot, this soup offers a perfect balance of creamy, spicy, sour, and salty flavors that are characteristic of Thai cuisine.",
     recipeIngredients: [
       {
         recipeSteps: {
@@ -6190,7 +6190,7 @@ export const recipes = [
       cholesterol: "0",
     },
     recipeDescription:
-      "A nourishing and hearty lentil soup packed with vegetables and warm spices, perfect for a wholesome meal.",
+      "Hearty Lentil and Vegetable Soup is a nourishing and satisfying dish made with tender lentils and a variety of vegetables, simmered together in a savory broth. The soup typically includes ingredients like carrots, celery, onions, and tomatoes, along with green or brown lentils that provide protein and fiber. Aromatic herbs such as thyme, bay leaves, and garlic infuse the broth with rich flavor. The vegetables and lentils cook until tender, creating a thick, hearty texture. This soup is not only comforting but also a great source of nutrients, perfect for a wholesome and filling meal. It can be served with a slice of crusty bread or a sprinkle of fresh herbs on top.",
     recipeIngredients: [
       {
         recipeSteps: {
