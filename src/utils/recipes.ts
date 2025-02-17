@@ -4762,7 +4762,7 @@ export const recipes = [
       cholesterol: "80",
     },
     recipeDescription:
-      "A classic Caesar salad with grilled chicken breast, romaine lettuce, croutons, Parmesan cheese, and a creamy Caesar dressing.",
+      "Grilled Chicken Caesar Salad is a classic and satisfying dish that combines tender grilled chicken with crisp romaine lettuce, crunchy croutons, and creamy Caesar dressing. The chicken is seasoned and grilled to perfection, offering a smoky and flavorful addition to the salad. The romaine lettuce is fresh and crisp, while the homemade or store-bought Caesar dressing is rich and tangy, with flavors of Parmesan, garlic, and anchovy. Topped with freshly grated Parmesan cheese and crunchy croutons, this salad is a perfect balance of flavors and textures, making it a great meal for lunch or dinner.",
     recipeIngredients: [
       {
         recipeSteps: {
@@ -4848,7 +4848,7 @@ export const recipes = [
       cholesterol: "10",
     },
     recipeDescription:
-      "A fresh and tangy Greek salad featuring tomatoes, cucumbers, red onions, Kalamata olives, and feta cheese, tossed in olive oil and oregano.",
+      "Greek Salad is a fresh and vibrant dish packed with Mediterranean flavors. It features a combination of crisp cucumbers, juicy tomatoes, red onions, Kalamata olives, and creamy feta cheese, all tossed together in a simple yet flavorful dressing made with olive oil, red wine vinegar, oregano, and a hint of lemon. The salad is often garnished with a sprinkle of dried oregano and served with a wedge of feta on top. This healthy and refreshing salad is light but satisfying, making it a perfect side dish or a meal on its own, especially during warm weather.",
     recipeIngredients: [
       {
         recipeSteps: {
@@ -4943,7 +4943,7 @@ export const recipes = [
       cholesterol: "0",
     },
     recipeDescription:
-      "A hearty and nutritious salad featuring quinoa, avocado, black beans, and a fresh lime dressing.",
+      "Quinoa and Avocado Salad is a light and nutritious dish that combines the protein-packed goodness of quinoa with the creamy richness of ripe avocado. The quinoa is cooked and fluffed, then mixed with diced avocado, fresh cucumber, cherry tomatoes, and red onion for a variety of textures and flavors. A simple dressing made with olive oil, lemon juice, salt, and pepper ties everything together, while fresh herbs like cilantro or parsley add brightness. This vibrant salad is not only delicious but also packed with healthy fats, fiber, and protein, making it a great option for a wholesome lunch or dinner.",
     recipeIngredients: [
       {
         recipeSteps: {
@@ -5033,7 +5033,7 @@ export const recipes = [
       cholesterol: "25",
     },
     recipeDescription:
-      "A simple yet flavorful salad with fresh mozzarella, tomatoes, basil, and a drizzle of balsamic glaze, perfect for a light meal or appetizer.",
+      "Caprese Salad is a simple yet elegant Italian dish that highlights fresh, high-quality ingredients. It features ripe, juicy tomatoes, creamy mozzarella cheese, and fragrant basil leaves, all drizzled with extra virgin olive oil and balsamic vinegar. A sprinkle of sea salt and freshly cracked black pepper enhances the flavors, making each bite a perfect balance of tangy, creamy, and herby notes. This light and refreshing salad is ideal as a starter, side dish, or even a light main course during warm weather. It’s a celebration of summer’s finest produce and flavors.",
     recipeIngredients: [
       {
         recipeSteps: {
@@ -5106,7 +5106,7 @@ export const recipes = [
       cholesterol: "0",
     },
     recipeDescription:
-      "A refreshing salad with baby spinach, fresh strawberries, almonds, and a light balsamic vinaigrette, perfect for a spring or summer meal.",
+      "Spinach and Strawberry Salad is a vibrant and refreshing dish that pairs the earthy flavor of fresh spinach with the sweet juiciness of ripe strawberries. The salad is often enhanced with toppings like crunchy walnuts or almonds, tangy feta cheese, and thinly sliced red onions. A light dressing made from balsamic vinegar, honey, and olive oil complements the sweetness of the strawberries and the richness of the spinach. This healthy and delicious salad is perfect for spring or summer, offering a balance of sweet, savory, and crunchy elements in every bite.",
     recipeIngredients: [
       {
         recipeSteps: {
@@ -5193,7 +5193,7 @@ export const recipes = [
       cholesterol: "10",
     },
     recipeDescription:
-      "A vibrant and earthy salad made with roasted beets, creamy goat cheese, and a light balsamic dressing. Perfect for any occasion, this salad brings a beautiful mix of flavors and textures.",
+      "Roasted Beetroot and Goat Cheese Salad is a flavorful and earthy dish that combines the sweetness of roasted beets with the tangy creaminess of goat cheese. The beets are roasted until tender and slightly caramelized, then sliced and placed on a bed of fresh mixed greens, often with arugula or spinach. Crumbled goat cheese adds richness, while walnuts or pecans provide a satisfying crunch. The salad is dressed with a light vinaigrette made from olive oil, balsamic vinegar, and a touch of honey, creating a perfect balance of savory, sweet, and tangy flavors. It’s a delicious and visually striking salad that works well as a side dish or a main course.",
     recipeIngredients: [
       {
         recipeSteps: {
@@ -5280,7 +5280,7 @@ export const recipes = [
       cholesterol: "0",
     },
     recipeDescription:
-      "A crunchy and refreshing salad made with shredded cabbage, carrots, and a tangy sesame dressing. Perfect as a side dish or light meal, this salad offers a satisfying crunch and savory flavor.",
+      "Asian Cabbage Salad with Sesame Dressing is a crunchy and vibrant salad that combines the fresh, crisp texture of shredded cabbage with a flavorful sesame dressing. The salad often includes a variety of vegetables like carrots, bell peppers, and green onions, along with a sprinkle of toasted sesame seeds for added flavor and texture. The sesame dressing, made with sesame oil, rice vinegar, soy sauce, honey, and a dash of ginger, brings a sweet and savory element to the dish. This refreshing salad is perfect as a side dish or light meal and is ideal for pairing with Asian-inspired dishes.",
     recipeIngredients: [
       {
         recipeSteps: {
@@ -5383,7 +5383,7 @@ export const recipes = [
       cholesterol: "0",
     },
     recipeDescription:
-      "A hearty and nutritious salad with protein-packed chickpeas, creamy avocado, cherry tomatoes, and a simple lemon dressing. A perfect option for a light lunch or a side dish.",
+      "Chickpea and Avocado Salad is a nutritious and satisfying dish that combines the creaminess of ripe avocado with the hearty texture of chickpeas. The salad often includes fresh ingredients like cucumber, cherry tomatoes, and red onion, which add a burst of color and crunch. A simple lemon or lime dressing with olive oil, salt, pepper, and a touch of cumin or paprika enhances the flavors. This salad is not only rich in protein and healthy fats but also easy to prepare, making it a perfect light lunch or side dish for any occasion.",
     recipeIngredients: [
       {
         recipeSteps: {
