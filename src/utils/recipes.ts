@@ -7733,7 +7733,7 @@ export const recipes = [
       cholesterol: "0",
     },
     recipeDescription:
-      "A tropical, creamy smoothie that combines the sweetness of mango with the richness of coconut milk. Perfect for a refreshing summer drink.",
+      "A Mango Coconut Smoothie is a tropical delight that combines the sweetness of ripe mangoes with the creamy richness of coconut milk. This smoothie is refreshing and packed with nutrients, offering a burst of flavor in every sip. The mango provides a natural sweetness, while the coconut milk adds a smooth, velvety texture. It's a perfect drink to cool off on a warm day or enjoy as a nutritious breakfast or snack.",
     recipeIngredients: [
       {
         recipeSteps: {
@@ -7813,7 +7813,7 @@ export const recipes = [
       cholesterol: "10",
     },
     recipeDescription:
-      "A smooth and slightly sweet iced matcha latte made with high-quality green tea powder and milk, perfect for an energizing start to your day.",
+      "An Iced Matcha Latte is a refreshing and vibrant beverage that blends smooth, earthy matcha green tea with creamy milk (or plant-based alternatives) and ice. This drink offers a perfect balance of natural sweetness and the unique, slightly bitter flavor of matcha. It's not only a cooling drink for warm days but also provides a gentle energy boost thanks to matcha’s caffeine content. Enjoy it as a healthy, energizing alternative to your regular iced coffee or tea!",
     recipeIngredients: [
       {
         recipeSteps: {
@@ -7890,7 +7890,7 @@ export const recipes = [
       cholesterol: "15",
     },
     recipeDescription:
-      "A rich and creamy hot chocolate made from real cocoa powder, perfect for cozying up on a cold day.",
+      "Classic Hot Chocolate is a rich, comforting drink made with a combination of milk, cocoa powder, sugar, and a touch of vanilla. It's the perfect treat to warm you up on a cold day, offering a smooth, creamy texture and a sweet, chocolaty flavor. You can customize it by adding whipped cream or marshmallows for extra indulgence. It's a timeless favorite for cozy moments and a simple pleasure that appeals to all ages.",
     recipeIngredients: [
       {
         recipeSteps: {
@@ -7978,7 +7978,7 @@ export const recipes = [
       cholesterol: "0",
     },
     recipeDescription:
-      "A refreshing and tangy homemade lemonade, perfect for hot summer days.",
+      "Fresh Lemonade is a refreshing and tangy beverage made by combining freshly squeezed lemon juice, water, and sugar. It's a perfect drink for hot summer days, offering a balance of sweet and sour flavors. You can adjust the sweetness to your liking, and it's often served over ice for a cool, invigorating experience. This homemade version is much more vibrant and flavorful than store-bought alternatives, making it a go-to choice for hydration and relaxation.",
     recipeIngredients: [
       {
         recipeSteps: {
@@ -8052,7 +8052,7 @@ export const recipes = [
       cholesterol: "10",
     },
     recipeDescription:
-      "A nutritious and protein-packed shake that’s perfect for post-workout recovery or a healthy breakfast.",
+      "The Strawberry Banana Protein Shake is a delicious and nutritious drink, perfect for a post-workout boost or a quick breakfast. This shake combines the sweetness of ripe strawberries and bananas with protein powder to support muscle recovery and keep you full longer. It's easy to make and can be customized with almond milk or yogurt for extra creaminess. This shake offers a great combination of vitamins, minerals, and protein, making it a wholesome choice to fuel your day.",
     recipeIngredients: [
       {
         recipeSteps: {
@@ -8133,7 +8133,7 @@ export const recipes = [
       cholesterol: "0",
     },
     recipeDescription:
-      "A soothing and aromatic tea infused with fresh ginger and honey, perfect for boosting immunity and relaxing your body.",
+      "Honey Ginger Tea is a soothing and health-boosting drink that combines the warm, spicy flavor of fresh ginger with the sweetness of honey. It's known for its potential to soothe sore throats, improve digestion, and boost immunity. To make it, simply steep fresh ginger slices in hot water and add honey for sweetness, creating a comforting, natural remedy. This tea can be enjoyed hot or iced, providing a perfect, calming beverage for any time of day.",
     recipeIngredients: [
       {
         recipeSteps: {
@@ -8216,7 +8216,7 @@ export const recipes = [
       cholesterol: "5",
     },
     recipeDescription:
-      "A creamy and nutrient-dense smoothie made with avocado and banana, packed with healthy fats and fiber to keep you energized.",
+      "An Avocado Banana Smoothie is a creamy, nutrient-packed drink that's both delicious and filling. Combining ripe avocado and banana creates a smooth, rich texture, while providing healthy fats, fiber, and potassium. Simply blend ripe avocado, banana, a splash of milk (or dairy-free alternative), and a sweetener like honey or maple syrup for a naturally sweet flavor. It's perfect for a quick breakfast or a post-workout snack, offering a boost of energy and staying power throughout the day.",
     recipeIngredients: [
       {
         recipeSteps: {
@@ -8298,7 +8298,7 @@ export const recipes = [
       cholesterol: "0",
     },
     recipeDescription:
-      "A warm and comforting drink made with apple cider and aromatic spices, perfect for autumn and winter.",
+      "Spiced Apple Cider is a warm, comforting beverage, perfect for chilly days. It combines the sweet, tangy flavors of fresh apple cider with warming spices like cinnamon, cloves, and nutmeg. To make it, heat up apple cider with the spices in a saucepan, letting the flavors blend together. You can also add a splash of orange juice or a cinnamon stick for extra zest. Serve it hot, garnished with a slice of apple or a cinnamon stick for a festive touch. It's an ideal drink for cozy evenings or holiday gatherings.",
     recipeIngredients: [
       {
         recipeSteps: {
