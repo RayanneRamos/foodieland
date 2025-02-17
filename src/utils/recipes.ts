@@ -13147,7 +13147,7 @@ export const recipes = [
       cholesterol: "70",
     },
     recipeDescription:
-      "Air fryer chicken wings are crispy and juicy without the extra oil. Perfect for a healthy snack or meal.",
+      "Air Fryer Chicken Wings are a healthier and quicker alternative to deep-frying, offering crispy skin and juicy meat without the excess oil. The wings are seasoned with a blend of spices, then cooked in the air fryer at a high temperature, which crisps up the skin while keeping the inside tender. They can be tossed in a variety of sauces such as buffalo, BBQ, or honey garlic, adding flavor and richness. These wings are a great choice for a fast, delicious, and less greasy snack or meal.",
     recipeIngredients: [
       {
         recipeSteps: {
@@ -13230,7 +13230,7 @@ export const recipes = [
       cholesterol: "0",
     },
     recipeDescription:
-      "Crispy on the outside, tender on the inside, these sweet potato fries are a healthy and delicious side dish made in the air fryer.",
+      "Air Fryer Sweet Potato Fries are a healthier, crispy alternative to traditional fried sweet potato fries. The sweet potatoes are cut into thin strips, tossed with olive oil and seasoning, and then cooked in the air fryer at a high temperature. This method creates a crispy exterior while keeping the inside tender, all without the need for deep frying. They make a perfect side dish or snack, offering a balance of sweetness and savory flavor with fewer calories and less oil.",
     recipeIngredients: [
       {
         recipeSteps: {
@@ -13310,7 +13310,7 @@ export const recipes = [
       cholesterol: "45",
     },
     recipeDescription:
-      "These veggie fritters are crispy and packed with nutritious vegetables. The air fryer makes them guilt-free while still maintaining a crunchy texture.",
+      "Air Fryer Veggie Fritters are a delicious and healthier alternative to traditional deep-fried fritters. Made by combining grated vegetables like zucchini, carrots, and sweet potatoes with flour, eggs, and seasonings, the mixture is shaped into small patties and cooked in the air fryer. This method gives the fritters a crispy, golden exterior while keeping the inside tender and flavorful, all with minimal oil. These veggie fritters are perfect as a snack, side dish, or light meal.",
     recipeIngredients: [
       {
         recipeSteps: {
@@ -13406,7 +13406,7 @@ export const recipes = [
       cholesterol: "60",
     },
     recipeDescription:
-      "Air fryer salmon is a quick and easy way to make perfectly cooked, tender fish with a crispy crust.",
+      "Air Fryer Salmon is a quick and easy way to cook salmon fillets with a perfectly crispy exterior and tender, flaky interior. Simply season the salmon with your favorite herbs and spices, drizzle with a little olive oil, and place it in the air fryer basket. Cook for around 8-12 minutes at 400°F (200°C), depending on the thickness of the fillet. The result is a deliciously juicy salmon with a golden, crispy skin, making it a healthy and flavorful meal in no time.",
     recipeIngredients: [
       {
         recipeSteps: {
