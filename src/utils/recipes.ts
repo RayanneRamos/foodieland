@@ -8279,33 +8279,74 @@ export const recipes = [
   },
   // Healthy
   {
-    id: "",
-    recipeName: "",
+    id: "fa2b411d-0d0e-4c1b-8469-53a27583f13f",
+    recipeName: "Grilled Salmon with Quinoa Salad",
     author: {
       authorAvatar: "",
-      authorName: "",
-      authorDatePosted: "",
+      authorName: "Mason Harris",
+      authorDatePosted: "30 September 2024",
     },
-    prepareTime: "",
-    cookTime: "",
+    prepareTime: "10",
+    cookTime: "15",
     recipeCategory: "Healthy",
     recipeImage: "",
     nutritionInformation: {
-      calories: "",
-      totalFat: "",
-      protein: "",
-      carbohydrate: "",
-      cholesterol: "",
+      calories: "350",
+      totalFat: "12",
+      protein: "35",
+      carbohydrate: "25",
+      cholesterol: "55",
     },
-    recipeDescription: "",
+    recipeDescription:
+      "A delicious and protein-packed meal featuring grilled salmon served with a fresh quinoa salad, perfect for a balanced and nutritious meal.",
     recipeIngredients: [
       {
         recipeSteps: {
           name: "",
           steps: [
             {
-              ingredientsQuantity: "",
-              inredientsName: "",
+              ingredientsQuantity: "2",
+              inredientsName: "salmon fillets (about 150g each)",
+            },
+            {
+              ingredientsQuantity: "1",
+              inredientsName: "cup cooked quinoa",
+            },
+            {
+              ingredientsQuantity: "1/2",
+              inredientsName: "cucumber, diced",
+            },
+            {
+              ingredientsQuantity: "1/2",
+              inredientsName: "cup cherry tomatoes, halved",
+            },
+            {
+              ingredientsQuantity: "1/4",
+              inredientsName: "red onion, finely chopped",
+            },
+            {
+              ingredientsQuantity: "1",
+              inredientsName: "tbsp olive oil",
+            },
+            {
+              ingredientsQuantity: "1",
+              inredientsName: "tbsp lemon juice",
+            },
+            {
+              ingredientsQuantity: "1",
+              inredientsName: "tsp garlic powder",
+            },
+            {
+              ingredientsQuantity: "1/2",
+              inredientsName: "tsp salt",
+            },
+            {
+              ingredientsQuantity: "1/2",
+              inredientsName: "tsp black pepper",
+            },
+            {
+              ingredientsQuantity: "1/2",
+              inredientsName: "tsp paprika",
             },
           ],
         },
@@ -8313,39 +8354,85 @@ export const recipes = [
     ],
     recipeDirections: [
       {
-        directionTitle: "",
-        directionDescription: "",
+        directionTitle: "Season the Salmon",
+        directionDescription:
+          "In a small bowl, mix garlic powder, salt, pepper, and paprika. Rub the seasoning evenly on both sides of the salmon fillets.",
+      },
+      {
+        directionTitle: "Heat the Grill",
+        directionDescription:
+          "Preheat a grill or a grill pan over medium heat and brush with a little olive oil.",
+      },
+      {
+        directionTitle: "Grill the Salmon",
+        directionDescription:
+          "Place the salmon fillets on the grill and cook for about 4-5 minutes per side until golden brown and cooked through.",
+      },
+      {
+        directionTitle: "Prepare the Quinoa Salad",
+        directionDescription:
+          "In a bowl, mix cooked quinoa, diced cucumber, cherry tomatoes, and red onion. Drizzle with olive oil and lemon juice. Toss well.",
+      },
+      {
+        directionTitle: "Serve",
+        directionDescription:
+          "Place the grilled salmon on a plate and serve with a generous portion of quinoa salad.",
       },
     ],
   },
   {
-    id: "",
-    recipeName: "",
+    id: "16c9b901-ca50-4040-b609-92e36acb7075",
+    recipeName: "Avocado Toast with Poached Egg",
     author: {
       authorAvatar: "",
-      authorName: "",
-      authorDatePosted: "",
+      authorName: "Isaiah Evans",
+      authorDatePosted: "09 February 2024",
     },
-    prepareTime: "",
-    cookTime: "",
+    prepareTime: "5",
+    cookTime: "5",
     recipeCategory: "Healthy",
     recipeImage: "",
     nutritionInformation: {
-      calories: "",
-      totalFat: "",
-      protein: "",
-      carbohydrate: "",
-      cholesterol: "",
+      calories: "250",
+      totalFat: "15",
+      protein: "10",
+      carbohydrate: "20",
+      cholesterol: "180",
     },
-    recipeDescription: "",
+    recipeDescription:
+      "A quick and healthy breakfast featuring creamy avocado on whole-grain toast, topped with a perfectly poached egg.",
     recipeIngredients: [
       {
         recipeSteps: {
           name: "",
           steps: [
             {
-              ingredientsQuantity: "",
-              inredientsName: "",
+              ingredientsQuantity: "1",
+              inredientsName: "slice whole-grain bread",
+            },
+            {
+              ingredientsQuantity: "1/2",
+              inredientsName: "ripe avocado",
+            },
+            {
+              ingredientsQuantity: "1",
+              inredientsName: "egg",
+            },
+            {
+              ingredientsQuantity: "1/2",
+              inredientsName: "tsp lemon juice",
+            },
+            {
+              ingredientsQuantity: "1/4",
+              inredientsName: "tsp salt",
+            },
+            {
+              ingredientsQuantity: "1/4",
+              inredientsName: "tsp black pepper",
+            },
+            {
+              ingredientsQuantity: "1/2",
+              inredientsName: "tsp olive oil",
             },
           ],
         },
@@ -8353,39 +8440,92 @@ export const recipes = [
     ],
     recipeDirections: [
       {
-        directionTitle: "",
-        directionDescription: "",
+        directionTitle: "Toast the Bread",
+        directionDescription:
+          "Place the slice of whole-grain bread in a toaster and toast until golden brown.",
+      },
+      {
+        directionTitle: "Mash the Avocado",
+        directionDescription:
+          "In a small bowl, mash the avocado with a fork. Mix in lemon juice, salt, and black pepper.",
+      },
+      {
+        directionTitle: "Poach the Egg",
+        directionDescription:
+          "Bring a pot of water to a gentle simmer, crack the egg into a small bowl, create a swirl in the water using a spoon and gently slide the egg into the water, cook for 3-4 minutes until the egg white is set but the yolk remains runny and remove the egg with a slotted spoon and drain excess water.",
+      },
+      {
+        directionTitle: "Assemble",
+        directionDescription:
+          "Spread the mashed avocado on the toasted bread, place the poached egg on top, and drizzle with olive oil.",
+      },
+      {
+        directionTitle: "Serve Immediately",
+        directionDescription: "Enjoy as a nutritious breakfast or light meal.",
       },
     ],
   },
   {
-    id: "",
-    recipeName: "",
+    id: "abce9d8f-f4b0-4a52-8105-8ce6bc47b946",
+    recipeName: "Chickpea and Spinach Stir-Fry",
     author: {
       authorAvatar: "",
-      authorName: "",
-      authorDatePosted: "",
+      authorName: "Angel Ramirez",
+      authorDatePosted: "13 April 2021",
     },
-    prepareTime: "",
-    cookTime: "",
+    prepareTime: "5",
+    cookTime: "10",
     recipeCategory: "Healthy",
     recipeImage: "",
     nutritionInformation: {
-      calories: "",
-      totalFat: "",
-      protein: "",
-      carbohydrate: "",
-      cholesterol: "",
+      calories: "220",
+      totalFat: "7",
+      protein: "10",
+      carbohydrate: "30",
+      cholesterol: "0",
     },
-    recipeDescription: "",
+    recipeDescription:
+      "A protein-rich, fiber-filled dish that’s quick to prepare and packed with nutrients, ideal for a light lunch or dinner.",
     recipeIngredients: [
       {
         recipeSteps: {
           name: "",
           steps: [
             {
-              ingredientsQuantity: "",
-              inredientsName: "",
+              ingredientsQuantity: "1",
+              inredientsName: "cup cooked chickpeas (or canned, drained)",
+            },
+            {
+              ingredientsQuantity: "2",
+              inredientsName: "cups fresh spinach",
+            },
+            {
+              ingredientsQuantity: "1/2",
+              inredientsName: "red bell pepper, sliced",
+            },
+            {
+              ingredientsQuantity: "1/4",
+              inredientsName: "red onion, sliced",
+            },
+            {
+              ingredientsQuantity: "1",
+              inredientsName: "tbsp olive oil",
+            },
+            {
+              ingredientsQuantity: "1",
+              inredientsName: "garlic clove, minced",
+            },
+            {
+              ingredientsQuantity: "1/2",
+              inredientsName: "tsp cumin",
+            },
+            {
+              ingredientsQuantity: "1/2",
+              inredientsName: "tsp salt",
+            },
+            {
+              ingredientsQuantity: "1/4",
+              inredientsName: "tsp red pepper flakes (optional)",
             },
           ],
         },
@@ -8393,39 +8533,74 @@ export const recipes = [
     ],
     recipeDirections: [
       {
-        directionTitle: "",
-        directionDescription: "",
+        directionTitle: "Heat the Pan",
+        directionDescription:
+          "In a large skillet, heat olive oil over medium heat.",
+      },
+      {
+        directionTitle: "Sauté the Vegetables",
+        directionDescription:
+          "Add the minced garlic and sliced onion, cooking until fragrant (about 2 minutes).",
+      },
+      {
+        directionTitle: "Add the Chickpeas",
+        directionDescription:
+          "Stir in the chickpeas and season with cumin, salt, and red pepper flakes. Cook for another 3 minutes.",
+      },
+      {
+        directionTitle: "Stir in Spinach",
+        directionDescription:
+          "Add the fresh spinach and sliced red bell pepper. Stir well and cook until the spinach is wilted (about 2-3 minutes).",
+      },
+      {
+        directionTitle: "Serve Hot",
+        directionDescription:
+          "Transfer to a plate and enjoy on its own or with a side of brown rice.",
       },
     ],
   },
   {
-    id: "",
-    recipeName: "",
+    id: "92cde9ce-3a0d-4729-8cbc-e4cf158ad064",
+    recipeName: "Greek Yogurt Berry Parfait",
     author: {
       authorAvatar: "",
-      authorName: "",
-      authorDatePosted: "",
+      authorName: "Jose Cooper",
+      authorDatePosted: "05 August 2020",
     },
-    prepareTime: "",
-    cookTime: "",
+    prepareTime: "5",
+    cookTime: "0",
     recipeCategory: "Healthy",
     recipeImage: "",
     nutritionInformation: {
-      calories: "",
-      totalFat: "",
-      protein: "",
-      carbohydrate: "",
-      cholesterol: "",
+      calories: "180",
+      totalFat: "3",
+      protein: "12",
+      carbohydrate: "30",
+      cholesterol: "5",
     },
-    recipeDescription: "",
+    recipeDescription:
+      "A refreshing and protein-packed parfait made with Greek yogurt, fresh berries, and granola, perfect for breakfast or a healthy snack.",
     recipeIngredients: [
       {
         recipeSteps: {
           name: "",
           steps: [
             {
-              ingredientsQuantity: "",
-              inredientsName: "",
+              ingredientsQuantity: "1",
+              inredientsName: "cup Greek yogurt",
+            },
+            {
+              ingredientsQuantity: "1/2",
+              inredientsName:
+                "cup mixed berries (strawberries, blueberries, raspberries)",
+            },
+            {
+              ingredientsQuantity: "1/4",
+              inredientsName: "cup granola",
+            },
+            {
+              ingredientsQuantity: "1",
+              inredientsName: "tsp honey",
             },
           ],
         },
@@ -8433,39 +8608,84 @@ export const recipes = [
     ],
     recipeDirections: [
       {
-        directionTitle: "",
-        directionDescription: "",
+        directionTitle: "Layer the Yogurt",
+        directionDescription:
+          "In a glass or bowl, add half of the Greek yogurt.",
+      },
+      {
+        directionTitle: "Add the Berries",
+        directionDescription:
+          "Layer half of the mixed berries over the yogurt.",
+      },
+      {
+        directionTitle: "Repeat Layers",
+        directionDescription:
+          "Add the remaining yogurt, followed by the rest of the berries.",
+      },
+      {
+        directionTitle: "Top with Granola",
+        directionDescription: "Sprinkle granola on top for crunch.",
+      },
+      {
+        directionTitle: "Drizzle with Honey",
+        directionDescription:
+          "Finish with a drizzle of honey. Serve immediately.",
       },
     ],
   },
   {
-    id: "",
-    recipeName: "",
+    id: "c9ab6e00-c687-456a-bd10-704d6b605e64",
+    recipeName: "Roasted Sweet Potato and Kale Salad",
     author: {
       authorAvatar: "",
-      authorName: "",
-      authorDatePosted: "",
+      authorName: "Adam Sanchez",
+      authorDatePosted: "31 October 2021",
     },
-    prepareTime: "",
-    cookTime: "",
+    prepareTime: "10",
+    cookTime: "20",
     recipeCategory: "Healthy",
     recipeImage: "",
     nutritionInformation: {
-      calories: "",
-      totalFat: "",
-      protein: "",
-      carbohydrate: "",
-      cholesterol: "",
+      calories: "270",
+      totalFat: "9",
+      protein: "7",
+      carbohydrate: "40",
+      cholesterol: "0",
     },
-    recipeDescription: "",
+    recipeDescription:
+      "A nourishing and delicious salad made with roasted sweet potatoes, kale, and a light lemon dressing.",
     recipeIngredients: [
       {
         recipeSteps: {
           name: "",
           steps: [
             {
-              ingredientsQuantity: "",
-              inredientsName: "",
+              ingredientsQuantity: "1",
+              inredientsName: "medium sweet potato, diced",
+            },
+            {
+              ingredientsQuantity: "2",
+              inredientsName: "cups kale, chopped",
+            },
+            {
+              ingredientsQuantity: "1",
+              inredientsName: "tbsp olive oil",
+            },
+            {
+              ingredientsQuantity: "1/2",
+              inredientsName: "tsp salt",
+            },
+            {
+              ingredientsQuantity: "1/2",
+              inredientsName: "tsp black pepper",
+            },
+            {
+              ingredientsQuantity: "1",
+              inredientsName: "tbsp lemon juice",
+            },
+            {
+              ingredientsQuantity: "1",
+              inredientsName: "tbsp pumpkin seeds",
             },
           ],
         },
@@ -8473,39 +8693,107 @@ export const recipes = [
     ],
     recipeDirections: [
       {
-        directionTitle: "",
-        directionDescription: "",
+        directionTitle: "Preheat the Oven",
+        directionDescription: "Set the oven to 400°F (200°C).",
+      },
+      {
+        directionTitle: "Roast the Sweet Potato",
+        directionDescription:
+          "Toss diced sweet potatoes with 1/2 tbsp olive oil, salt, and black pepper and spread them on a baking sheet and roast for 20 minutes, flipping halfway.",
+      },
+      {
+        directionTitle: "Prepare the Kale",
+        directionDescription:
+          "In a bowl, drizzle the chopped kale with the remaining olive oil and lemon juice and massage the kale for 1-2 minutes to soften it.",
+      },
+      {
+        directionTitle: "Assemble the Salad",
+        directionDescription:
+          "In a large bowl, mix the roasted sweet potatoes and kale and top with pumpkin seeds for extra crunch.",
+      },
+      {
+        directionTitle: "Serve Fresh",
+        directionDescription: "Enjoy as a light lunch or side dish.",
       },
     ],
   },
   {
-    id: "",
-    recipeName: "",
+    id: "8c175262-5cd0-4253-ab51-198bc51c1a52",
+    recipeName: "Lentil and Vegetable Soup",
     author: {
       authorAvatar: "",
-      authorName: "",
-      authorDatePosted: "",
+      authorName: "Landon Nelson",
+      authorDatePosted: "17 May 2021",
     },
-    prepareTime: "",
-    cookTime: "",
+    prepareTime: "10",
+    cookTime: "30",
     recipeCategory: "Healthy",
     recipeImage: "",
     nutritionInformation: {
-      calories: "",
-      totalFat: "",
-      protein: "",
-      carbohydrate: "",
-      cholesterol: "",
+      calories: "280",
+      totalFat: "4",
+      protein: "18",
+      carbohydrate: "45",
+      cholesterol: "0",
     },
-    recipeDescription: "",
+    recipeDescription:
+      "A hearty and protein-rich soup made with lentils and fresh vegetables, perfect for a nutritious and comforting meal.",
     recipeIngredients: [
       {
         recipeSteps: {
           name: "",
           steps: [
             {
-              ingredientsQuantity: "",
-              inredientsName: "",
+              ingredientsQuantity: "1",
+              inredientsName: "cup dry lentils, rinsed",
+            },
+            {
+              ingredientsQuantity: "1",
+              inredientsName: "medium carrot, diced",
+            },
+            {
+              ingredientsQuantity: "1",
+              inredientsName: "celery stalk, chopped",
+            },
+            {
+              ingredientsQuantity: "1",
+              inredientsName: "small onion, diced",
+            },
+            {
+              ingredientsQuantity: "1",
+              inredientsName: "garlic clove, minced",
+            },
+            {
+              ingredientsQuantity: "4",
+              inredientsName: "cups vegetable broth",
+            },
+            {
+              ingredientsQuantity: "1",
+              inredientsName: "can (400g) diced tomatoes",
+            },
+            {
+              ingredientsQuantity: "1",
+              inredientsName: "tsp olive oil",
+            },
+            {
+              ingredientsQuantity: "1/2",
+              inredientsName: "tsp cumin",
+            },
+            {
+              ingredientsQuantity: "1/2",
+              inredientsName: "tsp salt",
+            },
+            {
+              ingredientsQuantity: "1/2",
+              inredientsName: "tsp black pepper",
+            },
+            {
+              ingredientsQuantity: "1/4",
+              inredientsName: "tsp turmeric",
+            },
+            {
+              ingredientsQuantity: "1",
+              inredientsName: "bay leaf",
             },
           ],
         },
@@ -8513,39 +8801,80 @@ export const recipes = [
     ],
     recipeDirections: [
       {
-        directionTitle: "",
-        directionDescription: "",
+        directionTitle: "Prepare the Vegetables",
+        directionDescription:
+          "Dice the carrot, celery, and onion. Mince the garlic.",
+      },
+      {
+        directionTitle: "Sauté the Aromatics",
+        directionDescription:
+          "In a large pot, heat olive oil over medium heat. Add onion, garlic, carrot, and celery. Sauté for 3-4 minutes until fragrant.",
+      },
+      {
+        directionTitle: "Cook the Lentils",
+        directionDescription:
+          "Add the lentils, cumin, turmeric, salt, and black pepper. Stir well.",
+      },
+      {
+        directionTitle: "Simmer the Soup",
+        directionDescription:
+          "Pour in the vegetable broth and diced tomatoes. Add the bay leaf. Bring to a boil, then reduce heat and let simmer for 25 minutes.",
+      },
+      {
+        directionTitle: "Serve Hot",
+        directionDescription: "Remove the bay leaf and serve the soup warm.",
       },
     ],
   },
   {
-    id: "",
-    recipeName: "",
+    id: "9cbf7188-0535-4299-83d2-82372cfd425f",
+    recipeName: "Spinach and Mushroom Omelette",
     author: {
       authorAvatar: "",
-      authorName: "",
-      authorDatePosted: "",
+      authorName: "Beau Clark",
+      authorDatePosted: "27 December 2022",
     },
-    prepareTime: "",
-    cookTime: "",
+    prepareTime: "5",
+    cookTime: "7",
     recipeCategory: "Healthy",
     recipeImage: "",
     nutritionInformation: {
-      calories: "",
-      totalFat: "",
-      protein: "",
-      carbohydrate: "",
-      cholesterol: "",
+      calories: "210",
+      totalFat: "12",
+      protein: "18",
+      carbohydrate: "5",
+      cholesterol: "180",
     },
-    recipeDescription: "",
+    recipeDescription:
+      "A protein-packed omelette with fresh spinach and mushrooms, ideal for a healthy breakfast or light meal.",
     recipeIngredients: [
       {
         recipeSteps: {
           name: "",
           steps: [
             {
-              ingredientsQuantity: "",
-              inredientsName: "",
+              ingredientsQuantity: "2",
+              inredientsName: "eggs",
+            },
+            {
+              ingredientsQuantity: "1/2",
+              inredientsName: "cup fresh spinach, chopped",
+            },
+            {
+              ingredientsQuantity: "1/4",
+              inredientsName: "cup mushrooms, sliced",
+            },
+            {
+              ingredientsQuantity: "1",
+              inredientsName: "tbsp olive oil",
+            },
+            {
+              ingredientsQuantity: "1/4",
+              inredientsName: "tsp salt",
+            },
+            {
+              ingredientsQuantity: "1/4",
+              inredientsName: "tsp black pepper",
             },
           ],
         },
@@ -8553,39 +8882,88 @@ export const recipes = [
     ],
     recipeDirections: [
       {
-        directionTitle: "",
-        directionDescription: "",
+        directionTitle: "Whisk the Eggs",
+        directionDescription:
+          "In a bowl, beat the eggs with salt and black pepper.",
+      },
+      {
+        directionTitle: "Sauté the Vegetables",
+        directionDescription:
+          "Heat olive oil in a pan over medium heat. Add mushrooms and cook for 2 minutes. Add spinach and stir for another minute.",
+      },
+      {
+        directionTitle: "Cook the Omelette",
+        directionDescription:
+          "Pour the beaten eggs over the vegetables. Let cook undisturbed for 2-3 minutes until the bottom is set.",
+      },
+      {
+        directionTitle: "Fold and Serve",
+        directionDescription:
+          "Gently fold the omelette in half and cook for another minute. Serve hot.",
       },
     ],
   },
   {
-    id: "",
-    recipeName: "",
+    id: "6257a158-d13c-4db3-95af-8420b01ce2c6",
+    recipeName: "Quinoa and Chickpea Bowl",
     author: {
       authorAvatar: "",
-      authorName: "",
-      authorDatePosted: "",
+      authorName: "Nicholas Moore",
+      authorDatePosted: "10 May 2023",
     },
-    prepareTime: "",
-    cookTime: "",
+    prepareTime: "10",
+    cookTime: "15",
     recipeCategory: "Healthy",
     recipeImage: "",
     nutritionInformation: {
-      calories: "",
-      totalFat: "",
-      protein: "",
-      carbohydrate: "",
-      cholesterol: "",
+      calories: "320",
+      totalFat: "8",
+      protein: "12",
+      carbohydrate: "50",
+      cholesterol: "0",
     },
-    recipeDescription: "",
+    recipeDescription:
+      "A nutrient-dense bowl with quinoa, chickpeas, and fresh vegetables, dressed with lemon and olive oil.",
     recipeIngredients: [
       {
         recipeSteps: {
           name: "",
           steps: [
             {
-              ingredientsQuantity: "",
-              inredientsName: "",
+              ingredientsQuantity: "1/2",
+              inredientsName: "cup quinoa, rinsed",
+            },
+            {
+              ingredientsQuantity: "1",
+              inredientsName: "cup water",
+            },
+            {
+              ingredientsQuantity: "1/2",
+              inredientsName: "cup canned chickpeas, drained",
+            },
+            {
+              ingredientsQuantity: "1/2",
+              inredientsName: "cucumber, diced",
+            },
+            {
+              ingredientsQuantity: "1/4",
+              inredientsName: "red bell pepper, diced",
+            },
+            {
+              ingredientsQuantity: "1",
+              inredientsName: "tbsp olive oil",
+            },
+            {
+              ingredientsQuantity: "1",
+              inredientsName: "tbsp lemon juice",
+            },
+            {
+              ingredientsQuantity: "1/4",
+              inredientsName: "tsp salt",
+            },
+            {
+              ingredientsQuantity: "1/4",
+              inredientsName: "tsp black pepper",
             },
           ],
         },
@@ -8593,39 +8971,87 @@ export const recipes = [
     ],
     recipeDirections: [
       {
-        directionTitle: "",
-        directionDescription: "",
+        directionTitle: "Cook the Quinoa",
+        directionDescription:
+          "Bring 1 cup of water to a boil, add quinoa, cover, and simmer for 12-15 minutes. Fluff with a fork.",
+      },
+      {
+        directionTitle: "Prepare the Vegetables",
+        directionDescription: "Dice the cucumber and bell pepper.",
+      },
+      {
+        directionTitle: "Mix the Bowl",
+        directionDescription:
+          "In a bowl, combine cooked quinoa, chickpeas, cucumber, and bell pepper.",
+      },
+      {
+        directionTitle: "Dress and Serve",
+        directionDescription:
+          "Drizzle with olive oil, lemon juice, salt, and pepper. Toss well and serve.",
       },
     ],
   },
   {
-    id: "",
-    recipeName: "",
+    id: "f59cec4c-a727-4989-8022-1ae2fe82e9d2",
+    recipeName: "Grilled Chicken with Roasted Vegetables",
     author: {
       authorAvatar: "",
-      authorName: "",
-      authorDatePosted: "",
+      authorName: "Isaiah Lewis",
+      authorDatePosted: "11 December 2021",
     },
-    prepareTime: "",
-    cookTime: "",
+    prepareTime: "10",
+    cookTime: "20",
     recipeCategory: "Healthy",
     recipeImage: "",
     nutritionInformation: {
-      calories: "",
-      totalFat: "",
-      protein: "",
-      carbohydrate: "",
-      cholesterol: "",
+      calories: "350",
+      totalFat: "10",
+      protein: "40",
+      carbohydrate: "25",
+      cholesterol: "75",
     },
-    recipeDescription: "",
+    recipeDescription:
+      "A balanced meal featuring lean grilled chicken served with a mix of roasted vegetables.",
     recipeIngredients: [
       {
         recipeSteps: {
           name: "",
           steps: [
             {
-              ingredientsQuantity: "",
-              inredientsName: "",
+              ingredientsQuantity: "1",
+              inredientsName: "chicken breast (about 150g)",
+            },
+            {
+              ingredientsQuantity: "1",
+              inredientsName: "zucchini, sliced",
+            },
+            {
+              ingredientsQuantity: "1",
+              inredientsName: "bell pepper, chopped",
+            },
+            {
+              ingredientsQuantity: "1/2",
+              inredientsName: "red onion, sliced",
+            },
+            {
+              ingredientsQuantity: "1",
+              inredientsName: "tbsp olive oil",
+            },
+            {
+              ingredientsQuantity: "1/2",
+              inredientsName: "tsp garlic powder",
+            },
+            {
+              ingredientsQuantity: "1/2",
+              inredientsName: "tsp salt",
+            },
+            {
+              ingredientsQuantity: "1/4",
+              inredientsName: "tsp black pepper",
+            },
+            {
+              ingredientsQuantity: "1/4",
+              inredientsName: "tsp paprika",
             },
           ],
         },
@@ -8633,39 +9059,77 @@ export const recipes = [
     ],
     recipeDirections: [
       {
-        directionTitle: "",
-        directionDescription: "",
+        directionTitle: "Preheat the Grill",
+        directionDescription:
+          "Heat a grill pan or outdoor grill to medium-high heat.",
+      },
+      {
+        directionTitle: "Season the Chicken",
+        directionDescription:
+          "Rub the chicken breast with garlic powder, salt, black pepper, and paprika.",
+      },
+      {
+        directionTitle: "Grill the Chicken",
+        directionDescription:
+          "Cook for 6-7 minutes per side until fully cooked. Let rest for 5 minutes before slicing.",
+      },
+      {
+        directionTitle: "Roast the Vegetables",
+        directionDescription:
+          "Toss zucchini, bell pepper, and red onion with olive oil and salt. Roast in a 200°C oven for 15-20 minutes.",
+      },
+      {
+        directionTitle: "Serve",
+        directionDescription:
+          "Plate the sliced grilled chicken with a side of roasted vegetables.",
       },
     ],
   },
   {
-    id: "",
-    recipeName: "",
+    id: "1ee63959-9b34-42c4-b82d-3f852577ff22",
+    recipeName: "Chia Seed Pudding with Almond Milk",
     author: {
       authorAvatar: "",
-      authorName: "",
-      authorDatePosted: "",
+      authorName: "James Evans",
+      authorDatePosted: "16 December 2023",
     },
-    prepareTime: "",
-    cookTime: "",
+    prepareTime: "5",
+    cookTime: "120",
     recipeCategory: "Healthy",
     recipeImage: "",
     nutritionInformation: {
-      calories: "",
-      totalFat: "",
-      protein: "",
-      carbohydrate: "",
-      cholesterol: "",
+      calories: "200",
+      totalFat: "10",
+      protein: "6",
+      carbohydrate: "25",
+      cholesterol: "0",
     },
-    recipeDescription: "",
+    recipeDescription:
+      "A creamy and nutritious chia pudding made with almond milk, perfect as a healthy breakfast or snack.",
     recipeIngredients: [
       {
         recipeSteps: {
           name: "",
           steps: [
             {
-              ingredientsQuantity: "",
-              inredientsName: "",
+              ingredientsQuantity: "2",
+              inredientsName: "tbsp chia seeds",
+            },
+            {
+              ingredientsQuantity: "1/2",
+              inredientsName: "cup almond milk",
+            },
+            {
+              ingredientsQuantity: "1",
+              inredientsName: "tsp honey",
+            },
+            {
+              ingredientsQuantity: "1/2",
+              inredientsName: "tsp vanilla extract",
+            },
+            {
+              ingredientsQuantity: "1/4",
+              inredientsName: "cup mixed berries (strawberries, blueberries)",
             },
           ],
         },
@@ -8673,39 +9137,82 @@ export const recipes = [
     ],
     recipeDirections: [
       {
-        directionTitle: "",
-        directionDescription: "",
+        directionTitle: "Mix the Ingredients",
+        directionDescription:
+          "In a bowl or jar, combine chia seeds, almond milk, honey, and vanilla extract. Stir well.",
+      },
+      {
+        directionTitle: "Let It Set",
+        directionDescription:
+          "Cover and refrigerate for at least 2 hours (or overnight) until it thickens.",
+      },
+      {
+        directionTitle: "Serve",
+        directionDescription: "Top with mixed berries and enjoy.",
       },
     ],
   },
   {
-    id: "",
-    recipeName: "",
+    id: "265d1cc0-b87b-4515-b6e2-a4487adba7a8",
+    recipeName: "Avocado and Tuna Salad",
     author: {
       authorAvatar: "",
-      authorName: "",
-      authorDatePosted: "",
+      authorName: "David Murphy",
+      authorDatePosted: "18 March 2024",
     },
-    prepareTime: "",
-    cookTime: "",
+    prepareTime: "10",
+    cookTime: "0",
     recipeCategory: "Healthy",
     recipeImage: "",
     nutritionInformation: {
-      calories: "",
-      totalFat: "",
-      protein: "",
-      carbohydrate: "",
-      cholesterol: "",
+      calories: "280",
+      totalFat: "15",
+      protein: "25",
+      carbohydrate: "10",
+      cholesterol: "35",
     },
-    recipeDescription: "",
+    recipeDescription:
+      "A refreshing and protein-rich salad combining creamy avocado with tuna, perfect for a quick and healthy lunch.",
     recipeIngredients: [
       {
         recipeSteps: {
           name: "",
           steps: [
             {
-              ingredientsQuantity: "",
-              inredientsName: "",
+              ingredientsQuantity: "1",
+              inredientsName: "can (120g) tuna in water, drained",
+            },
+            {
+              ingredientsQuantity: "1",
+              inredientsName: "ripe avocado, diced",
+            },
+            {
+              ingredientsQuantity: "1/4",
+              inredientsName: "red onion, finely chopped",
+            },
+            {
+              ingredientsQuantity: "1/2",
+              inredientsName: "cucumber, diced",
+            },
+            {
+              ingredientsQuantity: "1",
+              inredientsName: "tbsp lemon juice",
+            },
+            {
+              ingredientsQuantity: "1",
+              inredientsName: "tbsp olive oil",
+            },
+            {
+              ingredientsQuantity: "1/4",
+              inredientsName: "tsp salt",
+            },
+            {
+              ingredientsQuantity: "1/4",
+              inredientsName: "tsp black pepper",
+            },
+            {
+              ingredientsQuantity: "1",
+              inredientsName: "tbsp chopped fresh parsley",
             },
           ],
         },
@@ -8713,39 +9220,96 @@ export const recipes = [
     ],
     recipeDirections: [
       {
-        directionTitle: "",
-        directionDescription: "",
+        directionTitle: "Prepare the Ingredients",
+        directionDescription:
+          "Drain the tuna, dice the avocado, chop the onion, and slice the cucumber.",
+      },
+      {
+        directionTitle: "Mix the Salad",
+        directionDescription:
+          "In a bowl, combine the tuna, avocado, onion, and cucumber.",
+      },
+      {
+        directionTitle: "Dress the Salad",
+        directionDescription:
+          "Drizzle with lemon juice and olive oil. Sprinkle salt and black pepper.",
+      },
+      {
+        directionTitle: "Garnish and Serve",
+        directionDescription:
+          "Stir gently to mix, top with fresh parsley, and serve immediately.",
       },
     ],
   },
   {
-    id: "",
-    recipeName: "",
+    id: "2f673f51-fe2e-4ddc-8c42-5f0df5641152",
+    recipeName: "Sweet Potato and Black Bean Tacos",
     author: {
       authorAvatar: "",
-      authorName: "",
-      authorDatePosted: "",
+      authorName: "Matthew Cox",
+      authorDatePosted: "27 January 2024",
     },
-    prepareTime: "",
-    cookTime: "",
+    prepareTime: "10",
+    cookTime: "20",
     recipeCategory: "Healthy",
     recipeImage: "",
     nutritionInformation: {
-      calories: "",
-      totalFat: "",
-      protein: "",
-      carbohydrate: "",
-      cholesterol: "",
+      calories: "350",
+      totalFat: "9",
+      protein: "12",
+      carbohydrate: "55",
+      cholesterol: "0",
     },
-    recipeDescription: "",
+    recipeDescription:
+      "A delicious and nutritious plant-based taco filled with roasted sweet potatoes and black beans, packed with fiber and flavor.",
     recipeIngredients: [
       {
         recipeSteps: {
           name: "",
           steps: [
             {
-              ingredientsQuantity: "",
-              inredientsName: "",
+              ingredientsQuantity: "1",
+              inredientsName: "medium sweet potato, peeled and diced",
+            },
+            {
+              ingredientsQuantity: "1/2",
+              inredientsName: "cup black beans, drained and rinsed",
+            },
+            {
+              ingredientsQuantity: "1/2",
+              inredientsName: "tsp cumin",
+            },
+            {
+              ingredientsQuantity: "1/2",
+              inredientsName: "tsp smoked paprika",
+            },
+            {
+              ingredientsQuantity: "1/4",
+              inredientsName: "tsp salt",
+            },
+            {
+              ingredientsQuantity: "1",
+              inredientsName: "tbsp olive oil",
+            },
+            {
+              ingredientsQuantity: "4",
+              inredientsName: "small whole wheat tortillas",
+            },
+            {
+              ingredientsQuantity: "1/4",
+              inredientsName: "cup diced tomatoes",
+            },
+            {
+              ingredientsQuantity: "1/4",
+              inredientsName: "cup shredded lettuce",
+            },
+            {
+              ingredientsQuantity: "1",
+              inredientsName: "tbsp chopped cilantro",
+            },
+            {
+              ingredientsQuantity: "1",
+              inredientsName: "tbsp lime juice",
             },
           ],
         },
@@ -8753,8 +9317,28 @@ export const recipes = [
     ],
     recipeDirections: [
       {
-        directionTitle: "",
-        directionDescription: "",
+        directionTitle: "Preheat the Oven",
+        directionDescription: "Set to 200°C (400°F).",
+      },
+      {
+        directionTitle: "Roast the Sweet Potatoes",
+        directionDescription:
+          "Toss diced sweet potatoes with olive oil, cumin, smoked paprika, and salt. Spread them on a baking sheet and roast for 20 minutes, flipping halfway through.",
+      },
+      {
+        directionTitle: "Warm the Beans",
+        directionDescription:
+          "In a pan over medium heat, heat the black beans for 2-3 minutes until warm.",
+      },
+      {
+        directionTitle: "Assemble the Tacos",
+        directionDescription:
+          "Warm the tortillas in a dry pan for 30 seconds per side. Fill each tortilla with roasted sweet potatoes, black beans, lettuce, and tomatoes.",
+      },
+      {
+        directionTitle: "Finish and Serve",
+        directionDescription:
+          "Drizzle with lime juice, sprinkle with cilantro, and serve hot.",
       },
     ],
   },
