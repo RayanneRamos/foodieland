@@ -11369,7 +11369,7 @@ export const recipes = [
       cholesterol: "90",
     },
     recipeDescription:
-      "Chicken Teriyaki is a popular Japanese dish where juicy chicken is pan-fried and glazed with a sweet and savory teriyaki sauce.",
+      "Chicken Teriyaki (照り焼きチキン) is a popular Japanese dish featuring tender, juicy chicken glazed with a sweet and savory teriyaki sauce. The chicken is typically pan-seared or grilled, and the sauce, made from soy sauce, mirin, sake, and sugar, is brushed over the meat during cooking, creating a shiny, caramelized finish. The dish is commonly served with steamed rice and garnished with sesame seeds, green onions, and sometimes pickled vegetables. It is a flavorful, easy-to-make dish that showcases the perfect balance of sweetness and umami.",
     recipeIngredients: [
       {
         recipeSteps: {
@@ -11477,7 +11477,7 @@ export const recipes = [
       cholesterol: "0",
     },
     recipeDescription:
-      "A classic Japanese soup made with miso paste, tofu, and seaweed, served as a warm and comforting side dish.",
+      "Miso Soup (味噌汁) is a traditional Japanese soup made from a flavorful broth called dashi, typically made from seaweed and fish flakes, combined with miso paste. It is commonly served as a starter in Japanese meals and features ingredients like tofu, seaweed (wakame), and green onions. The miso paste, made from fermented soybeans, gives the soup its distinctive salty, umami flavor. This comforting and nutritious soup is simple to prepare, often enjoyed with rice and other Japanese dishes.",
     recipeIngredients: [
       {
         recipeSteps: {
@@ -11556,7 +11556,7 @@ export const recipes = [
       cholesterol: "180",
     },
     recipeDescription:
-      "Tamago Sushi features a fluffy Japanese omelet (tamagoyaki) placed on top of seasoned sushi rice and wrapped with a strip of nori.",
+      "Japanese Tamago Sushi (卵寿司) is a type of sushi made with a sweet, layered omelet called tamago that is served on top of a small mound of vinegared rice. The tamago is typically made by whisking eggs with sugar, soy sauce, and mirin, then cooking it in layers in a rectangular pan, giving it its distinctive texture and flavor. The omelet is sliced into small pieces and placed on a piece of sushi rice, often wrapped with a thin strip of seaweed (nori) to hold everything together. Tamago sushi is often served as part of a sushi platter or as a side dish in sushi restaurants.",
     recipeIngredients: [
       {
         recipeSteps: {
@@ -11647,7 +11647,7 @@ export const recipes = [
       cholesterol: "70",
     },
     recipeDescription:
-      "Gyudon is a classic Japanese rice bowl dish with thinly sliced beef simmered in a sweet and savory sauce.",
+      "Japanese Beef Gyudon (牛丼) is a comforting and savory dish featuring thinly sliced beef simmered in a flavorful sauce made from soy sauce, sugar, sake, and mirin. The beef is typically cooked with onions and served over a bowl of steamed rice, creating a deliciously tender and satisfying meal. Gyudon is often garnished with pickled ginger (beni shoga), a raw egg, or a sprinkling of green onions for added flavor. It is a popular dish in Japan, often enjoyed as a quick and hearty meal in many restaurants or even as a fast food option.",
     recipeIngredients: [
       {
         recipeSteps: {
@@ -11741,7 +11741,7 @@ export const recipes = [
       cholesterol: "90",
     },
     recipeDescription:
-      "A light and fluffy Japanese-style cheesecake infused with matcha green tea powder.",
+      "Japanese Matcha Cheesecake (抹茶チーズケーキ) is a creamy and light dessert that combines the rich, smooth texture of cheesecake with the earthy, slightly bitter flavor of matcha green tea. The cheesecake is typically made with a buttery graham cracker crust and a fluffy matcha-infused cream cheese filling, which is baked to perfection. The matcha flavor gives it a unique twist, offering a delicate balance between sweetness and a subtle tea flavor. This dessert is often chilled, allowing the flavors to meld and creating a refreshing and indulgent treat.",
     recipeIngredients: [
       {
         recipeSteps: {
@@ -11831,7 +11831,7 @@ export const recipes = [
       cholesterol: "110",
     },
     recipeDescription:
-      "Tonkatsu is a crispy, deep-fried pork cutlet coated in panko breadcrumbs and served with a tangy tonkatsu sauce.",
+      "Tonkatsu (とんかつ) is a popular Japanese dish consisting of a breaded and deep-fried pork cutlet. The pork, typically a tenderloin or loin cut, is coated with flour, dipped in beaten egg, and then coated with panko breadcrumbs before being fried until golden brown and crispy. It is often served with shredded cabbage, rice, and a savory tonkatsu sauce, which is a tangy, slightly sweet sauce made from ingredients like Worcestershire sauce, ketchup, and soy sauce. The dish offers a satisfying crunch on the outside with juicy, tender pork on the inside, making it a beloved comfort food in Japan.",
     recipeIngredients: [
       {
         recipeSteps: {
@@ -11926,7 +11926,7 @@ export const recipes = [
       cholesterol: "80",
     },
     recipeDescription:
-      "Okonomiyaki is a savory Japanese pancake filled with cabbage, pork, and seafood, topped with a sweet and savory sauce.",
+      "Okonomiyaki (お好み焼き) is a savory Japanese pancake made with a batter of flour, eggs, shredded cabbage, and various fillings like pork, beef, seafood, or cheese. The name 'okonomi' means 'as you like,' so the ingredients can vary according to personal preference. The pancake is cooked on a griddle, often topped with a drizzle of thick, sweet-savory okonomiyaki sauce, bonito flakes, and a sprinkle of green onions or dried seaweed. It's a popular street food and is also enjoyed in home kitchens and specialty restaurants across Japan.",
     recipeIngredients: [
       {
         recipeSteps: {
@@ -12033,7 +12033,7 @@ export const recipes = [
       cholesterol: "150",
     },
     recipeDescription:
-      "Chawanmushi is a delicate, silky-smooth steamed egg custard dish flavored with dashi and soy sauce.",
+      "Chawanmushi (茶碗蒸し) is a delicate and savory Japanese steamed egg custard, typically served in a small bowl (chawan). The custard is made by whisking eggs with dashi (a Japanese broth), soy sauce, and a pinch of salt, resulting in a smooth, silky texture. Inside, it often contains various fillings like shrimp, shiitake mushrooms, ginkgo nuts, and a small piece of chicken or fish. The dish is steamed to perfection, yielding a comforting, flavorful treat that's often served as an appetizer in Japanese meals or as part of a multi-course kaiseki meal.",
     recipeIngredients: [
       {
         recipeSteps: {
@@ -12127,7 +12127,7 @@ export const recipes = [
       cholesterol: "30",
     },
     recipeDescription:
-      "Yaki Udon is a stir-fried noodle dish made with thick udon noodles, vegetables, and soy-based sauce.",
+      "Yaki Udon (焼きうどん) is a popular Japanese stir-fry dish made with thick udon noodles. The noodles are stir-fried with a variety of ingredients such as vegetables (like bell peppers, onions, and cabbage), meat (such as chicken, pork, or beef), and sometimes seafood. The dish is seasoned with soy sauce, mirin, and a touch of sesame oil, giving it a savory, slightly sweet flavor. Yaki Udon is often garnished with chopped green onions, pickled ginger, and sometimes a sprinkle of sesame seeds, making it a satisfying and hearty meal enjoyed both at home and in restaurants.",
     recipeIngredients: [
       {
         recipeSteps: {
@@ -12229,7 +12229,7 @@ export const recipes = [
       cholesterol: "50",
     },
     recipeDescription:
-      "Dorayaki is a traditional Japanese confection consisting of two fluffy pancakes filled with sweet red bean paste.",
+      "Dorayaki (どら焼き) is a beloved Japanese sweet that consists of two fluffy, pancake-like cakes filled with sweet red bean paste, known as anko. The cakes are made from a batter of eggs, sugar, flour, and honey, which gives them a soft and spongy texture. The red bean paste, made from cooked adzuki beans and sugar, is sandwiched between the cakes, creating a perfect balance of sweetness and smoothness. Dorayaki is a popular snack in Japan, often enjoyed with tea, and is famous for being a favorite of the Japanese cartoon character, Doraemon.",
     recipeIngredients: [
       {
         recipeSteps: {
@@ -12314,7 +12314,7 @@ export const recipes = [
       cholesterol: "75",
     },
     recipeDescription:
-      "Gyudon is a classic Japanese rice bowl topped with thinly sliced beef and onions simmered in a savory-sweet sauce made from soy sauce, mirin, and dashi.",
+      "Gyudon (牛丼) is a comforting and delicious Japanese dish consisting of thinly sliced beef simmered in a savory broth made with soy sauce, sugar, mirin, and dashi, served over a bowl of steamed rice. The beef is typically cooked with onions until tender, and the dish is often garnished with pickled ginger (beni shoga) and sometimes a raw egg or a sprinkle of sesame seeds. Gyudon is quick to prepare, making it a popular choice for a satisfying meal in Japan. It's a perfect balance of savory and slightly sweet flavors, making it a favorite among Japanese comfort foods.",
     recipeIngredients: [
       {
         recipeSteps: {
@@ -12421,7 +12421,7 @@ export const recipes = [
       cholesterol: "190",
     },
     recipeDescription:
-      "Tamagoyaki is a slightly sweet, rolled Japanese omelet made with layers of seasoned egg, commonly served as breakfast or sushi topping.",
+      "amagoyaki (卵焼き) is a Japanese rolled omelet made by cooking seasoned eggs in layers, folding them into a rectangular shape. The dish is typically flavored with soy sauce, mirin, and a touch of sugar, giving it a slightly sweet and savory taste. It is often served as a side dish or in bento boxes and can be found in sushi restaurants. Tamagoyaki has a soft, delicate texture and is carefully prepared using a square or rectangular pan, making it both delicious and visually appealing. It's a staple in Japanese cuisine, showcasing the art of simple, yet flavorful, cooking.",
     recipeIngredients: [
       {
         recipeSteps: {
@@ -12509,7 +12509,7 @@ export const recipes = [
       cholesterol: "0",
     },
     recipeDescription:
-      "Zaru Soba is a refreshing Japanese dish featuring chilled buckwheat noodles served with a dipping sauce called 'tsuyu.'",
+      "Zaru Soba (ざるそば) is a traditional Japanese dish consisting of chilled buckwheat noodles served with a savory dipping sauce. The noodles are typically served cold on a bamboo tray (zaru), and diners dip them into the sauce, which is usually made with soy sauce, mirin, and dashi. Zaru Soba is often garnished with toppings such as chopped green onions, wasabi, and grated daikon radish for added flavor. It’s a refreshing and light meal, especially popular in summer, offering a perfect balance of textures and flavors in each bite.",
     recipeIngredients: [
       {
         recipeSteps: {
