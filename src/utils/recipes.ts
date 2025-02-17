@@ -528,7 +528,7 @@ export const recipes = [
       cholesterol: "120",
     },
     recipeDescription:
-      "A juicy and flavorful beef steak seared to perfection and topped with rich garlic butter. This simple yet elegant dish is ideal for a quick dinner.",
+      "Classic Beef Steak with Garlic Butter is a juicy, flavorful dish featuring a perfectly seared steak topped with rich, aromatic garlic butter. The steak is cooked to your preferred doneness, ensuring a tender and succulent bite. Fresh herbs and seasonings enhance the natural beef flavors. Served with roasted vegetables or mashed potatoes, it’s a timeless and satisfying meal!",
     recipeIngredients: [
       {
         recipeSteps: {
@@ -603,7 +603,7 @@ export const recipes = [
       cholesterol: "140",
     },
     recipeDescription:
-      "Tender, fall-off-the-bone pork ribs slow-cooked and smothered in a sweet and smoky barbecue sauce.",
+      "BBQ Pork Ribs are tender, juicy, and coated in a smoky, flavorful barbecue sauce. Slow-cooked until the meat falls off the bone, they are then grilled or baked for a caramelized, sticky glaze. A perfect balance of sweet, tangy, and savory flavors makes them irresistible. Best served with coleslaw, cornbread, or crispy fries for a classic BBQ feast!",
     recipeIngredients: [
       {
         recipeSteps: {
@@ -674,7 +674,7 @@ export const recipes = [
       cholesterol: "95",
     },
     recipeDescription:
-      "Crispy, spicy, and coated in a delicious buffalo sauce, these chicken wings are the perfect appetizer for any gathering.",
+      "Spicy Chicken Wings are crispy, juicy, and coated in a bold, fiery sauce that packs a flavorful kick. Baked or fried to perfection, they have a crispy exterior while staying tender inside. The spicy glaze, made with hot sauce, garlic, and butter, creates an irresistible balance of heat and flavor. Perfect for game nights, parties, or a delicious snack!",
     recipeIngredients: [
       {
         recipeSteps: {
@@ -745,7 +745,7 @@ export const recipes = [
       cholesterol: "110",
     },
     recipeDescription:
-      "Succulent lamb chops marinated with garlic and rosemary, grilled to perfection for a juicy and aromatic dish.",
+      "Lamb Chops with Rosemary are tender, juicy, and infused with the aromatic flavor of fresh rosemary and garlic. Seared to perfection, they develop a beautifully caramelized crust while remaining succulent inside. A drizzle of olive oil and a squeeze of lemon enhance their rich, savory taste. Perfect for an elegant yet simple meal, served with roasted vegetables or mashed potatoes!",
     recipeIngredients: [
       {
         recipeSteps: {
@@ -811,7 +811,7 @@ export const recipes = [
       cholesterol: "85",
     },
     recipeDescription:
-      "Flavorful and easy-to-make ground beef tacos, topped with fresh veggies and cheese in a warm tortilla.",
+      "Ground Beef Tacos are a flavorful and satisfying meal, featuring seasoned beef cooked to perfection and served in crunchy or soft taco shells. Topped with fresh ingredients like lettuce, tomatoes, cheese, and salsa, they offer a delicious combination of textures and flavors. Perfect for a quick dinner or taco night with friends and family. Customize with your favorite toppings for a personalized touch!",
     recipeIngredients: [
       {
         recipeSteps: {
@@ -885,7 +885,7 @@ export const recipes = [
       cholesterol: "100",
     },
     recipeDescription:
-      "Juicy homemade meatballs cooked in a rich tomato sauce, perfect over pasta or on a sub.",
+      "Meatballs in Marinara Sauce are tender, juicy meatballs simmered in a rich and flavorful tomato-based sauce. The meatballs are made with a blend of ground beef, herbs, and breadcrumbs for a deliciously savory bite. The marinara sauce, simmered with garlic, onions, and spices, adds a tangy depth to the dish. Serve with pasta, bread, or a salad for a comforting and hearty meal!",
     recipeIngredients: [
       {
         recipeSteps: {
@@ -955,7 +955,7 @@ export const recipes = [
       cholesterol: "110",
     },
     recipeDescription:
-      "These juicy pork chops are seared and glazed with a sweet and savory honey garlic sauce, making them irresistibly flavorful.",
+      "Honey Garlic Pork Chops are juicy, tender pork chops glazed with a sweet and savory honey garlic sauce. The chops are seared to perfection and then simmered in a rich sauce made with garlic, honey, soy sauce, and a hint of ginger. The glaze caramelizes beautifully, creating a perfect balance of flavors. Serve with roasted vegetables or rice for a delicious, satisfying meal!",
     recipeIngredients: [
       {
         recipeSteps: {
@@ -1031,7 +1031,7 @@ export const recipes = [
       cholesterol: "120",
     },
     recipeDescription:
-      "A creamy and comforting dish featuring tender beef strips cooked in a rich mushroom sauce, served over pasta or rice.",
+      "Beef Stroganoff is a creamy and rich dish made with tender strips of beef, onions, and mushrooms in a smooth, savory sauce. The sauce is created from a combination of sour cream, mustard, and beef broth, giving it a velvety texture and tangy flavor. Served over egg noodles or rice, it's a comforting and indulgent meal. Perfect for a cozy dinner or special occasion!",
     recipeIngredients: [
       {
         recipeSteps: {
@@ -1109,7 +1109,7 @@ export const recipes = [
       cholesterol: "130",
     },
     recipeDescription:
-      "A perfectly grilled T-bone steak topped with a rich and flavorful herb butter for an unbeatable taste.",
+      "Grilled T-Bone Steak with Herb Butter is a juicy, perfectly grilled steak topped with a rich, fragrant herb-infused butter. The steak is cooked to your preferred doneness, developing a smoky char while staying tender inside. The herb butter, made with garlic, rosemary, and thyme, melts over the steak, adding a burst of flavor. A simple yet indulgent dish, ideal for any special occasion or hearty meal!",
     recipeIngredients: [
       {
         recipeSteps: {
@@ -1184,7 +1184,7 @@ export const recipes = [
       cholesterol: "95",
     },
     recipeDescription:
-      "A sweet and savory dish where chicken is glazed with a delicious homemade teriyaki sauce, perfect over rice.",
+      "Teriyaki Chicken is a savory and sweet dish featuring tender chicken glazed with a homemade or store-bought teriyaki sauce. The chicken is marinated to soak up the rich flavors of soy sauce, honey, garlic, and ginger, then grilled or pan-fried until golden brown. The result is a juicy, flavorful chicken with a perfectly caramelized glaze. Serve with steamed rice and vegetables for a delicious, balanced meal!",
     recipeIngredients: [
       {
         recipeSteps: {
