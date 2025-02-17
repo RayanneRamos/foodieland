@@ -12443,33 +12443,101 @@ export const recipes = [
   },
   // China
   {
-    id: "",
-    recipeName: "",
+    id: "0336989f-42d7-4f63-813a-395e178e5853",
+    recipeName: "Kung Pao Chicken (宫保鸡丁)",
     author: {
       authorAvatar: "",
-      authorName: "",
-      authorDatePosted: "",
+      authorName: "Santiago Sanchez",
+      authorDatePosted: "19 August 2023",
     },
-    prepareTime: "",
-    cookTime: "",
+    prepareTime: "15",
+    cookTime: "15",
     recipeCategory: "China",
     recipeImage: "",
     nutritionInformation: {
-      calories: "",
-      totalFat: "",
-      protein: "",
-      carbohydrate: "",
-      cholesterol: "",
+      calories: "400",
+      totalFat: "18",
+      protein: "36",
+      carbohydrate: "28",
+      cholesterol: "85",
     },
-    recipeDescription: "",
+    recipeDescription:
+      "Kung Pao Chicken is a classic Sichuan dish made with tender chicken, peanuts, and dried chilies in a savory, spicy sauce.",
     recipeIngredients: [
       {
         recipeSteps: {
           name: "",
           steps: [
             {
-              ingredientsQuantity: "",
-              inredientsName: "",
+              ingredientsQuantity: "400g",
+              inredientsName: "boneless, skinless chicken breast, diced",
+            },
+            {
+              ingredientsQuantity: "2",
+              inredientsName: "tbsp soy sauce",
+            },
+            {
+              ingredientsQuantity: "1",
+              inredientsName: "tbsp Shaoxing wine (or dry sherry)",
+            },
+            {
+              ingredientsQuantity: "1",
+              inredientsName: "tsp cornstarch",
+            },
+            {
+              ingredientsQuantity: "2",
+              inredientsName: "tbsp vegetable oil",
+            },
+            {
+              ingredientsQuantity: "6",
+              inredientsName: "dried red chilies, cut into halves",
+            },
+            {
+              ingredientsQuantity: "2",
+              inredientsName: "cloves garlic, minced",
+            },
+            {
+              ingredientsQuantity: "1",
+              inredientsName: "tsp ginger, minced",
+            },
+            {
+              ingredientsQuantity: "1/4",
+              inredientsName: "cup roasted peanuts",
+            },
+            {
+              ingredientsQuantity: "2",
+              inredientsName: "green onions, chopped",
+            },
+          ],
+        },
+      },
+      {
+        recipeSteps: {
+          name: "For the Sauce",
+          steps: [
+            {
+              ingredientsQuantity: "1",
+              inredientsName: "tbsp soy sauce",
+            },
+            {
+              ingredientsQuantity: "1",
+              inredientsName: "tbsp oyster sauce",
+            },
+            {
+              ingredientsQuantity: "1",
+              inredientsName: "tsp sugar",
+            },
+            {
+              ingredientsQuantity: "1",
+              inredientsName: "tsp cornstarch",
+            },
+            {
+              ingredientsQuantity: "2",
+              inredientsName: "tbsp water",
+            },
+            {
+              ingredientsQuantity: "1",
+              inredientsName: "tsp sesame oil",
             },
           ],
         },
@@ -12477,39 +12545,110 @@ export const recipes = [
     ],
     recipeDirections: [
       {
-        directionTitle: "",
-        directionDescription: "",
+        directionTitle: "Marinate the Chicken",
+        directionDescription:
+          "In a bowl, mix chicken, soy sauce, Shaoxing wine, and cornstarch. Let it marinate for 15 minutes.",
+      },
+      {
+        directionTitle: "Prepare the Sauce",
+        directionDescription:
+          "In a separate bowl, combine soy sauce, oyster sauce, sugar, cornstarch, water, and sesame oil. Stir well.",
+      },
+      {
+        directionTitle: "Cook the Chicken",
+        directionDescription:
+          "Heat 1 tbsp oil in a wok over high heat. Add chicken and stir-fry until golden brown. Remove from the wok.",
+      },
+      {
+        directionTitle: "Stir-Fry the Aromatics",
+        directionDescription:
+          "Add remaining oil, dried chilies, garlic, and ginger. Stir-fry for 30 seconds until fragrant.",
+      },
+      {
+        directionTitle: "Combine Everything",
+        directionDescription:
+          "Return chicken to the wok, add sauce, and stir-fry for 2 minutes until coated.",
+      },
+      {
+        directionTitle: "Finish and Serve",
+        directionDescription:
+          "Add peanuts and green onions, toss well, and serve hot with rice.",
       },
     ],
   },
   {
-    id: "",
-    recipeName: "",
+    id: "f08eca0d-88ff-4430-9e5e-44b542480d4f",
+    recipeName: "Mapo Tofu (麻婆豆腐)",
     author: {
       authorAvatar: "",
-      authorName: "",
-      authorDatePosted: "",
+      authorName: "Nicholas Rodriguez",
+      authorDatePosted: "14 February 2024",
     },
-    prepareTime: "",
-    cookTime: "",
+    prepareTime: "10",
+    cookTime: "15",
     recipeCategory: "China",
     recipeImage: "",
     nutritionInformation: {
-      calories: "",
-      totalFat: "",
-      protein: "",
-      carbohydrate: "",
-      cholesterol: "",
+      calories: "330",
+      totalFat: "22",
+      protein: "20",
+      carbohydrate: "14",
+      cholesterol: "25",
     },
-    recipeDescription: "",
+    recipeDescription:
+      "Mapo Tofu is a spicy and flavorful Sichuan dish featuring soft tofu in a rich, numbing chili bean sauce.",
     recipeIngredients: [
       {
         recipeSteps: {
           name: "",
           steps: [
             {
-              ingredientsQuantity: "",
-              inredientsName: "",
+              ingredientsQuantity: "1",
+              inredientsName: "block (400g) firm tofu, cut into cubes",
+            },
+            {
+              ingredientsQuantity: "200g",
+              inredientsName: "ground pork",
+            },
+            {
+              ingredientsQuantity: "2",
+              inredientsName: "tbsp vegetable oil",
+            },
+            {
+              ingredientsQuantity: "2",
+              inredientsName: "cloves garlic, minced",
+            },
+            {
+              ingredientsQuantity: "1",
+              inredientsName: "tsp ginger, minced",
+            },
+            {
+              ingredientsQuantity: "1",
+              inredientsName: "tbsp Sichuan peppercorns, toasted and ground",
+            },
+            {
+              ingredientsQuantity: "2",
+              inredientsName: "tbsp doubanjiang (fermented chili bean paste)",
+            },
+            {
+              ingredientsQuantity: "1",
+              inredientsName: "tbsp soy sauce",
+            },
+            {
+              ingredientsQuantity: "1",
+              inredientsName: "tbsp Shaoxing wine",
+            },
+            {
+              ingredientsQuantity: "1/2",
+              inredientsName: "cup chicken broth",
+            },
+            {
+              ingredientsQuantity: "1",
+              inredientsName: "tsp cornstarch mixed with 2 tbsp water",
+            },
+            {
+              ingredientsQuantity: "1",
+              inredientsName: "green onion, chopped",
             },
           ],
         },
@@ -12517,39 +12656,130 @@ export const recipes = [
     ],
     recipeDirections: [
       {
-        directionTitle: "",
-        directionDescription: "",
+        directionTitle: "Prepare the Tofu",
+        directionDescription:
+          "Boil water in a pot, add tofu cubes, and simmer for 2 minutes. Drain and set aside.",
+      },
+      {
+        directionTitle: "Cook the Pork",
+        directionDescription:
+          "Heat oil in a wok over medium heat. Add ground pork and cook until browned.",
+      },
+      {
+        directionTitle: "Add Aromatics",
+        directionDescription:
+          "Stir in garlic, ginger, and Sichuan peppercorns. Cook for 30 seconds.",
+      },
+      {
+        directionTitle: "Add the Sauce",
+        directionDescription:
+          "Mix in doubanjiang, soy sauce, Shaoxing wine, and chicken broth. Stir well.",
+      },
+      {
+        directionTitle: "Simmer",
+        directionDescription:
+          "Add tofu cubes and simmer for 5 minutes, gently stirring.",
+      },
+      {
+        directionTitle: "Thicken the Sauce",
+        directionDescription:
+          "Add cornstarch slurry and mix until the sauce thickens.",
+      },
+      {
+        directionTitle: "Serve",
+        directionDescription:
+          "Garnish with green onions and serve hot with rice.",
       },
     ],
   },
   {
-    id: "",
-    recipeName: "",
+    id: "25c47efa-c487-407f-a9ad-857a890700d9",
+    recipeName: "Sweet and Sour Pork (咕噜肉)",
     author: {
       authorAvatar: "",
-      authorName: "",
-      authorDatePosted: "",
+      authorName: "Lincoln Young",
+      authorDatePosted: "03 June 2024",
     },
-    prepareTime: "",
-    cookTime: "",
+    prepareTime: "15",
+    cookTime: "20",
     recipeCategory: "China",
     recipeImage: "",
     nutritionInformation: {
-      calories: "",
-      totalFat: "",
-      protein: "",
-      carbohydrate: "",
-      cholesterol: "",
+      calories: "480",
+      totalFat: "22",
+      protein: "28",
+      carbohydrate: "42",
+      cholesterol: "90",
     },
-    recipeDescription: "",
+    recipeDescription:
+      "Sweet and Sour Pork is a popular Cantonese dish with crispy pork coated in a tangy sauce.",
     recipeIngredients: [
       {
         recipeSteps: {
           name: "",
           steps: [
             {
-              ingredientsQuantity: "",
-              inredientsName: "",
+              ingredientsQuantity: "400g",
+              inredientsName: "pork loin, cut into cubes",
+            },
+            {
+              ingredientsQuantity: "1",
+              inredientsName: "egg",
+            },
+            {
+              ingredientsQuantity: "2",
+              inredientsName: "tbsp cornstarch",
+            },
+            {
+              ingredientsQuantity: "1/2",
+              inredientsName: "cup flour",
+            },
+            {
+              ingredientsQuantity: "1/2",
+              inredientsName: "cup pineapple chunks",
+            },
+            {
+              ingredientsQuantity: "1/2",
+              inredientsName: "red bell pepper, chopped",
+            },
+            {
+              ingredientsQuantity: "1/2",
+              inredientsName: "green bell pepper, chopped",
+            },
+            {
+              ingredientsQuantity: "1/2",
+              inredientsName: "onion, sliced",
+            },
+            {
+              ingredientsQuantity: "2",
+              inredientsName: "cups vegetable oil (for frying)",
+            },
+          ],
+        },
+      },
+      {
+        recipeSteps: {
+          name: "For the Sauce",
+          steps: [
+            {
+              ingredientsQuantity: "3",
+              inredientsName: "tbsp ketchup",
+            },
+            {
+              ingredientsQuantity: "2",
+              inredientsName: "tbsp vinegar",
+            },
+            {
+              ingredientsQuantity: "2",
+              inredientsName: "tbsp sugar",
+            },
+            {
+              ingredientsQuantity: "1",
+              inredientsName: "tbsp soy sauce",
+            },
+            {
+              ingredientsQuantity: "1",
+              inredientsName: "tsp cornstarch mixed with 2 tbsp water",
             },
           ],
         },
@@ -12557,39 +12787,85 @@ export const recipes = [
     ],
     recipeDirections: [
       {
-        directionTitle: "",
-        directionDescription: "",
+        directionTitle: "Coat the Pork",
+        directionDescription:
+          "In a bowl, mix pork with egg, cornstarch, and flour. Coat well.",
+      },
+      {
+        directionTitle: "Fry the Pork",
+        directionDescription:
+          "Heat oil in a deep pan and fry pork cubes until golden brown. Drain and set aside.",
+      },
+      {
+        directionTitle: "Cook the Vegetables",
+        directionDescription:
+          "In a wok, stir-fry bell peppers, onion, and pineapple for 2 minutes.",
+      },
+      {
+        directionTitle: "Prepare the Sauce",
+        directionDescription:
+          "Mix ketchup, vinegar, sugar, soy sauce, and cornstarch slurry in a bowl.",
+      },
+      {
+        directionTitle: "Combine Everything",
+        directionDescription:
+          "Pour sauce into the wok, add fried pork, and stir-fry for 2 minutes.",
+      },
+      {
+        directionTitle: "Serve",
+        directionDescription: "Enjoy with steamed rice.",
       },
     ],
   },
   {
-    id: "",
-    recipeName: "",
+    id: "32a709db-22b3-444a-8f24-2b7a7848bef0",
+    recipeName: "Chinese Scallion Pancakes (葱油饼)",
     author: {
       authorAvatar: "",
-      authorName: "",
-      authorDatePosted: "",
+      authorName: "Easton Torres",
+      authorDatePosted: "17 December 2023",
     },
-    prepareTime: "",
-    cookTime: "",
+    prepareTime: "15",
+    cookTime: "15",
     recipeCategory: "China",
     recipeImage: "",
     nutritionInformation: {
-      calories: "",
-      totalFat: "",
-      protein: "",
-      carbohydrate: "",
-      cholesterol: "",
+      calories: "320",
+      totalFat: "14",
+      protein: "6",
+      carbohydrate: "44",
+      cholesterol: "0",
     },
-    recipeDescription: "",
+    recipeDescription:
+      "Scallion Pancakes are crispy, flaky Chinese flatbreads filled with chopped green onions.",
     recipeIngredients: [
       {
         recipeSteps: {
           name: "",
           steps: [
             {
-              ingredientsQuantity: "",
-              inredientsName: "",
+              ingredientsQuantity: "2",
+              inredientsName: "cups all-purpose flour",
+            },
+            {
+              ingredientsQuantity: "3/4",
+              inredientsName: "cup hot water",
+            },
+            {
+              ingredientsQuantity: "1/2",
+              inredientsName: "tsp salt",
+            },
+            {
+              ingredientsQuantity: "1/2",
+              inredientsName: "cup chopped green onions",
+            },
+            {
+              ingredientsQuantity: "2",
+              inredientsName: "tbsp sesame oil",
+            },
+            {
+              ingredientsQuantity: "3",
+              inredientsName: "tbsp vegetable oil (for frying)",
             },
           ],
         },
@@ -12597,39 +12873,88 @@ export const recipes = [
     ],
     recipeDirections: [
       {
-        directionTitle: "",
-        directionDescription: "",
+        directionTitle: "Make the Dough",
+        directionDescription:
+          "Mix flour, salt, and hot water. Knead into a smooth dough. Rest for 30 minutes.",
+      },
+      {
+        directionTitle: "Roll and Fill",
+        directionDescription:
+          "Roll out dough into a thin circle, brush with sesame oil, and sprinkle green onions.",
+      },
+      {
+        directionTitle: "Roll and Flatten",
+        directionDescription:
+          "Roll the dough into a log, coil it into a circle, then flatten it.",
+      },
+      {
+        directionTitle: "Cook",
+        directionDescription:
+          "Heat oil in a pan, fry pancakes for 3 minutes per side until golden brown.",
+      },
+      {
+        directionTitle: "Serve",
+        directionDescription: "Slice and enjoy with soy sauce or chili oil.",
       },
     ],
   },
   {
-    id: "",
-    recipeName: "",
+    id: "8c6cf40b-1a17-404c-ab21-df4de686dd04",
+    recipeName: "Hot and Sour Soup (酸辣汤)",
     author: {
       authorAvatar: "",
-      authorName: "",
-      authorDatePosted: "",
+      authorName: "Ethan Rivera",
+      authorDatePosted: "09 June 2022",
     },
-    prepareTime: "",
-    cookTime: "",
+    prepareTime: "10",
+    cookTime: "15",
     recipeCategory: "China",
     recipeImage: "",
     nutritionInformation: {
-      calories: "",
-      totalFat: "",
-      protein: "",
-      carbohydrate: "",
-      cholesterol: "",
+      calories: "150",
+      totalFat: "5",
+      protein: "10",
+      carbohydrate: "15",
+      cholesterol: "30",
     },
-    recipeDescription: "",
+    recipeDescription:
+      "Hot and Sour Soup is a comforting, tangy broth filled with mushrooms, tofu, and egg.",
     recipeIngredients: [
       {
         recipeSteps: {
           name: "",
           steps: [
             {
-              ingredientsQuantity: "",
-              inredientsName: "",
+              ingredientsQuantity: "4",
+              inredientsName: "cups chicken broth",
+            },
+            {
+              ingredientsQuantity: "1/2",
+              inredientsName: "cup mushrooms, sliced",
+            },
+            {
+              ingredientsQuantity: "1/2",
+              inredientsName: "block tofu, cubed",
+            },
+            {
+              ingredientsQuantity: "1",
+              inredientsName: "egg, beaten",
+            },
+            {
+              ingredientsQuantity: "2",
+              inredientsName: "tbsp vinegar",
+            },
+            {
+              ingredientsQuantity: "1",
+              inredientsName: "tbsp soy sauce",
+            },
+            {
+              ingredientsQuantity: "1",
+              inredientsName: "tsp white pepper",
+            },
+            {
+              ingredientsQuantity: "1",
+              inredientsName: "tsp cornstarch mixed with 2 tbsp water",
             },
           ],
         },
@@ -12637,8 +12962,24 @@ export const recipes = [
     ],
     recipeDirections: [
       {
-        directionTitle: "",
-        directionDescription: "",
+        directionTitle: "Simmer Broth",
+        directionDescription: "Heat chicken broth and add mushrooms and tofu.",
+      },
+      {
+        directionTitle: "Season",
+        directionDescription: "Add vinegar, soy sauce, and white pepper.",
+      },
+      {
+        directionTitle: "Thicken",
+        directionDescription: "Stir in cornstarch slurry.",
+      },
+      {
+        directionTitle: "Add Egg",
+        directionDescription: "Slowly drizzle in beaten egg while stirring.",
+      },
+      {
+        directionTitle: "Serve",
+        directionDescription: "Enjoy hot with green onions on top.",
       },
     ],
   },
