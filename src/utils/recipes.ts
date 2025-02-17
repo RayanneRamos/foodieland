@@ -3184,7 +3184,7 @@ export const recipes = [
       cholesterol: "220",
     },
     recipeDescription:
-      "A rich and flavorful shrimp dish cooked in a garlic butter sauce, served over pasta for a perfect seafood meal.",
+      "Garlic Butter Shrimp Scampi is a delectable seafood dish featuring succulent shrimp cooked in a rich, buttery sauce infused with garlic, lemon, and a hint of white wine. The shrimp are sautéed until golden and tender, then tossed with the buttery sauce, creating a flavorful, savory coating. It’s often served over pasta or with a side of crusty bread to soak up the delicious sauce. This dish is quick, easy to prepare, and perfect for a fancy yet simple weeknight dinner or special occasion!",
     recipeIngredients: [
       {
         recipeSteps: {
@@ -3297,7 +3297,7 @@ export const recipes = [
       cholesterol: "105",
     },
     recipeDescription:
-      "A juicy, flaky salmon fillet grilled to perfection and coated in a sweet and savory honey garlic glaze.",
+      "Grilled Salmon with Honey Garlic Glaze is a delicious and healthy dish featuring tender, flaky salmon fillets glazed with a sweet and savory honey garlic sauce. The glaze is made with honey, garlic, soy sauce, and a touch of lemon, creating a perfect balance of sweetness and richness. The salmon is grilled to perfection, with crispy edges and a moist, flaky interior, while the glaze caramelizes slightly for added flavor. Served with a side of roasted vegetables or rice, this dish is light, flavorful, and perfect for a nutritious dinner!",
     recipeIngredients: [
       {
         recipeSteps: {
@@ -3392,7 +3392,7 @@ export const recipes = [
       cholesterol: "90",
     },
     recipeDescription:
-      "Seared scallops in a zesty lemon garlic butter sauce, crispy on the outside and tender inside.",
+      "Lemon Garlic Butter Scallops are a quick and luxurious seafood dish featuring tender, succulent scallops seared in a rich, garlicky butter sauce. The scallops are cooked until golden and caramelized on the outside, while remaining delicate and juicy inside. The sauce, made with butter, garlic, lemon juice, and a touch of parsley, adds a fresh, zesty flavor that perfectly complements the sweetness of the scallops. Served with a side of pasta, rice, or vegetables, this dish is elegant and flavorful, perfect for a special occasion or a gourmet meal at home!",
     recipeIngredients: [
       {
         recipeSteps: {
@@ -3478,7 +3478,7 @@ export const recipes = [
       cholesterol: "250",
     },
     recipeDescription:
-      "Tender lobster tails smothered in a creamy garlic Parmesan sauce.",
+      "Creamy Garlic Parmesan Lobster Tail is an indulgent seafood dish featuring tender lobster tails smothered in a rich, creamy garlic Parmesan sauce. The lobster is cooked to perfection, then topped with a decadent sauce made from butter, garlic, heavy cream, and Parmesan cheese, creating a velvety coating that complements the sweet, succulent lobster meat. The dish is often finished with a sprinkle of fresh parsley for added freshness. Served with pasta, rice, or a side of roasted vegetables, this luxurious dish is perfect for a special occasion or a gourmet meal at home!",
     recipeIngredients: [
       {
         recipeSteps: {
@@ -3563,7 +3563,7 @@ export const recipes = [
       cholesterol: "75",
     },
     recipeDescription:
-      "A creamy and hearty clam chowder with potatoes, bacon, and fresh clams.",
+      "Classic New England Clam Chowder is a creamy and comforting soup made with tender clams, potatoes, onions, and celery, all simmered in a rich, velvety base of butter, cream, and milk. The chowder is seasoned with thyme, bay leaves, and a hint of black pepper, creating a deliciously savory flavor. The combination of creamy texture and the briny taste of fresh clams makes it a satisfying dish, often served with crusty bread or oyster crackers on the side. Perfect for chilly days, this New England favorite is warm, hearty, and full of flavor!",
     recipeIngredients: [
       {
         recipeSteps: {
@@ -3659,7 +3659,7 @@ export const recipes = [
       cholesterol: "100",
     },
     recipeDescription:
-      "A classic New England lobster roll, with sweet lobster meat dressed in a simple, buttery, and creamy sauce, served in a toasted bun.",
+      "A Lobster Roll is a classic New England sandwich that features tender, sweet lobster meat mixed with a light mayonnaise dressing, often seasoned with lemon juice, salt, and pepper. The lobster is usually served chilled and tucked into a buttered, toasted roll that is soft on the inside and crispy on the outside. Some variations may include a touch of celery or herbs for added freshness and crunch. This simple yet indulgent dish is perfect for a summer lunch or special occasion, offering a taste of the coast with every bite!",
     recipeIngredients: [
       {
         recipeSteps: {
@@ -3750,7 +3750,7 @@ export const recipes = [
       cholesterol: "60",
     },
     recipeDescription:
-      "This dish features perfectly seared tuna steaks, paired with a fresh, zesty avocado salsa.",
+      "Seared Tuna Steaks with Avocado Salsa is a fresh and vibrant dish that pairs perfectly seared tuna steaks with a zesty, creamy avocado salsa. The tuna is seasoned with a blend of spices and seared to a perfect medium-rare, preserving its tender, juicy texture. The avocado salsa, made with ripe avocado, tomatoes, red onion, cilantro, lime juice, and a touch of salt and pepper, adds a burst of flavor and freshness to the rich tuna. This dish is light, healthy, and packed with flavor, making it a great choice for a sophisticated dinner or lunch!",
     recipeIngredients: [
       {
         recipeSteps: {
@@ -3836,7 +3836,7 @@ export const recipes = [
       cholesterol: "75",
     },
     recipeDescription:
-      "Tender cod fillets topped with a savory garlic and herb crust, baked until golden and crispy.",
+      "Baked Cod with Garlic and Herb Crust is a delicious and healthy seafood dish featuring flaky cod fillets topped with a flavorful mixture of garlic, herbs, breadcrumbs, and Parmesan cheese. The cod is seasoned with salt, pepper, and a drizzle of olive oil, then baked until tender and flaky. The garlic herb crust adds a savory crunch and a burst of aromatic flavor that complements the mild, delicate taste of the cod. Served with roasted vegetables, mashed potatoes, or a simple salad, this dish is light, satisfying, and perfect for a weeknight meal or special occasion.",
     recipeIngredients: [
       {
         recipeSteps: {
@@ -3926,7 +3926,7 @@ export const recipes = [
       cholesterol: "60",
     },
     recipeDescription:
-      "Golden, crispy battered fish served in soft tortillas with a tangy slaw and creamy sauce.",
+      "Crispy Fish Tacos are a delicious, fresh, and flavorful dish featuring battered and fried fish fillets served in soft corn tortillas. The fish is typically seasoned with spices like cumin, paprika, and chili powder, then coated in a crispy batter before being fried until golden and crunchy. The tacos are topped with a tangy slaw made from cabbage, lime, and cilantro, and often finished with a creamy sauce such as sour cream, avocado, or a spicy mayo. Served with lime wedges and fresh salsa on the side, these tacos are a perfect balance of crispy, creamy, and tangy flavors!",
     recipeIngredients: [
       {
         recipeSteps: {
@@ -4032,7 +4032,7 @@ export const recipes = [
       cholesterol: "85",
     },
     recipeDescription:
-      "Crispy, golden calamari served with a tangy lemon aioli for dipping, perfect as an appetizer or snack.",
+      "Crispy Calamari with Lemon Aioli is a flavorful and crunchy appetizer that features tender squid rings lightly battered and fried to perfection. The calamari is seasoned with salt and pepper before being coated in a crispy golden crust. It is served with a zesty lemon aioli dip, made from mayonnaise, garlic, lemon juice, and a hint of Dijon mustard, offering a creamy and tangy contrast to the crispy calamari. This dish is a perfect starter for seafood lovers, combining a delightful crunch with the freshness of lemon and garlic.",
     recipeIngredients: [
       {
         recipeSteps: {
@@ -4141,7 +4141,7 @@ export const recipes = [
       cholesterol: "50",
     },
     recipeDescription:
-      "Tender mussels cooked in a fragrant white wine, garlic, and herb sauce, perfect for a quick and flavorful meal.",
+      "Mussels in White Wine Sauce is a flavorful and aromatic seafood dish where mussels are steamed in a rich, savory broth made from white wine, garlic, shallots, and fresh herbs like thyme and parsley. The mussels open up as they cook, releasing their natural juices, which blend with the wine and garlic to create a delicious sauce. A touch of butter adds richness, while a squeeze of lemon juice brightens the flavors. This dish is typically served with crusty bread to soak up the flavorful sauce, making it a perfect appetizer or main course for a sophisticated meal.",
     recipeIngredients: [
       {
         recipeSteps: {
@@ -4232,7 +4232,7 @@ export const recipes = [
       cholesterol: "70",
     },
     recipeDescription:
-      "A fresh and flavorful grilled salmon fillet topped with a zesty mango salsa, perfect for a summer meal.",
+      "Grilled Salmon with Mango Salsa is a vibrant and refreshing dish that combines perfectly grilled salmon with a sweet and tangy mango salsa. The salmon is seasoned with olive oil, salt, and pepper, then grilled to perfection, with a crispy skin and tender flesh. The mango salsa is made with ripe mango, red onion, cilantro, lime juice, and a hint of jalapeño for a mild kick. The sweetness of the mango balances beautifully with the savory richness of the salmon, making this dish a light and flavorful option for a healthy lunch or dinner.",
     recipeIngredients: [
       {
         recipeSteps: {
@@ -4325,7 +4325,7 @@ export const recipes = [
       cholesterol: "90",
     },
     recipeDescription:
-      "A vibrant and hearty Spanish dish with a variety of seafood, saffron-infused rice, and vegetables.",
+      "Seafood Paella is a traditional Spanish dish known for its vibrant colors and rich flavors. This one-pot meal combines a variety of fresh seafood, such as shrimp, mussels, clams, and squid, with saffron-infused rice, vegetables, and a savory broth. The rice is cooked to perfection, absorbing all the delicious flavors from the seafood and spices. Aromatic garlic, onions, bell peppers, and tomatoes provide a flavorful base, while the saffron gives the dish its signature golden hue and unique fragrance. Served family-style, seafood paella is perfect for sharing and enjoying with a side of crusty bread or a fresh salad.",
     recipeIngredients: [
       {
         recipeSteps: {
@@ -4435,7 +4435,7 @@ export const recipes = [
       cholesterol: "170",
     },
     recipeDescription:
-      "A refreshing and light salad with succulent shrimp, creamy avocado, and a tangy citrus dressing.",
+      "Shrimp and Avocado Salad is a light and refreshing dish that combines tender shrimp with creamy avocado and crisp vegetables. The shrimp are seasoned and lightly sautéed or boiled until perfectly cooked, then tossed with diced avocado, cherry tomatoes, cucumber, and red onion. A simple dressing made from olive oil, lime juice, garlic, and cilantro enhances the flavors, adding a tangy and zesty kick. This salad is both healthy and satisfying, offering a balance of protein, healthy fats, and fresh veggies, making it a great choice for a light lunch or dinner.",
     recipeIngredients: [
       {
         recipeSteps: {
@@ -4548,7 +4548,7 @@ export const recipes = [
       cholesterol: "90",
     },
     recipeDescription:
-      "A creamy and indulgent seafood risotto made with shrimp, scallops, and mussels, creating a rich and flavorful dish.",
+      "Seafood Risotto is a rich and creamy Italian dish that combines tender, succulent seafood with perfectly cooked Arborio rice. The dish begins by sautéing onions and garlic in butter, then slowly adding broth while stirring to cook the rice to a creamy consistency. A variety of seafood, such as shrimp, scallops, mussels, and squid, is added to the risotto, absorbing the flavors as it cooks. White wine, lemon zest, and fresh herbs, like parsley, elevate the taste, creating a flavorful, aromatic dish. This luxurious risotto is a perfect balance of creamy texture and savory seafood, ideal for a special occasion or a comforting meal.",
     recipeIngredients: [
       {
         recipeSteps: {
@@ -4669,7 +4669,7 @@ export const recipes = [
       cholesterol: "40",
     },
     recipeDescription:
-      "Tender and juicy scallops are pan-seared to perfection and served with a rich garlic butter sauce. This dish is quick, flavorful, and a perfect way to enjoy the natural sweetness of scallops.",
+      "Pan-Seared Scallops with Garlic Butter Sauce is a simple yet elegant seafood dish that highlights the natural sweetness of scallops. The scallops are seared in a hot pan until golden brown and crispy on the outside, while remaining tender and juicy on the inside. The garlic butter sauce is made by melting butter and sautéing fresh garlic until fragrant, then finishing it off with a squeeze of lemon juice and a sprinkle of fresh parsley. The rich and garlicky sauce is drizzled over the scallops, enhancing their delicate flavor and making for a decadent, yet light, dish perfect for a special dinner or appetizer.",
     recipeIngredients: [
       {
         recipeSteps: {
