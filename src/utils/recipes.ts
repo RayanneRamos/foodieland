@@ -9470,7 +9470,7 @@ export const recipes = [
       cholesterol: "40",
     },
     recipeDescription:
-      "Bibimbap is a vibrant Korean rice bowl topped with sautéed vegetables, marinated beef, a fried egg, and spicy gochujang sauce.",
+      "Bibimbap is a vibrant and flavorful Korean rice bowl topped with a variety of colorful vegetables, marinated beef or tofu, and a fried egg. The dish is served with spicy gochujang sauce, adding a rich umami kick. Everything is mixed together just before eating, blending the textures and flavors beautifully. It’s a wholesome, balanced meal that’s both delicious and visually stunning!",
     recipeIngredients: [
       {
         recipeSteps: {
@@ -9591,7 +9591,7 @@ export const recipes = [
       cholesterol: "50",
     },
     recipeDescription:
-      "A classic Korean stew made with aged kimchi, pork belly, tofu, and a rich umami broth.",
+      "Kimchi Jjigae is a hearty and spicy Korean stew made with aged kimchi, tofu, pork or tuna, and a rich, flavorful broth. The fermented kimchi gives the dish its signature tangy and umami depth. Simmered until the flavors meld perfectly, it’s often served bubbling hot with steamed rice. This comforting dish is a staple in Korean cuisine, perfect for warming up on a cold day!",
     recipeIngredients: [
       {
         recipeSteps: {
@@ -9694,7 +9694,7 @@ export const recipes = [
       cholesterol: "0",
     },
     recipeDescription:
-      "Japchae is a flavorful Korean dish made with stir-fried glass noodles, vegetables, and soy-based seasoning.",
+      "Japchae is a popular Korean dish made with stir-fried glass noodles (dangmyeon) tossed with a mix of colorful vegetables, beef or tofu, and a savory-sweet soy sauce. The noodles are chewy and absorb the rich umami flavors of sesame oil and garlic. This dish is both light and satisfying, often enjoyed as a side or main course. Japchae is a staple in Korean celebrations and everyday meals!",
     recipeIngredients: [
       {
         recipeSteps: {
@@ -9795,7 +9795,7 @@ export const recipes = [
       cholesterol: "0",
     },
     recipeDescription:
-      "Tteokbokki is a popular Korean street food made with chewy rice cakes in a spicy, slightly sweet sauce.",
+      "Tteokbokki is a popular Korean street food made with chewy rice cakes simmered in a spicy, sweet, and savory gochujang-based sauce. Often accompanied by fish cakes, boiled eggs, and scallions, this dish has a bold, addictive flavor. The thick, glossy sauce coats each rice cake, making it irresistibly delicious. Tteokbokki is a comforting and satisfying dish enjoyed as a snack or meal!",
     recipeIngredients: [
       {
         recipeSteps: {
@@ -9885,7 +9885,7 @@ export const recipes = [
       cholesterol: "0",
     },
     recipeDescription:
-      "Kimchi fried rice is a quick and easy meal, packed with spicy, tangy flavors from kimchi and rice.",
+      "Kimchi Fried Rice (Kimchi Bokkeumbap) is a flavorful Korean dish made with stir-fried rice, aged kimchi, and a mix of savory seasonings. It’s often topped with a fried egg and garnished with sesame seeds and scallions for extra taste. The tangy, spicy kimchi adds a bold kick, making it a delicious and comforting meal. Quick and easy to prepare, it’s perfect for using leftover rice!",
     recipeIngredients: [
       {
         recipeSteps: {
@@ -9966,7 +9966,7 @@ export const recipes = [
       cholesterol: "80",
     },
     recipeDescription:
-      "Dakgalbi is a spicy, stir-fried chicken dish with vegetables, rice cakes, and a bold gochujang-based sauce.",
+      "Dakgalbi (Spicy Stir-Fried Chicken) is a popular Korean dish made with marinated chicken, stir-fried with vegetables like sweet potatoes, cabbage, and onions, all coated in a spicy, savory sauce. The sauce typically contains gochujang (Korean red chili paste), garlic, ginger, and other seasonings, giving the dish its signature heat and depth of flavor. Often enjoyed as a communal meal, it’s served sizzling hot and sometimes paired with rice or noodles to balance the spice. Perfect for those who love bold, spicy Korean flavors!",
     recipeIngredients: [
       {
         recipeSteps: {
@@ -10085,7 +10085,7 @@ export const recipes = [
       cholesterol: "90",
     },
     recipeDescription:
-      "Samgyeopsal is a popular Korean BBQ dish featuring thick-cut pork belly grilled and eaten with lettuce wraps and dipping sauces.",
+      "Samgyeopsal (Korean Grilled Pork Belly) is a beloved Korean BBQ dish where thick slices of pork belly are grilled at the table, usually over a charcoal grill. The meat is served alongside a variety of accompaniments such as lettuce leaves, garlic, green peppers, and a flavorful dipping sauce (ssamjang). Once grilled, the pork belly is often wrapped in lettuce with the sides, creating a bite-sized wrap called a 'ssam.' This dish is perfect for sharing and offers a delicious balance of savory, smoky flavors with a touch of freshness from the veggies.",
     recipeIngredients: [
       {
         recipeSteps: {
@@ -10190,7 +10190,7 @@ export const recipes = [
       cholesterol: "45",
     },
     recipeDescription:
-      "Sundubu Jjigae is a comforting, spicy stew made with silky soft tofu, seafood, and vegetables.",
+      "Sundubu Jjigae (Spicy Soft Tofu Stew) is a comforting and flavorful Korean dish made with soft, silken tofu in a spicy and savory broth. The stew typically includes a variety of ingredients such as vegetables, seafood (often shrimp or clams), or meat (like pork or beef), and is seasoned with gochujang (Korean red chili paste) and gochugaru (Korean chili flakes). It’s usually served bubbling hot in a stone pot and topped with a raw egg just before serving. The dish is best enjoyed with a bowl of steamed rice, offering a perfect balance of heat and richness from the tofu.",
     recipeIngredients: [
       {
         recipeSteps: {
@@ -10307,7 +10307,7 @@ export const recipes = [
       cholesterol: "30",
     },
     recipeDescription:
-      "Jjajangmyeon is a Korean-Chinese dish made with chewy noodles and a thick black bean sauce with pork and vegetables.",
+      "Jjajangmyeon (Black Bean Noodles) is a popular Korean-Chinese dish consisting of chewy wheat noodles served in a rich and savory black bean paste sauce. The sauce, made from fermented black soybeans, is stir-fried with diced pork or beef, onions, zucchini, and sometimes potatoes, creating a flavorful and slightly sweet coating for the noodles. It’s often garnished with cucumber slices for crunch and freshness. Jjajangmyeon is a beloved comfort food in Korea, typically enjoyed with pickled radish on the side to balance the deep flavors of the sauce.",
     recipeIngredients: [
       {
         recipeSteps: {
