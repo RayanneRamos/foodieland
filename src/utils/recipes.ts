@@ -6314,7 +6314,7 @@ export const recipes = [
       cholesterol: "110",
     },
     recipeDescription:
-      "A rich and creamy Italian pasta dish made with eggs, cheese, pancetta, and black pepper.",
+      "Classic Spaghetti Carbonara is a rich and creamy Italian pasta dish made with simple ingredients: spaghetti, eggs, pecorino Romano cheese, pancetta (or guanciale), and black pepper. The pancetta is sautéed until crispy, rendering its fat which helps create a flavorful base. Meanwhile, eggs and cheese are whisked together to form a creamy sauce. Once the pasta is cooked al dente, it’s tossed with the crispy pancetta and the egg mixture, allowing the residual heat to create a silky sauce that coats the pasta. A generous amount of freshly cracked black pepper is added for a slight kick. This dish is deliciously comforting and comes together in just a few minutes, making it a perfect weeknight meal.",
     recipeIngredients: [
       {
         recipeSteps: {
@@ -6405,7 +6405,7 @@ export const recipes = [
       cholesterol: "80",
     },
     recipeDescription:
-      "A smooth and velvety fettuccine pasta coated in a creamy garlic Parmesan sauce.",
+      "Creamy Garlic Parmesan Fettuccine is a decadent pasta dish featuring fettuccine noodles coated in a luscious, velvety sauce made from butter, heavy cream, garlic, and freshly grated Parmesan cheese. The garlic is sautéed in butter to infuse the sauce with a rich, aromatic flavor, while the cream gives it a smooth, creamy texture. The Parmesan cheese is melted into the sauce, adding depth and a savory, tangy note. The cooked fettuccine is tossed in the creamy sauce until well coated, and it's finished with a sprinkle of fresh parsley and more Parmesan for garnish. This dish is indulgent and comforting, perfect for a satisfying meal.",
     recipeIngredients: [
       {
         recipeSteps: {
@@ -6504,7 +6504,7 @@ export const recipes = [
       cholesterol: "120",
     },
     recipeDescription:
-      "A bold and spicy tomato-based pasta with shrimp and chili flakes.",
+      "Spicy Shrimp Penne Arrabbiata is a flavorful and bold pasta dish that combines al dente penne pasta with succulent shrimp and a spicy, tangy tomato sauce. The 'arrabbiata' sauce is made by sautéing garlic, crushed red pepper flakes, and tomatoes to create a zesty, spicy base. The shrimp is seasoned and sautéed until tender and perfectly cooked, then tossed with the pasta and arrabbiata sauce. The dish is finished with a drizzle of olive oil and a sprinkle of fresh parsley. The combination of heat from the red pepper flakes and the sweetness of the shrimp creates a deliciously fiery yet balanced meal.",
     recipeIngredients: [
       {
         recipeSteps: {
@@ -6607,7 +6607,7 @@ export const recipes = [
       cholesterol: "70",
     },
     recipeDescription:
-      "A fresh and flavorful pasta dish with basil pesto and grilled chicken.",
+      "Pesto Chicken Pasta is a vibrant and aromatic dish that pairs tender grilled or sautéed chicken with pasta tossed in a rich, homemade basil pesto sauce. The pesto is made by blending fresh basil, garlic, pine nuts, Parmesan cheese, and olive oil into a creamy, flavorful sauce. The chicken is seasoned and cooked until golden, then sliced and added to the pasta. The pesto sauce coats the pasta, creating a flavorful base that complements the savory chicken. The dish is finished with a sprinkle of extra Parmesan and a few fresh basil leaves for garnish, offering a fragrant and satisfying meal.",
     recipeIngredients: [
       {
         recipeSteps: {
@@ -6697,7 +6697,7 @@ export const recipes = [
       cholesterol: "55",
     },
     recipeDescription:
-      "A comforting baked pasta dish with layers of ricotta, mozzarella, and marinara sauce.",
+      "Baked Ziti with Ricotta and Mozzarella is a comforting and cheesy pasta dish that combines ziti pasta with a rich tomato marinara sauce, creamy ricotta cheese, and melted mozzarella. The pasta is first cooked al dente, then mixed with marinara sauce and ricotta cheese. The mixture is layered in a baking dish, topped with mozzarella cheese, and baked until bubbly and golden brown. This dish is perfect for a cozy family dinner, with its gooey cheese, hearty sauce, and tender pasta, offering a deliciously satisfying meal.",
     recipeIngredients: [
       {
         recipeSteps: {
@@ -6791,7 +6791,7 @@ export const recipes = [
       cholesterol: "35",
     },
     recipeDescription:
-      "A light and refreshing pasta dish with zesty lemon, rich butter, and fragrant garlic.",
+      "Lemon Garlic Butter Linguine is a light and flavorful pasta dish that combines the richness of butter with the zesty brightness of lemon. The linguine is cooked al dente and tossed in a luscious sauce made from melted butter, minced garlic, fresh lemon juice, and zest, creating a perfect balance of flavors. The dish is seasoned with salt, pepper, and a sprinkle of fresh parsley for added freshness. It's a simple yet elegant meal, perfect for a quick dinner or a side to complement seafood or grilled chicken.",
     recipeIngredients: [
       {
         recipeSteps: {
@@ -6890,7 +6890,7 @@ export const recipes = [
       cholesterol: "10",
     },
     recipeDescription:
-      "A hearty and nutritious pasta dish with earthy mushrooms and fresh spinach in a light sauce.",
+      "Mushroom and Spinach Penne is a savory pasta dish featuring tender penne pasta tossed with a rich and creamy sauce made from sautéed mushrooms and fresh spinach. The mushrooms are cooked until golden brown, then combined with garlic, onions, and a splash of cream to create a smooth, comforting sauce. The spinach is added towards the end, wilting gently into the mixture. The dish is seasoned with salt, pepper, and a sprinkle of parmesan cheese for extra flavor. It’s a hearty yet light option, perfect for a vegetarian meal or as a side.",
     recipeIngredients: [
       {
         recipeSteps: {
@@ -6993,7 +6993,7 @@ export const recipes = [
       cholesterol: "110",
     },
     recipeDescription:
-      "A spicy and creamy pasta dish with tender Cajun-seasoned chicken in a rich Alfredo sauce.",
+      "Cajun Chicken Alfredo is a flavorful and creamy pasta dish that features tender, seasoned chicken cooked with bold Cajun spices. The chicken is pan-seared to perfection and then combined with fettuccine pasta, all smothered in a rich, homemade Alfredo sauce made from heavy cream, butter, and Parmesan cheese. The Cajun seasoning adds a smoky, spicy kick that contrasts wonderfully with the creamy sauce. This indulgent dish is topped with freshly chopped parsley and an extra sprinkle of cheese, making it a perfect choice for a satisfying meal.",
     recipeIngredients: [
       {
         recipeSteps: {
@@ -7096,7 +7096,7 @@ export const recipes = [
       cholesterol: "20",
     },
     recipeDescription:
-      "A vibrant Mediterranean-style pasta dish with sun-dried tomatoes, garlic, and fresh basil.",
+      "Sun-Dried Tomato and Basil Farfalle is a vibrant and aromatic pasta dish made with bowtie-shaped farfalle pasta. The dish is infused with the rich, tangy flavor of sun-dried tomatoes, which are sautéed with garlic and olive oil, creating a savory base. Fresh basil is added for a burst of herbaceous freshness that complements the tomatoes. The sauce is often enhanced with a light cream or Parmesan cheese, bringing all the flavors together in a smooth, luscious coating. It’s a simple yet flavorful option that works well as a side or a main course.",
     recipeIngredients: [
       {
         recipeSteps: {
@@ -7195,7 +7195,7 @@ export const recipes = [
       cholesterol: "80",
     },
     recipeDescription:
-      "A hearty, meaty pasta with ground beef and a rich tomato sauce.",
+      "Beef and Tomato Rigatoni is a hearty pasta dish that combines tender ground beef with a rich, flavorful tomato sauce. The rigatoni, with its large, ridged tubes, perfectly holds the meaty sauce, creating a satisfying bite in every forkful. The beef is browned with onions, garlic, and herbs like oregano and basil, then simmered in a tomato-based sauce, which is enhanced with a touch of red wine or broth for depth. The dish is finished with a sprinkle of Parmesan cheese, adding a savory finish that complements the sweet, tangy tomato sauce. Perfect for a comforting, family-friendly meal.",
     recipeIngredients: [
       {
         recipeSteps: {
@@ -7297,7 +7297,7 @@ export const recipes = [
       cholesterol: "140",
     },
     recipeDescription:
-      "A vibrant and refreshing pasta with juicy shrimp, homemade basil pesto, and a hint of lemon.",
+      "Pesto Shrimp Spaghetti is a vibrant and flavorful pasta dish that combines succulent shrimp with a fresh, aromatic basil pesto sauce. The shrimp are quickly sautéed until golden and tender, then tossed with al dente spaghetti, which is coated in the rich, garlicky pesto made from basil, pine nuts, Parmesan cheese, garlic, and olive oil. The dish is seasoned with a touch of lemon zest and red pepper flakes for a slight zing and heat. It's a perfect combination of freshness and savory richness, making it a delightful option for a quick weeknight dinner or a special occasion.",
     recipeIngredients: [
       {
         recipeSteps: {
@@ -7423,7 +7423,7 @@ export const recipes = [
       cholesterol: "180",
     },
     recipeDescription:
-      "A creamy and rich carbonara with crispy pancetta and sweet green peas.",
+      "Carbonara with Pancetta and Peas is a creamy, comforting pasta dish that puts a twist on the classic carbonara by incorporating peas and crispy pancetta. The spaghetti is coated in a silky sauce made from eggs, Parmesan cheese, and a touch of pasta water, creating a rich and velvety texture. Crispy pancetta adds a savory crunch, while the peas introduce a pop of sweetness and color to balance the flavors. This dish is easy to prepare and full of satisfying flavors, making it a perfect weeknight meal or a cozy dinner for any occasion.",
     recipeIngredients: [
       {
         recipeSteps: {
@@ -7518,7 +7518,7 @@ export const recipes = [
       cholesterol: "120",
     },
     recipeDescription:
-      "A decadent pasta with a creamy garlic-Parmesan sauce, sun-dried tomatoes, and tender chicken.",
+      "Creamy Tuscan Chicken Pasta is a rich and flavorful dish that features succulent chicken breasts cooked in a creamy, garlicky sauce with sun-dried tomatoes, spinach, and a blend of Parmesan and heavy cream. The tender chicken is seasoned perfectly and seared until golden, then combined with the creamy sauce and tossed with al dente pasta. The sun-dried tomatoes add a burst of tangy flavor, while the spinach offers a pop of color and earthiness. It's a comforting and indulgent meal, perfect for a cozy dinner or entertaining guests.",
     recipeIngredients: [
       {
         recipeSteps: {
@@ -7629,7 +7629,7 @@ export const recipes = [
       cholesterol: "0",
     },
     recipeDescription:
-      "A bold and spicy tomato-based pasta with garlic and chili flakes for an extra kick.",
+      "Spicy Arrabbiata Rigatoni is a bold and zesty pasta dish that packs a punch with its fiery arrabbiata sauce made from crushed tomatoes, garlic, and red chili flakes. The rich and spicy sauce is perfectly paired with the hearty rigatoni pasta, which absorbs the sauce beautifully. A touch of olive oil and fresh basil enhance the flavor, making each bite a delicious combination of heat and savory goodness. This dish is ideal for spice lovers looking for a quick and satisfying meal.",
     recipeIngredients: [
       {
         recipeSteps: {
