@@ -12985,33 +12985,54 @@ export const recipes = [
   },
   // Air Fryer
   {
-    id: "",
-    recipeName: "",
+    id: "d1d62854-37a2-468f-81af-0c01a2a05dd2",
+    recipeName: "Air Fryer Chicken Wings",
     author: {
       authorAvatar: "",
-      authorName: "",
-      authorDatePosted: "",
+      authorName: "Jackson Sanchez",
+      authorDatePosted: "28 December 2022",
     },
-    prepareTime: "",
-    cookTime: "",
+    prepareTime: "10",
+    cookTime: "25",
     recipeCategory: "Air Fryer",
     recipeImage: "",
     nutritionInformation: {
-      calories: "",
-      totalFat: "",
-      protein: "",
-      carbohydrate: "",
-      cholesterol: "",
+      calories: "350",
+      totalFat: "20",
+      protein: "30",
+      carbohydrate: "1",
+      cholesterol: "70",
     },
-    recipeDescription: "",
+    recipeDescription:
+      "Air fryer chicken wings are crispy and juicy without the extra oil. Perfect for a healthy snack or meal.",
     recipeIngredients: [
       {
         recipeSteps: {
           name: "",
           steps: [
             {
+              ingredientsQuantity: "12",
+              inredientsName: "chicken wings",
+            },
+            {
+              ingredientsQuantity: "1",
+              inredientsName: "tbsp olive oil",
+            },
+            {
+              ingredientsQuantity: "1",
+              inredientsName: "tsp garlic powder",
+            },
+            {
+              ingredientsQuantity: "1",
+              inredientsName: "tsp onion powder",
+            },
+            {
+              ingredientsQuantity: "1",
+              inredientsName: "tsp paprika",
+            },
+            {
               ingredientsQuantity: "",
-              inredientsName: "",
+              inredientsName: "Salt and pepper to taste",
             },
           ],
         },
@@ -13019,39 +13040,78 @@ export const recipes = [
     ],
     recipeDirections: [
       {
-        directionTitle: "",
-        directionDescription: "",
+        directionTitle: "Prepare the Chicken Wings",
+        directionDescription:
+          "Pat the chicken wings dry with paper towels. This helps achieve a crispier texture.",
+      },
+      {
+        directionTitle: "Season the Wings",
+        directionDescription:
+          "In a bowl, mix olive oil, garlic powder, onion powder, paprika, salt, and pepper. Toss the wings in the seasoning mixture until well-coated.",
+      },
+      {
+        directionTitle: "Preheat the Air Fryer",
+        directionDescription:
+          "Preheat the air fryer to 380°F (193°C) for 3 minutes.",
+      },
+      {
+        directionTitle: "Cook the Wings",
+        directionDescription:
+          "Arrange the wings in a single layer in the air fryer basket. Cook for 25 minutes, flipping halfway through to ensure even cooking.",
+      },
+      {
+        directionTitle: "Serve",
+        directionDescription:
+          "Once crispy and golden, remove the wings from the air fryer and serve hot with your favorite dipping sauce.",
       },
     ],
   },
   {
-    id: "",
-    recipeName: "",
+    id: "63233d19-18f5-4b2b-8de2-4dcf773a472f",
+    recipeName: "Air Fryer Sweet Potato Fries",
     author: {
       authorAvatar: "",
-      authorName: "",
-      authorDatePosted: "",
+      authorName: "Oliver Campbell",
+      authorDatePosted: "27 November 2021",
     },
-    prepareTime: "",
-    cookTime: "",
+    prepareTime: "10",
+    cookTime: "20",
     recipeCategory: "Air Fryer",
     recipeImage: "",
     nutritionInformation: {
-      calories: "",
-      totalFat: "",
-      protein: "",
-      carbohydrate: "",
-      cholesterol: "",
+      calories: "150",
+      totalFat: "7",
+      protein: "2",
+      carbohydrate: "23",
+      cholesterol: "0",
     },
-    recipeDescription: "",
+    recipeDescription:
+      "Crispy on the outside, tender on the inside, these sweet potato fries are a healthy and delicious side dish made in the air fryer.",
     recipeIngredients: [
       {
         recipeSteps: {
           name: "",
           steps: [
             {
-              ingredientsQuantity: "",
-              inredientsName: "",
+              ingredientsQuantity: "2",
+              inredientsName:
+                "medium sweet potatoes, peeled and cut into fries",
+            },
+            {
+              ingredientsQuantity: "1",
+              inredientsName: "tbsp olive oil",
+            },
+            {
+              ingredientsQuantity: "1/2",
+              inredientsName: "tsp salt",
+            },
+            {
+              ingredientsQuantity: "1/2",
+              inredientsName: "tsp black pepper",
+            },
+            {
+              ingredientsQuantity: "1/2",
+              inredientsName: "tsp paprika",
             },
           ],
         },
@@ -13059,39 +13119,89 @@ export const recipes = [
     ],
     recipeDirections: [
       {
-        directionTitle: "",
-        directionDescription: "",
+        directionTitle: "Prepare the Sweet Potatoes",
+        directionDescription:
+          "Peel and cut the sweet potatoes into fries. Try to keep them uniform in size for even cooking.",
+      },
+      {
+        directionTitle: "Season the Fries",
+        directionDescription:
+          "Toss the sweet potato fries in olive oil, salt, pepper, and paprika until well coated.",
+      },
+      {
+        directionTitle: "Preheat the Air Fryer",
+        directionDescription:
+          "Preheat the air fryer to 400°F (200°C) for 3 minutes.",
+      },
+      {
+        directionTitle: "Cook the Fries",
+        directionDescription:
+          "Arrange the fries in a single layer in the air fryer basket. Cook for 20 minutes, shaking the basket halfway through for even cooking.",
+      },
+      {
+        directionTitle: "Serve",
+        directionDescription:
+          "Once golden and crispy, serve with a side of ketchup or your favorite dipping sauce.",
       },
     ],
   },
   {
-    id: "",
-    recipeName: "",
+    id: "13a206c1-9151-48d8-9198-66d73f608464",
+    recipeName: "Air Fryer Veggie Fritters",
     author: {
       authorAvatar: "",
-      authorName: "",
-      authorDatePosted: "",
+      authorName: "Carter Moore",
+      authorDatePosted: "19 September 2024",
     },
-    prepareTime: "",
-    cookTime: "",
+    prepareTime: "15",
+    cookTime: "12",
     recipeCategory: "Air Fryer",
     recipeImage: "",
     nutritionInformation: {
-      calories: "",
-      totalFat: "",
-      protein: "",
-      carbohydrate: "",
-      cholesterol: "",
+      calories: "180",
+      totalFat: "10",
+      protein: "4",
+      carbohydrate: "20",
+      cholesterol: "45",
     },
-    recipeDescription: "",
+    recipeDescription:
+      "These veggie fritters are crispy and packed with nutritious vegetables. The air fryer makes them guilt-free while still maintaining a crunchy texture.",
     recipeIngredients: [
       {
         recipeSteps: {
           name: "",
           steps: [
             {
+              ingredientsQuantity: "1",
+              inredientsName: "medium zucchini, grated",
+            },
+            {
+              ingredientsQuantity: "1",
+              inredientsName: "small carrot, grated",
+            },
+            {
+              ingredientsQuantity: "1/4",
+              inredientsName: "cup flour",
+            },
+            {
+              ingredientsQuantity: "1",
+              inredientsName: "egg",
+            },
+            {
+              ingredientsQuantity: "1/4",
+              inredientsName: "cup breadcrumbs",
+            },
+            {
+              ingredientsQuantity: "1/2",
+              inredientsName: "tsp garlic powder",
+            },
+            {
               ingredientsQuantity: "",
-              inredientsName: "",
+              inredientsName: "Salt and pepper to taste",
+            },
+            {
+              ingredientsQuantity: "1",
+              inredientsName: "tbsp olive oil",
             },
           ],
         },
@@ -13099,39 +13209,86 @@ export const recipes = [
     ],
     recipeDirections: [
       {
-        directionTitle: "",
-        directionDescription: "",
+        directionTitle: "Prepare the Vegetables",
+        directionDescription:
+          "Grate the zucchini and carrot. Place them in a clean towel and squeeze out any excess moisture.",
+      },
+      {
+        directionTitle: "Mix the Fritter Ingredients",
+        directionDescription:
+          "In a bowl, combine the grated vegetables, flour, egg, breadcrumbs, garlic powder, salt, and pepper. Mix until a dough-like consistency forms.",
+      },
+      {
+        directionTitle: "Shape the Fritters",
+        directionDescription:
+          "Form small patties from the mixture using your hands.",
+      },
+      {
+        directionTitle: "Preheat the Air Fryer",
+        directionDescription:
+          "Preheat the air fryer to 375°F (190°C) for 3 minutes.",
+      },
+      {
+        directionTitle: "Cook the Fritters",
+        directionDescription:
+          "Spray the air fryer basket with cooking spray and place the fritters in a single layer. Air fry for 12 minutes, flipping halfway through, until golden brown and crispy.",
+      },
+      {
+        directionTitle: "Serve",
+        directionDescription:
+          "Serve with a yogurt-based dipping sauce or a side salad.",
       },
     ],
   },
   {
-    id: "",
-    recipeName: "",
+    id: "571b66de-65da-46ff-9a0e-6d1b49630c6b",
+    recipeName: "Air Fryer Salmon",
     author: {
       authorAvatar: "",
-      authorName: "",
-      authorDatePosted: "",
+      authorName: "Parker Cox",
+      authorDatePosted: "19 December 2023",
     },
-    prepareTime: "",
-    cookTime: "",
+    prepareTime: "5",
+    cookTime: "12",
     recipeCategory: "Air Fryer",
     recipeImage: "",
     nutritionInformation: {
-      calories: "",
-      totalFat: "",
-      protein: "",
-      carbohydrate: "",
-      cholesterol: "",
+      calories: "250",
+      totalFat: "15",
+      protein: "23",
+      carbohydrate: "0",
+      cholesterol: "60",
     },
-    recipeDescription: "",
+    recipeDescription:
+      "Air fryer salmon is a quick and easy way to make perfectly cooked, tender fish with a crispy crust.",
     recipeIngredients: [
       {
         recipeSteps: {
           name: "",
           steps: [
             {
+              ingredientsQuantity: "2",
+              inredientsName: "salmon fillets",
+            },
+            {
+              ingredientsQuantity: "1",
+              inredientsName: "tbsp olive oil",
+            },
+            {
+              ingredientsQuantity: "1/2",
+              inredientsName: "tsp garlic powder",
+            },
+            {
+              ingredientsQuantity: "1/2",
+              inredientsName: "tsp paprika",
+            },
+            {
               ingredientsQuantity: "",
-              inredientsName: "",
+              inredientsName: "Salt and pepper to taste",
+            },
+            {
+              ingredientsQuantity: "",
+              inredientsName: "Lemon wedges for serving",
             },
           ],
         },
@@ -13139,8 +13296,29 @@ export const recipes = [
     ],
     recipeDirections: [
       {
-        directionTitle: "",
-        directionDescription: "",
+        directionTitle: "Prepare the Salmon",
+        directionDescription:
+          "Pat the salmon fillets dry with paper towels. This helps the seasoning stick and ensures a crispier skin.",
+      },
+      {
+        directionTitle: "Season the Salmon",
+        directionDescription:
+          "Rub the salmon fillets with olive oil and season with garlic powder, paprika, salt, and pepper.",
+      },
+      {
+        directionTitle: "Preheat the Air Fryer",
+        directionDescription:
+          "Preheat the air fryer to 375°F (190°C) for 3 minutes.",
+      },
+      {
+        directionTitle: "Cook the Salmon",
+        directionDescription:
+          "Place the salmon fillets in the air fryer basket, skin-side down. Cook for 12 minutes or until the salmon flakes easily with a fork.",
+      },
+      {
+        directionTitle: "Serve",
+        directionDescription:
+          "Serve the salmon with a squeeze of lemon juice and your favorite sides.",
       },
     ],
   },
