@@ -2758,7 +2758,7 @@ export const recipes = [
       cholesterol: "90",
     },
     recipeDescription:
-      "Juicy, tender chicken breast cooked in a flavorful garlic butter sauce. A quick and easy recipe perfect for weeknight dinners.",
+      "Garlic Butter Chicken Breast is a flavorful and juicy dish where chicken breasts are seared to perfection and cooked in a rich garlic butter sauce. The butter is infused with garlic, herbs, and a touch of lemon, creating a savory and aromatic glaze that coats the chicken. The result is tender, juicy chicken with a crispy exterior and a melt-in-your-mouth texture. Served with a side of vegetables or mashed potatoes, this dish is a simple yet indulgent meal perfect for any occasion!",
     recipeIngredients: [
       {
         recipeSteps: {
@@ -2843,7 +2843,7 @@ export const recipes = [
       cholesterol: "110",
     },
     recipeDescription:
-      "Sweet and tangy honey mustard glaze gives these chicken thighs a delicious caramelized crust.",
+      "Honey Mustard Chicken Thighs are a delicious and savory dish featuring tender, juicy chicken thighs coated in a sweet and tangy honey mustard glaze. The sauce is made with a balance of honey, Dijon mustard, and a hint of vinegar, creating a perfect combination of sweetness and sharpness. The chicken is baked or grilled until golden brown, with the glaze caramelizing slightly for added flavor. Served with roasted vegetables or a side salad, this dish is simple, flavorful, and perfect for any weeknight dinner!",
     recipeIngredients: [
       {
         recipeSteps: {
@@ -2927,7 +2927,7 @@ export const recipes = [
       cholesterol: "85",
     },
     recipeDescription:
-      "Crispy, smoky, and packed with spicy flavors, these grilled wings are perfect for game nights and parties.",
+      "Spicy Grilled Chicken Wings are a bold and flavorful dish featuring crispy chicken wings coated in a spicy marinade or sauce. The wings are seasoned with spices like cayenne pepper, paprika, garlic, and chili powder, creating a fiery kick. They are grilled to perfection, with a smoky char and crispy exterior, while remaining juicy on the inside. Served with a cooling dip like ranch or blue cheese, these wings are perfect for a bold snack, appetizer, or game-day treat!",
     recipeIngredients: [
       {
         recipeSteps: {
@@ -3011,7 +3011,7 @@ export const recipes = [
       cholesterol: "95",
     },
     recipeDescription:
-      "Rich and creamy Alfredo sauce coats tender chicken and pasta for the ultimate comfort food.",
+      "Creamy Chicken Alfredo is a comforting and indulgent pasta dish made with tender chicken breast and a rich, creamy Alfredo sauce. The sauce is made from butter, heavy cream, and Parmesan cheese, creating a velvety texture that coats the pasta. The chicken is sautéed until golden and juicy, then combined with the sauce for a flavorful, satisfying meal. Served over fettuccine or any pasta of your choice, this dish is the ultimate comfort food, perfect for a cozy dinner or special occasion!",
     recipeIngredients: [
       {
         recipeSteps: {
@@ -3095,7 +3095,7 @@ export const recipes = [
       cholesterol: "120",
     },
     recipeDescription:
-      "A juicy, oven-roasted chicken with fresh herbs and zesty lemon, perfect for a wholesome meal.",
+      "Lemon Herb Roasted Chicken is a flavorful and aromatic dish featuring a whole chicken seasoned with fresh herbs, garlic, and a tangy lemon. The chicken is roasted to golden perfection, with crispy skin and tender, juicy meat inside. The lemon adds a burst of freshness, while the herbs like rosemary, thyme, and parsley infuse the bird with rich, savory flavors. Served with roasted vegetables or mashed potatoes, this dish is a delicious and wholesome meal perfect for family dinners or special occasions!",
     recipeIngredients: [
       {
         recipeSteps: {
