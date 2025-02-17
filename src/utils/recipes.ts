@@ -271,7 +271,7 @@ export const recipes = [
       cholesterol: "0",
     },
     recipeDescription:
-      "A protein-packed, flavorful alternative to scrambled eggs. Made with chickpeas, turmeric, and nutritional yeast, this dish is rich in nutrients and has a creamy, egg-like texture. It’s a perfect breakfast option, served on toast or alongside sautéed veggies.",
+      "Vegan Chickpea Scramble is a protein-packed, plant-based alternative to scrambled eggs. Made with mashed chickpeas, turmeric, and spices, it has a deliciously savory and slightly nutty flavor. Sautéed with onions, bell peppers, and spinach, it’s both nutritious and satisfying. Perfect for a quick, healthy breakfast or a light meal!",
     recipeIngredients: [
       {
         recipeSteps: {
@@ -361,7 +361,7 @@ export const recipes = [
       cholesterol: "0",
     },
     recipeDescription:
-      "A warm and comforting bowl of oatmeal made with almond milk, topped with fresh berries and crunchy nuts. This dish is packed with fiber, protein, and antioxidants, making it a wholesome and energizing breakfast.",
+      "Creamy Vegan Oatmeal with Berries is a warm, nourishing breakfast made with plant-based milk for a rich, smooth texture. Naturally sweetened with maple syrup or bananas, it’s topped with fresh berries for a burst of flavor and antioxidants. Packed with fiber and protein, it keeps you full and energized. A comforting, healthy start to the day!",
     recipeIngredients: [
       {
         recipeSteps: {
@@ -443,7 +443,7 @@ export const recipes = [
       cholesterol: "0",
     },
     recipeDescription:
-      "A crunchy, creamy, and protein-rich toast made with hummus and mashed avocado. This dish is packed with healthy fats and fiber, making it an excellent choice for a nourishing breakfast or snack.",
+      "Vegan Avocado Toast with Hummus is a creamy, flavorful, and nutrient-packed breakfast or snack. The smooth hummus base adds a rich, savory depth, while mashed avocado brings a buttery texture. Topped with cherry tomatoes, sesame seeds, and a drizzle of olive oil, it’s both delicious and satisfying. A perfect plant-based meal for any time of the day!",
     recipeIngredients: [
       {
         recipeSteps: {
