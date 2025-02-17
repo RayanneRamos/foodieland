@@ -1833,7 +1833,7 @@ export const recipes = [
       cholesterol: "65",
     },
     recipeDescription:
-      "A light yet filling wrap packed with grilled chicken, fresh romaine lettuce, parmesan cheese, and creamy Caesar dressing wrapped in a soft tortilla.",
+      "A Grilled Chicken Caesar Wrap is a delicious and convenient meal featuring tender grilled chicken, crisp romaine lettuce, and creamy Caesar dressing, all wrapped up in a soft tortilla. The smoky flavor of the chicken pairs perfectly with the rich, tangy dressing, while the lettuce adds a refreshing crunch. It's a satisfying and portable take on the classic Caesar salad. Ideal for lunch or a light dinner, it’s both flavorful and filling!",
     recipeIngredients: [
       {
         recipeSteps: {
@@ -1909,7 +1909,7 @@ export const recipes = [
       cholesterol: "45",
     },
     recipeDescription:
-      "A classic bacon, lettuce, and tomato sandwich layered between crispy toasted bread with a hint of creamy mayo.",
+      "A Classic BLT Sandwich is a simple yet flavorful combination of crispy bacon, fresh lettuce, and juicy tomatoes, all sandwiched between two slices of toasted bread. The salty bacon, crunchy lettuce, and sweet tomatoes create the perfect balance of textures and flavors. Often spread with mayonnaise for added creaminess, it's a timeless and satisfying sandwich. Ideal for a quick lunch or a light dinner, it’s a crowd-pleaser every time!",
     recipeIngredients: [
       {
         recipeSteps: {
@@ -1980,7 +1980,7 @@ export const recipes = [
       cholesterol: "0",
     },
     recipeDescription:
-      "A colorful, nutrient-packed stir-fry with tofu, bell peppers, carrots, and a savory soy-ginger sauce.",
+      "Veggie Stir-Fry with Tofu is a vibrant, healthy dish packed with colorful vegetables like bell peppers, carrots, and broccoli, sautéed in a savory sauce. The tofu is lightly pan-fried, absorbing the sauce while staying crispy on the outside and soft on the inside. This dish is both nutritious and flavorful, with a perfect balance of textures. Ideal for a quick, plant-based meal, it’s light yet filling, often served with rice or noodles for a complete meal.",
     recipeIngredients: [
       {
         recipeSteps: {
@@ -2060,7 +2060,7 @@ export const recipes = [
       cholesterol: "50",
     },
     recipeDescription:
-      "A creamy and delicious tuna salad, made with mayo and crunchy celery, served between fresh slices of bread.",
+      "A Tuna Salad Sandwich is a simple yet satisfying meal made with flaky tuna, creamy mayonnaise, and crunchy vegetables like celery and onions, all served between slices of bread. The tuna salad is flavorful and moist, with a touch of tanginess from mustard or pickles. It’s a light and hearty sandwich, perfect for lunch or a quick snack. Add some lettuce or tomatoes for extra freshness and texture!",
     recipeIngredients: [
       {
         recipeSteps: {
@@ -2132,7 +2132,7 @@ export const recipes = [
       cholesterol: "120",
     },
     recipeDescription:
-      "A refreshing salad with juicy shrimp, creamy avocado, and a zesty lime dressing.",
+      "Shrimp & Avocado Salad is a refreshing and light dish featuring succulent shrimp, creamy avocado, and a mix of fresh greens like lettuce or spinach. The shrimp are cooked until tender and paired with ripe avocado for a rich, smooth texture. It’s often dressed with a tangy vinaigrette or lime dressing to complement the flavors. This healthy, protein-packed salad is perfect as a light lunch or a refreshing side dish!",
     recipeIngredients: [
       {
         recipeSteps: {
@@ -2211,7 +2211,7 @@ export const recipes = [
       cholesterol: "70",
     },
     recipeDescription:
-      "A crispy tortilla filled with seasoned ground beef, melted cheese, and fresh salsa.",
+      "A Beef & Cheese Quesadilla is a savory and satisfying dish made with seasoned ground beef, melted cheese, and sometimes sautéed onions and peppers, all sandwiched between two crispy tortillas. The beef is cooked with spices like cumin, chili powder, and garlic, while the cheese adds a creamy, gooey texture when melted. Once heated, the quesadilla is golden brown and crispy on the outside, with a flavorful, cheesy filling inside. Perfect for a quick meal or snack, and often served with salsa, guacamole, or sour cream for dipping!",
     recipeIngredients: [
       {
         recipeSteps: {
