@@ -21,7 +21,7 @@ export const recipes = [
       cholesterol: "40",
     },
     recipeDescription:
-      "Soft and fluffy pancakes infused with natural banana sweetness. Perfect for a cozy morning, served with maple syrup or fresh fruits. These pancakes are easy to make and require minimal ingredients. A great way to start your day with a nutritious and delicious meal!",
+      "Fluffy Banana Pancakes are soft, airy, and naturally sweet, made with ripe bananas for a delicious breakfast treat. They are easy to prepare, requiring simple ingredients like flour, eggs, and milk. These pancakes turn golden brown on the outside while remaining light and fluffy inside. Perfect with maple syrup, fresh fruit, or a sprinkle of cinnamon!",
     recipeIngredients: [
       {
         recipeSteps: {
@@ -115,7 +115,7 @@ export const recipes = [
       cholesterol: "190",
     },
     recipeDescription:
-      "A nutritious and satisfying breakfast packed with healthy fats and protein. Creamy avocado spread over crispy toasted bread, topped with a perfectly poached egg. It’s a quick, wholesome, and energy-boosting meal that pairs well with a cup of coffee.",
+      "Avocado Toast with Poached Egg is a nutritious and flavorful breakfast, combining creamy avocado with a perfectly poached egg on crispy toast. The rich, buttery avocado complements the runny yolk, creating a delicious contrast in texture. Seasoned with salt, pepper, and a dash of chili flakes, it adds a subtle kick. Perfect for a quick, healthy, and satisfying meal!",
     recipeIngredients: [
       {
         recipeSteps: {
@@ -201,7 +201,7 @@ export const recipes = [
       cholesterol: "10",
     },
     recipeDescription:
-      "A refreshing and protein-packed breakfast layered with creamy Greek yogurt, crunchy granola, and juicy berries. This parfait is a great balance of flavors and textures, making it a perfect grab-and-go meal. It’s light yet filling, keeping you energized for the day ahead!",
+      "Greek Yogurt Parfait with Berries & Granola is a refreshing and nutritious breakfast or snack. It layers creamy Greek yogurt with sweet, juicy berries and crunchy granola for a perfect balance of flavors and textures. Rich in protein and antioxidants, it’s both healthy and satisfying. Drizzle with honey for extra sweetness and enjoy a delicious energy boost!",
     recipeIngredients: [
       {
         recipeSteps: {
