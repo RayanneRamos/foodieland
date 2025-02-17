@@ -9344,33 +9344,82 @@ export const recipes = [
   },
   // Korean
   {
-    id: "",
-    recipeName: "",
+    id: "4c7ec649-67fe-48b6-b0a6-0d9f7087d751",
+    recipeName: "Bibimbap (Korean Mixed Rice Bowl)",
     author: {
       authorAvatar: "",
-      authorName: "",
-      authorDatePosted: "",
+      authorName: "Genesis Nguyen",
+      authorDatePosted: "06 January 2021",
     },
-    prepareTime: "",
-    cookTime: "",
+    prepareTime: "15",
+    cookTime: "15",
     recipeCategory: "Korean",
     recipeImage: "",
     nutritionInformation: {
-      calories: "",
-      totalFat: "",
-      protein: "",
-      carbohydrate: "",
-      cholesterol: "",
+      calories: "450",
+      totalFat: "12",
+      protein: "20",
+      carbohydrate: "60",
+      cholesterol: "40",
     },
-    recipeDescription: "",
+    recipeDescription:
+      "Bibimbap is a vibrant Korean rice bowl topped with sautéed vegetables, marinated beef, a fried egg, and spicy gochujang sauce.",
     recipeIngredients: [
       {
         recipeSteps: {
           name: "",
           steps: [
             {
-              ingredientsQuantity: "",
-              inredientsName: "",
+              ingredientsQuantity: "1",
+              inredientsName: "cup cooked short-grain rice",
+            },
+            {
+              ingredientsQuantity: "100g",
+              inredientsName: "beef (ribeye or sirloin), thinly sliced",
+            },
+            {
+              ingredientsQuantity: "1/2",
+              inredientsName: "carrot, julienned",
+            },
+            {
+              ingredientsQuantity: "1/2",
+              inredientsName: "zucchini, julienned",
+            },
+            {
+              ingredientsQuantity: "1/4",
+              inredientsName: "cup bean sprouts",
+            },
+            {
+              ingredientsQuantity: "1/4",
+              inredientsName: "cup spinach",
+            },
+            {
+              ingredientsQuantity: "1/2",
+              inredientsName: "tsp sesame oil",
+            },
+            {
+              ingredientsQuantity: "1",
+              inredientsName: "tsp soy sauce",
+            },
+            {
+              ingredientsQuantity: "1",
+              inredientsName: "egg",
+            },
+            {
+              ingredientsQuantity: "1",
+              inredientsName: "tbsp gochujang (Korean chili paste)",
+            },
+            {
+              ingredientsQuantity: "1",
+              inredientsName: "tsp sesame seeds",
+            },
+            {
+              ingredientsQuantity: "1",
+              inredientsName: "clove garlic, minced",
+            },
+            {
+              ingredientsQuantity: "1/2",
+              inredientsName: "tbsp vegetable oil",
             },
           ],
         },
@@ -9378,39 +9427,107 @@ export const recipes = [
     ],
     recipeDirections: [
       {
-        directionTitle: "",
-        directionDescription: "",
+        directionTitle: "Prepare the Ingredients",
+        directionDescription:
+          "Wash and cut all vegetables. Cook rice and set aside.",
+      },
+      {
+        directionTitle: "Marinate the Beef",
+        directionDescription:
+          "In a bowl, mix beef with soy sauce, sesame oil, minced garlic, and sesame seeds. Let it sit for 10 minutes.",
+      },
+      {
+        directionTitle: "Cook the Vegetables",
+        directionDescription:
+          "Heat a pan with a little oil. Sauté carrots for 2 minutes, then remove, sauté zucchini for 2 minutes, then remove and blanch spinach and bean sprouts in boiling water for 30 seconds, drain, and season with salt and sesame oil.",
+      },
+      {
+        directionTitle: "Cook the Beef",
+        directionDescription:
+          "In the same pan, cook marinated beef for 3-4 minutes until fully cooked.",
+      },
+      {
+        directionTitle: "Fry the Egg",
+        directionDescription:
+          "Heat a little oil in a pan and fry the egg sunny-side up.",
+      },
+      {
+        directionTitle: "Assemble the Bibimbap",
+        directionDescription:
+          "In a bowl, place rice at the bottom, arrange vegetables and beef around it, top with the fried egg, and drizzle with gochujang sauce.",
+      },
+      {
+        directionTitle: "Serve and Enjoy",
+        directionDescription:
+          "Mix everything before eating for the best flavor.",
       },
     ],
   },
   {
-    id: "",
-    recipeName: "",
+    id: "eeb8e984-fa43-4883-af62-3ed191cb83be",
+    recipeName: "Kimchi Jjigae (Kimchi Stew)",
     author: {
       authorAvatar: "",
-      authorName: "",
-      authorDatePosted: "",
+      authorName: "Sophie Bennett",
+      authorDatePosted: "11 June 2021",
     },
-    prepareTime: "",
-    cookTime: "",
+    prepareTime: "10",
+    cookTime: "25",
     recipeCategory: "Korean",
     recipeImage: "",
     nutritionInformation: {
-      calories: "",
-      totalFat: "",
-      protein: "",
-      carbohydrate: "",
-      cholesterol: "",
+      calories: "320",
+      totalFat: "10",
+      protein: "22",
+      carbohydrate: "30",
+      cholesterol: "50",
     },
-    recipeDescription: "",
+    recipeDescription:
+      "A classic Korean stew made with aged kimchi, pork belly, tofu, and a rich umami broth.",
     recipeIngredients: [
       {
         recipeSteps: {
           name: "",
           steps: [
             {
-              ingredientsQuantity: "",
-              inredientsName: "",
+              ingredientsQuantity: "1",
+              inredientsName: "cup aged kimchi, chopped",
+            },
+            {
+              ingredientsQuantity: "100g",
+              inredientsName: "pork belly, sliced",
+            },
+            {
+              ingredientsQuantity: "1/2",
+              inredientsName: "onion, sliced",
+            },
+            {
+              ingredientsQuantity: "1/2",
+              inredientsName: "block tofu, cubed",
+            },
+            {
+              ingredientsQuantity: "2",
+              inredientsName: "cups water",
+            },
+            {
+              ingredientsQuantity: "1/2",
+              inredientsName: "tbsp gochugaru (Korean chili flakes)",
+            },
+            {
+              ingredientsQuantity: "1",
+              inredientsName: "tbsp gochujang (Korean chili paste)",
+            },
+            {
+              ingredientsQuantity: "1",
+              inredientsName: "tbsp soy sauce",
+            },
+            {
+              ingredientsQuantity: "1",
+              inredientsName: "tsp sesame oil",
+            },
+            {
+              ingredientsQuantity: "1",
+              inredientsName: "green onion, chopped",
             },
           ],
         },
@@ -9418,39 +9535,105 @@ export const recipes = [
     ],
     recipeDirections: [
       {
-        directionTitle: "",
-        directionDescription: "",
+        directionTitle: "Prepare the Ingredients",
+        directionDescription: "Slice the pork belly, onion, and kimchi.",
+      },
+      {
+        directionTitle: "Sauté the Pork and Kimchi",
+        directionDescription:
+          "In a pot, heat sesame oil, add pork belly, and cook until slightly browned (about 3 minutes). Add kimchi and stir-fry for another 2 minutes.",
+      },
+      {
+        directionTitle: "Add Broth and Seasonings",
+        directionDescription:
+          "Pour in water, add gochugaru, gochujang, and soy sauce. Stir well and bring to a boil.",
+      },
+      {
+        directionTitle: "Simmer",
+        directionDescription:
+          "Reduce heat and let it simmer for 15 minutes until the flavors deepen.",
+      },
+      {
+        directionTitle: "Add Tofu",
+        directionDescription:
+          "Gently place tofu cubes into the stew and cook for another 5 minutes.",
+      },
+      {
+        directionTitle: "Garnish and Serve",
+        directionDescription:
+          "Sprinkle chopped green onions on top and serve hot with rice.",
       },
     ],
   },
   {
-    id: "",
-    recipeName: "",
+    id: "d1451b96-c4f4-4a82-9b0f-a7fade8e0e1a",
+    recipeName: "Japchae (Stir-Fried Glass Noodles)",
     author: {
       authorAvatar: "",
-      authorName: "",
-      authorDatePosted: "",
+      authorName: "Nevaeh Rogers",
+      authorDatePosted: "23 August 2020",
     },
-    prepareTime: "",
-    cookTime: "",
+    prepareTime: "15",
+    cookTime: "15",
     recipeCategory: "Korean",
     recipeImage: "",
     nutritionInformation: {
-      calories: "",
-      totalFat: "",
-      protein: "",
-      carbohydrate: "",
-      cholesterol: "",
+      calories: "400",
+      totalFat: "10",
+      protein: "10",
+      carbohydrate: "65",
+      cholesterol: "0",
     },
-    recipeDescription: "",
+    recipeDescription:
+      "Japchae is a flavorful Korean dish made with stir-fried glass noodles, vegetables, and soy-based seasoning.",
     recipeIngredients: [
       {
         recipeSteps: {
           name: "",
           steps: [
             {
-              ingredientsQuantity: "",
-              inredientsName: "",
+              ingredientsQuantity: "100g",
+              inredientsName: "sweet potato glass noodles",
+            },
+            {
+              ingredientsQuantity: "1/2",
+              inredientsName: "carrot, julienned",
+            },
+            {
+              ingredientsQuantity: "1/2",
+              inredientsName: "zucchini, julienned",
+            },
+            {
+              ingredientsQuantity: "1/2",
+              inredientsName: "onion, sliced",
+            },
+            {
+              ingredientsQuantity: "1/2",
+              inredientsName: "red bell pepper, julienned",
+            },
+            {
+              ingredientsQuantity: "1/2",
+              inredientsName: "cup mushrooms, sliced",
+            },
+            {
+              ingredientsQuantity: "1",
+              inredientsName: "tbsp soy sauce",
+            },
+            {
+              ingredientsQuantity: "1",
+              inredientsName: "tsp sesame oil",
+            },
+            {
+              ingredientsQuantity: "1",
+              inredientsName: "tsp sugar",
+            },
+            {
+              ingredientsQuantity: "1",
+              inredientsName: "tbsp vegetable oil",
+            },
+            {
+              ingredientsQuantity: "1",
+              inredientsName: "tsp sesame seeds",
             },
           ],
         },
@@ -9458,39 +9641,91 @@ export const recipes = [
     ],
     recipeDirections: [
       {
-        directionTitle: "",
-        directionDescription: "",
+        directionTitle: "Cook the Noodles",
+        directionDescription:
+          "Boil water and cook noodles for 5 minutes until soft. Drain and rinse with cold water.",
+      },
+      {
+        directionTitle: "Prepare the Vegetables",
+        directionDescription: "Slice all vegetables thinly.",
+      },
+      {
+        directionTitle: "Stir-Fry Vegetables",
+        directionDescription:
+          "Heat oil in a pan, sauté carrots, zucchini, and onion for 3 minutes. Add mushrooms and bell peppers, cook for another 2 minutes.",
+      },
+      {
+        directionTitle: "Combine Everything",
+        directionDescription:
+          "Add cooked noodles, soy sauce, sugar, and sesame oil. Stir well.",
+      },
+      {
+        directionTitle: "Garnish and Serve",
+        directionDescription: "Sprinkle sesame seeds on top and serve warm.",
       },
     ],
   },
   {
-    id: "",
-    recipeName: "",
+    id: "8af719fb-f54d-4509-80f0-00cf53f221b6",
+    recipeName: "Tteokbokki (Spicy Rice Cakes)",
     author: {
       authorAvatar: "",
-      authorName: "",
-      authorDatePosted: "",
+      authorName: "Isla Gutierrez",
+      authorDatePosted: "08 September 2024",
     },
-    prepareTime: "",
-    cookTime: "",
+    prepareTime: "10",
+    cookTime: "20",
     recipeCategory: "Korean",
     recipeImage: "",
     nutritionInformation: {
-      calories: "",
-      totalFat: "",
-      protein: "",
-      carbohydrate: "",
-      cholesterol: "",
+      calories: "500",
+      totalFat: "8",
+      protein: "7",
+      carbohydrate: "105",
+      cholesterol: "0",
     },
-    recipeDescription: "",
+    recipeDescription:
+      "Tteokbokki is a popular Korean street food made with chewy rice cakes in a spicy, slightly sweet sauce.",
     recipeIngredients: [
       {
         recipeSteps: {
           name: "",
           steps: [
             {
-              ingredientsQuantity: "",
-              inredientsName: "",
+              ingredientsQuantity: "1",
+              inredientsName: "cup Korean rice cakes (tteok)",
+            },
+            {
+              ingredientsQuantity: "2",
+              inredientsName: "cups water",
+            },
+            {
+              ingredientsQuantity: "1",
+              inredientsName: "tbsp gochujang (Korean chili paste)",
+            },
+            {
+              ingredientsQuantity: "1",
+              inredientsName: "tsp gochugaru (Korean chili flakes)",
+            },
+            {
+              ingredientsQuantity: "1",
+              inredientsName: "tbsp soy sauce",
+            },
+            {
+              ingredientsQuantity: "1",
+              inredientsName: "tsp sugar",
+            },
+            {
+              ingredientsQuantity: "1/2",
+              inredientsName: "cup fish cakes, sliced (optional)",
+            },
+            {
+              ingredientsQuantity: "1/2",
+              inredientsName: "green onion, chopped",
+            },
+            {
+              ingredientsQuantity: "1",
+              inredientsName: "tsp sesame oil",
             },
           ],
         },
@@ -9498,39 +9733,84 @@ export const recipes = [
     ],
     recipeDirections: [
       {
-        directionTitle: "",
-        directionDescription: "",
+        directionTitle: "Boil the Sauce",
+        directionDescription:
+          "In a pan, combine water, gochujang, gochugaru, soy sauce, and sugar. Bring to a boil.",
+      },
+      {
+        directionTitle: "Add the Rice Cakes",
+        directionDescription:
+          "Stir in rice cakes and cook for 10 minutes until soft.",
+      },
+      {
+        directionTitle: "Add Fish Cakes (Optional)",
+        directionDescription:
+          "If using, add fish cakes and cook for another 5 minutes.",
+      },
+      {
+        directionTitle: "Finish with Green Onion",
+        directionDescription:
+          "Stir in chopped green onions and drizzle sesame oil before serving.",
       },
     ],
   },
   {
-    id: "",
-    recipeName: "",
+    id: "c7c53fc7-7c2a-4308-9a0e-c21e6ca0e9d7",
+    recipeName: "Kimchi Fried Rice (Kimchi Bokkeumbap)",
     author: {
       authorAvatar: "",
-      authorName: "",
-      authorDatePosted: "",
+      authorName: "Audrey Thomas",
+      authorDatePosted: "13 October 2022",
     },
-    prepareTime: "",
-    cookTime: "",
+    prepareTime: "10",
+    cookTime: "10",
     recipeCategory: "Korean",
     recipeImage: "",
     nutritionInformation: {
-      calories: "",
-      totalFat: "",
-      protein: "",
-      carbohydrate: "",
-      cholesterol: "",
+      calories: "430",
+      totalFat: "10",
+      protein: "12",
+      carbohydrate: "75",
+      cholesterol: "0",
     },
-    recipeDescription: "",
+    recipeDescription:
+      "Kimchi fried rice is a quick and easy meal, packed with spicy, tangy flavors from kimchi and rice.",
     recipeIngredients: [
       {
         recipeSteps: {
           name: "",
           steps: [
             {
-              ingredientsQuantity: "",
-              inredientsName: "",
+              ingredientsQuantity: "1",
+              inredientsName: "cup cooked rice (day-old rice is best)",
+            },
+            {
+              ingredientsQuantity: "1/2",
+              inredientsName: "cup kimchi, chopped",
+            },
+            {
+              ingredientsQuantity: "1/2",
+              inredientsName: "onion, diced",
+            },
+            {
+              ingredientsQuantity: "1",
+              inredientsName: "tsp soy sauce",
+            },
+            {
+              ingredientsQuantity: "1",
+              inredientsName: "tsp gochujang",
+            },
+            {
+              ingredientsQuantity: "1",
+              inredientsName: "egg (fried, for topping)",
+            },
+            {
+              ingredientsQuantity: "1",
+              inredientsName: "tsp sesame oil",
+            },
+            {
+              ingredientsQuantity: "1/2",
+              inredientsName: "green onion, chopped",
             },
           ],
         },
@@ -9538,39 +9818,107 @@ export const recipes = [
     ],
     recipeDirections: [
       {
-        directionTitle: "",
-        directionDescription: "",
+        directionTitle: "Stir-Fry Kimchi and Onion",
+        directionDescription:
+          "Heat oil in a pan, add kimchi and onion, and sauté for 3 minutes.",
+      },
+      {
+        directionTitle: "Add Rice and Sauce",
+        directionDescription:
+          "Stir in rice, soy sauce, and gochujang. Mix well.",
+      },
+      {
+        directionTitle: "Top with Egg",
+        directionDescription:
+          "Serve in a bowl, top with a fried egg, and garnish with green onions.",
       },
     ],
   },
   {
-    id: "",
-    recipeName: "",
+    id: "6abcad5f-50fd-4870-8a0c-501edc1bd67a",
+    recipeName: "Dakgalbi (Spicy Stir-Fried Chicken)",
     author: {
       authorAvatar: "",
-      authorName: "",
-      authorDatePosted: "",
+      authorName: "Sophie Nelson",
+      authorDatePosted: "11 May 2023",
     },
-    prepareTime: "",
-    cookTime: "",
+    prepareTime: "15",
+    cookTime: "10",
     recipeCategory: "Korean",
     recipeImage: "",
     nutritionInformation: {
-      calories: "",
-      totalFat: "",
-      protein: "",
-      carbohydrate: "",
-      cholesterol: "",
+      calories: "450",
+      totalFat: "15",
+      protein: "35",
+      carbohydrate: "40",
+      cholesterol: "80",
     },
-    recipeDescription: "",
+    recipeDescription:
+      "Dakgalbi is a spicy, stir-fried chicken dish with vegetables, rice cakes, and a bold gochujang-based sauce.",
     recipeIngredients: [
       {
         recipeSteps: {
           name: "",
           steps: [
             {
-              ingredientsQuantity: "",
-              inredientsName: "",
+              ingredientsQuantity: "300g",
+              inredientsName:
+                "boneless chicken thighs, cut into bite-sized pieces",
+            },
+            {
+              ingredientsQuantity: "1/2",
+              inredientsName: "cup Korean rice cakes (tteok)",
+            },
+            {
+              ingredientsQuantity: "1/2",
+              inredientsName: "onion, sliced",
+            },
+            {
+              ingredientsQuantity: "1/2",
+              inredientsName: "carrot, julienned",
+            },
+            {
+              ingredientsQuantity: "1/2",
+              inredientsName: "cup cabbage, chopped",
+            },
+            {
+              ingredientsQuantity: "1",
+              inredientsName: "green onion, chopped",
+            },
+            {
+              ingredientsQuantity: "1",
+              inredientsName: "tbsp vegetable oil",
+            },
+          ],
+        },
+      },
+      {
+        recipeSteps: {
+          name: "Sauce",
+          steps: [
+            {
+              ingredientsQuantity: "2",
+              ingredientsName: "tbsp gochujang (Korean chili paste)",
+            },
+            {
+              ingredientsQuantity: "1",
+              ingredientsName: "tbsp soy sauce",
+            },
+            {
+              ingredientsQuantity: "1",
+              ingredientsName: "tsp gochugaru (Korean chili flakes)",
+            },
+            {
+              ingredientsQuantity: "1",
+              ingredientsName: "tbsp honey",
+            },
+            {
+              ingredientsQuantity: "1",
+              ingredientsName: "tsp sesame oil",
+            },
+            {
+              ingredientsQuantity: "2",
+              ingredientsName: "cloves garlic, minced",
             },
           ],
         },
@@ -9578,39 +9926,108 @@ export const recipes = [
     ],
     recipeDirections: [
       {
-        directionTitle: "",
-        directionDescription: "",
+        directionTitle: "Marinate the Chicken",
+        directionDescription:
+          "In a bowl, mix chicken with the sauce ingredients. Let it marinate for at least 10 minutes.",
+      },
+      {
+        directionTitle: "Prepare the Rice Cakes",
+        directionDescription:
+          "If the rice cakes are hard, soak them in warm water for 5 minutes.",
+      },
+      {
+        directionTitle: "Cook the Chicken",
+        directionDescription:
+          "Heat vegetable oil in a large pan over medium heat. Add the marinated chicken and cook for about 5 minutes, stirring occasionally.",
+      },
+      {
+        directionTitle: "Add Vegetables",
+        directionDescription:
+          "Add onion, carrot, cabbage, and rice cakes. Stir-fry everything for another 10 minutes until the chicken is fully cooked and the vegetables are tender.",
+      },
+      {
+        directionTitle: "Finish and Serve",
+        directionDescription:
+          "Sprinkle green onions on top, drizzle with sesame oil, and serve hot.",
       },
     ],
   },
   {
-    id: "",
-    recipeName: "",
+    id: "54509911-3fee-41bd-8f57-cc26bc9854fd",
+    recipeName: "Samgyeopsal (Korean Grilled Pork Belly)",
     author: {
       authorAvatar: "",
-      authorName: "",
-      authorDatePosted: "",
+      authorName: "Penelope Ross",
+      authorDatePosted: "07 November 2022",
     },
-    prepareTime: "",
-    cookTime: "",
+    prepareTime: "10",
+    cookTime: "15",
     recipeCategory: "Korean",
     recipeImage: "",
     nutritionInformation: {
-      calories: "",
-      totalFat: "",
-      protein: "",
-      carbohydrate: "",
-      cholesterol: "",
+      calories: "600",
+      totalFat: "50",
+      protein: "35",
+      carbohydrate: "5",
+      cholesterol: "90",
     },
-    recipeDescription: "",
+    recipeDescription:
+      "Samgyeopsal is a popular Korean BBQ dish featuring thick-cut pork belly grilled and eaten with lettuce wraps and dipping sauces.",
     recipeIngredients: [
       {
         recipeSteps: {
           name: "",
           steps: [
             {
-              ingredientsQuantity: "",
-              inredientsName: "",
+              ingredientsQuantity: "300g",
+              inredientsName: "pork belly, sliced thick",
+            },
+            {
+              ingredientsQuantity: "1/2",
+              inredientsName: "onion, sliced",
+            },
+            {
+              ingredientsQuantity: "1/2",
+              inredientsName: "zucchini, sliced",
+            },
+            {
+              ingredientsQuantity: "5",
+              inredientsName: "lettuce leaves",
+            },
+            {
+              ingredientsQuantity: "2",
+              inredientsName: "cloves garlic, sliced",
+            },
+            {
+              ingredientsQuantity: "1",
+              inredientsName: "tsp sesame oil",
+            },
+          ],
+        },
+      },
+      {
+        recipeSteps: {
+          name: "Dipping sauce (Ssamjang)",
+          steps: [
+            {
+              ingredientsQuantity: "1",
+              inredientsName: "tbsp gochujang",
+            },
+            {
+              ingredientsQuantity: "1",
+              inredientsName: "tbsp doenjang (Korean soybean paste)",
+            },
+            {
+              ingredientsQuantity: "1",
+              inredientsName: "tsp sesame oil",
+            },
+            {
+              ingredientsQuantity: "1/2",
+              inredientsName: "tsp sugar",
+            },
+            {
+              ingredientsQuantity: "1",
+              inredientsName: "clove garlic, minced",
             },
           ],
         },
@@ -9618,39 +10035,111 @@ export const recipes = [
     ],
     recipeDirections: [
       {
-        directionTitle: "",
-        directionDescription: "",
+        directionTitle: "Prepare the Ingredients",
+        directionDescription:
+          "Slice the pork belly into thick strips. Mix the ssamjang sauce ingredients in a small bowl.",
+      },
+      {
+        directionTitle: "Grill the Pork",
+        directionDescription:
+          "Heat a grill or pan over medium-high heat. Place the pork belly slices and grill for 3-4 minutes per side until crispy and golden brown.",
+      },
+      {
+        directionTitle: "Grill the Vegetables",
+        directionDescription:
+          "While grilling the pork, place onion, zucchini, and garlic on the grill. Cook for 2-3 minutes until slightly charred.",
+      },
+      {
+        directionTitle: "Assemble the Wrap",
+        directionDescription:
+          "Take a lettuce leaf, add a piece of grilled pork, a slice of grilled garlic, a small amount of ssamjang, and some grilled vegetables. Wrap and enjoy!",
       },
     ],
   },
   {
-    id: "",
-    recipeName: "",
+    id: "c90e2c49-2aa4-4d70-a054-10c8c0e16cd9",
+    recipeName: "Sundubu Jjigae (Spicy Soft Tofu Stew)",
     author: {
       authorAvatar: "",
-      authorName: "",
-      authorDatePosted: "",
+      authorName: "Anna Rodriguez",
+      authorDatePosted: "06 April 2023",
     },
-    prepareTime: "",
-    cookTime: "",
+    prepareTime: "10",
+    cookTime: "20",
     recipeCategory: "Korean",
     recipeImage: "",
     nutritionInformation: {
-      calories: "",
-      totalFat: "",
-      protein: "",
-      carbohydrate: "",
-      cholesterol: "",
+      calories: "320",
+      totalFat: "12",
+      protein: "25",
+      carbohydrate: "20",
+      cholesterol: "45",
     },
-    recipeDescription: "",
+    recipeDescription:
+      "Sundubu Jjigae is a comforting, spicy stew made with silky soft tofu, seafood, and vegetables.",
     recipeIngredients: [
       {
         recipeSteps: {
           name: "",
           steps: [
             {
-              ingredientsQuantity: "",
-              inredientsName: "",
+              ingredientsQuantity: "1/2",
+              inredientsName: "block soft tofu",
+            },
+            {
+              ingredientsQuantity: "100g",
+              inredientsName: "shrimp or clams",
+            },
+            {
+              ingredientsQuantity: "1/2",
+              inredientsName: "cup mushrooms, sliced",
+            },
+            {
+              ingredientsQuantity: "1/2",
+              inredientsName: "onion, chopped",
+            },
+            {
+              ingredientsQuantity: "1/2",
+              inredientsName: "zucchini, chopped",
+            },
+            {
+              ingredientsQuantity: "2",
+              inredientsName: "cups water or anchovy broth",
+            },
+            {
+              ingredientsQuantity: "1",
+              inredientsName: "egg",
+            },
+            {
+              ingredientsQuantity: "1",
+              inredientsName: "green onion, chopped",
+            },
+          ],
+        },
+      },
+      {
+        recipeSteps: {
+          name: "Seasoning",
+          steps: [
+            {
+              ingredientsQuantity: "1",
+              inredientsName: "tbsp gochugaru (Korean chili flakes)",
+            },
+            {
+              ingredientsQuantity: "1",
+              inredientsName: "tbsp gochujang (Korean chili paste)",
+            },
+            {
+              ingredientsQuantity: "1",
+              inredientsName: "tbsp soy sauce",
+            },
+            {
+              ingredientsQuantity: "1",
+              inredientsName: "tsp sesame oil",
+            },
+            {
+              ingredientsQuantity: "2",
+              inredientsName: "cloves garlic, minced",
             },
           ],
         },
@@ -9658,39 +10147,104 @@ export const recipes = [
     ],
     recipeDirections: [
       {
-        directionTitle: "",
-        directionDescription: "",
+        directionTitle: "Prepare the Broth",
+        directionDescription:
+          "In a pot, bring water or anchovy broth to a boil. Add onion and zucchini.",
+      },
+      {
+        directionTitle: "Cook the Seafood",
+        directionDescription: "Add shrimp or clams and cook for 5 minutes.",
+      },
+      {
+        directionTitle: "Add the Tofu",
+        directionDescription:
+          "Gently break soft tofu into large chunks and add to the pot.",
+      },
+      {
+        directionTitle: "Season the Stew",
+        directionDescription:
+          "Add gochugaru, gochujang, soy sauce, and garlic. Stir gently and let simmer for another 10 minutes.",
+      },
+      {
+        directionTitle: "Add Egg and Green Onion",
+        directionDescription:
+          "Crack an egg into the stew and sprinkle green onions on top. Let it cook for 1 minute before serving.",
       },
     ],
   },
   {
-    id: "",
-    recipeName: "",
+    id: "2de9e702-8a67-4a13-927b-43014d41b02e",
+    recipeName: "Jjajangmyeon (Black Bean Noodles)",
     author: {
       authorAvatar: "",
-      authorName: "",
-      authorDatePosted: "",
+      authorName: "Evelyn Rivera",
+      authorDatePosted: "27 November 2021",
     },
-    prepareTime: "",
-    cookTime: "",
+    prepareTime: "15",
+    cookTime: "20",
     recipeCategory: "Korean",
     recipeImage: "",
     nutritionInformation: {
-      calories: "",
-      totalFat: "",
-      protein: "",
-      carbohydrate: "",
-      cholesterol: "",
+      calories: "500",
+      totalFat: "12",
+      protein: "18",
+      carbohydrate: "85",
+      cholesterol: "30",
     },
-    recipeDescription: "",
+    recipeDescription:
+      "Jjajangmyeon is a Korean-Chinese dish made with chewy noodles and a thick black bean sauce with pork and vegetables.",
     recipeIngredients: [
       {
         recipeSteps: {
           name: "",
           steps: [
             {
-              ingredientsQuantity: "",
-              inredientsName: "",
+              ingredientsQuantity: "200g",
+              inredientsName: "fresh Korean wheat noodles",
+            },
+            {
+              ingredientsQuantity: "150g",
+              inredientsName: "pork belly or ground pork",
+            },
+            {
+              ingredientsQuantity: "1/2",
+              inredientsName: "onion, chopped",
+            },
+            {
+              ingredientsQuantity: "1/2",
+              inredientsName: "zucchini, diced",
+            },
+            {
+              ingredientsQuantity: "1/2",
+              inredientsName: "potato, diced",
+            },
+            {
+              ingredientsQuantity: "1/2",
+              inredientsName: "cup mushrooms, sliced",
+            },
+            {
+              ingredientsQuantity: "2",
+              inredientsName: "tbsp chunjang (Korean black bean paste)",
+            },
+            {
+              ingredientsQuantity: "1",
+              inredientsName: "tbsp soy sauce",
+            },
+            {
+              ingredientsQuantity: "1",
+              inredientsName: "tsp sugar",
+            },
+            {
+              ingredientsQuantity: "1/2",
+              inredientsName: "cup water",
+            },
+            {
+              ingredientsQuantity: "1",
+              inredientsName: "tbsp vegetable oil",
+            },
+            {
+              ingredientsQuantity: "1",
+              inredientsName: "tsp cornstarch (mixed with 2 tbsp water)",
             },
           ],
         },
@@ -9698,8 +10252,39 @@ export const recipes = [
     ],
     recipeDirections: [
       {
-        directionTitle: "",
-        directionDescription: "",
+        directionTitle: "Boil the Noodles",
+        directionDescription:
+          "Cook noodles according to package instructions. Drain and set aside.",
+      },
+      {
+        directionTitle: "Sauté the Pork",
+        directionDescription:
+          "In a pan, heat vegetable oil and cook pork belly until slightly crispy.",
+      },
+      {
+        directionTitle: "Cook the Vegetables",
+        directionDescription:
+          "Add onion, zucchini, potato, and mushrooms. Stir-fry for 5 minutes.",
+      },
+      {
+        directionTitle: "Add the Black Bean Paste",
+        directionDescription:
+          "Push the vegetables to the side of the pan, add chunjang paste in the center, and cook for 1 minute before mixing with the vegetables.",
+      },
+      {
+        directionTitle: "Simmer the Sauce",
+        directionDescription:
+          "Pour in water, soy sauce, and sugar. Let it simmer for 10 minutes.",
+      },
+      {
+        directionTitle: "Thicken the Sauce",
+        directionDescription:
+          "Add the cornstarch mixture and stir until the sauce thickens.",
+      },
+      {
+        directionTitle: "Serve",
+        directionDescription:
+          "Pour the sauce over the noodles and mix well before eating.",
       },
     ],
   },
