@@ -1260,7 +1260,7 @@ export const recipes = [
       cholesterol: "55",
     },
     recipeDescription:
-      "These rich and fudgy chocolate brownies are the ultimate treat for chocolate lovers. They have a gooey texture with a crackly top, making them absolutely irresistible.",
+      "Classic Chocolate Brownies are rich, fudgy treats with a dense, moist texture and a deep chocolate flavor. Made with simple ingredients like butter, sugar, eggs, and cocoa powder, they are easy to prepare and bake to perfection. The result is a decadent, melt-in-your-mouth brownie with a slightly crispy top. Perfect for satisfying any chocolate craving or serving at gatherings!",
     recipeIngredients: [
       {
         recipeSteps: {
@@ -1354,7 +1354,7 @@ export const recipes = [
       cholesterol: "90",
     },
     recipeDescription:
-      "A creamy and tangy cheesecake with a buttery graham cracker crust, topped with fresh strawberries and a sweet glaze.",
+      "Strawberry Cheesecake is a creamy, velvety dessert with a rich, tangy filling made from cream cheese, sugar, and vanilla. The smooth cheesecake is nestled on a buttery, crunchy graham cracker crust and topped with sweet, fresh strawberries. The combination of textures and flavors creates a refreshing and indulgent treat. Perfect for special occasions or as a delightful finish to any meal!",
     recipeIngredients: [
       {
         recipeSteps: {
@@ -1462,7 +1462,7 @@ export const recipes = [
       cholesterol: "80",
     },
     recipeDescription:
-      "This silky Italian dessert is lightly sweetened and infused with vanilla, making it the perfect creamy treat.",
+      "Vanilla Panna Cotta is a smooth, creamy Italian dessert made with vanilla, cream, and sugar, set to perfection with gelatin. Its delicate, silky texture melts in your mouth, offering a subtle sweetness and a rich vanilla flavor. Often served with a berry compote or caramel sauce, it’s a light yet indulgent treat. Perfect for any occasion, it’s an elegant and satisfying dessert!",
     recipeIngredients: [
       {
         recipeSteps: {
@@ -1517,7 +1517,7 @@ export const recipes = [
   },
   {
     id: "82fa3073-4775-4e52-a527-86ed3bc56902",
-    recipeName: "",
+    recipeName: "Molten Lava Cake",
     author: {
       authorAvatar: "",
       authorName: "Santiago Jones",
@@ -1536,7 +1536,7 @@ export const recipes = [
       cholesterol: "90",
     },
     recipeDescription:
-      "A decadent chocolate cake with a gooey, molten center that oozes out when cut.",
+      "Molten Lava Cake is a decadent dessert featuring a rich, gooey chocolate center that oozes out when cut. The exterior is soft and fudgy, while the inside remains molten and warm, creating a delightful contrast of textures. Made with high-quality chocolate, butter, eggs, and a touch of vanilla, it’s a treat for chocolate lovers. Perfect for special occasions or indulgent nights in, served with a scoop of vanilla ice cream or berries!",
     recipeIngredients: [
       {
         recipeSteps: {
@@ -1607,7 +1607,7 @@ export const recipes = [
       cholesterol: "15",
     },
     recipeDescription:
-      "A warm and comforting apple dessert with a crunchy oat topping and cinnamon-spiced filling.",
+      "Apple Crisp is a warm, comforting dessert made with tender baked apples, cinnamon, and a buttery, crumbly topping. The apples soften and caramelize in the oven, while the crisp topping adds a perfect balance of sweetness and crunch. It's a delightful fall-inspired treat, often served with a scoop of vanilla ice cream or whipped cream. Simple yet indulgent, it’s a perfect dessert for cozy gatherings!",
     recipeIngredients: [
       {
         recipeSteps: {
@@ -1693,7 +1693,7 @@ export const recipes = [
       cholesterol: "0",
     },
     recipeDescription:
-      "These crispy-on-the-outside, chewy-on-the-inside coconut macaroons are simple yet delicious.",
+      "Coconut Macaroons are chewy, sweet cookies made with shredded coconut, egg whites, and sugar, baked until golden brown. The exterior is slightly crispy, while the inside remains moist and tender. These bite-sized treats have a rich coconut flavor with a hint of sweetness, making them irresistible. Perfect for a light dessert or a snack with tea, they’re simple yet delightfully satisfying!",
     recipeIngredients: [
       {
         recipeSteps: {
@@ -1752,7 +1752,7 @@ export const recipes = [
       cholesterol: "45",
     },
     recipeDescription:
-      "Sweet and tangy lemon bars with a buttery shortbread crust.",
+      "Sweet and tangy lemon bars feature a zesty lemon filling with a perfect balance of sweetness and acidity. The smooth lemon custard sits atop a buttery, melt-in-your-mouth shortbread crust. They are dusted with powdered sugar for an added touch of sweetness. A refreshing and indulgent treat, perfect for summer gatherings or a delightful dessert!",
     recipeIngredients: [
       {
         recipeSteps: {
