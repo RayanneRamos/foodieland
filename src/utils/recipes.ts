@@ -10425,7 +10425,7 @@ export const recipes = [
       cholesterol: "180",
     },
     recipeDescription:
-      "Pad Thai is a classic Thai street food dish made with stir-fried rice noodles, protein, eggs, and a flavorful sweet-savory sauce.",
+      "Pad Thai is a classic Thai street food dish made from stir-fried rice noodles, typically flavored with tamarind paste, fish sauce, lime juice, and a touch of sugar for a balanced sweet-sour taste. The dish includes a variety of ingredients such as shrimp or chicken, scrambled eggs, bean sprouts, and crushed peanuts, offering a satisfying crunch and texture. It’s often garnished with fresh cilantro and lime wedges for added zest. Pad Thai is a flavorful, aromatic, and slightly tangy dish, perfect for those who love a combination of savory and sour notes.",
     recipeIngredients: [
       {
         recipeSteps: {
@@ -10549,7 +10549,7 @@ export const recipes = [
       cholesterol: "180",
     },
     recipeDescription:
-      "Tom Yum Goong is a hot and sour Thai soup with shrimp, flavored with lemongrass, lime leaves, and chili.",
+      "Tom Yum Goong is a popular Thai spicy and sour shrimp soup known for its aromatic broth made with lemongrass, kaffir lime leaves, galangal, and chili peppers. The soup features plump shrimp, mushrooms, and a tangy broth with a balance of sourness from lime juice and richness from fish sauce. It's typically garnished with fresh cilantro and served with a side of rice. This flavorful and aromatic soup offers a perfect blend of heat, tanginess, and umami, making it a favorite dish for those who enjoy bold flavors.",
     recipeIngredients: [
       {
         recipeSteps: {
@@ -10648,7 +10648,7 @@ export const recipes = [
       cholesterol: "70",
     },
     recipeDescription:
-      "Green curry is a creamy, spicy Thai dish with coconut milk, chicken, and aromatic herbs.",
+      "Green Curry (Gaeng Keow Wan) is a rich and aromatic Thai curry made with a fragrant blend of green curry paste, coconut milk, and fresh herbs. The dish typically features chicken, beef, or vegetables, simmered in the creamy, spicy broth with a touch of sweetness. It is flavored with ingredients like kaffir lime leaves, Thai basil, and fish sauce, creating a perfect balance of heat, sourness, and sweetness. Served with steamed rice, this curry is a delightful combination of flavors and textures, often enjoyed for its spicy kick and comforting creaminess.",
     recipeIngredients: [
       {
         recipeSteps: {
@@ -10746,7 +10746,7 @@ export const recipes = [
       cholesterol: "0",
     },
     recipeDescription:
-      "Som Tum is a refreshing and spicy Thai salad made with shredded green papaya and a tangy dressing.",
+      "Som Tum (Green Papaya Salad) is a popular Thai dish known for its fresh, tangy, and spicy flavors. Made from shredded green papaya, the salad is tossed with ingredients like tomatoes, carrots, green beans, and peanuts, all dressed in a zesty mixture of lime juice, fish sauce, and palm sugar. The dish is typically spiced with Thai bird chilies, adding a fiery kick. It is often served with sticky rice and grilled meats, offering a perfect balance of sweet, sour, salty, and spicy in every bite.",
     recipeIngredients: [
       {
         recipeSteps: {
@@ -10838,7 +10838,7 @@ export const recipes = [
       cholesterol: "0",
     },
     recipeDescription:
-      "A traditional Thai dessert made with sweet sticky rice, ripe mango, and coconut sauce.",
+      "Thai Mango Sticky Rice (Khao Niew Mamuang) is a beloved Thai dessert consisting of sweet sticky rice paired with ripe, juicy mango slices. The sticky rice is cooked with coconut milk, sugar, and a pinch of salt to create a rich, creamy texture that complements the natural sweetness of the mango. It's typically garnished with sesame seeds or mung beans for added crunch. This simple yet delightful dish balances the sweet, salty, and creamy flavors, making it a perfect summer treat.",
     recipeIngredients: [
       {
         recipeSteps: {
@@ -10920,7 +10920,7 @@ export const recipes = [
       cholesterol: "90",
     },
     recipeDescription:
-      "Pad Krapow Gai is a popular Thai street food dish made with ground chicken stir-fried with garlic, chili, and Thai basil, served with jasmine rice and a fried egg.",
+      "Thai Basil Chicken (Pad Krapow Gai) is a flavorful and aromatic stir-fry made with ground chicken, Thai basil, and a savory sauce. The dish is typically cooked with garlic, chilies, and fish sauce, which infuses it with a spicy and umami-rich taste. The fresh Thai basil leaves add a fragrant, herbal note to the dish, making it incredibly aromatic. Often served over rice and topped with a fried egg, Pad Krapow Gai is a quick, satisfying, and beloved street food in Thailand.",
     recipeIngredients: [
       {
         recipeSteps: {
@@ -11032,7 +11032,7 @@ export const recipes = [
       cholesterol: "70",
     },
     recipeDescription:
-      "Massaman Curry is a rich and flavorful Thai curry with tender beef, potatoes, and a blend of aromatic spices.",
+      "Thai Massaman Curry is a rich and flavorful dish that combines tender meat, such as chicken, beef, or lamb, with a creamy coconut milk-based sauce. This curry is known for its mild, slightly sweet, and earthy taste, thanks to the blend of spices like cinnamon, cardamom, cumin, and cloves. The addition of roasted peanuts and potatoes adds texture and depth to the dish. Massaman curry is often served with steamed jasmine rice, making it a comforting and aromatic meal perfect for any occasion.",
     recipeIngredients: [
       {
         recipeSteps: {
@@ -11148,7 +11148,7 @@ export const recipes = [
       cholesterol: "80",
     },
     recipeDescription:
-      "Larb is a Thai minced chicken salad with fresh herbs, lime juice, and toasted rice powder, traditionally served with lettuce or sticky rice.",
+      "Thai Larb (Spicy Minced Chicken Salad) is a vibrant and flavorful dish, combining minced chicken with fresh herbs, lime juice, and fish sauce. This salad is seasoned with chili, shallots, and mint, giving it a perfect balance of spicy, sour, and savory flavors. The addition of toasted rice powder gives the dish a nutty crunch, while the cilantro and lettuce provide freshness. Larb is often served with a side of sticky rice, making it a delicious, light, and aromatic meal.",
     recipeIngredients: [
       {
         recipeSteps: {
@@ -11252,7 +11252,7 @@ export const recipes = [
       cholesterol: "120",
     },
     recipeDescription:
-      "This Thai fried rice is a sweet-savory dish made with fresh pineapple, shrimp, and cashews.",
+      "Thai Pineapple Fried Rice is a fragrant and vibrant dish featuring stir-fried rice with a sweet and savory flavor profile. It combines juicy pineapple chunks, mixed vegetables, and protein such as shrimp, chicken, or tofu. The rice is stir-fried with curry powder, soy sauce, and fish sauce, bringing a rich depth of flavor. Garnished with fresh cilantro, cashews, and lime wedges, this colorful dish offers a balance of sweetness, saltiness, and a hint of spice, making it both satisfying and refreshing.",
     recipeIngredients: [
       {
         recipeSteps: {
