@@ -12600,7 +12600,7 @@ export const recipes = [
       cholesterol: "85",
     },
     recipeDescription:
-      "Kung Pao Chicken is a classic Sichuan dish made with tender chicken, peanuts, and dried chilies in a savory, spicy sauce.",
+      "Kung Pao Chicken (宫保鸡丁) is a popular Sichuan dish known for its bold, spicy flavors and a balance of sweet, salty, and savory. It features diced chicken cooked with peanuts, bell peppers, and dried red chilies in a flavorful sauce made from soy sauce, vinegar, sugar, and Sichuan peppercorns. The dish is typically stir-fried at high heat, creating a crispy texture on the chicken while maintaining a tender interior. Kung Pao Chicken is often enjoyed with steamed rice and is a perfect example of the bold and aromatic flavors that define Sichuan cuisine.",
     recipeIngredients: [
       {
         recipeSteps: {
@@ -12735,7 +12735,7 @@ export const recipes = [
       cholesterol: "25",
     },
     recipeDescription:
-      "Mapo Tofu is a spicy and flavorful Sichuan dish featuring soft tofu in a rich, numbing chili bean sauce.",
+      "Mapo Tofu (麻婆豆腐) is a famous Sichuan dish known for its bold, spicy, and numbing flavors. It features soft tofu cooked in a rich, flavorful sauce made from ground pork or beef, fermented broad bean paste (doubanjiang), soy sauce, garlic, ginger, and Sichuan peppercorns. The dish is typically simmered until the tofu absorbs the sauce, giving it a deep, savory taste. The combination of spicy heat and the numbing sensation from Sichuan peppercorns makes it a quintessential example of Sichuan cuisine, and it's usually served with steamed rice.",
     recipeIngredients: [
       {
         recipeSteps: {
@@ -12852,7 +12852,7 @@ export const recipes = [
       cholesterol: "90",
     },
     recipeDescription:
-      "Sweet and Sour Pork is a popular Cantonese dish with crispy pork coated in a tangy sauce.",
+      "Sweet and Sour Pork (咕噜肉) is a classic dish from Chinese cuisine, particularly popular in Cantonese cooking. It features crispy pieces of tender pork that are coated in a batter and deep-fried until golden. The pork is then tossed in a vibrant, tangy sauce made from vinegar, sugar, ketchup, and soy sauce, creating a perfect balance of sweet and sour flavors. The dish is often paired with bell peppers, onions, and pineapple for added texture and freshness, making it a flavorful and colorful meal typically served with steamed rice.",
     recipeIngredients: [
       {
         recipeSteps: {
@@ -12978,7 +12978,7 @@ export const recipes = [
       cholesterol: "0",
     },
     recipeDescription:
-      "Scallion Pancakes are crispy, flaky Chinese flatbreads filled with chopped green onions.",
+      "Chinese Scallion Pancakes (葱油饼) are a popular savory snack or appetizer in Chinese cuisine. These crispy, flaky pancakes are made from a simple dough that is rolled out and layered with finely chopped scallions. The dough is then pan-fried to golden perfection, creating a satisfying crunch on the outside while remaining soft and chewy inside. The pancakes are often served with a dipping sauce made from soy sauce, vinegar, and a touch of sesame oil, offering a delicious combination of flavors.",
     recipeIngredients: [
       {
         recipeSteps: {
@@ -13060,7 +13060,7 @@ export const recipes = [
       cholesterol: "30",
     },
     recipeDescription:
-      "Hot and Sour Soup is a comforting, tangy broth filled with mushrooms, tofu, and egg.",
+      "Hot and Sour Soup (酸辣汤) is a flavorful Chinese soup known for its bold balance of spicy and tangy flavors. The broth is typically made with ingredients like soy sauce, vinegar, and chili paste, giving it its signature sour and spicy profile. The soup often includes tofu, bamboo shoots, mushrooms, and sometimes pork or chicken, providing a mix of textures. Garnished with black pepper and sometimes a beaten egg, this comforting soup is both warming and refreshing.",
     recipeIngredients: [
       {
         recipeSteps: {
