@@ -2284,7 +2284,7 @@ export const recipes = [
       cholesterol: "40",
     },
     recipeDescription:
-      "These rich and fudgy brownies are the perfect balance of chewy and chocolatey goodness. A simple yet indulgent treat for any chocolate lover.",
+      "Classic Chocolate Brownies are rich, fudgy treats made with high-quality chocolate, butter, eggs, and sugar, resulting in a dense, moist texture. The top is slightly crisp, while the inside remains gooey and decadent, offering a deep chocolate flavor. These brownies are perfect for any occasion, whether served alone or with a scoop of ice cream. Simple to make, they’re a timeless dessert that always satisfies a chocolate craving!",
     recipeIngredients: [
       {
         recipeSteps: {
@@ -2368,7 +2368,7 @@ export const recipes = [
       cholesterol: "70",
     },
     recipeDescription:
-      "A decadent chocolate dessert with a gooey molten center, perfect for impressing guests or treating yourself.",
+      "Chocolate Lava Cake is a decadent dessert featuring a rich, molten chocolate center that oozes out when cut. The exterior is soft and fudgy, while the inside remains warm and gooey, creating the perfect contrast of textures. Made with high-quality chocolate, butter, eggs, and a touch of vanilla, this cake is indulgent and irresistible. Served with a scoop of vanilla ice cream or berries, it’s a luxurious treat for special occasions or a chocolate lover’s dream!",
     recipeIngredients: [
       {
         recipeSteps: {
@@ -2449,7 +2449,7 @@ export const recipes = [
       cholesterol: "20",
     },
     recipeDescription:
-      "A timeless classic with crispy edges and a soft, chewy center, packed with chocolate chips.",
+      "Chocolate Chip Cookies are a classic, chewy treat made with a buttery dough, sweetened with brown sugar, and loaded with semi-sweet chocolate chips. The cookies bake to golden perfection, with a crisp edge and soft, gooey center. The combination of sweet chocolate and rich butter makes each bite irresistible. Whether enjoyed with a glass of milk or as a snack, these cookies are always a crowd-pleaser!",
     recipeIngredients: [
       {
         recipeSteps: {
@@ -2537,7 +2537,7 @@ export const recipes = [
       cholesterol: "90",
     },
     recipeDescription:
-      "A light, airy, and velvety chocolate mousse that melts in your mouth, made with just a few ingredients.",
+      "Chocolate Mousse is a rich and velvety dessert made with high-quality chocolate, whipped cream, and eggs, creating a light and airy texture. The mousse is smooth, indulgent, and intensely chocolaty, offering a perfect balance of sweetness and depth. It’s often served chilled and can be garnished with whipped cream, chocolate shavings, or berries. Elegant yet simple to make, it’s a luxurious treat for any occasion!",
     recipeIngredients: [
       {
         recipeSteps: {
@@ -2608,7 +2608,7 @@ export const recipes = [
       cholesterol: "20",
     },
     recipeDescription:
-      "A creamy, rich hot chocolate made with real cocoa and milk, perfect for cozy evenings.",
+      "Hot Chocolate is a warm, comforting drink made with milk (or a non-dairy alternative), rich cocoa powder, and sugar, creating a smooth and velvety texture. It’s often topped with whipped cream, marshmallows, or a sprinkle of cocoa for added sweetness. The perfect balance of sweetness and cocoa flavor makes it a favorite winter beverage. Ideal for cozy nights or a sweet treat on a cold day, hot chocolate is a timeless, feel-good classic!",
     recipeIngredients: [
       {
         recipeSteps: {
@@ -2678,7 +2678,7 @@ export const recipes = [
       cholesterol: "35",
     },
     recipeDescription:
-      "Fluffy and chocolatey pancakes that make breakfast feel like dessert.",
+      "Chocolate Pancakes are a decadent twist on the classic breakfast favorite, made with cocoa powder and chocolate chips folded into the batter for an extra rich, chocolaty flavor. The pancakes are soft, fluffy, and slightly sweet, with pockets of melted chocolate in every bite. They’re often served with syrup, whipped cream, or fresh berries to enhance the indulgence. Perfect for a special breakfast or dessert, these pancakes are sure to satisfy any chocolate lover's cravings!",
     recipeIngredients: [
       {
         recipeSteps: {
