@@ -25,7 +25,7 @@ export const recipes = [
     recipeIngredients: [
       {
         recipeSteps: {
-          name: "",
+          name: "For main dish",
           steps: [
             {
               ingredientsQuantity: "1",
@@ -119,7 +119,7 @@ export const recipes = [
     recipeIngredients: [
       {
         recipeSteps: {
-          name: "",
+          name: "For main dish",
           steps: [
             {
               ingredientsQuantity: "1",
@@ -205,7 +205,7 @@ export const recipes = [
     recipeIngredients: [
       {
         recipeSteps: {
-          name: "",
+          name: "For main dish",
           steps: [
             {
               ingredientsQuantity: "1",
@@ -275,7 +275,7 @@ export const recipes = [
     recipeIngredients: [
       {
         recipeSteps: {
-          name: "",
+          name: "For main dish",
           steps: [
             {
               ingredientsQuantity: "1",
@@ -365,7 +365,7 @@ export const recipes = [
     recipeIngredients: [
       {
         recipeSteps: {
-          name: "",
+          name: "For main dish",
           steps: [
             {
               ingredientsQuantity: "1/2",
@@ -447,7 +447,7 @@ export const recipes = [
     recipeIngredients: [
       {
         recipeSteps: {
-          name: "",
+          name: "For main dish",
           steps: [
             {
               ingredientsQuantity: "1",
@@ -532,7 +532,7 @@ export const recipes = [
     recipeIngredients: [
       {
         recipeSteps: {
-          name: "",
+          name: "For main dish",
           steps: [
             {
               ingredientsQuantity: "2",
@@ -607,7 +607,7 @@ export const recipes = [
     recipeIngredients: [
       {
         recipeSteps: {
-          name: "",
+          name: "For main dish",
           steps: [
             {
               ingredientsQuantity: "1",
@@ -678,7 +678,7 @@ export const recipes = [
     recipeIngredients: [
       {
         recipeSteps: {
-          name: "",
+          name: "For main dish",
           steps: [
             {
               ingredientsQuantity: "1",
@@ -749,7 +749,7 @@ export const recipes = [
     recipeIngredients: [
       {
         recipeSteps: {
-          name: "",
+          name: "For main dish",
           steps: [
             {
               ingredientsQuantity: "4",
@@ -815,7 +815,7 @@ export const recipes = [
     recipeIngredients: [
       {
         recipeSteps: {
-          name: "",
+          name: "For main dish",
           steps: [
             {
               ingredientsQuantity: "500g",
@@ -889,7 +889,7 @@ export const recipes = [
     recipeIngredients: [
       {
         recipeSteps: {
-          name: "",
+          name: "For main dish",
           steps: [
             {
               ingredientsQuantity: "500g",
@@ -959,7 +959,7 @@ export const recipes = [
     recipeIngredients: [
       {
         recipeSteps: {
-          name: "",
+          name: "For main dish",
           steps: [
             {
               ingredientsQuantity: "4",
@@ -1035,7 +1035,7 @@ export const recipes = [
     recipeIngredients: [
       {
         recipeSteps: {
-          name: "",
+          name: "For main dish",
           steps: [
             {
               ingredientsQuantity: "500g",
@@ -1113,7 +1113,7 @@ export const recipes = [
     recipeIngredients: [
       {
         recipeSteps: {
-          name: "",
+          name: "For main dish",
           steps: [
             {
               ingredientsQuantity: "2",
@@ -1188,7 +1188,7 @@ export const recipes = [
     recipeIngredients: [
       {
         recipeSteps: {
-          name: "",
+          name: "For main dish",
           steps: [
             {
               ingredientsQuantity: "4",
@@ -1264,7 +1264,7 @@ export const recipes = [
     recipeIngredients: [
       {
         recipeSteps: {
-          name: "",
+          name: "For main dish",
           steps: [
             {
               ingredientsQuantity: "1",
@@ -1466,7 +1466,7 @@ export const recipes = [
     recipeIngredients: [
       {
         recipeSteps: {
-          name: "",
+          name: "For main dish",
           steps: [
             {
               ingredientsQuantity: "2",
@@ -1540,7 +1540,7 @@ export const recipes = [
     recipeIngredients: [
       {
         recipeSteps: {
-          name: "",
+          name: "For main dish",
           steps: [
             {
               ingredientsQuantity: "1/2",
@@ -1611,7 +1611,7 @@ export const recipes = [
     recipeIngredients: [
       {
         recipeSteps: {
-          name: "",
+          name: "For main dish",
           steps: [
             {
               ingredientsQuantity: "4",
@@ -1697,7 +1697,7 @@ export const recipes = [
     recipeIngredients: [
       {
         recipeSteps: {
-          name: "",
+          name: "For main dish",
           steps: [
             {
               ingredientsQuantity: "2",
@@ -1837,7 +1837,7 @@ export const recipes = [
     recipeIngredients: [
       {
         recipeSteps: {
-          name: "",
+          name: "For main dish",
           steps: [
             {
               ingredientsQuantity: "1",
@@ -1913,7 +1913,7 @@ export const recipes = [
     recipeIngredients: [
       {
         recipeSteps: {
-          name: "",
+          name: "For main dish",
           steps: [
             {
               ingredientsQuantity: "2",
@@ -1984,7 +1984,7 @@ export const recipes = [
     recipeIngredients: [
       {
         recipeSteps: {
-          name: "",
+          name: "For main dish",
           steps: [
             {
               ingredientsQuantity: "1",
@@ -2064,7 +2064,7 @@ export const recipes = [
     recipeIngredients: [
       {
         recipeSteps: {
-          name: "",
+          name: "For main dish",
           steps: [
             {
               ingredientsQuantity: "1",
@@ -2136,7 +2136,7 @@ export const recipes = [
     recipeIngredients: [
       {
         recipeSteps: {
-          name: "",
+          name: "For main dish",
           steps: [
             {
               ingredientsQuantity: "1",
@@ -2215,7 +2215,7 @@ export const recipes = [
     recipeIngredients: [
       {
         recipeSteps: {
-          name: "",
+          name: "For main dish",
           steps: [
             {
               ingredientsQuantity: "1",
@@ -2288,7 +2288,7 @@ export const recipes = [
     recipeIngredients: [
       {
         recipeSteps: {
-          name: "",
+          name: "For main dish",
           steps: [
             {
               ingredientsQuantity: "1/2",
@@ -2372,7 +2372,7 @@ export const recipes = [
     recipeIngredients: [
       {
         recipeSteps: {
-          name: "",
+          name: "For main dish",
           steps: [
             {
               ingredientsQuantity: "100g",
@@ -2453,7 +2453,7 @@ export const recipes = [
     recipeIngredients: [
       {
         recipeSteps: {
-          name: "",
+          name: "For main dish",
           steps: [
             {
               ingredientsQuantity: "1/2",
@@ -2541,7 +2541,7 @@ export const recipes = [
     recipeIngredients: [
       {
         recipeSteps: {
-          name: "",
+          name: "For main dish",
           steps: [
             {
               ingredientsQuantity: "200g",
@@ -2612,7 +2612,7 @@ export const recipes = [
     recipeIngredients: [
       {
         recipeSteps: {
-          name: "",
+          name: "For main dish",
           steps: [
             {
               ingredientsQuantity: "2",
@@ -2682,7 +2682,7 @@ export const recipes = [
     recipeIngredients: [
       {
         recipeSteps: {
-          name: "",
+          name: "For main dish",
           steps: [
             {
               ingredientsQuantity: "1",
@@ -2762,7 +2762,7 @@ export const recipes = [
     recipeIngredients: [
       {
         recipeSteps: {
-          name: "",
+          name: "For main dish",
           steps: [
             {
               ingredientsQuantity: "2",
@@ -2847,7 +2847,7 @@ export const recipes = [
     recipeIngredients: [
       {
         recipeSteps: {
-          name: "",
+          name: "For main dish",
           steps: [
             {
               ingredientsQuantity: "4",
@@ -2931,7 +2931,7 @@ export const recipes = [
     recipeIngredients: [
       {
         recipeSteps: {
-          name: "",
+          name: "For main dish",
           steps: [
             {
               ingredientsQuantity: "1",
@@ -3015,7 +3015,7 @@ export const recipes = [
     recipeIngredients: [
       {
         recipeSteps: {
-          name: "",
+          name: "For main dish",
           steps: [
             {
               ingredientsQuantity: "2",
@@ -3099,7 +3099,7 @@ export const recipes = [
     recipeIngredients: [
       {
         recipeSteps: {
-          name: "",
+          name: "For main dish",
           steps: [
             {
               ingredientsQuantity: "1",
@@ -3188,7 +3188,7 @@ export const recipes = [
     recipeIngredients: [
       {
         recipeSteps: {
-          name: "",
+          name: "For main dish",
           steps: [
             {
               ingredientsQuantity: "1",
@@ -3301,7 +3301,7 @@ export const recipes = [
     recipeIngredients: [
       {
         recipeSteps: {
-          name: "",
+          name: "For main dish",
           steps: [
             {
               ingredientsQuantity: "4",
@@ -3396,7 +3396,7 @@ export const recipes = [
     recipeIngredients: [
       {
         recipeSteps: {
-          name: "",
+          name: "For main dish",
           steps: [
             {
               ingredientsQuantity: "1",
@@ -3482,7 +3482,7 @@ export const recipes = [
     recipeIngredients: [
       {
         recipeSteps: {
-          name: "",
+          name: "For main dish",
           steps: [
             {
               ingredientsQuantity: "2",
@@ -3567,7 +3567,7 @@ export const recipes = [
     recipeIngredients: [
       {
         recipeSteps: {
-          name: "",
+          name: "For main dish",
           steps: [
             {
               ingredientsQuantity: "2",
@@ -3663,7 +3663,7 @@ export const recipes = [
     recipeIngredients: [
       {
         recipeSteps: {
-          name: "",
+          name: "For main dish",
           steps: [
             {
               ingredientsQuantity: "2",
@@ -3754,7 +3754,7 @@ export const recipes = [
     recipeIngredients: [
       {
         recipeSteps: {
-          name: "",
+          name: "For main dish",
           steps: [
             {
               ingredientsQuantity: "2",
@@ -3840,7 +3840,7 @@ export const recipes = [
     recipeIngredients: [
       {
         recipeSteps: {
-          name: "",
+          name: "For main dish",
           steps: [
             {
               ingredientsQuantity: "4",
@@ -3930,7 +3930,7 @@ export const recipes = [
     recipeIngredients: [
       {
         recipeSteps: {
-          name: "",
+          name: "For main dish",
           steps: [
             {
               ingredientsQuantity: "4",
@@ -4036,7 +4036,7 @@ export const recipes = [
     recipeIngredients: [
       {
         recipeSteps: {
-          name: "",
+          name: "For main dish",
           steps: [
             {
               ingredientsQuantity: "1",
@@ -4071,7 +4071,7 @@ export const recipes = [
       },
       {
         recipeSteps: {
-          name: "Lemon Aioli",
+          name: "Lemon aioli",
           steps: [
             {
               ingredientsQuantity: "1/2",
@@ -4145,7 +4145,7 @@ export const recipes = [
     recipeIngredients: [
       {
         recipeSteps: {
-          name: "",
+          name: "For main dish",
           steps: [
             {
               ingredientsQuantity: "2",
@@ -4236,7 +4236,7 @@ export const recipes = [
     recipeIngredients: [
       {
         recipeSteps: {
-          name: "",
+          name: "For main dish",
           steps: [
             {
               ingredientsQuantity: "2",
@@ -4329,7 +4329,7 @@ export const recipes = [
     recipeIngredients: [
       {
         recipeSteps: {
-          name: "",
+          name: "For main dish",
           steps: [
             {
               ingredientsQuantity: "1",
@@ -4439,7 +4439,7 @@ export const recipes = [
     recipeIngredients: [
       {
         recipeSteps: {
-          name: "",
+          name: "For main dish",
           steps: [
             {
               ingredientsQuantity: "1",
@@ -4482,7 +4482,7 @@ export const recipes = [
       },
       {
         recipeSteps: {
-          name: "Citrus Dressing",
+          name: "Citrus dressing",
           steps: [
             {
               ingredientsQuantity: "3",
@@ -4552,7 +4552,7 @@ export const recipes = [
     recipeIngredients: [
       {
         recipeSteps: {
-          name: "",
+          name: "For main dish",
           steps: [
             {
               ingredientsQuantity: "1",
@@ -4673,7 +4673,7 @@ export const recipes = [
     recipeIngredients: [
       {
         recipeSteps: {
-          name: "",
+          name: "For main dish",
           steps: [
             {
               ingredientsQuantity: "1",
@@ -4766,7 +4766,7 @@ export const recipes = [
     recipeIngredients: [
       {
         recipeSteps: {
-          name: "",
+          name: "For main dish",
           steps: [
             {
               ingredientsQuantity: "2",
@@ -4852,7 +4852,7 @@ export const recipes = [
     recipeIngredients: [
       {
         recipeSteps: {
-          name: "",
+          name: "For main dish",
           steps: [
             {
               ingredientsQuantity: "2",
@@ -4947,7 +4947,7 @@ export const recipes = [
     recipeIngredients: [
       {
         recipeSteps: {
-          name: "",
+          name: "For main dish",
           steps: [
             {
               ingredientsQuantity: "1",
@@ -5037,7 +5037,7 @@ export const recipes = [
     recipeIngredients: [
       {
         recipeSteps: {
-          name: "",
+          name: "For main dish",
           steps: [
             {
               ingredientsQuantity: "2",
@@ -5110,7 +5110,7 @@ export const recipes = [
     recipeIngredients: [
       {
         recipeSteps: {
-          name: "",
+          name: "For main dish",
           steps: [
             {
               ingredientsQuantity: "4",
@@ -5197,7 +5197,7 @@ export const recipes = [
     recipeIngredients: [
       {
         recipeSteps: {
-          name: "",
+          name: "For main dish",
           steps: [
             {
               ingredientsQuantity: "4",
@@ -5284,7 +5284,7 @@ export const recipes = [
     recipeIngredients: [
       {
         recipeSteps: {
-          name: "",
+          name: "For main dish",
           steps: [
             {
               ingredientsQuantity: "4",
@@ -5387,7 +5387,7 @@ export const recipes = [
     recipeIngredients: [
       {
         recipeSteps: {
-          name: "",
+          name: "For main dish",
           steps: [
             {
               ingredientsQuantity: "1",
@@ -5474,7 +5474,7 @@ export const recipes = [
     recipeIngredients: [
       {
         recipeSteps: {
-          name: "",
+          name: "For main dish",
           steps: [
             {
               ingredientsQuantity: "2",
@@ -5569,7 +5569,7 @@ export const recipes = [
     recipeIngredients: [
       {
         recipeSteps: {
-          name: "",
+          name: "For main dish",
           steps: [
             {
               ingredientsQuantity: "2",
@@ -5672,7 +5672,7 @@ export const recipes = [
     recipeIngredients: [
       {
         recipeSteps: {
-          name: "",
+          name: "For main dish",
           steps: [
             {
               ingredientsQuantity: "2",
@@ -5773,7 +5773,7 @@ export const recipes = [
     recipeIngredients: [
       {
         recipeSteps: {
-          name: "",
+          name: "For main dish",
           steps: [
             {
               ingredientsQuantity: "2",
@@ -5859,7 +5859,7 @@ export const recipes = [
     recipeIngredients: [
       {
         recipeSteps: {
-          name: "",
+          name: "For main dish",
           steps: [
             {
               ingredientsQuantity: "2",
@@ -5966,7 +5966,7 @@ export const recipes = [
     recipeIngredients: [
       {
         recipeSteps: {
-          name: "",
+          name: "For main dish",
           steps: [
             {
               ingredientsQuantity: "2",
@@ -6061,7 +6061,7 @@ export const recipes = [
     recipeIngredients: [
       {
         recipeSteps: {
-          name: "",
+          name: "For main dish",
           steps: [
             {
               ingredientsQuantity: "1",
@@ -6194,7 +6194,7 @@ export const recipes = [
     recipeIngredients: [
       {
         recipeSteps: {
-          name: "",
+          name: "For main dish",
           steps: [
             {
               ingredientsQuantity: "2",
@@ -6318,7 +6318,7 @@ export const recipes = [
     recipeIngredients: [
       {
         recipeSteps: {
-          name: "",
+          name: "For main dish",
           steps: [
             {
               ingredientsQuantity: "12",
@@ -6409,7 +6409,7 @@ export const recipes = [
     recipeIngredients: [
       {
         recipeSteps: {
-          name: "",
+          name: "For main dish",
           steps: [
             {
               ingredientsQuantity: "12",
@@ -6508,7 +6508,7 @@ export const recipes = [
     recipeIngredients: [
       {
         recipeSteps: {
-          name: "",
+          name: "For main dish",
           steps: [
             {
               ingredientsQuantity: "12",
@@ -6611,7 +6611,7 @@ export const recipes = [
     recipeIngredients: [
       {
         recipeSteps: {
-          name: "",
+          name: "For main dish",
           steps: [
             {
               ingredientsQuantity: "12",
@@ -6701,7 +6701,7 @@ export const recipes = [
     recipeIngredients: [
       {
         recipeSteps: {
-          name: "",
+          name: "For main dish",
           steps: [
             {
               ingredientsQuantity: "12",
@@ -6795,7 +6795,7 @@ export const recipes = [
     recipeIngredients: [
       {
         recipeSteps: {
-          name: "",
+          name: "For main dish",
           steps: [
             {
               ingredientsQuantity: "12",
@@ -6894,7 +6894,7 @@ export const recipes = [
     recipeIngredients: [
       {
         recipeSteps: {
-          name: "",
+          name: "For main dish",
           steps: [
             {
               ingredientsQuantity: "12",
@@ -6997,7 +6997,7 @@ export const recipes = [
     recipeIngredients: [
       {
         recipeSteps: {
-          name: "",
+          name: "For main dish",
           steps: [
             {
               ingredientsQuantity: "12",
@@ -7100,7 +7100,7 @@ export const recipes = [
     recipeIngredients: [
       {
         recipeSteps: {
-          name: "",
+          name: "For main dish",
           steps: [
             {
               ingredientsQuantity: "12",
@@ -7199,7 +7199,7 @@ export const recipes = [
     recipeIngredients: [
       {
         recipeSteps: {
-          name: "",
+          name: "For main dish",
           steps: [
             {
               ingredientsQuantity: "12",
@@ -7301,7 +7301,7 @@ export const recipes = [
     recipeIngredients: [
       {
         recipeSteps: {
-          name: "",
+          name: "For main dish",
           steps: [
             {
               ingredientsQuantity: "12",
@@ -7344,7 +7344,7 @@ export const recipes = [
       },
       {
         recipeSteps: {
-          name: "Pesto Sauce",
+          name: "Pesto sauce",
           steps: [
             {
               ingredientsQuantity: "2",
@@ -7427,7 +7427,7 @@ export const recipes = [
     recipeIngredients: [
       {
         recipeSteps: {
-          name: "",
+          name: "For main dish",
           steps: [
             {
               ingredientsQuantity: "12",
@@ -7522,7 +7522,7 @@ export const recipes = [
     recipeIngredients: [
       {
         recipeSteps: {
-          name: "",
+          name: "For main dish",
           steps: [
             {
               ingredientsQuantity: "12",
@@ -7633,7 +7633,7 @@ export const recipes = [
     recipeIngredients: [
       {
         recipeSteps: {
-          name: "",
+          name: "For main dish",
           steps: [
             {
               ingredientsQuantity: "12",
@@ -7737,7 +7737,7 @@ export const recipes = [
     recipeIngredients: [
       {
         recipeSteps: {
-          name: "",
+          name: "For main dish",
           steps: [
             {
               ingredientsQuantity: "1",
@@ -7817,7 +7817,7 @@ export const recipes = [
     recipeIngredients: [
       {
         recipeSteps: {
-          name: "",
+          name: "For main dish",
           steps: [
             {
               ingredientsQuantity: "1",
@@ -7894,7 +7894,7 @@ export const recipes = [
     recipeIngredients: [
       {
         recipeSteps: {
-          name: "",
+          name: "For main dish",
           steps: [
             {
               ingredientsQuantity: "2",
@@ -7982,7 +7982,7 @@ export const recipes = [
     recipeIngredients: [
       {
         recipeSteps: {
-          name: "",
+          name: "For main dish",
           steps: [
             {
               ingredientsQuantity: "4",
@@ -8056,7 +8056,7 @@ export const recipes = [
     recipeIngredients: [
       {
         recipeSteps: {
-          name: "",
+          name: "For main dish",
           steps: [
             {
               ingredientsQuantity: "1",
@@ -8137,7 +8137,7 @@ export const recipes = [
     recipeIngredients: [
       {
         recipeSteps: {
-          name: "",
+          name: "For main dish",
           steps: [
             {
               ingredientsQuantity: "2",
@@ -8220,7 +8220,7 @@ export const recipes = [
     recipeIngredients: [
       {
         recipeSteps: {
-          name: "",
+          name: "For main dish",
           steps: [
             {
               ingredientsQuantity: "1",
@@ -8302,7 +8302,7 @@ export const recipes = [
     recipeIngredients: [
       {
         recipeSteps: {
-          name: "",
+          name: "For main dish",
           steps: [
             {
               ingredientsQuantity: "4",
@@ -8393,11 +8393,11 @@ export const recipes = [
       cholesterol: "55",
     },
     recipeDescription:
-      "A delicious and protein-packed meal featuring grilled salmon served with a fresh quinoa salad, perfect for a balanced and nutritious meal.",
+      "Grilled Salmon with Quinoa Salad is a healthy and flavorful meal combining tender, smoky salmon with a light, nutrient-packed quinoa salad. The salmon is seasoned with a blend of herbs and grilled to perfection, while the quinoa salad is made with fresh vegetables like cucumbers, cherry tomatoes, and red onions, dressed in a lemon vinaigrette. This dish offers a balance of protein, healthy fats, and fiber, making it both satisfying and nourishing. It’s a perfect choice for a wholesome lunch or dinner, offering vibrant colors and vibrant flavors.",
     recipeIngredients: [
       {
         recipeSteps: {
-          name: "",
+          name: "For main dish",
           steps: [
             {
               ingredientsQuantity: "2",
@@ -8496,11 +8496,11 @@ export const recipes = [
       cholesterol: "180",
     },
     recipeDescription:
-      "A quick and healthy breakfast featuring creamy avocado on whole-grain toast, topped with a perfectly poached egg.",
+      "Avocado Toast with Poached Egg is a simple yet delicious dish that combines creamy avocado spread on toasted bread, topped with a perfectly poached egg. The rich, buttery avocado pairs beautifully with the soft, runny yolk of the egg, creating a satisfying bite. This dish is a great source of healthy fats, protein, and fiber, making it an ideal breakfast or brunch option. You can add extra toppings like chili flakes or microgreens for added flavor and texture.",
     recipeIngredients: [
       {
         recipeSteps: {
-          name: "",
+          name: "For main dish",
           steps: [
             {
               ingredientsQuantity: "1",
@@ -8582,11 +8582,11 @@ export const recipes = [
       cholesterol: "0",
     },
     recipeDescription:
-      "A protein-rich, fiber-filled dish that’s quick to prepare and packed with nutrients, ideal for a light lunch or dinner.",
+      "Chickpea and Spinach Stir-Fry is a vibrant, nutritious dish that combines hearty chickpeas with fresh spinach and a flavorful stir-fry sauce. The chickpeas add protein and fiber, while the spinach provides essential vitamins and minerals. This stir-fry is quick and easy to make, making it a great option for a healthy weeknight dinner. You can enhance the dish with garlic, onions, and spices like cumin or turmeric for a flavorful, well-balanced meal.",
     recipeIngredients: [
       {
         recipeSteps: {
-          name: "",
+          name: "For main dish",
           steps: [
             {
               ingredientsQuantity: "1",
@@ -8677,11 +8677,11 @@ export const recipes = [
       cholesterol: "5",
     },
     recipeDescription:
-      "A refreshing and protein-packed parfait made with Greek yogurt, fresh berries, and granola, perfect for breakfast or a healthy snack.",
+      "A Greek Yogurt Berry Parfait is a delicious and healthy layered dessert or breakfast option. It features creamy Greek yogurt, sweet fresh berries like strawberries, blueberries, and raspberries, and crunchy granola. This parfait is packed with protein from the yogurt and antioxidants from the berries. It's customizable with different fruits or a drizzle of honey for added sweetness. A perfect way to start your day or enjoy as a light snack!",
     recipeIngredients: [
       {
         recipeSteps: {
-          name: "",
+          name: "For main dish",
           steps: [
             {
               ingredientsQuantity: "1",
@@ -8752,11 +8752,11 @@ export const recipes = [
       cholesterol: "0",
     },
     recipeDescription:
-      "A nourishing and delicious salad made with roasted sweet potatoes, kale, and a light lemon dressing.",
+      "The Roasted Sweet Potato and Kale Salad is a vibrant and nutrient-packed dish. Roasted sweet potatoes add natural sweetness and a crispy texture, complementing the earthy flavor of kale. Topped with a tangy dressing, such as balsamic vinaigrette, and optional add-ins like nuts, seeds, or feta cheese, it’s a perfect combination of flavors and textures. This salad is rich in vitamins, fiber, and antioxidants, making it a great choice for a healthy, filling meal.",
     recipeIngredients: [
       {
         recipeSteps: {
-          name: "",
+          name: "For main dish",
           steps: [
             {
               ingredientsQuantity: "1",
@@ -8837,11 +8837,11 @@ export const recipes = [
       cholesterol: "0",
     },
     recipeDescription:
-      "A hearty and protein-rich soup made with lentils and fresh vegetables, perfect for a nutritious and comforting meal.",
+      "Lentil and Vegetable Soup is a hearty and nutritious dish packed with protein-rich lentils and a variety of vegetables. The soup is made with ingredients like carrots, celery, tomatoes, and spinach, simmered in a flavorful broth with garlic, onions, and spices like cumin and thyme. It's an easy-to-make, comforting meal that’s high in fiber, vitamins, and minerals, perfect for a cozy lunch or dinner. Plus, it’s naturally vegan and can be made in large batches for meal prep.",
     recipeIngredients: [
       {
         recipeSteps: {
-          name: "",
+          name: "For main dish",
           steps: [
             {
               ingredientsQuantity: "1",
@@ -8947,11 +8947,11 @@ export const recipes = [
       cholesterol: "180",
     },
     recipeDescription:
-      "A protein-packed omelette with fresh spinach and mushrooms, ideal for a healthy breakfast or light meal.",
+      "Spinach and Mushroom Omelette is a nutritious and delicious breakfast option that’s quick to prepare. The fluffy eggs are filled with sautéed spinach and mushrooms, creating a savory combination of flavors. This dish is rich in protein and packed with vitamins from the spinach and fiber from the mushrooms. It’s an excellent choice for a low-carb, high-protein meal that will keep you full and satisfied.",
     recipeIngredients: [
       {
         recipeSteps: {
-          name: "",
+          name: "For main dish",
           steps: [
             {
               ingredientsQuantity: "2",
@@ -9025,11 +9025,11 @@ export const recipes = [
       cholesterol: "0",
     },
     recipeDescription:
-      "A nutrient-dense bowl with quinoa, chickpeas, and fresh vegetables, dressed with lemon and olive oil.",
+      "Quinoa and Chickpea Bowl is a hearty and nutritious dish packed with plant-based protein and fiber. Fluffy quinoa is combined with seasoned chickpeas, fresh vegetables, and a tangy lemon dressing. This bowl is both satisfying and light, making it a perfect meal for a healthy lunch or dinner. It's a great option for meal prep and can be customized with your favorite toppings.",
     recipeIngredients: [
       {
         recipeSteps: {
-          name: "",
+          name: "For main dish",
           steps: [
             {
               ingredientsQuantity: "1/2",
@@ -9114,11 +9114,11 @@ export const recipes = [
       cholesterol: "75",
     },
     recipeDescription:
-      "A balanced meal featuring lean grilled chicken served with a mix of roasted vegetables.",
+      "Grilled Chicken with Roasted Vegetables is a wholesome and flavorful dish perfect for a balanced meal. Juicy, marinated chicken breasts are grilled to perfection, paired with a medley of oven-roasted vegetables like bell peppers, zucchini, and carrots. The combination of smoky, charred flavors and caramelized veggies creates a delicious and satisfying meal. It's a simple yet nutritious option packed with protein and essential vitamins.",
     recipeIngredients: [
       {
         recipeSteps: {
-          name: "",
+          name: "For main dish",
           steps: [
             {
               ingredientsQuantity: "1",
@@ -9209,11 +9209,11 @@ export const recipes = [
       cholesterol: "0",
     },
     recipeDescription:
-      "A creamy and nutritious chia pudding made with almond milk, perfect as a healthy breakfast or snack.",
+      "Chia Seed Pudding with Almond Milk is a creamy and nutritious dish, perfect for breakfast or a healthy snack. Chia seeds absorb almond milk overnight, creating a rich, pudding-like texture with a slight crunch. Naturally sweetened with honey or maple syrup and topped with fresh fruits, nuts, or coconut flakes, it’s both delicious and satisfying. Packed with fiber, omega-3s, and protein, this pudding is a great way to start your day!",
     recipeIngredients: [
       {
         recipeSteps: {
-          name: "",
+          name: "For main dish",
           steps: [
             {
               ingredientsQuantity: "2",
@@ -9277,11 +9277,11 @@ export const recipes = [
       cholesterol: "35",
     },
     recipeDescription:
-      "A refreshing and protein-rich salad combining creamy avocado with tuna, perfect for a quick and healthy lunch.",
+      "Avocado and Tuna Salad is a creamy, protein-packed dish perfect for a light meal or snack. Fresh tuna is mixed with ripe avocado, crisp vegetables, and a zesty lemon dressing for a refreshing and nutritious combination. The smooth texture of the avocado pairs perfectly with the flaky tuna, creating a satisfying bite. Serve it on toast, in a wrap, or enjoy it on its own for a quick and healthy option!",
     recipeIngredients: [
       {
         recipeSteps: {
-          name: "",
+          name: "For main dish",
           steps: [
             {
               ingredientsQuantity: "1",
@@ -9367,11 +9367,11 @@ export const recipes = [
       cholesterol: "0",
     },
     recipeDescription:
-      "A delicious and nutritious plant-based taco filled with roasted sweet potatoes and black beans, packed with fiber and flavor.",
+      "Sweet Potato and Black Bean Tacos are a delicious and nutritious plant-based meal packed with flavor. Roasted sweet potatoes bring a natural sweetness, while black beans add a hearty texture and protein. Seasoned with spices like cumin, paprika, and chili powder, these tacos are topped with fresh avocado, cilantro, and a squeeze of lime. Perfect for a healthy, satisfying lunch or dinner!",
     recipeIngredients: [
       {
         recipeSteps: {
-          name: "",
+          name: "For main dish",
           steps: [
             {
               ingredientsQuantity: "1",
@@ -9474,7 +9474,7 @@ export const recipes = [
     recipeIngredients: [
       {
         recipeSteps: {
-          name: "",
+          name: "For main dish",
           steps: [
             {
               ingredientsQuantity: "1",
@@ -9595,7 +9595,7 @@ export const recipes = [
     recipeIngredients: [
       {
         recipeSteps: {
-          name: "",
+          name: "For main dish",
           steps: [
             {
               ingredientsQuantity: "1",
@@ -9698,7 +9698,7 @@ export const recipes = [
     recipeIngredients: [
       {
         recipeSteps: {
-          name: "",
+          name: "For main dish",
           steps: [
             {
               ingredientsQuantity: "100g",
@@ -9799,7 +9799,7 @@ export const recipes = [
     recipeIngredients: [
       {
         recipeSteps: {
-          name: "",
+          name: "For main dish",
           steps: [
             {
               ingredientsQuantity: "1",
@@ -9889,7 +9889,7 @@ export const recipes = [
     recipeIngredients: [
       {
         recipeSteps: {
-          name: "",
+          name: "For main dish",
           steps: [
             {
               ingredientsQuantity: "1",
@@ -9970,7 +9970,7 @@ export const recipes = [
     recipeIngredients: [
       {
         recipeSteps: {
-          name: "",
+          name: "For main dish",
           steps: [
             {
               ingredientsQuantity: "300g",
@@ -10089,7 +10089,7 @@ export const recipes = [
     recipeIngredients: [
       {
         recipeSteps: {
-          name: "",
+          name: "For main dish",
           steps: [
             {
               ingredientsQuantity: "300g",
@@ -10194,7 +10194,7 @@ export const recipes = [
     recipeIngredients: [
       {
         recipeSteps: {
-          name: "",
+          name: "For main dish",
           steps: [
             {
               ingredientsQuantity: "1/2",
@@ -10311,7 +10311,7 @@ export const recipes = [
     recipeIngredients: [
       {
         recipeSteps: {
-          name: "",
+          name: "For main dish",
           steps: [
             {
               ingredientsQuantity: "200g",
@@ -10429,7 +10429,7 @@ export const recipes = [
     recipeIngredients: [
       {
         recipeSteps: {
-          name: "",
+          name: "For main dish",
           steps: [
             {
               ingredientsQuantity: "150g",
@@ -10553,7 +10553,7 @@ export const recipes = [
     recipeIngredients: [
       {
         recipeSteps: {
-          name: "",
+          name: "For main dish",
           steps: [
             {
               ingredientsQuantity: "200g",
@@ -10652,7 +10652,7 @@ export const recipes = [
     recipeIngredients: [
       {
         recipeSteps: {
-          name: "",
+          name: "For main dish",
           steps: [
             {
               ingredientsQuantity: "300g",
@@ -10750,7 +10750,7 @@ export const recipes = [
     recipeIngredients: [
       {
         recipeSteps: {
-          name: "",
+          name: "For main dish",
           steps: [
             {
               ingredientsQuantity: "2",
@@ -10842,7 +10842,7 @@ export const recipes = [
     recipeIngredients: [
       {
         recipeSteps: {
-          name: "",
+          name: "For main dish",
           steps: [
             {
               ingredientsQuantity: "1",
@@ -10924,7 +10924,7 @@ export const recipes = [
     recipeIngredients: [
       {
         recipeSteps: {
-          name: "",
+          name: "For main dish",
           steps: [
             {
               ingredientsQuantity: "300g",
@@ -11036,7 +11036,7 @@ export const recipes = [
     recipeIngredients: [
       {
         recipeSteps: {
-          name: "",
+          name: "For main dish",
           steps: [
             {
               ingredientsQuantity: "400g",
@@ -11152,7 +11152,7 @@ export const recipes = [
     recipeIngredients: [
       {
         recipeSteps: {
-          name: "",
+          name: "For main dish",
           steps: [
             {
               ingredientsQuantity: "300g",
@@ -11256,7 +11256,7 @@ export const recipes = [
     recipeIngredients: [
       {
         recipeSteps: {
-          name: "",
+          name: "For main dish",
           steps: [
             {
               ingredientsQuantity: "2",
@@ -11373,7 +11373,7 @@ export const recipes = [
     recipeIngredients: [
       {
         recipeSteps: {
-          name: "",
+          name: "For main dish",
           steps: [
             {
               ingredientsQuantity: "2",
@@ -11481,7 +11481,7 @@ export const recipes = [
     recipeIngredients: [
       {
         recipeSteps: {
-          name: "",
+          name: "For main dish",
           steps: [
             {
               ingredientsQuantity: "2",
@@ -11560,7 +11560,7 @@ export const recipes = [
     recipeIngredients: [
       {
         recipeSteps: {
-          name: "",
+          name: "For main dish",
           steps: [
             {
               ingredientsQuantity: "2",
@@ -11651,7 +11651,7 @@ export const recipes = [
     recipeIngredients: [
       {
         recipeSteps: {
-          name: "",
+          name: "For main dish",
           steps: [
             {
               ingredientsQuantity: "200g",
@@ -11745,7 +11745,7 @@ export const recipes = [
     recipeIngredients: [
       {
         recipeSteps: {
-          name: "",
+          name: "For main dish",
           steps: [
             {
               ingredientsQuantity: "250g",
@@ -11835,7 +11835,7 @@ export const recipes = [
     recipeIngredients: [
       {
         recipeSteps: {
-          name: "",
+          name: "For main dish",
           steps: [
             {
               ingredientsQuantity: "2",
@@ -11930,7 +11930,7 @@ export const recipes = [
     recipeIngredients: [
       {
         recipeSteps: {
-          name: "",
+          name: "For main dish",
           steps: [
             {
               ingredientsQuantity: "1",
@@ -12037,7 +12037,7 @@ export const recipes = [
     recipeIngredients: [
       {
         recipeSteps: {
-          name: "",
+          name: "For main dish",
           steps: [
             {
               ingredientsQuantity: "2",
@@ -12131,7 +12131,7 @@ export const recipes = [
     recipeIngredients: [
       {
         recipeSteps: {
-          name: "",
+          name: "For main dish",
           steps: [
             {
               ingredientsQuantity: "200g",
@@ -12233,7 +12233,7 @@ export const recipes = [
     recipeIngredients: [
       {
         recipeSteps: {
-          name: "",
+          name: "For main dish",
           steps: [
             {
               ingredientsQuantity: "1",
@@ -12318,7 +12318,7 @@ export const recipes = [
     recipeIngredients: [
       {
         recipeSteps: {
-          name: "",
+          name: "For main dish",
           steps: [
             {
               ingredientsQuantity: "200g",
@@ -12425,7 +12425,7 @@ export const recipes = [
     recipeIngredients: [
       {
         recipeSteps: {
-          name: "",
+          name: "For main dish",
           steps: [
             {
               ingredientsQuantity: "3",
@@ -12513,7 +12513,7 @@ export const recipes = [
     recipeIngredients: [
       {
         recipeSteps: {
-          name: "",
+          name: "For main dish",
           steps: [
             {
               ingredientsQuantity: "200g",
@@ -12604,7 +12604,7 @@ export const recipes = [
     recipeIngredients: [
       {
         recipeSteps: {
-          name: "",
+          name: "For main dish",
           steps: [
             {
               ingredientsQuantity: "400g",
@@ -12651,7 +12651,7 @@ export const recipes = [
       },
       {
         recipeSteps: {
-          name: "For the Sauce",
+          name: "For the sauce",
           steps: [
             {
               ingredientsQuantity: "1",
@@ -12739,7 +12739,7 @@ export const recipes = [
     recipeIngredients: [
       {
         recipeSteps: {
-          name: "",
+          name: "For main dish",
           steps: [
             {
               ingredientsQuantity: "1",
@@ -12856,7 +12856,7 @@ export const recipes = [
     recipeIngredients: [
       {
         recipeSteps: {
-          name: "",
+          name: "For main dish",
           steps: [
             {
               ingredientsQuantity: "400g",
@@ -12899,7 +12899,7 @@ export const recipes = [
       },
       {
         recipeSteps: {
-          name: "For the Sauce",
+          name: "For the sauce",
           steps: [
             {
               ingredientsQuantity: "3",
@@ -12982,7 +12982,7 @@ export const recipes = [
     recipeIngredients: [
       {
         recipeSteps: {
-          name: "",
+          name: "For main dish",
           steps: [
             {
               ingredientsQuantity: "2",
@@ -13064,7 +13064,7 @@ export const recipes = [
     recipeIngredients: [
       {
         recipeSteps: {
-          name: "",
+          name: "For main dish",
           steps: [
             {
               ingredientsQuantity: "4",
@@ -13151,7 +13151,7 @@ export const recipes = [
     recipeIngredients: [
       {
         recipeSteps: {
-          name: "",
+          name: "For main dish",
           steps: [
             {
               ingredientsQuantity: "12",
@@ -13234,7 +13234,7 @@ export const recipes = [
     recipeIngredients: [
       {
         recipeSteps: {
-          name: "",
+          name: "For main dish",
           steps: [
             {
               ingredientsQuantity: "2",
@@ -13314,7 +13314,7 @@ export const recipes = [
     recipeIngredients: [
       {
         recipeSteps: {
-          name: "",
+          name: "For main dish",
           steps: [
             {
               ingredientsQuantity: "1",
@@ -13410,7 +13410,7 @@ export const recipes = [
     recipeIngredients: [
       {
         recipeSteps: {
-          name: "",
+          name: "For main dish",
           steps: [
             {
               ingredientsQuantity: "2",
