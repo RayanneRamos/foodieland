@@ -1,10 +1,10 @@
-export interface AuthorProps {
+interface AuthorProps {
   authorAvatar: string;
   authorName: string;
   authorDatePosted: string;
 }
 
-export interface NutritionInformationProps {
+interface NutritionInformationProps {
   calories: string;
   totalFat: string;
   protein: string;
@@ -12,12 +12,16 @@ export interface NutritionInformationProps {
   cholesterol: string;
 }
 
-export interface IngredientProps {
+interface IngredientProps {
   ingredientsQuantity: string;
   ingredientsName: string;
 }
 
-export interface RecipeStepsProps {
+interface RecipeStepsProps {
   name: string;
   steps: IngredientProps[];
+}
+
+interface RecipeIngredientProps {
+  recipeSteps: RecipeIngredientProps;
 }
