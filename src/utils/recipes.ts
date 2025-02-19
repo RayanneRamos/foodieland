@@ -12,7 +12,7 @@ export const recipes = [
     cookTime: "15",
     recipeCategory: "Breakfast",
     categoryId: "1",
-    recipeImage: "",
+    recipeImage: "/recipes/breakfast/breakfast-image-01.png",
     nutritionInformation: {
       calories: "250",
       totalFat: "8",
@@ -106,7 +106,7 @@ export const recipes = [
     cookTime: "5",
     recipeCategory: "Breakfast",
     categoryId: "1",
-    recipeImage: "",
+    recipeImage: "/recipes/breakfast/breakfast-image-02.png",
     nutritionInformation: {
       calories: "280",
       totalFat: "18",
@@ -192,7 +192,7 @@ export const recipes = [
     cookTime: "0",
     recipeCategory: "Breakfast",
     categoryId: "1",
-    recipeImage: "",
+    recipeImage: "/recipes/breakfast/breakfast-image-03.png",
     nutritionInformation: {
       calories: "220",
       totalFat: "4",
@@ -262,7 +262,7 @@ export const recipes = [
     cookTime: "10",
     recipeCategory: "Vegan",
     categoryId: "2",
-    recipeImage: "",
+    recipeImage: "/recipes/vegan/vegan-image-01.png",
     nutritionInformation: {
       calories: "230",
       totalFat: "8",
@@ -352,7 +352,7 @@ export const recipes = [
     cookTime: "5",
     recipeCategory: "Vegan",
     categoryId: "2",
-    recipeImage: "",
+    recipeImage: "/recipes/vegan/vegan-image-02.png",
     nutritionInformation: {
       calories: "270",
       totalFat: "7",
@@ -434,7 +434,7 @@ export const recipes = [
     cookTime: "0",
     recipeCategory: "Vegan",
     categoryId: "2",
-    recipeImage: "",
+    recipeImage: "/recipes/vegan/vegan-image-03.png",
     nutritionInformation: {
       calories: "300",
       totalFat: "15",
@@ -519,7 +519,7 @@ export const recipes = [
     cookTime: "10",
     recipeCategory: "Meat",
     categoryId: "3",
-    recipeImage: "",
+    recipeImage: "/recipes/meat/meat-image-01.png",
     nutritionInformation: {
       calories: "450",
       totalFat: "28",
@@ -594,7 +594,7 @@ export const recipes = [
     cookTime: "150",
     recipeCategory: "Meat",
     categoryId: "3",
-    recipeImage: "",
+    recipeImage: "/recipes/meat/meat-image-02.png",
     nutritionInformation: {
       calories: "600",
       totalFat: "35",
@@ -665,7 +665,7 @@ export const recipes = [
     cookTime: "25",
     recipeCategory: "Meat",
     categoryId: "3",
-    recipeImage: "",
+    recipeImage: "/recipes/meat/meat-image-03.png",
     nutritionInformation: {
       calories: "430",
       totalFat: "28",
@@ -736,7 +736,7 @@ export const recipes = [
     cookTime: "15",
     recipeCategory: "Meat",
     categoryId: "3",
-    recipeImage: "",
+    recipeImage: "/recipes/meat/meat-image-04.png",
     nutritionInformation: {
       calories: "480",
       totalFat: "30",
@@ -802,7 +802,7 @@ export const recipes = [
     cookTime: "10",
     recipeCategory: "Meat",
     categoryId: "3",
-    recipeImage: "",
+    recipeImage: "/recipes/meat/meat-image-05.png",
     nutritionInformation: {
       calories: "380",
       totalFat: "18",
@@ -876,7 +876,7 @@ export const recipes = [
     cookTime: "30",
     recipeCategory: "Meat",
     categoryId: "3",
-    recipeImage: "",
+    recipeImage: "/recipes/meat/meat-image-06.png",
     nutritionInformation: {
       calories: "460",
       totalFat: "24",
@@ -946,7 +946,7 @@ export const recipes = [
     cookTime: "15",
     recipeCategory: "Meat",
     categoryId: "3",
-    recipeImage: "",
+    recipeImage: "/recipes/meat/meat-image-07.png",
     nutritionInformation: {
       calories: "420",
       totalFat: "22",
@@ -1022,7 +1022,7 @@ export const recipes = [
     cookTime: "25",
     recipeCategory: "Meat",
     categoryId: "3",
-    recipeImage: "",
+    recipeImage: "/recipes/meat/meat-image-08.png",
     nutritionInformation: {
       calories: "550",
       totalFat: "28",
@@ -1100,7 +1100,7 @@ export const recipes = [
     cookTime: "10",
     recipeCategory: "Meat",
     categoryId: "3",
-    recipeImage: "",
+    recipeImage: "/recipes/meat/meat-image-09.png",
     nutritionInformation: {
       calories: "600",
       totalFat: "38",
@@ -1175,7 +1175,7 @@ export const recipes = [
     cookTime: "20",
     recipeCategory: "Meat",
     categoryId: "3",
-    recipeImage: "",
+    recipeImage: "/recipes/meat/meat-image-10.png",
     nutritionInformation: {
       calories: "450",
       totalFat: "18",
@@ -1251,7 +1251,7 @@ export const recipes = [
     cookTime: "25",
     recipeCategory: "Dessert",
     categoryId: "4",
-    recipeImage: "",
+    recipeImage: "/recipes/dessert/dessert-image-01.png",
     nutritionInformation: {
       calories: "320",
       totalFat: "18",
@@ -1345,7 +1345,7 @@ export const recipes = [
     cookTime: "60",
     recipeCategory: "Dessert",
     categoryId: "4",
-    recipeImage: "",
+    recipeImage: "/recipes/dessert/dessert-image-02.png",
     nutritionInformation: {
       calories: "450",
       totalFat: "28",
@@ -1453,7 +1453,7 @@ export const recipes = [
     cookTime: "5 + chilling",
     recipeCategory: "Dessert",
     categoryId: "4",
-    recipeImage: "",
+    recipeImage: "/recipes/dessert/dessert-image-03.png",
     nutritionInformation: {
       calories: "350",
       totalFat: "25",
@@ -1527,7 +1527,7 @@ export const recipes = [
     cookTime: "12",
     recipeCategory: "Dessert",
     categoryId: "4",
-    recipeImage: "",
+    recipeImage: "/recipes/dessert/dessert-image-04.png",
     nutritionInformation: {
       calories: "400",
       totalFat: "26",
@@ -1598,7 +1598,7 @@ export const recipes = [
     cookTime: "35",
     recipeCategory: "Dessert",
     categoryId: "4",
-    recipeImage: "",
+    recipeImage: "/recipes/dessert/dessert-image-05.png",
     nutritionInformation: {
       calories: "320",
       totalFat: "12",
@@ -1684,7 +1684,7 @@ export const recipes = [
     cookTime: "15",
     recipeCategory: "Dessert",
     categoryId: "4",
-    recipeImage: "",
+    recipeImage: "/recipes/dessert/dessert-image-06.png",
     nutritionInformation: {
       calories: "150",
       totalFat: "10",
@@ -1743,7 +1743,7 @@ export const recipes = [
     cookTime: "40",
     recipeCategory: "Dessert",
     categoryId: "4",
-    recipeImage: "",
+    recipeImage: "/recipes/dessert/dessert-image-07.png",
     nutritionInformation: {
       calories: "280",
       totalFat: "12",
@@ -1824,7 +1824,7 @@ export const recipes = [
     cookTime: "10",
     recipeCategory: "Lunch",
     categoryId: "5",
-    recipeImage: "",
+    recipeImage: "/recipes/lunch/lunch-image-01.png",
     nutritionInformation: {
       calories: "450",
       totalFat: "18",
@@ -1900,7 +1900,7 @@ export const recipes = [
     cookTime: "10",
     recipeCategory: "Lunch",
     categoryId: "5",
-    recipeImage: "",
+    recipeImage: "/recipes/lunch/lunch-image-02.png",
     nutritionInformation: {
       calories: "480",
       totalFat: "25",
@@ -1971,7 +1971,7 @@ export const recipes = [
     cookTime: "10",
     recipeCategory: "Lunch",
     categoryId: "5",
-    recipeImage: "",
+    recipeImage: "/recipes/lunch/lunch-image-03.png",
     nutritionInformation: {
       calories: "350",
       totalFat: "15",
@@ -2051,7 +2051,7 @@ export const recipes = [
     cookTime: "0",
     recipeCategory: "Lunch",
     categoryId: "5",
-    recipeImage: "",
+    recipeImage: "/recipes/lunch/lunch-image-04.png",
     nutritionInformation: {
       calories: "400",
       totalFat: "18",
@@ -2123,7 +2123,7 @@ export const recipes = [
     cookTime: "5",
     recipeCategory: "Lunch",
     categoryId: "5",
-    recipeImage: "",
+    recipeImage: "/recipes/lunch/lunch-image-05.png",
     nutritionInformation: {
       calories: "320",
       totalFat: "14",
@@ -2202,7 +2202,7 @@ export const recipes = [
     cookTime: "10",
     recipeCategory: "Lunch",
     categoryId: "5",
-    recipeImage: "",
+    recipeImage: "/recipes/lunch/lunch-image-06.png",
     nutritionInformation: {
       calories: "500",
       totalFat: "22",
@@ -2275,7 +2275,7 @@ export const recipes = [
     cookTime: "25",
     recipeCategory: "Chocolate",
     categoryId: "6",
-    recipeImage: "",
+    recipeImage: "/recipes/chocolate/chocolate-image-01.png",
     nutritionInformation: {
       calories: "280",
       totalFat: "14",
@@ -2359,7 +2359,7 @@ export const recipes = [
     cookTime: "12",
     recipeCategory: "Chocolate",
     categoryId: "6",
-    recipeImage: "",
+    recipeImage: "/recipes/chocolate/chocolate-image-02.png",
     nutritionInformation: {
       calories: "350",
       totalFat: "22",
@@ -2440,7 +2440,7 @@ export const recipes = [
     cookTime: "12",
     recipeCategory: "Chocolate",
     categoryId: "6",
-    recipeImage: "",
+    recipeImage: "/recipes/chocolate/chocolate-image-03.png",
     nutritionInformation: {
       calories: "200",
       totalFat: "10",
@@ -2528,7 +2528,7 @@ export const recipes = [
     cookTime: "120",
     recipeCategory: "Chocolate",
     categoryId: "6",
-    recipeImage: "",
+    recipeImage: "/recipes/chocolate/chocolate-image-04.png",
     nutritionInformation: {
       calories: "300",
       totalFat: "18",
@@ -2599,7 +2599,7 @@ export const recipes = [
     cookTime: "5",
     recipeCategory: "Chocolate",
     categoryId: "6",
-    recipeImage: "",
+    recipeImage: "/recipes/chocolate/chocolate-image-05.png",
     nutritionInformation: {
       calories: "250",
       totalFat: "12",
@@ -2669,7 +2669,7 @@ export const recipes = [
     cookTime: "10",
     recipeCategory: "Chocolate",
     categoryId: "6",
-    recipeImage: "",
+    recipeImage: "/recipes/chocolate/chocolate-image-06.png",
     nutritionInformation: {
       calories: "180",
       totalFat: "7",
@@ -2749,7 +2749,7 @@ export const recipes = [
     cookTime: "20",
     recipeCategory: "Chicken",
     categoryId: "7",
-    recipeImage: "",
+    recipeImage: "/recipes/chicken/chicken-image-01.png",
     nutritionInformation: {
       calories: "320",
       totalFat: "18",
@@ -2834,7 +2834,7 @@ export const recipes = [
     cookTime: "25",
     recipeCategory: "Chicken",
     categoryId: "7",
-    recipeImage: "",
+    recipeImage: "/recipes/chicken/chicken-image-02.png",
     nutritionInformation: {
       calories: "350",
       totalFat: "20",
@@ -2918,7 +2918,7 @@ export const recipes = [
     cookTime: "25",
     recipeCategory: "Chicken",
     categoryId: "7",
-    recipeImage: "",
+    recipeImage: "/recipes/chicken/chicken-image-03.png",
     nutritionInformation: {
       calories: "280",
       totalFat: "15",
@@ -3002,7 +3002,7 @@ export const recipes = [
     cookTime: "20",
     recipeCategory: "Chicken",
     categoryId: "7",
-    recipeImage: "",
+    recipeImage: "/recipes/chicken/chicken-image-04.png",
     nutritionInformation: {
       calories: "450",
       totalFat: "25",
@@ -3086,7 +3086,7 @@ export const recipes = [
     cookTime: "50",
     recipeCategory: "Chicken",
     categoryId: "7",
-    recipeImage: "",
+    recipeImage: "/recipes/chicken/chicken-image-05.png",
     nutritionInformation: {
       calories: "400",
       totalFat: "22",
@@ -3175,7 +3175,7 @@ export const recipes = [
     cookTime: "15",
     recipeCategory: "Seafood",
     categoryId: "8",
-    recipeImage: "",
+    recipeImage: "/recipes/seafood/seafood-image-01.png",
     nutritionInformation: {
       calories: "420",
       totalFat: "18",
@@ -3288,7 +3288,7 @@ export const recipes = [
     cookTime: "12",
     recipeCategory: "Seafood",
     categoryId: "8",
-    recipeImage: "",
+    recipeImage: "/recipes/seafood/seafood-image-02.png",
     nutritionInformation: {
       calories: "480",
       totalFat: "22",
@@ -3383,7 +3383,7 @@ export const recipes = [
     cookTime: "7",
     recipeCategory: "Seafood",
     categoryId: "8",
-    recipeImage: "",
+    recipeImage: "/recipes/seafood/seafood-image-03.png",
     nutritionInformation: {
       calories: "350",
       totalFat: "20",
@@ -3469,7 +3469,7 @@ export const recipes = [
     cookTime: "15",
     recipeCategory: "Seafood",
     categoryId: "8",
-    recipeImage: "",
+    recipeImage: "/recipes/seafood/seafood-image-04.png",
     nutritionInformation: {
       calories: "540",
       totalFat: "35",
@@ -3554,7 +3554,7 @@ export const recipes = [
     cookTime: "30",
     recipeCategory: "Seafood",
     categoryId: "8",
-    recipeImage: "",
+    recipeImage: "/recipes/seafood/seafood-image-05.png",
     nutritionInformation: {
       calories: "480",
       totalFat: "28",
@@ -3650,7 +3650,7 @@ export const recipes = [
     cookTime: "10",
     recipeCategory: "Seafood",
     categoryId: "8",
-    recipeImage: "",
+    recipeImage: "/recipes/seafood/seafood-image-06.png",
     nutritionInformation: {
       calories: "450",
       totalFat: "25",
@@ -3741,7 +3741,7 @@ export const recipes = [
     cookTime: "5",
     recipeCategory: "Seafood",
     categoryId: "8",
-    recipeImage: "",
+    recipeImage: "/recipes/seafood/seafood-image-07.png",
     nutritionInformation: {
       calories: "380",
       totalFat: "22",
@@ -3827,7 +3827,7 @@ export const recipes = [
     cookTime: "20",
     recipeCategory: "Seafood",
     categoryId: "8",
-    recipeImage: "",
+    recipeImage: "/recipes/seafood/seafood-image-08.png",
     nutritionInformation: {
       calories: "350",
       totalFat: "15",
@@ -3917,7 +3917,7 @@ export const recipes = [
     cookTime: "15",
     recipeCategory: "Seafood",
     categoryId: "8",
-    recipeImage: "",
+    recipeImage: "/recipes/seafood/seafood-image-09.png",
     nutritionInformation: {
       calories: "400",
       totalFat: "20",
@@ -4023,7 +4023,7 @@ export const recipes = [
     cookTime: "5",
     recipeCategory: "Seafood",
     categoryId: "8",
-    recipeImage: "",
+    recipeImage: "/recipes/seafood/seafood-image-10.png",
     nutritionInformation: {
       calories: "350",
       totalFat: "18",
@@ -4132,7 +4132,7 @@ export const recipes = [
     cookTime: "10",
     recipeCategory: "Seafood",
     categoryId: "8",
-    recipeImage: "",
+    recipeImage: "/recipes/seafood/seafood-image-11.png",
     nutritionInformation: {
       calories: "250",
       totalFat: "12",
@@ -4223,7 +4223,7 @@ export const recipes = [
     cookTime: "10",
     recipeCategory: "Seafood",
     categoryId: "8",
-    recipeImage: "",
+    recipeImage: "/recipes/seafood/seafood-image-12.png",
     nutritionInformation: {
       calories: "450",
       totalFat: "22",
@@ -4316,7 +4316,7 @@ export const recipes = [
     cookTime: "30",
     recipeCategory: "Seafood",
     categoryId: "8",
-    recipeImage: "",
+    recipeImage: "/recipes/seafood/seafood-image-13.png",
     nutritionInformation: {
       calories: "500",
       totalFat: "18",
@@ -4426,7 +4426,7 @@ export const recipes = [
     cookTime: "5",
     recipeCategory: "Seafood",
     categoryId: "8",
-    recipeImage: "",
+    recipeImage: "/recipes/seafood/seafood-image-14.png",
     nutritionInformation: {
       calories: "350",
       totalFat: "20",
@@ -4539,7 +4539,7 @@ export const recipes = [
     cookTime: "25",
     recipeCategory: "Seafood",
     categoryId: "8",
-    recipeImage: "",
+    recipeImage: "/recipes/seafood/seafood-image-15.png",
     nutritionInformation: {
       calories: "600",
       totalFat: "22",
@@ -4660,7 +4660,7 @@ export const recipes = [
     cookTime: "10",
     recipeCategory: "Seafood",
     categoryId: "8",
-    recipeImage: "",
+    recipeImage: "/recipes/seafood/seafood-image-16.png",
     nutritionInformation: {
       calories: "250",
       totalFat: "16",
@@ -4753,7 +4753,7 @@ export const recipes = [
     cookTime: "15",
     recipeCategory: "Salad",
     categoryId: "9",
-    recipeImage: "",
+    recipeImage: "/recipes/salad/salad-image-01.png",
     nutritionInformation: {
       calories: "400",
       totalFat: "22",
@@ -4839,7 +4839,7 @@ export const recipes = [
     cookTime: "0",
     recipeCategory: "Salad",
     categoryId: "9",
-    recipeImage: "",
+    recipeImage: "/recipes/salad/salad-image-02.png",
     nutritionInformation: {
       calories: "250",
       totalFat: "18",
@@ -4934,7 +4934,7 @@ export const recipes = [
     cookTime: "15",
     recipeCategory: "Salad",
     categoryId: "9",
-    recipeImage: "",
+    recipeImage: "/recipes/salad/salad-image-03.png",
     nutritionInformation: {
       calories: "350",
       totalFat: "15",
@@ -5024,7 +5024,7 @@ export const recipes = [
     cookTime: "0",
     recipeCategory: "Salad",
     categoryId: "9",
-    recipeImage: "",
+    recipeImage: "/recipes/salad/salad-image-04.png",
     nutritionInformation: {
       calories: "250",
       totalFat: "20",
@@ -5097,7 +5097,7 @@ export const recipes = [
     cookTime: "0",
     recipeCategory: "Salad",
     categoryId: "9",
-    recipeImage: "",
+    recipeImage: "/recipes/salad/salad-image-05.png",
     nutritionInformation: {
       calories: "200",
       totalFat: "12",
@@ -5184,7 +5184,7 @@ export const recipes = [
     cookTime: "30",
     recipeCategory: "Salad",
     categoryId: "9",
-    recipeImage: "",
+    recipeImage: "/recipes/salad/salad-image-06.png",
     nutritionInformation: {
       calories: "280",
       totalFat: "18",
@@ -5271,7 +5271,7 @@ export const recipes = [
     cookTime: "0",
     recipeCategory: "Salad",
     categoryId: "9",
-    recipeImage: "",
+    recipeImage: "/recipes/salad/salad-image-07.png",
     nutritionInformation: {
       calories: "210",
       totalFat: "16",
@@ -5374,7 +5374,7 @@ export const recipes = [
     cookTime: "0",
     recipeCategory: "Salad",
     categoryId: "9",
-    recipeImage: "",
+    recipeImage: "/recipes/salad/salad-image-08.png",
     nutritionInformation: {
       calories: "320",
       totalFat: "20",
@@ -5461,7 +5461,7 @@ export const recipes = [
     cookTime: "30",
     recipeCategory: "Soup",
     categoryId: "10",
-    recipeImage: "",
+    recipeImage: "/recipes/soup/soup-image-01.png",
     nutritionInformation: {
       calories: "210",
       totalFat: "14",
@@ -5556,7 +5556,7 @@ export const recipes = [
     cookTime: "45",
     recipeCategory: "Soup",
     categoryId: "10",
-    recipeImage: "",
+    recipeImage: "/recipes/soup/soup-image-02.png",
     nutritionInformation: {
       calories: "330",
       totalFat: "9",
@@ -5659,7 +5659,7 @@ export const recipes = [
     cookTime: "40",
     recipeCategory: "Soup",
     categoryId: "10",
-    recipeImage: "",
+    recipeImage: "/recipes/soup/soup-image-03.png",
     nutritionInformation: {
       calories: "250",
       totalFat: "8",
@@ -5760,7 +5760,7 @@ export const recipes = [
     cookTime: "40",
     recipeCategory: "Soup",
     categoryId: "10",
-    recipeImage: "",
+    recipeImage: "/recipes/soup/soup-image-04.png",
     nutritionInformation: {
       calories: "350",
       totalFat: "18",
@@ -5846,7 +5846,7 @@ export const recipes = [
     cookTime: "45",
     recipeCategory: "Soup",
     categoryId: "10",
-    recipeImage: "",
+    recipeImage: "/recipes/soup/soup-image-05.png",
     nutritionInformation: {
       calories: "300",
       totalFat: "8",
@@ -5953,7 +5953,7 @@ export const recipes = [
     cookTime: "30",
     recipeCategory: "Soup",
     categoryId: "10",
-    recipeImage: "",
+    recipeImage: "/recipes/soup/soup-image-06.png",
     nutritionInformation: {
       calories: "220",
       totalFat: "12",
@@ -6048,7 +6048,7 @@ export const recipes = [
     cookTime: "20",
     recipeCategory: "Soup",
     categoryId: "10",
-    recipeImage: "",
+    recipeImage: "/recipes/soup/soup-image-07.png",
     nutritionInformation: {
       calories: "280",
       totalFat: "18",
@@ -6181,7 +6181,7 @@ export const recipes = [
     cookTime: "40",
     recipeCategory: "Soup",
     categoryId: "10",
-    recipeImage: "",
+    recipeImage: "/recipes/soup/soup-image-08.png",
     nutritionInformation: {
       calories: "240",
       totalFat: "6",
@@ -6305,7 +6305,7 @@ export const recipes = [
     cookTime: "15",
     recipeCategory: "Pasta",
     categoryId: "11",
-    recipeImage: "",
+    recipeImage: "/recipes/pasta/pasta-image-01.png",
     nutritionInformation: {
       calories: "520",
       totalFat: "22",
@@ -6396,7 +6396,7 @@ export const recipes = [
     cookTime: "20",
     recipeCategory: "Pasta",
     categoryId: "11",
-    recipeImage: "",
+    recipeImage: "/recipes/pasta/pasta-image-02.png",
     nutritionInformation: {
       calories: "600",
       totalFat: "30",
@@ -6495,7 +6495,7 @@ export const recipes = [
     cookTime: "20",
     recipeCategory: "Pasta",
     categoryId: "11",
-    recipeImage: "",
+    recipeImage: "/recipes/pasta/pasta-image-03.png",
     nutritionInformation: {
       calories: "450",
       totalFat: "12",
@@ -6598,7 +6598,7 @@ export const recipes = [
     cookTime: "20",
     recipeCategory: "Pasta",
     categoryId: "11",
-    recipeImage: "",
+    recipeImage: "/recipes/pasta/pasta-image-04.png",
     nutritionInformation: {
       calories: "520",
       totalFat: "22",
@@ -6688,7 +6688,7 @@ export const recipes = [
     cookTime: "35",
     recipeCategory: "Pasta",
     categoryId: "11",
-    recipeImage: "",
+    recipeImage: "/recipes/pasta/pasta-image-05.png",
     nutritionInformation: {
       calories: "600",
       totalFat: "28",
@@ -6782,7 +6782,7 @@ export const recipes = [
     cookTime: "15",
     recipeCategory: "Pasta",
     categoryId: "11",
-    recipeImage: "",
+    recipeImage: "/recipes/pasta/pasta-image-06.png",
     nutritionInformation: {
       calories: "480",
       totalFat: "18",
@@ -6881,7 +6881,7 @@ export const recipes = [
     cookTime: "20",
     recipeCategory: "Pasta",
     categoryId: "11",
-    recipeImage: "",
+    recipeImage: "/recipes/pasta/pasta-image-07.png",
     nutritionInformation: {
       calories: "420",
       totalFat: "14",
@@ -6984,7 +6984,7 @@ export const recipes = [
     cookTime: "25",
     recipeCategory: "Pasta",
     categoryId: "11",
-    recipeImage: "",
+    recipeImage: "/recipes/pasta/pasta-image-08.png",
     nutritionInformation: {
       calories: "650",
       totalFat: "30",
@@ -7087,7 +7087,7 @@ export const recipes = [
     cookTime: "15",
     recipeCategory: "Pasta",
     categoryId: "11",
-    recipeImage: "",
+    recipeImage: "/recipes/pasta/pasta-image-09.png",
     nutritionInformation: {
       calories: "500",
       totalFat: "18",
@@ -7186,7 +7186,7 @@ export const recipes = [
     cookTime: "25",
     recipeCategory: "Pasta",
     categoryId: "11",
-    recipeImage: "",
+    recipeImage: "/recipes/pasta/pasta-image-10.png",
     nutritionInformation: {
       calories: "600",
       totalFat: "25",
@@ -7288,7 +7288,7 @@ export const recipes = [
     cookTime: "15",
     recipeCategory: "Pasta",
     categoryId: "11",
-    recipeImage: "",
+    recipeImage: "/recipes/pasta/pasta-image-11.png",
     nutritionInformation: {
       calories: "520",
       totalFat: "24",
@@ -7414,7 +7414,7 @@ export const recipes = [
     cookTime: "15",
     recipeCategory: "Pasta",
     categoryId: "11",
-    recipeImage: "",
+    recipeImage: "/recipes/pasta/pasta-image-12.png",
     nutritionInformation: {
       calories: "610",
       totalFat: "30",
@@ -7509,7 +7509,7 @@ export const recipes = [
     cookTime: "20",
     recipeCategory: "Pasta",
     categoryId: "11",
-    recipeImage: "",
+    recipeImage: "/recipes/pasta/pasta-image-13.png",
     nutritionInformation: {
       calories: "750",
       totalFat: "35",
@@ -7620,7 +7620,7 @@ export const recipes = [
     cookTime: "20",
     recipeCategory: "Pasta",
     categoryId: "11",
-    recipeImage: "",
+    recipeImage: "/recipes/pasta/pasta-image-14.png",
     nutritionInformation: {
       calories: "480",
       totalFat: "14",
@@ -7724,7 +7724,7 @@ export const recipes = [
     cookTime: "0",
     recipeCategory: "Beverages",
     categoryId: "12",
-    recipeImage: "",
+    recipeImage: "/recipes/beverages/beverages-image-01.png",
     nutritionInformation: {
       calories: "210",
       totalFat: "8",
@@ -7804,7 +7804,7 @@ export const recipes = [
     cookTime: "0",
     recipeCategory: "Beverages",
     categoryId: "12",
-    recipeImage: "",
+    recipeImage: "/recipes/beverages/beverages-image-02.png",
     nutritionInformation: {
       calories: "140",
       totalFat: "5",
@@ -7881,7 +7881,7 @@ export const recipes = [
     cookTime: "5",
     recipeCategory: "Beverages",
     categoryId: "12",
-    recipeImage: "",
+    recipeImage: "/recipes/beverages/beverages-image-03.png",
     nutritionInformation: {
       calories: "250",
       totalFat: "10",
@@ -7969,7 +7969,7 @@ export const recipes = [
     cookTime: "0",
     recipeCategory: "Beverages",
     categoryId: "12",
-    recipeImage: "",
+    recipeImage: "/recipes/beverages/beverages-image-04.png",
     nutritionInformation: {
       calories: "100",
       totalFat: "0",
@@ -8043,7 +8043,7 @@ export const recipes = [
     cookTime: "0",
     recipeCategory: "Beverages",
     categoryId: "12",
-    recipeImage: "",
+    recipeImage: "/recipes/beverages/beverages-image-05.png",
     nutritionInformation: {
       calories: "300",
       totalFat: "6",
@@ -8124,7 +8124,7 @@ export const recipes = [
     cookTime: "10",
     recipeCategory: "Beverages",
     categoryId: "12",
-    recipeImage: "",
+    recipeImage: "/recipes/beverages/beverages-image-06.png",
     nutritionInformation: {
       calories: "60",
       totalFat: "0",
@@ -8207,7 +8207,7 @@ export const recipes = [
     cookTime: "0",
     recipeCategory: "Beverages",
     categoryId: "12",
-    recipeImage: "",
+    recipeImage: "/recipes/beverages/beverages-image-07.png",
     nutritionInformation: {
       calories: "320",
       totalFat: "14",
@@ -8289,7 +8289,7 @@ export const recipes = [
     cookTime: "15",
     recipeCategory: "Beverages",
     categoryId: "12",
-    recipeImage: "",
+    recipeImage: "/recipes/beverages/beverages-image-08.png",
     nutritionInformation: {
       calories: "150",
       totalFat: "0",
@@ -8384,7 +8384,7 @@ export const recipes = [
     cookTime: "15",
     recipeCategory: "Healthy",
     categoryId: "13",
-    recipeImage: "",
+    recipeImage: "/recipes/healthy/healthy-image-01.png",
     nutritionInformation: {
       calories: "350",
       totalFat: "12",
@@ -8487,7 +8487,7 @@ export const recipes = [
     cookTime: "5",
     recipeCategory: "Healthy",
     categoryId: "13",
-    recipeImage: "",
+    recipeImage: "/recipes/healthy/healthy-image-02.png",
     nutritionInformation: {
       calories: "250",
       totalFat: "15",
@@ -8573,7 +8573,7 @@ export const recipes = [
     cookTime: "10",
     recipeCategory: "Healthy",
     categoryId: "13",
-    recipeImage: "",
+    recipeImage: "/recipes/healthy/healthy-image-03.png",
     nutritionInformation: {
       calories: "220",
       totalFat: "7",
@@ -8668,7 +8668,7 @@ export const recipes = [
     cookTime: "0",
     recipeCategory: "Healthy",
     categoryId: "13",
-    recipeImage: "",
+    recipeImage: "/recipes/healthy/healthy-image-04.png",
     nutritionInformation: {
       calories: "180",
       totalFat: "3",
@@ -8743,7 +8743,7 @@ export const recipes = [
     cookTime: "20",
     recipeCategory: "Healthy",
     categoryId: "13",
-    recipeImage: "",
+    recipeImage: "/recipes/healthy/healthy-image-05.png",
     nutritionInformation: {
       calories: "270",
       totalFat: "9",
@@ -8828,7 +8828,7 @@ export const recipes = [
     cookTime: "30",
     recipeCategory: "Healthy",
     categoryId: "13",
-    recipeImage: "",
+    recipeImage: "/recipes/healthy/healthy-image-06.png",
     nutritionInformation: {
       calories: "280",
       totalFat: "4",
@@ -8938,7 +8938,7 @@ export const recipes = [
     cookTime: "7",
     recipeCategory: "Healthy",
     categoryId: "13",
-    recipeImage: "",
+    recipeImage: "/recipes/healthy/healthy-image-07.png",
     nutritionInformation: {
       calories: "210",
       totalFat: "12",
@@ -9016,7 +9016,7 @@ export const recipes = [
     cookTime: "15",
     recipeCategory: "Healthy",
     categoryId: "13",
-    recipeImage: "",
+    recipeImage: "/recipes/healthy/healthy-image-08.png",
     nutritionInformation: {
       calories: "320",
       totalFat: "8",
@@ -9105,7 +9105,7 @@ export const recipes = [
     cookTime: "20",
     recipeCategory: "Healthy",
     categoryId: "13",
-    recipeImage: "",
+    recipeImage: "/recipes/healthy/healthy-image-09.png",
     nutritionInformation: {
       calories: "350",
       totalFat: "10",
@@ -9200,7 +9200,7 @@ export const recipes = [
     cookTime: "120",
     recipeCategory: "Healthy",
     categoryId: "13",
-    recipeImage: "",
+    recipeImage: "/recipes/healthy/healthy-image-10.png",
     nutritionInformation: {
       calories: "200",
       totalFat: "10",
@@ -9268,7 +9268,7 @@ export const recipes = [
     cookTime: "0",
     recipeCategory: "Healthy",
     categoryId: "13",
-    recipeImage: "",
+    recipeImage: "/recipes/healthy/healthy-image-11.png",
     nutritionInformation: {
       calories: "280",
       totalFat: "15",
@@ -9358,7 +9358,7 @@ export const recipes = [
     cookTime: "20",
     recipeCategory: "Healthy",
     categoryId: "13",
-    recipeImage: "",
+    recipeImage: "/recipes/healthy/healthy-image-12.png",
     nutritionInformation: {
       calories: "350",
       totalFat: "9",
@@ -9461,7 +9461,7 @@ export const recipes = [
     cookTime: "15",
     recipeCategory: "Korean",
     categoryId: "14",
-    recipeImage: "",
+    recipeImage: "/recipes/korean/korean-image-01.png",
     nutritionInformation: {
       calories: "450",
       totalFat: "12",
@@ -9582,7 +9582,7 @@ export const recipes = [
     cookTime: "25",
     recipeCategory: "Korean",
     categoryId: "14",
-    recipeImage: "",
+    recipeImage: "/recipes/korean/korean-image-02.png",
     nutritionInformation: {
       calories: "320",
       totalFat: "10",
@@ -9685,7 +9685,7 @@ export const recipes = [
     cookTime: "15",
     recipeCategory: "Korean",
     categoryId: "14",
-    recipeImage: "",
+    recipeImage: "/recipes/korean/korean-image-03.png",
     nutritionInformation: {
       calories: "400",
       totalFat: "10",
@@ -9786,7 +9786,7 @@ export const recipes = [
     cookTime: "20",
     recipeCategory: "Korean",
     categoryId: "14",
-    recipeImage: "",
+    recipeImage: "/recipes/korean/korean-image-04.png",
     nutritionInformation: {
       calories: "500",
       totalFat: "8",
@@ -9876,7 +9876,7 @@ export const recipes = [
     cookTime: "10",
     recipeCategory: "Korean",
     categoryId: "14",
-    recipeImage: "",
+    recipeImage: "/recipes/korean/korean-image-05.png",
     nutritionInformation: {
       calories: "430",
       totalFat: "10",
@@ -9957,7 +9957,7 @@ export const recipes = [
     cookTime: "10",
     recipeCategory: "Korean",
     categoryId: "14",
-    recipeImage: "",
+    recipeImage: "/recipes/korean/korean-image-06.png",
     nutritionInformation: {
       calories: "450",
       totalFat: "15",
@@ -10076,7 +10076,7 @@ export const recipes = [
     cookTime: "15",
     recipeCategory: "Korean",
     categoryId: "14",
-    recipeImage: "",
+    recipeImage: "/recipes/korean/korean-image-07.png",
     nutritionInformation: {
       calories: "600",
       totalFat: "50",
@@ -10181,7 +10181,7 @@ export const recipes = [
     cookTime: "20",
     recipeCategory: "Korean",
     categoryId: "14",
-    recipeImage: "",
+    recipeImage: "/recipes/korean/korean-image-08.png",
     nutritionInformation: {
       calories: "320",
       totalFat: "12",
@@ -10298,7 +10298,7 @@ export const recipes = [
     cookTime: "20",
     recipeCategory: "Korean",
     categoryId: "14",
-    recipeImage: "",
+    recipeImage: "/recipes/korean/korean-image-09.png",
     nutritionInformation: {
       calories: "500",
       totalFat: "12",
@@ -10416,7 +10416,7 @@ export const recipes = [
     cookTime: "15",
     recipeCategory: "Thailand",
     categoryId: "15",
-    recipeImage: "",
+    recipeImage: "/recipes/thailand/thailand-image-01.png",
     nutritionInformation: {
       calories: "450",
       totalFat: "14",
@@ -10540,7 +10540,7 @@ export const recipes = [
     cookTime: "20",
     recipeCategory: "Thailand",
     categoryId: "15",
-    recipeImage: "",
+    recipeImage: "/recipes/thailand/thailand-image-02.png",
     nutritionInformation: {
       calories: "220",
       totalFat: "8",
@@ -10639,7 +10639,7 @@ export const recipes = [
     cookTime: "25",
     recipeCategory: "Thailand",
     categoryId: "15",
-    recipeImage: "",
+    recipeImage: "/recipes/thailand/thailand-image-03.png",
     nutritionInformation: {
       calories: "480",
       totalFat: "35",
@@ -10737,7 +10737,7 @@ export const recipes = [
     cookTime: "0",
     recipeCategory: "Thailand",
     categoryId: "15",
-    recipeImage: "",
+    recipeImage: "/recipes/thailand/thailand-image-04.png",
     nutritionInformation: {
       calories: "160",
       totalFat: "5",
@@ -10829,7 +10829,7 @@ export const recipes = [
     cookTime: "25",
     recipeCategory: "Thailand",
     categoryId: "15",
-    recipeImage: "",
+    recipeImage: "/recipes/thailand/thailand-image-05.png",
     nutritionInformation: {
       calories: "350",
       totalFat: "10",
@@ -10911,7 +10911,7 @@ export const recipes = [
     cookTime: "15",
     recipeCategory: "Thailand",
     categoryId: "15",
-    recipeImage: "",
+    recipeImage: "/recipes/thailand/thailand-image-06.png",
     nutritionInformation: {
       calories: "350",
       totalFat: "12",
@@ -11023,7 +11023,7 @@ export const recipes = [
     cookTime: "40",
     recipeCategory: "Thailand",
     categoryId: "15",
-    recipeImage: "",
+    recipeImage: "/recipes/thailand/thailand-image-07.png",
     nutritionInformation: {
       calories: "550",
       totalFat: "35",
@@ -11139,7 +11139,7 @@ export const recipes = [
     cookTime: "10",
     recipeCategory: "Thailand",
     categoryId: "15",
-    recipeImage: "",
+    recipeImage: "/recipes/thailand/thailand-image-08.png",
     nutritionInformation: {
       calories: "270",
       totalFat: "10",
@@ -11243,7 +11243,7 @@ export const recipes = [
     cookTime: "15",
     recipeCategory: "Thailand",
     categoryId: "15",
-    recipeImage: "",
+    recipeImage: "/recipes/thailand/thailand-image-09.png",
     nutritionInformation: {
       calories: "400",
       totalFat: "12",
@@ -11360,7 +11360,7 @@ export const recipes = [
     cookTime: "15",
     recipeCategory: "Japan",
     categoryId: "16",
-    recipeImage: "",
+    recipeImage: "/recipes/japan/japan-image-01.png",
     nutritionInformation: {
       calories: "320",
       totalFat: "12",
@@ -11468,7 +11468,7 @@ export const recipes = [
     cookTime: "10",
     recipeCategory: "Japan",
     categoryId: "16",
-    recipeImage: "",
+    recipeImage: "/recipes/japan/japan-image-02.png",
     nutritionInformation: {
       calories: "70",
       totalFat: "2",
@@ -11547,7 +11547,7 @@ export const recipes = [
     cookTime: "10",
     recipeCategory: "Japan",
     categoryId: "16",
-    recipeImage: "",
+    recipeImage: "/recipes/japan/japan-image-03.png",
     nutritionInformation: {
       calories: "180",
       totalFat: "8",
@@ -11638,7 +11638,7 @@ export const recipes = [
     cookTime: "15",
     recipeCategory: "Japan",
     categoryId: "16",
-    recipeImage: "",
+    recipeImage: "/recipes/japan/japan-image-04.png",
     nutritionInformation: {
       calories: "480",
       totalFat: "18",
@@ -11732,7 +11732,7 @@ export const recipes = [
     cookTime: "60",
     recipeCategory: "Japan",
     categoryId: "16",
-    recipeImage: "",
+    recipeImage: "/recipes/japan/japan-image-05.png",
     nutritionInformation: {
       calories: "380",
       totalFat: "22",
@@ -11822,7 +11822,7 @@ export const recipes = [
     cookTime: "15",
     recipeCategory: "Japan",
     categoryId: "16",
-    recipeImage: "",
+    recipeImage: "/recipes/japan/japan-image-06.png",
     nutritionInformation: {
       calories: "510",
       totalFat: "29",
@@ -11917,7 +11917,7 @@ export const recipes = [
     cookTime: "10",
     recipeCategory: "Japan",
     categoryId: "16",
-    recipeImage: "",
+    recipeImage: "/recipes/japan/japan-image-07.png",
     nutritionInformation: {
       calories: "420",
       totalFat: "18",
@@ -12024,7 +12024,7 @@ export const recipes = [
     cookTime: "20",
     recipeCategory: "Japan",
     categoryId: "16",
-    recipeImage: "",
+    recipeImage: "/recipes/japan/japan-image-08.png",
     nutritionInformation: {
       calories: "160",
       totalFat: "8",
@@ -12118,7 +12118,7 @@ export const recipes = [
     cookTime: "10",
     recipeCategory: "Japan",
     categoryId: "16",
-    recipeImage: "",
+    recipeImage: "/recipes/japan/japan-image-09.png",
     nutritionInformation: {
       calories: "450",
       totalFat: "12",
@@ -12220,7 +12220,7 @@ export const recipes = [
     cookTime: "10",
     recipeCategory: "Japan",
     categoryId: "16",
-    recipeImage: "",
+    recipeImage: "/recipes/japan/japan-image-10.png",
     nutritionInformation: {
       calories: "320",
       totalFat: "5",
@@ -12305,7 +12305,7 @@ export const recipes = [
     cookTime: "15",
     recipeCategory: "Japan",
     categoryId: "16",
-    recipeImage: "",
+    recipeImage: "/recipes/japan/japan-image-11.png",
     nutritionInformation: {
       calories: "550",
       totalFat: "20",
@@ -12412,7 +12412,7 @@ export const recipes = [
     cookTime: "10",
     recipeCategory: "Japan",
     categoryId: "16",
-    recipeImage: "",
+    recipeImage: "/recipes/japan/japan-image-12.png",
     nutritionInformation: {
       calories: "180",
       totalFat: "10",
@@ -12500,7 +12500,7 @@ export const recipes = [
     cookTime: "5",
     recipeCategory: "Japan",
     categoryId: "16",
-    recipeImage: "",
+    recipeImage: "/recipes/japan/japan-image-13.png",
     nutritionInformation: {
       calories: "290",
       totalFat: "2",
@@ -12591,7 +12591,7 @@ export const recipes = [
     cookTime: "15",
     recipeCategory: "China",
     categoryId: "17",
-    recipeImage: "",
+    recipeImage: "/recipes/china/china-image-01.png",
     nutritionInformation: {
       calories: "400",
       totalFat: "18",
@@ -12726,7 +12726,7 @@ export const recipes = [
     cookTime: "15",
     recipeCategory: "China",
     categoryId: "17",
-    recipeImage: "",
+    recipeImage: "/recipes/china/china-image-02.png",
     nutritionInformation: {
       calories: "330",
       totalFat: "22",
@@ -12843,7 +12843,7 @@ export const recipes = [
     cookTime: "20",
     recipeCategory: "China",
     categoryId: "17",
-    recipeImage: "",
+    recipeImage: "/recipes/china/china-image-03.png",
     nutritionInformation: {
       calories: "480",
       totalFat: "22",
@@ -12969,7 +12969,7 @@ export const recipes = [
     cookTime: "15",
     recipeCategory: "China",
     categoryId: "17",
-    recipeImage: "",
+    recipeImage: "/recipes/china/china-image-04.png",
     nutritionInformation: {
       calories: "320",
       totalFat: "14",
@@ -13051,7 +13051,7 @@ export const recipes = [
     cookTime: "15",
     recipeCategory: "China",
     categoryId: "17",
-    recipeImage: "",
+    recipeImage: "/recipes/china/china-image-05.png",
     nutritionInformation: {
       calories: "150",
       totalFat: "5",
@@ -13138,7 +13138,7 @@ export const recipes = [
     cookTime: "25",
     recipeCategory: "Air Fryer",
     categoryId: "18",
-    recipeImage: "",
+    recipeImage: "/recipes/air-fryer/air-fryer-image-01.png",
     nutritionInformation: {
       calories: "350",
       totalFat: "20",
@@ -13221,7 +13221,7 @@ export const recipes = [
     cookTime: "20",
     recipeCategory: "Air Fryer",
     categoryId: "18",
-    recipeImage: "",
+    recipeImage: "/recipes/air-fryer/air-fryer-image-02.png",
     nutritionInformation: {
       calories: "150",
       totalFat: "7",
@@ -13301,7 +13301,7 @@ export const recipes = [
     cookTime: "12",
     recipeCategory: "Air Fryer",
     categoryId: "18",
-    recipeImage: "",
+    recipeImage: "/recipes/air-fryer/air-fryer-image-03.png",
     nutritionInformation: {
       calories: "180",
       totalFat: "10",
@@ -13397,7 +13397,7 @@ export const recipes = [
     cookTime: "12",
     recipeCategory: "Air Fryer",
     categoryId: "18",
-    recipeImage: "",
+    recipeImage: "/recipes/air-fryer/air-fryer-image-04.png",
     nutritionInformation: {
       calories: "250",
       totalFat: "15",
