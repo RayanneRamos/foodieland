@@ -177,7 +177,7 @@ export function AboutUs() {
             Check out the delicious recipe
           </strong>
           <div className={styles.recipeContainer}>
-            {recipes.map((recipe) => {
+            {recipes.slice(0, 4).map((recipe) => {
               return <CardOtherRecipes moreRecipe={recipe} key={recipe.id} />;
             })}
           </div>

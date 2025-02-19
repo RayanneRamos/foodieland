@@ -49,7 +49,7 @@ export function BlogList() {
         <div className={styles.tastyRecipes}>
           <strong className={styles.tastyRecipesTitle}>Tasty Recipes</strong>
           <div className={styles.tastyRecipesPosts}>
-            {recipes.map((othersRecipe) => {
+            {recipes.slice(0, 3).map((othersRecipe) => {
               return (
                 <IngredientsCards
                   othersRecipe={othersRecipe}

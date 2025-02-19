@@ -92,12 +92,14 @@ export function Home() {
             </span>
           </div>
           <div className={styles.cardContent}>
-            {recipes.map((recipe, index) => (
-              <>
-                <CardRecipes key={recipe.id} recipe={recipe} />
-                {index === 4 && <img src={adsImage} alt="ads" />}
-              </>
-            ))}
+            {recipes.slice(0, 8).map((recipe, index) => {
+              return (
+                <>
+                  <CardRecipes key={recipe.id} recipe={recipe} />
+                  {index === 4 && <img src={adsImage} alt="ads" />}
+                </>
+              );
+            })}
           </div>
         </div>
         <div className={styles.chefContainer}>
@@ -153,9 +155,11 @@ export function Home() {
             </span>
           </div>
           <div className={styles.moreRecipeContent}>
-            {recipes.map((moreRecipe) => (
-              <CardOtherRecipes key={moreRecipe.id} moreRecipe={moreRecipe} />
-            ))}
+            {recipes.slice(0, 8).map((moreRecipe) => {
+              return (
+                <CardOtherRecipes key={moreRecipe.id} moreRecipe={moreRecipe} />
+              );
+            })}
           </div>
         </div>
         <div className={styles.newsletterContainer}>
