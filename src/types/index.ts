@@ -11,3 +11,8 @@ export interface NutritionInformationProps {
   carbohydrate: string;
   cholesterol: string;
 }
+
+export interface IngredientProps {
+  ingredientsQuantity: string;
+  ingredientsName: string;
+}
