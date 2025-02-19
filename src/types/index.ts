@@ -23,10 +23,25 @@ interface RecipeStepsProps {
 }
 
 interface RecipeIngredientProps {
-  recipeSteps: RecipeIngredientProps;
+  recipeSteps: RecipeStepsProps;
 }
 
 interface RecipeDirectionProps {
   directionTitle: string;
   directionDescription: string;
+}
+
+export interface RecipeProps {
+  id: string;
+  recipeName: string;
+  auhtor: AuthorProps;
+  prepareTime: string;
+  cookTime: string;
+  recipeCategory: string;
+  categoryId: string;
+  recipeImage: string;
+  nutritionInformation: NutritionInformationProps;
+  recipeDescription: string;
+  recipeIngredients: RecipeIngredientProps[];
+  recipeDirection: RecipeDirectionProps[];
 }
