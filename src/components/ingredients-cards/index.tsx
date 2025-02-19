@@ -1,23 +1,23 @@
 import { Link } from "react-router";
 import styles from "./styles.module.scss";
+import { RecipeProps } from "../../types";
 
 interface IngredientsCardsProps {
-  othersRecipe: {
-    id: string;
-    image: string;
-    name: string;
-    author: string;
-  };
+  othersRecipe: RecipeProps;
 }
 
 export function IngredientsCards({ othersRecipe }: IngredientsCardsProps) {
   return (
     <div className={styles.container}>
       <Link to={`/recipe-details/${othersRecipe.id}`} className={styles.link}>
-        <img src={othersRecipe.image} alt={othersRecipe.name} />
+        <img src={othersRecipe.recipeImage} alt={othersRecipe.recipeName} />
         <div className={styles.info}>
-          <strong className={styles.infoTitle}>{othersRecipe.name}</strong>
-          <span className={styles.infoAuthor}>By {othersRecipe.author}</span>
+          <strong className={styles.infoTitle}>
+            {othersRecipe.recipeName}
+          </strong>
+          <span className={styles.infoAuthor}>
+            By {othersRecipe.author?.authorName}
+          </span>
         </div>
       </Link>
     </div>

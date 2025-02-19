@@ -1,0 +1,199 @@
+// Breakfast
+
+Fluffy Banana Pancakes
+Avocado Toast with Poached Egg
+Greek Yogurt Parfait with Berries & Granola
+
+// Vegan
+
+Vegan Chickpea Scramble
+Creamy Vegan Oatmeal with Berries
+Vegan Avocado Toast with Hummus
+
+// Meat
+
+Classic Beef Steak with Garlic Butter
+BBQ Pork Ribs
+Spicy Chicken Wings
+Lamb Chops with Rosemary
+Ground Beef Tacos
+Meatballs in Marinara Sauce
+Honey Garlic Pork Chops
+Beef Stroganoff
+Grilled T-Bone Steak with Herb Butter
+Teriyaki Chicken
+
+// Dessert
+
+Classic Chocolate Brownies
+Strawberry Cheesecake
+Vanilla Panna Cotta
+Molten Lava Cake
+Apple Crisp
+Coconut Macaroons
+Lemon Bars
+
+// Lunch
+
+Grilled Chicken Caesar Wrap
+Classic BLT Sandwich
+Veggie Stir-Fry with Tofu
+Tuna Salad Sandwich
+Shrimp & Avocado Salad
+Beef & Cheese Quesadilla
+
+// Chocolate
+
+Classic Chocolate Brownies
+Chocolate Lava Cake
+Chocolate Chip Cookies
+Chocolate Mousse
+Hot Chocolate
+Chocolate Pancakes
+
+// Chicken
+
+Garlic Butter Chicken Breast
+Honey Mustard Chicken Thighs
+Spicy Grilled Chicken Wings
+Creamy Chicken Alfredo
+Lemon Herb Roasted Chicken
+
+// Seafood
+
+Garlic Butter Shrimp Scampi
+Grilled Salmon with Honey Garlic Glaze
+Lemon Garlic Butter Scallops
+Creamy Garlic Parmesan Lobster Tail
+Classic New England Clam Chowder
+Lobster Roll
+Seared Tuna Steaks with Avocado Salsa
+Baked Cod with Garlic and Herb Crust
+Crispy Fish Tacos
+Crispy Calamari with Lemon Aioli
+Mussels in White Wine Sauce
+Grilled Salmon with Mango Salsa
+Seafood Paella
+Shrimp and Avocado Salad
+Seafood Risotto
+Pan-Seared Scallops with Garlic Butter Sauce
+
+// Salad
+
+Grilled Chicken Caesar Salad
+Greek Salad
+Quinoa and Avocado Salad
+Caprese Salad
+Spinach and Strawberry Salad
+Roasted Beetroot and Goat Cheese Salad
+Asian Cabbage Salad with Sesame Dressing
+Chickpea and Avocado Salad
+
+// Soup
+
+Classic Tomato Soup
+Chicken and Vegetable Soup
+Lentil Soup
+Creamy Potato Leek Soup
+Minestrone Soup
+Creamy Tomato Basil Soup
+Spicy Thai Coconut Shrimp Soup
+Hearty Lentil and Vegetable Soup
+
+// Pasta
+
+Classic Spaghetti Carbonara
+Creamy Garlic Parmesan Fettuccine
+Spicy Shrimp Penne Arrabbiata
+Pesto Chicken Pasta
+Baked Ziti with Ricotta and Mozzarella
+Lemon Garlic Butter Linguine
+Mushroom and Spinach Penne
+Cajun Chicken Alfredo
+Sun-Dried Tomato and Basil Farfalle
+Beef and Tomato Rigatoni
+Pesto Shrimp Spaghetti
+Carbonara with Pancetta and Peas
+Creamy Tuscan Chicken Pasta
+Spicy Arrabbiata Rigatoni
+
+// Beverages
+
+Mango Coconut Smoothie
+Iced Matcha Latte
+Classic Hot Chocolate
+Fresh Lemonade
+Strawberry Banana Protein Shake
+Honey Ginger Tea
+Avocado Banana Smoothie
+Spiced Apple Cider
+
+// Healthy
+
+Grilled Salmon with Quinoa Salad
+Avocado Toast with Poached Egg
+Chickpea and Spinach Stir-Fry
+Greek Yogurt Berry Parfait
+Roasted Sweet Potato and Kale Salad
+Lentil and Vegetable Soup
+Spinach and Mushroom Omelette
+Quinoa and Chickpea Bowl
+Grilled Chicken with Roasted Vegetables
+Chia Seed Pudding with Almond Milk
+Avocado and Tuna Salad
+Sweet Potato and Black Bean Tacos
+
+// Korean
+
+Bibimbap (Korean Mixed Rice Bowl)
+Kimchi Jjigae (Kimchi Stew)
+Japchae (Stir-Fried Glass Noodles)
+Tteokbokki (Spicy Rice Cakes)
+Kimchi Fried Rice (Kimchi Bokkeumbap)
+Dakgalbi (Spicy Stir-Fried Chicken)
+Samgyeopsal (Korean Grilled Pork Belly)
+Sundubu Jjigae (Spicy Soft Tofu Stew)
+Jjajangmyeon (Black Bean Noodles)
+
+// Thailand
+
+Pad Thai (Stir-Fried Noodles)
+Tom Yum Goong (Spicy Shrimp Soup)
+Green Curry (Gaeng Keow Wan)
+Som Tum (Green Papaya Salad)
+Thai Mango Sticky Rice (Khao Niew Mamuang)
+Thai Basil Chicken (Pad Krapow Gai)
+Thai Massaman Curry
+Thai Larb (Spicy Minced Chicken Salad)
+Thai Pineapple Fried Rice
+
+// Japan
+
+Chicken Teriyaki (照り焼きチキン)
+Miso Soup (味噌汁)
+Japanese Tamago Sushi (卵寿司)
+Japanese Beef Gyudon (牛丼)
+Japanese Matcha Cheesecake (抹茶チーズケーキ)
+Tonkatsu (とんかつ) – Japanese Breaded Pork Cutlet
+Okonomiyaki (お好み焼き) – Japanese Savory Pancake
+Chawanmushi (茶碗蒸し) – Savory Steamed Egg Custard
+Yaki Udon (焼きうどん) – Stir-Fried Udon Noodles
+Dorayaki (どら焼き) – Japanese Pancake with Red Bean Filling
+Gyudon (牛丼) – Japanese Beef Bowl
+Tamagoyaki (卵焼き) – Japanese Rolled Omelet
+Zaru Soba (ざるそば) – Chilled Buckwheat Noodles with Dipping Sauce
+
+// China
+
+Kung Pao Chicken (宫保鸡丁)
+Mapo Tofu (麻婆豆腐)
+Sweet and Sour Pork (咕噜肉)
+Chinese Scallion Pancakes (葱油饼)
+Hot and Sour Soup (酸辣汤)
+
+// Air Fryer
+
+Air Fryer Chicken Wings
+Air Fryer Sweet Potato Fries
+Air Fryer Veggie Fritters
+Air Fryer Salmon

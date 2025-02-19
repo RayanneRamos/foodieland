@@ -4,15 +4,15 @@
 
   border: none;
 
+  .link {
+    text-decoration: none;
+    color: inherit;
+  }
+
   .cardImage {
     position: relative;
     border-radius: 12px;
     overflow: hidden;
-
-    .link {
-      text-decoration: none;
-      color: inherit;
-    }
 
     .recipeImage {
       width: 100%;

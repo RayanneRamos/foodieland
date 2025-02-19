@@ -2,16 +2,10 @@ import { Link } from "react-router";
 import { RecipeFood } from "../recipe-food";
 import styles from "./styles.module.scss";
 import { Heart } from "phosphor-react";
+import { RecipeProps } from "../../types";
 
 interface CardRecipesProps {
-  recipe: {
-    id: string;
-    image: string;
-    favorite?: boolean;
-    name?: string;
-    clock?: string;
-    category?: string;
-  };
+  recipe: RecipeProps;
 }
 
 export function CardRecipes({ recipe }: CardRecipesProps) {
@@ -20,26 +14,26 @@ export function CardRecipes({ recipe }: CardRecipesProps) {
       <Link to={`/recipe-details/${recipe.id}`} className={styles.link}>
         <div className={styles.cardImage}>
           <img
-            src={recipe.image}
-            alt={recipe.name}
+            src={recipe.recipeImage}
+            alt={recipe.recipeName}
             className={styles.recipeImage}
           />
           <button className={styles.favoriteButton}>
             <Heart
               size={24}
               weight="fill"
-              color={recipe.favorite ? "#ff6363" : "#ccc"}
+              //color={recipe.favorite ? "#ff6363" : "#ccc"}
             />
           </button>
         </div>
         <div className={styles.cardContent}>
-          <strong className={styles.cardTitle}>{recipe.name}</strong>
+          <strong className={styles.cardTitle}>{recipe.recipeName}</strong>
           <div className={styles.cardInfo}>
-            {recipe.clock && (
-              <RecipeFood icon="Clock" name={`${recipe.clock} Minutes`} />
+            {recipe.cookTime && (
+              <RecipeFood icon="Clock" name={`${recipe.cookTime} Minutes`} />
             )}
-            {recipe.category && (
-              <RecipeFood icon="ForkKnife" name={recipe.category} />
+            {recipe.recipeCategory && (
+              <RecipeFood icon="ForkKnife" name={recipe.recipeCategory} />
             )}
           </div>
         </div>

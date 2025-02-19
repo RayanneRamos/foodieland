@@ -3,7 +3,7 @@ import { Divider } from "../../components/divider";
 import { Footer } from "../../components/footer";
 import { Navigation } from "../../components/navigation";
 import { Newsletter } from "../../components/newsletter";
-import { likeRecipes } from "../../utils/like-recipes";
+import { recipes } from "../../utils/recipes";
 import styles from "./styles.module.scss";
 
 export function Recipes() {
@@ -14,16 +14,7 @@ export function Recipes() {
       <div className={styles.main}>
         <h1 className={styles.title}>Recipes Lists</h1>
         <div className={styles.recipesContainer}>
-          {likeRecipes.map((recipe) => {
-            return <CardOtherRecipes moreRecipe={recipe} key={recipe.id} />;
-          })}
-          {likeRecipes.map((recipe) => {
-            return <CardOtherRecipes moreRecipe={recipe} key={recipe.id} />;
-          })}
-          {likeRecipes.map((recipe) => {
-            return <CardOtherRecipes moreRecipe={recipe} key={recipe.id} />;
-          })}
-          {likeRecipes.map((recipe) => {
+          {recipes.map((recipe) => {
             return <CardOtherRecipes moreRecipe={recipe} key={recipe.id} />;
           })}
         </div>

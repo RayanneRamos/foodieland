@@ -8,9 +8,9 @@ import facebookImage from "../../assets/facebook.svg";
 import twitterImage from "../../assets/twitter.svg";
 import instagramImage from "../../assets/instagram.svg";
 import { Newsletter } from "../../components/newsletter";
-import { likeRecipes } from "../../utils/like-recipes";
 import { CardOtherRecipes } from "../../components/card-other-recipes";
 import { Footer } from "../../components/footer";
+import { recipes } from "../../utils/recipes";
 
 export function BlogPost() {
   return (
@@ -125,7 +125,7 @@ export function BlogPost() {
             Check out the delicious recipe
           </strong>
           <div className={styles.deliciousRecipe}>
-            {likeRecipes.map((recipe) => {
+            {recipes.map((recipe) => {
               return <CardOtherRecipes moreRecipe={recipe} key={recipe.id} />;
             })}
           </div>

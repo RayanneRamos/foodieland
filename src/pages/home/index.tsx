@@ -9,7 +9,6 @@ import { Button } from "../../components/button";
 import { Category } from "../../components/category";
 import { categories } from "../../utils/categories";
 import { CardRecipes } from "../../components/card-recipes";
-import { cardRecipes } from "../../utils/card-recipes";
 import adsImage from "../../assets/recipes/image-06.png";
 import chefImage from "../../assets/chef.png";
 import instagramPostOne from "../../assets/posts/post-01.png";
@@ -18,10 +17,10 @@ import instagramPostThree from "../../assets/posts/post-03.png";
 import instagramPostFour from "../../assets/posts/post-04.png";
 import { InstagramLogo } from "phosphor-react";
 import { CardOtherRecipes } from "../../components/card-other-recipes";
-import { moreRecipes } from "../../utils/more-recipes";
 import { Newsletter } from "../../components/newsletter";
 import { Footer } from "../../components/footer";
 import { useNavigate } from "react-router";
+import { recipes } from "../../utils/recipes";
 
 export function Home() {
   const navigate = useNavigate();
@@ -93,7 +92,7 @@ export function Home() {
             </span>
           </div>
           <div className={styles.cardContent}>
-            {cardRecipes.map((recipe, index) => (
+            {recipes.map((recipe, index) => (
               <>
                 <CardRecipes key={recipe.id} recipe={recipe} />
                 {index === 4 && <img src={adsImage} alt="ads" />}
@@ -154,7 +153,7 @@ export function Home() {
             </span>
           </div>
           <div className={styles.moreRecipeContent}>
-            {moreRecipes.map((moreRecipe) => (
+            {recipes.map((moreRecipe) => (
               <CardOtherRecipes key={moreRecipe.id} moreRecipe={moreRecipe} />
             ))}
           </div>

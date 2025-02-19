@@ -32,16 +32,16 @@ interface RecipeDirectionProps {
 }
 
 export interface RecipeProps {
-  id: string;
-  recipeName: string;
-  auhtor: AuthorProps;
-  prepareTime: string;
-  cookTime: string;
-  recipeCategory: string;
-  categoryId: string;
-  recipeImage: string;
-  nutritionInformation: NutritionInformationProps;
-  recipeDescription: string;
-  recipeIngredients: RecipeIngredientProps[];
-  recipeDirection: RecipeDirectionProps[];
+  id?: string;
+  recipeName?: string;
+  author?: AuthorProps;
+  prepareTime?: string;
+  cookTime?: string;
+  recipeCategory?: string;
+  categoryId?: string;
+  recipeImage?: string;
+  nutritionInformation?: NutritionInformationProps;
+  recipeDescription?: string;
+  recipeIngredients?: RecipeIngredientProps[];
+  recipeDirection?: RecipeDirectionProps[];
 }

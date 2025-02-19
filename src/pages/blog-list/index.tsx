@@ -2,7 +2,6 @@ import { CardBlogPosts } from "../../components/card-blog-posts";
 import { Divider } from "../../components/divider";
 import { IngredientsCards } from "../../components/ingredients-cards";
 import { Navigation } from "../../components/navigation";
-import { tastyRecipes } from "../../utils/tasty-recipes";
 import adsImage from "../../assets/recipes/image-06.png";
 import styles from "./styles.module.scss";
 import { Pagination } from "../../components/pagination";
@@ -10,6 +9,7 @@ import { Newsletter } from "../../components/newsletter";
 import { Footer } from "../../components/footer";
 import { useState } from "react";
 import { blogLists } from "../../utils/blog-list";
+import { recipes } from "../../utils/recipes";
 
 const itemsPerPage = 6;
 const items = Array.from({ length: 31 }, (_, i) => `Items ${i + 1}`);
@@ -49,8 +49,13 @@ export function BlogList() {
         <div className={styles.tastyRecipes}>
           <strong className={styles.tastyRecipesTitle}>Tasty Recipes</strong>
           <div className={styles.tastyRecipesPosts}>
-            {tastyRecipes.map((othersRecipe) => {
-              return <IngredientsCards othersRecipe={othersRecipe} />;
+            {recipes.map((othersRecipe) => {
+              return (
+                <IngredientsCards
+                  othersRecipe={othersRecipe}
+                  key={othersRecipe.id}
+                />
+              );
             })}
           </div>
           <img src={adsImage} alt="" className={styles.adsImage} />

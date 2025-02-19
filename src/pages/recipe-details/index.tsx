@@ -17,9 +17,8 @@ import { DirectionsTask } from "../../components/directions-task";
 import directionImage from "../../assets/direction-image.png";
 import { Newsletter } from "../../components/newsletter";
 import { CardOtherRecipes } from "../../components/card-other-recipes";
-import { likeRecipes } from "../../utils/like-recipes";
 import { Footer } from "../../components/footer";
-import { otherRecipe } from "../../utils/other-recipe";
+import { recipes } from "../../utils/recipes";
 
 export function RecipeDetails() {
   return (
@@ -78,7 +77,7 @@ export function RecipeDetails() {
             </div>
             <div className={styles.ingredientsOtherRecipes}>
               <h3 className={styles.titleOtherRecipes}>Other Recipe</h3>
-              {otherRecipe.map((othersRecipe) => {
+              {recipes.map((othersRecipe) => {
                 return (
                   <IngredientsCards
                     othersRecipe={othersRecipe}
@@ -144,7 +143,7 @@ export function RecipeDetails() {
             You may like these recipe too
           </h3>
           <div className={styles.likeRecipesCard}>
-            {likeRecipes.map((recipe) => {
+            {recipes.map((recipe) => {
               return <CardOtherRecipes moreRecipe={recipe} key={recipe.id} />;
             })}
           </div>
