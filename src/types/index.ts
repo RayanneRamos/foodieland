@@ -16,3 +16,8 @@ export interface IngredientProps {
   ingredientsQuantity: string;
   ingredientsName: string;
 }
+
+export interface RecipeStepsProps {
+  name: string;
+  steps: IngredientProps[];
+}
