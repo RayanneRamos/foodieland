@@ -4,7 +4,7 @@ export const recipes = [
     id: "0f33659c-7003-4e8a-a64c-b63e7e07ac64",
     recipeName: "Fluffy Banana Pancakes",
     author: {
-      authorAvatar: "",
+      authorAvatar: "/authors/author-easton-lee.jpeg",
       authorName: "Easton Lee",
       authorDatePosted: "12 September 2024",
     },
@@ -98,7 +98,7 @@ export const recipes = [
     id: "18d3b68f-a8c7-4c0d-96e7-21ddd4b552a4",
     recipeName: "Avocado Toast with Poached Egg",
     author: {
-      authorAvatar: "",
+      authorAvatar: "/authors/author-thomas-smith.jpeg",
       authorName: "Thomas Smith",
       authorDatePosted: "12 August 2021",
     },
@@ -184,7 +184,7 @@ export const recipes = [
     id: "a95e78e8-7403-4bfe-9a17-2a3b333f8b46",
     recipeName: "Greek Yogurt Parfait with Berries & Granola",
     author: {
-      authorAvatar: "",
+      authorAvatar: "/authors/author-noah-cooper.jpeg",
       authorName: "Noah Cooper",
       authorDatePosted: "23 October 2023",
     },
@@ -254,7 +254,7 @@ export const recipes = [
     id: "7ca6ae24-50b6-4e2a-8d3a-0fc205a85d81",
     recipeName: "Vegan Chickpea Scramble",
     author: {
-      authorAvatar: "",
+      authorAvatar: "/authors/author-rowan-sanchez.jpeg",
       authorName: "Rowan Sanchez",
       authorDatePosted: "08 February 2024",
     },
@@ -344,7 +344,7 @@ export const recipes = [
     id: "6e1745e6-681e-498c-a541-47d62c7d5a8a",
     recipeName: "Creamy Vegan Oatmeal with Berries",
     author: {
-      authorAvatar: "",
+      authorAvatar: "/authors/author-leo-jackson.jpeg",
       authorName: "Leo Jackson",
       authorDatePosted: "06 December 2021",
     },
@@ -426,7 +426,7 @@ export const recipes = [
     id: "05e5c8e3-08c9-4014-b8e4-073b7483f7d4",
     recipeName: "Vegan Avocado Toast with Hummus",
     author: {
-      authorAvatar: "",
+      authorAvatar: "/authors/author-christopher-robinson.jpeg",
       authorName: "Christopher Robinson",
       authorDatePosted: "08 May 2023",
     },
@@ -511,7 +511,7 @@ export const recipes = [
     id: "9d99aeca-c456-4df6-9e6e-0a5d1a58d3cf",
     recipeName: "Classic Beef Steak with Garlic Butter",
     author: {
-      authorAvatar: "",
+      authorAvatar: "/authors/author-leah-chavez.jpeg",
       authorName: "Leah Chavez",
       authorDatePosted: "17 June 2020",
     },
@@ -586,7 +586,7 @@ export const recipes = [
     id: "a2ef0b5b-6215-4062-bd23-ce010e5edb53",
     recipeName: "BBQ Pork Ribs",
     author: {
-      authorAvatar: "",
+      authorAvatar: "/authors/author-madelyn-chavez.jpeg",
       authorName: "Madelyn Chavez",
       authorDatePosted: "21 March 2023",
     },
@@ -657,7 +657,7 @@ export const recipes = [
     id: "786b9a6d-6611-476b-becb-59db7f3cb286",
     recipeName: "Spicy Chicken Wings",
     author: {
-      authorAvatar: "",
+      authorAvatar: "/authors/author-maria-miller.jpeg",
       authorName: "Maria Miller",
       authorDatePosted: "27 January 2021",
     },
@@ -728,7 +728,7 @@ export const recipes = [
     id: "4c53dce4-5ab2-4411-841c-35dc19bdaf88",
     recipeName: "Lamb Chops with Rosemary",
     author: {
-      authorAvatar: "",
+      authorAvatar: "/authors/author-gabriella-kim.jpeg",
       authorName: "Gabriella Kim",
       authorDatePosted: "15 March 2023",
     },
@@ -794,7 +794,7 @@ export const recipes = [
     id: "10fa3cdc-5e37-4e44-8c95-4315329f8bfc",
     recipeName: "Ground Beef Tacos",
     author: {
-      authorAvatar: "",
+      authorAvatar: "/authors/author-penelope-martin.jpeg",
       authorName: "Penelope Martin",
       authorDatePosted: "14 May 2022",
     },
@@ -868,7 +868,7 @@ export const recipes = [
     id: "f2450814-bf40-4ef0-a97d-34fd7498e123",
     recipeName: "Meatballs in Marinara Sauce",
     author: {
-      authorAvatar: "",
+      authorAvatar: "/authors/author-delilah-harris.jpeg",
       authorName: "Delilah Harris",
       authorDatePosted: "18 November 2023",
     },
@@ -938,7 +938,7 @@ export const recipes = [
     id: "50fff391-1afb-4e2d-8a11-fa28fda28057",
     recipeName: "Honey Garlic Pork Chops",
     author: {
-      authorAvatar: "",
+      authorAvatar: "/authors/author-naomi-ramos.jpeg",
       authorName: "Naomi Ramos",
       authorDatePosted: "28 November 2023",
     },
@@ -1014,7 +1014,7 @@ export const recipes = [
     id: "782d25ca-8bae-477e-9721-045f46466cab",
     recipeName: "Beef Stroganoff",
     author: {
-      authorAvatar: "",
+      authorAvatar: "/authors/author-camila-collins.jpeg",
       authorName: "Camila Collins",
       authorDatePosted: "31 August 2022",
     },
@@ -1092,7 +1092,7 @@ export const recipes = [
     id: "c3f866ce-addc-40cc-9e71-d52d88cb5fae",
     recipeName: "Grilled T-Bone Steak with Herb Butter",
     author: {
-      authorAvatar: "",
+      authorAvatar: "/authors/author-paisley-price.jpeg",
       authorName: "Paisley Price",
       authorDatePosted: "03 July 2024",
     },
@@ -1167,7 +1167,7 @@ export const recipes = [
     id: "c79e19c3-758e-4693-8edd-f2a5d81e9950",
     recipeName: "Teriyaki Chicken",
     author: {
-      authorAvatar: "",
+      authorAvatar: "/authors/author-eleanor-wright.jpeg",
       authorName: "Eleanor Wright",
       authorDatePosted: "25 December 2023",
     },
@@ -1243,7 +1243,7 @@ export const recipes = [
     id: "1ab983b9-434c-40c8-a2fc-ec793b1c71d2",
     recipeName: "Classic Chocolate Brownies",
     author: {
-      authorAvatar: "",
+      authorAvatar: "/authors/author-leonardo-campbell.jpeg",
       authorName: "Leonardo Campbell",
       authorDatePosted: "17 September 2024",
     },
@@ -1337,7 +1337,7 @@ export const recipes = [
     id: "ed874a8f-6e61-4634-9d69-6baf3a92dea0",
     recipeName: "Strawberry Cheesecake",
     author: {
-      authorAvatar: "",
+      authorAvatar: "/authors/author-thomas-moore.jpeg",
       authorName: "Thomas Moore",
       authorDatePosted: "01 September 2023",
     },
@@ -1445,7 +1445,7 @@ export const recipes = [
     id: "6d437096-964c-44f3-ae7d-e7e1b55dd07b",
     recipeName: "Vanilla Panna Cotta",
     author: {
-      authorAvatar: "",
+      authorAvatar: "/authors/author-andrew-wilson.jpeg",
       authorName: "Andrew Wilson",
       authorDatePosted: "06 April 2022",
     },
@@ -1519,7 +1519,7 @@ export const recipes = [
     id: "82fa3073-4775-4e52-a527-86ed3bc56902",
     recipeName: "Molten Lava Cake",
     author: {
-      authorAvatar: "",
+      authorAvatar: "/authors/author-santiago-jones.jpeg",
       authorName: "Santiago Jones",
       authorDatePosted: "20 April 2022",
     },
@@ -1590,7 +1590,7 @@ export const recipes = [
     id: "5a337ea1-2677-4a41-b5f5-014812285a46",
     recipeName: "Apple Crisp",
     author: {
-      authorAvatar: "",
+      authorAvatar: "/authors/author-leonardo-parker.jpeg",
       authorName: "Leonardo Parker",
       authorDatePosted: "05 June 2022",
     },
@@ -1676,7 +1676,7 @@ export const recipes = [
     id: "b2b8493e-0edf-499f-a4ef-6ce3953846a2",
     recipeName: "Coconut Macaroons",
     author: {
-      authorAvatar: "",
+      authorAvatar: "/authors/author-colton-wood.jpeg",
       authorName: "Colton Wood",
       authorDatePosted: "25 November 2023",
     },
@@ -1735,7 +1735,7 @@ export const recipes = [
     id: "2bf6da94-7011-4630-ac63-a72600c97f6a",
     recipeName: "Lemon Bars",
     author: {
-      authorAvatar: "",
+      authorAvatar: "/authors/author-nathan-hill.jpeg",
       authorName: "Nathan Hill",
       authorDatePosted: "28 December 2024",
     },
@@ -1816,7 +1816,7 @@ export const recipes = [
     id: "ed433054-6aec-4fb9-aae3-3d6dae387b9a",
     recipeName: "Grilled Chicken Caesar Wrap",
     author: {
-      authorAvatar: "",
+      authorAvatar: "/authors/author-beau-murphy.jpeg",
       authorName: "Beau Murphy",
       authorDatePosted: "19 October 2023",
     },
@@ -1892,7 +1892,7 @@ export const recipes = [
     id: "5a6ad972-877b-4c59-b45d-58daca2c1cf1",
     recipeName: "Classic BLT Sandwich",
     author: {
-      authorAvatar: "",
+      authorAvatar: "/authors/author-jose-king.jpeg",
       authorName: "Jose King",
       authorDatePosted: "12 November 2024",
     },
@@ -1963,7 +1963,7 @@ export const recipes = [
     id: "6be5ffdc-5589-4fd2-aab7-74bc9f1b8676",
     recipeName: "Veggie Stir-Fry with Tofu",
     author: {
-      authorAvatar: "",
+      authorAvatar: "/authors/author-aaron-martinez.jpeg",
       authorName: "Aaron Martinez",
       authorDatePosted: "01 October 2020",
     },
@@ -2043,7 +2043,7 @@ export const recipes = [
     id: "802a6612-3b24-448c-be06-947c9ff90555",
     recipeName: "Tuna Salad Sandwich",
     author: {
-      authorAvatar: "",
+      authorAvatar: "/authors/author-joseph-anderson.jpeg",
       authorName: "Joseph Anderson",
       authorDatePosted: "06 January 2021",
     },
@@ -2115,7 +2115,7 @@ export const recipes = [
     id: "5f981c96-9472-4153-807a-1fb02e4a0c58",
     recipeName: "Shrimp & Avocado Salad",
     author: {
-      authorAvatar: "",
+      authorAvatar: "/authors/author-jose-ortiz.jpeg",
       authorName: "Jose Ortiz",
       authorDatePosted: "28 September 2024",
     },
@@ -2194,7 +2194,7 @@ export const recipes = [
     id: "f5970fa0-ea7b-4faa-a8e1-0084d740b185",
     recipeName: "Beef & Cheese Quesadilla",
     author: {
-      authorAvatar: "",
+      authorAvatar: "/authors/author-owen-richardson.jpeg",
       authorName: "Owen Richardson",
       authorDatePosted: "20 December 2022",
     },
@@ -2267,7 +2267,7 @@ export const recipes = [
     id: "e591f40c-caba-4e66-b308-7ff26e64c474",
     recipeName: "Classic Chocolate Brownies",
     author: {
-      authorAvatar: "",
+      authorAvatar: "/authors/author-abigail-phillips.jpeg",
       authorName: "Abigail Phillips",
       authorDatePosted: "09 August 2020",
     },
@@ -2351,7 +2351,7 @@ export const recipes = [
     id: "64198e89-944b-4ca4-b70d-2e462fb0e809",
     recipeName: "Chocolate Lava Cake",
     author: {
-      authorAvatar: "",
+      authorAvatar: "/authors/author-paisley-ramirez.jpeg",
       authorName: "Paisley Ramirez",
       authorDatePosted: "29 July 2023",
     },
@@ -2432,7 +2432,7 @@ export const recipes = [
     id: "bae38cff-d339-4279-b1ea-e9aefd796e74",
     recipeName: "Chocolate Chip Cookies",
     author: {
-      authorAvatar: "",
+      authorAvatar: "/authors/author-brooklyn-hill.jpeg",
       authorName: "Brooklyn Hill",
       authorDatePosted: "09 June 2023",
     },
@@ -2520,7 +2520,7 @@ export const recipes = [
     id: "0683800e-c59d-421e-8664-ae5a6a4af93c",
     recipeName: "Chocolate Mousse",
     author: {
-      authorAvatar: "",
+      authorAvatar: "/authors/author-gianna-gray.jpeg",
       authorName: "Gianna Gray",
       authorDatePosted: "18 January 2020",
     },
@@ -2591,7 +2591,7 @@ export const recipes = [
     id: "905f2b31-5ea6-4a6e-8cd1-711a7886297d",
     recipeName: "Hot Chocolate",
     author: {
-      authorAvatar: "",
+      authorAvatar: "/authors/author-cora-rodriguez.jpeg",
       authorName: "Cora Rodriguez",
       authorDatePosted: "20 November 2020",
     },
@@ -2661,7 +2661,7 @@ export const recipes = [
     id: "8bccf9e2-77b6-4fa0-83a6-a1303c4c4c3f",
     recipeName: "Chocolate Pancakes",
     author: {
-      authorAvatar: "",
+      authorAvatar: "/authors/author-abigail-reed.jpeg",
       authorName: "Abigail Reed",
       authorDatePosted: "31 March 2024",
     },
@@ -2741,7 +2741,7 @@ export const recipes = [
     id: "47b68820-c540-4580-a2fd-c478a9f2b3e7",
     recipeName: "Garlic Butter Chicken Breast",
     author: {
-      authorAvatar: "",
+      authorAvatar: "/authors/author-logan-james.jpeg",
       authorName: "Logan James",
       authorDatePosted: "01 January 2024",
     },
@@ -2826,7 +2826,7 @@ export const recipes = [
     id: "1baa6927-f3cb-4f3a-ad51-52c762e78875",
     recipeName: "Honey Mustard Chicken Thighs",
     author: {
-      authorAvatar: "",
+      authorAvatar: "/authors/author-joseph-smith.jpeg",
       authorName: "Joseph Smith",
       authorDatePosted: "05 December 2023",
     },
@@ -2910,7 +2910,7 @@ export const recipes = [
     id: "0e5b6d5a-03e5-40eb-b50d-aa3013088919",
     recipeName: "Spicy Grilled Chicken Wings",
     author: {
-      authorAvatar: "",
+      authorAvatar: "/authors/author-landon-lee.jpeg",
       authorName: "Landon Lee",
       authorDatePosted: "26 July 2021",
     },
@@ -2994,7 +2994,7 @@ export const recipes = [
     id: "71206948-7d3b-485c-bb68-c2baeeb2496f",
     recipeName: "Creamy Chicken Alfredo",
     author: {
-      authorAvatar: "",
+      authorAvatar: "/authors/author-liam-clark.jpeg",
       authorName: "Liam Clark",
       authorDatePosted: "28 August 2020",
     },
@@ -3078,7 +3078,7 @@ export const recipes = [
     id: "0c176541-5fd9-4d28-ba17-5e61d7a62af0",
     recipeName: "Lemon Herb Roasted Chicken",
     author: {
-      authorAvatar: "",
+      authorAvatar: "/authors/author-jonathan-williams.jpeg",
       authorName: "Jonathan Williams",
       authorDatePosted: "11 August 2022",
     },
@@ -3167,7 +3167,7 @@ export const recipes = [
     id: "c050d959-b2aa-418b-9e75-db5a9c500057",
     recipeName: "Garlic Butter Shrimp Scampi",
     author: {
-      authorAvatar: "",
+      authorAvatar: "/authors/author-levi-foster.jpeg",
       authorName: "Levi Foster",
       authorDatePosted: "02 July 2023",
     },
@@ -3280,7 +3280,7 @@ export const recipes = [
     id: "580b7242-ceed-4edb-a031-9e56ca87895c",
     recipeName: "Grilled Salmon with Honey Garlic Glaze",
     author: {
-      authorAvatar: "",
+      authorAvatar: "/authors/author-aiden-green.jpeg",
       authorName: "Aiden Green",
       authorDatePosted: "07 May 2023",
     },
@@ -3375,7 +3375,7 @@ export const recipes = [
     id: "d8ef8aa6-eb8c-4df8-acad-a2b6f791edb8",
     recipeName: "Lemon Garlic Butter Scallops",
     author: {
-      authorAvatar: "",
+      authorAvatar: "/authors/author-leonardo-rodriguez.jpeg",
       authorName: "Leonardo Rodriguez",
       authorDatePosted: "08 September 2020",
     },
@@ -3461,7 +3461,7 @@ export const recipes = [
     id: "4d4c126f-4f98-4a55-b1c3-788ffa6484db",
     recipeName: "Creamy Garlic Parmesan Lobster Tail",
     author: {
-      authorAvatar: "",
+      authorAvatar: "/authors/author-micah-nguyen.jpeg",
       authorName: "Micah Nguyen",
       authorDatePosted: "16 December 2021",
     },
@@ -3546,7 +3546,7 @@ export const recipes = [
     id: "704a6695-40d8-4129-b592-bf3dd4e0d3b9",
     recipeName: "Classic New England Clam Chowder",
     author: {
-      authorAvatar: "",
+      authorAvatar: "/authors/author-luca-bennett.jpeg",
       authorName: "Luca Bennett",
       authorDatePosted: "20 November 2024",
     },
@@ -3642,7 +3642,7 @@ export const recipes = [
     id: "8d3fe216-af97-4e03-920a-fc5e52e34c4f",
     recipeName: "Lobster Roll",
     author: {
-      authorAvatar: "",
+      authorAvatar: "/authors/author-carter-scott.jpeg",
       authorName: "Carter Scott",
       authorDatePosted: "02 February 2024",
     },
@@ -3733,7 +3733,7 @@ export const recipes = [
     id: "0a17147a-5506-4bf9-8efd-365ad86fcec9",
     recipeName: "Seared Tuna Steaks with Avocado Salsa",
     author: {
-      authorAvatar: "",
+      authorAvatar: "/authors/author-christian-bailey.jpeg",
       authorName: "Christian Bailey",
       authorDatePosted: "05 September 2022",
     },
@@ -3819,7 +3819,7 @@ export const recipes = [
     id: "ce063fec-6bf7-4521-ac64-a54736d1427c",
     recipeName: "Baked Cod with Garlic and Herb Crust",
     author: {
-      authorAvatar: "",
+      authorAvatar: "/authors/author-parker-cruz.jpeg",
       authorName: "Parker Cruz",
       authorDatePosted: "08 April 2023",
     },
@@ -3909,7 +3909,7 @@ export const recipes = [
     id: "87e0dd83-3480-41f7-aaa6-6a72b71d3c87",
     recipeName: "Crispy Fish Tacos",
     author: {
-      authorAvatar: "",
+      authorAvatar: "/authors/author-liam-davis.jpeg",
       authorName: "Liam Davis",
       authorDatePosted: "03 May 2020",
     },
@@ -4015,7 +4015,7 @@ export const recipes = [
     id: "78e62f43-4f7f-47a4-b480-b3f0312adcdb",
     recipeName: "Crispy Calamari with Lemon Aioli",
     author: {
-      authorAvatar: "",
+      authorAvatar: "/authors/author-jeremiah-white.jpeg",
       authorName: "Jeremiah White",
       authorDatePosted: "28 January 2022",
     },
@@ -4124,7 +4124,7 @@ export const recipes = [
     id: "da9e8c2b-b692-4c10-8e59-908e163ef505",
     recipeName: "Mussels in White Wine Sauce",
     author: {
-      authorAvatar: "",
+      authorAvatar: "/authors/author-jacob-wilson.jpeg",
       authorName: "Jacob Wilson",
       authorDatePosted: "31 August 2023",
     },
@@ -4215,7 +4215,7 @@ export const recipes = [
     id: "c4ce15bd-64e1-47bd-b2d2-c1d4f18b40ed",
     recipeName: "Grilled Salmon with Mango Salsa",
     author: {
-      authorAvatar: "",
+      authorAvatar: "/authors/author-maverick-lopez.jpeg",
       authorName: "Maverick Lopez",
       authorDatePosted: "24 April 2021",
     },
@@ -4308,7 +4308,7 @@ export const recipes = [
     id: "883b4244-f167-4d57-aae2-ad185c096c58",
     recipeName: "Seafood Paella",
     author: {
-      authorAvatar: "",
+      authorAvatar: "/authors/author-wesley-ortiz.jpeg",
       authorName: "Wesley Ortiz",
       authorDatePosted: "28 February 2022",
     },
@@ -4418,7 +4418,7 @@ export const recipes = [
     id: "5d7b0dbf-36b9-448e-b88c-f573682b34d8",
     recipeName: "Shrimp and Avocado Salad",
     author: {
-      authorAvatar: "",
+      authorAvatar: "/authors/author-parker-morales.jpeg",
       authorName: "Parker Morales",
       authorDatePosted: "28 April 2022",
     },
@@ -4531,7 +4531,7 @@ export const recipes = [
     id: "86c088c2-df01-4573-876f-23595e67fc92",
     recipeName: "Seafood Risotto",
     author: {
-      authorAvatar: "",
+      authorAvatar: "/authors/author-walker-ward.jpeg",
       authorName: "Walker Ward",
       authorDatePosted: "23 October 2024",
     },
@@ -4652,7 +4652,7 @@ export const recipes = [
     id: "0d23f882-5ff3-416a-a5f5-002a4e952892",
     recipeName: "Pan-Seared Scallops with Garlic Butter Sauce",
     author: {
-      authorAvatar: "",
+      authorAvatar: "/authors/author-ezekiel-robinson.jpeg",
       authorName: "Ezekiel Robinson",
       authorDatePosted: "29 March 2020",
     },
@@ -4745,7 +4745,7 @@ export const recipes = [
     id: "12e7902f-a2e5-4e53-af1f-8d5859befa02",
     recipeName: "Grilled Chicken Caesar Salad",
     author: {
-      authorAvatar: "",
+      authorAvatar: "/authors/author-greyson-long.jpeg",
       authorName: "Greyson Long",
       authorDatePosted: "29 January 2023",
     },
@@ -4831,7 +4831,7 @@ export const recipes = [
     id: "f46cc74a-a9d6-400e-a77e-c8733ad7b67c",
     recipeName: "Greek Salad",
     author: {
-      authorAvatar: "",
+      authorAvatar: "/authors/author-jackson-johnson.jpeg",
       authorName: "Jackson Johnson",
       authorDatePosted: "09 February 2022",
     },
@@ -4926,7 +4926,7 @@ export const recipes = [
     id: "29bfaa2a-394c-4048-bac1-032a4d3955ad",
     recipeName: "Quinoa and Avocado Salad",
     author: {
-      authorAvatar: "",
+      authorAvatar: "/authors/author-cameron-mendoza.jpeg",
       authorName: "Cameron Mendoza",
       authorDatePosted: "21 December 2021",
     },
@@ -5016,7 +5016,7 @@ export const recipes = [
     id: "3e9757e5-3709-49ab-8c7b-a629f8880fca",
     recipeName: "Caprese Salad",
     author: {
-      authorAvatar: "",
+      authorAvatar: "/authors/author-isaac-foster.jpeg",
       authorName: "Isaac Foster",
       authorDatePosted: "27 June 2021",
     },
@@ -5089,7 +5089,7 @@ export const recipes = [
     id: "a012280e-600a-4630-a5ac-de1c549c2ae8",
     recipeName: "Spinach and Strawberry Salad",
     author: {
-      authorAvatar: "",
+      authorAvatar: "/authors/author-christian-rodriguez.jpeg",
       authorName: "Christian Rodriguez",
       authorDatePosted: "11 November 2024",
     },
@@ -5176,7 +5176,7 @@ export const recipes = [
     id: "fc302d42-a2c9-4fe8-ad80-46252c50932d",
     recipeName: "Roasted Beetroot and Goat Cheese Salad",
     author: {
-      authorAvatar: "",
+      authorAvatar: "/authors/author-samuel-parker.jpeg",
       authorName: "Samuel Parker",
       authorDatePosted: "30 November 2023",
     },
@@ -5263,7 +5263,7 @@ export const recipes = [
     id: "28516af2-537b-4ff6-95f7-c11e4908fd94",
     recipeName: "Asian Cabbage Salad with Sesame Dressing",
     author: {
-      authorAvatar: "",
+      authorAvatar: "/authors/author-isaiah-ross.jpeg",
       authorName: "Isaiah Ross",
       authorDatePosted: "01 August 2022",
     },
@@ -5366,7 +5366,7 @@ export const recipes = [
     id: "dcf439ce-f71b-4305-b67e-141e93a03138",
     recipeName: "Chickpea and Avocado Salad",
     author: {
-      authorAvatar: "",
+      authorAvatar: "/authors/author-julian-mitchell.jpeg",
       authorName: "Julian Mitchell",
       authorDatePosted: "20 March 2021",
     },
@@ -5453,7 +5453,7 @@ export const recipes = [
     id: "c223c4f2-0eb1-4d12-a54d-8ab73f5a4bb0",
     recipeName: "Classic Tomato Soup",
     author: {
-      authorAvatar: "",
+      authorAvatar: "/authors/author-maya-gray.jpeg",
       authorName: "Maya Gray",
       authorDatePosted: "15 October 2021",
     },
@@ -5548,7 +5548,7 @@ export const recipes = [
     id: "f5e51349-bddf-452a-ba9d-c0c6f2bd4424",
     recipeName: "Chicken and Vegetable Soup",
     author: {
-      authorAvatar: "",
+      authorAvatar: "/authors/author-everly-morris.jpeg",
       authorName: "Everly Morris",
       authorDatePosted: "27 September 2021",
     },
@@ -5651,7 +5651,7 @@ export const recipes = [
     id: "3b81aa6e-3ae0-4bc5-aa14-1c5b0956cc1c",
     recipeName: "Lentil Soup",
     author: {
-      authorAvatar: "",
+      authorAvatar: "/authors/author-isabella-lee.jpeg",
       authorName: "Isabella Lee",
       authorDatePosted: "16 December 2021",
     },
@@ -5752,7 +5752,7 @@ export const recipes = [
     id: "b499f36a-332d-4b46-acee-b5ac3eca4173",
     recipeName: "Creamy Potato Leek Soup",
     author: {
-      authorAvatar: "",
+      authorAvatar: "/authors/author-hailey-campbell.jpeg",
       authorName: "Hailey Campbell",
       authorDatePosted: "22 November 2024",
     },
@@ -5838,7 +5838,7 @@ export const recipes = [
     id: "74f81694-24bc-4236-9081-96729d0e2e0b",
     recipeName: "Minestrone Soup",
     author: {
-      authorAvatar: "",
+      authorAvatar: "/authors/author-sophie-harris.jpeg",
       authorName: "Sophie Harris",
       authorDatePosted: "13 August 3020",
     },
@@ -5945,7 +5945,7 @@ export const recipes = [
     id: "6b1a4fef-8d3c-410c-bd1d-63035f21b431",
     recipeName: "Creamy Tomato Basil Soup",
     author: {
-      authorAvatar: "",
+      authorAvatar: "/authors/author-ariana-ortiz.jpeg",
       authorName: "Ariana Ortiz",
       authorDatePosted: "06 April 2023",
     },
@@ -6040,7 +6040,7 @@ export const recipes = [
     id: "0030da8f-1427-4e74-81cf-69f4ca2488a0",
     recipeName: "Spicy Thai Coconut Shrimp Soup",
     author: {
-      authorAvatar: "",
+      authorAvatar: "/authors/author-quinn-morgan.jpeg",
       authorName: "Quinn Morgan",
       authorDatePosted: "26 March 2023",
     },
@@ -6173,7 +6173,7 @@ export const recipes = [
     id: "f610949e-ba7d-4071-a0a6-3489c8dbecb3",
     recipeName: "Hearty Lentil and Vegetable Soup",
     author: {
-      authorAvatar: "",
+      authorAvatar: "/authors/author-sophia-richardson.jpeg",
       authorName: "Sophia Richardson",
       authorDatePosted: "28 September 2023",
     },
@@ -6297,7 +6297,7 @@ export const recipes = [
     id: "24ee89d5-8639-41d7-a766-143ccbf53b18",
     recipeName: "Classic Spaghetti Carbonara",
     author: {
-      authorAvatar: "",
+      authorAvatar: "/authors/author-logan-roberts.jpeg",
       authorName: "Logan Roberts",
       authorDatePosted: "12 March 2021",
     },
@@ -6388,7 +6388,7 @@ export const recipes = [
     id: "f6941272-eee0-4f85-81d0-5cf9d2b8acd1",
     recipeName: "Creamy Garlic Parmesan Fettuccine",
     author: {
-      authorAvatar: "",
+      authorAvatar: "/authors/author-axel-thomas.jpeg",
       authorName: "Axel Thomas",
       authorDatePosted: "07 May 2022",
     },
@@ -6487,7 +6487,7 @@ export const recipes = [
     id: "e7dc0e93-60a9-445c-ac72-21ef14977da1",
     recipeName: "Spicy Shrimp Penne Arrabbiata",
     author: {
-      authorAvatar: "",
+      authorAvatar: "/authors/author-elijah-hughes.jpeg",
       authorName: "Elijah Hughes",
       authorDatePosted: "16 December 2020",
     },
@@ -6590,7 +6590,7 @@ export const recipes = [
     id: "4f752548-6b6f-4ffb-a652-8d304b40461f",
     recipeName: "Pesto Chicken Pasta",
     author: {
-      authorAvatar: "",
+      authorAvatar: "/authors/author-parker-anderson.jpeg",
       authorName: "Parker Anderson",
       authorDatePosted: "01 November 2023",
     },
@@ -6680,7 +6680,7 @@ export const recipes = [
     id: "d07b2572-04db-4913-9413-749b55e12b97",
     recipeName: "Baked Ziti with Ricotta and Mozzarella",
     author: {
-      authorAvatar: "",
+      authorAvatar: "/authors/author-daniel-bennett.jpeg",
       authorName: "Daniel Bennett",
       authorDatePosted: "11 March 2021",
     },
@@ -6774,7 +6774,7 @@ export const recipes = [
     id: "137db798-9773-447e-b8b1-1d4d2c683c1f",
     recipeName: "Lemon Garlic Butter Linguine",
     author: {
-      authorAvatar: "",
+      authorAvatar: "/authors/author-isaiah-young.jpeg",
       authorName: "Isaiah Young",
       authorDatePosted: "27 January 2020",
     },
@@ -6873,7 +6873,7 @@ export const recipes = [
     id: "67799cdc-f660-4b0b-90a7-664988314488",
     recipeName: "Mushroom and Spinach Penne",
     author: {
-      authorAvatar: "",
+      authorAvatar: "/authors/author-mateo-young.jpeg",
       authorName: "Mateo Young",
       authorDatePosted: "13 May 2021",
     },
@@ -6976,7 +6976,7 @@ export const recipes = [
     id: "ed63355f-0a27-4e8a-9713-8c5000209d81",
     recipeName: "Cajun Chicken Alfredo",
     author: {
-      authorAvatar: "",
+      authorAvatar: "/authors/author-angel-ward.jpeg",
       authorName: "Angel Ward",
       authorDatePosted: "08 April 2024",
     },
@@ -7079,7 +7079,7 @@ export const recipes = [
     id: "61be4370-0c76-4b07-a2bb-0e7c7c6183f8",
     recipeName: "Sun-Dried Tomato and Basil Farfalle",
     author: {
-      authorAvatar: "",
+      authorAvatar: "/authors/author-elijah-jackson.jpeg",
       authorName: "Elijah Jackson",
       authorDatePosted: "09 July 2022",
     },
@@ -7178,7 +7178,7 @@ export const recipes = [
     id: "2a684d84-dfca-49ee-b182-80b652d94044",
     recipeName: "Beef and Tomato Rigatoni",
     author: {
-      authorAvatar: "",
+      authorAvatar: "/authors/author-aaron-lopez.jpeg",
       authorName: "Aaron Lopez",
       authorDatePosted: "27 March 2021",
     },
@@ -7280,7 +7280,7 @@ export const recipes = [
     id: "9f7e36fc-ffec-4f45-bf8c-1208970a0daa",
     recipeName: "Pesto Shrimp Spaghetti",
     author: {
-      authorAvatar: "",
+      authorAvatar: "/authors/author-asher-reyes.jpeg",
       authorName: "Asher Reyes",
       authorDatePosted: "04 September 2024",
     },
@@ -7406,7 +7406,7 @@ export const recipes = [
     id: "e4334db4-9366-4944-9783-f7627e4e44f7",
     recipeName: "Carbonara with Pancetta and Peas",
     author: {
-      authorAvatar: "",
+      authorAvatar: "/authors/author-elijah-taylor.jpeg",
       authorName: "Elijah Taylor",
       authorDatePosted: "17 May 2023",
     },
@@ -7501,7 +7501,7 @@ export const recipes = [
     id: "e3ab0d74-ae27-435b-b104-a89d7cac542e",
     recipeName: "Creamy Tuscan Chicken Pasta",
     author: {
-      authorAvatar: "",
+      authorAvatar: "/authors/author-gabriel-jimenez.jpeg",
       authorName: "Gabriel Jimenez",
       authorDatePosted: "06 August 2022",
     },
@@ -7612,7 +7612,7 @@ export const recipes = [
     id: "593d30a7-4ceb-46b2-8168-1ba99c5f7e5f",
     recipeName: "Spicy Arrabbiata Rigatoni",
     author: {
-      authorAvatar: "",
+      authorAvatar: "/authors/author-mason-alvarez.jpeg",
       authorName: "Mason Alvarez",
       authorDatePosted: "07 June 2021",
     },
@@ -7716,7 +7716,7 @@ export const recipes = [
     id: "e79971f7-1e6a-46d6-b248-b1162854adb2",
     recipeName: "Mango Coconut Smoothie",
     author: {
-      authorAvatar: "",
+      authorAvatar: "/authors/author-sebastian-castillo.jpeg",
       authorName: "Sebastian Castillo",
       authorDatePosted: "24 May 2022",
     },
@@ -7796,7 +7796,7 @@ export const recipes = [
     id: "6dd4dcd4-4e01-4b1e-a20d-352010b2b1cf",
     recipeName: "Iced Matcha Latte",
     author: {
-      authorAvatar: "",
+      authorAvatar: "/authors/author-sebastian-bennett.jpeg",
       authorName: "Sebastian Bennett",
       authorDatePosted: "10 November 2023",
     },
@@ -7873,7 +7873,7 @@ export const recipes = [
     id: "ddfc827d-dadd-4879-be44-cb4031254726",
     recipeName: "Classic Hot Chocolate",
     author: {
-      authorAvatar: "",
+      authorAvatar: "/authors/author-ezra-turner.jpeg",
       authorName: "Ezra Turner",
       authorDatePosted: "28 February 2024",
     },
@@ -7961,7 +7961,7 @@ export const recipes = [
     id: "94fcbbdd-cc36-480c-9f8f-49eda7cc4b07",
     recipeName: "Fresh Lemonade",
     author: {
-      authorAvatar: "",
+      authorAvatar: "/authors/author-aiden-torres.jpeg",
       authorName: "Aiden Torres",
       authorDatePosted: "15 March 2020",
     },
@@ -8035,7 +8035,7 @@ export const recipes = [
     id: "732f5262-b566-47f0-a623-56a606ceb1ad",
     recipeName: "Strawberry Banana Protein Shake",
     author: {
-      authorAvatar: "",
+      authorAvatar: "/authors/author-maverick-brooks.jpeg",
       authorName: "Maverick Brooks",
       authorDatePosted: "24 September 2023",
     },
@@ -8116,7 +8116,7 @@ export const recipes = [
     id: "172cd1a7-8a1f-4173-a767-1c711b0720ad",
     recipeName: "Honey Ginger Tea",
     author: {
-      authorAvatar: "",
+      authorAvatar: "/authors/author-angel-stewart.jpeg",
       authorName: "Angel Stewart",
       authorDatePosted: "24 April 2020",
     },
@@ -8199,7 +8199,7 @@ export const recipes = [
     id: "fc2d4a1e-47b9-4c22-ad54-f4948d161e3d",
     recipeName: "Avocado Banana Smoothie",
     author: {
-      authorAvatar: "",
+      authorAvatar: "/authors/author-ryan-hall.jpeg",
       authorName: "Ryan Hall",
       authorDatePosted: "12 October 2023",
     },
@@ -8281,7 +8281,7 @@ export const recipes = [
     id: "a7a2130e-7791-4e1e-9ba9-fed3244e8f35",
     recipeName: "Spiced Apple Cider",
     author: {
-      authorAvatar: "",
+      authorAvatar: "/authors/author-thomas-richardson.jpeg",
       authorName: "Thomas Richardson",
       authorDatePosted: "26 May 2020",
     },
@@ -8376,7 +8376,7 @@ export const recipes = [
     id: "fa2b411d-0d0e-4c1b-8469-53a27583f13f",
     recipeName: "Grilled Salmon with Quinoa Salad",
     author: {
-      authorAvatar: "",
+      authorAvatar: "/authors/author-mason-harris.jpeg",
       authorName: "Mason Harris",
       authorDatePosted: "30 September 2024",
     },
@@ -8479,7 +8479,7 @@ export const recipes = [
     id: "16c9b901-ca50-4040-b609-92e36acb7075",
     recipeName: "Avocado Toast with Poached Egg",
     author: {
-      authorAvatar: "",
+      authorAvatar: "/authors/author-isaiah-evans.jpeg",
       authorName: "Isaiah Evans",
       authorDatePosted: "09 February 2024",
     },
@@ -8565,7 +8565,7 @@ export const recipes = [
     id: "abce9d8f-f4b0-4a52-8105-8ce6bc47b946",
     recipeName: "Chickpea and Spinach Stir-Fry",
     author: {
-      authorAvatar: "",
+      authorAvatar: "/authors/author-angel-ramirez.jpeg",
       authorName: "Angel Ramirez",
       authorDatePosted: "13 April 2021",
     },
@@ -8660,7 +8660,7 @@ export const recipes = [
     id: "92cde9ce-3a0d-4729-8cbc-e4cf158ad064",
     recipeName: "Greek Yogurt Berry Parfait",
     author: {
-      authorAvatar: "",
+      authorAvatar: "/authors/author-jose-cooper.jpeg",
       authorName: "Jose Cooper",
       authorDatePosted: "05 August 2020",
     },
@@ -8735,7 +8735,7 @@ export const recipes = [
     id: "c9ab6e00-c687-456a-bd10-704d6b605e64",
     recipeName: "Roasted Sweet Potato and Kale Salad",
     author: {
-      authorAvatar: "",
+      authorAvatar: "/authors/author-adam-sanchez.jpeg",
       authorName: "Adam Sanchez",
       authorDatePosted: "31 October 2021",
     },
@@ -8820,7 +8820,7 @@ export const recipes = [
     id: "8c175262-5cd0-4253-ab51-198bc51c1a52",
     recipeName: "Lentil and Vegetable Soup",
     author: {
-      authorAvatar: "",
+      authorAvatar: "/authors/author-landon-nelson.jpeg",
       authorName: "Landon Nelson",
       authorDatePosted: "17 May 2021",
     },
@@ -8930,7 +8930,7 @@ export const recipes = [
     id: "9cbf7188-0535-4299-83d2-82372cfd425f",
     recipeName: "Spinach and Mushroom Omelette",
     author: {
-      authorAvatar: "",
+      authorAvatar: "/authors/author-beau-clark.jpeg",
       authorName: "Beau Clark",
       authorDatePosted: "27 December 2022",
     },
@@ -9008,7 +9008,7 @@ export const recipes = [
     id: "6257a158-d13c-4db3-95af-8420b01ce2c6",
     recipeName: "Quinoa and Chickpea Bowl",
     author: {
-      authorAvatar: "",
+      authorAvatar: "/authors/author-nicholas-moore.jpeg",
       authorName: "Nicholas Moore",
       authorDatePosted: "10 May 2023",
     },
@@ -9097,7 +9097,7 @@ export const recipes = [
     id: "f59cec4c-a727-4989-8022-1ae2fe82e9d2",
     recipeName: "Grilled Chicken with Roasted Vegetables",
     author: {
-      authorAvatar: "",
+      authorAvatar: "/authors/author-isaiah-lewis.jpeg",
       authorName: "Isaiah Lewis",
       authorDatePosted: "11 December 2021",
     },
@@ -9192,7 +9192,7 @@ export const recipes = [
     id: "1ee63959-9b34-42c4-b82d-3f852577ff22",
     recipeName: "Chia Seed Pudding with Almond Milk",
     author: {
-      authorAvatar: "",
+      authorAvatar: "/authors/author-james-evans.jpeg",
       authorName: "James Evans",
       authorDatePosted: "16 December 2023",
     },
@@ -9260,7 +9260,7 @@ export const recipes = [
     id: "265d1cc0-b87b-4515-b6e2-a4487adba7a8",
     recipeName: "Avocado and Tuna Salad",
     author: {
-      authorAvatar: "",
+      authorAvatar: "/authors/author-david-murphy.jpeg",
       authorName: "David Murphy",
       authorDatePosted: "18 March 2024",
     },
@@ -9350,7 +9350,7 @@ export const recipes = [
     id: "2f673f51-fe2e-4ddc-8c42-5f0df5641152",
     recipeName: "Sweet Potato and Black Bean Tacos",
     author: {
-      authorAvatar: "",
+      authorAvatar: "/authors/author-matthew-cox.jpeg",
       authorName: "Matthew Cox",
       authorDatePosted: "27 January 2024",
     },
@@ -9453,7 +9453,7 @@ export const recipes = [
     id: "4c7ec649-67fe-48b6-b0a6-0d9f7087d751",
     recipeName: "Bibimbap (Korean Mixed Rice Bowl)",
     author: {
-      authorAvatar: "",
+      authorAvatar: "/authors/author-genesis-nguyen.jpeg",
       authorName: "Genesis Nguyen",
       authorDatePosted: "06 January 2021",
     },
@@ -9574,7 +9574,7 @@ export const recipes = [
     id: "eeb8e984-fa43-4883-af62-3ed191cb83be",
     recipeName: "Kimchi Jjigae (Kimchi Stew)",
     author: {
-      authorAvatar: "",
+      authorAvatar: "/authors/author-sophie-bennett.jpeg",
       authorName: "Sophie Bennett",
       authorDatePosted: "11 June 2021",
     },
@@ -9677,7 +9677,7 @@ export const recipes = [
     id: "d1451b96-c4f4-4a82-9b0f-a7fade8e0e1a",
     recipeName: "Japchae (Stir-Fried Glass Noodles)",
     author: {
-      authorAvatar: "",
+      authorAvatar: "/authors/author-nevaeh-rogers.jpeg",
       authorName: "Nevaeh Rogers",
       authorDatePosted: "23 August 2020",
     },
@@ -9778,7 +9778,7 @@ export const recipes = [
     id: "8af719fb-f54d-4509-80f0-00cf53f221b6",
     recipeName: "Tteokbokki (Spicy Rice Cakes)",
     author: {
-      authorAvatar: "",
+      authorAvatar: "/authors/author-isla-gutierrez.jpeg",
       authorName: "Isla Gutierrez",
       authorDatePosted: "08 September 2024",
     },
@@ -9868,7 +9868,7 @@ export const recipes = [
     id: "c7c53fc7-7c2a-4308-9a0e-c21e6ca0e9d7",
     recipeName: "Kimchi Fried Rice (Kimchi Bokkeumbap)",
     author: {
-      authorAvatar: "",
+      authorAvatar: "/authors/author-audrey-thomas.jpeg",
       authorName: "Audrey Thomas",
       authorDatePosted: "13 October 2022",
     },
@@ -9949,7 +9949,7 @@ export const recipes = [
     id: "6abcad5f-50fd-4870-8a0c-501edc1bd67a",
     recipeName: "Dakgalbi (Spicy Stir-Fried Chicken)",
     author: {
-      authorAvatar: "",
+      authorAvatar: "/authors/author-sophie-nelson.jpeg",
       authorName: "Sophie Nelson",
       authorDatePosted: "11 May 2023",
     },
@@ -10068,7 +10068,7 @@ export const recipes = [
     id: "54509911-3fee-41bd-8f57-cc26bc9854fd",
     recipeName: "Samgyeopsal (Korean Grilled Pork Belly)",
     author: {
-      authorAvatar: "",
+      authorAvatar: "/authors/author-penelope-ross.jpeg",
       authorName: "Penelope Ross",
       authorDatePosted: "07 November 2022",
     },
@@ -10173,7 +10173,7 @@ export const recipes = [
     id: "c90e2c49-2aa4-4d70-a054-10c8c0e16cd9",
     recipeName: "Sundubu Jjigae (Spicy Soft Tofu Stew)",
     author: {
-      authorAvatar: "",
+      authorAvatar: "/authors/author-anna-rodriguez.jpeg",
       authorName: "Anna Rodriguez",
       authorDatePosted: "06 April 2023",
     },
@@ -10290,7 +10290,7 @@ export const recipes = [
     id: "2de9e702-8a67-4a13-927b-43014d41b02e",
     recipeName: "Jjajangmyeon (Black Bean Noodles)",
     author: {
-      authorAvatar: "",
+      authorAvatar: "/authors/author-evelyn-rivera.jpeg",
       authorName: "Evelyn Rivera",
       authorDatePosted: "27 November 2021",
     },
@@ -10408,7 +10408,7 @@ export const recipes = [
     id: "103db46c-1825-4ff6-a269-c1b51f8f8cd8",
     recipeName: "Pad Thai (Stir-Fried Noodles)",
     author: {
-      authorAvatar: "",
+      authorAvatar: "/authors/author-andrew-kelly.jpeg",
       authorName: "Andrew Kelly",
       authorDatePosted: "01 January 2022",
     },
@@ -10532,7 +10532,7 @@ export const recipes = [
     id: "4a39074c-5104-4c12-b10f-dd9d9010b949",
     recipeName: "Tom Yum Goong (Spicy Shrimp Soup)",
     author: {
-      authorAvatar: "",
+      authorAvatar: "/authors/author-adam-ramirez.jpeg",
       authorName: "Adam Ramirez",
       authorDatePosted: "18 September 2023",
     },
@@ -10631,7 +10631,7 @@ export const recipes = [
     id: "005c6ea6-15c9-4a15-8811-573761e051f2",
     recipeName: "Green Curry (Gaeng Keow Wan)",
     author: {
-      authorAvatar: "",
+      authorAvatar: "/authors/author-angel-reed.jpeg",
       authorName: "Angel Reed",
       authorDatePosted: "19 August 2020",
     },
@@ -10729,7 +10729,7 @@ export const recipes = [
     id: "9aecb5cd-261a-4ac5-bdae-659c31695a27",
     recipeName: "Som Tum (Green Papaya Salad)",
     author: {
-      authorAvatar: "",
+      authorAvatar: "/authors/author-micah-long.jpeg",
       authorName: "Micah Long",
       authorDatePosted: "17 November 2023",
     },
@@ -10821,7 +10821,7 @@ export const recipes = [
     id: "dfee7b00-7d86-40ad-9af1-724ce04901fe",
     recipeName: "Thai Mango Sticky Rice (Khao Niew Mamuang)",
     author: {
-      authorAvatar: "",
+      authorAvatar: "/authors/author-gabriel-ramos.jpeg",
       authorName: "Gabriel Ramos",
       authorDatePosted: "16 January 2024",
     },
@@ -10903,7 +10903,7 @@ export const recipes = [
     id: "714f9fb6-1c62-4afd-bb7c-687d27b910af",
     recipeName: "Thai Basil Chicken (Pad Krapow Gai)",
     author: {
-      authorAvatar: "",
+      authorAvatar: "/authors/author-levi-turner.jpeg",
       authorName: "Levi Turner",
       authorDatePosted: "26 March 2024",
     },
@@ -11015,7 +11015,7 @@ export const recipes = [
     id: "0d4502e6-dce4-4c1e-969c-2a2eb1e71bb6",
     recipeName: "Thai Massaman Curry",
     author: {
-      authorAvatar: "",
+      authorAvatar: "/authors/author-julian-nguyen.jpeg",
       authorName: "Julian Nguyen",
       authorDatePosted: "12 September 2023",
     },
@@ -11131,7 +11131,7 @@ export const recipes = [
     id: "faa99d16-a0e3-4d47-bae1-a0ede4bb943d",
     recipeName: "Thai Larb (Spicy Minced Chicken Salad)",
     author: {
-      authorAvatar: "",
+      authorAvatar: "/authors/author-robert-gutierrez.jpeg",
       authorName: "Robert Gutierrez",
       authorDatePosted: "22 September 2024",
     },
@@ -11235,7 +11235,7 @@ export const recipes = [
     id: "262e3904-7f15-4705-b7f5-5f1e39cca29d",
     recipeName: "Thai Pineapple Fried Rice",
     author: {
-      authorAvatar: "",
+      authorAvatar: "/authors/author-colton-cruz.jpeg",
       authorName: "Colton Cruz",
       authorDatePosted: "10 September 2020",
     },
@@ -11352,7 +11352,7 @@ export const recipes = [
     id: "259806f5-e804-4fe6-9639-eed807ecd939",
     recipeName: "Chicken Teriyaki (照り焼きチキン)",
     author: {
-      authorAvatar: "",
+      authorAvatar: "/authors/author-josephine-murphy.jpeg",
       authorName: "Josephine Murphy",
       authorDatePosted: "28 June 2024",
     },
@@ -11460,7 +11460,7 @@ export const recipes = [
     id: "e8e9b2e0-f567-428c-a818-f3cfeead5059",
     recipeName: "Miso Soup (味噌汁)",
     author: {
-      authorAvatar: "",
+      authorAvatar: "/authors/author-liliana-adams.jpeg",
       authorName: "Liliana Adams",
       authorDatePosted: "05 September 2023",
     },
@@ -11539,7 +11539,7 @@ export const recipes = [
     id: "518b36c5-1382-4551-a6e8-f99ddebf7b7d",
     recipeName: "Japanese Tamago Sushi (卵寿司)",
     author: {
-      authorAvatar: "",
+      authorAvatar: "/authors/author-amelia-ward.jpeg",
       authorName: "Amelia Ward",
       authorDatePosted: "19 May 2023",
     },
@@ -11630,7 +11630,7 @@ export const recipes = [
     id: "250c9c14-b45a-41e7-8f11-ff5f17b0ccd5",
     recipeName: "Japanese Beef Gyudon (牛丼)",
     author: {
-      authorAvatar: "",
+      authorAvatar: "/authors/author-maria-wright.jpeg",
       authorName: "Maria Wright",
       authorDatePosted: "11 January 2020",
     },
@@ -11724,7 +11724,7 @@ export const recipes = [
     id: "663fe5d8-25da-43e4-bdfd-0b34c5eea71d",
     recipeName: "Japanese Matcha Cheesecake (抹茶チーズケーキ)",
     author: {
-      authorAvatar: "",
+      authorAvatar: "/authors/author-eleanor-morris.jpeg",
       authorName: "Eleanor Morris",
       authorDatePosted: "24 September 2023",
     },
@@ -11814,7 +11814,7 @@ export const recipes = [
     id: "79a9fb4e-768f-4680-a197-4b56c7628511",
     recipeName: "Tonkatsu (とんかつ) – Japanese Breaded Pork Cutlet",
     author: {
-      authorAvatar: "",
+      authorAvatar: "/authors/author-aria-rogers.jpeg",
       authorName: "Aria Rogers",
       authorDatePosted: "16 February 2022",
     },
@@ -11909,7 +11909,7 @@ export const recipes = [
     id: "2424a80a-0dc7-4635-8c97-19f009e9b677",
     recipeName: "Okonomiyaki (お好み焼き) – Japanese Savory Pancake",
     author: {
-      authorAvatar: "",
+      authorAvatar: "/authors/author-eloise-roberts.jpeg",
       authorName: "Eloise Roberts",
       authorDatePosted: "16 February 2020",
     },
@@ -12016,7 +12016,7 @@ export const recipes = [
     id: "3adf18f1-3d82-42f3-9479-0bf6497f23e0",
     recipeName: "Chawanmushi (茶碗蒸し) – Savory Steamed Egg Custard",
     author: {
-      authorAvatar: "",
+      authorAvatar: "/authors/author-ariana-clark.jpeg",
       authorName: "Ariana Clark",
       authorDatePosted: "24 December 2022",
     },
@@ -12110,7 +12110,7 @@ export const recipes = [
     id: "0e4f0405-1f92-4e46-918a-eb2adbbcf4ed",
     recipeName: "Yaki Udon (焼きうどん) – Stir-Fried Udon Noodles",
     author: {
-      authorAvatar: "",
+      authorAvatar: "/authors/author-athena-taylor.jpeg",
       authorName: "Athena Taylor",
       authorDatePosted: "19 June 2020",
     },
@@ -12212,7 +12212,7 @@ export const recipes = [
     id: "b6e28b81-ba20-45bc-b061-bb6f402cec81",
     recipeName: "Dorayaki (どら焼き) – Japanese Pancake with Red Bean Filling",
     author: {
-      authorAvatar: "",
+      authorAvatar: "/authors/author-eloise-james.jpeg",
       authorName: "Eloise James",
       authorDatePosted: "25 January 2022",
     },
@@ -12297,7 +12297,7 @@ export const recipes = [
     id: "7cb9317e-39d5-4e3b-ae56-1240f3cfa6d3",
     recipeName: "Gyudon (牛丼) – Japanese Beef Bowl",
     author: {
-      authorAvatar: "",
+      authorAvatar: "/authors/author-natalia-brown.jpeg",
       authorName: "Natalia Brown",
       authorDatePosted: "01 September 2023",
     },
@@ -12404,7 +12404,7 @@ export const recipes = [
     id: "ea36df73-fbf9-4140-8df6-24b4fe19d53c",
     recipeName: "Tamagoyaki (卵焼き) – Japanese Rolled Omelet",
     author: {
-      authorAvatar: "",
+      authorAvatar: "/authors/author-mia-murphy.jpeg",
       authorName: "Mia Murphy",
       authorDatePosted: "31 January 2024",
     },
@@ -12492,7 +12492,7 @@ export const recipes = [
     recipeName:
       "Zaru Soba (ざるそば) – Chilled Buckwheat Noodles with Dipping Sauce",
     author: {
-      authorAvatar: "",
+      authorAvatar: "/authors/author-lucy-roberts.jpeg",
       authorName: "Lucy Roberts",
       authorDatePosted: "28 February 2021",
     },
@@ -12583,7 +12583,7 @@ export const recipes = [
     id: "0336989f-42d7-4f63-813a-395e178e5853",
     recipeName: "Kung Pao Chicken (宫保鸡丁)",
     author: {
-      authorAvatar: "",
+      authorAvatar: "/authors/author-santiago-sanchez.jpeg",
       authorName: "Santiago Sanchez",
       authorDatePosted: "19 August 2023",
     },
@@ -12718,7 +12718,7 @@ export const recipes = [
     id: "f08eca0d-88ff-4430-9e5e-44b542480d4f",
     recipeName: "Mapo Tofu (麻婆豆腐)",
     author: {
-      authorAvatar: "",
+      authorAvatar: "/authors/author-nicholas-rodriguez.jpeg",
       authorName: "Nicholas Rodriguez",
       authorDatePosted: "14 February 2024",
     },
@@ -12835,7 +12835,7 @@ export const recipes = [
     id: "25c47efa-c487-407f-a9ad-857a890700d9",
     recipeName: "Sweet and Sour Pork (咕噜肉)",
     author: {
-      authorAvatar: "",
+      authorAvatar: "/authors/author-lincoln-young.jpeg",
       authorName: "Lincoln Young",
       authorDatePosted: "03 June 2024",
     },
@@ -12961,7 +12961,7 @@ export const recipes = [
     id: "32a709db-22b3-444a-8f24-2b7a7848bef0",
     recipeName: "Chinese Scallion Pancakes (葱油饼)",
     author: {
-      authorAvatar: "",
+      authorAvatar: "/authors/author-easton-torres.jpeg",
       authorName: "Easton Torres",
       authorDatePosted: "17 December 2023",
     },
@@ -13043,7 +13043,7 @@ export const recipes = [
     id: "8c6cf40b-1a17-404c-ab21-df4de686dd04",
     recipeName: "Hot and Sour Soup (酸辣汤)",
     author: {
-      authorAvatar: "",
+      authorAvatar: "/authors/author-ethan-rivera.jpeg",
       authorName: "Ethan Rivera",
       authorDatePosted: "09 June 2022",
     },
@@ -13130,7 +13130,7 @@ export const recipes = [
     id: "d1d62854-37a2-468f-81af-0c01a2a05dd2",
     recipeName: "Air Fryer Chicken Wings",
     author: {
-      authorAvatar: "",
+      authorAvatar: "/authors/author-jackson-sanchez.jpeg",
       authorName: "Jackson Sanchez",
       authorDatePosted: "28 December 2022",
     },
@@ -13213,7 +13213,7 @@ export const recipes = [
     id: "63233d19-18f5-4b2b-8de2-4dcf773a472f",
     recipeName: "Air Fryer Sweet Potato Fries",
     author: {
-      authorAvatar: "",
+      authorAvatar: "/authors/author-oliver-campbell.jpeg",
       authorName: "Oliver Campbell",
       authorDatePosted: "27 November 2021",
     },
@@ -13293,7 +13293,7 @@ export const recipes = [
     id: "13a206c1-9151-48d8-9198-66d73f608464",
     recipeName: "Air Fryer Veggie Fritters",
     author: {
-      authorAvatar: "",
+      authorAvatar: "/authors/author-carter-moore.jpeg",
       authorName: "Carter Moore",
       authorDatePosted: "19 September 2024",
     },
@@ -13389,7 +13389,7 @@ export const recipes = [
     id: "571b66de-65da-46ff-9a0e-6d1b49630c6b",
     recipeName: "Air Fryer Salmon",
     author: {
-      authorAvatar: "",
+      authorAvatar: "/authors/author-parker-cox.jpeg",
       authorName: "Parker Cox",
       authorDatePosted: "19 December 2023",
     },
