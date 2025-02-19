@@ -25,3 +25,8 @@ interface RecipeStepsProps {
 interface RecipeIngredientProps {
   recipeSteps: RecipeIngredientProps;
 }
+
+interface RecipeDirectionProps {
+  directionTitle: string;
+  directionDescription: string;
+}
