@@ -138,15 +138,15 @@ export const recipes = [
               ingredientsName: "tbsp vinegar (for poaching)",
             },
             {
-              ingredientsQuantity: "",
+              ingredientsQuantity: "-",
               ingredientsName: "Salt & black pepper to taste",
             },
             {
-              ingredientsQuantity: "",
+              ingredientsQuantity: "-",
               ingredientsName: "Red pepper flakes (optional)",
             },
             {
-              ingredientsQuantity: "",
+              ingredientsQuantity: "-",
               ingredientsName: "Lemon juice (optional)",
             },
           ],
@@ -298,7 +298,7 @@ export const recipes = [
               ingredientsName: "tsp garlic powder",
             },
             {
-              ingredientsQuantity: "",
+              ingredientsQuantity: "-",
               ingredientsName: "Salt & pepper to taste",
             },
             {
@@ -466,15 +466,15 @@ export const recipes = [
               ingredientsName: "tsp lemon juice",
             },
             {
-              ingredientsQuantity: "",
+              ingredientsQuantity: "-",
               ingredientsName: "Salt & black pepper to taste",
             },
             {
-              ingredientsQuantity: "",
+              ingredientsQuantity: "-",
               ingredientsName: "Red pepper flakes (optional)",
             },
             {
-              ingredientsQuantity: "",
+              ingredientsQuantity: "-",
               ingredientsName: "Cherry tomatoes (sliced, optional)",
             },
           ],
@@ -555,7 +555,7 @@ export const recipes = [
               ingredientsName: "tsp fresh thyme",
             },
             {
-              ingredientsQuantity: "",
+              ingredientsQuantity: "-",
               ingredientsName: "Salt & black pepper to taste",
             },
           ],
@@ -768,7 +768,7 @@ export const recipes = [
               ingredientsName: "tsp rosemary",
             },
             {
-              ingredientsQuantity: "",
+              ingredientsQuantity: "-",
               ingredientsName: "Salt & pepper",
             },
           ],
@@ -838,7 +838,7 @@ export const recipes = [
               ingredientsName: "taco shells",
             },
             {
-              ingredientsQuantity: "",
+              ingredientsQuantity: "-",
               ingredientsName: "Toppings: lettuce, tomato, cheese",
             },
           ],
@@ -860,7 +860,7 @@ export const recipes = [
       },
       {
         directionTitle: "Serve & enjoy!",
-        directionDescription: "",
+        directionDescription: "-",
       },
     ],
   },
@@ -1136,7 +1136,7 @@ export const recipes = [
               ingredientsName: "tsp fresh parsley (chopped)",
             },
             {
-              ingredientsQuantity: "",
+              ingredientsQuantity: "-",
               ingredientsName: "Salt & pepper to taste",
             },
           ],
@@ -2087,7 +2087,7 @@ export const recipes = [
               ingredientsName: "slices of bread",
             },
             {
-              ingredientsQuantity: "",
+              ingredientsQuantity: "-",
               ingredientsName: "Lettuce leaves",
             },
           ],
@@ -2163,7 +2163,7 @@ export const recipes = [
               ingredientsName: "tbsp lime juice",
             },
             {
-              ingredientsQuantity: "",
+              ingredientsQuantity: "-",
               ingredientsName: "Salt & pepper",
             },
           ],
@@ -2631,7 +2631,7 @@ export const recipes = [
               ingredientsName: "tsp vanilla extract",
             },
             {
-              ingredientsQuantity: "",
+              ingredientsQuantity: "-",
               ingredientsName: "Whipped cream (optional)",
             },
           ],
@@ -3227,7 +3227,7 @@ export const recipes = [
               ingredientsName: "cup chopped parsley",
             },
             {
-              ingredientsQuantity: "",
+              ingredientsQuantity: "-",
               ingredientsName: "Salt and black pepper to taste",
             },
           ],
@@ -3509,7 +3509,7 @@ export const recipes = [
               ingredientsName: "tsp paprika",
             },
             {
-              ingredientsQuantity: "",
+              ingredientsQuantity: "-",
               ingredientsName: "Salt and pepper to taste",
             },
           ],
@@ -3598,7 +3598,7 @@ export const recipes = [
               ingredientsName: "tbsp butter",
             },
             {
-              ingredientsQuantity: "",
+              ingredientsQuantity: "-",
               ingredientsName: "Salt and pepper to taste",
             },
           ],
@@ -3686,7 +3686,7 @@ export const recipes = [
               ingredientsName: "tsp Dijon mustard",
             },
             {
-              ingredientsQuantity: "",
+              ingredientsQuantity: "-",
               ingredientsName: "Salt and pepper to taste",
             },
             {
@@ -3765,7 +3765,7 @@ export const recipes = [
               ingredientsName: "tbsp olive oil",
             },
             {
-              ingredientsQuantity: "",
+              ingredientsQuantity: "-",
               ingredientsName: "Salt and pepper to taste",
             },
             {
@@ -3871,7 +3871,7 @@ export const recipes = [
               ingredientsName: "tsp lemon zest",
             },
             {
-              ingredientsQuantity: "",
+              ingredientsQuantity: "-",
               ingredientsName: "Salt and pepper to taste",
             },
           ],
@@ -3953,7 +3953,7 @@ export const recipes = [
               ingredientsName: "tsp cumin",
             },
             {
-              ingredientsQuantity: "",
+              ingredientsQuantity: "-",
               ingredientsName: "Salt and pepper to taste",
             },
             {
@@ -4055,11 +4055,11 @@ export const recipes = [
               ingredientsName: "tsp garlic powder",
             },
             {
-              ingredientsQuantity: "",
+              ingredientsQuantity: "-",
               ingredientsName: "Salt and pepper to taste",
             },
             {
-              ingredientsQuantity: "",
+              ingredientsQuantity: "-",
               ingredientsName: "Vegetable oil for frying",
             },
             {
@@ -4090,7 +4090,7 @@ export const recipes = [
               ingredientsName: "garlic clove, minced",
             },
             {
-              ingredientsQuantity: "",
+              ingredientsQuantity: "-",
               ingredientsName: "Salt and pepper to taste",
             },
           ],
@@ -4172,7 +4172,7 @@ export const recipes = [
               ingredientsName: "tbsp fresh parsley, chopped",
             },
             {
-              ingredientsQuantity: "",
+              ingredientsQuantity: "-",
               ingredientsName: "Salt and pepper to taste",
             },
             {
@@ -4247,7 +4247,7 @@ export const recipes = [
               ingredientsName: "tbsp olive oil",
             },
             {
-              ingredientsQuantity: "",
+              ingredientsQuantity: "-",
               ingredientsName: "Salt and pepper to taste",
             },
           ],
@@ -4274,7 +4274,7 @@ export const recipes = [
               ingredientsName: "tbsp lime juice",
             },
             {
-              ingredientsQuantity: "",
+              ingredientsQuantity: "-",
               ingredientsName: "Salt and pepper to taste",
             },
           ],
@@ -4380,7 +4380,7 @@ export const recipes = [
               ingredientsName: "cup frozen peas",
             },
             {
-              ingredientsQuantity: "",
+              ingredientsQuantity: "-",
               ingredientsName: "Salt and pepper to taste",
             },
             {
@@ -4454,7 +4454,7 @@ export const recipes = [
               ingredientsName: "tsp paprika",
             },
             {
-              ingredientsQuantity: "",
+              ingredientsQuantity: "-",
               ingredientsName: "Salt and pepper to taste",
             },
             {
@@ -4497,7 +4497,7 @@ export const recipes = [
               ingredientsName: "tbsp orange juice",
             },
             {
-              ingredientsQuantity: "",
+              ingredientsQuantity: "-",
               ingredientsName: "Salt and pepper to taste",
             },
           ],
@@ -4599,11 +4599,11 @@ export const recipes = [
               ingredientsName: "cup grated Parmesan cheese",
             },
             {
-              ingredientsQuantity: "",
+              ingredientsQuantity: "-",
               ingredientsName: "Salt and pepper to taste",
             },
             {
-              ingredientsQuantity: "",
+              ingredientsQuantity: "-",
               ingredientsName: "Fresh parsley, chopped for garnish",
             },
           ],
@@ -4700,7 +4700,7 @@ export const recipes = [
               ingredientsName: "tbsp fresh parsley, chopped",
             },
             {
-              ingredientsQuantity: "",
+              ingredientsQuantity: "-",
               ingredientsName: "Salt and pepper to taste",
             },
           ],
@@ -4793,7 +4793,7 @@ export const recipes = [
               ingredientsName: "tbsp olive oil",
             },
             {
-              ingredientsQuantity: "",
+              ingredientsQuantity: "-",
               ingredientsName: "Salt and pepper to taste",
             },
           ],
@@ -4887,7 +4887,7 @@ export const recipes = [
               ingredientsName: "tsp dried oregano",
             },
             {
-              ingredientsQuantity: "",
+              ingredientsQuantity: "-",
               ingredientsName: "Salt and pepper to taste",
             },
           ],
@@ -4978,7 +4978,7 @@ export const recipes = [
               ingredientsName: "tbsp olive oil",
             },
             {
-              ingredientsQuantity: "",
+              ingredientsQuantity: "-",
               ingredientsName: "Salt and pepper to taste",
             },
           ],
@@ -5060,7 +5060,7 @@ export const recipes = [
               ingredientsName: "tbsp balsamic glaze",
             },
             {
-              ingredientsQuantity: "",
+              ingredientsQuantity: "-",
               ingredientsName: "Salt and pepper to taste",
             },
           ],
@@ -5137,7 +5137,7 @@ export const recipes = [
               ingredientsName: "cup olive oil",
             },
             {
-              ingredientsQuantity: "",
+              ingredientsQuantity: "-",
               ingredientsName: "Salt and pepper to taste",
             },
           ],
@@ -5224,7 +5224,7 @@ export const recipes = [
               ingredientsName: "tbsp balsamic vinegar",
             },
             {
-              ingredientsQuantity: "",
+              ingredientsQuantity: "-",
               ingredientsName: "Salt and pepper to taste",
             },
           ],
@@ -5327,7 +5327,7 @@ export const recipes = [
               ingredientsName: "tsp grated ginger",
             },
             {
-              ingredientsQuantity: "",
+              ingredientsQuantity: "-",
               ingredientsName: "Salt and pepper to taste",
             },
           ],
@@ -5418,7 +5418,7 @@ export const recipes = [
               ingredientsName: "tbsp lemon juice",
             },
             {
-              ingredientsQuantity: "",
+              ingredientsQuantity: "-",
               ingredientsName: "Salt and pepper to taste",
             },
           ],
@@ -5506,11 +5506,11 @@ export const recipes = [
               ingredientsName: "cup heavy cream",
             },
             {
-              ingredientsQuantity: "",
+              ingredientsQuantity: "-",
               ingredientsName: "Salt and pepper to taste",
             },
             {
-              ingredientsQuantity: "",
+              ingredientsQuantity: "-",
               ingredientsName: "Fresh basil for garnish",
             },
           ],
@@ -5612,7 +5612,7 @@ export const recipes = [
               ingredientsName: "tsp dried thyme",
             },
             {
-              ingredientsQuantity: "",
+              ingredientsQuantity: "-",
               ingredientsName: "Salt and pepper to taste",
             },
           ],
@@ -5715,11 +5715,11 @@ export const recipes = [
               ingredientsName: "tsp paprika",
             },
             {
-              ingredientsQuantity: "",
+              ingredientsQuantity: "-",
               ingredientsName: "Salt and pepper to taste",
             },
             {
-              ingredientsQuantity: "",
+              ingredientsQuantity: "-",
               ingredientsName: "Fresh parsley for garnish",
             },
           ],
@@ -5796,11 +5796,11 @@ export const recipes = [
               ingredientsName: "cup heavy cream",
             },
             {
-              ingredientsQuantity: "",
+              ingredientsQuantity: "-",
               ingredientsName: "Salt and pepper to taste",
             },
             {
-              ingredientsQuantity: "",
+              ingredientsQuantity: "-",
               ingredientsName: "Fresh chives for garnish",
             },
           ],
@@ -5907,11 +5907,11 @@ export const recipes = [
               ingredientsName: "tsp dried oregano",
             },
             {
-              ingredientsQuantity: "",
+              ingredientsQuantity: "-",
               ingredientsName: "Salt and pepper to taste",
             },
             {
-              ingredientsQuantity: "",
+              ingredientsQuantity: "-",
               ingredientsName: "Fresh basil for garnish",
             },
           ],
@@ -6001,7 +6001,7 @@ export const recipes = [
               ingredientsName: "tsp sugar",
             },
             {
-              ingredientsQuantity: "",
+              ingredientsQuantity: "-",
               ingredientsName: "Salt and black pepper to taste",
             },
           ],
@@ -6124,7 +6124,7 @@ export const recipes = [
               ingredientsName: "tbsp lime juice",
             },
             {
-              ingredientsQuantity: "",
+              ingredientsQuantity: "-",
               ingredientsName: "Fresh cilantro and lime wedges for garnish",
             },
           ],
@@ -7917,7 +7917,7 @@ export const recipes = [
               ingredientsName: "oz dark chocolate, finely chopped",
             },
             {
-              ingredientsQuantity: "",
+              ingredientsQuantity: "-",
               ingredientsName: "Whipped cream (optional)",
             },
           ],
@@ -7997,11 +7997,11 @@ export const recipes = [
               ingredientsName: "cup sugar (or honey)",
             },
             {
-              ingredientsQuantity: "",
+              ingredientsQuantity: "-",
               ingredientsName: "Ice cubes",
             },
             {
-              ingredientsQuantity: "",
+              ingredientsQuantity: "-",
               ingredientsName: "Lemon slices and mint leaves for garnish",
             },
           ],
@@ -10971,7 +10971,7 @@ export const recipes = [
               ingredientsName: "fried egg (optional)",
             },
             {
-              ingredientsQuantity: "",
+              ingredientsQuantity: "-",
               ingredientsName: "Steamed jasmine rice, for serving",
             },
           ],
@@ -11196,7 +11196,7 @@ export const recipes = [
               ingredientsName: "Thai chili, finely chopped",
             },
             {
-              ingredientsQuantity: "",
+              ingredientsQuantity: "-",
               ingredientsName: "Lettuce leaves, for serving",
             },
           ],
@@ -11416,7 +11416,7 @@ export const recipes = [
               ingredientsName: "green onion, chopped (for garnish)",
             },
             {
-              ingredientsQuantity: "",
+              ingredientsQuantity: "-",
               ingredientsName: "Steamed white rice, for serving",
             },
           ],
@@ -11690,7 +11690,7 @@ export const recipes = [
               ingredientsName: "green onion, chopped",
             },
             {
-              ingredientsQuantity: "",
+              ingredientsQuantity: "-",
               ingredientsName: "Steamed rice, for serving",
             },
           ],
@@ -11842,7 +11842,7 @@ export const recipes = [
               ingredientsName: "boneless pork loin chops",
             },
             {
-              ingredientsQuantity: "",
+              ingredientsQuantity: "-",
               ingredientsName: "Salt and black pepper, to taste",
             },
             {
@@ -11866,11 +11866,11 @@ export const recipes = [
               ingredientsName: "cup tonkatsu sauce (store-bought or homemade)",
             },
             {
-              ingredientsQuantity: "",
+              ingredientsQuantity: "-",
               ingredientsName: "Shredded cabbage, for serving",
             },
             {
-              ingredientsQuantity: "",
+              ingredientsQuantity: "-",
               ingredientsName: "Steamed white rice, for serving",
             },
           ],
@@ -12072,7 +12072,7 @@ export const recipes = [
               ingredientsName: "slices kamaboko (fish cake)",
             },
             {
-              ingredientsQuantity: "",
+              ingredientsQuantity: "-",
               ingredientsName: "Chopped green onions, for garnish",
             },
           ],
@@ -12264,7 +12264,7 @@ export const recipes = [
               ingredientsName: "cup anko (sweet red bean paste)",
             },
             {
-              ingredientsQuantity: "",
+              ingredientsQuantity: "-",
               ingredientsName: "Vegetable oil, for cooking",
             },
           ],
@@ -12361,11 +12361,11 @@ export const recipes = [
               ingredientsName: "soft-boiled egg (optional)",
             },
             {
-              ingredientsQuantity: "",
+              ingredientsQuantity: "-",
               ingredientsName: "Chopped green onions, for garnish",
             },
             {
-              ingredientsQuantity: "",
+              ingredientsQuantity: "-",
               ingredientsName: "Pickled red ginger (beni shoga), for garnish",
             },
           ],
@@ -13174,7 +13174,7 @@ export const recipes = [
               ingredientsName: "tsp paprika",
             },
             {
-              ingredientsQuantity: "",
+              ingredientsQuantity: "-",
               ingredientsName: "Salt and pepper to taste",
             },
           ],
@@ -13341,7 +13341,7 @@ export const recipes = [
               ingredientsName: "tsp garlic powder",
             },
             {
-              ingredientsQuantity: "",
+              ingredientsQuantity: "-",
               ingredientsName: "Salt and pepper to taste",
             },
             {
@@ -13429,11 +13429,11 @@ export const recipes = [
               ingredientsName: "tsp paprika",
             },
             {
-              ingredientsQuantity: "",
+              ingredientsQuantity: "-",
               ingredientsName: "Salt and pepper to taste",
             },
             {
-              ingredientsQuantity: "",
+              ingredientsQuantity: "-",
               ingredientsName: "Lemon wedges for serving",
             },
           ],
