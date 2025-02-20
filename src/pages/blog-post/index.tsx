@@ -125,7 +125,7 @@ export function BlogPost() {
             Check out the delicious recipe
           </strong>
           <div className={styles.deliciousRecipe}>
-            {recipes.map((recipe) => {
+            {recipes.slice(0, 4).map((recipe) => {
               return <CardOtherRecipes moreRecipe={recipe} key={recipe.id} />;
             })}
           </div>

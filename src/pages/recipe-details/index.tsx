@@ -77,7 +77,7 @@ export function RecipeDetails() {
             </div>
             <div className={styles.ingredientsOtherRecipes}>
               <h3 className={styles.titleOtherRecipes}>Other Recipe</h3>
-              {recipes.map((othersRecipe) => {
+              {recipes.slice(0, 3).map((othersRecipe) => {
                 return (
                   <IngredientsCards
                     othersRecipe={othersRecipe}
@@ -85,6 +85,7 @@ export function RecipeDetails() {
                   />
                 );
               })}
+
               <img src={adsImage} alt="" className={styles.ads} />
             </div>
           </div>
@@ -143,7 +144,7 @@ export function RecipeDetails() {
             You may like these recipe too
           </h3>
           <div className={styles.likeRecipesCard}>
-            {recipes.map((recipe) => {
+            {recipes.slice(0, 4).map((recipe) => {
               return <CardOtherRecipes moreRecipe={recipe} key={recipe.id} />;
             })}
           </div>
