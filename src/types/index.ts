@@ -40,6 +40,7 @@ export interface RecipeProps {
   recipeCategory?: string;
   categoryId?: string;
   recipeImage?: string;
+  recipeFavorite?: boolean;
   nutritionInformation?: NutritionInformationProps;
   recipeDescription?: string;
   recipeIngredients?: RecipeIngredientProps[];
