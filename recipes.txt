@@ -1,41 +1,41 @@
 // Breakfast
 
-Fluffy Banana Pancakes
-Avocado Toast with Poached Egg
+Fluffy Banana Pancakes --> Favorite
+Avocado Toast with Poached Egg --> Favorite
 Greek Yogurt Parfait with Berries & Granola
 
 // Vegan
 
-Vegan Chickpea Scramble
+Vegan Chickpea Scramble --> Favorite
 Creamy Vegan Oatmeal with Berries
-Vegan Avocado Toast with Hummus
+Vegan Avocado Toast with Hummus --> Favorite
 
 // Meat
 
 Classic Beef Steak with Garlic Butter
 BBQ Pork Ribs
 Spicy Chicken Wings
-Lamb Chops with Rosemary
+Lamb Chops with Rosemary --> Favorite
 Ground Beef Tacos
-Meatballs in Marinara Sauce
-Honey Garlic Pork Chops
-Beef Stroganoff
+Meatballs in Marinara Sauce --> Favorite
+Honey Garlic Pork Chops --> Favorite
+Beef Stroganoff --> Favorite
 Grilled T-Bone Steak with Herb Butter
-Teriyaki Chicken
+Teriyaki Chicken --> Favorite
 
 // Dessert
 
-Classic Chocolate Brownies
-Strawberry Cheesecake
-Vanilla Panna Cotta
+Classic Chocolate Brownies --> Favorite
+Strawberry Cheesecake --> Favorite
+Vanilla Panna Cotta --> Favorite
 Molten Lava Cake
 Apple Crisp
-Coconut Macaroons
+Coconut Macaroons --> Favorite
 Lemon Bars
 
 // Lunch
 
-Grilled Chicken Caesar Wrap
+Grilled Chicken Caesar Wrap --> Favorite
 Classic BLT Sandwich
 Veggie Stir-Fry with Tofu
 Tuna Salad Sandwich
@@ -45,35 +45,35 @@ Beef & Cheese Quesadilla
 // Chocolate
 
 Classic Chocolate Brownies
-Chocolate Lava Cake
+Chocolate Lava Cake --> Favorite
 Chocolate Chip Cookies
-Chocolate Mousse
-Hot Chocolate
-Chocolate Pancakes
+Chocolate Mousse --> Favorite
+Hot Chocolate --> Favorite
+Chocolate Pancakes --> Favorite
 
 // Chicken
 
-Garlic Butter Chicken Breast
+Garlic Butter Chicken Breast --> Favorite
 Honey Mustard Chicken Thighs
-Spicy Grilled Chicken Wings
-Creamy Chicken Alfredo
-Lemon Herb Roasted Chicken
+Spicy Grilled Chicken Wings --> Favorite
+Creamy Chicken Alfredo --> Favorite
+Lemon Herb Roasted Chicken --> Favorite
 
 // Seafood
 
-Garlic Butter Shrimp Scampi
+Garlic Butter Shrimp Scampi --> Favorite
 Grilled Salmon with Honey Garlic Glaze
 Lemon Garlic Butter Scallops
-Creamy Garlic Parmesan Lobster Tail
+Creamy Garlic Parmesan Lobster Tail --> Favorite
 Classic New England Clam Chowder
 Lobster Roll
-Seared Tuna Steaks with Avocado Salsa
+Seared Tuna Steaks with Avocado Salsa --> Favorite
 Baked Cod with Garlic and Herb Crust
 Crispy Fish Tacos
 Crispy Calamari with Lemon Aioli
-Mussels in White Wine Sauce
-Grilled Salmon with Mango Salsa
-Seafood Paella
+Mussels in White Wine Sauce 
+Grilled Salmon with Mango Salsa --> Favorite
+Seafood Paella --> Favorite
 Shrimp and Avocado Salad
 Seafood Risotto
 Pan-Seared Scallops with Garlic Butter Sauce
@@ -81,105 +81,105 @@ Pan-Seared Scallops with Garlic Butter Sauce
 // Salad
 
 Grilled Chicken Caesar Salad
-Greek Salad
-Quinoa and Avocado Salad
-Caprese Salad
+Greek Salad --> Favorite
+Quinoa and Avocado Salad --> Favorite
+Caprese Salad --> Favorite
 Spinach and Strawberry Salad
-Roasted Beetroot and Goat Cheese Salad
+Roasted Beetroot and Goat Cheese Salad --> Favorite
 Asian Cabbage Salad with Sesame Dressing
-Chickpea and Avocado Salad
+Chickpea and Avocado Salad --> Favorite
 
 // Soup
 
-Classic Tomato Soup
-Chicken and Vegetable Soup
+Classic Tomato Soup --> Favorite
+Chicken and Vegetable Soup --> Favorite
 Lentil Soup
 Creamy Potato Leek Soup
 Minestrone Soup
-Creamy Tomato Basil Soup
+Creamy Tomato Basil Soup --> Favorite
 Spicy Thai Coconut Shrimp Soup
-Hearty Lentil and Vegetable Soup
+Hearty Lentil and Vegetable Soup --> Favorite
 
 // Pasta
 
 Classic Spaghetti Carbonara
 Creamy Garlic Parmesan Fettuccine
-Spicy Shrimp Penne Arrabbiata
-Pesto Chicken Pasta
+Spicy Shrimp Penne Arrabbiata --> Favorite
+Pesto Chicken Pasta --> Favorite
 Baked Ziti with Ricotta and Mozzarella
 Lemon Garlic Butter Linguine
 Mushroom and Spinach Penne
-Cajun Chicken Alfredo
+Cajun Chicken Alfredo --> Favorite
 Sun-Dried Tomato and Basil Farfalle
 Beef and Tomato Rigatoni
-Pesto Shrimp Spaghetti
-Carbonara with Pancetta and Peas
+Pesto Shrimp Spaghetti --> Favorite
+Carbonara with Pancetta and Peas --> Favorite
 Creamy Tuscan Chicken Pasta
-Spicy Arrabbiata Rigatoni
+Spicy Arrabbiata Rigatoni --> Favorite
 
 // Beverages
 
-Mango Coconut Smoothie
+Mango Coconut Smoothie --> Favorite
 Iced Matcha Latte
 Classic Hot Chocolate
-Fresh Lemonade
-Strawberry Banana Protein Shake
-Honey Ginger Tea
-Avocado Banana Smoothie
-Spiced Apple Cider
+Fresh Lemonade --> Favorite
+Strawberry Banana Protein Shake --> Favorite
+Honey Ginger Tea --> Favorite
+Avocado Banana Smoothie --> Favorite
+Spiced Apple Cider --> Favorite
 
 // Healthy
 
-Grilled Salmon with Quinoa Salad
-Avocado Toast with Poached Egg
-Chickpea and Spinach Stir-Fry
-Greek Yogurt Berry Parfait
+Grilled Salmon with Quinoa Salad --> Favorite
+Avocado Toast with Poached Egg --> Favorite
+Chickpea and Spinach Stir-Fry --> Favorite
+Greek Yogurt Berry Parfait --> Favorite
 Roasted Sweet Potato and Kale Salad
 Lentil and Vegetable Soup
 Spinach and Mushroom Omelette
 Quinoa and Chickpea Bowl
 Grilled Chicken with Roasted Vegetables
 Chia Seed Pudding with Almond Milk
-Avocado and Tuna Salad
-Sweet Potato and Black Bean Tacos
+Avocado and Tuna Salad --> Favorite
+Sweet Potato and Black Bean Tacos --> Favorite
 
 // Korean
 
-Bibimbap (Korean Mixed Rice Bowl)
+Bibimbap (Korean Mixed Rice Bowl) --> Favorite
 Kimchi Jjigae (Kimchi Stew)
 Japchae (Stir-Fried Glass Noodles)
 Tteokbokki (Spicy Rice Cakes)
-Kimchi Fried Rice (Kimchi Bokkeumbap)
-Dakgalbi (Spicy Stir-Fried Chicken)
-Samgyeopsal (Korean Grilled Pork Belly)
+Kimchi Fried Rice (Kimchi Bokkeumbap) --> Favorite
+Dakgalbi (Spicy Stir-Fried Chicken) --> Favorite
+Samgyeopsal (Korean Grilled Pork Belly) --> Favorite
 Sundubu Jjigae (Spicy Soft Tofu Stew)
-Jjajangmyeon (Black Bean Noodles)
+Jjajangmyeon (Black Bean Noodles) --> Favorite
 
 // Thailand
 
 Pad Thai (Stir-Fried Noodles)
 Tom Yum Goong (Spicy Shrimp Soup)
-Green Curry (Gaeng Keow Wan)
+Green Curry (Gaeng Keow Wan) --> Favorite
 Som Tum (Green Papaya Salad)
-Thai Mango Sticky Rice (Khao Niew Mamuang)
+Thai Mango Sticky Rice (Khao Niew Mamuang) --> Favorite
 Thai Basil Chicken (Pad Krapow Gai)
-Thai Massaman Curry
+Thai Massaman Curry --> Favorite
 Thai Larb (Spicy Minced Chicken Salad)
-Thai Pineapple Fried Rice
-
+Thai Pineapple Fried Rice --> Favorite
+ 
 // Japan
 
 Chicken Teriyaki (照り焼きチキン)
-Miso Soup (味噌汁)
+Miso Soup (味噌汁) --> Favorite
 Japanese Tamago Sushi (卵寿司)
 Japanese Beef Gyudon (牛丼)
 Japanese Matcha Cheesecake (抹茶チーズケーキ)
 Tonkatsu (とんかつ) – Japanese Breaded Pork Cutlet
-Okonomiyaki (お好み焼き) – Japanese Savory Pancake
-Chawanmushi (茶碗蒸し) – Savory Steamed Egg Custard
-Yaki Udon (焼きうどん) – Stir-Fried Udon Noodles
+Okonomiyaki (お好み焼き) – Japanese Savory Pancake --> Favorite
+Chawanmushi (茶碗蒸し) – Savory Steamed Egg Custard --> Favorite
+Yaki Udon (焼きうどん) – Stir-Fried Udon Noodles --> Favorite
 Dorayaki (どら焼き) – Japanese Pancake with Red Bean Filling
-Gyudon (牛丼) – Japanese Beef Bowl
+Gyudon (牛丼) – Japanese Beef Bowl --> Favorite
 Tamagoyaki (卵焼き) – Japanese Rolled Omelet
 Zaru Soba (ざるそば) – Chilled Buckwheat Noodles with Dipping Sauce
 
@@ -187,13 +187,13 @@ Zaru Soba (ざるそば) – Chilled Buckwheat Noodles with Dipping Sauce
 
 Kung Pao Chicken (宫保鸡丁)
 Mapo Tofu (麻婆豆腐)
-Sweet and Sour Pork (咕噜肉)
-Chinese Scallion Pancakes (葱油饼)
-Hot and Sour Soup (酸辣汤)
+Sweet and Sour Pork (咕噜肉) --> Favorite
+Chinese Scallion Pancakes (葱油饼) --> Favorite
+Hot and Sour Soup (酸辣汤) --> Favorite
 
 // Air Fryer
 
-Air Fryer Chicken Wings
+Air Fryer Chicken Wings --> Favorite
 Air Fryer Sweet Potato Fries
 Air Fryer Veggie Fritters
 Air Fryer Salmon
