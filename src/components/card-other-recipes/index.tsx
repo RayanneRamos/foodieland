@@ -1,13 +1,21 @@
+/* eslint-disable @typescript-eslint/no-unused-expressions */
 import { Clock, ForkKnife, Heart } from "phosphor-react";
 import styles from "./styles.module.scss";
 import { Link } from "react-router";
 import { RecipeProps } from "../../types";
+import { useState } from "react";
 
 interface CardOtherRecipesProps {
   moreRecipe: RecipeProps;
 }
 
 export function CardOtherRecipes({ moreRecipe }: CardOtherRecipesProps) {
+  const [isFavorite, setIsFavorite] = useState(moreRecipe.recipeFavorite);
+
+  function toggleFavorite() {
+    setIsFavorite((prev) => !prev);
+  }
+
   return (
     <div className={styles.cardContainer}>
       <Link to={`/recipe-details/${moreRecipe.id}`} className={styles.link}>
@@ -17,11 +25,16 @@ export function CardOtherRecipes({ moreRecipe }: CardOtherRecipesProps) {
             src={moreRecipe.recipeImage}
             alt={moreRecipe.recipeName}
           />
-          <button className={styles.favoriteButton}>
+          <button
+            className={styles.favoriteButton}
+            onClick={(event) => {
+              event.preventDefault(), toggleFavorite();
+            }}
+          >
             <Heart
               size={24}
               weight="fill"
-              //color={moreRecipe.favorite ? "#ff6363" : "#ccc"}
+              color={isFavorite ? "#ff6363" : "#ccc"}
             />
           </button>
         </div>
