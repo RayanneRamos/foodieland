@@ -1,0 +1,29 @@
+.main {
+  max-width: 1440px;
+  margin: 0 auto;
+
+  .title {
+    font-size: 64px;
+    letter-spacing: -4%;
+
+    text-align: center;
+
+    margin-top: 84px;
+  }
+
+  .recipesContainer {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+
+    margin-top: 112px;
+
+    padding: 0 80px;
+
+    column-gap: 40px;
+    row-gap: 40px;
+  }
+
+  .newsletterSection {
+    margin-top: 160px;
+  }
+}
