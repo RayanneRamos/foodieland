@@ -3,7 +3,7 @@ import styles from "./styles.module.scss";
 
 interface LabelProps {
   icon: keyof typeof Icons;
-  name: string;
+  name?: string;
 }
 
 export function Label({ icon, name }: LabelProps) {

@@ -3,7 +3,7 @@ import styles from "./styles.module.scss";
 
 interface RecipeInfoProps {
   title: string;
-  subtitle: string;
+  subtitle?: string;
 }
 
 export function RecipeInfo({ title, subtitle }: RecipeInfoProps) {

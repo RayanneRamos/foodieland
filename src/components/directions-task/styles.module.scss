@@ -41,6 +41,11 @@
     }
   }
 
+  .directionContent {
+    display: flex;
+    flex-direction: column;
+  }
+
   .directionTaskName {
     font-size: 24px;
     font-weight: 600;

@@ -1,7 +1,14 @@
 import { useState } from "react";
 import styles from "./styles.module.scss";
 
-export function Task() {
+interface TaskProps {
+  ingredients?: {
+    ingredientsQuantity?: string;
+    ingredientsName?: string;
+  };
+}
+
+export function Task({ ingredients }: TaskProps) {
   const [checked, setChecked] = useState(false);
 
   return (
@@ -15,7 +22,7 @@ export function Task() {
         <span className={styles.checkmark}></span>
       </label>
       <span className={`${styles.taskName} ${checked ? styles.completed : ""}`}>
-        Lorem ipsum dolor sit amet
+        {ingredients?.ingredientsQuantity} {ingredients?.ingredientsName}
       </span>
     </div>
   );

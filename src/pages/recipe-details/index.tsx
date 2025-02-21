@@ -11,7 +11,7 @@ import { NutritionTable } from "../../components/nutrition-table";
 import { Play } from "phosphor-react";
 import { TaskBoard } from "../../components/task-board";
 import { IngredientsCards } from "../../components/ingredients-cards";
-import { PrepareBoard } from "../../components/prepare-board";
+//import { PrepareBoard } from "../../components/prepare-board";
 import adsImage from "../../assets/recipes/image-06.png";
 import { DirectionsTask } from "../../components/directions-task";
 import directionImage from "../../assets/direction-image.png";
@@ -19,8 +19,21 @@ import { Newsletter } from "../../components/newsletter";
 import { CardOtherRecipes } from "../../components/card-other-recipes";
 import { Footer } from "../../components/footer";
 import { recipes } from "../../utils/recipes";
+import { useParams } from "react-router";
 
 export function RecipeDetails() {
+  const { id } = useParams<{ id: string }>();
+
+  const recipe = recipes.find((searchRecipe) => searchRecipe?.id === id);
+
+  if (!recipe) {
+    return (
+      <div>
+        <h1>Recipe not found!</h1>
+      </div>
+    );
+  }
+
   return (
     <div className={styles.container}>
       <Navigation />
@@ -28,15 +41,15 @@ export function RecipeDetails() {
       <div className={styles.main}>
         <div className={styles.headerContainer}>
           <div className={styles.headerContent}>
-            <h1 className={styles.headerTitle}>Health Japanese Fried Rice</h1>
+            <h1 className={styles.headerTitle}>{recipe?.recipeName}</h1>
             <div className={styles.headerInfo}>
-              <Avatar />
+              <Avatar author={recipe?.author} />
               <VerticalDivider />
-              <RecipeInfo title="prep time" subtitle="15" />
+              <RecipeInfo title="prep time" subtitle={recipe?.prepareTime} />
               <VerticalDivider />
-              <RecipeInfo title="cook time" subtitle="15" />
+              <RecipeInfo title="cook time" subtitle={recipe?.cookTime} />
               <VerticalDivider />
-              <Label icon="ForkKnife" name="Chicken" />
+              <Label icon="ForkKnife" name={recipe?.recipeCategory} />
             </div>
           </div>
           <div className={styles.actionButton}>
@@ -47,8 +60,8 @@ export function RecipeDetails() {
         <div className={styles.recipeDetailsContainer}>
           <div className={styles.imageContainer}>
             <img
-              src={previewImage}
-              alt="Delicious Meal"
+              src={recipe?.recipeImage || previewImage}
+              alt={recipe?.recipeName}
               className={styles.mealImage}
             />
             <button className={styles.playButton}>
@@ -57,23 +70,15 @@ export function RecipeDetails() {
               </div>
             </button>
           </div>
-          <NutritionTable />
+          <NutritionTable nutrition={recipe?.nutritionInformation} />
         </div>
-        <p className={styles.recipeDescription}>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-          minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-          aliquip ex ea commodo consequat. Duis aute irure dolor in
-          reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-          pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-          culpa qui officia deserunt mollit anim id est laborum.
-        </p>
+        <p className={styles.recipeDescription}>{recipe?.recipeDescription}</p>
         <div className={styles.ingredientsContainer}>
           <div className={styles.ingredientsContent}>
             <div className={styles.ingredientsComponent}>
               <h3 className={styles.titleIngredients}>Ingredients</h3>
-              <TaskBoard />
-              <PrepareBoard />
+              <TaskBoard ingredients={recipe} />
+              {/** <PrepareBoard /> */}
             </div>
             <div className={styles.ingredientsOtherRecipes}>
               <h3 className={styles.titleOtherRecipes}>Other Recipe</h3>
@@ -91,48 +96,23 @@ export function RecipeDetails() {
           </div>
           <div className={styles.directionsContainer}>
             <h3 className={styles.directionsTitle}>Directions</h3>
-            <DirectionsTask task="1. Lorem ipsum dolor sit amet " />
-            <p className={styles.directionDescriptionOne}>
-              Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit
-              aut fugit, sed quia consequuntur magni dolores eos qui ratione
-              voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem
-              ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia
-              non numquam eius modi tempora incidunt ut labore et dolore magnam
-              aliquam quaerat voluptatem.
-            </p>
-            <img
-              src={directionImage}
-              alt=""
-              className={styles.directionImage}
-            />
-            <p className={styles.directionDescriptionTwo}>
-              Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit
-              aut fugit, sed quia consequuntur magni dolores eos qui ratione
-              voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem
-              ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia
-              non numquam eius modi tempora incidunt ut labore et dolore magnam
-              aliquam quaerat voluptatem.
-            </p>
-            <div className={styles.horizontalLine} />
-            <DirectionsTask task="2. Lorem ipsum dolor sit amet " />
-            <p className={styles.directionDescriptionThree}>
-              Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit
-              aut fugit, sed quia consequuntur magni dolores eos qui ratione
-              voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem
-              ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia
-              non numquam eius modi tempora incidunt ut labore et dolore magnam
-              aliquam quaerat voluptatem.
-            </p>
-            <div className={styles.horizontalLine} />
-            <DirectionsTask task="3. Lorem ipsum dolor sit amet " />
-            <p className={styles.directionDescriptionFour}>
-              Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit
-              aut fugit, sed quia consequuntur magni dolores eos qui ratione
-              voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem
-              ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia
-              non numquam eius modi tempora incidunt ut labore et dolore magnam
-              aliquam quaerat voluptatem.
-            </p>
+            {recipe.recipeDirections.map((directionRecipe, index) => {
+              return (
+                <>
+                  <DirectionsTask task={directionRecipe.directionTitle} />
+                  <p className={styles.directionDescriptionTwo}>
+                    {directionRecipe.directionDescription}
+                  </p>
+                  {index === 0 && (
+                    <img
+                      src={directionImage}
+                      alt=""
+                      className={styles.directionImage}
+                    />
+                  )}
+                </>
+              );
+            })}
             <div className={styles.horizontalLine} />
           </div>
         </div>

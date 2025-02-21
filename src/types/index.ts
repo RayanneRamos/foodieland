@@ -1,34 +1,34 @@
 interface AuthorProps {
-  authorAvatar: string;
-  authorName: string;
-  authorDatePosted: string;
+  authorAvatar?: string;
+  authorName?: string;
+  authorDatePosted?: string;
 }
 
 interface NutritionInformationProps {
-  calories: string;
-  totalFat: string;
-  protein: string;
-  carbohydrate: string;
-  cholesterol: string;
+  calories?: string;
+  totalFat?: string;
+  protein?: string;
+  carbohydrate?: string;
+  cholesterol?: string;
 }
 
 interface IngredientProps {
-  ingredientsQuantity: string;
-  ingredientsName: string;
+  ingredientsQuantity?: string;
+  ingredientsName?: string;
 }
 
 interface RecipeStepsProps {
-  name: string;
-  steps: IngredientProps[];
+  name?: string;
+  steps?: IngredientProps[];
 }
 
 interface RecipeIngredientProps {
-  recipeSteps: RecipeStepsProps;
+  recipeSteps?: RecipeStepsProps;
 }
 
 interface RecipeDirectionProps {
-  directionTitle: string;
-  directionDescription: string;
+  directionTitle?: string;
+  directionDescription?: string;
 }
 
 export interface RecipeProps {
