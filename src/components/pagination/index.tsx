@@ -1,6 +1,6 @@
+/* eslint-disable prefer-const */
 import { CaretLeft, CaretRight } from "phosphor-react";
 import styles from "./styles.module.scss";
-import { useState } from "react";
 
 interface PaginationProps {
   currentPage: number;
@@ -13,14 +13,28 @@ export function Pagination({
   totalPages,
   onPageChange,
 }: PaginationProps) {
-  const [dotsPage, setDotsPage] = useState(6);
-
   function getPages() {
-    if (totalPages <= 5) {
-      return Array.from({ length: totalPages }, (_, i) => i + 1);
+    const visiblePages = 5;
+    let start = Math.max(1, currentPage - Math.floor(visiblePages / 2));
+    let end = Math.min(totalPages, start + visiblePages - 1);
+
+    if (end - start < visiblePages - 1) {
+      start = Math.max(1, end - visiblePages + 1);
     }
 
-    return [1, 2, 3, 4, 5, "..."];
+    const pages: (number | string)[] = Array.from(
+      { length: end - start + 1 },
+      (_, i) => start + i
+    );
+
+    if (start > 1) {
+      pages.unshift(1, "...");
+    }
+    if (end < totalPages) {
+      pages.push("...", totalPages);
+    }
+
+    return pages;
   }
 
   const pages = getPages();
@@ -41,23 +55,14 @@ export function Pagination({
           <button
             className={currentPage === page ? styles.active : styles.content}
             key={index}
-            onClick={() => onPageChange(page)}
+            onClick={() => typeof page === "number" && onPageChange(page)}
           >
             <span className={styles.number}>{page}</span>
           </button>
         ) : (
-          <button
-            key={index}
-            className={`${
-              currentPage >= dotsPage ? styles.active : styles.content
-            }`}
-            onClick={() => {
-              setDotsPage(dotsPage + 5);
-              onPageChange(dotsPage);
-            }}
-          >
-            <span className={styles.number}>...</span>
-          </button>
+          <span key={index} className={styles.content}>
+            ...
+          </span>
         )
       )}
       <button
