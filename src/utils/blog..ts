@@ -6,7 +6,7 @@ export const blog = [
     description:
       "Chefs worldwide are revolutionizing plant-based cuisine by crafting innovative, flavorful meatless dishes. This shift reflects growing consumer demand for sustainable and healthy dining options.",
     author: {
-      authorAvatar: "",
+      authorAvatar: "/blog-authors/author-dylan-miller.jpeg",
       authorName: "Dylan Miller",
       authorDatePosted: "02 February 2020",
     },
@@ -48,7 +48,7 @@ export const blog = [
     description:
       "The Michelin Guide 2025 highlights exceptional new restaurants that have earned prestigious stars. This year's selection showcases culinary excellence, innovation, and rising talents in the industry.",
     author: {
-      authorAvatar: "",
+      authorAvatar: "/blog-authors/author-elias-hall.jpeg",
       authorName: "Elias Hall",
       authorDatePosted: "27 January 2021",
     },
@@ -90,7 +90,7 @@ export const blog = [
     description:
       "The secret to perfect Neapolitan pizza dough lies in its simple ingredients, precise fermentation, and traditional techniques. Master pizzaiolos refine the process to achieve its signature light, airy, and flavorful crust.",
     author: {
-      authorAvatar: "",
+      authorAvatar: "/blog-authors/author-aaron-green.jpeg",
       authorName: "Aaron Green",
       authorDatePosted: "21 May 2024",
     },
@@ -132,7 +132,7 @@ export const blog = [
     description:
       "Global cuisine has evolved from humble street food to refined fine dining, blending tradition with innovation. Chefs worldwide are redefining flavors, techniques, and presentation, bridging cultural influences.",
     author: {
-      authorAvatar: "",
+      authorAvatar: "/blog-authors/author-nathan-sanders.jpeg",
       authorName: "Nathan Sanders",
       authorDatePosted: "17 April 2023",
     },
@@ -174,7 +174,7 @@ export const blog = [
     description:
       "Fermented foods like kimchi and kombucha are gaining popularity due to their health benefits and unique flavors. As consumers seek gut-friendly options, these ancient practices are experiencing a modern revival.",
     author: {
-      authorAvatar: "",
+      authorAvatar: "/blog-authors/author-micah-johnson.jpeg",
       authorName: "Micah Johnson",
       authorDatePosted: "11 May 2020",
     },
@@ -216,7 +216,7 @@ export const blog = [
     description:
       "AI and robotics are increasingly making their way into kitchens, prompting questions about whether they can truly replace human chefs. While technology enhances efficiency, the artistry and creativity of chefs remain essential in the culinary world.",
     author: {
-      authorAvatar: "",
+      authorAvatar: "/blog-authors/author-wesley-chavez.jpeg",
       authorName: "Wesley Chavez",
       authorDatePosted: "18 November 2024",
     },
@@ -258,7 +258,7 @@ export const blog = [
     description:
       "The COVID-19 lockdowns sparked a home cooking revolution, as people turned to their kitchens for comfort and creativity. With more time at home, cooking habits shifted, leading to increased interest in culinary skills and homemade meals.",
     author: {
-      authorAvatar: "",
+      authorAvatar: "/blog-authors/author-adam-diaz.jpeg",
       authorName: "Adam Diaz",
       authorDatePosted: "09 April 2023",
     },
@@ -301,7 +301,7 @@ export const blog = [
     description:
       "Lab-grown meat, or cultured meat, is gaining traction as a sustainable alternative to traditional animal farming. With its potential to reduce environmental impact and address ethical concerns, it’s seen as a promising solution for the future of food.",
     author: {
-      authorAvatar: "",
+      authorAvatar: "/blog-authors/author-jonathan-nguyen.jpeg",
       authorName: "Jonathan Nguyen",
       authorDatePosted: "15 May 2021",
     },
@@ -343,7 +343,7 @@ export const blog = [
     description:
       "The art of plating plays a crucial role in enhancing the dining experience by stimulating the senses beyond just taste. Visual appeal can influence perception, making food not only more enjoyable but also elevating its flavors through thoughtful presentation.",
     author: {
-      authorAvatar: "",
+      authorAvatar: "/blog-authors/author-john-torres.jpeg",
       authorName: "John Torres",
       authorDatePosted: "26 July 2024",
     },
@@ -386,7 +386,7 @@ export const blog = [
     description:
       "Sustainable cooking is gaining momentum as both home and professional kitchens focus on reducing food waste. By implementing mindful practices like utilizing leftovers, proper storage, and creative recipes, chefs and home cooks can minimize waste and contribute to environmental sustainability.",
     author: {
-      authorAvatar: "",
+      authorAvatar: "/blog-authors/author-anthony-flores.jpeg",
       authorName: "Anthony Flores",
       authorDatePosted: "19 September 2024",
     },
@@ -429,7 +429,7 @@ export const blog = [
     description:
       "The farm-to-table movement emphasizes the use of locally sourced ingredients to create fresh, seasonal dishes. This approach not only supports local farmers but also enhances the flavor and sustainability of modern cuisine.",
     author: {
-      authorAvatar: "",
+      authorAvatar: "/blog-authors/author-greyson-allen.jpeg",
       authorName: "Greyson Allen",
       authorDatePosted: "25 March 2023",
     },
@@ -471,7 +471,7 @@ export const blog = [
     description:
       "Ancient grains like quinoa, farro, and spelt are making a comeback in modern kitchens due to their health benefits and versatility. Rich in nutrients, fiber, and protein, these grains are being embraced in both traditional and innovative dishes.",
     author: {
-      authorAvatar: "",
+      authorAvatar: "/blog-authors/author-elias-flores.jpeg",
       authorName: "Elias Flores",
       authorDatePosted: "03 August 2024",
     },
@@ -513,7 +513,7 @@ export const blog = [
     description:
       "The article highlights 10 essential cooking hacks that can make meal preparation easier and more efficient for home chefs. From time-saving techniques to flavor-enhancing tips, these hacks are designed to elevate everyday cooking experiences.",
     author: {
-      authorAvatar: "",
+      authorAvatar: "/blog-authors/author-adam-miller.jpeg",
       authorName: "Adam Miller",
       authorDatePosted: "19 May 2021",
     },
@@ -555,7 +555,7 @@ export const blog = [
     description:
       "The article explores the world’s most expensive ingredients, from rare spices to luxurious oils, and how they are used in gourmet cooking. It highlights their unique properties, culinary significance, and the extravagant prices that come with them.",
     author: {
-      authorAvatar: "",
+      authorAvatar: "/blog-authors/author-jordan-gonzalez.jpeg",
       authorName: "Jordan Gonzalez",
       authorDatePosted: "11 May 2020",
     },
@@ -597,7 +597,7 @@ export const blog = [
     description:
       "The article delves into the psychology behind our food cravings, exploring why we are drawn to certain flavors based on biological, emotional, and cultural factors. It reveals how our brains respond to sweet, salty, umami, and other tastes, shaping our food preferences.",
     author: {
-      authorAvatar: "",
+      authorAvatar: "/blog-authors/author-jayden-ward.jpeg",
       authorName: "Jayden Ward",
       authorDatePosted: "31 December 2023",
     },
@@ -639,7 +639,7 @@ export const blog = [
     description:
       "The article highlights the signature dishes created by renowned celebrity chefs, showcasing their unique culinary styles and innovations. It provides insights into how these dishes have become iconic in the culinary world and contributed to the chefs' fame.",
     author: {
-      authorAvatar: "",
+      authorAvatar: "/blog-authors/author-nolan-richardson.jpeg",
       authorName: "Nolan Richardson",
       authorDatePosted: "19 July 2020",
     },
@@ -681,7 +681,7 @@ export const blog = [
     description:
       "The article explores how social media platforms have shaped modern food trends, with influencers and viral posts driving culinary innovation and the popularity of certain dishes. It highlights the role of visual appeal and shareability in creating food fads and influencing consumer behavior.",
     author: {
-      authorAvatar: "",
+      authorAvatar: "/blog-authors/author-nolan-roberts.jpeg",
       authorName: "Nolan Roberts",
       authorDatePosted: "02 February 2020",
     },
@@ -723,7 +723,7 @@ export const blog = [
     description:
       "The article provides expert tips on how to pair wine with food, offering insights into balancing flavors, textures, and aromas for the perfect combination. It guides readers through the basics of wine pairing, from matching wine to the dish’s body to understanding the principles of contrast and complement.",
     author: {
-      authorAvatar: "",
+      authorAvatar: "/blog-authors/author-hudson-nguyen.jpeg",
       authorName: "Hudson Nguyen",
       authorDatePosted: "25 December 2021",
     },
@@ -765,7 +765,7 @@ export const blog = [
     description:
       "The article explores the future of fast food, focusing on the growing trend of healthier and more sustainable options. It discusses how brands are adapting to consumer demand for nutritious meals while reducing their environmental impact through eco-friendly practices and ingredients.",
     author: {
-      authorAvatar: "",
+      authorAvatar: "/blog-authors/author-wesley-anderson.jpeg",
       authorName: "Wesley Anderson",
       authorDatePosted: "01 March 2023",
     },
@@ -808,7 +808,7 @@ export const blog = [
     description:
       "The article explores the revival of regional cuisines in fine dining, highlighting how chefs are drawing inspiration from local traditions and ingredients. It discusses how this trend is bringing lesser-known dishes into the spotlight while celebrating cultural heritage and culinary diversity.",
     author: {
-      authorAvatar: "",
+      authorAvatar: "/blog-authors/author-charles-wilson.jpeg",
       authorName: "Charles Wilson",
       authorDatePosted: "08 March 2022",
     },
@@ -851,7 +851,7 @@ export const blog = [
     description:
       "The article provides a comprehensive guide to cooking with spices, exploring how different spices can elevate flavors in various cuisines. It also offers tips on selecting, storing, and combining spices to create balanced and vibrant dishes.",
     author: {
-      authorAvatar: "",
+      authorAvatar: "/blog-authors/author-adrian-foster.jpeg",
       authorName: "Adrian Foster",
       authorDatePosted: "15 August 2022",
     },
@@ -893,7 +893,7 @@ export const blog = [
     description:
       "This article takes readers behind the scenes of a Michelin-starred kitchen, revealing the high-pressure environment and intricate processes that go into creating exceptional dishes. It offers insights into the dedication, teamwork, and creativity required to maintain such prestigious standards in fine dining.",
     author: {
-      authorAvatar: "",
+      authorAvatar: "/blog-authors/author-noah-jones.jpeg",
       authorName: "Noah Jones",
       authorDatePosted: "11 February 2022",
     },
@@ -935,7 +935,7 @@ export const blog = [
     description:
       "This article dives into the realities of processed foods, examining their nutritional value, health impacts, and the role they play in modern diets. It offers insights into the benefits and risks of consuming processed foods and provides guidance for making informed food choices.",
     author: {
-      authorAvatar: "",
+      authorAvatar: "/blog-authors/author-levi-lee.jpeg",
       authorName: "Levi Lee",
       authorDatePosted: "18 December 2022",
     },
@@ -977,7 +977,7 @@ export const blog = [
     description:
       "This article explores the significant role food plays in shaping cultural identity and preserving heritage across generations. It delves into how traditional dishes reflect history, values, and community ties, and how they continue to evolve in modern society.",
     author: {
-      authorAvatar: "",
+      authorAvatar: "/blog-authors/author-luca-watson.jpeg",
       authorName: "Luca Watson",
       authorDatePosted: "01 August 2021",
     },
@@ -1019,7 +1019,7 @@ export const blog = [
     description:
       "This article examines whether the higher cost of organic food is justified by its health benefits, environmental impact, and nutritional value. It delves into the pros and cons of organic versus conventional produce, helping consumers make informed choices.",
     author: {
-      authorAvatar: "",
+      authorAvatar: "/blog-authors/author-micah-adams.jpeg",
       authorName: "Micah Adams",
       authorDatePosted: "30 August 2021",
     },
@@ -1062,7 +1062,7 @@ export const blog = [
     description:
       "This article explores how 3D printing is revolutionizing the food industry by enabling innovative cooking techniques and personalized food design. It highlights the potential for creating intricate shapes, customized textures, and sustainable food production methods.",
     author: {
-      authorAvatar: "",
+      authorAvatar: "/blog-authors/author-aaron-allen.jpeg",
       authorName: "Aaron Allen",
       authorDatePosted: "11 June 2022",
     },
@@ -1105,7 +1105,7 @@ export const blog = [
     description:
       "Fusion cuisine combines ingredients and cooking techniques from different cultures, creating innovative dishes that blend flavors and traditions. This culinary trend reflects globalization and the growing appreciation for diverse food experiences.",
     author: {
-      authorAvatar: "",
+      authorAvatar: "/blog-authors/author-sebastian-campbell.jpeg",
       authorName: "Sebastian Campbell",
       authorDatePosted: "28 May 2020",
     },
@@ -1147,7 +1147,7 @@ export const blog = [
     description:
       "Discover the most exciting and engaging cooking shows currently airing, offering everything from culinary challenges to expert tutorials. These shows showcase diverse cuisines and cooking techniques to inspire both novice and seasoned chefs.",
     author: {
-      authorAvatar: "",
+      authorAvatar: "/blog-authors/author-samuel-baker.jpeg",
       authorName: "Samuel Baker",
       authorDatePosted: "21 October 2023",
     },
@@ -1189,7 +1189,7 @@ export const blog = [
     description:
       "This article explores tips and techniques for recreating restaurant-quality dishes in the comfort of your own kitchen. It covers everything from selecting ingredients to mastering presentation, helping home cooks elevate their culinary skills.",
     author: {
-      authorAvatar: "",
+      authorAvatar: "/blog-authors/author-miles-foster.jpeg",
       authorName: "Miles Foster",
       authorDatePosted: "26 February 2021",
     },
@@ -1232,7 +1232,7 @@ export const blog = [
     description:
       "'Cooking for Mental Health' explores how the act of preparing meals can have therapeutic effects, offering relaxation, stress relief, and a sense of accomplishment. This practice helps boost mental well-being by promoting mindfulness and creativity in the kitchen.",
     author: {
-      authorAvatar: "",
+      authorAvatar: "/blog-authors/author-adrian-kim.jpeg",
       authorName: "Adrian Kim",
       authorDatePosted: "26 February 2022",
     },
@@ -1274,7 +1274,7 @@ export const blog = [
     description:
       "Explore some of the world's most unique food markets, where traditional ingredients and rare delicacies meet. Discover hidden gems that offer a true taste of local culture and culinary heritage.",
     author: {
-      authorAvatar: "",
+      authorAvatar: "/blog-authors/author-grayson-ruiz.jpeg",
       authorName: "Grayson Ruiz",
       authorDatePosted: "26 June 2024",
     },
@@ -1317,7 +1317,7 @@ export const blog = [
     description:
       "Zero-waste restaurants are transforming the dining industry by minimizing food waste through sustainable practices. Chefs and restaurateurs are embracing creative solutions to reduce, reuse, and recycle ingredients, promoting an eco-friendly approach to dining.",
     author: {
-      authorAvatar: "",
+      authorAvatar: "/blog-authors/author-elijah-thomas.jpeg",
       authorName: "Elijah Thomas",
       authorDatePosted: "10 June 2023",
     },
@@ -1359,7 +1359,7 @@ export const blog = [
     description:
       "The history of chocolate spans thousands of years, from its origins as a bitter beverage in ancient Mesoamerica to its transformation into the sweet treat we know today. This evolution has shaped not only the culinary world but also cultural traditions around the globe.",
     author: {
-      authorAvatar: "",
+      authorAvatar: "/blog-authors/author-carter-lee.jpeg",
       authorName: "Carter Lee",
       authorDatePosted: "12 October 2020",
     },
@@ -1401,7 +1401,7 @@ export const blog = [
     description:
       "'Cooking Under Pressure' explores the intense environment chefs face in bustling kitchens, where they must manage time, stress, and creativity. It delves into the strategies and skills that allow chefs to thrive under pressure while delivering exceptional dishes.",
     author: {
-      authorAvatar: "",
+      authorAvatar: "/blog-authors/author-ezekiel-peterson.jpeg",
       authorName: "Ezekiel Peterson",
       authorDatePosted: "09 September 2021",
     },
@@ -1443,7 +1443,7 @@ export const blog = [
     description:
       "The science of baking highlights the importance of precision in measurements, temperatures, and timing. Small variations can drastically alter the outcome, making accuracy essential for perfect results.",
     author: {
-      authorAvatar: "",
+      authorAvatar: "/blog-authors/author-theo-moore.jpeg",
       authorName: "Theo Moore",
       authorDatePosted: "05 June 2020",
     },
@@ -1485,7 +1485,7 @@ export const blog = [
     description:
       "Sous vide cooking is a precise technique that involves cooking food in a vacuum-sealed bag submerged in hot water for extended periods. This method ensures consistent temperature control, resulting in perfectly cooked dishes every time.",
     author: {
-      authorAvatar: "",
+      authorAvatar: "/blog-authors/author-ian-williams.jpeg",
       authorName: "Ian Williams",
       authorDatePosted: "18 December 2022",
     },
@@ -1527,7 +1527,7 @@ export const blog = [
     description:
       "Street food is gaining global recognition for its affordability, authenticity, and cultural significance. As foodies seek diverse culinary experiences, street vendors are becoming central to the modern food scene.",
     author: {
-      authorAvatar: "",
+      authorAvatar: "/blog-authors/author-micah-williams.jpeg",
       authorName: "Micah Williams",
       authorDatePosted: "02 July 2022",
     },
@@ -1569,7 +1569,7 @@ export const blog = [
     description:
       "Traditional Japanese Kaiseki cuisine offers a multi-course dining experience that emphasizes seasonal ingredients and meticulous presentation. This refined culinary art combines flavors, textures, and colors to create a harmonious meal that tells a story of nature's beauty.",
     author: {
-      authorAvatar: "",
+      authorAvatar: "/blog-authors/author-parker-rogers.jpeg",
       authorName: "Parker Rogers",
       authorDatePosted: "08 July 2023",
     },
@@ -1611,7 +1611,7 @@ export const blog = [
     description:
       "This article explores the top cities globally known for their vibrant food scenes, offering diverse culinary experiences. From street food stalls to Michelin-starred restaurants, these cities are a paradise for food enthusiasts.",
     author: {
-      authorAvatar: "",
+      authorAvatar: "/blog-authors/author-jeremiah-ramos.jpeg",
       authorName: "Jeremiah Ramos",
       authorDatePosted: "20 May 2024",
     },
@@ -1653,7 +1653,7 @@ export const blog = [
     description:
       "The article explores the significance of umami, the fifth basic taste, in contemporary cuisine. It delves into how chefs incorporate this savory flavor to enhance dishes and create more complex, balanced flavors.",
     author: {
-      authorAvatar: "",
+      authorAvatar: "/blog-authors/author-beau-roberts.jpeg",
       authorName: "Beau Roberts",
       authorDatePosted: "27 April 2020",
     },
@@ -1695,8 +1695,8 @@ export const blog = [
     description:
       "'Cooking with Fire: The Timeless Art of Open-Flame Cuisine' explores the ancient cooking technique of using direct fire to prepare food, celebrating its rich history and resurgence in modern kitchens. This cooking method enhances flavors, offering unique textures and a smoky depth that is hard to replicate with other techniques.",
     author: {
-      authorAvatar: "",
-      authorName: "Wesley Anderson",
+      authorAvatar: "/blog-authors/author-walker-long.jpeg",
+      authorName: "Walker Long",
       authorDatePosted: "24 October 2023",
     },
     blogImage: "",
@@ -1739,7 +1739,7 @@ export const blog = [
     description:
       "The rise of vegan desserts has sparked a debate about their ability to rival traditional sweets in taste and texture. As plant-based ingredients gain popularity, many chefs are experimenting with innovative recipes to create indulgent, dairy-free alternatives.",
     author: {
-      authorAvatar: "",
+      authorAvatar: "/blog-authors/author-adam-richardson.jpeg",
       authorName: "Adam Richardson",
       authorDatePosted: "08 August 2021",
     },
@@ -1781,7 +1781,7 @@ export const blog = [
     description:
       "Gourmet coffee trends are evolving with unique brews like nitro coffee and mushroom lattes gaining popularity. These innovations offer coffee lovers exciting new flavors and health benefits, redefining the traditional coffee experience.",
     author: {
-      authorAvatar: "",
+      authorAvatar: "/blog-authors/author-hudson-walker.jpeg",
       authorName: "Hudson Walker",
       authorDatePosted: "05 August 2023",
     },
@@ -1823,7 +1823,7 @@ export const blog = [
     description:
       "French cuisine has profoundly shaped global cooking techniques, influencing everything from presentation to flavor profiles. Its emphasis on precision and technique has set the standard for culinary arts worldwide.",
     author: {
-      authorAvatar: "",
+      authorAvatar: "/blog-authors/author-beau-campbell.jpeg",
       authorName: "Beau Campbell",
       authorDatePosted: "12 April 2020",
     },
@@ -1865,7 +1865,7 @@ export const blog = [
     description:
       "The choice of pasta shape plays a significant role in how well it holds sauces and complements different dishes. From spaghetti to farfalle, each shape is designed to enhance the overall eating experience in its own unique way.",
     author: {
-      authorAvatar: "",
+      authorAvatar: "/blog-authors/author-eli-brooks.jpeg",
       authorName: "Eli Brooks",
       authorDatePosted: "17 September 2024",
     },
@@ -1908,7 +1908,7 @@ export const blog = [
     description:
       "Virtual and augmented reality are revolutionizing the dining experience, offering customers immersive environments and interactive menus. These technologies are transforming how we experience food, enhancing both the ambiance and the ordering process in restaurants.",
     author: {
-      authorAvatar: "",
+      authorAvatar: "/blog-authors/author-ethan-johnson.jpeg",
       authorName: "Ethan Johnson",
       authorDatePosted: "16 December 2020",
     },
@@ -1950,7 +1950,7 @@ export const blog = [
     description:
       "This article explores the fascinating science behind the flavors we love, revealing how chemical reactions in cooking create delicious dishes. From the Maillard reaction to the role of acids and bases, it delves into the chemistry that makes food so flavorful.",
     author: {
-      authorAvatar: "",
+      authorAvatar: "/blog-authors/author-jameson-lewis.jpeg",
       authorName: "Jameson Lewis",
       authorDatePosted: "28 September 2023",
     },
@@ -1992,7 +1992,7 @@ export const blog = [
     description:
       "'Cooking with AI: How Smart Kitchens Are Revolutionizing Meal Prep' explores how artificial intelligence is transforming the way we cook by introducing smart kitchen appliances that optimize meal preparation. From personalized recipes to automated cooking processes, AI is enhancing convenience and efficiency in the kitchen.",
     author: {
-      authorAvatar: "",
+      authorAvatar: "/blog-authors/author-roman-gonzalez.jpeg",
       authorName: "Roman Gonzalez",
       authorDatePosted: "13 March 2021",
     },
@@ -2034,7 +2034,7 @@ export const blog = [
     description:
       "'The Ultimate Guide to Crafting the Perfect Burger' explores the essential steps and tips for creating a mouthwatering burger from scratch. From selecting the right ingredients to mastering cooking techniques, it’s a complete guide for burger enthusiasts.",
     author: {
-      authorAvatar: "",
+      authorAvatar: "/blog-authors/author-landon-reyes.jpeg",
       authorName: "Landon Reyes",
       authorDatePosted: "26 June 2024",
     },
@@ -2077,7 +2077,7 @@ export const blog = [
     description:
       "'The Art of Pickling' explores the global tradition of preserving fruits, vegetables, and even proteins through fermentation. The article delves into the diverse pickling techniques that enhance and preserve flavors across various cultures.",
     author: {
-      authorAvatar: "",
+      authorAvatar: "/blog-authors/author-carter-scott.jpeg",
       authorName: "Carter Scott",
       authorDatePosted: "15 March 2022",
     },
@@ -2119,7 +2119,7 @@ export const blog = [
     description:
       "The evolution of breakfast has transformed from simple ancient grains to diverse modern trends, reflecting cultural shifts and dietary preferences. Today, breakfast is more than just the first meal of the day—it's a blend of tradition, innovation, and nutrition.",
     author: {
-      authorAvatar: "",
+      authorAvatar: "/blog-authors/author-santiago-torres.jpeg",
       authorName: "Santiago Torres",
       authorDatePosted: "01 December 2020",
     },
@@ -2165,7 +2165,7 @@ export const blog = [
     description:
       "'Cooking in Space: What Astronauts Eat Beyond Earth' explores the unique challenges of preparing meals in zero gravity. It delves into the specially designed foods and cooking methods that ensure astronauts maintain proper nutrition while in space.",
     author: {
-      authorAvatar: "",
+      authorAvatar: "/blog-authors/author-greyson-jackson.jpeg",
       authorName: "Greyson Jackson",
       authorDatePosted: "01 November 2022",
     },
@@ -2207,7 +2207,7 @@ export const blog = [
     description:
       "Discover the world’s most unique food festivals, where culture, creativity, and cuisine come together to celebrate flavors from every corner of the globe. From spicy street food competitions to extravagant harvest celebrations, these events offer a feast for the senses.",
     author: {
-      authorAvatar: "",
+      authorAvatar: "/blog-authors/author-eli-gutierrez.jpeg",
       authorName: "Eli Gutierrez",
       authorDatePosted: "01 June 2024",
     },
@@ -2251,7 +2251,7 @@ export const blog = [
     description:
       "The article explores how climate change is disrupting global food systems, causing crop failures, altering growing seasons, and impacting food availability. It discusses the implications for food security and the need for sustainable agricultural practices.",
     author: {
-      authorAvatar: "",
+      authorAvatar: "/blog-authors/author-jordan-bailey.jpeg",
       authorName: "Jordan Bailey",
       authorDatePosted: "30 July 2022",
     },
@@ -2293,7 +2293,7 @@ export const blog = [
     description:
       "Traditional fermented foods, such as kimchi, sauerkraut, and kefir, offer numerous health benefits by promoting gut health, boosting the immune system, and enhancing nutrient absorption. These foods are packed with probiotics, which support digestion and overall well-being.",
     author: {
-      authorAvatar: "",
+      authorAvatar: "/blog-authors/author-luca-cook.jpeg",
       authorName: "Luca Cook",
       authorDatePosted: "14 April 2023",
     },
@@ -2336,7 +2336,7 @@ export const blog = [
     description:
       "Cooking with edible flowers brings both visual appeal and unique flavors to dishes, offering a vibrant way to enhance culinary creations. These flowers can add subtle tastes, like sweetness or bitterness, while also boosting the aesthetic of meals and beverages.",
     author: {
-      authorAvatar: "",
+      authorAvatar: "/blog-authors/author-silas-roberts.jpeg",
       authorName: "Silas Roberts",
       authorDatePosted: "22 February 2022",
     },

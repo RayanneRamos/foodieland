@@ -1,3 +1,5 @@
+--> Recipes
+
 // Breakfast
 
 1. Easton Lee --> Masculino
@@ -194,3 +196,123 @@
 89. Oliver Campbell --> Masculino
 90. Carter Moore --> Masculino
 91. Parker Cox --> Masculino
+
+--> Blogs
+
+// Authors
+
+1. Dylan Miller --> Masculino
+2. Elias Hall --> Masculino
+3. Aaron Green --> Masculino
+4. Nathan Sanders --> Masculino
+5. Micah Johnson --> Masculino
+6. Wesley Chavez --> Masculino
+7. Adam Diaz --> Masculino
+8. Jonathan Nguyen --> Masculino
+9. John Torres --> Masculino
+10. Anthony Flores --> Masculino
+11. Greyson Allen --> Masculino
+12. Elias Flores --> Masculino
+13. Adam Miller --> Masculino
+14. Jordan Gonzalez --> Masculino
+15. Jayden Ward --> Masculino
+16. Nolan Richardson --> Masculino
+17. Nolan Roberts --> Masculino
+18. Hudson Nguyen --> Masculino
+19. Wesley Anderson --> Masculino
+20. Charles Wilson --> Masculino
+21. Adrian Foster --> Masculino
+22. Noah Jones --> Masculino
+23. Levi Lee --> Masculino
+24. Luca Watson --> Masculino
+25. Micah Adams --> Masculino
+26. Aaron Allen --> Masculino
+27. Sebastian Campbell --> Masculino
+28. Samuel Baker --> Masculino
+29. Miles Foster --> Masculino
+30. Adrian Kim --> Masculino
+31. Grayson Ruiz --> Masculino
+32. Elijah Thomas --> Masculino
+33. Carter Lee --> Masculino
+34. Ezekiel Peterson --> Masculino
+35. Theo Moore --> Masculino
+36. Ian Williams --> Masculino
+37. Micah Williams --> Masculino
+38. Parker Rogers --> Masculino
+39. Jeremiah Ramos --> Masculino
+40. Beau Roberts --> Masculino
+41. Walker Long --> Masculino
+42. Adam Richardson --> Masculino
+43. Hudson Walker --> Masculino
+44. Beau Campbell --> Masculino
+45. Eli Brooks --> Masculino
+46. Ethan Johnson --> Masculino
+47. Jameson Lewis --> Masculino
+48. Roman Gonzalez --> Masculino
+49. Landon Reyes --> Masculino
+50. Carter Scott --> Masculino
+51. Santiago Torres --> Masculino
+52. Greyson Jackson --> Masculino
+53. Eli Gutierrez --> Masculino
+54. Jordan Bailey --> Masculino
+55. Luca Cook --> Masculino
+56. Silas Roberts --> Masculino
+
+// Posts
+
+The Rise of Plant-Based Cuisine: How Chefs Are Innovating Meatless Menus
+Michelin Stars 2025: New Restaurants That Made the Cut
+The Secret Behind the Perfect Neapolitan Pizza Dough
+From Street Food to Fine Dining: The Evolution of Global Cuisine
+The Science of Fermentation: Why Kimchi and Kombucha Are Booming
+AI in the Kitchen: Can Robots Really Replace Chefs?
+Home Cooking Revolution: How Lockdowns Changed the Way We Eat
+Is the Future of Food Lab-Grown Meat? A Deep Dive into Cultured Meat
+The Art of Plating: How Aesthetics Influence the Taste of Food
+Sustainable Cooking: Reducing Food Waste in Home and Professional Kitchens
+From Farm to Table: The Importance of Local Ingredients in Modern Cuisine
+The Comeback of Ancient Grains: Health Benefits and Culinary Uses
+Top 10 Cooking Hacks Every Home Chef Should Know
+The Most Expensive Ingredients in the World and How They’re Used
+The Psychology of Taste: Why We Crave Certain Flavors
+Celebrity Chefs and Their Signature Dishes
+The Influence of Social Media on Modern Food Trends
+How to Pair Wine and Food Like a Sommelier
+The Future of Fast Food: Healthier and More Sustainable Options
+The Resurgence of Regional Cuisines in Fine Dining
+The Ultimate Guide to Cooking with Spices
+Behind the Scenes of a Michelin-Starred Kitchen
+The Truth About Processed Foods: What You Need to Know
+The Role of Food in Cultural Identity and Heritage
+Is Organic Food Really Worth the Price?
+Gastronomy and Technology: How 3D Printing Is Changing the Food Industry
+Fusion Cuisine: When Different Cultures Meet on the Plate
+The Best Cooking Shows to Watch Right Now
+How to Make Restaurant-Quality Meals at Home
+Cooking for Mental Health: The Therapeutic Benefits of Preparing Meals
+The World’s Most Unique Food Markets and Their Hidden Gems
+The Rise of Zero-Waste Restaurants
+The History of Chocolate: From Ancient Times to Modern Treats
+Cooking Under Pressure: How Chefs Handle the Heat in Busy Kitchens
+The Science of Baking: Why Precision Matters
+The Ultimate Guide to Sous Vide Cooking
+Why Street Food Is Gaining Global Recognition
+Exploring the Secrets of Traditional Japanese Kaiseki Cuisine
+The Best Cities for Food Lovers Around the World
+The Role of Umami in Modern Cooking
+Cooking with Fire: The Timeless Art of Open-Flame Cuisine
+The Rise of Vegan Desserts: Can They Really Compete with Traditional Sweets?
+Gourmet Coffee Trends: From Nitro Brews to Mushroom Lattes
+The Influence of French Cuisine on Global Cooking Techniques
+Why Pasta Shapes Matter More Than You Think
+The Future of Dining: How Virtual and Augmented Reality Are Changing Restaurants
+Food and Science: The Chemistry Behind Deliciousness
+Cooking with AI: How Smart Kitchens Are Revolutionizing Meal Prep
+The Ultimate Guide to Crafting the Perfect Burger
+The Art of Pickling: Preserving Flavors from Around the World
+The Evolution of Breakfast: From Ancient Grains to Modern Trends
+Cooking in Space: What Astronauts Eat Beyond Earth
+The Most Unique Food Festivals Around the Globe
+How Climate Change Is Affecting Global Food Supplies
+The Surprising Health Benefits of Traditional Fermented Foods
+Cooking with Edible Flowers: Aesthetic and Flavor Enhancements for Your Dishes
