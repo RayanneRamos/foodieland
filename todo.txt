@@ -72,3 +72,9 @@ total fat, protein, carbohydrate, cholesterol, descrição, ingredients, e os mo
 cholesterol, descrição, ingredients, e os modos de preparo 
 
 O MODO DE PREPARARO PRECISA ESTAR DETALHADO
+
+// Blog
+
+[Em inglês] Dê uma descrição de 2 linhas dessa notícia
+
+[Em inglês] Escreva uma matéria dessa notícia The Rise of Plant-Based Cuisine: How Chefs Are Innovating Meatless Menus contendo 5 tittulos e 5 paragrafos e 1 blockquote
