@@ -1,8 +1,48 @@
 import styles from "./styles.module.scss";
 import saladImageOne from "../../assets/salad-01.png";
 import saladImageTwo from "../../assets/salad-02.png";
+import { z } from "zod";
+import { useForm } from "react-hook-form";
+import { zodResolver } from "@hookform/resolvers/zod";
+
+const newsletterSchema = z.object({
+  email: z.string().email("The e-mail field is invalid."),
+});
+
+type NewsletterSchema = z.infer<typeof newsletterSchema>;
 
 export function Newsletter() {
+  const {
+    register,
+    handleSubmit,
+    formState: { errors },
+  } = useForm<NewsletterSchema>({
+    resolver: zodResolver(newsletterSchema),
+    defaultValues: { email: "" },
+  });
+
+  function registerNewsletter(data: { email: string }) {
+    const email = data.email.trim();
+
+    if (!email) {
+      console.log("Invalid e-mail!");
+      return;
+    }
+
+    const storedEmails = localStorage.getItem("newsletterEmails");
+    const emailList: string[] = storedEmails ? JSON.parse(storedEmails) : [];
+
+    if (emailList.includes(email)) {
+      console.log("E-mail already registered!");
+      return;
+    }
+
+    emailList.push(email);
+    localStorage.setItem("newsletterEmails", JSON.stringify(emailList));
+
+    console.log("E-mail registered successfully!");
+  }
+
   return (
     <div className={styles.container}>
       <img src={saladImageOne} alt="salad-01" className={styles.imageOne} />
@@ -12,15 +52,21 @@ export function Newsletter() {
           Lorem ipsum dolor sit amet, consectetuipisicing elit, sed do eiusmod
           tempor incididunt ut labore et dolore magna aliqut enim ad minim{" "}
         </span>
-        <div className={styles.form}>
+        <form
+          onSubmit={handleSubmit(registerNewsletter)}
+          className={styles.form}
+        >
           <input
             className={styles.inputEmail}
-            name="email"
             type="email"
             placeholder="Your email address..."
+            {...register("email")}
           />
+          {errors.email && (
+            <p className={styles.error}>{errors.email.message}</p>
+          )}
           <button className={styles.button}>Subscribe</button>
-        </div>
+        </form>
       </div>
       <img src={saladImageTwo} alt="salad-02" className={styles.imageTwo} />
     </div>
