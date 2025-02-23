@@ -40,7 +40,6 @@ export const blog = [
     ],
     postBlockquote:
       "Plant-based cuisine is not just a trend—it’s a movement towards a more sustainable and flavorful future. – Chef Marco Leduc",
-    postImage: "",
   },
   {
     id: "671a8d7b-90a6-4cc8-acee-01513437424d",
@@ -82,7 +81,6 @@ export const blog = [
     ],
     postBlockquote:
       "Earning a Michelin star is a testament to years of passion, precision, and creativity in the kitchen. – Chef Elena Laurent",
-    postImage: "",
   },
   {
     id: "74929044-5a58-4421-8545-4d847d3d1a89",
@@ -124,7 +122,6 @@ export const blog = [
     ],
     postBlockquote:
       "A true Neapolitan pizza is more than food—it’s a craft, a tradition, and a passion passed down through generations. – Master Pizzaiolo Giovanni Esposito",
-    postImage: "",
   },
   {
     id: "477174ae-d8bb-487d-b13c-15d80f28fc43",
@@ -166,7 +163,6 @@ export const blog = [
     ],
     postBlockquote:
       "The best food tells a story—whether it’s served from a street cart or on fine china. – Chef Daniel Wong",
-    postImage: "",
   },
   {
     id: "0a7daadb-3e3c-473a-a993-d804149ebf76",
@@ -208,7 +204,6 @@ export const blog = [
     ],
     postBlockquote:
       "Fermentation is a living process that connects us to both ancient traditions and modern health trends. – Chef Soo Min",
-    postImage: "",
   },
   {
     id: "bf378173-6372-4c07-a8ca-d3ab14299387",
@@ -250,7 +245,6 @@ export const blog = [
     ],
     postBlockquote:
       "Robots can enhance kitchens, but the soul of cooking will always belong to the chef. – Chef Leonardo Russo",
-    postImage: "",
   },
   {
     id: "70c965c3-a2db-4d45-90ee-47a185d285d0",
@@ -292,7 +286,6 @@ export const blog = [
     ],
     postBlockquote:
       "The kitchen became a sanctuary during the pandemic—a place of comfort, creativity, and connection. – Home Cook, Emily Harris",
-    postImage: "",
   },
   {
     id: "09178a80-141f-416b-80f6-6b52bc7100f0",
@@ -335,7 +328,6 @@ export const blog = [
     ],
     postBlockquote:
       "Cultured meat could be the answer to some of the most pressing food challenges of our time—sustainability, ethics, and efficiency. – Dr. Sarah Thompson, Food Scientist",
-    postImage: "",
   },
   {
     id: "e88c3079-25e6-4e84-8ec5-a1e4c7de0503",
@@ -377,7 +369,6 @@ export const blog = [
     ],
     postBlockquote:
       "Plating is the final opportunity for a chef to make an impression. It’s where creativity meets flavor, transforming food into an experience. – Chef Olivia Martinez",
-    postImage: "",
   },
   {
     id: "c14c5747-05c4-4eb0-8b87-65523b4bf875",
@@ -420,7 +411,6 @@ export const blog = [
     ],
     postBlockquote:
       "Every bit of food counts, and small changes in our cooking practices can have a big impact on reducing waste and supporting sustainability. – Chef David Anderson",
-    postImage: "",
   },
   {
     id: "897f9b7c-2a94-4b26-86e1-0c57a42867d4",
@@ -463,7 +453,6 @@ export const blog = [
     ],
     postBlockquote:
       "Using local ingredients not only brings the best flavors to the plate but also creates a stronger, more sustainable food system for everyone. – Chef Emma Johnson",
-    postImage: "",
   },
   {
     id: "b5f4a808-efda-49b5-9ba3-4073c42af455",
@@ -505,7 +494,6 @@ export const blog = [
     ],
     postBlockquote:
       "Ancient grains are more than just a trend—they are a return to wholesome, nutritious ingredients that have stood the test of time. – Chef Mark Williams",
-    postImage: "",
   },
   {
     id: "cd1e80d5-c040-45a4-9761-1d3dce251d06",
@@ -547,7 +535,6 @@ export const blog = [
     ],
     postBlockquote:
       "Small hacks in the kitchen can make a big difference in how you cook, saving time and boosting the flavor of every dish. – Chef Lauren Scott",
-    postImage: "",
   },
   {
     id: "b4661f99-bcb6-4ea7-94ff-2acc0c80e9a0",
@@ -589,7 +576,6 @@ export const blog = [
     ],
     postBlockquote:
       "The world’s most expensive ingredients not only elevate the flavor of a dish but also represent the intersection of rarity, craftsmanship, and culinary tradition. – Chef Isabella Martinez",
-    postImage: "",
   },
   {
     id: "0e83a88b-31e1-4328-9ff8-640fbfa89cab",
@@ -631,7 +617,6 @@ export const blog = [
     ],
     postBlockquote:
       "Our cravings are not just about taste—they’re a complex blend of biology, culture, and emotions, all influencing what we eat and why we love it. – Dr. Emily Harris, Food Psychologist",
-    postImage: "",
   },
   {
     id: "d93bfa23-a522-40de-a0bd-50ba4f6265f0",
@@ -673,7 +658,6 @@ export const blog = [
     ],
     postBlockquote:
       "A signature dish is not just a meal; it’s a reflection of a chef’s style, philosophy, and passion for food. – Chef Wolfgang Puck",
-    postImage: "",
   },
   {
     id: "f980f378-f74d-436f-84cf-0036acb8a417",
@@ -715,7 +699,6 @@ export const blog = [
     ],
     postBlockquote:
       "Social media has turned food into a visual experience, where trends are born not only from taste but also from what looks good on screen. – Sarah Chang, Social Media Strategist",
-    postImage: "",
   },
   {
     id: "5c2fca3a-b9aa-4c36-9e4e-3f287d0a14d4",
@@ -757,7 +740,6 @@ export const blog = [
     ],
     postBlockquote:
       "Wine pairing is about balancing flavors and textures, but ultimately, it's about enjoying the experience of both food and wine together. – Jean-Claude Dupont, Master Sommelier",
-    postImage: "",
   },
   {
     id: "21734c7d-308a-40b0-8413-dc6aa734e49f",
@@ -800,7 +782,6 @@ export const blog = [
     ],
     postBlockquote:
       "The fast food industry is evolving to meet the demands of modern consumers who want healthier, sustainable, and ethically sourced food options. – Emily Rogers, Food Trend Expert",
-    postImage: "",
   },
   {
     id: "6a0dd067-5a0c-44b6-92d3-08966d7bcdc9",
@@ -843,7 +824,6 @@ export const blog = [
     ],
     postBlockquote:
       "Regional cuisine is more than just food; it’s a way to experience a culture and its history through the senses. It’s a trend that celebrates both tradition and innovation. – Chef Ana Gonzalez, Culinary Expert",
-    postImage: "",
   },
   {
     id: "52062792-889b-4bb2-8a58-0a35c3372f3f",
@@ -885,7 +865,6 @@ export const blog = [
     ],
     postBlockquote:
       "The right combination of spices can turn a good dish into an unforgettable one—it's all about finding balance and harmony in every bite. – Chef Marie Davis, Spice Specialist",
-    postImage: "",
   },
   {
     id: "7c81f5ce-f0c5-4336-a16f-67636fa3a2ab",
@@ -927,7 +906,6 @@ export const blog = [
     ],
     postBlockquote:
       "Michelin-starred kitchens are about more than just great food—it's about precision, creativity, and an unwavering commitment to excellence. – Chef James Donovan, Michelin-Starred Head Chef",
-    postImage: "",
   },
   {
     id: "bb6a3c50-246b-4a9a-be09-c14b77b1553f",
@@ -969,7 +947,6 @@ export const blog = [
     ],
     postBlockquote:
       "Processed foods don’t have to be entirely avoided, but understanding what goes into them and how they impact your health is essential for making better dietary choices. – Nutrition Expert Dr. Emily Carter",
-    postImage: "",
   },
   {
     id: "a4b3b5f2-94e8-467b-8ade-424530fb1a8c",
@@ -1011,7 +988,6 @@ export const blog = [
     ],
     postBlockquote:
       "Food is a language we speak to communicate our heritage, our identity, and our love for the people around us. – Chef and Cultural Advocate Maria Gonzalez",
-    postImage: "",
   },
   {
     id: "544c09af-df93-4694-98c7-e67994fbd1bd",
@@ -1053,7 +1029,6 @@ export const blog = [
     ],
     postBlockquote:
       "Choosing organic is a personal decision, but it’s essential to consider all factors—cost, health, and environmental impact—before making your purchase. – Nutrition Expert Jane Doe",
-    postImage: "",
   },
   {
     id: "51d5771a-ed0e-45a1-9401-2a736263c70f",
@@ -1097,7 +1072,6 @@ export const blog = [
     ],
     postBlockquote:
       "3D printing in food is not just about innovation; it's about redefining what food can be—shapes, textures, and tastes never seen before, all while contributing to sustainability. – Chef and Technologist, John Smith",
-    postImage: "",
   },
   {
     id: "9cac3bfd-f285-4e93-96b8-b8a81cab4398",
@@ -1139,7 +1113,6 @@ export const blog = [
     ],
     postBlockquote:
       "Fusion cuisine is not just about mixing ingredients; it's about creating a conversation between cultures on the plate, allowing food to tell a new story. – Chef Maria Lopez, Fusion Cuisine Expert.",
-    postImage: "",
   },
   {
     id: "475ef1ef-6e61-4593-bffc-a41319cf44b6",
@@ -1181,7 +1154,6 @@ export const blog = [
     ],
     postBlockquote:
       "Great cooking is about more than just recipes—it's about creativity, passion, and sharing a piece of culture. – David Chang, Host of Ugly Delicious",
-    postImage: "",
   },
   {
     id: "70e35d0a-0e6f-444f-b081-888e07df5f47",
@@ -1223,7 +1195,6 @@ export const blog = [
     ],
     postBlockquote:
       "When cooking at home, it’s not about having the fanciest equipment; it’s about using the right techniques and understanding the ingredients.",
-    postImage: "",
   },
   {
     id: "e524ce48-43fd-4b31-80d0-be021453d058",
@@ -1266,7 +1237,6 @@ export const blog = [
     ],
     postBlockquote:
       "Cooking allows you to slow down and connect with the present moment. It’s a chance to unwind, focus, and express yourself—ultimately nourishing both the body and the mind.",
-    postImage: "",
   },
   {
     id: "66ca466e-13fc-486f-a76d-c88aeeb46053",
@@ -1309,7 +1279,6 @@ export const blog = [
     ],
     postBlockquote:
       "A food market isn’t just a place to shop; it’s a place to experience a culture, uncover hidden gems, and share meals with locals. – A seasoned traveler and food enthusiast",
-    postImage: "",
   },
   {
     id: "3cedff71-1a42-4486-acff-94dda448b6d1",
@@ -1351,7 +1320,6 @@ export const blog = [
     ],
     postBlockquote:
       "Zero-waste restaurants aren’t just about minimizing waste—they're about transforming how we think about food, sustainability, and our role in the ecosystem.",
-    postImage: "",
   },
   {
     id: "1d3ca05b-6f76-457f-b486-25fa4a63b476",
@@ -1393,7 +1361,6 @@ export const blog = [
     ],
     postBlockquote:
       "Chocolate is not just a treat; it’s a part of history, culture, and craftsmanship. From ancient rituals to modern indulgence, chocolate has transcended time and geography.",
-    postImage: "",
   },
   {
     id: "f0f5952f-70a4-4bd3-b653-811e96ae8a62",
@@ -1435,7 +1402,6 @@ export const blog = [
     ],
     postBlockquote:
       "In the kitchen, pressure is a constant. But with experience, you learn to embrace it. It’s about finding the rhythm, staying calm, and knowing that you have everything under control—even when things get tough. – Chef Alex Rodriguez.",
-    postImage: "",
   },
   {
     id: "fc427dcd-12b7-4c50-a7ba-0c3bac3eccbf",
@@ -1477,7 +1443,6 @@ export const blog = [
     ],
     postBlockquote:
       "Baking isn't just about following a recipe—it's about understanding the science that makes it all work. Precision in every step is the difference between success and failure.",
-    postImage: "",
   },
   {
     id: "bcc8da68-e4bb-4267-9fe5-80f89b8a4be2",
@@ -1519,7 +1484,6 @@ export const blog = [
     ],
     postBlockquote:
       "Sous vide cooking allows you to achieve restaurant-quality results at home with minimal effort, offering unparalleled precision and flavor retention.",
-    postImage: "",
   },
   {
     id: "ec72e38a-fffb-4279-9cac-d5cdece95b45",
@@ -1561,7 +1525,6 @@ export const blog = [
     ],
     postBlockquote:
       "Street food has always been about more than just food – it’s about culture, history, and the experience. People crave a connection to the places they visit, and street food offers an immediate and authentic way to do that.",
-    postImage: "",
   },
   {
     id: "91f3bbdc-3e9a-44aa-a81b-6c8a07957253",
@@ -1603,7 +1566,6 @@ export const blog = [
     ],
     postBlockquote:
       "Kaiseki is not just about food—it's about experiencing nature, culture, and the passage of time through the art of dining.",
-    postImage: "",
   },
   {
     id: "b847ea14-da75-497a-8d25-a162ae3523be",
@@ -1645,7 +1607,6 @@ export const blog = [
     ],
     postBlockquote:
       "The best food cities aren’t just about fine dining—they’re about the entire culinary experience. From humble street food stalls to elegant fine dining establishments, these cities offer food that tells a story and connects you to their culture.",
-    postImage: "",
   },
   {
     id: "8ca3da7c-3381-445d-8ae8-83bf1812b380",
@@ -1687,7 +1648,6 @@ export const blog = [
     ],
     postBlockquote:
       "Umami isn't just a flavor; it's a key to unlocking more depth and balance in cooking.",
-    postImage: "",
   },
   {
     id: "d24192a7-f4a9-4993-80e4-cf0416fab322",
@@ -1730,7 +1690,6 @@ export const blog = [
     ],
     postBlockquote:
       "Cooking with fire is more than a technique; it's an experience that brings people closer to the food and the process behind it.",
-    postImage: "",
   },
   {
     id: "213313cb-345c-4dc5-89ea-df96c429fb02",
@@ -1773,7 +1732,6 @@ export const blog = [
     ],
     postBlockquote:
       "Vegan desserts are no longer an afterthought. They are an innovative and delicious option that can stand toe-to-toe with the best traditional desserts.",
-    postImage: "",
   },
   {
     id: "cce57a9a-db61-47d9-bdf6-edebe62c39e8",
@@ -1815,7 +1773,6 @@ export const blog = [
     ],
     postBlockquote:
       "Gourmet coffee is no longer just about the caffeine boost – it’s about the experience, the flavor profiles, and the health benefits that come with each cup.",
-    postImage: "",
   },
   {
     id: "f8fc0ca4-74cb-4072-baa4-1d64d3115558",
@@ -1857,7 +1814,6 @@ export const blog = [
     ],
     postBlockquote:
       "French cuisine has set the standard for culinary excellence, blending technique, tradition, and innovation in ways that continue to inspire chefs globally.",
-    postImage: "",
   },
   {
     id: "4197ab7e-307e-47a0-8017-d5f986a0ac36",
@@ -1899,7 +1855,6 @@ export const blog = [
     ],
     postBlockquote:
       "Choosing the right pasta shape is more than just aesthetics—it's about creating the perfect harmony between pasta, sauce, and texture that transforms an ordinary dish into something extraordinary.",
-    postImage: "",
   },
   {
     id: "393124f4-4afe-4be7-ac39-c0d276e4d403",
@@ -1942,7 +1897,6 @@ export const blog = [
     ],
     postBlockquote:
       "The integration of VR and AR in restaurants has completely transformed how we experience food, offering a more engaging, personalized, and immersive dining journey.",
-    postImage: "",
   },
   {
     id: "0800727c-85fa-4002-b4a9-86971edec754",
@@ -1984,7 +1938,6 @@ export const blog = [
     ],
     postBlockquote:
       "Cooking is a science, and when you understand the reactions taking place, you unlock a whole new world of flavors and textures.",
-    postImage: "",
   },
   {
     id: "76bdaf2a-d2ca-49a8-bffc-a6e3c009debb",
@@ -2026,7 +1979,6 @@ export const blog = [
     ],
     postBlockquote:
       "AI is not just about making cooking easier—it's about creating personalized, efficient, and sustainable culinary experiences that benefit both the chef and the environment.",
-    postImage: "",
   },
   {
     id: "b61a86e3-6e0a-4753-b08e-966df323b1ba",
@@ -2069,7 +2021,6 @@ export const blog = [
     ],
     postBlockquote:
       "The perfect burger isn't just about the beef; it's about creating balance—juicy, flavorful meat, perfectly toasted buns, and toppings that complement the taste.",
-    postImage: "",
   },
   {
     id: "a52f6121-c537-4790-99c9-c70f0faf7090",
@@ -2111,7 +2062,6 @@ export const blog = [
     ],
     postBlockquote:
       "Pickling is not just a method of preservation, it’s a creative expression of flavor that brings together cultures, history, and science in a jar.",
-    postImage: "",
   },
   {
     id: "98610227-58e9-40f0-a9e5-c8a5d6c49060",
@@ -2157,7 +2107,6 @@ export const blog = [
     ],
     postBlockquote:
       "The modern breakfast is no longer confined to traditional boundaries. It is an expression of personal preferences, health consciousness, and global influences, all coming together to start the day off right.",
-    postImage: "",
   },
   {
     id: "b5cecab1-74f6-4cea-8371-08c56de30548",
@@ -2199,7 +2148,6 @@ export const blog = [
     ],
     postBlockquote:
       "Cooking in space is about more than just feeding astronauts – it’s about providing them with the nutrition and morale needed to thrive in a challenging environment.",
-    postImage: "",
   },
   {
     id: "f2b67a4f-5ee5-4aea-887f-2d4a0a66a8ad",
@@ -2243,7 +2191,6 @@ export const blog = [
     ],
     postBlockquote:
       "Food festivals are not just about eating—they’re about immersing yourself in the traditions, cultures, and stories that food can tell.",
-    postImage: "",
   },
   {
     id: "d14c91d9-4716-4c53-ae6f-6e5f7125a0fb",
@@ -2285,7 +2232,6 @@ export const blog = [
     ],
     postBlockquote:
       "To ensure food security for future generations, it is imperative that we take immediate action to mitigate climate change and adapt our agricultural practices to the new environmental realities we face. – Environmental Expert",
-    postImage: "",
   },
   {
     id: "5296d905-4161-4353-8193-e99a742d7449",
@@ -2327,7 +2273,6 @@ export const blog = [
     ],
     postBlockquote:
       "Fermented foods are more than just a trend; they are a time-tested way to improve your gut health, boost immunity, and enhance your overall well-being.",
-    postImage: "",
   },
   {
     id: "19ec9c27-b8f4-45b8-8082-0a71ae093463",
@@ -2370,6 +2315,5 @@ export const blog = [
     ],
     postBlockquote:
       "Cooking with edible flowers isn't just about adding color—it's about enhancing the flavors and bringing a little bit of nature into your meals.",
-    postImage: "",
   },
 ];
