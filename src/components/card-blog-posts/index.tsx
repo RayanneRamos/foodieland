@@ -1,37 +1,34 @@
+import { BlogProps } from "../../types";
 import styles from "./styles.module.scss";
 
 interface CardBlogPostsInterface {
-  blogRecipes: {
-    id: string;
-    image: string;
-    recipeTitle: string;
-    recipeDescription: string;
-    author: {
-      image: string;
-      name: string;
-    };
-    date: string;
-  };
+  blog?: BlogProps;
 }
 
-export function CardBlogPosts({ blogRecipes }: CardBlogPostsInterface) {
+export function CardBlogPosts({ blog }: CardBlogPostsInterface) {
   return (
     <div className={styles.container}>
-      <img src={blogRecipes.image} alt={blogRecipes.recipeTitle} />
+      <img
+        src={blog?.blogImage}
+        alt={blog?.title}
+        className={styles.imagePost}
+      />
       <div className={styles.cardInfo}>
-        <strong className={styles.cardTitle}>{blogRecipes.recipeTitle}</strong>
-        <p className={styles.cardSubtitle}>{blogRecipes.recipeDescription}</p>
+        <strong className={styles.cardTitle}>{blog?.title}</strong>
+        <p className={styles.cardSubtitle}>{blog?.description}</p>
         <div className={styles.cardFooter}>
           <div className={styles.footerAvatar}>
             <img
-              src={blogRecipes.author.image}
-              alt={blogRecipes.author.name}
-              className={styles.avtarImage}
+              src={blog?.author?.authorAvatar}
+              alt={blog?.author?.authorName}
+              className={styles.avatarImage}
             />
-            <span className={styles.avatarName}>{blogRecipes.author.name}</span>
+            <span className={styles.avatarName}>
+              {blog?.author?.authorName}
+            </span>
           </div>
           <div className={styles.separator} />
-          <span className={styles.date}>{blogRecipes.date}</span>
+          <span className={styles.date}>{blog?.author?.authorDatePosted}</span>
         </div>
       </div>
     </div>

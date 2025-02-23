@@ -2,6 +2,13 @@
   display: flex;
   gap: 40px;
 
+  .imagePost {
+    width: 290px;
+    height: 200px;
+
+    border-radius: 20px;
+  }
+
   .cardInfo {
     .cardTitle {
       font-size: 24px;
@@ -17,6 +24,12 @@
       color: rgba(0, 0, 0, 0.6);
 
       margin-top: 16px;
+
+      display: -webkit-box;
+      -webkit-line-clamp: 2; /* Define o limite de linhas */
+      -webkit-box-orient: vertical;
+      overflow: hidden;
+      text-overflow: ellipsis;
     }
 
     .cardFooter {
@@ -35,6 +48,8 @@
         .avatarImage {
           width: 40px;
           height: 40px;
+
+          border-radius: 50%;
         }
 
         .avatarName {

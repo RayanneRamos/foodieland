@@ -8,15 +8,20 @@ import { Pagination } from "../../components/pagination";
 import { Newsletter } from "../../components/newsletter";
 import { Footer } from "../../components/footer";
 import { useState } from "react";
-import { blogLists } from "../../utils/blog-list";
 import { recipes } from "../../utils/recipes";
+import { blog } from "../../utils/blog.";
 
 const itemsPerPage = 6;
-const items = Array.from({ length: 31 }, (_, i) => `Items ${i + 1}`);
 
 export function BlogList() {
   const [currentPage, setCurrentPage] = useState(1);
-  const totalPages = Math.ceil(items.length / itemsPerPage);
+
+  const startIndex = (currentPage - 1) * itemsPerPage;
+  const endIndex = startIndex + itemsPerPage;
+
+  const currentPosts = blog.slice(startIndex, endIndex);
+
+  const totalPages = Math.ceil(recipes.length / itemsPerPage);
 
   return (
     <div className={styles.container}>
@@ -40,10 +45,8 @@ export function BlogList() {
       </div>
       <div className={styles.main}>
         <div className={styles.posts}>
-          {blogLists.map((blogRecipes) => {
-            return (
-              <CardBlogPosts blogRecipes={blogRecipes} key={blogRecipes.id} />
-            );
+          {currentPosts.slice(0, 6).map((blog) => {
+            return <CardBlogPosts blog={blog} key={blog.id} />;
           })}
         </div>
         <div className={styles.tastyRecipes}>
