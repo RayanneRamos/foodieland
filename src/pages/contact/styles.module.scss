@@ -24,6 +24,11 @@
       flex-direction: column;
       gap: 24px;
 
+      .error {
+        font-size: 14px;
+        color: #B82132;
+      }
+
       .formContainer {
         display: flex;
         gap: 40px;

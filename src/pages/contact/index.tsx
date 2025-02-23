@@ -6,8 +6,45 @@ import { Newsletter } from "../../components/newsletter";
 import { Footer } from "../../components/footer";
 import { CardOtherRecipes } from "../../components/card-other-recipes";
 import { recipes } from "../../utils/recipes";
+import { z } from "zod";
+import { useForm } from "react-hook-form";
+import { zodResolver } from "@hookform/resolvers/zod";
+
+const contactSchema = z.object({
+  name: z.string().min(2, "The name field cannot be blank."),
+  email: z.string().email("The e-mail field is invalid."),
+  subject: z.string().min(2, "The subject field cannot be blank."),
+  options: z.string().min(1, "You need to select option."),
+  message: z.string().min(12, "The message field must contain 12 characters."),
+});
+
+type ContactSchema = z.infer<typeof contactSchema>;
 
 export function Contact() {
+  const {
+    register,
+    handleSubmit,
+    reset,
+    formState: { errors },
+  } = useForm<ContactSchema>({
+    resolver: zodResolver(contactSchema),
+  });
+
+  function handleSendMessage(data: ContactSchema) {
+    const storedMessages = localStorage.getItem("contactMessages");
+    const messageList: ContactSchema[] = storedMessages
+      ? JSON.parse(storedMessages)
+      : [];
+
+    messageList.push(data);
+
+    localStorage.setItem("contactMessages", JSON.stringify(messageList));
+
+    console.log("Message saved successfully!", data);
+
+    reset();
+  }
+
   return (
     <div className={styles.container}>
       <Navigation />
@@ -16,25 +53,34 @@ export function Contact() {
         <h1 className={styles.title}>Contact us</h1>
         <div className={styles.mainContent}>
           <img src={chefContactImage} alt="" />
-          <div className={styles.form}>
+          <form
+            onSubmit={handleSubmit(handleSendMessage)}
+            className={styles.form}
+          >
             <div className={styles.formContainer}>
               <div className={styles.formContent}>
                 <label className={styles.labelName}>Name</label>
                 <input
                   type="text"
-                  name="name"
                   placeholder="Enter your name..."
                   className={styles.input}
+                  {...register("name")}
                 />
+                {errors.name && (
+                  <p className={styles.error}>{errors.name.message}</p>
+                )}
               </div>
               <div className={styles.formContent}>
                 <label className={styles.labelName}>Email Address</label>
                 <input
-                  type="email"
-                  name="email"
+                  type="text"
                   placeholder="Your email address..."
                   className={styles.input}
+                  {...register("email")}
                 />
+                {errors.email && (
+                  <p className={styles.error}>{errors.email.message}</p>
+                )}
               </div>
             </div>
             <div className={styles.formContainer}>
@@ -42,14 +88,18 @@ export function Contact() {
                 <label className={styles.labelName}>Subject</label>
                 <input
                   type="text"
-                  name="subject"
                   placeholder="Enter subject..."
                   className={styles.input}
+                  {...register("subject")}
                 />
+                {errors.subject && (
+                  <p className={styles.error}>{errors.subject.message}</p>
+                )}
               </div>
               <div className={styles.formContent}>
                 <label className={styles.labelName}>Enquiry Type</label>
-                <select className={styles.select} name="select">
+                <select className={styles.select} {...register("options")}>
+                  <option value="">Choose an option</option>
                   <option value="advertising">Advertising</option>
                   <option value="ad-placement">Ad Placement</option>
                   <option value="sponsored-content">Sponsored Content</option>
@@ -73,6 +123,9 @@ export function Contact() {
                   </option>
                   <option value="other">Other</option>
                 </select>
+                {errors.options && (
+                  <p className={styles.error}>{errors.options.message}</p>
+                )}
               </div>
             </div>
             <div className={styles.messageBox}>
@@ -80,10 +133,14 @@ export function Contact() {
               <textarea
                 placeholder="Enter your messages..."
                 className={styles.textarea}
+                {...register("message")}
               />
+              {errors.message && (
+                <p className={styles.error}>{errors.message.message}</p>
+              )}
             </div>
             <button className={styles.formButton}>Submit</button>
-          </div>
+          </form>
         </div>
       </div>
       <div className={styles.newsletterSection}>
