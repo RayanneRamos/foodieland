@@ -4,6 +4,7 @@ import saladImageTwo from "../../assets/salad-02.png";
 import { z } from "zod";
 import { useForm } from "react-hook-form";
 import { zodResolver } from "@hookform/resolvers/zod";
+import { toast } from "sonner";
 
 const newsletterSchema = z.object({
   email: z.string().email("The e-mail field is invalid."),
@@ -26,7 +27,7 @@ export function Newsletter() {
     const email = data.email.trim();
 
     if (!email) {
-      console.log("Invalid e-mail!");
+      toast.error("Invalid e-mail!");
       return;
     }
 
@@ -34,14 +35,14 @@ export function Newsletter() {
     const emailList: string[] = storedEmails ? JSON.parse(storedEmails) : [];
 
     if (emailList.includes(email)) {
-      console.log("E-mail already registered!");
+      toast.error("E-mail already registered!");
       return;
     }
 
     emailList.push(email);
     localStorage.setItem("newsletterEmails", JSON.stringify(emailList));
 
-    console.log("E-mail registered successfully!");
+    toast.success("E-mail registered successfully!");
 
     reset();
   }

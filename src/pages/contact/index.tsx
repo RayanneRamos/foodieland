@@ -9,6 +9,7 @@ import { recipes } from "../../utils/recipes";
 import { z } from "zod";
 import { useForm } from "react-hook-form";
 import { zodResolver } from "@hookform/resolvers/zod";
+import { toast } from "sonner";
 
 const contactSchema = z.object({
   name: z.string().min(2, "The name field cannot be blank."),
@@ -40,7 +41,7 @@ export function Contact() {
 
     localStorage.setItem("contactMessages", JSON.stringify(messageList));
 
-    console.log("Message saved successfully!", data);
+    toast.success("Message saved successfully!");
 
     reset();
   }
