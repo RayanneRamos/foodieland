@@ -1,3 +1,4 @@
+import { Link } from "react-router";
 import { BlogProps } from "../../types";
 import styles from "./styles.module.scss";
 
@@ -14,7 +15,9 @@ export function CardBlogPosts({ blog }: CardBlogPostsInterface) {
         className={styles.imagePost}
       />
       <div className={styles.cardInfo}>
-        <strong className={styles.cardTitle}>{blog?.title}</strong>
+        <Link to={`/blog-post/${blog?.id}`} className={styles.link}>
+          <strong className={styles.cardTitle}>{blog?.title}</strong>
+        </Link>
         <p className={styles.cardSubtitle}>{blog?.description}</p>
         <div className={styles.cardFooter}>
           <div className={styles.footerAvatar}>
