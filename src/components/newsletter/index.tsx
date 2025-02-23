@@ -16,12 +16,13 @@ export function Newsletter() {
     register,
     handleSubmit,
     formState: { errors },
+    reset,
   } = useForm<NewsletterSchema>({
     resolver: zodResolver(newsletterSchema),
     defaultValues: { email: "" },
   });
 
-  function registerNewsletter(data: { email: string }) {
+  function registerNewsletter(data: NewsletterSchema) {
     const email = data.email.trim();
 
     if (!email) {
@@ -41,6 +42,8 @@ export function Newsletter() {
     localStorage.setItem("newsletterEmails", JSON.stringify(emailList));
 
     console.log("E-mail registered successfully!");
+
+    reset();
   }
 
   return (
@@ -58,15 +61,13 @@ export function Newsletter() {
         >
           <input
             className={styles.inputEmail}
-            type="email"
+            type="text"
             placeholder="Your email address..."
             {...register("email")}
           />
-          {errors.email && (
-            <p className={styles.error}>{errors.email.message}</p>
-          )}
           <button className={styles.button}>Subscribe</button>
         </form>
+        {errors.email && <p className={styles.error}>{errors.email.message}</p>}
       </div>
       <img src={saladImageTwo} alt="salad-02" className={styles.imageTwo} />
     </div>
