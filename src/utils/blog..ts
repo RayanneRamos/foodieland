@@ -10,7 +10,7 @@ export const blog = [
       authorName: "Dylan Miller",
       authorDatePosted: "02 February 2020",
     },
-    blogImage: "",
+    blogImage: "/blog-photos/blog-image-01.png",
     posts: [
       {
         postQuestion: "A Culinary Revolution in Plant-Based Dining",
@@ -52,7 +52,7 @@ export const blog = [
       authorName: "Elias Hall",
       authorDatePosted: "27 January 2021",
     },
-    blogImage: "",
+    blogImage: "/blog-photos/blog-image-02.png",
     posts: [
       {
         postQuestion: "A Celebration of Culinary Excellence",
@@ -94,7 +94,7 @@ export const blog = [
       authorName: "Aaron Green",
       authorDatePosted: "21 May 2024",
     },
-    blogImage: "",
+    blogImage: "/blog-photos/blog-image-03.png",
     posts: [
       {
         postQuestion: "The Art of Simplicity",
@@ -136,7 +136,7 @@ export const blog = [
       authorName: "Nathan Sanders",
       authorDatePosted: "17 April 2023",
     },
-    blogImage: "",
+    blogImage: "/blog-photos/blog-image-04.png",
     posts: [
       {
         postQuestion: "A Culinary Journey Through Time",
@@ -178,7 +178,7 @@ export const blog = [
       authorName: "Micah Johnson",
       authorDatePosted: "11 May 2020",
     },
-    blogImage: "",
+    blogImage: "/blog-photos/blog-image-05.png",
     posts: [
       {
         postQuestion: "A Return to Ancient Practices",
@@ -220,7 +220,7 @@ export const blog = [
       authorName: "Wesley Chavez",
       authorDatePosted: "18 November 2024",
     },
-    blogImage: "",
+    blogImage: "/blog-photos/blog-image-06.png",
     posts: [
       {
         postQuestion: "The Rise of Robotic Kitchens",
@@ -262,7 +262,7 @@ export const blog = [
       authorName: "Adam Diaz",
       authorDatePosted: "09 April 2023",
     },
-    blogImage: "",
+    blogImage: "/blog-photos/blog-image-07.png",
     posts: [
       {
         postQuestion: "A Surge in Home Cooking",
@@ -305,7 +305,7 @@ export const blog = [
       authorName: "Jonathan Nguyen",
       authorDatePosted: "15 May 2021",
     },
-    blogImage: "",
+    blogImage: "/blog-photos/blog-image-08.png",
     posts: [
       {
         postQuestion: "What is Cultured Meat?",
@@ -347,7 +347,7 @@ export const blog = [
       authorName: "John Torres",
       authorDatePosted: "26 July 2024",
     },
-    blogImage: "",
+    blogImage: "/blog-photos/blog-image-09.png",
     posts: [
       {
         postQuestion: "The Power of First Impressions",
@@ -390,7 +390,7 @@ export const blog = [
       authorName: "Anthony Flores",
       authorDatePosted: "19 September 2024",
     },
-    blogImage: "",
+    blogImage: "/blog-photos/blog-image-10.png",
     posts: [
       {
         postQuestion: "The Growing Importance of Sustainability",
@@ -433,7 +433,7 @@ export const blog = [
       authorName: "Greyson Allen",
       authorDatePosted: "25 March 2023",
     },
-    blogImage: "",
+    blogImage: "/blog-photos/blog-image-11.png",
     posts: [
       {
         postQuestion: "The Rise of the Farm-to-Table Movement",
@@ -475,7 +475,7 @@ export const blog = [
       authorName: "Elias Flores",
       authorDatePosted: "03 August 2024",
     },
-    blogImage: "",
+    blogImage: "/blog-photos/blog-image-12.png",
     posts: [
       {
         postQuestion: "Rediscovering the Power of Ancient Grains",
@@ -517,7 +517,7 @@ export const blog = [
       authorName: "Adam Miller",
       authorDatePosted: "19 May 2021",
     },
-    blogImage: "",
+    blogImage: "/blog-photos/blog-image-13.png",
     posts: [
       {
         postQuestion: "Master the Art of Meal Prep",
@@ -559,7 +559,7 @@ export const blog = [
       authorName: "Jordan Gonzalez",
       authorDatePosted: "11 May 2020",
     },
-    blogImage: "",
+    blogImage: "/blog-photos/blog-image-14.png",
     posts: [
       {
         postQuestion: "The Price of Luxury: Rare Saffron",
@@ -601,7 +601,7 @@ export const blog = [
       authorName: "Jayden Ward",
       authorDatePosted: "31 December 2023",
     },
-    blogImage: "",
+    blogImage: "/blog-photos/blog-image-15.png",
     posts: [
       {
         postQuestion: "The Biology Behind Our Food Cravings",
@@ -643,7 +643,7 @@ export const blog = [
       authorName: "Nolan Richardson",
       authorDatePosted: "19 July 2020",
     },
-    blogImage: "",
+    blogImage: "/blog-photos/blog-image-16.png",
     posts: [
       {
         postQuestion: "Gordon Ramsay’s Beef Wellington",
@@ -685,7 +685,7 @@ export const blog = [
       authorName: "Nolan Roberts",
       authorDatePosted: "02 February 2020",
     },
-    blogImage: "",
+    blogImage: "/blog-photos/blog-image-17.png",
     posts: [
       {
         postQuestion: "Social Media as a Culinary Trendsetter",
@@ -727,7 +727,7 @@ export const blog = [
       authorName: "Hudson Nguyen",
       authorDatePosted: "25 December 2021",
     },
-    blogImage: "",
+    blogImage: "/blog-photos/blog-image-18.png",
     posts: [
       {
         postQuestion: "Understanding the Basics of Wine Pairing",
@@ -769,7 +769,7 @@ export const blog = [
       authorName: "Wesley Anderson",
       authorDatePosted: "01 March 2023",
     },
-    blogImage: "",
+    blogImage: "/blog-photos/blog-image-19.png",
     posts: [
       {
         postQuestion: "A Shift Towards Healthier Choices",
@@ -812,7 +812,7 @@ export const blog = [
       authorName: "Charles Wilson",
       authorDatePosted: "08 March 2022",
     },
-    blogImage: "",
+    blogImage: "/blog-photos/blog-image-20.png",
     posts: [
       {
         postQuestion: "Celebrating Local Ingredients and Traditions",
@@ -855,7 +855,7 @@ export const blog = [
       authorName: "Adrian Foster",
       authorDatePosted: "15 August 2022",
     },
-    blogImage: "",
+    blogImage: "/blog-photos/blog-image-21.png",
     posts: [
       {
         postQuestion: "Understanding the Power of Spices",
@@ -897,7 +897,7 @@ export const blog = [
       authorName: "Noah Jones",
       authorDatePosted: "11 February 2022",
     },
-    blogImage: "",
+    blogImage: "/blog-photos/blog-image-22.png",
     posts: [
       {
         postQuestion: "The Rigorous Standards of Michelin-Starred Kitchens",
@@ -939,7 +939,7 @@ export const blog = [
       authorName: "Levi Lee",
       authorDatePosted: "18 December 2022",
     },
-    blogImage: "",
+    blogImage: "/blog-photos/blog-image-23.png",
     posts: [
       {
         postQuestion: "What Are Processed Foods?",
@@ -981,7 +981,7 @@ export const blog = [
       authorName: "Luca Watson",
       authorDatePosted: "01 August 2021",
     },
-    blogImage: "",
+    blogImage: "/blog-photos/blog-image-24.png",
     posts: [
       {
         postQuestion: "Food as a Reflection of Culture",
@@ -1023,7 +1023,7 @@ export const blog = [
       authorName: "Micah Adams",
       authorDatePosted: "30 August 2021",
     },
-    blogImage: "",
+    blogImage: "/blog-photos/blog-image-25.png",
     posts: [
       {
         postQuestion: "The Rising Cost of Organic Food",
@@ -1066,7 +1066,7 @@ export const blog = [
       authorName: "Aaron Allen",
       authorDatePosted: "11 June 2022",
     },
-    blogImage: "",
+    blogImage: "/blog-photos/blog-image-26.png",
     posts: [
       {
         postQuestion: "The Intersection of Food and Technology",
@@ -1109,7 +1109,7 @@ export const blog = [
       authorName: "Sebastian Campbell",
       authorDatePosted: "28 May 2020",
     },
-    blogImage: "",
+    blogImage: "/blog-photos/blog-image-27.png",
     posts: [
       {
         postQuestion: "The Rise of Fusion Cuisine",
@@ -1151,7 +1151,7 @@ export const blog = [
       authorName: "Samuel Baker",
       authorDatePosted: "21 October 2023",
     },
-    blogImage: "",
+    blogImage: "/blog-photos/blog-image-28.png",
     posts: [
       {
         postQuestion: "The Return of Classic Cooking Competitions",
@@ -1193,7 +1193,7 @@ export const blog = [
       authorName: "Miles Foster",
       authorDatePosted: "26 February 2021",
     },
-    blogImage: "",
+    blogImage: "/blog-photos/blog-image-29.png",
     posts: [
       {
         postQuestion: "Start with High-Quality Ingredients",
@@ -1236,7 +1236,7 @@ export const blog = [
       authorName: "Adrian Kim",
       authorDatePosted: "26 February 2022",
     },
-    blogImage: "",
+    blogImage: "/blog-photos/blog-image-30.png",
     posts: [
       {
         postQuestion: "The Power of Cooking for Well-Being",
@@ -1278,7 +1278,7 @@ export const blog = [
       authorName: "Grayson Ruiz",
       authorDatePosted: "26 June 2024",
     },
-    blogImage: "",
+    blogImage: "/blog-photos/blog-image-31.png",
     posts: [
       {
         postQuestion: "Introduction to the World's Hidden Food Treasures",
@@ -1321,7 +1321,7 @@ export const blog = [
       authorName: "Elijah Thomas",
       authorDatePosted: "10 June 2023",
     },
-    blogImage: "",
+    blogImage: "/blog-photos/blog-image-32.png",
     posts: [
       {
         postQuestion: "A New Era of Dining: Zero-Waste Philosophy",
@@ -1363,7 +1363,7 @@ export const blog = [
       authorName: "Carter Lee",
       authorDatePosted: "12 October 2020",
     },
-    blogImage: "",
+    blogImage: "/blog-photos/blog-image-33.png",
     posts: [
       {
         postQuestion: "The Origins of Chocolate: The Mesoamerican Influence",
@@ -1405,7 +1405,7 @@ export const blog = [
       authorName: "Ezekiel Peterson",
       authorDatePosted: "09 September 2021",
     },
-    blogImage: "",
+    blogImage: "/blog-photos/blog-image-34.png",
     posts: [
       {
         postQuestion: "The High Stakes of the Kitchen",
@@ -1447,7 +1447,7 @@ export const blog = [
       authorName: "Theo Moore",
       authorDatePosted: "05 June 2020",
     },
-    blogImage: "",
+    blogImage: "/blog-photos/blog-image-35.png",
     posts: [
       {
         postQuestion: "The Science of Baking: Why Precision Matters",
@@ -1489,7 +1489,7 @@ export const blog = [
       authorName: "Ian Williams",
       authorDatePosted: "18 December 2022",
     },
-    blogImage: "",
+    blogImage: "/blog-photos/blog-image-36.png",
     posts: [
       {
         postQuestion: "What is Sous Vide Cooking?",
@@ -1531,7 +1531,7 @@ export const blog = [
       authorName: "Micah Williams",
       authorDatePosted: "02 July 2022",
     },
-    blogImage: "",
+    blogImage: "/blog-photos/blog-image-37.png",
     posts: [
       {
         postQuestion: "The Appeal of Authenticity",
@@ -1573,7 +1573,7 @@ export const blog = [
       authorName: "Parker Rogers",
       authorDatePosted: "08 July 2023",
     },
-    blogImage: "",
+    blogImage: "/blog-photos/blog-image-38.png",
     posts: [
       {
         postQuestion: "What is Kaiseki Cuisine?",
@@ -1615,7 +1615,7 @@ export const blog = [
       authorName: "Jeremiah Ramos",
       authorDatePosted: "20 May 2024",
     },
-    blogImage: "",
+    blogImage: "/blog-photos/blog-image-39.png",
     posts: [
       {
         postQuestion: "Paris: A Culinary Capital of Elegance",
@@ -1657,7 +1657,7 @@ export const blog = [
       authorName: "Beau Roberts",
       authorDatePosted: "27 April 2020",
     },
-    blogImage: "",
+    blogImage: "/blog-photos/blog-image-40.png",
     posts: [
       {
         postQuestion: "Understanding Umami: The Fifth Taste",
@@ -1699,7 +1699,7 @@ export const blog = [
       authorName: "Walker Long",
       authorDatePosted: "24 October 2023",
     },
-    blogImage: "",
+    blogImage: "/blog-photos/blog-image-41.png",
     posts: [
       {
         postQuestion: "A Return to Tradition: Embracing the Flame",
@@ -1743,7 +1743,7 @@ export const blog = [
       authorName: "Adam Richardson",
       authorDatePosted: "08 August 2021",
     },
-    blogImage: "",
+    blogImage: "/blog-photos/blog-image-42.png",
     posts: [
       {
         postQuestion: "The Surge of Vegan Desserts",
@@ -1785,7 +1785,7 @@ export const blog = [
       authorName: "Hudson Walker",
       authorDatePosted: "05 August 2023",
     },
-    blogImage: "",
+    blogImage: "/blog-photos/blog-image-43.png",
     posts: [
       {
         postQuestion: "The Emergence of Nitro Coffee: A Creamy Revolution",
@@ -1827,7 +1827,7 @@ export const blog = [
       authorName: "Beau Campbell",
       authorDatePosted: "12 April 2020",
     },
-    blogImage: "",
+    blogImage: "/blog-photos/blog-image-44.png",
     posts: [
       {
         postQuestion: "The Birth of Classic Techniques",
@@ -1869,7 +1869,7 @@ export const blog = [
       authorName: "Eli Brooks",
       authorDatePosted: "17 September 2024",
     },
-    blogImage: "",
+    blogImage: "/blog-photos/blog-image-45.png",
     posts: [
       {
         postQuestion: "The Perfect Sauce Pairing",
@@ -1912,7 +1912,7 @@ export const blog = [
       authorName: "Ethan Johnson",
       authorDatePosted: "16 December 2020",
     },
-    blogImage: "",
+    blogImage: "/blog-photos/blog-image-46.png",
     posts: [
       {
         postQuestion: "A New Era in Dining Experiences",
@@ -1954,7 +1954,7 @@ export const blog = [
       authorName: "Jameson Lewis",
       authorDatePosted: "28 September 2023",
     },
-    blogImage: "",
+    blogImage: "/blog-photos/blog-image-47.png",
     posts: [
       {
         postQuestion: "The Role of Chemistry in Cooking",
@@ -1996,7 +1996,7 @@ export const blog = [
       authorName: "Roman Gonzalez",
       authorDatePosted: "13 March 2021",
     },
-    blogImage: "",
+    blogImage: "/blog-photos/blog-image-48.png",
     posts: [
       {
         postQuestion: "The Rise of AI in the Kitchen",
@@ -2038,7 +2038,7 @@ export const blog = [
       authorName: "Landon Reyes",
       authorDatePosted: "26 June 2024",
     },
-    blogImage: "",
+    blogImage: "/blog-photos/blog-image-49.png",
     posts: [
       {
         postQuestion:
@@ -2081,7 +2081,7 @@ export const blog = [
       authorName: "Carter Scott",
       authorDatePosted: "15 March 2022",
     },
-    blogImage: "",
+    blogImage: "/blog-photos/blog-image-50.png",
     posts: [
       {
         postQuestion: "A Tradition of Preservation",
@@ -2123,7 +2123,7 @@ export const blog = [
       authorName: "Santiago Torres",
       authorDatePosted: "01 December 2020",
     },
-    blogImage: "",
+    blogImage: "/blog-photos/blog-image-51.png",
     posts: [
       {
         postQuestion: "Breakfast Through the Ages: A Simple Beginning",
@@ -2169,7 +2169,7 @@ export const blog = [
       authorName: "Greyson Jackson",
       authorDatePosted: "01 November 2022",
     },
-    blogImage: "",
+    blogImage: "/blog-photos/blog-image-52.png",
     posts: [
       {
         postQuestion: "Introduction to Space Cuisine",
@@ -2211,7 +2211,7 @@ export const blog = [
       authorName: "Eli Gutierrez",
       authorDatePosted: "01 June 2024",
     },
-    blogImage: "",
+    blogImage: "/blog-photos/blog-image-53.png",
     posts: [
       {
         postQuestion: "Introduction to Global Food Festivals",
@@ -2255,7 +2255,7 @@ export const blog = [
       authorName: "Jordan Bailey",
       authorDatePosted: "30 July 2022",
     },
-    blogImage: "",
+    blogImage: "/blog-photos/blog-image-54.png",
     posts: [
       {
         postQuestion: "Introduction: The Growing Threat to Food Security",
@@ -2297,7 +2297,7 @@ export const blog = [
       authorName: "Luca Cook",
       authorDatePosted: "14 April 2023",
     },
-    blogImage: "",
+    blogImage: "/blog-photos/blog-image-55.png",
     posts: [
       {
         postQuestion: "The Power of Probiotics",
@@ -2340,7 +2340,7 @@ export const blog = [
       authorName: "Silas Roberts",
       authorDatePosted: "22 February 2022",
     },
-    blogImage: "",
+    blogImage: "/blog-photos/blog-image-56.png",
     posts: [
       {
         postQuestion: "The Beauty and Flavor of Edible Flowers",
