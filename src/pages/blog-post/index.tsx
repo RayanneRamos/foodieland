@@ -10,7 +10,7 @@ import { CardOtherRecipes } from "../../components/card-other-recipes";
 import { Footer } from "../../components/footer";
 import { recipes } from "../../utils/recipes";
 import { useParams } from "react-router";
-import { blog } from "../../utils/blog.";
+import { blog } from "../../utils/blog";
 
 export function BlogPost() {
   const { id } = useParams<{ id: string }>();

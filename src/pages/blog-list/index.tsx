@@ -9,7 +9,7 @@ import { Newsletter } from "../../components/newsletter";
 import { Footer } from "../../components/footer";
 import { useState } from "react";
 import { recipes } from "../../utils/recipes";
-import { blog } from "../../utils/blog.";
+import { blog } from "../../utils/blog";
 
 const itemsPerPage = 6;
 
