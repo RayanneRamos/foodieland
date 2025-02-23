@@ -1,50 +1,60 @@
-# React + TypeScript + Vite
+<h1 align='center'>Foodieland</h1>
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+<p align='center'>
+  <img src='https://github.com/user-attachments/assets/79a7f4ae-bfed-4c39-961f-74f33bfaca9e' alt='foodieland-image' />
+</p>
 
-Currently, two official plugins are available:
+<p  align='center'>
+  <img src='https://img.shields.io/badge/license-MIT-%23835afd' alt='License' />
+  <img src='https://img.shields.io/badge/forks-MIT-%23835afd' alt='Forks' />
+  <img src='https://img.shields.io/badge/stars-MIT-%23835afd' alt='Stars' />
+</p>
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+<br>
 
-## Expanding the ESLint configuration
+## 💻 Projeto
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+[foodieland](https://foodieland-peach.vercel.app/) é um site de receitas culinárias que oferece uma experiência intuitiva e prática para quem ama cozinhar. Aqui, você pode encontrar receitas de diversos tipos, desde pratos rápidos para o dia a dia até receitas sofisticadas para ocasiões especiais.
 
-- Configure the top-level `parserOptions` property like this:
+## 🧪 Technologies
 
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
+Esse projeto foi desenvolvido com as seguintes tecnologias:
+
+- [ReactJS](https://react.dev/)
+- [Typescript](https://www.typescriptlang.org/)
+- [Sass](https://sass-lang.com/)
+- [Phosphor-react](https://phosphoricons.com/)
+- [React-hook-form](https://www.react-hook-form.com/)
+- [Zod](https://zod.dev/)
+- [Sonner](https://sonner.emilkowal.ski/)
+- [React-router-dom](https://reactrouter.com/)
+
+## 🚀 Instalação
+
+```bash
+  # Clone o repositório e entre na pasta do projeto
+  $ git clone https://github.com/RayanneRamos/foodieland.git
+  $ cd foodieland
+  # Instale as dependências
+  $ npm install
+  # ou
+  $ yarn install
+  # Execute a aplicação
+  $ npx expo start
+  # ou
+  $ yarn start
 ```
 
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
+Para ver a aplicação rodando abra no emulador ou no seu próprio dispositivo!
 
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
+## 🔖 Layout
 
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
-```
+- [Web](<https://www.figma.com/design/j1Xo6w29YHrr5pL6O3x5yu/Cooking-Template-%F0%9F%9F%A3-by-Flowbase.co-(Community)?node-id=0-1&t=qYAYyHkNeBp037pm-1>)
+
+## 📝 License
+
+Este projeto está licenciado sob a Licença MIT. Veja o arquivo [LICENSE](LICENSE) para obter mais detalhes.
+
+---
+
+<p align='center'>Criado by Rayanne Ramos</p>
