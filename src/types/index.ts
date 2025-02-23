@@ -46,3 +46,18 @@ export interface RecipeProps {
   recipeIngredients?: RecipeIngredientProps[];
   recipeDirection?: RecipeDirectionProps[];
 }
+
+interface PostProps {
+  postQuestion?: string;
+  postAnswers?: string;
+}
+
+export interface BlogProps {
+  id?: string;
+  title?: string;
+  description?: string;
+  author?: AuthorProps;
+  blogImage?: string;
+  posts?: PostProps[];
+  postBlockquote?: string;
+}
