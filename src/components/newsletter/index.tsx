@@ -55,19 +55,23 @@ export function Newsletter() {
           Lorem ipsum dolor sit amet, consectetuipisicing elit, sed do eiusmod
           tempor incididunt ut labore et dolore magna aliqut enim ad minim{" "}
         </span>
-        <form
-          onSubmit={handleSubmit(registerNewsletter)}
-          className={styles.form}
-        >
-          <input
-            className={styles.inputEmail}
-            type="text"
-            placeholder="Your email address..."
-            {...register("email")}
-          />
-          <button className={styles.button}>Subscribe</button>
-        </form>
-        {errors.email && <p className={styles.error}>{errors.email.message}</p>}
+        <div>
+          <form
+            onSubmit={handleSubmit(registerNewsletter)}
+            className={styles.form}
+          >
+            <input
+              className={styles.inputEmail}
+              type="text"
+              placeholder="Your email address..."
+              {...register("email")}
+            />
+            <button className={styles.button}>Subscribe</button>
+          </form>
+          {errors.email && (
+            <p className={styles.error}>{errors.email.message}</p>
+          )}
+        </div>
       </div>
       <img src={saladImageTwo} alt="salad-02" className={styles.imageTwo} />
     </div>
