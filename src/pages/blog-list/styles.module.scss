@@ -103,6 +103,26 @@
     display: flex;
     flex-direction: column;
     gap: 32px;
+
+    .newsItem {
+      border-bottom: 1px solid #ccc;
+      padding: 10px 0;
+
+      &:last-child {
+        border-bottom: none;
+      }
+
+      .newsTitle {
+        font-weight: 600;
+        font-size: 1.2rem;
+        margin-bottom: 5px;
+      }
+
+      .newsContent {
+        font-size: 1rem;
+        color: #555;
+      }
+    }
   }
 
   .tastyRecipes {

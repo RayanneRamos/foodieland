@@ -1,3 +1,4 @@
+/* eslint-disable react-hooks/exhaustive-deps */
 import { CardBlogPosts } from "../../components/card-blog-posts";
 import { Divider } from "../../components/divider";
 import { IngredientsCards } from "../../components/ingredients-cards";
@@ -7,21 +8,47 @@ import styles from "./styles.module.scss";
 import { Pagination } from "../../components/pagination";
 import { Newsletter } from "../../components/newsletter";
 import { Footer } from "../../components/footer";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { recipes } from "../../utils/recipes";
 import { blog } from "../../utils/blog";
+import { BlogProps } from "../../types";
+import { CardSearchNews } from "../../components/search-card";
 
 const itemsPerPage = 6;
 
 export function BlogList() {
+  const [searchTerm, setSearchTerm] = useState("");
+  const [filteredNews, setFilteredNews] = useState<BlogProps[]>([]);
   const [currentPage, setCurrentPage] = useState(1);
+
+  function handleSearch() {
+    if (searchTerm.trim() !== "") {
+      const filtered = blog.filter(
+        (news) =>
+          news.title.toLowerCase().includes(searchTerm.toLowerCase()) ||
+          news.description.toLowerCase().includes(searchTerm.toLowerCase()) // ✅ Aqui faltava um return implícito
+      );
+      setFilteredNews(filtered);
+      setCurrentPage(1);
+    } else {
+      setFilteredNews([]);
+      setCurrentPage(1);
+    }
+  }
+
+  const currentData =
+    searchTerm && filteredNews.length > 0 ? filteredNews : blog;
 
   const startIndex = (currentPage - 1) * itemsPerPage;
   const endIndex = startIndex + itemsPerPage;
 
-  const currentPosts = blog.slice(startIndex, endIndex);
+  const currentPosts = currentData.slice(startIndex, endIndex);
 
-  const totalPages = Math.ceil(recipes.length / itemsPerPage);
+  const totalPages = Math.ceil(currentData.length / itemsPerPage);
+
+  useEffect(() => {
+    handleSearch();
+  }, [searchTerm]);
 
   return (
     <div className={styles.container}>
@@ -36,18 +63,30 @@ export function BlogList() {
         <div className={styles.form}>
           <input
             className={styles.inputEmail}
-            name="email"
-            type="email"
-            placeholder="Your email address..."
+            name="search"
+            type="text"
+            placeholder="Search title, news or recipe..."
+            onChange={(event) => setSearchTerm(event.target.value)}
+            value={searchTerm}
           />
-          <button className={styles.button}>Subscribe</button>
+          <button
+            type="submit"
+            className={styles.button}
+            onClick={handleSearch}
+          >
+            Search
+          </button>
         </div>
       </div>
       <div className={styles.main}>
         <div className={styles.posts}>
-          {currentPosts.slice(0, 6).map((blog) => {
-            return <CardBlogPosts blog={blog} key={blog.id} />;
-          })}
+          {currentPosts.map((blog) =>
+            searchTerm && filteredNews.length > 0 ? (
+              <CardSearchNews news={blog} key={blog.id} />
+            ) : (
+              <CardBlogPosts blog={blog} key={blog.id} />
+            )
+          )}
         </div>
         <div className={styles.tastyRecipes}>
           <strong className={styles.tastyRecipesTitle}>Tasty Recipes</strong>
