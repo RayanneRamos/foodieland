@@ -9,7 +9,7 @@ import { Button } from "../../components/button";
 import { Category } from "../../components/category";
 import { categories } from "../../utils/categories";
 import { CardRecipes } from "../../components/card-recipes";
-import adsImage from "../../assets/recipes/image-06.png";
+import adsImage from "../../assets/ads.png";
 import chefImage from "../../assets/chef.png";
 import instagramPostOne from "../../assets/posts/post-01.png";
 import instagramPostTwo from "../../assets/posts/post-02.png";

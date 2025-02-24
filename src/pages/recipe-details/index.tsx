@@ -11,7 +11,6 @@ import { NutritionTable } from "../../components/nutrition-table";
 import { Play } from "phosphor-react";
 import { TaskBoard } from "../../components/task-board";
 import { IngredientsCards } from "../../components/ingredients-cards";
-//import { PrepareBoard } from "../../components/prepare-board";
 import adsImage from "../../assets/recipes/image-06.png";
 import { DirectionsTask } from "../../components/directions-task";
 import directionImage from "../../assets/direction-image.png";
@@ -78,7 +77,6 @@ export function RecipeDetails() {
             <div className={styles.ingredientsComponent}>
               <h3 className={styles.titleIngredients}>Ingredients</h3>
               <TaskBoard ingredients={recipe} />
-              {/** <PrepareBoard /> */}
             </div>
             <div className={styles.ingredientsOtherRecipes}>
               <h3 className={styles.titleOtherRecipes}>Other Recipe</h3>
