@@ -64,10 +64,15 @@ export function BlogList() {
         >
           Blog & Article
         </motion.h1>
-        <p className={styles.headerSubtitle}>
+        <motion.p
+          initial={{ opacity: 0, y: 20 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 1 }}
+          className={styles.headerSubtitle}
+        >
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
           eiusmod tempor incididunt ut labore et dolore
-        </p>
+        </motion.p>
         <div className={styles.form}>
           <input
             className={styles.inputEmail}
@@ -97,7 +102,14 @@ export function BlogList() {
           )}
         </div>
         <div className={styles.tastyRecipes}>
-          <strong className={styles.tastyRecipesTitle}>Tasty Recipes</strong>
+          <motion.strong
+            initial={{ y: 50, opacity: 0 }}
+            animate={{ y: 0, opacity: 1 }}
+            transition={{ duration: 0.8, ease: "anticipate" }}
+            className={styles.tastyRecipesTitle}
+          >
+            Tasty Recipes
+          </motion.strong>
           <div className={styles.tastyRecipesPosts}>
             {recipes.slice(0, 3).map((othersRecipe) => {
               return (

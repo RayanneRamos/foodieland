@@ -55,7 +55,14 @@ export function BlogPost() {
             {blogPosts.author.authorDatePosted}
           </span>
         </div>
-        <p className={styles.description}>{blogPosts.description}</p>
+        <motion.p
+          initial={{ opacity: 0, y: 20 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 1 }}
+          className={styles.description}
+        >
+          {blogPosts.description}
+        </motion.p>
         <img
           src={blogPosts.blogImage}
           alt={blogPosts.title}
@@ -82,14 +89,24 @@ export function BlogPost() {
                         className={styles.blogImage}
                       />
                     )}
-                    <p className={styles.blogPostDescription}>
+                    <motion.p
+                      initial={{ opacity: 0, y: 20 }}
+                      animate={{ opacity: 1, y: 0 }}
+                      transition={{ duration: 1 }}
+                      className={styles.blogPostDescription}
+                    >
                       {post.postAnswers}
-                    </p>
+                    </motion.p>
                     {index === 3 && (
                       <div className={styles.blogQuote}>
-                        <p className={styles.quoteText}>
+                        <motion.p
+                          initial={{ opacity: 0, y: 20 }}
+                          animate={{ opacity: 1, y: 0 }}
+                          transition={{ duration: 1 }}
+                          className={styles.quoteText}
+                        >
                           {`"${blogPosts.postBlockquote}"`}
-                        </p>
+                        </motion.p>
                       </div>
                     )}
                   </>
@@ -98,7 +115,7 @@ export function BlogPost() {
             </div>
           </div>
           <div className={styles.sharePost}>
-            <p className={styles.socialText}>Share this on:</p>
+            <motion.p className={styles.socialText}>Share this on:</motion.p>
             <div className={styles.socialMediaContent}>
               <img src={facebookImage} alt="facebook" />
               <img src={twitterImage} alt="twitter" />

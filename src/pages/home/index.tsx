@@ -43,11 +43,16 @@ export function Home() {
             >
               Spicy delicious chicken wings
             </motion.h1>
-            <p className={styles.subtitle}>
+            <motion.p
+              initial={{ opacity: 0, y: 20 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ duration: 1 }}
+              className={styles.subtitle}
+            >
               Indulge in the bold flavors of Spicy Delicious Chicken
               Wings—crispy on the outside, juicy on the inside, and coated in a
               fiery, mouthwatering sauce.{" "}
-            </p>
+            </motion.p>
             <div className={styles.tagContainer}>
               <RecipeFood icon="Clock" name="30 Minutes" />
               <RecipeFood icon="ForkKnife" name="Chicken" />
@@ -107,11 +112,16 @@ export function Home() {
             >
               Simple and tasty recipes
             </motion.h3>
-            <span className={styles.recipesSubtitle}>
+            <motion.span
+              initial={{ opacity: 0, y: 20 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ duration: 1 }}
+              className={styles.recipesSubtitle}
+            >
               Lorem ipsum dolor sit amet, consectetuipisicing elit, sed do
               eiusmod tempor incididunt ut labore et dolore magna aliqut enim ad
               minim{" "}
-            </span>
+            </motion.span>
           </div>
           <div className={styles.cardContent}>
             {recipes.slice(0, 8).map((recipe, index) => {
@@ -134,11 +144,16 @@ export function Home() {
             >
               Everyone can be a chef in their own kitchen
             </motion.strong>
-            <span className={styles.chefSubtitle}>
+            <motion.span
+              initial={{ opacity: 0, y: 20 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ duration: 1 }}
+              className={styles.chefSubtitle}
+            >
               Lorem ipsum dolor sit amet, consectetuipisicing elit, sed do
               eiusmod tempor incididunt ut labore et dolore magna aliqut enim ad
               minim{" "}
-            </span>
+            </motion.span>
             <button
               className={styles.chefButton}
               onClick={() => navigate("/about-us")}
@@ -158,11 +173,16 @@ export function Home() {
             >
               Check out @foodieland on Instagram
             </motion.strong>
-            <span className={styles.socialSubtitle}>
+            <motion.span
+              initial={{ opacity: 0, y: 20 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ duration: 1 }}
+              className={styles.socialSubtitle}
+            >
               Lorem ipsum dolor sit amet, consectetuipisicing elit, sed do
               eiusmod tempor incididunt ut labore et dolore magna aliqut enim ad
               minim{" "}
-            </span>
+            </motion.span>
             <div className={styles.socialPosts}>
               <motion.img
                 whileHover={{ scale: 1.1 }}
@@ -205,11 +225,16 @@ export function Home() {
             >
               Try this delicious recipe to make your day
             </motion.strong>
-            <span className={styles.moreRecipesHeaderSubtitle}>
+            <motion.span
+              initial={{ opacity: 0, y: 20 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ duration: 1 }}
+              className={styles.moreRecipesHeaderSubtitle}
+            >
               Lorem ipsum dolor sit amet, consectetuipisicing elit, sed do
               eiusmod tempor incididunt ut labore et dolore magna aliqut enim ad
               minim{" "}
-            </span>
+            </motion.span>
           </div>
           <div className={styles.moreRecipeContent}>
             {recipes.slice(0, 8).map((moreRecipe) => {

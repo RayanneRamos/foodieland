@@ -30,7 +30,14 @@ export function CardSearchNews({ news }: CardSearchNewsProps) {
             {news?.title}
           </motion.strong>
         </Link>
-        <p className={styles.cardSubtitle}>{news?.description}</p>
+        <motion.p
+          initial={{ opacity: 0, y: 20 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 1 }}
+          className={styles.cardSubtitle}
+        >
+          {news?.description}
+        </motion.p>
         <div className={styles.cardFooter}>
           <div className={styles.footerAvatar}>
             <img

@@ -60,10 +60,15 @@ export function Newsletter() {
         >
           Deliciousness to your inbox
         </motion.strong>
-        <span className={styles.subtitle}>
+        <motion.span
+          initial={{ opacity: 0, y: 20 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 1 }}
+          className={styles.subtitle}
+        >
           Lorem ipsum dolor sit amet, consectetuipisicing elit, sed do eiusmod
           tempor incididunt ut labore et dolore magna aliqut enim ad minim{" "}
-        </span>
+        </motion.span>
         <div>
           <form
             onSubmit={handleSubmit(registerNewsletter)}

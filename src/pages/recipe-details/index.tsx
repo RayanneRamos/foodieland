@@ -79,7 +79,14 @@ export function RecipeDetails() {
           </div>
           <NutritionTable nutrition={recipe?.nutritionInformation} />
         </div>
-        <p className={styles.recipeDescription}>{recipe?.recipeDescription}</p>
+        <motion.p
+          initial={{ opacity: 0, y: 20 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 1 }}
+          className={styles.recipeDescription}
+        >
+          {recipe?.recipeDescription}
+        </motion.p>
         <div className={styles.ingredientsContainer}>
           <div className={styles.ingredientsContent}>
             <div className={styles.ingredientsComponent}>
@@ -147,9 +154,14 @@ export function RecipeDetails() {
           <Newsletter />
         </div>
         <div className={styles.likeRecipesContainer}>
-          <h3 className={styles.likeRecipesTitle}>
+          <motion.h3
+            initial={{ y: 50, opacity: 0 }}
+            animate={{ y: 0, opacity: 1 }}
+            transition={{ duration: 0.8, ease: "anticipate" }}
+            className={styles.likeRecipesTitle}
+          >
             You may like these recipe too
-          </h3>
+          </motion.h3>
           <div className={styles.likeRecipesCard}>
             {recipes.slice(0, 4).map((recipe) => {
               return <CardOtherRecipes moreRecipe={recipe} key={recipe.id} />;
