@@ -1,5 +1,6 @@
 import styles from "./styles.module.scss";
 import avatarImage from "../../assets/avatar.png";
+import * as motion from "motion/react-client";
 
 interface AvatarProps {
   author?: {
@@ -18,9 +19,13 @@ export function Avatar({ author }: AvatarProps) {
         className={styles.image}
       />
       <div className={styles.avatarInfo}>
-        <span className={styles.name}>
+        <motion.span
+          animate={{ scale: [1, 1.05, 1] }}
+          transition={{ repeat: Infinity, duration: 1.5, ease: "easeInOut" }}
+          className={styles.name}
+        >
           {author?.authorName || "John Smith"}
-        </span>
+        </motion.span>
         <span className={styles.date}>
           {author?.authorDatePosted || "15 March 2022"}
         </span>

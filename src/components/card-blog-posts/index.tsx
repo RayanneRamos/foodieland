@@ -45,9 +45,17 @@ export function CardBlogPosts({ blog }: CardBlogPostsInterface) {
               alt={blog?.author?.authorName}
               className={styles.avatarImage}
             />
-            <span className={styles.avatarName}>
+            <motion.span
+              animate={{ scale: [1, 1.05, 1] }}
+              transition={{
+                repeat: Infinity,
+                duration: 1.5,
+                ease: "easeInOut",
+              }}
+              className={styles.avatarName}
+            >
               {blog?.author?.authorName}
-            </span>
+            </motion.span>
           </div>
           <div className={styles.separator} />
           <span className={styles.date}>{blog?.author?.authorDatePosted}</span>
