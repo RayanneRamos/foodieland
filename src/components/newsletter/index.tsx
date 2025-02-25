@@ -5,6 +5,7 @@ import { z } from "zod";
 import { useForm } from "react-hook-form";
 import { zodResolver } from "@hookform/resolvers/zod";
 import { toast } from "sonner";
+import * as motion from "motion/react-client";
 
 const newsletterSchema = z.object({
   email: z.string().email("The e-mail field is invalid."),
@@ -51,7 +52,14 @@ export function Newsletter() {
     <div className={styles.container}>
       <img src={saladImageOne} alt="salad-01" className={styles.imageOne} />
       <div className={styles.content}>
-        <strong className={styles.title}>Deliciousness to your inbox</strong>
+        <motion.strong
+          initial={{ y: 50, opacity: 0 }}
+          animate={{ y: 0, opacity: 1 }}
+          transition={{ duration: 0.8, ease: "anticipate" }}
+          className={styles.title}
+        >
+          Deliciousness to your inbox
+        </motion.strong>
         <span className={styles.subtitle}>
           Lorem ipsum dolor sit amet, consectetuipisicing elit, sed do eiusmod
           tempor incididunt ut labore et dolore magna aliqut enim ad minim{" "}

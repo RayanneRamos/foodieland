@@ -5,6 +5,7 @@ import styles from "./styles.module.scss";
 import { Heart } from "phosphor-react";
 import { RecipeProps } from "../../types";
 import { useState } from "react";
+import * as motion from "motion/react-client";
 
 interface CardRecipesProps {
   recipe: RecipeProps;
@@ -40,7 +41,14 @@ export function CardRecipes({ recipe }: CardRecipesProps) {
           </button>
         </div>
         <div className={styles.cardContent}>
-          <strong className={styles.cardTitle}>{recipe.recipeName}</strong>
+          <motion.strong
+            initial={{ y: 50, opacity: 0 }}
+            animate={{ y: 0, opacity: 1 }}
+            transition={{ duration: 0.8, ease: "anticipate" }}
+            className={styles.cardTitle}
+          >
+            {recipe.recipeName}
+          </motion.strong>
           <div className={styles.cardInfo}>
             {recipe.cookTime && (
               <RecipeFood icon="Clock" name={`${recipe.cookTime} Minutes`} />

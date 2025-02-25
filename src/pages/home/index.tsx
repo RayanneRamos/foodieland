@@ -21,6 +21,7 @@ import { Newsletter } from "../../components/newsletter";
 import { Footer } from "../../components/footer";
 import { useNavigate } from "react-router";
 import { recipes } from "../../utils/recipes";
+import * as motion from "motion/react-client";
 
 export function Home() {
   const navigate = useNavigate();
@@ -34,7 +35,14 @@ export function Home() {
         <div className={styles.headerContent}>
           <div className={styles.headerInfo}>
             <Tag />
-            <h1 className={styles.title}>Spicy delicious chicken wings</h1>
+            <motion.h1
+              initial={{ y: 50, opacity: 0 }}
+              animate={{ y: 0, opacity: 1 }}
+              transition={{ duration: 0.8, ease: "anticipate" }}
+              className={styles.title}
+            >
+              Spicy delicious chicken wings
+            </motion.h1>
             <p className={styles.subtitle}>
               Indulge in the bold flavors of Spicy Delicious Chicken
               Wings—crispy on the outside, juicy on the inside, and coated in a
@@ -61,7 +69,14 @@ export function Home() {
       <main>
         <div className={styles.categoriesContainer}>
           <div className={styles.categoriesHeader}>
-            <strong className={styles.categoriesTitle}>Categories</strong>
+            <motion.strong
+              initial={{ y: 50, opacity: 0 }}
+              animate={{ y: 0, opacity: 1 }}
+              transition={{ duration: 0.8, ease: "anticipate" }}
+              className={styles.categoriesTitle}
+            >
+              Categories
+            </motion.strong>
             <button
               className={styles.categoriesButton}
               onClick={() => navigate("/categories")}
@@ -84,7 +99,14 @@ export function Home() {
         </div>
         <div className={styles.recipesContainer}>
           <div className={styles.recipesHeader}>
-            <h3 className={styles.recipesTitle}>Simple and tasty recipes</h3>
+            <motion.h3
+              initial={{ y: 50, opacity: 0 }}
+              animate={{ y: 0, opacity: 1 }}
+              transition={{ duration: 0.8, ease: "anticipate" }}
+              className={styles.recipesTitle}
+            >
+              Simple and tasty recipes
+            </motion.h3>
             <span className={styles.recipesSubtitle}>
               Lorem ipsum dolor sit amet, consectetuipisicing elit, sed do
               eiusmod tempor incididunt ut labore et dolore magna aliqut enim ad
@@ -104,9 +126,14 @@ export function Home() {
         </div>
         <div className={styles.chefContainer}>
           <div className={styles.chefContent}>
-            <strong className={styles.chefTitle}>
+            <motion.strong
+              initial={{ y: 50, opacity: 0 }}
+              animate={{ y: 0, opacity: 1 }}
+              transition={{ duration: 0.8, ease: "anticipate" }}
+              className={styles.chefTitle}
+            >
               Everyone can be a chef in their own kitchen
-            </strong>
+            </motion.strong>
             <span className={styles.chefSubtitle}>
               Lorem ipsum dolor sit amet, consectetuipisicing elit, sed do
               eiusmod tempor incididunt ut labore et dolore magna aliqut enim ad
@@ -123,9 +150,14 @@ export function Home() {
         </div>
         <div className={styles.socialContainer}>
           <div className={styles.socialContent}>
-            <strong className={styles.socialTitle}>
+            <motion.strong
+              initial={{ y: 50, opacity: 0 }}
+              animate={{ y: 0, opacity: 1 }}
+              transition={{ duration: 0.8, ease: "anticipate" }}
+              className={styles.socialTitle}
+            >
               Check out @foodieland on Instagram
-            </strong>
+            </motion.strong>
             <span className={styles.socialSubtitle}>
               Lorem ipsum dolor sit amet, consectetuipisicing elit, sed do
               eiusmod tempor incididunt ut labore et dolore magna aliqut enim ad
@@ -145,9 +177,14 @@ export function Home() {
         </div>
         <div className={styles.moreRecipesContainer}>
           <div className={styles.moreRecipesHeader}>
-            <strong className={styles.moreRecipesHeaderTitle}>
+            <motion.strong
+              initial={{ y: 50, opacity: 0 }}
+              animate={{ y: 0, opacity: 1 }}
+              transition={{ duration: 0.8, ease: "anticipate" }}
+              className={styles.moreRecipesHeaderTitle}
+            >
               Try this delicious recipe to make your day
-            </strong>
+            </motion.strong>
             <span className={styles.moreRecipesHeaderSubtitle}>
               Lorem ipsum dolor sit amet, consectetuipisicing elit, sed do
               eiusmod tempor incididunt ut labore et dolore magna aliqut enim ad

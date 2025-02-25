@@ -1,6 +1,7 @@
 import { Link } from "react-router";
 import { BlogProps } from "../../types";
 import styles from "./styles.module.scss";
+import * as motion from "motion/react-client";
 
 interface CardBlogPostsInterface {
   blog?: BlogProps;
@@ -16,7 +17,14 @@ export function CardBlogPosts({ blog }: CardBlogPostsInterface) {
       />
       <div className={styles.cardInfo}>
         <Link to={`/blog-post/${blog?.id}`} className={styles.link}>
-          <strong className={styles.cardTitle}>{blog?.title}</strong>
+          <motion.strong
+            initial={{ y: 50, opacity: 0 }}
+            animate={{ y: 0, opacity: 1 }}
+            transition={{ duration: 0.8, ease: "anticipate" }}
+            className={styles.cardTitle}
+          >
+            {blog?.title}
+          </motion.strong>
         </Link>
         <p className={styles.cardSubtitle}>{blog?.description}</p>
         <div className={styles.cardFooter}>

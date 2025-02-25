@@ -1,6 +1,7 @@
 import { Link } from "react-router";
 import styles from "./styles.module.scss";
 import { RecipeProps } from "../../types";
+import * as motion from "motion/react-client";
 
 interface IngredientsCardsProps {
   othersRecipe: RecipeProps;
@@ -17,9 +18,14 @@ export function IngredientsCards({ othersRecipe }: IngredientsCardsProps) {
             className={styles.image}
           />
           <div className={styles.info}>
-            <strong className={styles.infoTitle}>
+            <motion.strong
+              initial={{ y: 50, opacity: 0 }}
+              animate={{ y: 0, opacity: 1 }}
+              transition={{ duration: 0.8, ease: "anticipate" }}
+              className={styles.infoTitle}
+            >
               {othersRecipe.recipeName}
-            </strong>
+            </motion.strong>
             <span className={styles.infoAuthor}>
               By {othersRecipe.author?.authorName}
             </span>

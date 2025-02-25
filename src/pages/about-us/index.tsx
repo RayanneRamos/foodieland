@@ -14,6 +14,7 @@ import { Newsletter } from "../../components/newsletter";
 import { CardOtherRecipes } from "../../components/card-other-recipes";
 import { Footer } from "../../components/footer";
 import { recipes } from "../../utils/recipes";
+import * as motion from "motion/react-client";
 
 export function AboutUs() {
   return (
@@ -21,7 +22,13 @@ export function AboutUs() {
       <Navigation />
       <Divider />
       <div className={styles.main}>
-        <h1>About us</h1>
+        <motion.h1
+          initial={{ opacity: 0, y: 20 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 1.0, ease: "easeOut" }}
+        >
+          About us
+        </motion.h1>
         <div className={styles.mainContent}>
           <img src={chefContactImage} alt="" />
           <div className={styles.about}>
@@ -78,7 +85,14 @@ export function AboutUs() {
         </div>
         <div className={styles.moreAbout}>
           <div className={styles.aboutChef}>
-            <h3 className={styles.aboutChefTitle}>Meet Our Chefs</h3>
+            <motion.h3
+              initial={{ opacity: 0, y: 20 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ duration: 1.0, ease: "easeOut" }}
+              className={styles.aboutChefTitle}
+            >
+              Meet Our Chefs
+            </motion.h3>
             <p className={styles.aboutChefText}>
               Our recipes are crafted by a diverse team of professional chefs,
               culinary experts, and passionate home cooks who bring their unique
@@ -86,74 +100,124 @@ export function AboutUs() {
               tested to ensure accuracy, flavor balance, and ease of
               preparation.
             </p>
-            <strong className={styles.aboutChefBold}>
+            <motion.strong
+              initial={{ y: 50, opacity: 0 }}
+              animate={{ y: 0, opacity: 1 }}
+              transition={{ duration: 0.8, ease: "anticipate" }}
+              className={styles.aboutChefBold}
+            >
               What makes our chefs special?
-            </strong>
-            <strong className={styles.aboutChefBold}>
+            </motion.strong>
+            <motion.strong
+              initial={{ y: 50, opacity: 0 }}
+              animate={{ y: 0, opacity: 1 }}
+              transition={{ duration: 0.8, ease: "anticipate" }}
+              className={styles.aboutChefBold}
+            >
               <CheckSquare size={32} weight="fill" color="#00ff9c" />
               Culinary Expertise
-            </strong>
+            </motion.strong>
             <p className={styles.aboutChefText}>
               Our team includes trained chefs with experience in world-renowned
               kitchens, ensuring high-quality and innovative recipes.
             </p>
-            <strong className={styles.aboutChefBold}>
+            <motion.strong
+              initial={{ y: 50, opacity: 0 }}
+              animate={{ y: 0, opacity: 1 }}
+              transition={{ duration: 0.8, ease: "anticipate" }}
+              className={styles.aboutChefBold}
+            >
               <CheckSquare size={32} weight="fill" color="#00ff9c" />
               Diverse Influences
-            </strong>
+            </motion.strong>
             <p className={styles.aboutChefText}>
               From Italian pasta masters to Asian street food specialists, our
               chefs bring global flavors to your kitchen.
             </p>
-            <strong className={styles.aboutChefBold}>
+            <motion.strong
+              initial={{ y: 50, opacity: 0 }}
+              animate={{ y: 0, opacity: 1 }}
+              transition={{ duration: 0.8, ease: "anticipate" }}
+              className={styles.aboutChefBold}
+            >
               <CheckSquare size={32} weight="fill" color="#00ff9c" />
               Home Cook Insights
-            </strong>
+            </motion.strong>
             <p className={styles.aboutChefText}>
               We also collaborate with experienced home cooks who share
               practical, easy-to-follow recipes for everyday meals.
             </p>
-            <strong className={styles.aboutChefBold}>
+            <motion.strong
+              initial={{ y: 50, opacity: 0 }}
+              animate={{ y: 0, opacity: 1 }}
+              transition={{ duration: 0.8, ease: "anticipate" }}
+              className={styles.aboutChefBold}
+            >
               <CheckSquare size={32} weight="fill" color="#00ff9c" />
               Passion for Teaching
-            </strong>
+            </motion.strong>
             <p className={styles.aboutChefText}>
               Beyond just recipes, our chefs provide cooking tips, ingredient
               substitutions, and step-by-step techniques to elevate your skills.
             </p>
           </div>
           <div className={styles.aboutChooseFoodieland}>
-            <h3 className={styles.aboutChooseFoodielandTitle}>
+            <motion.h3
+              initial={{ opacity: 0, y: 20 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ duration: 1.0, ease: "easeOut" }}
+              className={styles.aboutChooseFoodielandTitle}
+            >
               Why Choose Foodieland?
-            </h3>
-            <strong className={styles.aboutChooseFoodielandBold}>
+            </motion.h3>
+            <motion.strong
+              initial={{ y: 50, opacity: 0 }}
+              animate={{ y: 0, opacity: 1 }}
+              transition={{ duration: 0.8, ease: "anticipate" }}
+              className={styles.aboutChooseFoodielandBold}
+            >
               <GlobeHemisphereEast size={32} weight="fill" color="#3674b5" />A
               World of Recipes
-            </strong>
+            </motion.strong>
             <p className={styles.aboutChooseFoodielandText}>
               Discover everything from traditional classics to trendy new
               dishes, bringing diverse flavors to your kitchen.
             </p>
-            <strong className={styles.aboutChooseFoodielandBold}>
+            <motion.strong
+              initial={{ y: 50, opacity: 0 }}
+              animate={{ y: 0, opacity: 1 }}
+              transition={{ duration: 0.8, ease: "anticipate" }}
+              className={styles.aboutChooseFoodielandBold}
+            >
               <BookOpen size={32} weight="fill" color="#7e99a3" />A Step-by-Step
               Guidance
-            </strong>
+            </motion.strong>
             <p className={styles.aboutChooseFoodielandText}>
               Follow clear instructions with pro tips from our expert chefs to
               make cooking easier and more enjoyable.
             </p>
-            <strong className={styles.aboutChooseFoodielandBold}>
+            <motion.strong
+              initial={{ y: 50, opacity: 0 }}
+              animate={{ y: 0, opacity: 1 }}
+              transition={{ duration: 0.8, ease: "anticipate" }}
+              className={styles.aboutChooseFoodielandBold}
+            >
               <UsersThree size={32} weight="fill" color="#441752" />A
               Community-Driven
-            </strong>
+            </motion.strong>
             <p className={styles.aboutChooseFoodielandText}>
               Share your recipes, get feedback, and connect with food lovers
               worldwide, making cooking a shared experience.
             </p>
-            <strong className={styles.aboutChooseFoodielandBold}>
+            <motion.strong
+              initial={{ y: 50, opacity: 0 }}
+              animate={{ y: 0, opacity: 1 }}
+              transition={{ duration: 0.8, ease: "anticipate" }}
+              className={styles.aboutChooseFoodielandBold}
+            >
               <Fire size={32} weight="fill" color="#C14600" />A Chef's Special
               Picks
-            </strong>
+            </motion.strong>
             <p className={styles.aboutChooseFoodielandText}>
               Enjoy hand-selected, chef-approved recipes that guarantee amazing
               flavors and foolproof results.
@@ -173,9 +237,14 @@ export function AboutUs() {
           <Newsletter />
         </div>
         <div className={styles.recipeSection}>
-          <strong className={styles.recipeTitle}>
+          <motion.strong
+            initial={{ y: 50, opacity: 0 }}
+            animate={{ y: 0, opacity: 1 }}
+            transition={{ duration: 0.8, ease: "anticipate" }}
+            className={styles.recipeTitle}
+          >
             Check out the delicious recipe
-          </strong>
+          </motion.strong>
           <div className={styles.recipeContainer}>
             {recipes.slice(0, 4).map((recipe) => {
               return <CardOtherRecipes moreRecipe={recipe} key={recipe.id} />;

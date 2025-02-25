@@ -7,6 +7,7 @@ import styles from "./styles.module.scss";
 import { categories } from "../../utils/categories";
 import { recipes } from "../../utils/recipes";
 import { CardOtherRecipes } from "../../components/card-other-recipes";
+import * as motion from "motion/react-client";
 
 export function CategoriesRecipes() {
   const { categoryId } = useParams();
@@ -20,7 +21,14 @@ export function CategoriesRecipes() {
       <Navigation />
       <Divider />
       <div className={styles.main}>
-        <h1 className={styles.title}>{category?.name} Recipes</h1>
+        <motion.h1
+          initial={{ y: 50, opacity: 0 }}
+          animate={{ y: 0, opacity: 1 }}
+          transition={{ duration: 0.8, ease: "anticipate" }}
+          className={styles.title}
+        >
+          {category?.name} Recipes
+        </motion.h1>
         <div className={styles.recipesContainer}>
           {filteredRecipes.map((recipe) => {
             return <CardOtherRecipes moreRecipe={recipe} key={recipe.id} />;

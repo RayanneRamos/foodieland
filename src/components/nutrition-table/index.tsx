@@ -1,5 +1,6 @@
 import { Divider } from "../divider";
 import styles from "./styles.module.scss";
+import * as motion from "motion/react-client";
 
 interface NutritionTableProps {
   nutrition?: {
@@ -14,7 +15,14 @@ interface NutritionTableProps {
 export function NutritionTable({ nutrition }: NutritionTableProps) {
   return (
     <div className={styles.container}>
-      <strong className={styles.title}>Nutrition Information</strong>
+      <motion.strong
+        initial={{ y: 50, opacity: 0 }}
+        animate={{ y: 0, opacity: 1 }}
+        transition={{ duration: 0.8, ease: "anticipate" }}
+        className={styles.title}
+      >
+        Nutrition Information
+      </motion.strong>
       <div className={styles.nutritionContent}>
         <span className={styles.name}>Calories</span>
         <span className={styles.info}>{nutrition?.calories} kcal</span>

@@ -13,6 +13,7 @@ import { recipes } from "../../utils/recipes";
 import { blog } from "../../utils/blog";
 import { BlogProps } from "../../types";
 import { CardSearchNews } from "../../components/search-card";
+import * as motion from "motion/react-client";
 
 const itemsPerPage = 6;
 
@@ -55,7 +56,14 @@ export function BlogList() {
       <Navigation />
       <Divider />
       <div className={styles.header}>
-        <h1 className={styles.headerTitle}>Blog & Article</h1>
+        <motion.h1
+          initial={{ y: 50, opacity: 0 }}
+          animate={{ y: 0, opacity: 1 }}
+          transition={{ duration: 0.8, ease: "anticipate" }}
+          className={styles.headerTitle}
+        >
+          Blog & Article
+        </motion.h1>
         <p className={styles.headerSubtitle}>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
           eiusmod tempor incididunt ut labore et dolore

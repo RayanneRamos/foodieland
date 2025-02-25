@@ -19,6 +19,7 @@ import { CardOtherRecipes } from "../../components/card-other-recipes";
 import { Footer } from "../../components/footer";
 import { recipes } from "../../utils/recipes";
 import { useParams } from "react-router";
+import * as motion from "motion/react-client";
 
 export function RecipeDetails() {
   const { id } = useParams<{ id: string }>();
@@ -40,7 +41,14 @@ export function RecipeDetails() {
       <div className={styles.main}>
         <div className={styles.headerContainer}>
           <div className={styles.headerContent}>
-            <h1 className={styles.headerTitle}>{recipe?.recipeName}</h1>
+            <motion.h1
+              initial={{ y: 50, opacity: 0 }}
+              animate={{ y: 0, opacity: 1 }}
+              transition={{ duration: 0.8, ease: "anticipate" }}
+              className={styles.headerTitle}
+            >
+              {recipe?.recipeName}
+            </motion.h1>
             <div className={styles.headerInfo}>
               <Avatar author={recipe?.author} />
               <VerticalDivider />
@@ -75,11 +83,25 @@ export function RecipeDetails() {
         <div className={styles.ingredientsContainer}>
           <div className={styles.ingredientsContent}>
             <div className={styles.ingredientsComponent}>
-              <h3 className={styles.titleIngredients}>Ingredients</h3>
+              <motion.h3
+                initial={{ y: 50, opacity: 0 }}
+                animate={{ y: 0, opacity: 1 }}
+                transition={{ duration: 0.8, ease: "anticipate" }}
+                className={styles.titleIngredients}
+              >
+                Ingredients
+              </motion.h3>
               <TaskBoard ingredients={recipe} />
             </div>
             <div className={styles.ingredientsOtherRecipes}>
-              <h3 className={styles.titleOtherRecipes}>Other Recipe</h3>
+              <motion.h3
+                initial={{ y: 50, opacity: 0 }}
+                animate={{ y: 0, opacity: 1 }}
+                transition={{ duration: 0.8, ease: "anticipate" }}
+                className={styles.titleOtherRecipes}
+              >
+                Other Recipe
+              </motion.h3>
               {recipes.slice(0, 3).map((othersRecipe) => {
                 return (
                   <IngredientsCards
@@ -93,7 +115,14 @@ export function RecipeDetails() {
             </div>
           </div>
           <div className={styles.directionsContainer}>
-            <h3 className={styles.directionsTitle}>Directions</h3>
+            <motion.h3
+              initial={{ y: 50, opacity: 0 }}
+              animate={{ y: 0, opacity: 1 }}
+              transition={{ duration: 0.8, ease: "anticipate" }}
+              className={styles.directionsTitle}
+            >
+              Directions
+            </motion.h3>
             {recipe.recipeDirections.map((directionRecipe, index) => {
               return (
                 <>

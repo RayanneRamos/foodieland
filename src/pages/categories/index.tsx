@@ -6,6 +6,7 @@ import { Navigation } from "../../components/navigation";
 import { Newsletter } from "../../components/newsletter";
 import { categories } from "../../utils/categories";
 import styles from "./styles.module.scss";
+import * as motion from "motion/react-client";
 
 export function Categories() {
   const navigate = useNavigate();
@@ -15,7 +16,14 @@ export function Categories() {
       <Navigation />
       <Divider />
       <div className={styles.main}>
-        <h1 className={styles.title}>Categories</h1>
+        <motion.h1
+          initial={{ y: 50, opacity: 0 }}
+          animate={{ y: 0, opacity: 1 }}
+          transition={{ duration: 0.8, ease: "anticipate" }}
+          className={styles.title}
+        >
+          Categories
+        </motion.h1>
         <div className={styles.categoriesContainer}>
           {categories.map((category) => {
             return (

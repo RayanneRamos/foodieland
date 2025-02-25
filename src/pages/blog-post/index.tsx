@@ -11,6 +11,7 @@ import { Footer } from "../../components/footer";
 import { recipes } from "../../utils/recipes";
 import { useParams } from "react-router";
 import { blog } from "../../utils/blog";
+import * as motion from "motion/react-client";
 
 export function BlogPost() {
   const { id } = useParams<{ id: string }>();
@@ -30,7 +31,14 @@ export function BlogPost() {
       <Navigation />
       <Divider />
       <div className={styles.main}>
-        <h1 className={styles.title}>{blogPosts.title}</h1>
+        <motion.h1
+          initial={{ y: 50, opacity: 0 }}
+          animate={{ y: 0, opacity: 1 }}
+          transition={{ duration: 0.8, ease: "anticipate" }}
+          className={styles.title}
+        >
+          {blogPosts.title}
+        </motion.h1>
         <div className={styles.headerInfo}>
           <div className={styles.headerAvatar}>
             <img
@@ -59,9 +67,14 @@ export function BlogPost() {
               {blogPosts.posts.map((post, index) => {
                 return (
                   <>
-                    <strong className={styles.blogPostTitle}>
+                    <motion.strong
+                      initial={{ y: 50, opacity: 0 }}
+                      animate={{ y: 0, opacity: 1 }}
+                      transition={{ duration: 0.8, ease: "anticipate" }}
+                      className={styles.blogPostTitle}
+                    >
                       {post.postQuestion}
-                    </strong>
+                    </motion.strong>
                     {index === 2 && (
                       <img
                         src={postImage}
@@ -97,9 +110,14 @@ export function BlogPost() {
           <Newsletter />
         </div>
         <div className={styles.recipeContainer}>
-          <strong className={styles.recipeTitle}>
+          <motion.strong
+            initial={{ y: 50, opacity: 0 }}
+            animate={{ y: 0, opacity: 1 }}
+            transition={{ duration: 0.8, ease: "anticipate" }}
+            className={styles.recipeTitle}
+          >
             Check out the delicious recipe
-          </strong>
+          </motion.strong>
           <div className={styles.deliciousRecipe}>
             {recipes.slice(0, 4).map((recipe) => {
               return <CardOtherRecipes moreRecipe={recipe} key={recipe.id} />;

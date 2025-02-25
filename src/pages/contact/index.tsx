@@ -10,6 +10,7 @@ import { z } from "zod";
 import { useForm } from "react-hook-form";
 import { zodResolver } from "@hookform/resolvers/zod";
 import { toast } from "sonner";
+import * as motion from "motion/react-client";
 
 const contactSchema = z.object({
   name: z.string().min(2, "The name field cannot be blank."),
@@ -51,7 +52,14 @@ export function Contact() {
       <Navigation />
       <Divider />
       <div className={styles.main}>
-        <h1 className={styles.title}>Contact us</h1>
+        <motion.h1
+          initial={{ y: 50, opacity: 0 }}
+          animate={{ y: 0, opacity: 1 }}
+          transition={{ duration: 0.8, ease: "anticipate" }}
+          className={styles.title}
+        >
+          Contact us
+        </motion.h1>
         <div className={styles.mainContent}>
           <img src={chefContactImage} alt="" />
           <form
@@ -148,9 +156,14 @@ export function Contact() {
         <Newsletter />
       </div>
       <div className={styles.recipeSection}>
-        <strong className={styles.recipeTitle}>
+        <motion.strong
+          initial={{ y: 50, opacity: 0 }}
+          animate={{ y: 0, opacity: 1 }}
+          transition={{ duration: 0.8, ease: "anticipate" }}
+          className={styles.recipeTitle}
+        >
           Check out the delicious recipe
-        </strong>
+        </motion.strong>
         <div className={styles.recipeContent}>
           {recipes.slice(0, 4).map((recipe) => {
             return <CardOtherRecipes moreRecipe={recipe} key={recipe.id} />;

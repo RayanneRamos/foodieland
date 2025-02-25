@@ -7,6 +7,7 @@ import { Newsletter } from "../../components/newsletter";
 import { recipes } from "../../utils/recipes";
 import styles from "./styles.module.scss";
 import { Pagination } from "../../components/pagination";
+import * as motion from "motion/react-client";
 
 const itemsPerPage = 12;
 
@@ -25,7 +26,14 @@ export function Recipes() {
       <Navigation />
       <Divider />
       <div className={styles.main}>
-        <h1 className={styles.title}>Recipes Lists</h1>
+        <motion.h1
+          initial={{ y: 50, opacity: 0 }}
+          animate={{ y: 0, opacity: 1 }}
+          transition={{ duration: 0.8, ease: "anticipate" }}
+          className={styles.title}
+        >
+          Recipes Lists
+        </motion.h1>
         <div className={styles.recipesContainer}>
           {currentRecipes.map((recipe) => {
             return <CardOtherRecipes moreRecipe={recipe} key={recipe.id} />;
