@@ -9,7 +9,12 @@ interface CategoryProps extends ButtonHTMLAttributes<HTMLButtonElement> {
 
 export function Category({ image, name, ...props }: CategoryProps) {
   return (
-    <button className={styles.container} {...props}>
+    <motion.button
+      whileHover={{ scale: 1.1 }}
+      whileTap={{ scale: 0.9 }}
+      className={styles.container}
+      {...props}
+    >
       <img src={image} alt="" />
       <motion.span
         initial={{ y: 50, opacity: 0 }}
@@ -19,6 +24,6 @@ export function Category({ image, name, ...props }: CategoryProps) {
       >
         {name}
       </motion.span>
-    </button>
+    </motion.button>
   );
 }

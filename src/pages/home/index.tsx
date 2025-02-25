@@ -164,10 +164,30 @@ export function Home() {
               minim{" "}
             </span>
             <div className={styles.socialPosts}>
-              <img src={instagramPostOne} alt="post-01" />
-              <img src={instagramPostTwo} alt="post-02" />
-              <img src={instagramPostThree} alt="post-03" />
-              <img src={instagramPostFour} alt="post-04" />
+              <motion.img
+                whileHover={{ scale: 1.1 }}
+                whileTap={{ scale: 0.9 }}
+                src={instagramPostOne}
+                alt="post-01"
+              />
+              <motion.img
+                whileHover={{ scale: 1.1 }}
+                whileTap={{ scale: 0.9 }}
+                src={instagramPostTwo}
+                alt="post-02"
+              />
+              <motion.img
+                whileHover={{ scale: 1.1 }}
+                whileTap={{ scale: 0.9 }}
+                src={instagramPostThree}
+                alt="post-03"
+              />
+              <motion.img
+                whileHover={{ scale: 1.1 }}
+                whileTap={{ scale: 0.9 }}
+                src={instagramPostFour}
+                alt="post-04"
+              />
             </div>
             <button className={styles.socialButton}>
               <span className={styles.buttonText}>Visit Our Instagram</span>

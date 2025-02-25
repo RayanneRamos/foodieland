@@ -9,7 +9,11 @@ interface CardSearchNewsProps {
 
 export function CardSearchNews({ news }: CardSearchNewsProps) {
   return (
-    <div className={styles.container}>
+    <motion.div
+      whileHover={{ scale: 1.1 }}
+      whileTap={{ scale: 0.9 }}
+      className={styles.container}
+    >
       <img
         src={news?.blogImage}
         alt={news?.title}
@@ -42,6 +46,6 @@ export function CardSearchNews({ news }: CardSearchNewsProps) {
           <span className={styles.date}>{news?.author?.authorDatePosted}</span>
         </div>
       </div>
-    </div>
+    </motion.div>
   );
 }

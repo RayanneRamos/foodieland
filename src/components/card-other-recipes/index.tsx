@@ -18,7 +18,11 @@ export function CardOtherRecipes({ moreRecipe }: CardOtherRecipesProps) {
   }
 
   return (
-    <div className={styles.cardContainer}>
+    <motion.div
+      whileHover={{ scale: 1.1 }}
+      whileTap={{ scale: 0.9 }}
+      className={styles.cardContainer}
+    >
       <Link to={`/recipe-details/${moreRecipe.id}`} className={styles.link}>
         <div className={styles.cardImage}>
           <img
@@ -64,6 +68,6 @@ export function CardOtherRecipes({ moreRecipe }: CardOtherRecipesProps) {
           </div>
         </div>
       </Link>
-    </div>
+    </motion.div>
   );
 }

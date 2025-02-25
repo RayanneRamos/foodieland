@@ -9,7 +9,11 @@ interface CardBlogPostsInterface {
 
 export function CardBlogPosts({ blog }: CardBlogPostsInterface) {
   return (
-    <div className={styles.container}>
+    <motion.div
+      whileHover={{ scale: 1.1 }}
+      whileTap={{ scale: 0.9 }}
+      className={styles.container}
+    >
       <img
         src={blog?.blogImage}
         alt={blog?.title}
@@ -42,6 +46,6 @@ export function CardBlogPosts({ blog }: CardBlogPostsInterface) {
           <span className={styles.date}>{blog?.author?.authorDatePosted}</span>
         </div>
       </div>
-    </div>
+    </motion.div>
   );
 }

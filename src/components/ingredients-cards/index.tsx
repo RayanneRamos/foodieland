@@ -9,7 +9,11 @@ interface IngredientsCardsProps {
 
 export function IngredientsCards({ othersRecipe }: IngredientsCardsProps) {
   return (
-    <div className={styles.container}>
+    <motion.div
+      whileHover={{ scale: 1.1 }}
+      whileTap={{ scale: 0.9 }}
+      className={styles.container}
+    >
       <Link to={`/recipe-details/${othersRecipe.id}`} className={styles.link}>
         <div className={styles.content}>
           <img
@@ -32,6 +36,6 @@ export function IngredientsCards({ othersRecipe }: IngredientsCardsProps) {
           </div>
         </div>
       </Link>
-    </div>
+    </motion.div>
   );
 }
