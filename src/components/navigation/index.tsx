@@ -4,6 +4,7 @@ import facebookImage from "../../assets/facebook.svg";
 import twitterLogo from "../../assets/twitter.svg";
 import instagramLogo from "../../assets/instagram.svg";
 import { Link } from "react-router";
+import * as motion from "motion/react-client";
 
 export function Navigation() {
   return (
@@ -28,13 +29,28 @@ export function Navigation() {
       </nav>
       <div className={styles.socialMedia}>
         <a href="#" className={styles.navSocial}>
-          <img src={facebookImage} alt="facebook-logo" />
+          <motion.img
+            whileHover={{ scale: 1.1 }}
+            whileTap={{ scale: 0.9 }}
+            src={facebookImage}
+            alt="facebook-logo"
+          />
         </a>
         <a href="#" className={styles.navSocial}>
-          <img src={twitterLogo} alt="twitter-logo" />
+          <motion.img
+            whileHover={{ scale: 1.1 }}
+            whileTap={{ scale: 0.9 }}
+            src={twitterLogo}
+            alt="twitter-logo"
+          />
         </a>
         <a href="#" className={styles.navSocial}>
-          <img src={instagramLogo} alt="instagram-logo" />
+          <motion.img
+            whileHover={{ scale: 1.1 }}
+            whileTap={{ scale: 0.9 }}
+            src={instagramLogo}
+            alt="instagram-logo"
+          />
         </a>
       </div>
     </div>

@@ -5,6 +5,7 @@ import facebookImage from "../../assets/facebook.svg";
 import twitterImage from "../../assets/twitter.svg";
 import instagramImage from "../../assets/instagram.svg";
 import { Link } from "react-router";
+import * as motion from "motion/react-client";
 
 export function Footer() {
   return (
@@ -37,9 +38,24 @@ export function Footer() {
           <span className={styles.highlight}>Webflow</span>
         </span>
         <div className={styles.footerSocialMedia}>
-          <img src={facebookImage} alt="facebook" />
-          <img src={twitterImage} alt="twitter" />
-          <img src={instagramImage} alt="instagram" />
+          <motion.img
+            whileHover={{ scale: 1.1 }}
+            whileTap={{ scale: 0.9 }}
+            src={facebookImage}
+            alt="facebook"
+          />
+          <motion.img
+            whileHover={{ scale: 1.1 }}
+            whileTap={{ scale: 0.9 }}
+            src={twitterImage}
+            alt="twitter"
+          />
+          <motion.img
+            whileHover={{ scale: 1.1 }}
+            whileTap={{ scale: 0.9 }}
+            src={instagramImage}
+            alt="instagram"
+          />
         </div>
       </div>
     </div>

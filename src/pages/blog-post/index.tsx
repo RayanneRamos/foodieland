@@ -117,9 +117,24 @@ export function BlogPost() {
           <div className={styles.sharePost}>
             <motion.p className={styles.socialText}>Share this on:</motion.p>
             <div className={styles.socialMediaContent}>
-              <img src={facebookImage} alt="facebook" />
-              <img src={twitterImage} alt="twitter" />
-              <img src={instagramImage} alt="instagram" />
+              <motion.img
+                whileHover={{ scale: 1.1 }}
+                whileTap={{ scale: 0.9 }}
+                src={facebookImage}
+                alt="facebook"
+              />
+              <motion.img
+                whileHover={{ scale: 1.1 }}
+                whileTap={{ scale: 0.9 }}
+                src={twitterImage}
+                alt="twitter"
+              />
+              <motion.img
+                whileHover={{ scale: 1.1 }}
+                whileTap={{ scale: 0.9 }}
+                src={instagramImage}
+                alt="instagram"
+              />
             </div>
           </div>
         </div>
