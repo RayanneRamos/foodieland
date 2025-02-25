@@ -19,12 +19,12 @@
   transition: all 0.4s;
 
   .name {
-    font-size: 14px;
+    font-size: 0.875rem;
     font-weight: 600;
     letter-spacing: 2%;
   }
 }
   
 .container:hover {
-  background-color: #55738b;
+  background-color: var(--masala-800);
 }

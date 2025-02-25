@@ -23,7 +23,7 @@
     .title {
       margin-top: 80px;
 
-      font-size: 48px;
+      font-size: 3rem;
       font-weight: 600;
       letter-spacing: -4%;
     }
@@ -65,7 +65,7 @@
 
         border: none;
 
-        font-size: 14px;
+        font-size: 0.875rem;
         font-weight: 500;
         letter-spacing: -2%;
 
@@ -92,7 +92,7 @@
 
         cursor: pointer;
 
-        font-size: 14px;
+        font-size: 0.875rem;
         font-weight: 600;
         letter-spacing: -2%;
 
@@ -100,14 +100,14 @@
       }
 
       .button:hover {
-        background-color: #55738b;
+        background-color: var(--masala-800);
       }
     }
   }
 
   .error {
     font-size: 14px;
-    color: #B82132;
+    color: var(--cardinal-700);
 
     text-align: left;
   }

@@ -31,7 +31,7 @@
       }
 
       .link:hover {
-        color: #55738b;
+        color: var(--masala-800);
       }
     }
   }
@@ -45,14 +45,13 @@
     padding-bottom: 48px;
 
     .copyrightText {
-      font-size: 16px;
       font-weight: 500;
       letter-spacing: -2%;
 
       color: rgba(0, 0, 0, 0.6);
 
       .highlight {
-        color: #FF7967;
+        color: var(--bittersweet-400);
       }
     }
 

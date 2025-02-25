@@ -7,7 +7,7 @@
   align-items: center;
 
   .headerTitle {
-    font-size: 64px;
+    font-size: 4rem;
     letter-spacing: -4%;
 
     text-align: center;
@@ -49,7 +49,7 @@
 
       border: none;
 
-      font-size: 14px;
+      font-size: 0.875rem;
       font-weight: 500;
       letter-spacing: -2%;
     }
@@ -74,7 +74,7 @@
 
       cursor: pointer;
 
-      font-size: 14px;
+      font-size: 0.875rem;
       font-weight: 600;
       letter-spacing: -2%;
 
@@ -119,7 +119,6 @@
       }
 
       .newsContent {
-        font-size: 1rem;
         color: #555;
       }
     }

@@ -30,7 +30,7 @@
     .infoTitle {
       width: 196px;
       
-      font-size: 20px;
+      font-size: 1.25rem;
       font-weight: 600;
       line-height: 28px;
       letter-spacing: -4%;
@@ -41,10 +41,16 @@
       
       overflow: hidden;
       text-overflow: ellipsis;
+
+      transition: all 0.4s;
+    }
+
+    .infoTitle:hover {
+      color: var(--black-800);
     }
 
     .infoAuthor {
-      font-size: 14px;
+      font-size: 0.875rem;
       font-weight: 500;
       letter-spacing: -2%;
 

@@ -12,15 +12,21 @@
     border: none;
     border-radius: 50%;
 
-    background-color: #e7fafe;
+    background-color: var(--twilight-blue-50);
 
     cursor: pointer;
+
+    transition: all 0.4s;
+  }
+
+  .button:hover {
+    background-color: var(--twilight-blue-100);
   }
 
   .name {
     text-transform: uppercase;
 
-    font-size: 12px;
+    font-size: 0.75rem;
     font-weight: 500;
     letter-spacing: 10%;
   }

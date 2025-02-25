@@ -7,10 +7,10 @@
   border: none;
   border-radius: 30px;
 
-  background-color: #E7FAFE;
+  background-color: var(--twilight-blue-50);
 
   .title {
-    font-size: 24px;
+    font-size: 1.5rem;
     letter-spacing: -4%;
   }
 
@@ -22,7 +22,7 @@
     margin-bottom: 16px;
 
     .name {
-      font-size: 18px;
+      font-size: 1.125rem;
       font-weight: 500;
       letter-spacing: -4%;
 
@@ -30,7 +30,7 @@
     }
 
     .info {
-      font-size: 18px;
+      font-size: 1.125rem;
       font-weight: 500;
       letter-spacing: -4%;
     }
