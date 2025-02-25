@@ -12,13 +12,28 @@
   
   --twilight-blue-100: #d1f3fc;
   --white-100: #efefef;
+  --mercury-100: #e7e7e7;
+
+  --geyser-200: #DBE2E5;
+
+  --iron-300: #ccc;
   
   --bittersweet-400: #FF7967;
   --gunsmoke-400: #888;
+  --star-dust-400: #999;
   
   --cardinal-700: #B82132;
+  --chicago-700: #555;
   
   --masala-800: #454545;
+
+  --rgba-opacity-05: rgba(0, 0, 0, 0.05);
+  --rgba-opacity-10: rgba(0, 0, 0, 0.1);
+  --rgba-opacity-20: rgba(0, 0, 0, 0.2);
+  --rgba-opacity-40: rgba(0, 0, 0, 0.4);
+  --rgba-opacity-60: rgba(0, 0, 0, 0.6);
+
+  --linear-background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(231,249,253,1) 100%);
 }
 
 body {
