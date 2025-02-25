@@ -16,7 +16,7 @@
 
   cursor: pointer;
 
-  background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(231,249,253,1) 100%);
+  background: var(--linear-background);
 
   transition: all 0.4s;
 

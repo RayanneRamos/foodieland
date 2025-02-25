@@ -4,7 +4,7 @@
 
   height: 442px;
 
-  background-color: #E7F9FD;
+  background-color: var(--twilight-blue-50);
 
   border: none;
   border-radius: 24px;
@@ -35,7 +35,7 @@
 
       line-height: 28px;
 
-      color: rgba(0, 0, 0, 0.6);
+      color: var(--rgba-opacity-60);
 
       text-align: center;
     }
@@ -73,7 +73,7 @@
       }
 
       .inputEmail::placeholder {
-        color: rgba(0, 0, 0, 0.4);
+        color: var(--rgba-opacity-40);
       }
 
       .inputEmail:focus {

@@ -46,7 +46,7 @@
     .subtitle {
       max-width: 520px;
       
-      color: rgba(0, 0, 0, 0.6); 
+      color: var(--rgba-opacity-60); 
       line-height: 28px;
 
       margin-top: 24px;
@@ -165,7 +165,7 @@ main {
 
       width: 706px;
 
-      color: rgba(0, 0, 0, 0.6);  
+      color: var(--rgba-opacity-60);  
 
       text-align: center;
       margin-top: 24px;
@@ -214,7 +214,7 @@ main {
 
       line-height: 28px;
 
-      color: rgba(0, 0, 0, 0.6);
+      color: var(--rgba-opacity-60);
     }
 
     .chefButton {
@@ -252,8 +252,7 @@ main {
   max-width: 1440px;
   margin: 0 auto;
 
-  background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(231,249,253,1) 100%);
-
+  background: var(--linear-background);
   .socialContent {
     //padding: 0 80px;
 
@@ -278,7 +277,7 @@ main {
 
       line-height: 28px;
 
-      color: rgba(0, 0, 0, 0.6);
+      color: var(--rgba-opacity-60);
 
       text-align: center;
     }
@@ -350,7 +349,7 @@ main {
 
       line-height: 28px;
 
-      color: rgba(0, 0, 0, 0.6);
+      color: var(--rgba-opacity-60);
     }
   }
 

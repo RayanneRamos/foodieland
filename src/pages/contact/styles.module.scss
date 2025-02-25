@@ -44,7 +44,7 @@
             line-height: 20px;
             letter-spacing: 8%;
 
-            color: rgba(0, 0, 0, 0.6);
+            color: var(--rgba-opacity-60);
 
             text-transform: uppercase;
           }
@@ -53,7 +53,7 @@
             width: 400px;
             height: 60px;
 
-            border: 1px solid rgba(0, 0, 0, 0.1);
+            border: 1px solid var(--rgba-opacity-10);
             border-radius: 16px;
 
             padding: 18px 20px;
@@ -64,7 +64,7 @@
           }
 
           .input::placeholder {
-            color: rgba(0, 0, 0, 0.6);
+            color: var(--rgba-opacity-60);
           }
 
           .input:focus {
@@ -75,7 +75,7 @@
             width: 400px;
             height: 60px;
 
-            border: 1px solid rgba(0, 0, 0, 0.1);
+            border: 1px solid var(--rgba-opacity-10);
             border-radius: 16px;
 
             padding: 18px 20px;
@@ -99,7 +99,7 @@
           line-height: 20px;
           letter-spacing: 8%;
 
-          color: rgba(0, 0, 0, 0.6);
+          color: var(--rgba-opacity-60);
 
           text-transform: uppercase;
         }
@@ -108,7 +108,7 @@
           width: 840px;
           height: 220px;
 
-          border: 1px solid rgba(0, 0, 0, 0.1);
+          border: 1px solid var(--rgba-opacity-10);
           border-radius: 16px;
 
           padding: 20px;
@@ -124,7 +124,7 @@
           letter-spacing: -2%;
           font-family: 'Inter', sans-serif;
 
-          color: rgba(0, 0, 0, 0.6);
+          color: var(--rgba-opacity-60);
         }
 
         .textarea:focus {

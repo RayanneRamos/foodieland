@@ -82,7 +82,7 @@
     
     line-height: 28px;
 
-    color: rgba(0, 0, 0, 0.6);
+    color: var(--rgba-opacity-60);
   }
 
   .ingredientsContainer {
@@ -143,7 +143,7 @@
         line-height: 28px;
         letter-spacing: -2%;
 
-        color: rgba(0, 0, 0, 0.6);
+        color: var(--rgba-opacity-60);
       }
 
       .directionImage {

@@ -32,7 +32,7 @@
       
       line-height: 28px;
       
-      color: rgba(0, 0, 0, 0.6);
+      color: var(--rgba-opacity-60);
 
       margin-top: 16px;
 
@@ -73,14 +73,14 @@
         width: 1px;
         height: 40px;
 
-        background-color: rgba(0, 0, 0, 0.1);
+        background-color: var(--rgba-opacity-10);
       }
 
       .date {
         font-size: 0.875rem;
         font-weight: 500;
 
-        color: rgba(0, 0, 0, 0.6);
+        color: var(--rgba-opacity-60);
       }
     }
   }
