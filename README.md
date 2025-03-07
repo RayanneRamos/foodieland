@@ -23,7 +23,7 @@
 3. **Favoritos**: Salve suas receitas preferidas para acessar facilmente depois.
 4. **Passo a passo detalhado**: Instruções claras para garantir que qualquer pessoa possa preparar as receitas com sucesso.
 
-## 🧪 Technologies
+## 🧪 Tecnologias
 
 Esse projeto foi desenvolvido com as seguintes tecnologias:
 
