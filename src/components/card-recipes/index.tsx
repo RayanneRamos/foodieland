@@ -1,18 +1,19 @@
-/* eslint-disable @typescript-eslint/no-unused-expressions */
 import { Link } from "react-router";
 import { RecipeFood } from "../recipe-food";
 import styles from "./styles.module.scss";
-import { Heart } from "phosphor-react";
 import { RecipeProps } from "../../types";
 import { useState } from "react";
 import * as motion from "motion/react-client";
+import { FavoriteButton } from "../favorite-button";
 
 interface CardRecipesProps {
   recipe: RecipeProps;
 }
 
 export function CardRecipes({ recipe }: CardRecipesProps) {
-  const [isFavorite, setIsFavorite] = useState(recipe.recipeFavorite);
+  const [isFavorite, setIsFavorite] = useState<boolean>(
+    recipe.recipeFavorite ?? false
+  );
 
   function toggleFavorite() {
     setIsFavorite((prev) => !prev);
@@ -31,18 +32,10 @@ export function CardRecipes({ recipe }: CardRecipesProps) {
             alt={recipe.recipeName}
             className={styles.recipeImage}
           />
-          <button
-            className={styles.favoriteButton}
-            onClick={(event) => {
-              event.preventDefault(), toggleFavorite();
-            }}
-          >
-            <Heart
-              size={24}
-              weight="fill"
-              color={isFavorite ? "#ff6363" : "#ccc"}
-            />
-          </button>
+          <FavoriteButton
+            isFavorite={isFavorite}
+            toggleFavorite={toggleFavorite}
+          />
         </div>
         <div className={styles.cardContent}>
           <motion.strong
