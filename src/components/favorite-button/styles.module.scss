@@ -1,0 +1,29 @@
+.container {
+  width: 48px;
+  height: 48px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  border: none;
+  border-radius: 50%;
+
+  cursor: pointer;
+
+  position: absolute;
+
+  top: 12px;
+  right: 12px;
+
+  background: var(--white);
+  box-shadow: 0 2px 8px var(--rgba-opacity-20);
+
+  padding: 8px;
+
+  transition: all 0.4s;
+
+  &:hover {
+    background-color: var(--white-100);
+  }
+}
