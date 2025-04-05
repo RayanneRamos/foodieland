@@ -8,15 +8,16 @@ import instagramImage from "../../assets/instagram.svg";
 import { Newsletter } from "../../components/newsletter";
 import { CardOtherRecipes } from "../../components/card-other-recipes";
 import { Footer } from "../../components/footer";
-import { recipes } from "../../utils/recipes";
 import { useParams } from "react-router";
 import { blog } from "../../utils/blog";
 import * as motion from "motion/react-client";
+import { useShuffleRecipes } from "../../hooks/useShuffleRecipes";
 
 export function BlogPost() {
   const { id } = useParams<{ id: string }>();
 
   const blogPosts = blog.find((searchPosts) => searchPosts?.id === id);
+  const shuffledRecipes = useShuffleRecipes();
 
   if (!blogPosts) {
     return (
@@ -159,7 +160,7 @@ export function BlogPost() {
             Check out the delicious recipe
           </motion.strong>
           <div className={styles.deliciousRecipe}>
-            {recipes.slice(0, 4).map((recipe) => {
+            {shuffledRecipes.slice(0, 4).map((recipe) => {
               return <CardOtherRecipes moreRecipe={recipe} key={recipe.id} />;
             })}
           </div>

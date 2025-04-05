@@ -13,11 +13,13 @@ import {
 import { Newsletter } from "../../components/newsletter";
 import { CardOtherRecipes } from "../../components/card-other-recipes";
 import { Footer } from "../../components/footer";
-import { recipes } from "../../utils/recipes";
 import * as motion from "motion/react-client";
 import { Title } from "../../components/title";
+import { useShuffleRecipes } from "../../hooks/useShuffleRecipes";
 
 export function AboutUs() {
+  const shuffledRecipes = useShuffleRecipes();
+
   return (
     <div className={styles.container}>
       <Navigation />
@@ -349,7 +351,7 @@ export function AboutUs() {
             Check out the delicious recipe
           </motion.strong>
           <div className={styles.recipeContainer}>
-            {recipes.slice(0, 4).map((recipe) => {
+            {shuffledRecipes.slice(0, 4).map((recipe) => {
               return <CardOtherRecipes moreRecipe={recipe} key={recipe.id} />;
             })}
           </div>

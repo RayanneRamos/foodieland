@@ -9,12 +9,12 @@ import { Pagination } from "../../components/pagination";
 import { Newsletter } from "../../components/newsletter";
 import { Footer } from "../../components/footer";
 import { useEffect, useState } from "react";
-import { recipes } from "../../utils/recipes";
 import { blog } from "../../utils/blog";
 import { BlogProps } from "../../types";
 import { CardSearchNews } from "../../components/search-card";
 import * as motion from "motion/react-client";
 import { Title } from "../../components/title";
+import { useShuffleRecipes } from "../../hooks/useShuffleRecipes";
 
 const itemsPerPage = 6;
 
@@ -22,6 +22,7 @@ export function BlogList() {
   const [searchTerm, setSearchTerm] = useState("");
   const [filteredNews, setFilteredNews] = useState<BlogProps[]>([]);
   const [currentPage, setCurrentPage] = useState(1);
+  const shuffledRecipes = useShuffleRecipes();
 
   function handleSearch() {
     if (searchTerm.trim() !== "") {
@@ -112,7 +113,7 @@ export function BlogList() {
             Tasty Recipes
           </motion.strong>
           <div className={styles.tastyRecipesPosts}>
-            {recipes.slice(0, 3).map((othersRecipe) => {
+            {shuffledRecipes.slice(0, 3).map((othersRecipe) => {
               return (
                 <IngredientsCards
                   othersRecipe={othersRecipe}

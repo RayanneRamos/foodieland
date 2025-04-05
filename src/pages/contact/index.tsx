@@ -5,13 +5,13 @@ import chefContactImage from "../../assets/chef-contact.png";
 import { Newsletter } from "../../components/newsletter";
 import { Footer } from "../../components/footer";
 import { CardOtherRecipes } from "../../components/card-other-recipes";
-import { recipes } from "../../utils/recipes";
 import { z } from "zod";
 import { useForm } from "react-hook-form";
 import { zodResolver } from "@hookform/resolvers/zod";
 import { toast } from "sonner";
 import * as motion from "motion/react-client";
 import { Title } from "../../components/title";
+import { useShuffleRecipes } from "../../hooks/useShuffleRecipes";
 
 const contactSchema = z.object({
   name: z.string().min(2, "The name field cannot be blank."),
@@ -32,6 +32,7 @@ export function Contact() {
   } = useForm<ContactSchema>({
     resolver: zodResolver(contactSchema),
   });
+  const shuffledRecipes = useShuffleRecipes();
 
   function handleSendMessage(data: ContactSchema) {
     const storedMessages = localStorage.getItem("contactMessages");
@@ -166,7 +167,7 @@ export function Contact() {
           Check out the delicious recipe
         </motion.strong>
         <div className={styles.recipeContent}>
-          {recipes.slice(0, 4).map((recipe) => {
+          {shuffledRecipes.slice(0, 4).map((recipe) => {
             return <CardOtherRecipes moreRecipe={recipe} key={recipe.id} />;
           })}
         </div>

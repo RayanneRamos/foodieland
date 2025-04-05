@@ -20,11 +20,13 @@ import { Footer } from "../../components/footer";
 import { recipes } from "../../utils/recipes";
 import { useParams } from "react-router";
 import * as motion from "motion/react-client";
+import { useShuffleRecipes } from "../../hooks/useShuffleRecipes";
 
 export function RecipeDetails() {
   const { id } = useParams<{ id: string }>();
 
   const recipe = recipes.find((searchRecipe) => searchRecipe?.id === id);
+  const shuffledRecipes = useShuffleRecipes();
 
   if (!recipe) {
     return (
@@ -109,7 +111,7 @@ export function RecipeDetails() {
               >
                 Other Recipe
               </motion.h3>
-              {recipes.slice(0, 3).map((othersRecipe) => {
+              {shuffledRecipes.slice(0, 3).map((othersRecipe) => {
                 return (
                   <IngredientsCards
                     othersRecipe={othersRecipe}
@@ -163,7 +165,7 @@ export function RecipeDetails() {
             You may like these recipe too
           </motion.h3>
           <div className={styles.likeRecipesCard}>
-            {recipes.slice(0, 4).map((recipe) => {
+            {shuffledRecipes.slice(0, 4).map((recipe) => {
               return <CardOtherRecipes moreRecipe={recipe} key={recipe.id} />;
             })}
           </div>

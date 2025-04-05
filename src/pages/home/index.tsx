@@ -20,11 +20,12 @@ import { CardOtherRecipes } from "../../components/card-other-recipes";
 import { Newsletter } from "../../components/newsletter";
 import { Footer } from "../../components/footer";
 import { useNavigate } from "react-router";
-import { recipes } from "../../utils/recipes";
 import * as motion from "motion/react-client";
+import { useShuffleRecipes } from "../../hooks/useShuffleRecipes";
 
 export function Home() {
   const navigate = useNavigate();
+  const shuffledRecipes = useShuffleRecipes();
 
   return (
     <div className={styles.container}>
@@ -124,7 +125,7 @@ export function Home() {
             </motion.span>
           </div>
           <div className={styles.cardContent}>
-            {recipes.slice(0, 8).map((recipe, index) => {
+            {shuffledRecipes.slice(0, 8).map((recipe, index) => {
               return (
                 <>
                   <CardRecipes key={recipe.id} recipe={recipe} />
@@ -237,7 +238,7 @@ export function Home() {
             </motion.span>
           </div>
           <div className={styles.moreRecipeContent}>
-            {recipes.slice(0, 8).map((moreRecipe) => {
+            {shuffledRecipes.slice(0, 8).map((moreRecipe) => {
               return (
                 <CardOtherRecipes key={moreRecipe.id} moreRecipe={moreRecipe} />
               );
