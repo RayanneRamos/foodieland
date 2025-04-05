@@ -15,6 +15,7 @@ import { CardOtherRecipes } from "../../components/card-other-recipes";
 import { Footer } from "../../components/footer";
 import { recipes } from "../../utils/recipes";
 import * as motion from "motion/react-client";
+import { Title } from "../../components/title";
 
 export function AboutUs() {
   return (
@@ -27,7 +28,7 @@ export function AboutUs() {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 1.0, ease: "easeOut" }}
         >
-          About us
+          <Title>About us</Title>
         </motion.h1>
         <div className={styles.mainContent}>
           <img src={chefContactImage} alt="" />

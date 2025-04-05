@@ -14,6 +14,7 @@ import { blog } from "../../utils/blog";
 import { BlogProps } from "../../types";
 import { CardSearchNews } from "../../components/search-card";
 import * as motion from "motion/react-client";
+import { Title } from "../../components/title";
 
 const itemsPerPage = 6;
 
@@ -62,7 +63,7 @@ export function BlogList() {
           transition={{ duration: 0.8, ease: "anticipate" }}
           className={styles.headerTitle}
         >
-          Blog & Article
+          <Title>Blog & Article</Title>
         </motion.h1>
         <motion.p
           initial={{ opacity: 0, y: 20 }}

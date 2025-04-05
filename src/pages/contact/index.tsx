@@ -11,6 +11,7 @@ import { useForm } from "react-hook-form";
 import { zodResolver } from "@hookform/resolvers/zod";
 import { toast } from "sonner";
 import * as motion from "motion/react-client";
+import { Title } from "../../components/title";
 
 const contactSchema = z.object({
   name: z.string().min(2, "The name field cannot be blank."),
@@ -58,7 +59,7 @@ export function Contact() {
           transition={{ duration: 0.8, ease: "anticipate" }}
           className={styles.title}
         >
-          Contact us
+          <Title>Contact us</Title>
         </motion.h1>
         <div className={styles.mainContent}>
           <img src={chefContactImage} alt="" />

@@ -8,6 +8,7 @@ import { recipes } from "../../utils/recipes";
 import styles from "./styles.module.scss";
 import { Pagination } from "../../components/pagination";
 import * as motion from "motion/react-client";
+import { Title } from "../../components/title";
 
 const itemsPerPage = 12;
 
@@ -32,7 +33,7 @@ export function Recipes() {
           transition={{ duration: 0.8, ease: "anticipate" }}
           className={styles.title}
         >
-          Recipes Lists
+          <Title>Recipes Lists</Title>
         </motion.h1>
         <div className={styles.recipesContainer}>
           {currentRecipes.map((recipe) => {

@@ -7,6 +7,7 @@ import { Newsletter } from "../../components/newsletter";
 import { categories } from "../../utils/categories";
 import styles from "./styles.module.scss";
 import * as motion from "motion/react-client";
+import { Title } from "../../components/title";
 
 export function Categories() {
   const navigate = useNavigate();
@@ -22,7 +23,7 @@ export function Categories() {
           transition={{ duration: 0.8, ease: "anticipate" }}
           className={styles.title}
         >
-          Categories
+          <Title>Categories</Title>
         </motion.h1>
         <div className={styles.categoriesContainer}>
           {categories.map((category) => {
