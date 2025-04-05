@@ -16,7 +16,14 @@
 
 [foodieland](https://foodieland-peach.vercel.app/) é um site de receitas culinárias que oferece uma experiência intuitiva e prática para quem ama cozinhar. Aqui, você pode encontrar receitas de diversos tipos, desde pratos rápidos para o dia a dia até receitas sofisticadas para ocasiões especiais.
 
-## 🧪 Technologies
+## 🌟 Funcionalidades
+
+1. **Receitas variadas**: Desde pratos rápidos para o dia a dia até opções sofisticadas para ocasiões especiais. 
+2. **Pesquisa intuitiva**: Encontre receitas por nome, ingredientes ou categoria. 
+3. **Favoritos**: Salve suas receitas preferidas para acessar facilmente depois.
+4. **Passo a passo detalhado**: Instruções claras para garantir que qualquer pessoa possa preparar as receitas com sucesso.
+
+## 🧪 Tecnologias
 
 Esse projeto foi desenvolvido com as seguintes tecnologias:
 
