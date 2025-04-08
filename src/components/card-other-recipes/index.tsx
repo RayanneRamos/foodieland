@@ -1,6 +1,6 @@
 import { Clock, ForkKnife } from "phosphor-react";
 import styles from "./styles.module.scss";
-import { Link } from "react-router";
+import { Link } from "react-router-dom";
 import { RecipeProps } from "../../types";
 import { useState } from "react";
 import * as motion from "motion/react-client";
