@@ -3,7 +3,7 @@ import logoImage from "../../assets/logo.svg";
 import facebookImage from "../../assets/facebook.svg";
 import twitterLogo from "../../assets/twitter.svg";
 import instagramLogo from "../../assets/instagram.svg";
-import { Link } from "react-router";
+import { Link } from "react-router-dom";
 import * as motion from "motion/react-client";
 
 export function Navigation() {

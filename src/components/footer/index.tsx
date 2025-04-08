@@ -4,7 +4,7 @@ import logoImage from "../../assets/logo.svg";
 import facebookImage from "../../assets/facebook.svg";
 import twitterImage from "../../assets/twitter.svg";
 import instagramImage from "../../assets/instagram.svg";
-import { Link } from "react-router";
+import { Link } from "react-router-dom";
 import * as motion from "motion/react-client";
 
 export function Footer() {

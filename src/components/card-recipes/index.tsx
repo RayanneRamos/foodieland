@@ -1,4 +1,4 @@
-import { Link } from "react-router";
+import { Link } from "react-router-dom";
 import { RecipeFood } from "../recipe-food";
 import styles from "./styles.module.scss";
 import { RecipeProps } from "../../types";
