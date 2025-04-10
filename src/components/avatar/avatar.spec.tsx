@@ -4,7 +4,7 @@ import { render, screen } from "@testing-library/react";
 import avatarImage from "../../assets/avatar.png";
 
 describe("Avatar", () => {
-  it("should be renders with default values when no author is provided", () => {
+  it("should be render with default values when no author is provided", () => {
     render(<Avatar />);
 
     const image = screen.getByAltText("avatar-image") as HTMLImageElement;
@@ -15,7 +15,7 @@ describe("Avatar", () => {
     expect(screen.getByText("15 March 2022")).toBeInTheDocument();
   });
 
-  it("should be renders with provided author props", () => {
+  it("should be render with provided author props", () => {
     const customAuthor = {
       authorAvatar: "http://localhost:3000/src/assets/avatar.png",
       authorName: "John Doe",
