@@ -19,6 +19,8 @@ export function FavoriteButton({
         event.preventDefault();
         toggleFavorite();
       }}
+      aria-label="favorite"
+      aria-pressed={isFavorite}
       {...props}
     >
       <Heart size={24} weight="fill" color={isFavorite ? "#ff6363" : "#ccc"} />
