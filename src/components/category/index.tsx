@@ -15,7 +15,7 @@ export function Category({ image, name, ...props }: CategoryProps) {
       className={styles.container}
       {...props}
     >
-      <img src={image} alt="" />
+      <img src={image} alt={name} />
       <motion.span
         initial={{ y: 50, opacity: 0 }}
         animate={{ y: 0, opacity: 1 }}
