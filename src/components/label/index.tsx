@@ -11,7 +11,7 @@ export function Label({ icon, name }: LabelProps) {
 
   return (
     <div className={styles.container}>
-      <Icon size={24} weight="fill" />
+      <Icon size={24} weight="fill" data-testid="icon" />
       <span className={styles.name}>{name}</span>
     </div>
   );
