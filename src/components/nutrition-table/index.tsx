@@ -35,7 +35,9 @@ export function NutritionTable({ nutrition }: NutritionTableProps) {
       <Divider />
       <div className={styles.nutritionContent}>
         <span className={styles.name}>Protein</span>
-        <span className={styles.info}>{nutrition?.protein} g</span>
+        <span className={styles.info} data-testid="protein">
+          {nutrition?.protein} g
+        </span>
       </div>
       <Divider />
       <div className={styles.nutritionContent}>
