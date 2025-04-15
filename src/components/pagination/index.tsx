@@ -45,6 +45,7 @@ export function Pagination({
         className={styles.content}
         onClick={() => onPageChange(currentPage - 1)}
         disabled={currentPage === 1}
+        aria-label="previous"
       >
         <span className={styles.number}>
           <CaretLeft size={16} weight="fill" color="#000" />
@@ -60,7 +61,7 @@ export function Pagination({
             <span className={styles.number}>{page}</span>
           </button>
         ) : (
-          <span key={index} className={styles.content}>
+          <span key={index} className={styles.content} aria-label="ellipsis">
             ...
           </span>
         )
@@ -69,6 +70,7 @@ export function Pagination({
         className={styles.content}
         onClick={() => onPageChange(currentPage + 1)}
         disabled={currentPage === totalPages}
+        aria-label="next"
       >
         <span className={styles.number}>
           <CaretRight size={16} weight="fill" color="#000" />
