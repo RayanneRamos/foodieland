@@ -54,7 +54,7 @@ interface PostProps {
 
 export interface BlogProps {
   id?: string;
-  title?: string;
+  title: string;
   description?: string;
   author?: AuthorProps;
   blogImage?: string;

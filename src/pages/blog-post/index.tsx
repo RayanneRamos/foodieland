@@ -131,18 +131,21 @@ export function BlogPost() {
                 whileTap={{ scale: 0.9 }}
                 src={facebookImage}
                 alt="facebook"
+                aria-label="facebook"
               />
               <motion.img
                 whileHover={{ scale: 1.1 }}
                 whileTap={{ scale: 0.9 }}
                 src={twitterImage}
                 alt="twitter"
+                aria-label="twitter"
               />
               <motion.img
                 whileHover={{ scale: 1.1 }}
                 whileTap={{ scale: 0.9 }}
                 src={instagramImage}
                 alt="instagram"
+                aria-label="instagram"
               />
             </div>
           </div>
