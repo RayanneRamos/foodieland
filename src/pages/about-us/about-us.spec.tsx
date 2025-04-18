@@ -54,7 +54,7 @@ const exampleMock = {
 };
 
 vi.mock("../../components/navigation", () => ({
-  Navigation: () => <div data-testid="navigation" />,
+  Navigation: () => <nav data-testid="navigation">Navigation</nav>,
 }));
 
 vi.mock("../../components/divider", () => ({
@@ -122,6 +122,14 @@ describe("About Us", () => {
 
   it("should render the section newsletter", () => {
     expect(screen.getByTestId("newsletter")).toBeInTheDocument();
+  });
+
+  it("should render the card recipes", () => {
+    expect(
+      screen.getByText(/check out the delicious recipe/i)
+    ).toBeInTheDocument();
+
+    expect(screen.getByTestId("card-other-recipes")).toBeInTheDocument();
   });
 
   it("should call useShuffleRecipes hook", () => {
