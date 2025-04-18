@@ -12,6 +12,18 @@ vi.mock("react-router", async () => {
   };
 });
 
+vi.mock("../../components/navigation", () => ({
+  Navigation: () => <nav data-testid="navigation">Navigation</nav>,
+}));
+
+vi.mock("../../components/newsletter", () => ({
+  Newsletter: () => <div data-testid="newsletter" />,
+}));
+
+vi.mock("../../components/footer", () => ({
+  Footer: () => <footer data-testid="footer">Footer</footer>,
+}));
+
 vi.mock("../../utils/blog", () => ({
   blog: [
     {
@@ -48,11 +60,8 @@ vi.mock("../../utils/blog", () => ({
   ],
 }));
 
-vi.mock("../../components/footer", () => ({
-  Footer: () => <footer data-testid="footer">Footer</footer>,
-}));
 describe("Blog Post", () => {
-  it("should render post title and description", async () => {
+  beforeEach(() => {
     render(
       <MemoryRouter initialEntries={["/blog-post/1"]}>
         <Routes>
@@ -60,6 +69,8 @@ describe("Blog Post", () => {
         </Routes>
       </MemoryRouter>
     );
+  });
+  it("should render post title and description", async () => {
     await waitFor(() =>
       expect(
         screen.getByText(
@@ -74,64 +85,37 @@ describe("Blog Post", () => {
   });
 
   it("should render author name and avatar", async () => {
-    render(
-      <MemoryRouter initialEntries={["/blog-post/1"]}>
-        <Routes>
-          <Route path="/blog-post/:id" element={<BlogPost />} />
-        </Routes>
-      </MemoryRouter>
-    );
-
     await waitFor(() => screen.getByText(/chef plant/i));
     expect(screen.getByText(/chef plant/i)).toBeInTheDocument();
     expect(screen.getByAltText(/chef plant/i)).toBeInTheDocument();
   });
 
   it("should render social media share buttons", async () => {
-    render(
-      <MemoryRouter initialEntries={["/blog-post/1"]}>
-        <Routes>
-          <Route path="/blog-post/:id" element={<BlogPost />} />
-        </Routes>
-      </MemoryRouter>
-    );
-
     const facebookIcons = screen.getAllByAltText(/facebook/i);
-    expect(facebookIcons).toHaveLength(2);
+    expect(facebookIcons).toHaveLength(1);
 
     const twitterIcons = screen.getAllByAltText(/twitter/i);
-    expect(twitterIcons).toHaveLength(2);
+    expect(twitterIcons).toHaveLength(1);
 
     const instagramIcons = screen.getAllByAltText(/instagram/i);
-    expect(instagramIcons).toHaveLength(2);
+    expect(instagramIcons).toHaveLength(1);
   });
 
   it("should render recipe section with cards", async () => {
-    render(
-      <MemoryRouter initialEntries={["/blog-post/1"]}>
-        <Routes>
-          <Route path="/blog-post/:id" element={<BlogPost />} />
-        </Routes>
-      </MemoryRouter>
-    );
-
     await waitFor(() => screen.getByText("Check out the delicious recipe"));
     expect(
       screen.getByText("Check out the delicious recipe")
     ).toBeInTheDocument();
-    expect(screen.getAllByRole("img")).toHaveLength(15);
+    expect(screen.getAllByRole("img")).toHaveLength(9);
   });
 
   it("should render footer", async () => {
-    render(
-      <MemoryRouter initialEntries={["/blog-post/1"]}>
-        <Routes>
-          <Route path="/blog-post/:id" element={<BlogPost />} />
-        </Routes>
-      </MemoryRouter>
-    );
-
     await waitFor(() => screen.getByTestId("footer"));
     expect(screen.getByTestId("footer")).toBeInTheDocument();
+  });
+
+  it("should render newsletter", async () => {
+    await waitFor(() => screen.getByTestId("newsletter"));
+    expect(screen.getByTestId("newsletter")).toBeInTheDocument();
   });
 });
