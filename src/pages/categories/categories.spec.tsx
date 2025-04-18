@@ -16,6 +16,22 @@ vi.mock("react-router", async () => {
   };
 });
 
+vi.mock("../../components/navigation", () => ({
+  Navigation: () => <nav data-testid="navigation">Navigation</nav>,
+}));
+
+vi.mock("../../components/divider", () => ({
+  Divider: () => <div data-testid="divider" />,
+}));
+
+vi.mock("../../components/newsletter", () => ({
+  Newsletter: () => <div data-testid="newsletter" />,
+}));
+
+vi.mock("../../components/footer", () => ({
+  Footer: () => <div data-testid="footer" />,
+}));
+
 describe("Categories", () => {
   beforeEach(() => {
     mockedUseNavigate.mockClear();
@@ -57,5 +73,45 @@ describe("Categories", () => {
     expect(mockedUseNavigate).toHaveBeenCalledWith(
       `/categories/${firstCategory.id}`
     );
+  });
+
+  it("should render navigation", () => {
+    render(
+      <MemoryRouter>
+        <Categories />
+      </MemoryRouter>
+    );
+
+    expect(screen.getByTestId("navigation")).toBeInTheDocument();
+  });
+
+  it("should render divider", () => {
+    render(
+      <MemoryRouter>
+        <Categories />
+      </MemoryRouter>
+    );
+
+    expect(screen.getByTestId("divider")).toBeInTheDocument();
+  });
+
+  it("should render newsletter", () => {
+    render(
+      <MemoryRouter>
+        <Categories />
+      </MemoryRouter>
+    );
+
+    expect(screen.getByTestId("newsletter")).toBeInTheDocument();
+  });
+
+  it("should render footer", () => {
+    render(
+      <MemoryRouter>
+        <Categories />
+      </MemoryRouter>
+    );
+
+    expect(screen.getByTestId("footer")).toBeInTheDocument();
   });
 });
