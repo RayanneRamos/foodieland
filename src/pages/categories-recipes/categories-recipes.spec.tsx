@@ -17,15 +17,19 @@ vi.mock("react-router", async () => {
 vi.mock("../../components/navigation", () => ({
   Navigation: () => <div data-testid="navigation" />,
 }));
+
 vi.mock("../../components/divider", () => ({
   Divider: () => <div data-testid="divider" />,
 }));
+
 vi.mock("../../components/footer", () => ({
   Footer: () => <div data-testid="footer" />,
 }));
+
 vi.mock("../../components/newsletter", () => ({
   Newsletter: () => <div data-testid="newsletter" />,
 }));
+
 vi.mock("../../components/card-other-recipes", () => ({
   CardOtherRecipes: ({ moreRecipe }: any) => (
     <div data-testid="recipe-card">{moreRecipe.title}</div>
