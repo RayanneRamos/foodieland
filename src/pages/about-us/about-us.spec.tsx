@@ -4,27 +4,6 @@ import { useShuffleRecipes } from "../../hooks/useShuffleRecipes";
 import { AboutUs } from ".";
 import { MemoryRouter } from "react-router-dom";
 
-vi.mock("../../components/navigation", () => ({
-  Navigation: () => <div data-testid="navigation" />,
-}));
-vi.mock("../../components/divider", () => ({
-  Divider: () => <div data-testid="divider" />,
-}));
-vi.mock("../../components/navigation", () => ({
-  Navigation: () => <div data-testid="navigation" />,
-}));
-vi.mock("../../components/card-other-recipes", () => ({
-  CardOtherRecipes: () => <div data-testid="card-other-recipes" />,
-}));
-vi.mock("../../components/footer", () => ({
-  Footer: () => <div data-testid="footer" />,
-}));
-vi.mock("../../components/title", () => ({
-  Title: ({ children }: { children: ReactNode }) => <h1>{children}</h1>,
-}));
-
-vi.mock("../../hooks/useShuffleRecipes");
-
 const exampleMock = {
   id: "3e9757e5-3709-49ab-8c7b-a629f8880fca",
   recipeName: "Caprese Salad",
@@ -74,52 +53,60 @@ const exampleMock = {
   ],
 };
 
+vi.mock("../../components/navigation", () => ({
+  Navigation: () => <div data-testid="navigation" />,
+}));
+
+vi.mock("../../components/divider", () => ({
+  Divider: () => <div data-testid="divider" />,
+}));
+
+vi.mock("../../components/title", () => ({
+  Title: ({ children }: { children: ReactNode }) => <h1>{children}</h1>,
+}));
+
+vi.mock("../../components/newsletter", () => ({
+  Newsletter: () => <div data-testid="newsletter" />,
+}));
+
+vi.mock("../../components/card-other-recipes", () => ({
+  CardOtherRecipes: () => <div data-testid="card-other-recipes" />,
+}));
+
+vi.mock("../../hooks/useShuffleRecipes");
+
+vi.mock("../../components/footer", () => ({
+  Footer: () => <div data-testid="footer" />,
+}));
+
 describe("About Us", () => {
   beforeEach(() => {
     vi.mocked(useShuffleRecipes).mockReturnValue([exampleMock]);
-  });
 
-  it("should render the page with navigation and footer", () => {
     render(
       <MemoryRouter>
         <AboutUs />
       </MemoryRouter>
     );
+  });
 
+  it("should render the page with navigation and footer", () => {
     expect(screen.getByTestId("navigation")).toBeInTheDocument();
     expect(screen.getByTestId("divider")).toBeInTheDocument();
     expect(screen.getByTestId("footer")).toBeInTheDocument();
   });
 
   it("should render the title About us", () => {
-    render(
-      <MemoryRouter>
-        <AboutUs />
-      </MemoryRouter>
-    );
-
     expect(screen.getByText(/About us/i)).toBeInTheDocument();
   });
 
   it("should display the main paragraph about Foodieland", () => {
-    render(
-      <MemoryRouter>
-        <AboutUs />
-      </MemoryRouter>
-    );
-
     expect(
       screen.getByText(/your ultimate destination for discovering/i)
     ).toBeInTheDocument();
   });
 
   it("should render the section 'Meet Our Chefs'", () => {
-    render(
-      <MemoryRouter>
-        <AboutUs />
-      </MemoryRouter>
-    );
-
     expect(screen.getByText(/meet our chefs/i)).toBeInTheDocument();
     expect(
       screen.getByText(/crafted by a diverse team of professional chefs/i)
@@ -127,25 +114,17 @@ describe("About Us", () => {
   });
 
   it("should render the section 'why choose foodieland?", () => {
-    render(
-      <MemoryRouter>
-        <AboutUs />
-      </MemoryRouter>
-    );
-
     expect(screen.getByText(/why choose foodieland?/i)).toBeInTheDocument();
     expect(
       screen.getByText(/traditional classics to trendy new dishes/i)
     ).toBeInTheDocument();
   });
 
-  it("should call useShuffleRecipes hook", () => {
-    render(
-      <MemoryRouter>
-        <AboutUs />
-      </MemoryRouter>
-    );
+  it("should render the section newsletter", () => {
+    expect(screen.getByTestId("newsletter")).toBeInTheDocument();
+  });
 
+  it("should call useShuffleRecipes hook", () => {
     expect(useShuffleRecipes).toHaveBeenCalled();
   });
 });
