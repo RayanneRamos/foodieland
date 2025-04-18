@@ -1,4 +1,4 @@
-import { render, screen } from "@testing-library/react";
+import { getByTestId, render, screen } from "@testing-library/react";
 import { MemoryRouter } from "react-router-dom";
 import { Home } from ".";
 import userEvent from "@testing-library/user-event";
@@ -62,6 +62,25 @@ vi.mock("react-router", async () => {
   };
 });
 
+vi.mock("../../components/navigation", () => ({
+  Navigation: () => <nav data-testid="navigation">Navigation</nav>,
+}));
+
+vi.mock("../../components/divider", () => ({
+  Divider: () => <div data-testid="divider" />,
+}));
+
+vi.mock("../../components/card-recipes", () => ({
+  CardRecipes: () => <div data-testid="card-recipe">Mocked CardRecipe</div>,
+}));
+
+vi.mock("../../components/footer", () => ({
+  Footer: () => <div data-testid="footer" />,
+}));
+vi.mock("../../components/newsletter", () => ({
+  Newsletter: () => <div data-testid="newsletter" />,
+}));
+
 vi.mock("../../hooks/useShuffleRecipes", () => ({
   useShuffleRecipes: () => [exampleMock],
 }));
@@ -87,17 +106,6 @@ vi.mock("../../utils/recipes", () => ({
   ],
 }));
 
-vi.mock("../../components/card-recipes", () => ({
-  CardRecipes: () => <div data-testid="card-recipe">Mocked CardRecipe</div>,
-}));
-
-vi.mock("../../components/footer", () => ({
-  Footer: () => <div data-testid="footer" />,
-}));
-vi.mock("../../components/newsletter", () => ({
-  Newsletter: () => <div data-testid="newsletter" />,
-}));
-
 describe("Home", () => {
   beforeEach(() => {
     render(
@@ -105,6 +113,14 @@ describe("Home", () => {
         <Home />
       </MemoryRouter>
     );
+  });
+
+  it("should render navigation", () => {
+    expect(screen.getByTestId("navigation")).toBeInTheDocument();
+  });
+
+  it("should render divider", () => {
+    expect(screen.getByTestId("divider")).toBeInTheDocument();
   });
   it("should render the main title", () => {
     const titulo = screen.getByRole("heading", {
