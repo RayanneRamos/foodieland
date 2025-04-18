@@ -57,16 +57,12 @@ vi.mock("../../components/navigation", () => ({
   Navigation: () => <nav data-testid="navigation">Navigation</nav>,
 }));
 
-vi.mock("../../components/footer", () => ({
-  Footer: () => <footer data-testid="footer">Footer</footer>,
-}));
-
-vi.mock("../../components/newsletter", () => ({
-  Newsletter: () => <div data-testid="newsletter">Newsletter</div>,
-}));
-
 vi.mock("../../components/divider", () => ({
   Divider: () => <div data-testid="divider" />,
+}));
+
+vi.mock("../../components/title", () => ({
+  Title: ({ children }: any) => <h1 data-testid="title">{children}</h1>,
 }));
 
 vi.mock("../../components/card-blog-posts", () => ({
@@ -95,8 +91,12 @@ vi.mock("../../components/pagination", () => ({
   ),
 }));
 
-vi.mock("../../components/title", () => ({
-  Title: ({ children }: any) => <h1 data-testid="title">{children}</h1>,
+vi.mock("../../components/newsletter", () => ({
+  Newsletter: () => <div data-testid="newsletter">Newsletter</div>,
+}));
+
+vi.mock("../../components/footer", () => ({
+  Footer: () => <footer data-testid="footer">Footer</footer>,
 }));
 
 vi.mock("../../hooks/useShuffleRecipes", () => ({
@@ -153,5 +153,11 @@ describe("Blog List", () => {
 
   it("should render newsletter section", () => {
     expect(screen.getByTestId("newsletter")).toBeInTheDocument();
+  });
+
+  it("should render search button", () => {
+    const searchButton = screen.getByRole("button", { name: /search/i });
+
+    expect(searchButton).toBeInTheDocument();
   });
 });
