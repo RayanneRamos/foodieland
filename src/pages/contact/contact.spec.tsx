@@ -54,15 +54,19 @@ const exampleMock = {
 vi.mock("../../components/navigation", () => ({
   Navigation: () => <div data-testid="navigation" />,
 }));
+
 vi.mock("../../components/divider", () => ({
   Divider: () => <div data-testid="divider" />,
 }));
+
 vi.mock("../../components/footer", () => ({
   Footer: () => <div data-testid="footer" />,
 }));
+
 vi.mock("../../components/newsletter", () => ({
   Newsletter: () => <div data-testid="newsletter" />,
 }));
+
 vi.mock("../../components/card-other-recipes", () => ({
   CardOtherRecipes: ({ moreRecipe }: any) => (
     <div data-testid="recipe-card">{moreRecipe.title}</div>
@@ -82,14 +86,14 @@ vi.mock("sonner", () => ({
 describe("Contact", () => {
   beforeEach(() => {
     localStorage.clear();
+
+    render(<Contact />);
   });
 
   afterEach(() => {
     vi.clearAllMocks();
   });
   it("should render all components correctly", () => {
-    render(<Contact />);
-
     expect(screen.getByTestId("navigation")).toBeInTheDocument();
     expect(screen.getByTestId("divider")).toBeInTheDocument();
     expect(screen.getByTestId("newsletter")).toBeInTheDocument();
@@ -99,7 +103,6 @@ describe("Contact", () => {
   });
 
   it("should display error messages when submiting and empty from", async () => {
-    render(<Contact />);
     const user = userEvent.setup();
 
     await user.click(screen.getByRole("button", { name: /submit/i }));
@@ -124,7 +127,6 @@ describe("Contact", () => {
   });
 
   it("should submit the form with valid data and display a success message", async () => {
-    render(<Contact />);
     const user = userEvent.setup();
 
     await user.type(
