@@ -8,5 +8,11 @@ export default defineConfig({
     globals: true,
     environment: "jsdom",
     setupFiles: "./src/setupTests.ts",
+    exclude: [
+      "**/*.stories.*",
+      "**/stories/**",
+      "**/node_modules/**",
+      "**/dist/**",
+    ],
   },
 });
