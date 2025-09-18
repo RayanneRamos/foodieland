@@ -17,6 +17,7 @@
   },
   "dependencies": {
     "@hookform/resolvers": "^4.1.1",
+    "@tanstack/react-query": "^5.89.0",
     "motion": "^12.4.7",
     "phosphor-react": "^1.4.1",
     "react": "^18.3.1",
