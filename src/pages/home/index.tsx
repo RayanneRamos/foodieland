@@ -7,7 +7,6 @@ import { RecipeFood } from "../../components/recipe-food";
 import { Avatar } from "../../components/avatar";
 import { Button } from "../../components/button";
 import { Category } from "../../components/category";
-import { categories } from "../../utils/categories";
 import { CardRecipes } from "../../components/card-recipes";
 import adsImage from "../../assets/ads.png";
 import chefImage from "../../assets/chef.png";
@@ -22,10 +21,28 @@ import { Footer } from "../../components/footer";
 import { useNavigate } from "react-router";
 import * as motion from "motion/react-client";
 import { useShuffleRecipes } from "../../hooks/useShuffleRecipes";
+import { useQuery } from "@tanstack/react-query";
+import { Categories, fetchCategories } from "../../services/fetch-categories";
 
 export function Home() {
   const navigate = useNavigate();
   const shuffledRecipes = useShuffleRecipes();
+  const {
+    data: categories,
+    isLoading,
+    error,
+  } = useQuery<Categories[]>({
+    queryKey: ["categories"],
+    queryFn: fetchCategories,
+  });
+
+  if (isLoading) {
+    return <p>Carregando...</p>;
+  }
+
+  if (error instanceof Error) {
+    return <p>Erro: {error.message}</p>;
+  }
 
   return (
     <div className={styles.container}>
@@ -91,11 +108,11 @@ export function Home() {
             </button>
           </div>
           <div className={styles.categoriesContent}>
-            {categories.slice(0, 6).map((category) => {
+            {categories?.slice(0, 6).map((category) => {
               return (
                 <Category
-                  image={category.image}
-                  name={category.name}
+                  image={`http://localhost:3333${category.categoryImage}`}
+                  name={category.categoryName}
                   key={category.id}
                   onClick={() => navigate(`/categories/${category.id}`)}
                 />
