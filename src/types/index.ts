@@ -50,7 +50,7 @@ export interface RecipeProps {
 
 interface PostProps {
   postQuestion?: string;
-  postAnswers?: string;
+  postAnswer?: string;
 }
 
 export interface BlogProps {
@@ -59,7 +59,7 @@ export interface BlogProps {
   description?: string;
   author?: AuthorProps;
   blogImage?: string;
-  posts?: PostProps[];
+  sections?: PostProps[];
   postBlockquote?: string;
 }
 
