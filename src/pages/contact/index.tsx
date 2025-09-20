@@ -32,7 +32,7 @@ export function Contact() {
   } = useForm<ContactSchema>({
     resolver: zodResolver(contactSchema),
   });
-  const shuffledRecipes = useShuffleRecipes();
+  const { shuffledRecipes } = useShuffleRecipes();
 
   function handleSendMessage(data: ContactSchema) {
     const storedMessages = localStorage.getItem("contactMessages");

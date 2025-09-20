@@ -9,16 +9,24 @@ import styles from "./styles.module.scss";
 import { Pagination } from "../../components/pagination";
 import * as motion from "motion/react-client";
 import { Title } from "../../components/title";
+import { useQuery } from "@tanstack/react-query";
+import { RecipeProps } from "../../types";
+import { fetchRecipes } from "../../services/fetch-recipes";
 
 const itemsPerPage = 12;
 
 export function Recipes() {
+  const { data: recipesList } = useQuery<RecipeProps[]>({
+    queryKey: ["recipes"],
+    queryFn: fetchRecipes,
+  });
+
   const [currentPage, setCurrentPage] = useState(1);
 
   const startIndex = (currentPage - 1) * itemsPerPage;
   const endIndex = startIndex + itemsPerPage;
 
-  const currentRecipes = recipes.slice(startIndex, endIndex);
+  const currentRecipes = recipesList?.slice(startIndex, endIndex);
 
   const totalPages = Math.ceil(recipes.length / itemsPerPage);
 
@@ -36,7 +44,7 @@ export function Recipes() {
           <Title>Recipes Lists</Title>
         </motion.h1>
         <div className={styles.recipesContainer}>
-          {currentRecipes.map((recipe) => {
+          {currentRecipes?.map((recipe) => {
             return <CardOtherRecipes moreRecipe={recipe} key={recipe.id} />;
           })}
         </div>

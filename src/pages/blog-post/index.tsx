@@ -17,7 +17,7 @@ export function BlogPost() {
   const { id } = useParams<{ id: string }>();
 
   const blogPosts = blog.find((searchPosts) => searchPosts?.id === id);
-  const shuffledRecipes = useShuffleRecipes();
+  const { shuffledRecipes } = useShuffleRecipes();
 
   if (!blogPosts) {
     return (

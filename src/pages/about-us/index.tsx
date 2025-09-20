@@ -18,7 +18,7 @@ import { Title } from "../../components/title";
 import { useShuffleRecipes } from "../../hooks/useShuffleRecipes";
 
 export function AboutUs() {
-  const shuffledRecipes = useShuffleRecipes();
+  const { shuffledRecipes } = useShuffleRecipes();
 
   return (
     <div className={styles.container}>

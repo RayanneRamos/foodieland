@@ -22,7 +22,7 @@ export function BlogList() {
   const [searchTerm, setSearchTerm] = useState("");
   const [filteredNews, setFilteredNews] = useState<BlogProps[]>([]);
   const [currentPage, setCurrentPage] = useState(1);
-  const shuffledRecipes = useShuffleRecipes();
+  const { shuffledRecipes } = useShuffleRecipes();
 
   function handleSearch() {
     if (searchTerm.trim() !== "") {

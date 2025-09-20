@@ -52,7 +52,7 @@ export function Categories() {
                 image={`http://localhost:3333${category.categoryImage}`}
                 name={category.categoryName}
                 key={category.id}
-                onClick={() => navigate(`/categories/${category.id}`)}
+                onClick={() => navigate(`/categories/${category.categoryId}`)}
               />
             );
           })}

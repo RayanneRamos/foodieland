@@ -26,22 +26,34 @@ import { Categories, fetchCategories } from "../../services/fetch-categories";
 
 export function Home() {
   const navigate = useNavigate();
-  const shuffledRecipes = useShuffleRecipes();
+  const {
+    shuffledRecipes,
+    isLoading: isLoadingRecipes,
+    isError: isErrorRecipes,
+  } = useShuffleRecipes();
   const {
     data: categories,
-    isLoading,
-    error,
+    isLoading: isLoadingCategories,
+    error: isErrorCategories,
   } = useQuery<Categories[]>({
     queryKey: ["categories"],
     queryFn: fetchCategories,
   });
 
-  if (isLoading) {
-    return <p>Carregando...</p>;
+  if (isLoadingCategories) {
+    return <p>Carregando categorias...</p>;
   }
 
-  if (error instanceof Error) {
-    return <p>Erro: {error.message}</p>;
+  if (isErrorCategories instanceof Error) {
+    return <p>Erro: {isErrorCategories.message}</p>;
+  }
+
+  if (isLoadingRecipes) {
+    return <p>Carregando receitas...</p>;
+  }
+
+  if (isErrorRecipes) {
+    return <p>Erro ao carregar as receitas</p>;
   }
 
   return (
@@ -114,7 +126,7 @@ export function Home() {
                   image={`http://localhost:3333${category.categoryImage}`}
                   name={category.categoryName}
                   key={category.id}
-                  onClick={() => navigate(`/categories/${category.id}`)}
+                  onClick={() => navigate(`/categories/${category.categoryId}`)}
                 />
               );
             })}
