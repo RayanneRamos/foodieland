@@ -163,7 +163,7 @@ export function BlogPost() {
             Check out the delicious recipe
           </motion.strong>
           <div className={styles.deliciousRecipe}>
-            {shuffledRecipes.slice(0, 4).map((recipe) => {
+            {shuffledRecipes[4].slice(0, 4).map((recipe) => {
               return <CardOtherRecipes moreRecipe={recipe} key={recipe.id} />;
             })}
           </div>

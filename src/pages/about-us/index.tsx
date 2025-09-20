@@ -351,7 +351,7 @@ export function AboutUs() {
             Check out the delicious recipe
           </motion.strong>
           <div className={styles.recipeContainer}>
-            {shuffledRecipes.slice(0, 4).map((recipe) => {
+            {shuffledRecipes[2].slice(0, 4).map((recipe) => {
               return <CardOtherRecipes moreRecipe={recipe} key={recipe.id} />;
             })}
           </div>

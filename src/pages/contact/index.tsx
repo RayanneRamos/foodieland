@@ -167,7 +167,7 @@ export function Contact() {
           Check out the delicious recipe
         </motion.strong>
         <div className={styles.recipeContent}>
-          {shuffledRecipes.slice(0, 4).map((recipe) => {
+          {shuffledRecipes[5].slice(0, 4).map((recipe) => {
             return <CardOtherRecipes moreRecipe={recipe} key={recipe.id} />;
           })}
         </div>

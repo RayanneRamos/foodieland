@@ -113,7 +113,7 @@ export function BlogList() {
             Tasty Recipes
           </motion.strong>
           <div className={styles.tastyRecipesPosts}>
-            {shuffledRecipes.slice(0, 3).map((othersRecipe) => {
+            {shuffledRecipes[3].slice(0, 3).map((othersRecipe) => {
               return (
                 <IngredientsCards
                   othersRecipe={othersRecipe}

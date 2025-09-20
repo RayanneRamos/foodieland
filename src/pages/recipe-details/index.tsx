@@ -117,7 +117,7 @@ export function RecipeDetails() {
               >
                 Other Recipe
               </motion.h3>
-              {shuffledRecipes.slice(0, 3).map((othersRecipe) => {
+              {shuffledRecipes[6].slice(0, 3).map((othersRecipe) => {
                 return (
                   <IngredientsCards
                     othersRecipe={othersRecipe}
@@ -171,7 +171,7 @@ export function RecipeDetails() {
             You may like these recipe too
           </motion.h3>
           <div className={styles.likeRecipesCard}>
-            {shuffledRecipes.slice(0, 4).map((recipe) => {
+            {shuffledRecipes[7].slice(0, 4).map((recipe) => {
               return <CardOtherRecipes moreRecipe={recipe} key={recipe.id} />;
             })}
           </div>

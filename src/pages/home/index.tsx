@@ -155,7 +155,7 @@ export function Home() {
             </motion.span>
           </div>
           <div className={styles.cardContent}>
-            {shuffledRecipes.slice(0, 8).map((recipe, index) => {
+            {shuffledRecipes[0].slice(0, 8).map((recipe, index) => {
               return (
                 <>
                   <CardRecipes key={recipe.id} recipe={recipe} />
@@ -268,7 +268,7 @@ export function Home() {
             </motion.span>
           </div>
           <div className={styles.moreRecipeContent}>
-            {shuffledRecipes.slice(0, 8).map((moreRecipe) => {
+            {shuffledRecipes[1].slice(0, 8).map((moreRecipe) => {
               return (
                 <CardOtherRecipes key={moreRecipe.id} moreRecipe={moreRecipe} />
               );
