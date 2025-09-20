@@ -22,7 +22,8 @@ import { useNavigate } from "react-router";
 import * as motion from "motion/react-client";
 import { useShuffleRecipes } from "../../hooks/useShuffleRecipes";
 import { useQuery } from "@tanstack/react-query";
-import { Categories, fetchCategories } from "../../services/fetch-categories";
+import { fetchCategories } from "../../services/fetch-categories";
+import { CategoriesProps } from "../../types";
 
 export function Home() {
   const navigate = useNavigate();
@@ -35,7 +36,7 @@ export function Home() {
     data: categories,
     isLoading: isLoadingCategories,
     error: isErrorCategories,
-  } = useQuery<Categories[]>({
+  } = useQuery<CategoriesProps[]>({
     queryKey: ["categories"],
     queryFn: fetchCategories,
   });

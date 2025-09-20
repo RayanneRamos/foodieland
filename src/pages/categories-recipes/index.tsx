@@ -7,12 +7,12 @@ import styles from "./styles.module.scss";
 import { CardOtherRecipes } from "../../components/card-other-recipes";
 import * as motion from "motion/react-client";
 import { useQuery } from "@tanstack/react-query";
-import { Categories, fetchCategories } from "../../services/fetch-categories";
-import { RecipeProps } from "../../types";
+import { fetchCategories } from "../../services/fetch-categories";
+import { CategoriesProps, RecipeProps } from "../../types";
 import { fetchRecipes } from "../../services/fetch-recipes";
 
 export function CategoriesRecipes() {
-  const { data: categories } = useQuery<Categories[]>({
+  const { data: categories } = useQuery<CategoriesProps[]>({
     queryKey: ["categories"],
     queryFn: fetchCategories,
   });

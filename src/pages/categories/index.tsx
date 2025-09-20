@@ -8,10 +8,8 @@ import styles from "./styles.module.scss";
 import * as motion from "motion/react-client";
 import { Title } from "../../components/title";
 import { useQuery } from "@tanstack/react-query";
-import {
-  Categories as typeCategories,
-  fetchCategories,
-} from "../../services/fetch-categories";
+import { fetchCategories } from "../../services/fetch-categories";
+import { CategoriesProps } from "../../types";
 
 export function Categories() {
   const navigate = useNavigate();
@@ -19,7 +17,7 @@ export function Categories() {
     data: categories,
     isLoading,
     error,
-  } = useQuery<typeCategories[]>({
+  } = useQuery<CategoriesProps[]>({
     queryKey: ["categories"],
     queryFn: fetchCategories,
   });
