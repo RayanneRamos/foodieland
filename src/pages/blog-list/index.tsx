@@ -1,4 +1,3 @@
-/* eslint-disable react-hooks/exhaustive-deps */
 import { CardBlogPosts } from "../../components/card-blog-posts";
 import { Divider } from "../../components/divider";
 import { IngredientsCards } from "../../components/ingredients-cards";
@@ -8,13 +7,14 @@ import styles from "./styles.module.scss";
 import { Pagination } from "../../components/pagination";
 import { Newsletter } from "../../components/newsletter";
 import { Footer } from "../../components/footer";
-import { useEffect, useState } from "react";
-import { blog } from "../../utils/blog";
+import { useState } from "react";
 import { BlogProps } from "../../types";
 import { CardSearchNews } from "../../components/search-card";
 import * as motion from "motion/react-client";
 import { Title } from "../../components/title";
 import { useShuffleRecipes } from "../../hooks/useShuffleRecipes";
+import { useQuery } from "@tanstack/react-query";
+import { fetchBlogPosts } from "../../services/fetch-blog-posts";
 
 const itemsPerPage = 6;
 
@@ -23,13 +23,29 @@ export function BlogList() {
   const [filteredNews, setFilteredNews] = useState<BlogProps[]>([]);
   const [currentPage, setCurrentPage] = useState(1);
   const { shuffledRecipes } = useShuffleRecipes();
+  const {
+    data: posts = [],
+    isLoading,
+    isError,
+  } = useQuery<BlogProps[]>({
+    queryKey: ["blog-posts"],
+    queryFn: fetchBlogPosts,
+  });
+
+  if (isLoading) {
+    return <p>Carregando posts...</p>;
+  }
+
+  if (isError) {
+    return <p>Erro: Posts not found </p>;
+  }
 
   function handleSearch() {
     if (searchTerm.trim() !== "") {
-      const filtered = blog.filter(
+      const filtered = posts.filter(
         (news) =>
           news.title.toLowerCase().includes(searchTerm.toLowerCase()) ||
-          news.description.toLowerCase().includes(searchTerm.toLowerCase()) // ✅ Aqui faltava um return implícito
+          news.description?.toLowerCase().includes(searchTerm.toLowerCase())
       );
       setFilteredNews(filtered);
       setCurrentPage(1);
@@ -40,7 +56,7 @@ export function BlogList() {
   }
 
   const currentData =
-    searchTerm && filteredNews.length > 0 ? filteredNews : blog;
+    searchTerm && filteredNews.length > 0 ? filteredNews : posts;
 
   const startIndex = (currentPage - 1) * itemsPerPage;
   const endIndex = startIndex + itemsPerPage;
@@ -49,9 +65,9 @@ export function BlogList() {
 
   const totalPages = Math.ceil(currentData.length / itemsPerPage);
 
-  useEffect(() => {
-    handleSearch();
-  }, [searchTerm]);
+  // useEffect(() => {
+  //   handleSearch();
+  // }, [searchTerm]);
 
   return (
     <div className={styles.container}>
@@ -113,7 +129,7 @@ export function BlogList() {
             Tasty Recipes
           </motion.strong>
           <div className={styles.tastyRecipesPosts}>
-            {shuffledRecipes[3].slice(0, 3).map((othersRecipe) => {
+            {shuffledRecipes[3]?.slice(0, 3).map((othersRecipe) => {
               return (
                 <IngredientsCards
                   othersRecipe={othersRecipe}

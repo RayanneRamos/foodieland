@@ -9,14 +9,22 @@ import { Newsletter } from "../../components/newsletter";
 import { CardOtherRecipes } from "../../components/card-other-recipes";
 import { Footer } from "../../components/footer";
 import { useParams } from "react-router";
-import { blog } from "../../utils/blog";
 import * as motion from "motion/react-client";
 import { useShuffleRecipes } from "../../hooks/useShuffleRecipes";
+import { useQuery } from "@tanstack/react-query";
+import { BlogProps } from "../../types";
+import { fetchBlogPosts } from "../../services/fetch-blog-posts";
+import { formattedDate } from "../../utils/formatted-date";
 
 export function BlogPost() {
+  const { data: posts } = useQuery<BlogProps[]>({
+    queryKey: ["blog-posts"],
+    queryFn: fetchBlogPosts,
+  });
+
   const { id } = useParams<{ id: string }>();
 
-  const blogPosts = blog.find((searchPosts) => searchPosts?.id === id);
+  const blogPosts = posts?.find((searchPosts) => searchPosts?.id === id);
   const { shuffledRecipes } = useShuffleRecipes();
 
   if (!blogPosts) {
@@ -43,8 +51,8 @@ export function BlogPost() {
         <div className={styles.headerInfo}>
           <div className={styles.headerAvatar}>
             <img
-              src={blogPosts.author.authorAvatar}
-              alt={blogPosts.author.authorName}
+              src={`http://localhost:3333${blogPosts.author?.authorAvatar}`}
+              alt={blogPosts.author?.authorName}
               className={styles.avatarImage}
             />
             <motion.span
@@ -56,12 +64,12 @@ export function BlogPost() {
               }}
               className={styles.avatarName}
             >
-              {blogPosts.author.authorName}
+              {blogPosts.author?.authorName}
             </motion.span>
           </div>
           <div className={styles.separator} />
           <span className={styles.date}>
-            {blogPosts.author.authorDatePosted}
+            {formattedDate(blogPosts.author?.authorDatePosted)}
           </span>
         </div>
         <motion.p
@@ -73,14 +81,14 @@ export function BlogPost() {
           {blogPosts.description}
         </motion.p>
         <img
-          src={blogPosts.blogImage}
+          src={`http://localhost:3333${blogPosts.blogImage}`}
           alt={blogPosts.title}
           className={styles.imagePost}
         />
         <div className={styles.blogPostContainer}>
           <div className={styles.blogPostContent}>
             <div className={styles.blogPostOne}>
-              {blogPosts.posts.map((post, index) => {
+              {blogPosts.sections?.map((post, index) => {
                 return (
                   <>
                     <motion.strong
@@ -104,7 +112,7 @@ export function BlogPost() {
                       transition={{ duration: 1 }}
                       className={styles.blogPostDescription}
                     >
-                      {post.postAnswers}
+                      {post.postAnswer}
                     </motion.p>
                     {index === 3 && (
                       <div className={styles.blogQuote}>
@@ -163,7 +171,7 @@ export function BlogPost() {
             Check out the delicious recipe
           </motion.strong>
           <div className={styles.deliciousRecipe}>
-            {shuffledRecipes[4].slice(0, 4).map((recipe) => {
+            {(shuffledRecipes[4] ?? []).slice(0, 4).map((recipe) => {
               return <CardOtherRecipes moreRecipe={recipe} key={recipe.id} />;
             })}
           </div>
