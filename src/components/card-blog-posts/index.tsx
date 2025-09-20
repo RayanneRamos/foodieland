@@ -8,6 +8,20 @@ interface CardBlogPostsInterface {
 }
 
 export function CardBlogPosts({ blog }: CardBlogPostsInterface) {
+  const formatDate = (dateString?: string) => {
+    if (!dateString) {
+      return "15 March 2022";
+    }
+
+    const date = new Date(dateString);
+
+    return new Intl.DateTimeFormat("en-GB", {
+      day: "2-digit",
+      month: "long",
+      year: "numeric",
+    }).format(date);
+  };
+
   return (
     <motion.div
       whileHover={{ scale: 1.1 }}
@@ -15,7 +29,7 @@ export function CardBlogPosts({ blog }: CardBlogPostsInterface) {
       className={styles.container}
     >
       <img
-        src={blog?.blogImage}
+        src={`http://localhost:3333${blog?.blogImage}`}
         alt={blog?.title}
         className={styles.imagePost}
       />
@@ -41,7 +55,7 @@ export function CardBlogPosts({ blog }: CardBlogPostsInterface) {
         <div className={styles.cardFooter}>
           <div className={styles.footerAvatar}>
             <img
-              src={blog?.author?.authorAvatar}
+              src={`http://localhost:3333${blog?.author?.authorAvatar}`}
               alt={blog?.author?.authorName}
               className={styles.avatarImage}
             />
@@ -58,7 +72,9 @@ export function CardBlogPosts({ blog }: CardBlogPostsInterface) {
             </motion.span>
           </div>
           <div className={styles.separator} />
-          <span className={styles.date}>{blog?.author?.authorDatePosted}</span>
+          <span className={styles.date}>
+            {formatDate(blog?.author?.authorDatePosted)}
+          </span>
         </div>
       </div>
     </motion.div>

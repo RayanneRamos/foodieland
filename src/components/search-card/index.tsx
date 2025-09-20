@@ -2,6 +2,7 @@ import { Link } from "react-router-dom";
 import { BlogProps } from "../../types";
 import styles from "./styles.module.scss";
 import * as motion from "motion/react-client";
+import { formattedDate } from "../../utils/formatted-date";
 
 interface CardSearchNewsProps {
   news?: BlogProps;
@@ -15,7 +16,7 @@ export function CardSearchNews({ news }: CardSearchNewsProps) {
       className={styles.container}
     >
       <img
-        src={news?.blogImage}
+        src={`http://localhost:3333/${news?.blogImage}`}
         alt={news?.title}
         className={styles.imagePost}
       />
@@ -41,7 +42,7 @@ export function CardSearchNews({ news }: CardSearchNewsProps) {
         <div className={styles.cardFooter}>
           <div className={styles.footerAvatar}>
             <img
-              src={news?.author?.authorAvatar}
+              src={`http://localhost:3333${news?.author?.authorAvatar}`}
               alt={news?.author?.authorName}
               className={styles.avatarImage}
             />
@@ -58,7 +59,9 @@ export function CardSearchNews({ news }: CardSearchNewsProps) {
             </motion.span>
           </div>
           <div className={styles.separator} />
-          <span className={styles.date}>{news?.author?.authorDatePosted}</span>
+          <span className={styles.date}>
+            {formattedDate(news?.author?.authorDatePosted)}
+          </span>
         </div>
       </div>
     </motion.div>

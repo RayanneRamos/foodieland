@@ -1,3 +1,4 @@
+import { formattedDate } from "../../utils/formatted-date";
 import styles from "./styles.module.scss";
 import * as motion from "motion/react-client";
 
@@ -10,20 +11,6 @@ interface AvatarProps {
 }
 
 export function Avatar({ author }: AvatarProps) {
-  const formatDate = (dateString?: string) => {
-    if (!dateString) {
-      return "15 March 2022";
-    }
-
-    const date = new Date(dateString);
-
-    return new Intl.DateTimeFormat("en-GB", {
-      day: "2-digit",
-      month: "long",
-      year: "numeric",
-    }).format(date);
-  };
-
   return (
     <div className={styles.container}>
       <img
@@ -40,7 +27,7 @@ export function Avatar({ author }: AvatarProps) {
           {author?.authorName || "John Smith"}
         </motion.span>
         <span className={styles.date}>
-          {formatDate(author?.authorDatePosted)}
+          {formattedDate(author?.authorDatePosted)}
         </span>
       </div>
     </div>
