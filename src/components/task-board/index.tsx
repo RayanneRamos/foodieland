@@ -4,13 +4,13 @@ import styles from "./styles.module.scss";
 import * as motion from "motion/react-client";
 
 interface TaskBoardProps {
-  ingredients: RecipeProps;
+  ingredient: RecipeProps;
 }
 
-export function TaskBoard({ ingredients }: TaskBoardProps) {
+export function TaskBoard({ ingredient }: TaskBoardProps) {
   return (
     <div className={styles.container}>
-      {ingredients?.recipeIngredients?.map((ingredientRecipe) => {
+      {ingredient?.recipeIngredient?.map((ingredientRecipe) => {
         return (
           <>
             <motion.strong
@@ -25,7 +25,7 @@ export function TaskBoard({ ingredients }: TaskBoardProps) {
               {ingredientRecipe?.recipeSteps?.steps?.map((recipeStep) => {
                 return (
                   <>
-                    <Task ingredients={recipeStep} />
+                    <Task ingredient={recipeStep} />
                     <div className={styles.line} />
                   </>
                 );

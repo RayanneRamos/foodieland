@@ -17,7 +17,7 @@ export function IngredientsCards({ othersRecipe }: IngredientsCardsProps) {
       <Link to={`/recipe-details/${othersRecipe.id}`} className={styles.link}>
         <div className={styles.content}>
           <img
-            src={othersRecipe.recipeImage}
+            src={`http://localhost:3333${othersRecipe.recipeImage}`}
             alt={othersRecipe.recipeName}
             className={styles.image}
           />

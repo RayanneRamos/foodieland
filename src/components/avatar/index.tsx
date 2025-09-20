@@ -1,5 +1,4 @@
 import styles from "./styles.module.scss";
-import avatarImage from "../../assets/avatar.png";
 import * as motion from "motion/react-client";
 
 interface AvatarProps {
@@ -11,10 +10,24 @@ interface AvatarProps {
 }
 
 export function Avatar({ author }: AvatarProps) {
+  const formatDate = (dateString?: string) => {
+    if (!dateString) {
+      return "15 March 2022";
+    }
+
+    const date = new Date(dateString);
+
+    return new Intl.DateTimeFormat("en-GB", {
+      day: "2-digit",
+      month: "long",
+      year: "numeric",
+    }).format(date);
+  };
+
   return (
     <div className={styles.container}>
       <img
-        src={author?.authorAvatar || avatarImage}
+        src={`http://localhost:3333${author?.authorAvatar}`}
         alt="avatar-image"
         className={styles.image}
       />
@@ -27,7 +40,7 @@ export function Avatar({ author }: AvatarProps) {
           {author?.authorName || "John Smith"}
         </motion.span>
         <span className={styles.date}>
-          {author?.authorDatePosted || "15 March 2022"}
+          {formatDate(author?.authorDatePosted)}
         </span>
       </div>
     </div>

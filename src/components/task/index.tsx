@@ -2,13 +2,13 @@ import { useState } from "react";
 import styles from "./styles.module.scss";
 
 interface TaskProps {
-  ingredients?: {
-    ingredientsQuantity?: string;
-    ingredientsName?: string;
+  ingredient?: {
+    ingredientQuantity?: string;
+    ingredientName?: string;
   };
 }
 
-export function Task({ ingredients }: TaskProps) {
+export function Task({ ingredient }: TaskProps) {
   const [checked, setChecked] = useState(false);
 
   return (
@@ -22,7 +22,7 @@ export function Task({ ingredients }: TaskProps) {
         <span className={styles.checkmark}></span>
       </label>
       <span className={`${styles.taskName} ${checked ? styles.completed : ""}`}>
-        {ingredients?.ingredientsQuantity} {ingredients?.ingredientsName}
+        {ingredient?.ingredientQuantity} {ingredient?.ingredientName}
       </span>
     </div>
   );

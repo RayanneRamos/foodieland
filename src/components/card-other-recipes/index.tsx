@@ -29,7 +29,7 @@ export function CardOtherRecipes({ moreRecipe }: CardOtherRecipesProps) {
         <div className={styles.cardImage}>
           <img
             className={styles.recipeImage}
-            src={moreRecipe.recipeImage}
+            src={`http://localhost:3333${moreRecipe.recipeImage}`}
             alt={moreRecipe.recipeName}
           />
           <FavoriteButton

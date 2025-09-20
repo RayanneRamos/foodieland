@@ -28,7 +28,7 @@ export function CardRecipes({ recipe }: CardRecipesProps) {
       <Link to={`/recipe-details/${recipe.id}`} className={styles.link}>
         <div className={styles.cardImage}>
           <img
-            src={recipe.recipeImage}
+            src={`http://localhost:3333${recipe.recipeImage}`}
             alt={recipe.recipeName}
             className={styles.recipeImage}
           />
