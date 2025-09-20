@@ -1,10 +1,33 @@
 import { useMemo } from "react";
-import { recipes } from "../utils/recipes";
+import { useQuery } from "@tanstack/react-query";
+import { RecipeProps } from "../types";
+import { fetchRecipes } from "../services/fetch-recipes";
 
-export function useShuffleRecipes() {
+function shuffleArray<T>(array: T[]): T[] {
+  return [...array].sort(() => Math.random() - 0.5);
+}
+
+export function useShuffleRecipes(sections = 2) {
+  const {
+    data: recipes = [],
+    isLoading,
+    isError,
+  } = useQuery<RecipeProps[]>({
+    queryKey: ["recipes"],
+    queryFn: fetchRecipes,
+  });
+
   const shuffledRecipes = useMemo(() => {
-    return [...recipes].sort(() => Math.random() - 0.5);
-  }, []);
+    return Array.from({ length: sections }, () => {
+      let shuffled = shuffleArray(recipes);
 
-  return shuffledRecipes;
+      while (recipes.length > 1 && shuffled.every((r, i) => r === recipes[i])) {
+        shuffled = shuffleArray(recipes);
+      }
+
+      return shuffled;
+    });
+  }, [recipes, sections]);
+
+  return { shuffledRecipes, isLoading, isError };
 }
