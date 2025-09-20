@@ -13,8 +13,8 @@ interface NutritionInformationProps {
 }
 
 interface IngredientProps {
-  ingredientsQuantity?: string;
-  ingredientsName?: string;
+  ingredientQuantity?: string;
+  ingredientName?: string;
 }
 
 interface RecipeStepsProps {
@@ -39,11 +39,12 @@ export interface RecipeProps {
   cookTime?: string;
   recipeCategory?: string;
   categoryId?: string;
+  authorId?: string;
   recipeImage?: string;
   recipeFavorite?: boolean;
-  nutritionInformation?: NutritionInformationProps;
+  recipeNutrition?: NutritionInformationProps;
   recipeDescription?: string;
-  recipeIngredients?: RecipeIngredientProps[];
+  recipeIngredient?: RecipeIngredientProps[];
   recipeDirection?: RecipeDirectionProps[];
 }
 
@@ -60,4 +61,11 @@ export interface BlogProps {
   blogImage?: string;
   posts?: PostProps[];
   postBlockquote?: string;
+}
+
+export interface CategoriesProps {
+  id: string;
+  categoryImage: string;
+  categoryName: string;
+  categoryId: string;
 }
