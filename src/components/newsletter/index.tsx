@@ -6,6 +6,8 @@ import { useForm } from "react-hook-form";
 import { zodResolver } from "@hookform/resolvers/zod";
 import { toast } from "sonner";
 import * as motion from "motion/react-client";
+import { useMutation } from "@tanstack/react-query";
+import { registerNewsletter } from "../../services/register-newsletter";
 
 const newsletterSchema = z.object({
   email: z.string().email("The e-mail field is invalid."),
@@ -23,8 +25,18 @@ export function Newsletter() {
     resolver: zodResolver(newsletterSchema),
     defaultValues: { email: "" },
   });
+  const mutation = useMutation({
+    mutationFn: (email: string) => registerNewsletter(email),
+    onSuccess: () => {
+      toast.success("E-mail registered successfully!");
+      reset();
+    },
+    onError: () => {
+      toast.error("Unable to register e-mail. Try again later!");
+    },
+  });
 
-  function registerNewsletter(data: NewsletterSchema) {
+  function handleRegisterNewsletter(data: NewsletterSchema) {
     const email = data.email.trim();
 
     if (!email) {
@@ -32,20 +44,7 @@ export function Newsletter() {
       return;
     }
 
-    const storedEmails = localStorage.getItem("newsletterEmails");
-    const emailList: string[] = storedEmails ? JSON.parse(storedEmails) : [];
-
-    if (emailList.includes(email)) {
-      toast.error("E-mail already registered!");
-      return;
-    }
-
-    emailList.push(email);
-    localStorage.setItem("newsletterEmails", JSON.stringify(emailList));
-
-    toast.success("E-mail registered successfully!");
-
-    reset();
+    mutation.mutate(email);
   }
 
   return (
@@ -71,7 +70,7 @@ export function Newsletter() {
         </motion.span>
         <div>
           <form
-            onSubmit={handleSubmit(registerNewsletter)}
+            onSubmit={handleSubmit(handleRegisterNewsletter)}
             className={styles.form}
           >
             <input
