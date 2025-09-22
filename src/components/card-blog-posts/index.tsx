@@ -2,25 +2,19 @@ import { Link } from "react-router-dom";
 import { BlogProps } from "../../types";
 import styles from "./styles.module.scss";
 import * as motion from "motion/react-client";
+import { formattedDate } from "../../utils/formatted-date";
 
 interface CardBlogPostsInterface {
   blog?: BlogProps;
 }
 
 export function CardBlogPosts({ blog }: CardBlogPostsInterface) {
-  const formatDate = (dateString?: string) => {
-    if (!dateString) {
-      return "15 March 2022";
-    }
-
-    const date = new Date(dateString);
-
-    return new Intl.DateTimeFormat("en-GB", {
-      day: "2-digit",
-      month: "long",
-      year: "numeric",
-    }).format(date);
-  };
+  const blogImageSrc = blog?.blogImage?.startsWith("http")
+    ? blog.blogImage
+    : `http://localhost:3333${blog?.blogImage}`;
+  const authorAvatarSrc = blog?.author?.authorAvatar?.startsWith("http")
+    ? blog.author.authorAvatar
+    : `http://localhost:3333${blog?.author?.authorAvatar}`;
 
   return (
     <motion.div
@@ -28,11 +22,7 @@ export function CardBlogPosts({ blog }: CardBlogPostsInterface) {
       whileTap={{ scale: 0.9 }}
       className={styles.container}
     >
-      <img
-        src={`http://localhost:3333${blog?.blogImage}`}
-        alt={blog?.title}
-        className={styles.imagePost}
-      />
+      <img src={blogImageSrc} alt={blog?.title} className={styles.imagePost} />
       <div className={styles.cardInfo}>
         <Link to={`/blog-post/${blog?.id}`} className={styles.link}>
           <motion.strong
@@ -55,7 +45,7 @@ export function CardBlogPosts({ blog }: CardBlogPostsInterface) {
         <div className={styles.cardFooter}>
           <div className={styles.footerAvatar}>
             <img
-              src={`http://localhost:3333${blog?.author?.authorAvatar}`}
+              src={authorAvatarSrc}
               alt={blog?.author?.authorName}
               className={styles.avatarImage}
             />
@@ -73,7 +63,7 @@ export function CardBlogPosts({ blog }: CardBlogPostsInterface) {
           </div>
           <div className={styles.separator} />
           <span className={styles.date}>
-            {formatDate(blog?.author?.authorDatePosted)}
+            {formattedDate(blog?.author?.authorDatePosted)}
           </span>
         </div>
       </div>

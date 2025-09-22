@@ -3,19 +3,19 @@ import { fireEvent, render, screen } from "@testing-library/react";
 import { Task } from ".";
 
 const ingredientsExample = {
-  ingredientsName: "Flour",
-  ingredientsQuantity: "2 cups",
+  ingredientName: "Flour",
+  ingredientQuantity: "2 cups",
 };
 
 describe("Task", () => {
   it("should render ingredient name and quantity", () => {
-    render(<Task ingredients={ingredientsExample} />);
+    render(<Task ingredient={ingredientsExample} />);
 
     expect(screen.getByText(/2 cups flour/i)).toBeInTheDocument();
   });
 
   it("should toggle checkbox and apply completed style", () => {
-    render(<Task ingredients={ingredientsExample} />);
+    render(<Task ingredient={ingredientsExample} />);
 
     const checkbox = screen.getByRole("checkbox");
     const text = screen.getByText(/2 cups/i);

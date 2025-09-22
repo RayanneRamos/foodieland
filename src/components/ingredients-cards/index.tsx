@@ -8,6 +8,10 @@ interface IngredientsCardsProps {
 }
 
 export function IngredientsCards({ othersRecipe }: IngredientsCardsProps) {
+  const othersRecipeImageSrc = othersRecipe.recipeImage?.startsWith("http")
+    ? othersRecipe.recipeImage
+    : `http://localhost:3333${othersRecipe.recipeImage}`;
+
   return (
     <motion.div
       whileHover={{ scale: 1.1 }}
@@ -17,7 +21,7 @@ export function IngredientsCards({ othersRecipe }: IngredientsCardsProps) {
       <Link to={`/recipe-details/${othersRecipe.id}`} className={styles.link}>
         <div className={styles.content}>
           <img
-            src={`http://localhost:3333${othersRecipe.recipeImage}`}
+            src={othersRecipeImageSrc}
             alt={othersRecipe.recipeName}
             className={styles.image}
           />

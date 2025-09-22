@@ -53,6 +53,12 @@ const exampleMock = {
   ],
 };
 
+const mockShuffledRecipes = [
+  [],
+  [],
+  [exampleMock, exampleMock, exampleMock, exampleMock],
+];
+
 vi.mock("../../components/navigation", () => ({
   Navigation: () => <nav data-testid="navigation">Navigation</nav>,
 }));
@@ -81,7 +87,11 @@ vi.mock("../../components/footer", () => ({
 
 describe("About Us", () => {
   beforeEach(() => {
-    vi.mocked(useShuffleRecipes).mockReturnValue([exampleMock]);
+    vi.mocked(useShuffleRecipes).mockReturnValue({
+      shuffledRecipes: mockShuffledRecipes,
+      isLoading: false,
+      isError: false,
+    });
 
     render(
       <MemoryRouter>
@@ -129,7 +139,8 @@ describe("About Us", () => {
       screen.getByText(/check out the delicious recipe/i)
     ).toBeInTheDocument();
 
-    expect(screen.getByTestId("card-other-recipes")).toBeInTheDocument();
+    const cards = screen.getAllByTestId("card-other-recipes");
+    expect(cards).toHaveLength(4);
   });
 
   it("should call useShuffleRecipes hook", () => {

@@ -1,6 +1,7 @@
 import { formattedDate } from "../../utils/formatted-date";
 import styles from "./styles.module.scss";
 import * as motion from "motion/react-client";
+import avatarPreview from "../../assets/avatar.png";
 
 interface AvatarProps {
   author?: {
@@ -11,13 +12,15 @@ interface AvatarProps {
 }
 
 export function Avatar({ author }: AvatarProps) {
+  const avatarSrc = author?.authorAvatar
+    ? author.authorAvatar.startsWith("http")
+      ? author.authorAvatar
+      : `http://localhost:3333${author?.authorAvatar}`
+    : avatarPreview;
+
   return (
     <div className={styles.container}>
-      <img
-        src={`http://localhost:3333${author?.authorAvatar}`}
-        alt="avatar-image"
-        className={styles.image}
-      />
+      <img src={avatarSrc} alt="avatar-image" className={styles.image} />
       <div className={styles.avatarInfo}>
         <motion.span
           animate={{ scale: [1, 1.05, 1] }}

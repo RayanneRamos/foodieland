@@ -2,6 +2,7 @@ import { describe, it, expect } from "vitest";
 import { fireEvent, render, screen, waitFor } from "@testing-library/react";
 import { toast } from "sonner";
 import { Newsletter } from ".";
+import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
 
 vi.mock("sonner", () => ({
   toast: {
@@ -10,14 +11,30 @@ vi.mock("sonner", () => ({
   },
 }));
 
+vi.mock("../../services/register-newsletter", () => ({
+  registerNewsletter: vi.fn((email: string) => {
+    if (email === "test@example.com") {
+      return Promise.reject(new Error("E-mail already registered!"));
+    }
+
+    return Promise.resolve();
+  }),
+}));
+
 describe("Newsletter", () => {
   beforeEach(() => {
     localStorage.clear();
     vi.clearAllMocks();
   });
 
+  const queryClient = new QueryClient();
+
   it("should render the title and subtitle", () => {
-    render(<Newsletter />);
+    render(
+      <QueryClientProvider client={queryClient}>
+        <Newsletter />
+      </QueryClientProvider>
+    );
 
     expect(
       screen.getByText(/deliciousness to your inbox/i)
@@ -29,7 +46,11 @@ describe("Newsletter", () => {
     const existingEmail = "test@example.com";
     localStorage.setItem("newsletterEmails", JSON.stringify([existingEmail]));
 
-    render(<Newsletter />);
+    render(
+      <QueryClientProvider client={queryClient}>
+        <Newsletter />
+      </QueryClientProvider>
+    );
 
     const input = screen.getByPlaceholderText(/your email address/i);
     const button = screen.getByRole("button", { name: /subscribe/i });
@@ -53,7 +74,11 @@ describe("Newsletter", () => {
     const existingEmail = "test@example.com";
     localStorage.setItem("newsletterEmails", JSON.stringify([existingEmail]));
 
-    render(<Newsletter />);
+    render(
+      <QueryClientProvider client={queryClient}>
+        <Newsletter />
+      </QueryClientProvider>
+    );
 
     const input = screen.getByPlaceholderText(/your email address/i);
     const button = screen.getByRole("button", { name: /subscribe/i });
@@ -74,29 +99,31 @@ describe("Newsletter", () => {
   });
 
   it("should show error if email is already registered", async () => {
-    const existingEmail = "test@example.com";
-
-    localStorage.clear();
-
-    localStorage.setItem("newsletterEmails", JSON.stringify([existingEmail]));
-
-    render(<Newsletter />);
+    render(
+      <QueryClientProvider client={queryClient}>
+        <Newsletter />
+      </QueryClientProvider>
+    );
 
     const input = screen.getByPlaceholderText(/your email address/i);
     const button = screen.getByRole("button", { name: /subscribe/i });
 
-    fireEvent.change(input, { target: { value: existingEmail } });
+    fireEvent.change(input, { target: { value: "test@example.com" } });
     fireEvent.click(button);
 
     await waitFor(() => {
       expect(toast.error).toHaveBeenCalledWith(
-        expect.stringMatching(/e-mail already registered!/i)
+        expect.stringMatching(/unable to register e-mail/i)
       );
     });
   });
 
   it("should show error if email is empty after triming", async () => {
-    render(<Newsletter />);
+    render(
+      <QueryClientProvider client={queryClient}>
+        <Newsletter />
+      </QueryClientProvider>
+    );
 
     const input = screen.getByPlaceholderText(/your email address/i);
     const button = screen.getByRole("button", { name: /subscribe/i });

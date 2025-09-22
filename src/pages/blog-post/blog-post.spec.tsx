@@ -1,6 +1,9 @@
 import { render, screen, waitFor } from "@testing-library/react";
 import { MemoryRouter, Routes, Route } from "react-router-dom";
 import { BlogPost } from ".";
+import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
+
+const queryClient = new QueryClient();
 
 vi.mock("react-router", async () => {
   const actual = await vi.importActual<typeof import("react-router")>(
@@ -38,36 +41,74 @@ vi.mock("../../utils/blog", () => ({
       },
       blogImage: "image.png",
       postBlockquote: "Healthy and sustainable.",
-      posts: [
+      sections: [
         {
           postQuestion: "Why plant-based?",
-          postAnswers: "It’s better for the environment.",
+          postAnswer: "It’s better for the environment.",
         },
         {
           postQuestion: "What’s trending?",
-          postAnswers: "Tofu and jackfruit.",
+          postAnswer: "Tofu and jackfruit.",
         },
         {
           postQuestion: "Is it tasty?",
-          postAnswers: "Absolutely!",
+          postAnswer: "Absolutely!",
         },
         {
           postQuestion: "Chef’s quote?",
-          postAnswers: "Eat green!",
+          postAnswer: "Eat green!",
         },
       ],
     },
   ],
 }));
 
+vi.mock("../../services/fetch-blog-posts", () => ({
+  fetchBlogPosts: vi.fn().mockResolvedValue([
+    {
+      id: "1",
+      title:
+        "The Rise of Plant-Based Cuisine: How Chefs Are Innovating Meatless Menus",
+      description: "A deep dive into the future of sustainable food.",
+      image: "https://example.com/plantbased.jpg",
+      category: "Food",
+      author: {
+        authorAvatar: "/avatar.png",
+        authorName: "Chef Plant",
+        authorDatePosted: "2024-01-01",
+      },
+      sections: [
+        {
+          postQuestion: "Why plant-based?",
+          postAnswer: "It’s better for the environment.",
+        },
+        {
+          postQuestion: "What’s trending?",
+          postAnswer: "Tofu and jackfruit.",
+        },
+        {
+          postQuestion: "Is it tasty?",
+          postAnswer: "Absolutely!",
+        },
+        {
+          postQuestion: "Chef’s quote?",
+          postAnswer: "Eat green!",
+        },
+      ],
+    },
+  ]),
+}));
+
 describe("Blog Post", () => {
   beforeEach(() => {
     render(
-      <MemoryRouter initialEntries={["/blog-post/1"]}>
-        <Routes>
-          <Route path="/blog-post/:id" element={<BlogPost />} />
-        </Routes>
-      </MemoryRouter>
+      <QueryClientProvider client={queryClient}>
+        <MemoryRouter initialEntries={["/blog-post/1"]}>
+          <Routes>
+            <Route path="/blog-post/:id" element={<BlogPost />} />
+          </Routes>
+        </MemoryRouter>
+      </QueryClientProvider>
     );
   });
   it("should render post title and description", async () => {
@@ -83,11 +124,12 @@ describe("Blog Post", () => {
       screen.getByText("A deep dive into the future of sustainable food.")
     ).toBeInTheDocument();
   });
-
   it("should render author name and avatar", async () => {
-    await waitFor(() => screen.getByText(/chef plant/i));
-    expect(screen.getByText(/chef plant/i)).toBeInTheDocument();
-    expect(screen.getByAltText(/chef plant/i)).toBeInTheDocument();
+    expect(screen.getByText("Chef Plant")).toBeInTheDocument();
+
+    const avatarImg = screen.getByAltText("Chef Plant") as HTMLImageElement;
+    expect(avatarImg).toBeInTheDocument();
+    expect(avatarImg.src).toContain("/avatar.png");
   });
 
   it("should render social media share buttons", async () => {
@@ -106,7 +148,7 @@ describe("Blog Post", () => {
     expect(
       screen.getByText("Check out the delicious recipe")
     ).toBeInTheDocument();
-    expect(screen.getAllByRole("img")).toHaveLength(9);
+    expect(screen.getAllByRole("img")).toHaveLength(5);
   });
 
   it("should render footer", async () => {

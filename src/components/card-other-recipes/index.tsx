@@ -14,6 +14,9 @@ export function CardOtherRecipes({ moreRecipe }: CardOtherRecipesProps) {
   const [isFavorite, setIsFavorite] = useState<boolean>(
     moreRecipe.recipeFavorite ?? false
   );
+  const recipeImageSrc = moreRecipe.recipeImage?.startsWith("http")
+    ? moreRecipe.recipeImage
+    : `http://localhost:3333${moreRecipe.recipeImage}`;
 
   function toggleFavorite() {
     setIsFavorite((prev) => !prev);
@@ -29,7 +32,7 @@ export function CardOtherRecipes({ moreRecipe }: CardOtherRecipesProps) {
         <div className={styles.cardImage}>
           <img
             className={styles.recipeImage}
-            src={`http://localhost:3333${moreRecipe.recipeImage}`}
+            src={recipeImageSrc}
             alt={moreRecipe.recipeName}
           />
           <FavoriteButton

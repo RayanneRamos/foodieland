@@ -9,17 +9,20 @@ interface CardSearchNewsProps {
 }
 
 export function CardSearchNews({ news }: CardSearchNewsProps) {
+  const blogIamgeSrc = news?.blogImage?.startsWith("http")
+    ? news.blogImage
+    : `http://localhost:3333/${news?.blogImage}`;
+  const blogAvatarImageSrc = news?.author?.authorAvatar?.startsWith("http")
+    ? news.author.authorAvatar
+    : `http://localhost:3333${news?.author?.authorAvatar}`;
+
   return (
     <motion.div
       whileHover={{ scale: 1.1 }}
       whileTap={{ scale: 0.9 }}
       className={styles.container}
     >
-      <img
-        src={`http://localhost:3333/${news?.blogImage}`}
-        alt={news?.title}
-        className={styles.imagePost}
-      />
+      <img src={blogIamgeSrc} alt={news?.title} className={styles.imagePost} />
       <div className={styles.cardInfo}>
         <Link to={`/blog-post/${news?.id}`} className={styles.link}>
           <motion.strong
@@ -42,7 +45,7 @@ export function CardSearchNews({ news }: CardSearchNewsProps) {
         <div className={styles.cardFooter}>
           <div className={styles.footerAvatar}>
             <img
-              src={`http://localhost:3333${news?.author?.authorAvatar}`}
+              src={blogAvatarImageSrc}
               alt={news?.author?.authorName}
               className={styles.avatarImage}
             />

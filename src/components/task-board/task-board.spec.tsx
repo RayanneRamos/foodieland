@@ -4,18 +4,18 @@ import { TaskBoard } from ".";
 import { RecipeProps } from "../../types";
 
 const mockIngredients = {
-  recipeIngredients: [
+  recipeIngredient: [
     {
       recipeSteps: {
         name: "Step 1: Prepare Ingredients",
         steps: [
           {
-            ingredientsQuantity: "1 cup",
-            ingredientsName: "flour",
+            ingredientQuantity: "1 cup",
+            ingredientName: "flour",
           },
           {
-            ingredientsQuantity: "2",
-            ingredientsName: "eggs",
+            ingredientQuantity: "2",
+            ingredientName: "eggs",
           },
         ],
       },
@@ -25,8 +25,8 @@ const mockIngredients = {
         name: "Step 2: Mix Ingredients",
         steps: [
           {
-            ingredientsQuantity: "1/2 cup",
-            ingredientsName: "milk",
+            ingredientQuantity: "1/2 cup",
+            ingredientName: "milk",
           },
         ],
       },
@@ -36,7 +36,7 @@ const mockIngredients = {
 
 describe("Task Board", () => {
   it("should render all recipe steps titles", () => {
-    render(<TaskBoard ingredients={mockIngredients} />);
+    render(<TaskBoard ingredient={mockIngredients} />);
 
     expect(
       screen.getByText(/Step 1: prepare ingredients/i)
@@ -45,7 +45,7 @@ describe("Task Board", () => {
   });
 
   it("should render all ingredients", () => {
-    render(<TaskBoard ingredients={mockIngredients} />);
+    render(<TaskBoard ingredient={mockIngredients} />);
 
     const flourItems = screen.getAllByText(
       (_, el) => el?.textContent === "1 cup flour"
@@ -64,8 +64,8 @@ describe("Task Board", () => {
   });
 
   it("should not crash when ingredients are empty", () => {
-    const emptyProps: RecipeProps = { recipeIngredients: [] };
-    render(<TaskBoard ingredients={emptyProps} />);
+    const emptyProps: RecipeProps = { recipeIngredient: [] };
+    render(<TaskBoard ingredient={emptyProps} />);
 
     expect(screen.queryByText(/step/i)).not.toBeInTheDocument();
   });

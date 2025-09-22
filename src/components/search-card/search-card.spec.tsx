@@ -4,6 +4,7 @@ import { BlogProps } from "../../types";
 import { BrowserRouter } from "react-router-dom";
 import { ReactElement } from "react";
 import { CardSearchNews } from ".";
+import { formattedDate } from "../../utils/formatted-date";
 
 const mockNews: BlogProps = {
   id: "1",
@@ -34,7 +35,9 @@ describe("Card Search News", () => {
       screen.getByText(mockNews.author?.authorName as string)
     ).toBeInTheDocument();
     expect(
-      screen.getByText(mockNews.author?.authorDatePosted as string)
+      screen.getByText(
+        formattedDate(mockNews.author?.authorDatePosted) as string
+      )
     ).toBeInTheDocument();
   });
   it("should render blog image and author avatar with correct alt text", () => {

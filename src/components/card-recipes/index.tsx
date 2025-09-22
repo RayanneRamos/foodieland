@@ -14,6 +14,9 @@ export function CardRecipes({ recipe }: CardRecipesProps) {
   const [isFavorite, setIsFavorite] = useState<boolean>(
     recipe.recipeFavorite ?? false
   );
+  const recipeImageSrc = recipe.recipeImage?.startsWith("http")
+    ? recipe.recipeImage
+    : `http://localhost:3333${recipe.recipeImage}`;
 
   function toggleFavorite() {
     setIsFavorite((prev) => !prev);
@@ -28,7 +31,7 @@ export function CardRecipes({ recipe }: CardRecipesProps) {
       <Link to={`/recipe-details/${recipe.id}`} className={styles.link}>
         <div className={styles.cardImage}>
           <img
-            src={`http://localhost:3333${recipe.recipeImage}`}
+            src={recipeImageSrc}
             alt={recipe.recipeName}
             className={styles.recipeImage}
           />
