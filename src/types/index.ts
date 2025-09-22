@@ -69,3 +69,9 @@ export interface CategoriesProps {
   categoryName: string;
   categoryId: string;
 }
+
+export interface NewsletterProps {
+  id: string;
+  email: string;
+  createdAt: string;
+}
