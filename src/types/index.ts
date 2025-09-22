@@ -75,3 +75,36 @@ export interface NewsletterProps {
   email: string;
   createdAt: string;
 }
+
+export interface ContactMessageProps {
+  name: string;
+  email: string;
+  subject: string;
+  enquiryType:
+    | "Advertising"
+    | "Ad Placement"
+    | "Sponsored Content"
+    | "Influencer Collaboration"
+    | "Media Kit Request"
+    | "Pricing & Packages"
+    | "Ad Performance Report"
+    | "Custom Campaigns"
+    | "Programmatic Advertising"
+    | "Brand Partnership"
+    | "Affiliate Marketing"
+    | "Other";
+  message: string;
+  createdAt?: Date;
+}
+
+export interface ContactMessageResponse {
+  message: {
+    id: string;
+    name: string;
+    email: string;
+    subject: string;
+    enquiryType: string;
+    message: string;
+    createdAt: string | null;
+  };
+}
