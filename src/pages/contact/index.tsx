@@ -12,6 +12,9 @@ import { toast } from "sonner";
 import * as motion from "motion/react-client";
 import { Title } from "../../components/title";
 import { useShuffleRecipes } from "../../hooks/useShuffleRecipes";
+import { ContactMessageProps } from "../../types";
+import { useMutation } from "@tanstack/react-query";
+import { createContactMessage } from "../../services/create-contact-message";
 
 const contactSchema = z.object({
   name: z.string().min(2, "The name field cannot be blank."),
@@ -34,19 +37,61 @@ export function Contact() {
   });
   const { shuffledRecipes } = useShuffleRecipes();
 
+  const mapOptionToEnquiryType = (
+    option: string
+  ): ContactMessageProps["enquiryType"] => {
+    switch (option) {
+      case "advertising":
+        return "Advertising";
+      case "ad-placement":
+        return "Ad Placement";
+      case "sponsored-content":
+        return "Sponsored Content";
+      case "influencer-collaboration":
+        return "Influencer Collaboration";
+      case "media-kit-request":
+        return "Media Kit Request";
+      case "pricing-and-packages":
+        return "Pricing & Packages";
+      case "ad-performance-report":
+        return "Ad Performance Report";
+      case "custom-campaigns":
+        return "Custom Campaigns";
+      case "programmatic-advertising":
+        return "Programmatic Advertising";
+      case "brand-partnership":
+        return "Brand Partnership";
+      case "affiliate-marketing":
+        return "Affiliate Marketing";
+      default:
+        return "Other";
+    }
+  };
+
+  const mutation = useMutation({
+    mutationFn: (data: ContactSchema) => {
+      const payload: ContactMessageProps = {
+        name: data.name.trim(),
+        email: data.email.trim(),
+        subject: data.subject.trim(),
+        enquiryType: mapOptionToEnquiryType(data.options),
+        message: data.message,
+        createdAt: new Date(),
+      };
+
+      return createContactMessage(payload);
+    },
+    onSuccess: () => {
+      toast.success("Message sent successfully!");
+      reset();
+    },
+    onError: () => {
+      toast.error("Failed to send message. Try again later!");
+    },
+  });
+
   function handleSendMessage(data: ContactSchema) {
-    const storedMessages = localStorage.getItem("contactMessages");
-    const messageList: ContactSchema[] = storedMessages
-      ? JSON.parse(storedMessages)
-      : [];
-
-    messageList.push(data);
-
-    localStorage.setItem("contactMessages", JSON.stringify(messageList));
-
-    toast.success("Message saved successfully!");
-
-    reset();
+    mutation.mutate(data);
   }
 
   return (
@@ -150,7 +195,9 @@ export function Contact() {
                 <p className={styles.error}>{errors.message.message}</p>
               )}
             </div>
-            <button className={styles.formButton}>Submit</button>
+            <button type="submit" className={styles.formButton}>
+              Submit
+            </button>
           </form>
         </div>
       </div>
