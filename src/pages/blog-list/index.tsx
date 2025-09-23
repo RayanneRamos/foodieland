@@ -92,21 +92,23 @@ export function BlogList() {
           eiusmod tempor incididunt ut labore et dolore
         </motion.p>
         <div className={styles.form}>
-          <input
-            className={styles.inputEmail}
-            name="search"
-            type="text"
-            placeholder="Search title, news or recipe..."
-            onChange={(event) => setSearchTerm(event.target.value)}
-            value={searchTerm}
-          />
-          <button
-            type="submit"
-            className={styles.button}
-            onClick={handleSearch}
-          >
-            Search
-          </button>
+          <form>
+            <input
+              className={styles.inputEmail}
+              name="search"
+              type="text"
+              placeholder="Search title, news or recipe..."
+              onChange={(event) => setSearchTerm(event.target.value)}
+              value={searchTerm}
+            />
+            <button
+              type="submit"
+              className={styles.button}
+              onClick={handleSearch}
+            >
+              Search
+            </button>
+          </form>
         </div>
       </div>
       <div className={styles.main}>

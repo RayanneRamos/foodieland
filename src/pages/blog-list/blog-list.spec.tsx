@@ -1,8 +1,22 @@
 /* eslint-disable @typescript-eslint/no-explicit-any */
-import { fireEvent, render, screen } from "@testing-library/react";
+import { fireEvent, render, screen, waitFor } from "@testing-library/react";
 import { MemoryRouter } from "react-router-dom";
 import { BlogList } from ".";
-import { blog } from "../../utils/blog";
+import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
+
+vi.mock("@tanstack/react-query", async () => {
+  const actual: any = await vi.importActual("@tanstack/react-query");
+  return {
+    ...actual,
+    useQuery: () => {
+      const posts = Array.from({ length: 12 }, (_, i) => ({
+        id: `${i + 1}`,
+        title: `Mock Blog Post ${i + 1}`,
+      }));
+      return { data: posts, isLoading: false, isError: false };
+    },
+  };
+});
 
 const exampleMock = {
   id: "3e9757e5-3709-49ab-8c7b-a629f8880fca",
@@ -100,14 +114,26 @@ vi.mock("../../components/footer", () => ({
 }));
 
 vi.mock("../../hooks/useShuffleRecipes", () => ({
-  useShuffleRecipes: () => [exampleMock],
+  useShuffleRecipes: () => ({
+    shuffledRecipes: [
+      [exampleMock, exampleMock, exampleMock, exampleMock],
+      [exampleMock, exampleMock, exampleMock, exampleMock],
+      [exampleMock, exampleMock, exampleMock, exampleMock],
+      [exampleMock, exampleMock, exampleMock, exampleMock],
+    ],
+  }),
 }));
+
+const queryClient = new QueryClient();
+
 describe("Blog List", () => {
   beforeEach(() => {
     render(
-      <MemoryRouter>
-        <BlogList />
-      </MemoryRouter>
+      <QueryClientProvider client={queryClient}>
+        <MemoryRouter>
+          <BlogList />
+        </MemoryRouter>
+      </QueryClientProvider>
     );
   });
   it("should render the navigation and footer", () => {
@@ -128,27 +154,33 @@ describe("Blog List", () => {
     expect(blogPosts.length).toBeGreaterThan(0);
   });
 
-  it("should filter blog posts by search term", () => {
+  it("should filter blog posts by search term", async () => {
     const input = screen.getByPlaceholderText(
       /search title, news or recipe.../i
     );
-    fireEvent.change(input, { target: { value: blog[0].title } });
+    fireEvent.change(input, { target: { value: "Mock Blog Post 1" } });
 
-    const searchResults = screen.getAllByTestId("search-post");
-    expect(searchResults[0]).toHaveTextContent(blog[0].title);
+    fireEvent.click(screen.getByRole("button", { name: /search/i }));
+
+    await waitFor(() => {
+      const searchResults = screen.getAllByTestId("search-post");
+      expect(searchResults[0]).toHaveTextContent("Mock Blog Post 1");
+    });
   });
 
   it("should render tasty recipes cards", () => {
     const recipeCards = screen.getAllByTestId("ingredient-card");
-    expect(recipeCards.length).toBe(1);
+    expect(recipeCards.length).toBe(3);
   });
 
-  it("should paginate when clicking on pagination button", () => {
+  it("should paginate when clicking on pagination button", async () => {
     const button = screen.getByTestId("pagination-button");
     fireEvent.click(button);
 
-    const blogPosts = screen.getAllByTestId("blog-post");
-    expect(blogPosts.length).toBeGreaterThan(0);
+    await waitFor(() => {
+      const blogPosts = screen.getAllByTestId("blog-post");
+      expect(blogPosts[0]).toHaveTextContent("Mock Blog Post 7");
+    });
   });
 
   it("should render newsletter section", () => {

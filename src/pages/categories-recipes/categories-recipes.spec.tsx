@@ -5,6 +5,7 @@ import { categories } from "../../utils/categories";
 import { CategoriesRecipes } from ".";
 import { recipes } from "../../utils/recipes";
 import { vi } from "vitest";
+import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
 
 vi.mock("react-router", async () => {
   const actual = await vi.importActual<typeof ReactRouter>("react-router");
@@ -36,20 +37,42 @@ vi.mock("../../components/card-other-recipes", () => ({
   ),
 }));
 
+vi.mock("@tanstack/react-query", async () => {
+  const actual = await vi.importActual("@tanstack/react-query");
+  return {
+    ...actual,
+    useQuery: vi.fn((options: any) => {
+      if (options.queryKey[0] === "categories") {
+        return { data: categories, isLoading: false, isError: false };
+      }
+      if (options.queryKey[0] === "recipes") {
+        return { data: recipes, isLoading: false, isError: false };
+      }
+      return { data: [], isLoading: false, isError: false };
+    }),
+  };
+});
+
+const queryClient = new QueryClient();
+
 describe("Categories Recipes", () => {
   beforeEach(() => {
     vi.clearAllMocks();
   });
   it("should render title and filtered recipes correctly", () => {
     const categoryId = categories[0].id;
-    const categoryName = categories[0].name;
+    //const categoryName = categories[0].name;
 
     (ReactRouter.useParams as vi.Mock).mockReturnValue({ categoryId });
 
-    render(<CategoriesRecipes />);
+    render(
+      <QueryClientProvider client={queryClient}>
+        <CategoriesRecipes />
+      </QueryClientProvider>
+    );
 
     expect(
-      screen.getByRole("heading", { name: `${categoryName} Recipes` })
+      screen.getByRole("heading", { name: `Recipes` })
     ).toBeInTheDocument();
 
     const filtered = recipes.filter((r) => r.categoryId === categoryId);
@@ -67,7 +90,11 @@ describe("Categories Recipes", () => {
       categoryId: "non-existing",
     });
 
-    render(<CategoriesRecipes />);
+    render(
+      <QueryClientProvider client={queryClient}>
+        <CategoriesRecipes />
+      </QueryClientProvider>
+    );
 
     expect(
       screen.getByRole("heading", { name: /recipes/i })

@@ -1,6 +1,10 @@
 import { render, screen, waitFor } from "@testing-library/react";
 import { Contact } from ".";
 import userEvent from "@testing-library/user-event";
+import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
+import { createContactMessage } from "../../services/create-contact-message";
+
+const queryClient = new QueryClient();
 
 const exampleMock = {
   id: "3e9757e5-3709-49ab-8c7b-a629f8880fca",
@@ -51,6 +55,10 @@ const exampleMock = {
   ],
 };
 
+vi.mock("../../services/create-contact-message", () => ({
+  createContactMessage: vi.fn(() => Promise.resolve({ success: true })),
+}));
+
 vi.mock("../../components/navigation", () => ({
   Navigation: () => <div data-testid="navigation" />,
 }));
@@ -74,7 +82,16 @@ vi.mock("../../components/card-other-recipes", () => ({
 }));
 
 vi.mock("../../hooks/useShuffleRecipes", () => ({
-  useShuffleRecipes: () => [exampleMock],
+  useShuffleRecipes: () => ({
+    shuffledRecipes: [
+      [exampleMock, exampleMock, exampleMock, exampleMock],
+      [exampleMock, exampleMock, exampleMock, exampleMock],
+      [exampleMock, exampleMock, exampleMock, exampleMock],
+      [exampleMock, exampleMock, exampleMock, exampleMock],
+      [exampleMock, exampleMock, exampleMock, exampleMock],
+      [exampleMock, exampleMock, exampleMock, exampleMock],
+    ],
+  }),
 }));
 
 vi.mock("sonner", () => ({
@@ -87,7 +104,11 @@ describe("Contact", () => {
   beforeEach(() => {
     localStorage.clear();
 
-    render(<Contact />);
+    render(
+      <QueryClientProvider client={queryClient}>
+        <Contact />
+      </QueryClientProvider>
+    );
   });
 
   afterEach(() => {
@@ -98,7 +119,7 @@ describe("Contact", () => {
     expect(screen.getByTestId("divider")).toBeInTheDocument();
     expect(screen.getByTestId("newsletter")).toBeInTheDocument();
     expect(screen.getByTestId("footer")).toBeInTheDocument();
-    expect(screen.getAllByTestId("recipe-card")).toHaveLength(1);
+    expect(screen.getAllByTestId("recipe-card")).toHaveLength(4);
     expect(screen.getByText(/contact us/i)).toBeInTheDocument();
   });
 
@@ -129,22 +150,26 @@ describe("Contact", () => {
   it("should submit the form with valid data and display a success message", async () => {
     const user = userEvent.setup();
 
-    await user.type(
-      screen.getByPlaceholderText(/enter your name/i),
-      "João Silva"
-    );
-    await user.type(
-      screen.getByPlaceholderText(/your email address/i),
-      "joao@example.com"
-    );
-    await user.type(screen.getByPlaceholderText(/enter subject/i), "Parceria");
-    await user.selectOptions(screen.getByRole("combobox"), "advertising");
-    await user.type(
-      screen.getByPlaceholderText(/enter your messages/i),
-      "Gostaria de discutir uma parceria."
-    );
+    const nameInput = screen.getByPlaceholderText(/enter your name/i);
+    await user.type(nameInput, "João Silva");
+
+    const emailInput = screen.getByPlaceholderText(/your email address/i);
+    await user.type(emailInput, "joao@example.com");
+
+    const subjectInput = screen.getByPlaceholderText(/enter subject/i);
+    await user.type(subjectInput, "Parceria");
+
+    const enquirySelect = screen.getByRole("combobox");
+    await user.selectOptions(enquirySelect, "advertising");
+
+    const messageInput = screen.getByPlaceholderText(/enter your messages/i);
+    await user.type(messageInput, "Gostaria de discutir uma parceria.");
 
     await user.click(screen.getByRole("button", { name: /submit/i }));
+
+    await waitFor(() => {
+      expect(createContactMessage).toHaveBeenCalled();
+    });
 
     await waitFor(() => {
       expect(
@@ -164,10 +189,10 @@ describe("Contact", () => {
       ).not.toBeInTheDocument();
     });
 
-    expect(screen.getByPlaceholderText(/enter your name/i)).toHaveValue("");
-    expect(screen.getByPlaceholderText(/your email address/i)).toHaveValue("");
-    expect(screen.getByPlaceholderText(/enter subject/i)).toHaveValue("");
-    expect(screen.getByRole("combobox")).toHaveValue("");
-    expect(screen.getByPlaceholderText(/enter your messages/i)).toHaveValue("");
+    expect(nameInput).toHaveValue("");
+    expect(emailInput).toHaveValue("");
+    expect(subjectInput).toHaveValue("");
+    expect(enquirySelect).toHaveValue("");
+    expect(messageInput).toHaveValue("");
   });
 });
