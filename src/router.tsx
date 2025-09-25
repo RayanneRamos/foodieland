@@ -8,6 +8,7 @@ import { AboutUs } from "./pages/about-us";
 import { Recipes } from "./pages/recipes";
 import { Categories } from "./pages/categories";
 import { CategoriesRecipes } from "./pages/categories-recipes";
+import { NotFound } from "./pages/not-found";
 
 export function Router() {
   return (
@@ -22,6 +23,7 @@ export function Router() {
         <Route path="/recipes" element={<Recipes />} />
         <Route path="/categories" element={<Categories />} />
         <Route path="/categories/:categoryId" element={<CategoriesRecipes />} />
+        <Route path="*" element={<NotFound />} />
       </Routes>
     </BrowserRouter>
   );
