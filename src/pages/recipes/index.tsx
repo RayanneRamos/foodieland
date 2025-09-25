@@ -12,11 +12,14 @@ import { Title } from "../../components/title";
 import { useQuery } from "@tanstack/react-query";
 import { RecipeProps } from "../../types";
 import { fetchRecipes } from "../../services/fetch-recipes";
+import { Loading } from "../../components/loading";
 
 const itemsPerPage = 12;
 
 export function Recipes() {
-  const { data: recipesList } = useQuery<RecipeProps[]>({
+  const { data: recipesList, isLoading: isLoadingRecipes } = useQuery<
+    RecipeProps[]
+  >({
     queryKey: ["recipes"],
     queryFn: fetchRecipes,
   });
@@ -43,11 +46,15 @@ export function Recipes() {
         >
           <Title>Recipes Lists</Title>
         </motion.h1>
-        <div className={styles.recipesContainer}>
-          {currentRecipes?.map((recipe) => {
-            return <CardOtherRecipes moreRecipe={recipe} key={recipe.id} />;
-          })}
-        </div>
+        {isLoadingRecipes ? (
+          <Loading />
+        ) : (
+          <div className={styles.recipesContainer}>
+            {currentRecipes?.map((recipe) => {
+              return <CardOtherRecipes moreRecipe={recipe} key={recipe.id} />;
+            })}
+          </div>
+        )}
         <div className={styles.pagination}>
           <Pagination
             currentPage={currentPage}

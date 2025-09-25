@@ -15,6 +15,7 @@ import { Title } from "../../components/title";
 import { useShuffleRecipes } from "../../hooks/useShuffleRecipes";
 import { useQuery } from "@tanstack/react-query";
 import { fetchBlogPosts } from "../../services/fetch-blog-posts";
+import { Loading } from "../../components/loading";
 
 const itemsPerPage = 6;
 
@@ -22,19 +23,15 @@ export function BlogList() {
   const [searchTerm, setSearchTerm] = useState("");
   const [filteredNews, setFilteredNews] = useState<BlogProps[]>([]);
   const [currentPage, setCurrentPage] = useState(1);
-  const { shuffledRecipes } = useShuffleRecipes();
+  const { shuffledRecipes, isLoading: isLoadingRecipes } = useShuffleRecipes();
   const {
     data: posts = [],
-    isLoading,
+    isLoading: isLoadingBlogPosts,
     isError,
   } = useQuery<BlogProps[]>({
     queryKey: ["blog-posts"],
     queryFn: fetchBlogPosts,
   });
-
-  if (isLoading) {
-    return <p>Carregando posts...</p>;
-  }
 
   if (isError) {
     return <p>Erro: Posts not found </p>;
@@ -91,8 +88,8 @@ export function BlogList() {
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
           eiusmod tempor incididunt ut labore et dolore
         </motion.p>
-        <div className={styles.form}>
-          <form>
+        <div>
+          <form className={styles.form}>
             <input
               className={styles.inputEmail}
               name="search"
@@ -113,11 +110,15 @@ export function BlogList() {
       </div>
       <div className={styles.main}>
         <div className={styles.posts}>
-          {currentPosts.map((blog) =>
-            searchTerm && filteredNews.length > 0 ? (
-              <CardSearchNews news={blog} key={blog.id} />
-            ) : (
-              <CardBlogPosts blog={blog} key={blog.id} />
+          {isLoadingBlogPosts ? (
+            <Loading />
+          ) : (
+            currentPosts.map((blog) =>
+              searchTerm && filteredNews.length > 0 ? (
+                <CardSearchNews news={blog} key={blog.id} />
+              ) : (
+                <CardBlogPosts blog={blog} key={blog.id} />
+              )
             )
           )}
         </div>
@@ -131,14 +132,18 @@ export function BlogList() {
             Tasty Recipes
           </motion.strong>
           <div className={styles.tastyRecipesPosts}>
-            {shuffledRecipes[3]?.slice(0, 3).map((othersRecipe) => {
-              return (
-                <IngredientsCards
-                  othersRecipe={othersRecipe}
-                  key={othersRecipe.id}
-                />
-              );
-            })}
+            {isLoadingRecipes ? (
+              <Loading />
+            ) : (
+              shuffledRecipes[3]?.slice(0, 3).map((othersRecipe) => {
+                return (
+                  <IngredientsCards
+                    othersRecipe={othersRecipe}
+                    key={othersRecipe.id}
+                  />
+                );
+              })
+            )}
           </div>
           <img src={adsImage} alt="" className={styles.adsImage} />
         </div>

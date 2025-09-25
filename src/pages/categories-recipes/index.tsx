@@ -10,13 +10,16 @@ import { useQuery } from "@tanstack/react-query";
 import { fetchCategories } from "../../services/fetch-categories";
 import { CategoriesProps, RecipeProps } from "../../types";
 import { fetchRecipes } from "../../services/fetch-recipes";
+import { Loading } from "../../components/loading";
 
 export function CategoriesRecipes() {
   const { data: categories } = useQuery<CategoriesProps[]>({
     queryKey: ["categories"],
     queryFn: fetchCategories,
   });
-  const { data: recipes } = useQuery<RecipeProps[]>({
+  const { data: recipes, isLoading: isLoadingRecipes } = useQuery<
+    RecipeProps[]
+  >({
     queryKey: ["recipes"],
     queryFn: fetchRecipes,
   });
@@ -42,11 +45,15 @@ export function CategoriesRecipes() {
         >
           {category?.categoryName} Recipes
         </motion.h1>
-        <div className={styles.recipesContainer}>
-          {filteredRecipes?.map((recipe) => {
-            return <CardOtherRecipes moreRecipe={recipe} key={recipe.id} />;
-          })}
-        </div>
+        {isLoadingRecipes ? (
+          <Loading />
+        ) : (
+          <div className={styles.recipesContainer}>
+            {filteredRecipes?.map((recipe) => {
+              return <CardOtherRecipes moreRecipe={recipe} key={recipe.id} />;
+            })}
+          </div>
+        )}
         <div className={styles.newsletterSection}>
           <Newsletter />
         </div>

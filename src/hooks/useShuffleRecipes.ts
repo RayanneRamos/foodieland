@@ -7,7 +7,7 @@ function shuffleArray<T>(array: T[]): T[] {
   return [...array].sort(() => Math.random() - 0.5);
 }
 
-export function useShuffleRecipes(sections = 7) {
+export function useShuffleRecipes(sections = 10) {
   const {
     data: recipes = [],
     isLoading,

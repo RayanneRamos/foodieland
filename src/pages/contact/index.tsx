@@ -15,6 +15,7 @@ import { useShuffleRecipes } from "../../hooks/useShuffleRecipes";
 import { ContactMessageProps } from "../../types";
 import { useMutation } from "@tanstack/react-query";
 import { createContactMessage } from "../../services/create-contact-message";
+import { Loading } from "../../components/loading";
 
 const contactSchema = z.object({
   name: z.string().min(2, "The name field cannot be blank."),
@@ -35,7 +36,7 @@ export function Contact() {
   } = useForm<ContactSchema>({
     resolver: zodResolver(contactSchema),
   });
-  const { shuffledRecipes } = useShuffleRecipes();
+  const { shuffledRecipes, isLoading: isLoadingRecipes } = useShuffleRecipes();
 
   const mapOptionToEnquiryType = (
     option: string
@@ -213,11 +214,15 @@ export function Contact() {
         >
           Check out the delicious recipe
         </motion.strong>
-        <div className={styles.recipeContent}>
-          {shuffledRecipes[5].slice(0, 4).map((recipe) => {
-            return <CardOtherRecipes moreRecipe={recipe} key={recipe.id} />;
-          })}
-        </div>
+        {isLoadingRecipes ? (
+          <Loading />
+        ) : (
+          <div className={styles.recipeContent}>
+            {shuffledRecipes[5].slice(0, 4).map((recipe) => {
+              return <CardOtherRecipes moreRecipe={recipe} key={recipe.id} />;
+            })}
+          </div>
+        )}
       </div>
       <div className={styles.footerSection}>
         <Footer />

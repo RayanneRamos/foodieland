@@ -15,6 +15,7 @@ import { useQuery } from "@tanstack/react-query";
 import { BlogProps } from "../../types";
 import { fetchBlogPosts } from "../../services/fetch-blog-posts";
 import { formattedDate } from "../../utils/formatted-date";
+import { Loading } from "../../components/loading";
 
 export function BlogPost() {
   const { data: posts } = useQuery<BlogProps[]>({
@@ -25,12 +26,12 @@ export function BlogPost() {
   const { id } = useParams<{ id: string }>();
 
   const blogPosts = posts?.find((searchPosts) => searchPosts?.id === id);
-  const { shuffledRecipes } = useShuffleRecipes();
+  const { shuffledRecipes, isLoading: isLoadingRecipes } = useShuffleRecipes();
 
   if (!blogPosts) {
     return (
       <div>
-        <h1>Posts not found!</h1>
+        <Loading />
       </div>
     );
   }
@@ -170,11 +171,15 @@ export function BlogPost() {
           >
             Check out the delicious recipe
           </motion.strong>
-          <div className={styles.deliciousRecipe}>
-            {(shuffledRecipes[4] ?? []).slice(0, 4).map((recipe) => {
-              return <CardOtherRecipes moreRecipe={recipe} key={recipe.id} />;
-            })}
-          </div>
+          {isLoadingRecipes ? (
+            <Loading />
+          ) : (
+            <div className={styles.deliciousRecipe}>
+              {(shuffledRecipes[4] ?? []).slice(0, 4).map((recipe) => {
+                return <CardOtherRecipes moreRecipe={recipe} key={recipe.id} />;
+              })}
+            </div>
+          )}
         </div>
         <div className={styles.footer}>
           <Footer />

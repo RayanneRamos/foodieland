@@ -16,9 +16,10 @@ import { Footer } from "../../components/footer";
 import * as motion from "motion/react-client";
 import { Title } from "../../components/title";
 import { useShuffleRecipes } from "../../hooks/useShuffleRecipes";
+import { Loading } from "../../components/loading";
 
 export function AboutUs() {
-  const { shuffledRecipes } = useShuffleRecipes();
+  const { shuffledRecipes, isLoading: isLoadingRecipes } = useShuffleRecipes();
 
   return (
     <div className={styles.container}>
@@ -350,11 +351,15 @@ export function AboutUs() {
           >
             Check out the delicious recipe
           </motion.strong>
-          <div className={styles.recipeContainer}>
-            {shuffledRecipes[2].slice(0, 4).map((recipe) => {
-              return <CardOtherRecipes moreRecipe={recipe} key={recipe.id} />;
-            })}
-          </div>
+          {isLoadingRecipes ? (
+            <Loading />
+          ) : (
+            <div className={styles.recipeContainer}>
+              {shuffledRecipes[2].slice(0, 4).map((recipe) => {
+                return <CardOtherRecipes moreRecipe={recipe} key={recipe.id} />;
+              })}
+            </div>
+          )}
         </div>
         <Footer />
       </div>

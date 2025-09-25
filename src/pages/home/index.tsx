@@ -24,6 +24,7 @@ import { useShuffleRecipes } from "../../hooks/useShuffleRecipes";
 import { useQuery } from "@tanstack/react-query";
 import { fetchCategories } from "../../services/fetch-categories";
 import { CategoriesProps } from "../../types";
+import { Loading } from "../../components/loading";
 
 export function Home() {
   const navigate = useNavigate();
@@ -41,16 +42,8 @@ export function Home() {
     queryFn: fetchCategories,
   });
 
-  if (isLoadingCategories) {
-    return <p>Carregando categorias...</p>;
-  }
-
   if (isErrorCategories instanceof Error) {
     return <p>Erro: {isErrorCategories.message}</p>;
-  }
-
-  if (isLoadingRecipes) {
-    return <p>Carregando receitas...</p>;
   }
 
   if (isErrorRecipes) {
@@ -120,18 +113,24 @@ export function Home() {
               <span className={styles.buttonText}>View All Categories</span>
             </button>
           </div>
-          <div className={styles.categoriesContent}>
-            {categories?.slice(0, 6).map((category) => {
-              return (
-                <Category
-                  image={`http://localhost:3333${category.categoryImage}`}
-                  name={category.categoryName}
-                  key={category.id}
-                  onClick={() => navigate(`/categories/${category.categoryId}`)}
-                />
-              );
-            })}
-          </div>
+          {isLoadingCategories ? (
+            <Loading />
+          ) : (
+            <div className={styles.categoriesContent}>
+              {categories?.slice(0, 6).map((category) => {
+                return (
+                  <Category
+                    image={`http://localhost:3333${category.categoryImage}`}
+                    name={category.categoryName}
+                    key={category.id}
+                    onClick={() =>
+                      navigate(`/categories/${category.categoryId}`)
+                    }
+                  />
+                );
+              })}
+            </div>
+          )}
         </div>
         <div className={styles.recipesContainer}>
           <div className={styles.recipesHeader}>
@@ -154,16 +153,20 @@ export function Home() {
               minim{" "}
             </motion.span>
           </div>
-          <div className={styles.cardContent}>
-            {shuffledRecipes[0].slice(0, 8).map((recipe, index) => {
-              return (
-                <>
-                  <CardRecipes key={recipe.id} recipe={recipe} />
-                  {index === 4 && <img src={adsImage} alt="ads" />}
-                </>
-              );
-            })}
-          </div>
+          {isLoadingRecipes ? (
+            <Loading />
+          ) : (
+            <div className={styles.cardContent}>
+              {shuffledRecipes[0].slice(0, 8).map((recipe, index) => {
+                return (
+                  <>
+                    <CardRecipes key={recipe.id} recipe={recipe} />
+                    {index === 4 && <img src={adsImage} alt="ads" />}
+                  </>
+                );
+              })}
+            </div>
+          )}
         </div>
         <div className={styles.chefContainer}>
           <div className={styles.chefContent}>
@@ -267,13 +270,20 @@ export function Home() {
               minim{" "}
             </motion.span>
           </div>
-          <div className={styles.moreRecipeContent}>
-            {shuffledRecipes[1].slice(0, 8).map((moreRecipe) => {
-              return (
-                <CardOtherRecipes key={moreRecipe.id} moreRecipe={moreRecipe} />
-              );
-            })}
-          </div>
+          {isLoadingRecipes ? (
+            <Loading />
+          ) : (
+            <div className={styles.moreRecipeContent}>
+              {shuffledRecipes[1].slice(0, 8).map((moreRecipe) => {
+                return (
+                  <CardOtherRecipes
+                    key={moreRecipe.id}
+                    moreRecipe={moreRecipe}
+                  />
+                );
+              })}
+            </div>
+          )}
         </div>
         <div className={styles.newsletterContainer}>
           <Newsletter />

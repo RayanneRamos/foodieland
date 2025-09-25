@@ -22,6 +22,7 @@ import { useShuffleRecipes } from "../../hooks/useShuffleRecipes";
 import { useQuery } from "@tanstack/react-query";
 import { RecipeProps } from "../../types";
 import { fetchRecipes } from "../../services/fetch-recipes";
+import { Loading } from "../../components/loading";
 
 export function RecipeDetails() {
   const { data: recipes } = useQuery<RecipeProps[]>({
@@ -32,12 +33,12 @@ export function RecipeDetails() {
   const { id } = useParams<{ id: string }>();
 
   const recipe = recipes?.find((searchRecipe) => searchRecipe?.id === id);
-  const { shuffledRecipes } = useShuffleRecipes();
+  const { shuffledRecipes, isLoading: isLoadingRecipes } = useShuffleRecipes();
 
   if (!recipe) {
     return (
       <div>
-        <h1>Recipe not found!</h1>
+        <Loading />
       </div>
     );
   }
@@ -117,14 +118,18 @@ export function RecipeDetails() {
               >
                 Other Recipe
               </motion.h3>
-              {shuffledRecipes[6].slice(0, 3).map((othersRecipe) => {
-                return (
-                  <IngredientsCards
-                    othersRecipe={othersRecipe}
-                    key={othersRecipe.id}
-                  />
-                );
-              })}
+              {isLoadingRecipes ? (
+                <Loading />
+              ) : (
+                shuffledRecipes[6]?.slice(0, 3).map((othersRecipe) => {
+                  return (
+                    <IngredientsCards
+                      othersRecipe={othersRecipe}
+                      key={othersRecipe.id}
+                    />
+                  );
+                })
+              )}
 
               <img src={adsImage} alt="" className={styles.ads} />
             </div>
@@ -170,11 +175,15 @@ export function RecipeDetails() {
           >
             You may like these recipe too
           </motion.h3>
-          <div className={styles.likeRecipesCard}>
-            {shuffledRecipes[7].slice(0, 4).map((recipe) => {
-              return <CardOtherRecipes moreRecipe={recipe} key={recipe.id} />;
-            })}
-          </div>
+          {isLoadingRecipes ? (
+            <Loading />
+          ) : (
+            <div className={styles.likeRecipesCard}>
+              {shuffledRecipes[7]?.slice(0, 4).map((recipe) => {
+                return <CardOtherRecipes moreRecipe={recipe} key={recipe.id} />;
+              })}
+            </div>
+          )}
         </div>
         <Footer />
       </div>

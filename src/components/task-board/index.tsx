@@ -4,7 +4,7 @@ import styles from "./styles.module.scss";
 import * as motion from "motion/react-client";
 
 interface TaskBoardProps {
-  ingredient: RecipeProps;
+  ingredient?: RecipeProps;
 }
 
 export function TaskBoard({ ingredient }: TaskBoardProps) {
