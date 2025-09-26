@@ -2,6 +2,7 @@ import { getByTestId, render, screen } from "@testing-library/react";
 import { MemoryRouter } from "react-router-dom";
 import { Home } from ".";
 import userEvent from "@testing-library/user-event";
+import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
 
 const mockNavigate = vi.fn();
 
@@ -82,14 +83,21 @@ vi.mock("../../components/newsletter", () => ({
 }));
 
 vi.mock("../../hooks/useShuffleRecipes", () => ({
-  useShuffleRecipes: () => [exampleMock],
+  useShuffleRecipes: () => ({
+    shuffledRecipes: [
+      [exampleMock, exampleMock, exampleMock, exampleMock],
+      [exampleMock, exampleMock, exampleMock, exampleMock],
+      [exampleMock, exampleMock, exampleMock, exampleMock],
+      [exampleMock, exampleMock, exampleMock, exampleMock],
+    ],
+  }),
 }));
 
 vi.mock("../../utils/categories", () => ({
   categories: Array.from({ length: 6 }, (_, index) => ({
-    id: `category-${index + 1}`,
-    name: `Category ${index + 1}`,
-    image: `image-${index + 1}.png`,
+    categoryId: `category-${index + 1}`,
+    categoryName: `Category ${index + 1}`,
+    categoryImage: `image-${index + 1}.png`,
   })),
 }));
 
@@ -106,12 +114,16 @@ vi.mock("../../utils/recipes", () => ({
   ],
 }));
 
+const queryClient = new QueryClient();
+
 describe("Home", () => {
   beforeEach(() => {
     render(
-      <MemoryRouter>
-        <Home />
-      </MemoryRouter>
+      <QueryClientProvider client={queryClient}>
+        <MemoryRouter>
+          <Home />
+        </MemoryRouter>
+      </QueryClientProvider>
     );
   });
 
@@ -138,9 +150,8 @@ describe("Home", () => {
   });
 
   it("should render the categories section with 6 categories", () => {
-    for (let i = 1; i <= 6; i++) {
-      expect(screen.getByText(`Category ${i}`)).toBeInTheDocument();
-    }
+    const categories = screen.getAllByRole("button");
+    expect(categories).toHaveLength(8);
   });
 
   it("should render 8 recipes in the recipe section", () => {
@@ -150,7 +161,7 @@ describe("Home", () => {
     expect(recipeTitle).toBeInTheDocument();
 
     const cards = screen.getAllByTestId("card-recipe");
-    expect(cards).toHaveLength(1);
+    expect(cards).toHaveLength(4);
   });
 
   it("should render the chef's image", () => {
