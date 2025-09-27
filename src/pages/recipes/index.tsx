@@ -4,7 +4,6 @@ import { Divider } from "../../components/divider";
 import { Footer } from "../../components/footer";
 import { Navigation } from "../../components/navigation";
 import { Newsletter } from "../../components/newsletter";
-import { recipes } from "../../utils/recipes";
 import styles from "./styles.module.scss";
 import { Pagination } from "../../components/pagination";
 import * as motion from "motion/react-client";
@@ -31,7 +30,7 @@ export function Recipes() {
 
   const currentRecipes = recipesList?.slice(startIndex, endIndex);
 
-  const totalPages = Math.ceil(recipes.length / itemsPerPage);
+  const totalPages = Math.ceil((recipesList?.length || 0) / itemsPerPage);
 
   return (
     <div className={styles.container}>
