@@ -38,6 +38,12 @@
       height: 52px;
 
       transition: all 0.4s;
+
+      display: -webkit-box;
+      -webkit-line-clamp: 2; /* Define o limite de linhas */
+      -webkit-box-orient: vertical;
+      overflow: hidden;
+      text-overflow: ellipsis;
     }
 
     .cardTitle:hover {

@@ -26,7 +26,7 @@ export function BlogList() {
   const { shuffledRecipes, isLoading: isLoadingRecipes } = useShuffleRecipes();
   const {
     data: posts = [],
-    isLoading: isLoadingBlogPosts,
+    isLoading: isLoadingBlogPost,
     isError,
   } = useQuery<BlogProps[]>({
     queryKey: ["blog-posts"],
@@ -62,10 +62,6 @@ export function BlogList() {
 
   const totalPages = Math.ceil(currentData.length / itemsPerPage);
 
-  // useEffect(() => {
-  //   handleSearch();
-  // }, [searchTerm]);
-
   return (
     <div className={styles.container}>
       <Navigation />
@@ -99,7 +95,7 @@ export function BlogList() {
               value={searchTerm}
             />
             <button
-              type="submit"
+              type="button"
               className={styles.button}
               onClick={handleSearch}
             >
@@ -110,7 +106,7 @@ export function BlogList() {
       </div>
       <div className={styles.main}>
         <div className={styles.posts}>
-          {isLoadingBlogPosts ? (
+          {isLoadingBlogPost ? (
             <Loading />
           ) : (
             currentPosts.map((blog) =>
