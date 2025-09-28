@@ -11,6 +11,10 @@ import { fetchCategories } from "../../services/fetch-categories";
 import { CategoriesProps, RecipeProps } from "../../types";
 import { fetchRecipes } from "../../services/fetch-recipes";
 import { Loading } from "../../components/loading";
+import { useState } from "react";
+import { Pagination } from "../../components/pagination";
+
+const itemsPerPage = 12;
 
 export function CategoriesRecipes() {
   const { data: categories } = useQuery<CategoriesProps[]>({
@@ -32,6 +36,12 @@ export function CategoriesRecipes() {
     (recipe) => recipe.categoryId === categoryId
   );
 
+  const [currentPage, setCurrentPage] = useState(1);
+  const startIndex = (currentPage - 1) * itemsPerPage;
+  const endIndex = startIndex + itemsPerPage;
+  const currentRecipes = filteredRecipes?.slice(startIndex, endIndex);
+  const totalPages = Math.ceil((filteredRecipes?.length || 0) / itemsPerPage);
+
   return (
     <div className={styles.container}>
       <Navigation />
@@ -48,11 +58,22 @@ export function CategoriesRecipes() {
         {isLoadingRecipes ? (
           <Loading />
         ) : (
-          <div className={styles.recipesContainer}>
-            {filteredRecipes?.map((recipe) => {
-              return <CardOtherRecipes moreRecipe={recipe} key={recipe.id} />;
-            })}
-          </div>
+          <>
+            <div className={styles.recipesContainer}>
+              {currentRecipes?.map((recipe) => {
+                return <CardOtherRecipes moreRecipe={recipe} key={recipe.id} />;
+              })}
+            </div>
+            {totalPages > 1 && (
+              <div className={styles.pagination}>
+                <Pagination
+                  currentPage={currentPage}
+                  totalPages={totalPages}
+                  onPageChange={setCurrentPage}
+                />
+              </div>
+            )}
+          </>
         )}
         <div className={styles.newsletterSection}>
           <Newsletter />
